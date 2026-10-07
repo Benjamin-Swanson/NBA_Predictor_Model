@@ -1,0 +1,7 @@
+lightgbm==4.7.0
+matplotlib==3.11.2
+nba_api==1.11.4
+pandas==3.0.6
+pyarrow==25.0.1
+pytest==9.1.1
+scikit-learn==1.9.1
