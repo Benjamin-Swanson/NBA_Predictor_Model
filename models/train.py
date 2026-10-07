@@ -155,7 +155,9 @@ def main():
 
     # ponytail: saved models are fit on train only; refit on all seasons before live use (step 8).
     joblib.dump({"name": best, "cols": cols, "model": m, "points": pts, "points_cols": POINTS,
-                 "margin_sigma": margin_sigma, "rho": rho}, HERE / "model.joblib")
+                 "margin_sigma": margin_sigma, "rho": rho, "groups": GROUPS,
+                 "results": res, "importance": imp, "train_seasons": (int(tr["SEASON"].min()), int(tr["SEASON"].max()))},
+                HERE / "model.joblib")
     print(f"\nsaved {HERE / 'model.joblib'} and calibration.png")
 
 

@@ -65,3 +65,10 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 - `simulate(mu_home, sigma_home, mu_away, sigma_away, n, rho)`: joint Normal draws; returns win prob, margin/total/score percentiles.
 - rho = correlation of home/away points-model residuals on val (0.277), saved in model.joblib. sigma is constant per side (≈11.6/11.4); ponytail: per-matchup sigma if residuals prove heteroscedastic.
 - Test check (`python simulate.py`): log loss 0.5912 = logistic model; 90% margin band covers 89.5%, total band 89.6%. Independent draws: margin band 93.6% (too wide), total 84.5% (too narrow), log loss 0.5962.
+
+## App (step 7)
+- `python -m pipeline.team_state` → `data/team_state.json` (committed: the app needs it). Elo (carried into new season), last-10 team stats, current rosters (CommonTeamRoster, cached per day) with player value / minutes / glue.
+- `predict.py`: `predict_matchup(state, art, home, away, out_home, out_away, rest_home, rest_away, neutral)` builds training-identical features, reuse it for daily predictions (step 8).
+- Headline win prob = simulation (points model), so prob, score and margin agree. Logistic gives the "why" breakdown. The two differ by 2.6 pts median on test games.
+- `streamlit run app.py`: tabs Try a matchup / Power ratings / Track record / How it works. Never calls nba_api.
+- Known limit: team ratings are last season's until 2026-27 games are ingested (step 8).

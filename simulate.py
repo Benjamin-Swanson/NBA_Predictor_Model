@@ -11,14 +11,14 @@ import numpy as np
 PCTS = (5, 25, 50, 75, 95)
 
 
-def simulate(mu_home, sigma_home, mu_away, sigma_away, n=10_000, rho=0.0, seed=None) -> dict:
+def simulate(mu_home, sigma_home, mu_away, sigma_away, n=10_000, rho=0.0, seed=None, keep_draws=False) -> dict:
     rng = np.random.default_rng(seed)
     z1, z2 = rng.standard_normal((2, n))
     home = mu_home + sigma_home * z1
     away = mu_away + sigma_away * (rho * z1 + np.sqrt(1 - rho**2) * z2)
     margin, total = home - away, home + away
     pct = lambda x: dict(zip(PCTS, np.percentile(x, PCTS).round(1).tolist()))  # noqa: E731
-    return {
+    out = {
         "home_win_prob": float((margin > 0).mean()),  # continuous draws: ties have probability 0
         "margin_mean": float(margin.mean()),
         "margin_pct": pct(margin),
@@ -27,6 +27,9 @@ def simulate(mu_home, sigma_home, mu_away, sigma_away, n=10_000, rho=0.0, seed=N
         "home_pts_pct": pct(home),
         "away_pts_pct": pct(away),
     }
+    if keep_draws:
+        out["margin_draws"] = margin
+    return out
 
 
 if __name__ == "__main__":

@@ -80,7 +80,7 @@ def add_elo(tg: pd.DataFrame) -> pd.DataFrame:
     """Pre-game Elo per team-game (FiveThirtyEight style, margin-of-victory multiplier)."""
     elo: dict[int, float] = {}
     last_season: dict[int, int] = {}
-    pre = {}
+    pre, post = {}, {}
     games = tg[tg["IS_HOME"].eq(1) | (tg["NEUTRAL"].eq(1) & (tg["TEAM_ID"] < tg["OPP_TEAM_ID"]))]
     for g in games.sort_values(["GAME_DATE", "GAME_ID"]).itertuples():
         a, b = g.TEAM_ID, g.OPP_TEAM_ID
@@ -97,7 +97,9 @@ def add_elo(tg: pd.DataFrame) -> pd.DataFrame:
         mult = (abs(g.MARGIN) + 3) ** 0.8 / (7.5 + 0.006 * winner_diff)
         delta = ELO_K * mult * (won - p_a)
         elo[a], elo[b] = ea + delta, eb - delta
+        post[(g.GAME_ID, a)], post[(g.GAME_ID, b)] = elo[a], elo[b]
     tg["ELO"] = [pre[(gid, t)] for gid, t in zip(tg["GAME_ID"], tg["TEAM_ID"])]
+    tg["ELO_POST"] = [post[(gid, t)] for gid, t in zip(tg["GAME_ID"], tg["TEAM_ID"])]
     return tg
 
 

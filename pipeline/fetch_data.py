@@ -7,7 +7,8 @@ from pathlib import Path
 
 import pandas as pd
 import requests
-from nba_api.stats.endpoints import leaguegamelog, leaguehustlestatsplayer
+from nba_api.stats.endpoints import commonteamroster, leaguegamelog, leaguehustlestatsplayer
+from nba_api.stats.static import teams
 
 RAW = Path(__file__).resolve().parent.parent / "data" / "raw"
 SEASONS = [f"{y}-{str(y + 1)[-2:]}" for y in range(2015, 2026)]  # 2015-16 .. 2025-26
@@ -74,6 +75,21 @@ def snapshot_dates(season: str) -> list[pd.Timestamp]:
 def all_hustle_snapshots() -> pd.DataFrame:
     return pd.concat([hustle_snapshot(s, d).assign(SEASON_STR=s, DATE_TO=d)
                       for s in HUSTLE_SEASONS for d in snapshot_dates(s)], ignore_index=True)
+
+
+def current_rosters(sleep: float = 1.0) -> pd.DataFrame:
+    """Today's rosters for all 30 teams (30 calls), cached per day."""
+    path = RAW / f"rosters_{pd.Timestamp.today():%Y-%m-%d}.parquet"
+    if path.exists():
+        return pd.read_parquet(path)
+    out = []
+    for t in teams.get_teams():
+        out.append(commonteamroster.CommonTeamRoster(team_id=t["id"], season=CURRENT_SEASON, timeout=60)
+                   .get_data_frames()[0].assign(TEAM_ABBREVIATION=t["abbreviation"], TEAM_NAME=t["full_name"]))
+        time.sleep(sleep)
+    df = pd.concat(out, ignore_index=True)
+    df.to_parquet(path, index=False)
+    return df
 
 
 def validate(df: pd.DataFrame) -> None:
