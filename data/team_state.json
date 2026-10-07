@@ -29,7 +29,8 @@
      "value": 18.965,
      "mpg_recent": 35.2,
      "glue": 0.327,
-     "mpg_season": 33.372
+     "mpg_season": 33.372,
+     "counts_if_out": true
     },
     {
      "id": 1630552,
@@ -38,7 +39,8 @@
      "value": 17.055,
      "mpg_recent": 34.6,
      "glue": -0.169,
-     "mpg_season": 35.167
+     "mpg_season": 35.167,
+     "counts_if_out": true
     },
     {
      "id": 1630700,
@@ -47,7 +49,8 @@
      "value": 15.96,
      "mpg_recent": 33.0,
      "glue": 1.075,
-     "mpg_season": 33.158
+     "mpg_season": 33.158,
+     "counts_if_out": true
     },
     {
      "id": 203468,
@@ -56,7 +59,8 @@
      "value": 14.065,
      "mpg_recent": 30.1,
      "glue": -0.089,
-     "mpg_season": 29.76
+     "mpg_season": 29.76,
+     "counts_if_out": true
     },
     {
      "id": 1630168,
@@ -65,7 +69,8 @@
      "value": 12.095,
      "mpg_recent": 29.9,
      "glue": 0.513,
-     "mpg_season": 31.041
+     "mpg_season": 31.041,
+     "counts_if_out": true
     },
     {
      "id": 1629111,
@@ -74,7 +79,8 @@
      "value": 6.925,
      "mpg_recent": 19.7,
      "glue": 0.087,
-     "mpg_season": 22.147
+     "mpg_season": 22.147,
+     "counts_if_out": true
     },
     {
      "id": 1630557,
@@ -83,7 +89,8 @@
      "value": 6.285,
      "mpg_recent": 14.7,
      "glue": -0.572,
-     "mpg_season": 19.055
+     "mpg_season": 19.055,
+     "counts_if_out": true
     },
     {
      "id": 1630592,
@@ -92,7 +99,8 @@
      "value": 5.11,
      "mpg_recent": 23.9,
      "glue": -0.352,
-     "mpg_season": 17.25
+     "mpg_season": 17.25,
+     "counts_if_out": true
     },
     {
      "id": 1629652,
@@ -101,7 +109,8 @@
      "value": 4.97,
      "mpg_recent": 21.4,
      "glue": -0.385,
-     "mpg_season": 26.797
+     "mpg_season": 26.797,
+     "counts_if_out": true
     },
     {
      "id": 1630598,
@@ -110,7 +119,8 @@
      "value": 4.785,
      "mpg_recent": 15.7,
      "glue": -0.087,
-     "mpg_season": 22.226
+     "mpg_season": 22.226,
+     "counts_if_out": true
     },
     {
      "id": 1631243,
@@ -119,7 +129,8 @@
      "value": 4.31,
      "mpg_recent": 14.1,
      "glue": 0.661,
-     "mpg_season": 15.263
+     "mpg_season": 15.263,
+     "counts_if_out": true
     },
     {
      "id": 1642933,
@@ -128,7 +139,8 @@
      "value": 4.275,
      "mpg_recent": 18.5,
      "glue": 0.0,
-     "mpg_season": 18.5
+     "mpg_season": 18.5,
+     "counts_if_out": true
     },
     {
      "id": 1642854,
@@ -137,7 +149,8 @@
      "value": 3.84,
      "mpg_recent": 12.9,
      "glue": -0.102,
-     "mpg_season": 12.605
+     "mpg_season": 12.605,
+     "counts_if_out": true
     },
     {
      "id": 1642484,
@@ -146,7 +159,8 @@
      "value": 3.14,
      "mpg_recent": 6.5,
      "glue": 0.785,
-     "mpg_season": 14.692
+     "mpg_season": 14.692,
+     "counts_if_out": true
     },
     {
      "id": 1627827,
@@ -155,7 +169,8 @@
      "value": 2.79,
      "mpg_recent": 16.1,
      "glue": -0.333,
-     "mpg_season": 16.778
+     "mpg_season": 16.778,
+     "counts_if_out": true
     },
     {
      "id": 1642937,
@@ -164,7 +179,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643723,
@@ -173,7 +189,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643724,
@@ -182,7 +199,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643412,
@@ -191,7 +209,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643539,
@@ -200,7 +219,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643544,
@@ -209,7 +229,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -240,7 +261,8 @@
      "value": 14.67,
      "mpg_recent": 31.6,
      "glue": -0.192,
-     "mpg_season": 32.481
+     "mpg_season": 32.481,
+     "counts_if_out": true
     },
     {
      "id": 203944,
@@ -249,7 +271,8 @@
      "value": 13.035,
      "mpg_recent": 32.9,
      "glue": -0.056,
-     "mpg_season": 33.038
+     "mpg_season": 33.038,
+     "counts_if_out": true
     },
     {
      "id": 1630549,
@@ -258,7 +281,8 @@
      "value": 10.575,
      "mpg_recent": 19.6,
      "glue": 1.189,
-     "mpg_season": 18.71
+     "mpg_season": 18.71,
+     "counts_if_out": true
     },
     {
      "id": 1631165,
@@ -267,7 +291,8 @@
      "value": 8.035,
      "mpg_recent": 25.6,
      "glue": 0.284,
-     "mpg_season": 20.886
+     "mpg_season": 20.886,
+     "counts_if_out": true
     },
     {
      "id": 1643052,
@@ -276,7 +301,8 @@
      "value": 7.871,
      "mpg_recent": 19.8,
      "glue": 0.427,
-     "mpg_season": 20.471
+     "mpg_season": 20.471,
+     "counts_if_out": true
     },
     {
      "id": 1641730,
@@ -285,7 +311,8 @@
      "value": 7.835,
      "mpg_recent": 20.1,
      "glue": -0.181,
-     "mpg_season": 26.97
+     "mpg_season": 26.97,
+     "counts_if_out": true
     },
     {
      "id": 1642874,
@@ -294,7 +321,8 @@
      "value": 7.685,
      "mpg_recent": 22.6,
      "glue": -0.222,
-     "mpg_season": 21.291
+     "mpg_season": 21.291,
+     "counts_if_out": true
     },
     {
      "id": 1642856,
@@ -303,7 +331,8 @@
      "value": 7.5,
      "mpg_recent": 27.4,
      "glue": -0.071,
-     "mpg_season": 25.154
+     "mpg_season": 25.154,
+     "counts_if_out": true
     },
     {
      "id": 1631169,
@@ -312,7 +341,8 @@
      "value": 6.865,
      "mpg_recent": 23.3,
      "glue": 0.461,
-     "mpg_season": 17.02
+     "mpg_season": 17.02,
+     "counts_if_out": true
     },
     {
      "id": 1642879,
@@ -321,7 +351,8 @@
      "value": 6.8,
      "mpg_recent": 27.3,
      "glue": -0.042,
-     "mpg_season": 21.69
+     "mpg_season": 21.69,
+     "counts_if_out": true
     },
     {
      "id": 1642849,
@@ -330,7 +361,8 @@
      "value": 5.665,
      "mpg_recent": 22.7,
      "glue": -0.27,
-     "mpg_season": 22.455
+     "mpg_season": 22.455,
+     "counts_if_out": true
     },
     {
      "id": 1629611,
@@ -339,7 +371,8 @@
      "value": 4.91,
      "mpg_recent": 22.5,
      "glue": -0.319,
-     "mpg_season": 24.27
+     "mpg_season": 24.27,
+     "counts_if_out": true
     },
     {
      "id": 1642962,
@@ -348,7 +381,8 @@
      "value": 4.325,
      "mpg_recent": 28.3,
      "glue": -0.663,
-     "mpg_season": 21.717
+     "mpg_season": 21.717,
+     "counts_if_out": true
     },
     {
      "id": 1641761,
@@ -357,7 +391,8 @@
      "value": 3.825,
      "mpg_recent": 8.75,
      "glue": 0.0,
-     "mpg_season": 8.75
+     "mpg_season": 8.75,
+     "counts_if_out": true
     },
     {
      "id": 1629021,
@@ -366,7 +401,8 @@
      "value": 3.12,
      "mpg_recent": 9.1,
      "glue": 0.629,
-     "mpg_season": 12.086
+     "mpg_season": 12.086,
+     "counts_if_out": true
     },
     {
      "id": 1643414,
@@ -375,7 +411,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643538,
@@ -384,7 +421,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643750,
@@ -393,7 +431,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643548,
@@ -402,7 +441,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643120,
@@ -411,7 +451,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -442,7 +483,8 @@
      "value": 17.075,
      "mpg_recent": 34.6,
      "glue": -0.421,
-     "mpg_season": 32.625
+     "mpg_season": 32.625,
+     "counts_if_out": true
     },
     {
      "id": 202331,
@@ -451,7 +493,8 @@
      "value": 15.005,
      "mpg_recent": 30.9,
      "glue": 0.544,
-     "mpg_season": 30.676
+     "mpg_season": 30.676,
+     "counts_if_out": true
     },
     {
      "id": 1629674,
@@ -460,7 +503,8 @@
      "value": 13.26,
      "mpg_recent": 27.2,
      "glue": 0.84,
-     "mpg_season": 25.342
+     "mpg_season": 25.342,
+     "counts_if_out": true
     },
     {
      "id": 1630202,
@@ -469,7 +513,8 @@
      "value": 13.03,
      "mpg_recent": 31.4,
      "glue": -0.533,
-     "mpg_season": 32.434
+     "mpg_season": 32.434,
+     "counts_if_out": true
     },
     {
      "id": 1628401,
@@ -478,7 +523,8 @@
      "value": 12.155,
      "mpg_recent": 33.0,
      "glue": 0.348,
-     "mpg_season": 34.091
+     "mpg_season": 34.091,
+     "counts_if_out": true
     },
     {
      "id": 1629011,
@@ -487,7 +533,8 @@
      "value": 9.99,
      "mpg_recent": 20.3,
      "glue": 1.236,
-     "mpg_season": 19.583
+     "mpg_season": 19.583,
+     "counts_if_out": true
     },
     {
      "id": 1642269,
@@ -496,7 +543,8 @@
      "value": 9.595,
      "mpg_recent": 28.7,
      "glue": 0.178,
-     "mpg_season": 19.514
+     "mpg_season": 19.514,
+     "counts_if_out": true
     },
     {
      "id": 1630568,
@@ -505,7 +553,8 @@
      "value": 8.34,
      "mpg_recent": 19.3,
      "glue": 1.036,
-     "mpg_season": 16.412
+     "mpg_season": 16.412,
+     "counts_if_out": true
     },
     {
      "id": 1631248,
@@ -514,7 +563,8 @@
      "value": 7.82,
      "mpg_recent": 24.3,
      "glue": -0.285,
-     "mpg_season": 19.162
+     "mpg_season": 19.162,
+     "counts_if_out": true
     },
     {
      "id": 1630573,
@@ -523,7 +573,8 @@
      "value": 7.01,
      "mpg_recent": 27.0,
      "glue": -0.256,
-     "mpg_season": 25.026
+     "mpg_season": 25.026,
+     "counts_if_out": true
     },
     {
      "id": 1643060,
@@ -532,7 +583,8 @@
      "value": 6.1,
      "mpg_recent": 25.0,
      "glue": 0.0,
-     "mpg_season": 25.0
+     "mpg_season": 25.0,
+     "counts_if_out": true
     },
     {
      "id": 1641775,
@@ -541,7 +593,8 @@
      "value": 4.165,
      "mpg_recent": 21.2,
      "glue": -0.203,
-     "mpg_season": 18.431
+     "mpg_season": 18.431,
+     "counts_if_out": true
     },
     {
      "id": 1631199,
@@ -550,7 +603,8 @@
      "value": 3.855,
      "mpg_recent": 9.2,
      "glue": -0.677,
-     "mpg_season": 14.35
+     "mpg_season": 14.35,
+     "counts_if_out": true
     },
     {
      "id": 201144,
@@ -559,7 +613,8 @@
      "value": 3.79,
      "mpg_recent": 17.9,
      "glue": -0.318,
-     "mpg_season": 18.404
+     "mpg_season": 18.404,
+     "counts_if_out": true
     },
     {
      "id": 1642864,
@@ -568,7 +623,8 @@
      "value": 3.59,
      "mpg_recent": 10.3,
      "glue": 0.003,
-     "mpg_season": 15.522
+     "mpg_season": 15.522,
+     "counts_if_out": true
     },
     {
      "id": 1642873,
@@ -577,7 +633,8 @@
      "value": 1.455,
      "mpg_recent": 4.2,
      "glue": 0.0,
-     "mpg_season": 9.571
+     "mpg_season": 9.571,
+     "counts_if_out": true
     },
     {
      "id": 1642870,
@@ -586,7 +643,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643620,
@@ -595,7 +653,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643416,
@@ -604,7 +663,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1641759,
@@ -613,7 +673,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642440,
@@ -622,7 +683,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -653,7 +715,8 @@
      "value": 13.66,
      "mpg_recent": 31.5,
      "glue": -0.156,
-     "mpg_season": 30.277
+     "mpg_season": 30.277,
+     "counts_if_out": true
     },
     {
      "id": 1642851,
@@ -662,7 +725,8 @@
      "value": 12.01,
      "mpg_recent": 31.9,
      "glue": -0.032,
-     "mpg_season": 31.494
+     "mpg_season": 31.494,
+     "counts_if_out": true
     },
     {
      "id": 1628960,
@@ -671,7 +735,8 @@
      "value": 11.675,
      "mpg_recent": 23.3,
      "glue": -0.191,
-     "mpg_season": 29.449
+     "mpg_season": 29.449,
+     "counts_if_out": true
     },
     {
      "id": 1629632,
@@ -680,7 +745,8 @@
      "value": 10.715,
      "mpg_recent": 18.7,
      "glue": -0.45,
-     "mpg_season": 25.104
+     "mpg_season": 25.104,
+     "counts_if_out": true
     },
     {
      "id": 1631217,
@@ -689,7 +755,8 @@
      "value": 9.375,
      "mpg_recent": 26.4,
      "glue": 0.935,
-     "mpg_season": 26.014
+     "mpg_season": 26.014,
+     "counts_if_out": true
     },
     {
      "id": 1626220,
@@ -698,7 +765,8 @@
      "value": 8.11,
      "mpg_recent": 23.5,
      "glue": -0.575,
-     "mpg_season": 28.372
+     "mpg_season": 28.372,
+     "counts_if_out": true
     },
     {
      "id": 1641750,
@@ -707,7 +775,8 @@
      "value": 7.69,
      "mpg_recent": 19.0,
      "glue": 0.465,
-     "mpg_season": 21.435
+     "mpg_season": 21.435,
+     "counts_if_out": true
     },
     {
      "id": 1629675,
@@ -716,7 +785,8 @@
      "value": 7.52,
      "mpg_recent": 25.7,
      "glue": 0.09,
-     "mpg_season": 26.342
+     "mpg_season": 26.342,
+     "counts_if_out": true
     },
     {
      "id": 203471,
@@ -725,7 +795,8 @@
      "value": 6.485,
      "mpg_recent": 20.4,
      "glue": -0.468,
-     "mpg_season": 24.382
+     "mpg_season": 24.382,
+     "counts_if_out": true
     },
     {
      "id": 1629684,
@@ -734,7 +805,8 @@
      "value": 6.355,
      "mpg_recent": 20.5,
      "glue": 0.429,
-     "mpg_season": 19.75
+     "mpg_season": 19.75,
+     "counts_if_out": true
     },
     {
      "id": 1642883,
@@ -743,7 +815,8 @@
      "value": 4.695,
      "mpg_recent": 18.9,
      "glue": -0.553,
-     "mpg_season": 22.476
+     "mpg_season": 22.476,
+     "counts_if_out": true
     },
     {
      "id": 1642275,
@@ -752,7 +825,8 @@
      "value": 4.51,
      "mpg_recent": 14.0,
      "glue": -0.316,
-     "mpg_season": 17.121
+     "mpg_season": 17.121,
+     "counts_if_out": true
     },
     {
      "id": 1641790,
@@ -761,7 +835,8 @@
      "value": 4.425,
      "mpg_recent": 16.3,
      "glue": 0.423,
-     "mpg_season": 12.529
+     "mpg_season": 12.529,
+     "counts_if_out": true
     },
     {
      "id": 1642862,
@@ -770,7 +845,8 @@
      "value": 3.62,
      "mpg_recent": 9.4,
      "glue": -0.288,
-     "mpg_season": 13.125
+     "mpg_season": 13.125,
+     "counts_if_out": true
     },
     {
      "id": 1626192,
@@ -779,7 +855,8 @@
      "value": 1.835,
      "mpg_recent": 4.9,
      "glue": -0.468,
-     "mpg_season": 9.172
+     "mpg_season": 9.172,
+     "counts_if_out": true
     },
     {
      "id": 1641935,
@@ -788,7 +865,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642369,
@@ -797,7 +875,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643573,
@@ -806,7 +885,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643769,
@@ -815,7 +895,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643515,
@@ -824,7 +905,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643419,
@@ -833,7 +915,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -864,7 +947,8 @@
      "value": 16.145,
      "mpg_recent": 26.5,
      "glue": -0.245,
-     "mpg_season": 26.954
+     "mpg_season": 26.954,
+     "counts_if_out": true
     },
     {
      "id": 1630581,
@@ -873,7 +957,8 @@
      "value": 14.52,
      "mpg_recent": 33.6,
      "glue": -0.13,
-     "mpg_season": 32.056
+     "mpg_season": 32.056,
+     "counts_if_out": true
     },
     {
      "id": 1641824,
@@ -882,7 +967,8 @@
      "value": 14.055,
      "mpg_recent": 30.9,
      "glue": -0.311,
-     "mpg_season": 29.195
+     "mpg_season": 29.195,
+     "counts_if_out": true
     },
     {
      "id": 1626181,
@@ -891,7 +977,8 @@
      "value": 11.505,
      "mpg_recent": 25.8,
      "glue": -0.242,
-     "mpg_season": 29.947
+     "mpg_season": 29.947,
+     "counts_if_out": true
     },
     {
      "id": 1631159,
@@ -900,7 +987,8 @@
      "value": 11.3,
      "mpg_recent": 28.8,
      "glue": -0.012,
-     "mpg_season": 18.757
+     "mpg_season": 18.757,
+     "counts_if_out": true
     },
     {
      "id": 1630188,
@@ -909,7 +997,8 @@
      "value": 10.185,
      "mpg_recent": 22.7,
      "glue": 0.403,
-     "mpg_season": 20.66
+     "mpg_season": 20.66,
+     "counts_if_out": true
     },
     {
      "id": 1629651,
@@ -918,7 +1007,8 @@
      "value": 9.77,
      "mpg_recent": 22.1,
      "glue": 0.012,
-     "mpg_season": 27.826
+     "mpg_season": 27.826,
+     "counts_if_out": true
     },
     {
      "id": 1631115,
@@ -927,7 +1017,8 @@
      "value": 7.965,
      "mpg_recent": 16.8,
      "glue": 0.556,
-     "mpg_season": 6.25
+     "mpg_season": 6.25,
+     "counts_if_out": true
     },
     {
      "id": 1630171,
@@ -936,7 +1027,8 @@
      "value": 7.915,
      "mpg_recent": 27.3,
      "glue": -0.34,
-     "mpg_season": 26.905
+     "mpg_season": 26.905,
+     "counts_if_out": true
     },
     {
      "id": 1628380,
@@ -945,7 +1037,8 @@
      "value": 7.635,
      "mpg_recent": 18.4,
      "glue": 0.655,
-     "mpg_season": 18.4
+     "mpg_season": 18.4,
+     "counts_if_out": true
     },
     {
      "id": 1627741,
@@ -954,7 +1047,8 @@
      "value": 6.055,
      "mpg_recent": 11.3,
      "glue": -0.079,
-     "mpg_season": 17.152
+     "mpg_season": 17.152,
+     "counts_if_out": true
     },
     {
      "id": 1630527,
@@ -963,7 +1057,8 @@
      "value": 6.025,
      "mpg_recent": 18.6,
      "glue": -0.209,
-     "mpg_season": 24.146
+     "mpg_season": 24.146,
+     "counts_if_out": true
     },
     {
      "id": 1630172,
@@ -972,7 +1067,8 @@
      "value": 4.8,
      "mpg_recent": 25.4,
      "glue": -0.415,
-     "mpg_season": 20.986
+     "mpg_season": 20.986,
+     "counts_if_out": true
     },
     {
      "id": 1641722,
@@ -981,7 +1077,8 @@
      "value": 4.33,
      "mpg_recent": 17.7,
      "glue": -0.699,
-     "mpg_season": 16.15
+     "mpg_season": 16.15,
+     "counts_if_out": true
     },
     {
      "id": 1641809,
@@ -990,7 +1087,8 @@
      "value": 0.835,
      "mpg_recent": 9.4,
      "glue": 0.054,
-     "mpg_season": 10.667
+     "mpg_season": 10.667,
+     "counts_if_out": true
     },
     {
      "id": 1641779,
@@ -999,7 +1097,8 @@
      "value": 0.213,
      "mpg_recent": 3.875,
      "glue": -0.425,
-     "mpg_season": 3.5
+     "mpg_season": 3.5,
+     "counts_if_out": true
     },
     {
      "id": 1642855,
@@ -1008,7 +1107,8 @@
      "value": -0.75,
      "mpg_recent": 3.0,
      "glue": 0.0,
-     "mpg_season": 4.0
+     "mpg_season": 4.0,
+     "counts_if_out": true
     },
     {
      "id": 1643591,
@@ -1017,7 +1117,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643637,
@@ -1026,7 +1127,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643517,
@@ -1035,7 +1137,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643410,
@@ -1044,7 +1147,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -1075,7 +1179,8 @@
      "value": 19.28,
      "mpg_recent": 33.4,
      "glue": 0.139,
-     "mpg_season": 33.457
+     "mpg_season": 33.457,
+     "counts_if_out": true
     },
     {
      "id": 1628386,
@@ -1084,7 +1189,8 @@
      "value": 19.08,
      "mpg_recent": 26.0,
      "glue": 0.942,
-     "mpg_season": 27.125
+     "mpg_season": 27.125,
+     "counts_if_out": true
     },
     {
      "id": 1630596,
@@ -1093,7 +1199,8 @@
      "value": 17.92,
      "mpg_recent": 29.1,
      "glue": 0.532,
-     "mpg_season": 31.908
+     "mpg_season": 31.908,
+     "counts_if_out": true
     },
     {
      "id": 201935,
@@ -1102,7 +1209,8 @@
      "value": 17.245,
      "mpg_recent": 34.3,
      "glue": -0.418,
-     "mpg_season": 34.829
+     "mpg_season": 34.829,
+     "counts_if_out": true
     },
     {
      "id": 1631212,
@@ -1111,7 +1219,8 @@
      "value": 13.385,
      "mpg_recent": 27.2,
      "glue": -0.082,
-     "mpg_season": 29.593
+     "mpg_season": 29.593,
+     "counts_if_out": true
     },
     {
      "id": 1642955,
@@ -1120,7 +1229,8 @@
      "value": 10.9,
      "mpg_recent": 22.0,
      "glue": 0.0,
-     "mpg_season": 22.333
+     "mpg_season": 22.333,
+     "counts_if_out": true
     },
     {
      "id": 1630241,
@@ -1129,7 +1239,8 @@
      "value": 8.73,
      "mpg_recent": 29.1,
      "glue": -0.245,
-     "mpg_season": 26.481
+     "mpg_season": 26.481,
+     "counts_if_out": true
     },
     {
      "id": 1642281,
@@ -1138,7 +1249,8 @@
      "value": 7.85,
      "mpg_recent": 23.0,
      "glue": -0.298,
-     "mpg_season": 26.939
+     "mpg_season": 26.939,
+     "counts_if_out": true
     },
     {
      "id": 1628418,
@@ -1147,7 +1259,8 @@
      "value": 6.75,
      "mpg_recent": 16.7,
      "glue": 0.194,
-     "mpg_season": 12.649
+     "mpg_season": 12.649,
+     "counts_if_out": true
     },
     {
      "id": 1641854,
@@ -1156,7 +1269,8 @@
      "value": 5.5,
      "mpg_recent": 18.1,
      "glue": 0.111,
-     "mpg_season": 18.403
+     "mpg_season": 18.403,
+     "counts_if_out": true
     },
     {
      "id": 1642878,
@@ -1165,7 +1279,8 @@
      "value": 4.84,
      "mpg_recent": 13.2,
      "glue": 0.006,
-     "mpg_season": 12.268
+     "mpg_season": 12.268,
+     "counts_if_out": true
     },
     {
      "id": 1626209,
@@ -1174,7 +1289,8 @@
      "value": 4.3,
      "mpg_recent": 17.0,
      "glue": -0.338,
-     "mpg_season": 17.02
+     "mpg_season": 17.02,
+     "counts_if_out": true
     },
     {
      "id": 1642400,
@@ -1183,7 +1299,8 @@
      "value": 3.878,
      "mpg_recent": 9.556,
      "glue": -0.011,
-     "mpg_season": 11.0
+     "mpg_season": 11.0,
+     "counts_if_out": true
     },
     {
      "id": 1641772,
@@ -1192,7 +1309,8 @@
      "value": 3.17,
      "mpg_recent": 15.5,
      "glue": 0.101,
-     "mpg_season": 16.5
+     "mpg_season": 16.5,
+     "counts_if_out": true
     },
     {
      "id": 1642434,
@@ -1201,7 +1319,8 @@
      "value": 2.82,
      "mpg_recent": 6.6,
      "glue": -1.068,
-     "mpg_season": 7.125
+     "mpg_season": 7.125,
+     "counts_if_out": true
     },
     {
      "id": 1642938,
@@ -1210,7 +1329,8 @@
      "value": 2.48,
      "mpg_recent": 8.7,
      "glue": 0.196,
-     "mpg_season": 10.0
+     "mpg_season": 10.0,
+     "counts_if_out": true
     },
     {
      "id": 1643113,
@@ -1219,7 +1339,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643772,
@@ -1228,7 +1349,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643509,
@@ -1237,7 +1359,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1631215,
@@ -1246,7 +1369,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643640,
@@ -1255,7 +1379,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -1286,7 +1411,8 @@
      "value": 18.945,
      "mpg_recent": 36.0,
      "glue": -0.012,
-     "mpg_season": 36.08
+     "mpg_season": 36.08,
+     "counts_if_out": true
     },
     {
      "id": 1642843,
@@ -1295,7 +1421,8 @@
      "value": 17.725,
      "mpg_recent": 31.8,
      "glue": -0.021,
-     "mpg_season": 33.486
+     "mpg_season": 33.486,
+     "counts_if_out": true
     },
     {
      "id": 1630583,
@@ -1304,7 +1431,8 @@
      "value": 13.0,
      "mpg_recent": 27.5,
      "glue": -0.3,
-     "mpg_season": 27.86
+     "mpg_season": 27.86,
+     "counts_if_out": true
     },
     {
      "id": 1629655,
@@ -1313,7 +1441,8 @@
      "value": 11.825,
      "mpg_recent": 22.9,
      "glue": 1.013,
-     "mpg_season": 21.727
+     "mpg_season": 21.727,
+     "counts_if_out": true
     },
     {
      "id": 1630230,
@@ -1322,7 +1451,8 @@
      "value": 11.55,
      "mpg_recent": 30.4,
      "glue": -0.368,
-     "mpg_season": 29.514
+     "mpg_season": 29.514,
+     "counts_if_out": true
     },
     {
      "id": 1629023,
@@ -1331,7 +1461,8 @@
      "value": 11.38,
      "mpg_recent": 31.4,
      "glue": -0.28,
-     "mpg_season": 31.0
+     "mpg_season": 31.0,
+     "counts_if_out": true
     },
     {
      "id": 1641726,
@@ -1340,7 +1471,8 @@
      "value": 8.435,
      "mpg_recent": 16.3,
      "glue": 1.039,
-     "mpg_season": 16.429
+     "mpg_season": 16.429,
+     "counts_if_out": true
     },
     {
      "id": 1642258,
@@ -1349,7 +1481,8 @@
      "value": 7.2,
      "mpg_recent": 16.0,
      "glue": -0.33,
-     "mpg_season": 22.433
+     "mpg_season": 22.433,
+     "counts_if_out": true
     },
     {
      "id": 1630619,
@@ -1358,7 +1491,8 @@
      "value": 7.175,
      "mpg_recent": 19.8,
      "glue": 1.044,
-     "mpg_season": 14.297
+     "mpg_season": 14.297,
+     "counts_if_out": true
     },
     {
      "id": 1631108,
@@ -1367,7 +1501,8 @@
      "value": 6.725,
      "mpg_recent": 27.1,
      "glue": -0.717,
-     "mpg_season": 29.156
+     "mpg_season": 29.156,
+     "counts_if_out": true
     },
     {
      "id": 1642967,
@@ -1376,7 +1511,8 @@
      "value": 6.108,
      "mpg_recent": 20.7,
      "glue": -0.102,
-     "mpg_season": 19.462
+     "mpg_season": 19.462,
+     "counts_if_out": true
     },
     {
      "id": 1628997,
@@ -1385,7 +1521,8 @@
      "value": 5.71,
      "mpg_recent": 18.0,
      "glue": -0.173,
-     "mpg_season": 16.255
+     "mpg_season": 16.255,
+     "counts_if_out": true
     },
     {
      "id": 203939,
@@ -1394,7 +1531,8 @@
      "value": 5.275,
      "mpg_recent": 19.1,
      "glue": 1.468,
-     "mpg_season": 15.22
+     "mpg_season": 15.22,
+     "counts_if_out": true
     },
     {
      "id": 1641724,
@@ -1403,7 +1541,8 @@
      "value": 4.48,
      "mpg_recent": 13.2,
      "glue": -0.635,
-     "mpg_season": 13.633
+     "mpg_season": 13.633,
+     "counts_if_out": true
     },
     {
      "id": 1631204,
@@ -1412,7 +1551,8 @@
      "value": 3.05,
      "mpg_recent": 10.4,
      "glue": -0.204,
-     "mpg_season": 13.633
+     "mpg_season": 13.633,
+     "counts_if_out": true
     },
     {
      "id": 1641754,
@@ -1421,7 +1561,8 @@
      "value": 0.267,
      "mpg_recent": 5.778,
      "glue": -0.494,
-     "mpg_season": 7.0
+     "mpg_season": 7.0,
+     "counts_if_out": true
     },
     {
      "id": 1641844,
@@ -1430,7 +1571,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643516,
@@ -1439,7 +1581,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643588,
@@ -1448,7 +1591,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643547,
@@ -1457,7 +1601,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -1488,7 +1633,8 @@
      "value": 27.2,
      "mpg_recent": 35.2,
      "glue": 1.184,
-     "mpg_season": 34.846
+     "mpg_season": 34.846,
+     "counts_if_out": true
     },
     {
      "id": 1627750,
@@ -1497,7 +1643,8 @@
      "value": 20.505,
      "mpg_recent": 37.9,
      "glue": -0.065,
-     "mpg_season": 35.36
+     "mpg_season": 35.36,
+     "counts_if_out": true
     },
     {
      "id": 201942,
@@ -1506,7 +1653,8 @@
      "value": 14.645,
      "mpg_recent": 27.5,
      "glue": -0.639,
-     "mpg_season": 31.247
+     "mpg_season": 31.247,
+     "counts_if_out": true
     },
     {
      "id": 203932,
@@ -1515,7 +1663,8 @@
      "value": 12.78,
      "mpg_recent": 29.0,
      "glue": -0.169,
-     "mpg_season": 27.917
+     "mpg_season": 27.917,
+     "counts_if_out": true
     },
     {
      "id": 1631128,
@@ -1524,7 +1673,8 @@
      "value": 11.78,
      "mpg_recent": 31.1,
      "glue": 0.067,
-     "mpg_season": 31.795
+     "mpg_season": 31.795,
+     "counts_if_out": true
     },
     {
      "id": 1629661,
@@ -1533,7 +1683,8 @@
      "value": 11.36,
      "mpg_recent": 30.7,
      "glue": -0.095,
-     "mpg_season": 30.5
+     "mpg_season": 30.5,
+     "counts_if_out": true
     },
     {
      "id": 1628963,
@@ -1542,7 +1693,8 @@
      "value": 10.0,
      "mpg_recent": 19.9,
      "glue": 0.798,
-     "mpg_season": 20.017
+     "mpg_season": 20.017,
+     "counts_if_out": true
     },
     {
      "id": 1629022,
@@ -1551,7 +1703,8 @@
      "value": 8.29,
      "mpg_recent": 28.6,
      "glue": -0.851,
-     "mpg_season": 26.167
+     "mpg_season": 26.167,
+     "counts_if_out": true
     },
     {
      "id": 1642948,
@@ -1560,7 +1713,8 @@
      "value": 7.04,
      "mpg_recent": 23.2,
      "glue": -0.184,
-     "mpg_season": 20.268
+     "mpg_season": 20.268,
+     "counts_if_out": true
     },
     {
      "id": 1641715,
@@ -1569,7 +1723,8 @@
      "value": 5.99,
      "mpg_recent": 17.2,
      "glue": -0.168,
-     "mpg_season": 16.857
+     "mpg_season": 16.857,
+     "counts_if_out": true
     },
     {
      "id": 1631124,
@@ -1578,7 +1733,8 @@
      "value": 5.305,
      "mpg_recent": 16.9,
      "glue": -0.574,
-     "mpg_season": 16.936
+     "mpg_season": 16.936,
+     "counts_if_out": true
     },
     {
      "id": 1642461,
@@ -1587,7 +1743,8 @@
      "value": 4.005,
      "mpg_recent": 19.8,
      "glue": 0.103,
-     "mpg_season": 22.476
+     "mpg_season": 22.476,
+     "counts_if_out": true
     },
     {
      "id": 1641747,
@@ -1596,7 +1753,8 @@
      "value": 2.59,
      "mpg_recent": 3.4,
      "glue": 0.317,
-     "mpg_season": 10.421
+     "mpg_season": 10.421,
+     "counts_if_out": true
     },
     {
      "id": 1626145,
@@ -1605,7 +1763,8 @@
      "value": 2.455,
      "mpg_recent": 8.6,
      "glue": -0.829,
-     "mpg_season": 16.0
+     "mpg_season": 16.0,
+     "counts_if_out": true
     },
     {
      "id": 1641801,
@@ -1614,7 +1773,8 @@
      "value": 2.218,
      "mpg_recent": 5.5,
      "glue": -0.771,
-     "mpg_season": 7.25
+     "mpg_season": 7.25,
+     "counts_if_out": true
     },
     {
      "id": 1630192,
@@ -1623,7 +1783,8 @@
      "value": 1.75,
      "mpg_recent": 10.5,
      "glue": 0.041,
-     "mpg_season": 12.612
+     "mpg_season": 12.612,
+     "counts_if_out": true
     },
     {
      "id": 1641746,
@@ -1632,7 +1793,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1641863,
@@ -1641,7 +1803,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642350,
@@ -1650,7 +1813,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643813,
@@ -1659,7 +1823,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643624,
@@ -1668,7 +1833,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -1699,7 +1865,8 @@
      "value": 20.39,
      "mpg_recent": 31.8,
      "glue": 1.006,
-     "mpg_season": 28.229
+     "mpg_season": 28.229,
+     "counts_if_out": true
     },
     {
      "id": 1630595,
@@ -1708,7 +1875,8 @@
      "value": 17.96,
      "mpg_recent": 27.6,
      "glue": 0.297,
-     "mpg_season": 33.938
+     "mpg_season": 33.938,
+     "counts_if_out": true
     },
     {
      "id": 1642450,
@@ -1717,7 +1885,8 @@
      "value": 12.265,
      "mpg_recent": 29.4,
      "glue": -0.241,
-     "mpg_season": 21.545
+     "mpg_season": 21.545,
+     "counts_if_out": true
     },
     {
      "id": 1641709,
@@ -1726,7 +1895,8 @@
      "value": 11.005,
      "mpg_recent": 26.3,
      "glue": 1.108,
-     "mpg_season": 25.973
+     "mpg_season": 25.973,
+     "counts_if_out": true
     },
     {
      "id": 1628381,
@@ -1735,7 +1905,8 @@
      "value": 10.205,
      "mpg_recent": 24.6,
      "glue": -0.062,
-     "mpg_season": 27.116
+     "mpg_season": 27.116,
+     "counts_if_out": true
     },
     {
      "id": 1629130,
@@ -1744,7 +1915,8 @@
      "value": 10.17,
      "mpg_recent": 26.6,
      "glue": -0.096,
-     "mpg_season": 27.442
+     "mpg_season": 27.442,
+     "counts_if_out": true
     },
     {
      "id": 1630194,
@@ -1753,7 +1925,8 @@
      "value": 10.075,
      "mpg_recent": 17.3,
      "glue": 1.667,
-     "mpg_season": 14.159
+     "mpg_season": 14.159,
+     "counts_if_out": true
     },
     {
      "id": 1630198,
@@ -1762,7 +1935,8 @@
      "value": 8.65,
      "mpg_recent": 17.2,
      "glue": -0.12,
-     "mpg_season": 21.225
+     "mpg_season": 21.225,
+     "counts_if_out": true
     },
     {
      "id": 1628989,
@@ -1771,7 +1945,8 @@
      "value": 8.505,
      "mpg_recent": 25.1,
      "glue": -0.267,
-     "mpg_season": 22.449
+     "mpg_season": 22.449,
+     "counts_if_out": true
     },
     {
      "id": 1629750,
@@ -1780,7 +1955,8 @@
      "value": 7.18,
      "mpg_recent": 17.3,
      "glue": 0.536,
-     "mpg_season": 18.076
+     "mpg_season": 18.076,
+     "counts_if_out": true
     },
     {
      "id": 1641989,
@@ -1789,7 +1965,8 @@
      "value": 6.71,
      "mpg_recent": 31.0,
      "glue": 0.452,
-     "mpg_season": 21.76
+     "mpg_season": 21.76,
+     "counts_if_out": true
     },
     {
      "id": 1627752,
@@ -1798,7 +1975,8 @@
      "value": 6.63,
      "mpg_recent": 29.6,
      "glue": -0.67,
-     "mpg_season": 23.5
+     "mpg_season": 23.5,
+     "counts_if_out": true
     },
     {
      "id": 1641842,
@@ -1807,7 +1985,8 @@
      "value": 5.185,
      "mpg_recent": 19.4,
      "glue": -0.059,
-     "mpg_season": 20.053
+     "mpg_season": 20.053,
+     "counts_if_out": true
     },
     {
      "id": 1642449,
@@ -1816,7 +1995,8 @@
      "value": 4.194,
      "mpg_recent": 8.3,
      "glue": 0.101,
-     "mpg_season": 11.545
+     "mpg_season": 11.545,
+     "counts_if_out": true
     },
     {
      "id": 1642403,
@@ -1825,7 +2005,8 @@
      "value": 2.115,
      "mpg_recent": 5.4,
      "glue": 0.208,
-     "mpg_season": 7.75
+     "mpg_season": 7.75,
+     "counts_if_out": true
     },
     {
      "id": 1642404,
@@ -1834,7 +2015,8 @@
      "value": 0.655,
      "mpg_recent": 7.2,
      "glue": -0.205,
-     "mpg_season": 11.25
+     "mpg_season": 11.25,
+     "counts_if_out": true
     },
     {
      "id": 1642391,
@@ -1843,7 +2025,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642578,
@@ -1852,7 +2035,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642924,
@@ -1861,7 +2045,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643536,
@@ -1870,7 +2055,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -1901,7 +2087,8 @@
      "value": 18.425,
      "mpg_recent": 29.7,
      "glue": 0.273,
-     "mpg_season": 31.105
+     "mpg_season": 31.105,
+     "counts_if_out": true
     },
     {
      "id": 201939,
@@ -1910,7 +2097,8 @@
      "value": 18.09,
      "mpg_recent": 27.5,
      "glue": 0.067,
-     "mpg_season": 30.907
+     "mpg_season": 30.907,
+     "counts_if_out": true
     },
     {
      "id": 1641764,
@@ -1919,7 +2107,8 @@
      "value": 14.425,
      "mpg_recent": 29.6,
      "glue": -0.065,
-     "mpg_season": 28.654
+     "mpg_season": 28.654,
+     "counts_if_out": true
     },
     {
      "id": 1627780,
@@ -1928,7 +2117,8 @@
      "value": 12.47,
      "mpg_recent": 20.9,
      "glue": 0.536,
-     "mpg_season": 15.803
+     "mpg_season": 15.803,
+     "counts_if_out": true
     },
     {
      "id": 1630541,
@@ -1937,7 +2127,8 @@
      "value": 12.01,
      "mpg_recent": 31.1,
      "glue": 0.314,
-     "mpg_season": 25.661
+     "mpg_season": 25.661,
+     "counts_if_out": true
     },
     {
      "id": 1630314,
@@ -1946,7 +2137,8 @@
      "value": 11.755,
      "mpg_recent": 22.2,
      "glue": 0.107,
-     "mpg_season": 22.292
+     "mpg_season": 22.292,
+     "counts_if_out": true
     },
     {
      "id": 1630611,
@@ -1955,7 +2147,8 @@
      "value": 11.61,
      "mpg_recent": 29.7,
      "glue": 0.157,
-     "mpg_season": 21.562
+     "mpg_season": 21.562,
+     "counts_if_out": true
     },
     {
      "id": 204001,
@@ -1964,7 +2157,8 @@
      "value": 11.025,
      "mpg_recent": 24.9,
      "glue": 0.41,
-     "mpg_season": 24.031
+     "mpg_season": 24.031,
+     "counts_if_out": true
     },
     {
      "id": 201143,
@@ -1973,7 +2167,8 @@
      "value": 9.71,
      "mpg_recent": 24.1,
      "glue": 0.077,
-     "mpg_season": 21.533
+     "mpg_season": 21.533,
+     "counts_if_out": true
     },
     {
      "id": 1629001,
@@ -1982,7 +2177,8 @@
      "value": 9.155,
      "mpg_recent": 23.8,
      "glue": 0.57,
-     "mpg_season": 22.959
+     "mpg_season": 22.959,
+     "counts_if_out": true
     },
     {
      "id": 203110,
@@ -1991,7 +2187,8 @@
      "value": 8.775,
      "mpg_recent": 29.7,
      "glue": 0.351,
-     "mpg_season": 27.485
+     "mpg_season": 27.485,
+     "counts_if_out": true
     },
     {
      "id": 1627777,
@@ -2000,7 +2197,8 @@
      "value": 6.345,
      "mpg_recent": 18.8,
      "glue": -0.431,
-     "mpg_season": 21.59
+     "mpg_season": 21.59,
+     "counts_if_out": true
     },
     {
      "id": 1629646,
@@ -2009,7 +2207,8 @@
      "value": 5.445,
      "mpg_recent": 11.8,
      "glue": 0.165,
-     "mpg_season": 12.5
+     "mpg_season": 12.5,
+     "counts_if_out": true
     },
     {
      "id": 1642954,
@@ -2018,7 +2217,8 @@
      "value": 5.28,
      "mpg_recent": 18.8,
      "glue": -0.136,
-     "mpg_season": 20.06
+     "mpg_season": 20.06,
+     "counts_if_out": true
     },
     {
      "id": 1643018,
@@ -2027,7 +2227,8 @@
      "value": 4.694,
      "mpg_recent": 18.9,
      "glue": -0.401,
-     "mpg_season": 17.8
+     "mpg_season": 17.8,
+     "counts_if_out": true
     },
     {
      "id": 1631207,
@@ -2036,7 +2237,8 @@
      "value": 4.18,
      "mpg_recent": 14.2,
      "glue": 0.211,
-     "mpg_season": 14.028
+     "mpg_season": 14.028,
+     "counts_if_out": true
     },
     {
      "id": 1642502,
@@ -2045,7 +2247,8 @@
      "value": 3.83,
      "mpg_recent": 14.0,
      "glue": -0.407,
-     "mpg_season": 12.227
+     "mpg_season": 12.227,
+     "counts_if_out": true
     },
     {
      "id": 1642939,
@@ -2054,7 +2257,8 @@
      "value": 2.15,
      "mpg_recent": 9.8,
      "glue": -0.017,
-     "mpg_season": 11.9
+     "mpg_season": 11.9,
+     "counts_if_out": true
     },
     {
      "id": 1642865,
@@ -2063,7 +2267,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642893,
@@ -2072,7 +2277,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643633,
@@ -2081,7 +2287,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -2112,7 +2319,8 @@
      "value": 20.645,
      "mpg_recent": 39.0,
      "glue": 0.105,
-     "mpg_season": 37.38
+     "mpg_season": 37.38,
+     "counts_if_out": true
     },
     {
      "id": 201142,
@@ -2121,7 +2329,8 @@
      "value": 20.295,
      "mpg_recent": 36.1,
      "glue": -0.391,
-     "mpg_season": 36.41
+     "mpg_season": 36.41,
+     "counts_if_out": true
     },
     {
      "id": 1630578,
@@ -2130,7 +2339,8 @@
      "value": 17.675,
      "mpg_recent": 32.2,
      "glue": 0.429,
-     "mpg_season": 33.761
+     "mpg_season": 33.761,
+     "counts_if_out": true
     },
     {
      "id": 1631095,
@@ -2139,7 +2349,8 @@
      "value": 11.67,
      "mpg_recent": 35.9,
      "glue": -0.518,
-     "mpg_season": 35.13
+     "mpg_season": 35.13,
+     "counts_if_out": true
     },
     {
      "id": 1642263,
@@ -2148,7 +2359,8 @@
      "value": 10.685,
      "mpg_recent": 25.3,
      "glue": 0.355,
-     "mpg_season": 26.183
+     "mpg_season": 26.183,
+     "counts_if_out": true
     },
     {
      "id": 1631131,
@@ -2157,7 +2369,8 @@
      "value": 9.89,
      "mpg_recent": 20.7,
      "glue": 0.768,
-     "mpg_season": 16.593
+     "mpg_season": 16.593,
+     "counts_if_out": true
     },
     {
      "id": 1627832,
@@ -2166,7 +2379,8 @@
      "value": 9.26,
      "mpg_recent": 35.5,
      "glue": -0.081,
-     "mpg_season": 35.183
+     "mpg_season": 35.183,
+     "counts_if_out": true
     },
     {
      "id": 203500,
@@ -2175,7 +2389,8 @@
      "value": 7.62,
      "mpg_recent": 25.8,
      "glue": 1.017,
-     "mpg_season": 22.812
+     "mpg_season": 22.812,
+     "counts_if_out": true
     },
     {
      "id": 203935,
@@ -2184,7 +2399,8 @@
      "value": 7.41,
      "mpg_recent": 29.7,
      "glue": 0.668,
-     "mpg_season": 28.532
+     "mpg_season": 28.532,
+     "counts_if_out": true
     },
     {
      "id": 1631106,
@@ -2193,7 +2409,8 @@
      "value": 6.615,
      "mpg_recent": 25.2,
      "glue": 0.313,
-     "mpg_season": 25.817
+     "mpg_season": 25.817,
+     "counts_if_out": true
     },
     {
      "id": 203992,
@@ -2202,7 +2419,8 @@
      "value": 5.205,
      "mpg_recent": 13.2,
      "glue": -0.346,
-     "mpg_season": 20.455
+     "mpg_season": 20.455,
+     "counts_if_out": true
     },
     {
      "id": 203991,
@@ -2211,7 +2429,8 @@
      "value": 5.09,
      "mpg_recent": 12.1,
      "glue": 0.934,
-     "mpg_season": 12.589
+     "mpg_season": 12.589,
+     "counts_if_out": true
     },
     {
      "id": 1630256,
@@ -2220,7 +2439,8 @@
      "value": 2.33,
      "mpg_recent": 10.8,
      "glue": 0.434,
-     "mpg_season": 9.6
+     "mpg_season": 9.6,
+     "counts_if_out": true
     },
     {
      "id": 1641763,
@@ -2229,7 +2449,8 @@
      "value": 1.715,
      "mpg_recent": 8.1,
      "glue": 0.074,
-     "mpg_season": 10.833
+     "mpg_season": 10.833,
+     "counts_if_out": true
     },
     {
      "id": 1642384,
@@ -2238,7 +2459,8 @@
      "value": 1.15,
      "mpg_recent": 8.1,
      "glue": 0.211,
-     "mpg_season": 10.429
+     "mpg_season": 10.429,
+     "counts_if_out": true
     },
     {
      "id": 1642951,
@@ -2247,7 +2469,8 @@
      "value": 0.9,
      "mpg_recent": 4.429,
      "glue": 0.0,
-     "mpg_season": 4.5
+     "mpg_season": 4.5,
+     "counts_if_out": true
     },
     {
      "id": 1643595,
@@ -2256,7 +2479,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643570,
@@ -2265,7 +2489,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -2296,7 +2521,8 @@
      "value": 23.4,
      "mpg_recent": 31.2,
      "glue": 0.014,
-     "mpg_season": 33.639
+     "mpg_season": 33.639,
+     "counts_if_out": true
     },
     {
      "id": 1627783,
@@ -2305,7 +2531,8 @@
      "value": 17.205,
      "mpg_recent": 30.4,
      "glue": 0.09,
-     "mpg_season": 33.177
+     "mpg_season": 33.177,
+     "counts_if_out": true
     },
     {
      "id": 1629614,
@@ -2314,7 +2541,8 @@
      "value": 13.78,
      "mpg_recent": 29.7,
      "glue": -0.625,
-     "mpg_season": 31.333
+     "mpg_season": 31.333,
+     "counts_if_out": true
     },
     {
      "id": 1627826,
@@ -2323,7 +2551,8 @@
      "value": 11.515,
      "mpg_recent": 25.9,
      "glue": 0.503,
-     "mpg_season": 30.146
+     "mpg_season": 30.146,
+     "counts_if_out": true
     },
     {
      "id": 1641716,
@@ -2332,7 +2561,8 @@
      "value": 11.475,
      "mpg_recent": 28.4,
      "glue": -0.656,
-     "mpg_season": 25.827
+     "mpg_season": 25.827,
+     "counts_if_out": true
     },
     {
      "id": 1626162,
@@ -2341,7 +2571,8 @@
      "value": 10.575,
      "mpg_recent": 28.3,
      "glue": -0.071,
-     "mpg_season": 31.48
+     "mpg_season": 31.48,
+     "counts_if_out": true
     },
     {
      "id": 1630167,
@@ -2350,7 +2581,8 @@
      "value": 9.845,
      "mpg_recent": 19.0,
      "glue": -0.29,
-     "mpg_season": 17.591
+     "mpg_season": 17.591,
+     "counts_if_out": true
     },
     {
      "id": 1630174,
@@ -2359,7 +2591,8 @@
      "value": 9.62,
      "mpg_recent": 30.0,
      "glue": -0.102,
-     "mpg_season": 29.667
+     "mpg_season": 29.667,
+     "counts_if_out": true
     },
     {
      "id": 204456,
@@ -2368,7 +2601,8 @@
      "value": 9.395,
      "mpg_recent": 18.7,
      "glue": 0.473,
-     "mpg_season": 17.296
+     "mpg_season": 17.296,
+     "counts_if_out": true
     },
     {
      "id": 1630643,
@@ -2377,7 +2611,8 @@
      "value": 8.865,
      "mpg_recent": 22.6,
      "glue": 0.304,
-     "mpg_season": 21.198
+     "mpg_season": 21.198,
+     "counts_if_out": true
     },
     {
      "id": 1641738,
@@ -2386,7 +2621,8 @@
      "value": 8.015,
      "mpg_recent": 25.4,
      "glue": -0.256,
-     "mpg_season": 18.06
+     "mpg_season": 18.06,
+     "counts_if_out": true
     },
     {
      "id": 1631245,
@@ -2395,7 +2631,8 @@
      "value": 7.585,
      "mpg_recent": 21.9,
      "glue": 0.245,
-     "mpg_season": 19.043
+     "mpg_season": 19.043,
+     "counts_if_out": true
     },
     {
      "id": 1641767,
@@ -2404,7 +2641,8 @@
      "value": 6.28,
      "mpg_recent": 20.2,
      "glue": -0.525,
-     "mpg_season": 21.385
+     "mpg_season": 21.385,
+     "counts_if_out": true
     },
     {
      "id": 1641771,
@@ -2413,7 +2651,8 @@
      "value": 5.14,
      "mpg_recent": 24.1,
      "glue": 0.037,
-     "mpg_season": 23.923
+     "mpg_season": 23.923,
+     "counts_if_out": true
     },
     {
      "id": 1642277,
@@ -2422,7 +2661,8 @@
      "value": 5.04,
      "mpg_recent": 21.2,
      "glue": 0.17,
-     "mpg_season": 19.394
+     "mpg_season": 19.394,
+     "counts_if_out": true
     },
     {
      "id": 1626204,
@@ -2431,7 +2671,8 @@
      "value": 3.47,
      "mpg_recent": 12.6,
      "glue": 0.329,
-     "mpg_season": 13.333
+     "mpg_season": 13.333,
+     "counts_if_out": true
     },
     {
      "id": 201949,
@@ -2440,7 +2681,8 @@
      "value": 0.39,
      "mpg_recent": 3.1,
      "glue": -0.599,
-     "mpg_season": 3.4
+     "mpg_season": 3.4,
+     "counts_if_out": true
     },
     {
      "id": 1643627,
@@ -2449,7 +2691,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643792,
@@ -2458,7 +2701,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643552,
@@ -2467,7 +2711,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -2498,7 +2743,8 @@
      "value": 14.965,
      "mpg_recent": 31.8,
      "glue": -0.763,
-     "mpg_season": 33.789
+     "mpg_season": 33.789,
+     "counts_if_out": true
     },
     {
      "id": 1629636,
@@ -2507,7 +2753,8 @@
      "value": 14.76,
      "mpg_recent": 29.6,
      "glue": -0.513,
-     "mpg_season": 29.867
+     "mpg_season": 29.867,
+     "counts_if_out": true
     },
     {
      "id": 1641757,
@@ -2516,7 +2763,8 @@
      "value": 10.105,
      "mpg_recent": 23.9,
      "glue": -0.607,
-     "mpg_season": 22.741
+     "mpg_season": 22.741,
+     "counts_if_out": true
     },
     {
      "id": 203078,
@@ -2525,7 +2773,8 @@
      "value": 9.365,
      "mpg_recent": 24.8,
      "glue": -0.415,
-     "mpg_season": 20.167
+     "mpg_season": 20.167,
+     "counts_if_out": true
     },
     {
      "id": 201572,
@@ -2534,7 +2783,8 @@
      "value": 8.89,
      "mpg_recent": 27.6,
      "glue": 0.331,
-     "mpg_season": 21.8
+     "mpg_season": 21.8,
+     "counts_if_out": true
     },
     {
      "id": 1629060,
@@ -2543,7 +2793,8 @@
      "value": 8.33,
      "mpg_recent": 25.9,
      "glue": -0.569,
-     "mpg_season": 28.373
+     "mpg_season": 28.373,
+     "counts_if_out": true
     },
     {
      "id": 1627884,
@@ -2552,7 +2803,8 @@
      "value": 8.26,
      "mpg_recent": 24.9,
      "glue": 0.059,
-     "mpg_season": 27.0
+     "mpg_season": 27.0,
+     "counts_if_out": true
     },
     {
      "id": 1629622,
@@ -2561,7 +2813,8 @@
      "value": 8.105,
      "mpg_recent": 24.2,
      "glue": -0.473,
-     "mpg_season": 24.0
+     "mpg_season": 24.0,
+     "counts_if_out": true
     },
     {
      "id": 1630543,
@@ -2570,7 +2823,8 @@
      "value": 7.92,
      "mpg_recent": 18.2,
      "glue": 0.936,
-     "mpg_season": 16.778
+     "mpg_season": 16.778,
+     "counts_if_out": true
     },
     {
      "id": 1642920,
@@ -2579,7 +2833,8 @@
      "value": 6.4,
      "mpg_recent": 15.9,
      "glue": -0.155,
-     "mpg_season": 20.258
+     "mpg_season": 20.258,
+     "counts_if_out": true
     },
     {
      "id": 1627739,
@@ -2588,7 +2843,8 @@
      "value": 6.23,
      "mpg_recent": 24.8,
      "glue": 0.246,
-     "mpg_season": 27.195
+     "mpg_season": 27.195,
+     "counts_if_out": true
     },
     {
      "id": 1642949,
@@ -2597,7 +2853,8 @@
      "value": 5.335,
      "mpg_recent": 15.7,
      "glue": 0.273,
-     "mpg_season": 12.091
+     "mpg_season": 12.091,
+     "counts_if_out": true
     },
     {
      "id": 1642530,
@@ -2606,7 +2863,8 @@
      "value": 3.92,
      "mpg_recent": 11.3,
      "glue": -0.258,
-     "mpg_season": 14.615
+     "mpg_season": 14.615,
+     "counts_if_out": true
     },
     {
      "id": 1641711,
@@ -2615,7 +2873,8 @@
      "value": 2.91,
      "mpg_recent": 6.4,
      "glue": 0.131,
-     "mpg_season": 15.591
+     "mpg_season": 15.591,
+     "counts_if_out": true
     },
     {
      "id": 1629618,
@@ -2624,7 +2883,8 @@
      "value": 2.82,
      "mpg_recent": 11.3,
      "glue": -0.725,
-     "mpg_season": 20.886
+     "mpg_season": 20.886,
+     "counts_if_out": true
     },
     {
      "id": 1631104,
@@ -2633,7 +2893,8 @@
      "value": 2.505,
      "mpg_recent": 6.9,
      "glue": -0.26,
-     "mpg_season": 14.2
+     "mpg_season": 14.2,
+     "counts_if_out": true
     },
     {
      "id": 1642353,
@@ -2642,7 +2903,8 @@
      "value": 1.3,
      "mpg_recent": 6.2,
      "glue": -0.294,
-     "mpg_season": 10.816
+     "mpg_season": 10.816,
+     "counts_if_out": true
     },
     {
      "id": 1643413,
@@ -2651,7 +2913,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643568,
@@ -2660,7 +2923,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642394,
@@ -2669,7 +2933,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -2700,7 +2965,8 @@
      "value": 27.975,
      "mpg_recent": 37.3,
      "glue": 0.172,
-     "mpg_season": 35.766
+     "mpg_season": 35.766,
+     "counts_if_out": true
     },
     {
      "id": 1630559,
@@ -2709,7 +2975,8 @@
      "value": 16.26,
      "mpg_recent": 36.8,
      "glue": 0.106,
-     "mpg_season": 34.549
+     "mpg_season": 34.549,
+     "counts_if_out": true
     },
     {
      "id": 1629012,
@@ -2718,7 +2985,8 @@
      "value": 13.985,
      "mpg_recent": 29.2,
      "glue": -0.298,
-     "mpg_season": 23.721
+     "mpg_season": 23.721,
+     "counts_if_out": true
     },
     {
      "id": 1631117,
@@ -2727,7 +2995,8 @@
      "value": 13.905,
      "mpg_recent": 29.7,
      "glue": 0.82,
-     "mpg_season": 30.8
+     "mpg_season": 30.8,
+     "counts_if_out": true
     },
     {
      "id": 1629656,
@@ -2736,7 +3005,8 @@
      "value": 11.36,
      "mpg_recent": 25.0,
      "glue": -0.364,
-     "mpg_season": 29.297
+     "mpg_season": 29.297,
+     "counts_if_out": true
     },
     {
      "id": 1630572,
@@ -2745,7 +3015,8 @@
      "value": 10.985,
      "mpg_recent": 22.5,
      "glue": 0.464,
-     "mpg_season": 21.887
+     "mpg_season": 21.887,
+     "counts_if_out": true
     },
     {
      "id": 1630533,
@@ -2754,7 +3025,8 @@
      "value": 8.99,
      "mpg_recent": 22.6,
      "glue": 0.172,
-     "mpg_season": 23.018
+     "mpg_season": 23.018,
+     "counts_if_out": true
     },
     {
      "id": 1630702,
@@ -2763,7 +3035,8 @@
      "value": 6.285,
      "mpg_recent": 21.4,
      "glue": -0.474,
-     "mpg_season": 17.458
+     "mpg_season": 17.458,
+     "counts_if_out": true
     },
     {
      "id": 1631222,
@@ -2772,7 +3045,8 @@
      "value": 5.74,
      "mpg_recent": 28.9,
      "glue": 0.181,
-     "mpg_season": 25.134
+     "mpg_season": 25.134,
+     "counts_if_out": true
     },
     {
      "id": 1629680,
@@ -2781,7 +3055,8 @@
      "value": 5.46,
      "mpg_recent": 21.4,
      "glue": 1.191,
-     "mpg_season": 16.0
+     "mpg_season": 16.0,
+     "counts_if_out": true
     },
     {
      "id": 1626172,
@@ -2790,7 +3065,8 @@
      "value": 4.825,
      "mpg_recent": 16.5,
      "glue": 1.005,
-     "mpg_season": 14.667
+     "mpg_season": 14.667,
+     "counts_if_out": true
     },
     {
      "id": 1629020,
@@ -2799,7 +3075,8 @@
      "value": 3.32,
      "mpg_recent": 15.0,
      "glue": 0.347,
-     "mpg_season": 17.587
+     "mpg_season": 17.587,
+     "counts_if_out": true
     },
     {
      "id": 1642355,
@@ -2808,7 +3085,8 @@
      "value": 3.095,
      "mpg_recent": 15.3,
      "glue": -0.251,
-     "mpg_season": 11.433
+     "mpg_season": 11.433,
+     "counts_if_out": true
     },
     {
      "id": 1642261,
@@ -2817,7 +3095,8 @@
      "value": 2.265,
      "mpg_recent": 6.0,
      "glue": -0.802,
-     "mpg_season": 12.098
+     "mpg_season": 12.098,
+     "counts_if_out": true
     },
     {
      "id": 1631306,
@@ -2826,7 +3105,8 @@
      "value": 1.845,
      "mpg_recent": 17.0,
      "glue": -0.463,
-     "mpg_season": 17.0
+     "mpg_season": 17.0,
+     "counts_if_out": true
     },
     {
      "id": 1642876,
@@ -2835,7 +3115,8 @@
      "value": 1.725,
      "mpg_recent": 6.3,
      "glue": 0.0,
-     "mpg_season": 6.75
+     "mpg_season": 6.75,
+     "counts_if_out": true
     },
     {
      "id": 1643024,
@@ -2844,7 +3125,8 @@
      "value": 1.344,
      "mpg_recent": 5.222,
      "glue": 0.0,
-     "mpg_season": 6.333
+     "mpg_season": 6.333,
+     "counts_if_out": true
     },
     {
      "id": 1641751,
@@ -2853,7 +3135,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643759,
@@ -2862,7 +3145,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643758,
@@ -2871,7 +3155,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643418,
@@ -2880,7 +3165,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -2911,7 +3197,8 @@
      "value": 16.01,
      "mpg_recent": 24.0,
      "glue": -0.0,
-     "mpg_season": 22.6
+     "mpg_season": 22.6,
+     "counts_if_out": true
     },
     {
      "id": 1641744,
@@ -2920,7 +3207,8 @@
      "value": 12.265,
      "mpg_recent": 25.9,
      "glue": 0.824,
-     "mpg_season": 25.818
+     "mpg_season": 25.818,
+     "counts_if_out": true
     },
     {
      "id": 1642914,
@@ -2929,7 +3217,8 @@
      "value": 12.07,
      "mpg_recent": 24.6,
      "glue": -0.126,
-     "mpg_season": 21.553
+     "mpg_season": 21.553,
+     "counts_if_out": true
     },
     {
      "id": 1641713,
@@ -2938,7 +3227,8 @@
      "value": 12.06,
      "mpg_recent": 25.1,
      "glue": -0.237,
-     "mpg_season": 22.558
+     "mpg_season": 22.558,
+     "counts_if_out": true
     },
     {
      "id": 203924,
@@ -2947,7 +3237,8 @@
      "value": 11.975,
      "mpg_recent": 31.1,
      "glue": -0.413,
-     "mpg_season": 29.737
+     "mpg_season": 29.737,
+     "counts_if_out": true
     },
     {
      "id": 1641765,
@@ -2956,7 +3247,8 @@
      "value": 11.955,
      "mpg_recent": 23.3,
      "glue": 0.097,
-     "mpg_season": 19.98
+     "mpg_season": 19.98,
+     "counts_if_out": true
     },
     {
      "id": 1642285,
@@ -2965,7 +3257,8 @@
      "value": 10.175,
      "mpg_recent": 23.4,
      "glue": -0.262,
-     "mpg_season": 23.886
+     "mpg_season": 23.886,
+     "counts_if_out": true
     },
     {
      "id": 1630590,
@@ -2974,7 +3267,8 @@
      "value": 10.105,
      "mpg_recent": 21.2,
      "glue": 0.246,
-     "mpg_season": 21.2
+     "mpg_season": 21.2,
+     "counts_if_out": true
     },
     {
      "id": 1642377,
@@ -2983,7 +3277,8 @@
      "value": 10.05,
      "mpg_recent": 25.0,
      "glue": -0.457,
-     "mpg_season": 26.391
+     "mpg_season": 26.391,
+     "counts_if_out": true
     },
     {
      "id": 1642907,
@@ -2992,7 +3287,8 @@
      "value": 9.92,
      "mpg_recent": 24.4,
      "glue": 0.507,
-     "mpg_season": 25.774
+     "mpg_season": 25.774,
+     "counts_if_out": true
     },
     {
      "id": 1641707,
@@ -3001,7 +3297,8 @@
      "value": 9.615,
      "mpg_recent": 24.0,
      "glue": 0.097,
-     "mpg_season": 19.276
+     "mpg_season": 19.276,
+     "counts_if_out": true
     },
     {
      "id": 1630191,
@@ -3010,7 +3307,8 @@
      "value": 8.19,
      "mpg_recent": 20.1,
      "glue": -0.132,
-     "mpg_season": 22.707
+     "mpg_season": 22.707,
+     "counts_if_out": true
     },
     {
      "id": 1642383,
@@ -3019,7 +3317,8 @@
      "value": 7.525,
      "mpg_recent": 25.0,
      "glue": -0.164,
-     "mpg_season": 20.5
+     "mpg_season": 20.5,
+     "counts_if_out": true
     },
     {
      "id": 1642366,
@@ -3028,7 +3327,8 @@
      "value": 5.635,
      "mpg_recent": 17.7,
      "glue": 0.216,
-     "mpg_season": 17.5
+     "mpg_season": 17.5,
+     "counts_if_out": true
     },
     {
      "id": 1642942,
@@ -3037,7 +3337,8 @@
      "value": 4.955,
      "mpg_recent": 30.3,
      "glue": 0.054,
-     "mpg_season": 23.138
+     "mpg_season": 23.138,
+     "counts_if_out": true
     },
     {
      "id": 1631200,
@@ -3046,7 +3347,8 @@
      "value": 4.955,
      "mpg_recent": 23.0,
      "glue": 0.061,
-     "mpg_season": 23.732
+     "mpg_season": 23.732,
+     "counts_if_out": true
     },
     {
      "id": 1642877,
@@ -3055,7 +3357,8 @@
      "value": 2.69,
      "mpg_recent": 21.0,
      "glue": -0.073,
-     "mpg_season": 17.02
+     "mpg_season": 17.02,
+     "counts_if_out": true
     },
     {
      "id": 1643721,
@@ -3064,7 +3367,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643409,
@@ -3073,7 +3377,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643510,
@@ -3082,7 +3387,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -3113,7 +3419,8 @@
      "value": 21.19,
      "mpg_recent": 27.7,
      "glue": 0.469,
-     "mpg_season": 28.861
+     "mpg_season": 28.861,
+     "counts_if_out": true
     },
     {
      "id": 1628389,
@@ -3122,7 +3429,8 @@
      "value": 20.71,
      "mpg_recent": 34.2,
      "glue": 0.615,
-     "mpg_season": 32.397
+     "mpg_season": 32.397,
+     "counts_if_out": true
     },
     {
      "id": 203952,
@@ -3131,7 +3439,8 @@
      "value": 12.465,
      "mpg_recent": 27.9,
      "glue": -0.271,
-     "mpg_season": 30.338
+     "mpg_season": 30.338,
+     "counts_if_out": true
     },
     {
      "id": 1626171,
@@ -3140,7 +3449,8 @@
      "value": 11.36,
      "mpg_recent": 25.0,
      "glue": -0.036,
-     "mpg_season": 24.164
+     "mpg_season": 24.164,
+     "counts_if_out": true
     },
     {
      "id": 1641796,
@@ -3149,7 +3459,8 @@
      "value": 10.74,
      "mpg_recent": 30.2,
      "glue": -0.247,
-     "mpg_season": 26.414
+     "mpg_season": 26.414,
+     "counts_if_out": true
     },
     {
      "id": 1630558,
@@ -3158,7 +3469,8 @@
      "value": 9.845,
      "mpg_recent": 29.5,
      "glue": -0.096,
-     "mpg_season": 28.571
+     "mpg_season": 28.571,
+     "counts_if_out": true
     },
     {
      "id": 1643016,
@@ -3167,7 +3479,8 @@
      "value": 8.88,
      "mpg_recent": 32.6,
      "glue": -0.109,
-     "mpg_season": 32.8
+     "mpg_season": 32.8,
+     "counts_if_out": true
     },
     {
      "id": 203501,
@@ -3176,7 +3489,8 @@
      "value": 8.015,
      "mpg_recent": 23.2,
      "glue": -0.779,
-     "mpg_season": 26.797
+     "mpg_season": 26.797,
+     "counts_if_out": true
     },
     {
      "id": 202691,
@@ -3185,7 +3499,8 @@
      "value": 7.38,
      "mpg_recent": 20.4,
      "glue": -0.725,
-     "mpg_season": 21.439
+     "mpg_season": 21.439,
+     "counts_if_out": true
     },
     {
      "id": 1630208,
@@ -3194,7 +3509,8 @@
      "value": 7.27,
      "mpg_recent": 22.8,
      "glue": 0.136,
-     "mpg_season": 14.915
+     "mpg_season": 14.915,
+     "counts_if_out": true
     },
     {
      "id": 1631323,
@@ -3203,7 +3519,8 @@
      "value": 6.965,
      "mpg_recent": 16.1,
      "glue": -0.205,
-     "mpg_season": 17.561
+     "mpg_season": 17.561,
+     "counts_if_out": true
     },
     {
      "id": 1630696,
@@ -3212,7 +3529,8 @@
      "value": 4.305,
      "mpg_recent": 13.4,
      "glue": 0.695,
-     "mpg_season": 16.662
+     "mpg_season": 16.662,
+     "counts_if_out": true
     },
     {
      "id": 1642352,
@@ -3221,7 +3539,8 @@
      "value": 3.89,
      "mpg_recent": 11.9,
      "glue": 0.335,
-     "mpg_season": 11.0
+     "mpg_season": 11.0,
+     "counts_if_out": true
     },
     {
      "id": 1631311,
@@ -3230,7 +3549,8 @@
      "value": 3.45,
      "mpg_recent": 17.2,
      "glue": -0.616,
-     "mpg_season": 18.111
+     "mpg_season": 18.111,
+     "counts_if_out": true
     },
     {
      "id": 1631107,
@@ -3239,7 +3559,8 @@
      "value": 2.995,
      "mpg_recent": 10.7,
      "glue": -0.388,
-     "mpg_season": 18.929
+     "mpg_season": 18.929,
+     "counts_if_out": true
     },
     {
      "id": 1642066,
@@ -3248,7 +3569,8 @@
      "value": 2.98,
      "mpg_recent": 6.8,
      "glue": 0.244,
-     "mpg_season": 10.889
+     "mpg_season": 10.889,
+     "counts_if_out": true
     },
     {
      "id": 1642884,
@@ -3257,7 +3579,8 @@
      "value": 0.944,
      "mpg_recent": 2.556,
      "glue": 0.0,
-     "mpg_season": 3.167
+     "mpg_season": 3.167,
+     "counts_if_out": true
     },
     {
      "id": 1643553,
@@ -3266,7 +3589,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643727,
@@ -3275,7 +3599,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643867,
@@ -3284,7 +3609,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643621,
@@ -3293,7 +3619,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -3324,7 +3651,8 @@
      "value": 15.405,
      "mpg_recent": 31.9,
      "glue": 0.246,
-     "mpg_season": 33.184
+     "mpg_season": 33.184,
+     "counts_if_out": true
     },
     {
      "id": 1629639,
@@ -3333,7 +3661,8 @@
      "value": 14.9,
      "mpg_recent": 32.4,
      "glue": -0.59,
-     "mpg_season": 31.303
+     "mpg_season": 31.303,
+     "counts_if_out": true
     },
     {
      "id": 1631157,
@@ -3342,7 +3671,8 @@
      "value": 13.795,
      "mpg_recent": 31.1,
      "glue": 0.506,
-     "mpg_season": 32.095
+     "mpg_season": 32.095,
+     "counts_if_out": true
     },
     {
      "id": 1631170,
@@ -3351,7 +3681,8 @@
      "value": 13.435,
      "mpg_recent": 27.2,
      "glue": -0.285,
-     "mpg_season": 28.28
+     "mpg_season": 28.28,
+     "counts_if_out": true
     },
     {
      "id": 1642276,
@@ -3360,7 +3691,8 @@
      "value": 10.92,
      "mpg_recent": 19.7,
      "glue": 0.02,
-     "mpg_season": 22.263
+     "mpg_season": 22.263,
+     "counts_if_out": true
     },
     {
      "id": 1642504,
@@ -3369,7 +3701,8 @@
      "value": 10.564,
      "mpg_recent": 26.2,
      "glue": -0.14,
-     "mpg_season": 24.636
+     "mpg_season": 24.636,
+     "counts_if_out": true
     },
     {
      "id": 1628398,
@@ -3378,7 +3711,8 @@
      "value": 9.885,
      "mpg_recent": 23.1,
      "glue": -1.038,
-     "mpg_season": 26.294
+     "mpg_season": 26.294,
+     "counts_if_out": true
     },
     {
      "id": 1630579,
@@ -3387,7 +3721,8 @@
      "value": 8.935,
      "mpg_recent": 28.9,
      "glue": 0.019,
-     "mpg_season": 21.361
+     "mpg_season": 21.361,
+     "counts_if_out": true
     },
     {
      "id": 1631172,
@@ -3396,7 +3731,8 @@
      "value": 8.215,
      "mpg_recent": 32.4,
      "glue": -0.835,
-     "mpg_season": 19.855
+     "mpg_season": 19.855,
+     "counts_if_out": true
     },
     {
      "id": 1631260,
@@ -3405,7 +3741,8 @@
      "value": 8.115,
      "mpg_recent": 33.3,
      "glue": -0.144,
-     "mpg_season": 29.103
+     "mpg_season": 29.103,
+     "counts_if_out": true
     },
     {
      "id": 1626167,
@@ -3414,7 +3751,8 @@
      "value": 7.555,
      "mpg_recent": 23.6,
      "glue": 0.173,
-     "mpg_season": 26.93
+     "mpg_season": 26.93,
+     "counts_if_out": true
     },
     {
      "id": 1642857,
@@ -3423,7 +3761,8 @@
      "value": 6.92,
      "mpg_recent": 18.3,
      "glue": 0.225,
-     "mpg_season": 18.314
+     "mpg_season": 18.314,
+     "counts_if_out": true
     },
     {
      "id": 1642880,
@@ -3432,7 +3771,8 @@
      "value": 5.35,
      "mpg_recent": 18.0,
      "glue": -0.362,
-     "mpg_season": 19.333
+     "mpg_season": 19.333,
+     "counts_if_out": true
     },
     {
      "id": 1631250,
@@ -3441,7 +3781,8 @@
      "value": 5.225,
      "mpg_recent": 28.7,
      "glue": -0.043,
-     "mpg_season": 17.537
+     "mpg_season": 17.537,
+     "counts_if_out": true
     },
     {
      "id": 1627747,
@@ -3450,7 +3791,8 @@
      "value": 4.93,
      "mpg_recent": 18.1,
      "glue": -0.283,
-     "mpg_season": 19.379
+     "mpg_season": 19.379,
+     "counts_if_out": true
     },
     {
      "id": 1629018,
@@ -3459,7 +3801,8 @@
      "value": 3.415,
      "mpg_recent": 21.6,
      "glue": -0.859,
-     "mpg_season": 23.509
+     "mpg_season": 23.509,
+     "counts_if_out": true
     },
     {
      "id": 1641780,
@@ -3468,7 +3811,8 @@
      "value": 0.2,
      "mpg_recent": 5.0,
      "glue": 0.0,
-     "mpg_season": 6.375
+     "mpg_season": 6.375,
+     "counts_if_out": true
     },
     {
      "id": 1643415,
@@ -3477,7 +3821,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643417,
@@ -3486,7 +3831,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642881,
@@ -3495,7 +3841,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1641868,
@@ -3504,7 +3851,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -3535,7 +3883,8 @@
      "value": 18.88,
      "mpg_recent": 31.9,
      "glue": -0.304,
-     "mpg_season": 35.033
+     "mpg_season": 35.033,
+     "counts_if_out": true
     },
     {
      "id": 1630163,
@@ -3544,7 +3893,8 @@
      "value": 16.66,
      "mpg_recent": 31.2,
      "glue": 0.098,
-     "mpg_season": 28.435
+     "mpg_season": 28.435,
+     "counts_if_out": true
     },
     {
      "id": 1630245,
@@ -3553,7 +3903,8 @@
      "value": 12.325,
      "mpg_recent": 32.6,
      "glue": -0.465,
-     "mpg_season": 27.433
+     "mpg_season": 27.433,
+     "counts_if_out": true
     },
     {
      "id": 203497,
@@ -3562,7 +3913,8 @@
      "value": 12.305,
      "mpg_recent": 30.0,
      "glue": 0.641,
-     "mpg_season": 31.316
+     "mpg_season": 31.316,
+     "counts_if_out": true
     },
     {
      "id": 1642262,
@@ -3571,7 +3923,8 @@
      "value": 12.135,
      "mpg_recent": 35.2,
      "glue": -0.358,
-     "mpg_season": 24.576
+     "mpg_season": 24.576,
+     "counts_if_out": true
     },
     {
      "id": 1630183,
@@ -3580,7 +3933,8 @@
      "value": 11.17,
      "mpg_recent": 30.4,
      "glue": -0.231,
-     "mpg_season": 31.726
+     "mpg_season": 31.726,
+     "counts_if_out": true
     },
     {
      "id": 1630228,
@@ -3589,7 +3943,8 @@
      "value": 9.46,
      "mpg_recent": 21.8,
      "glue": -0.23,
-     "mpg_season": 23.083
+     "mpg_season": 23.083,
+     "counts_if_out": true
     },
     {
      "id": 1630538,
@@ -3598,7 +3953,8 @@
      "value": 8.995,
      "mpg_recent": 25.2,
      "glue": -0.134,
-     "mpg_season": 17.615
+     "mpg_season": 17.615,
+     "counts_if_out": true
     },
     {
      "id": 1626168,
@@ -3607,7 +3963,8 @@
      "value": 6.705,
      "mpg_recent": 26.3,
      "glue": -0.001,
-     "mpg_season": 19.565
+     "mpg_season": 19.565,
+     "counts_if_out": true
     },
     {
      "id": 1628978,
@@ -3616,7 +3973,8 @@
      "value": 6.465,
      "mpg_recent": 27.4,
      "glue": 0.341,
-     "mpg_season": 30.704
+     "mpg_season": 30.704,
+     "counts_if_out": true
     },
     {
      "id": 1641810,
@@ -3625,7 +3983,8 @@
      "value": 6.065,
      "mpg_recent": 6.9,
      "glue": -0.398,
-     "mpg_season": 9.8
+     "mpg_season": 9.8,
+     "counts_if_out": true
     },
     {
      "id": 1630545,
@@ -3634,7 +3993,8 @@
      "value": 5.215,
      "mpg_recent": 16.1,
      "glue": -0.512,
-     "mpg_season": 13.711
+     "mpg_season": 13.711,
+     "counts_if_out": true
     },
     {
      "id": 1642866,
@@ -3643,7 +4003,8 @@
      "value": 4.955,
      "mpg_recent": 10.9,
      "glue": 0.0,
-     "mpg_season": 8.378
+     "mpg_season": 8.378,
+     "counts_if_out": true
     },
     {
      "id": 1630231,
@@ -3652,7 +4013,8 @@
      "value": 4.56,
      "mpg_recent": 21.0,
      "glue": -0.264,
-     "mpg_season": 22.146
+     "mpg_season": 22.146,
+     "counts_if_out": true
     },
     {
      "id": 1642911,
@@ -3661,7 +4023,8 @@
      "value": 3.62,
      "mpg_recent": 7.4,
      "glue": 0.0,
-     "mpg_season": 8.25
+     "mpg_season": 8.25,
+     "counts_if_out": true
     },
     {
      "id": 1641740,
@@ -3670,7 +4033,8 @@
      "value": 3.52,
      "mpg_recent": 15.0,
      "glue": 0.139,
-     "mpg_season": 13.516
+     "mpg_season": 13.516,
+     "counts_if_out": true
     },
     {
      "id": 1641807,
@@ -3679,7 +4043,8 @@
      "value": 2.883,
      "mpg_recent": 3.833,
      "glue": 0.0,
-     "mpg_season": 4.4
+     "mpg_season": 4.4,
+     "counts_if_out": true
     },
     {
      "id": 1631166,
@@ -3688,7 +4053,8 @@
      "value": 2.515,
      "mpg_recent": 8.8,
      "glue": -0.102,
-     "mpg_season": 10.273
+     "mpg_season": 10.273,
+     "counts_if_out": true
     },
     {
      "id": 1642389,
@@ -3697,7 +4063,8 @@
      "value": 2.5,
      "mpg_recent": 5.625,
      "glue": 0.208,
-     "mpg_season": 18.0
+     "mpg_season": 18.0,
+     "counts_if_out": true
     },
     {
      "id": 1642402,
@@ -3706,7 +4073,8 @@
      "value": 2.23,
      "mpg_recent": 10.5,
      "glue": -0.118,
-     "mpg_season": 9.25
+     "mpg_season": 9.25,
+     "counts_if_out": true
     },
     {
      "id": 1642912,
@@ -3715,7 +4083,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -3746,7 +4115,8 @@
      "value": 16.905,
      "mpg_recent": 35.3,
      "glue": -0.235,
-     "mpg_season": 35.47
+     "mpg_season": 35.47,
+     "counts_if_out": true
     },
     {
      "id": 1629627,
@@ -3755,7 +4125,8 @@
      "value": 15.965,
      "mpg_recent": 30.0,
      "glue": 0.099,
-     "mpg_season": 29.694
+     "mpg_season": 29.694,
+     "counts_if_out": true
     },
     {
      "id": 1630180,
@@ -3764,7 +4135,8 @@
      "value": 15.25,
      "mpg_recent": 33.0,
      "glue": -0.458,
-     "mpg_season": 31.239
+     "mpg_season": 31.239,
+     "counts_if_out": true
     },
     {
      "id": 1627749,
@@ -3773,7 +4145,8 @@
      "value": 14.01,
      "mpg_recent": 28.9,
      "glue": -0.235,
-     "mpg_season": 27.786
+     "mpg_season": 27.786,
+     "counts_if_out": true
     },
     {
      "id": 1642847,
@@ -3782,7 +4155,8 @@
      "value": 12.305,
      "mpg_recent": 32.0,
      "glue": -0.275,
-     "mpg_season": 25.756
+     "mpg_season": 25.756,
+     "counts_if_out": true
     },
     {
      "id": 1631097,
@@ -3791,7 +4165,8 @@
      "value": 12.035,
      "mpg_recent": 24.7,
      "glue": -0.867,
-     "mpg_season": 30.0
+     "mpg_season": 30.0,
+     "counts_if_out": true
     },
     {
      "id": 1642882,
@@ -3800,7 +4175,8 @@
      "value": 11.092,
      "mpg_recent": 30.3,
      "glue": 0.295,
-     "mpg_season": 30.923
+     "mpg_season": 30.923,
+     "counts_if_out": true
     },
     {
      "id": 1642852,
@@ -3809,7 +4185,8 @@
      "value": 8.965,
      "mpg_recent": 27.7,
      "glue": 0.162,
-     "mpg_season": 24.975
+     "mpg_season": 24.975,
+     "counts_if_out": true
     },
     {
      "id": 1631255,
@@ -3818,7 +4195,8 @@
      "value": 7.79,
      "mpg_recent": 18.7,
      "glue": 0.532,
-     "mpg_season": 14.71
+     "mpg_season": 14.71,
+     "counts_if_out": true
     },
     {
      "id": 1642274,
@@ -3827,7 +4205,8 @@
      "value": 7.36,
      "mpg_recent": 23.3,
      "glue": 0.667,
-     "mpg_season": 19.652
+     "mpg_season": 19.652,
+     "counts_if_out": true
     },
     {
      "id": 1630529,
@@ -3836,7 +4215,8 @@
      "value": 6.645,
      "mpg_recent": 25.6,
      "glue": 0.441,
-     "mpg_season": 28.357
+     "mpg_season": 28.357,
+     "counts_if_out": true
     },
     {
      "id": 1631121,
@@ -3845,7 +4225,8 @@
      "value": 6.54,
      "mpg_recent": 24.4,
      "glue": -0.142,
-     "mpg_season": 21.775
+     "mpg_season": 21.775,
+     "counts_if_out": true
     },
     {
      "id": 1629673,
@@ -3854,7 +4235,8 @@
      "value": 6.265,
      "mpg_recent": 19.7,
      "glue": -0.662,
-     "mpg_season": 23.923
+     "mpg_season": 23.923,
+     "counts_if_out": true
     },
     {
      "id": 1630570,
@@ -3863,7 +4245,8 @@
      "value": 5.895,
      "mpg_recent": 15.3,
      "glue": -0.275,
-     "mpg_season": 16.725
+     "mpg_season": 16.725,
+     "counts_if_out": true
     },
     {
      "id": 201599,
@@ -3872,7 +4255,8 @@
      "value": 5.725,
      "mpg_recent": 17.5,
      "glue": 0.023,
-     "mpg_season": 16.583
+     "mpg_season": 16.583,
+     "counts_if_out": true
     },
     {
      "id": 1631132,
@@ -3881,7 +4265,8 @@
      "value": 2.725,
      "mpg_recent": 10.4,
      "glue": 0.751,
-     "mpg_season": 13.222
+     "mpg_season": 13.222,
+     "counts_if_out": true
     },
     {
      "id": 1631216,
@@ -3890,7 +4275,8 @@
      "value": 2.705,
      "mpg_recent": 3.4,
      "glue": -0.669,
-     "mpg_season": 6.4
+     "mpg_season": 6.4,
+     "counts_if_out": true
     },
     {
      "id": 1642358,
@@ -3899,7 +4285,8 @@
      "value": 2.67,
      "mpg_recent": 12.2,
      "glue": -0.477,
-     "mpg_season": 12.258
+     "mpg_season": 12.258,
+     "counts_if_out": true
     },
     {
      "id": 1641723,
@@ -3908,7 +4295,8 @@
      "value": 2.095,
      "mpg_recent": 4.8,
      "glue": -0.155,
-     "mpg_season": 11.222
+     "mpg_season": 11.222,
+     "counts_if_out": true
     },
     {
      "id": 1643738,
@@ -3917,7 +4305,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643555,
@@ -3926,7 +4315,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -3957,7 +4347,8 @@
      "value": 18.685,
      "mpg_recent": 35.9,
      "glue": -0.472,
-     "mpg_season": 35.0
+     "mpg_season": 35.0,
+     "counts_if_out": true
     },
     {
      "id": 1626157,
@@ -3966,7 +4357,8 @@
      "value": 18.635,
      "mpg_recent": 29.0,
      "glue": 0.322,
-     "mpg_season": 30.96
+     "mpg_season": 30.96,
+     "counts_if_out": true
     },
     {
      "id": 1628384,
@@ -3975,7 +4367,8 @@
      "value": 14.495,
      "mpg_recent": 33.8,
      "glue": 0.32,
-     "mpg_season": 33.194
+     "mpg_season": 33.194,
+     "counts_if_out": true
     },
     {
      "id": 1628404,
@@ -3984,7 +4377,8 @@
      "value": 11.555,
      "mpg_recent": 31.7,
      "glue": 0.05,
-     "mpg_season": 30.212
+     "mpg_season": 30.212,
+     "counts_if_out": true
     },
     {
      "id": 1630540,
@@ -3993,7 +4387,8 @@
      "value": 8.79,
      "mpg_recent": 20.2,
      "glue": 0.129,
-     "mpg_season": 26.341
+     "mpg_season": 26.341,
+     "counts_if_out": true
     },
     {
      "id": 1628969,
@@ -4002,7 +4397,8 @@
      "value": 8.3,
      "mpg_recent": 29.2,
      "glue": -0.416,
-     "mpg_season": 33.235
+     "mpg_season": 33.235,
+     "counts_if_out": true
     },
     {
      "id": 1628971,
@@ -4011,7 +4407,8 @@
      "value": 7.265,
      "mpg_recent": 22.5,
      "glue": -0.736,
-     "mpg_season": 24.366
+     "mpg_season": 24.366,
+     "counts_if_out": true
     },
     {
      "id": 1630164,
@@ -4020,7 +4417,8 @@
      "value": 6.64,
      "mpg_recent": 20.4,
      "glue": -0.888,
-     "mpg_season": 14.5
+     "mpg_season": 14.5,
+     "counts_if_out": true
     },
     {
      "id": 203083,
@@ -4029,7 +4427,8 @@
      "value": 6.54,
      "mpg_recent": 17.2,
      "glue": 0.326,
-     "mpg_season": 19.774
+     "mpg_season": 19.774,
+     "counts_if_out": true
     },
     {
      "id": 203903,
@@ -4038,7 +4437,8 @@
      "value": 6.105,
      "mpg_recent": 15.6,
      "glue": -0.496,
-     "mpg_season": 18.333
+     "mpg_season": 18.333,
+     "counts_if_out": true
     },
     {
      "id": 1629013,
@@ -4047,7 +4447,8 @@
      "value": 5.56,
      "mpg_recent": 24.5,
      "glue": -0.384,
-     "mpg_season": 23.36
+     "mpg_season": 23.36,
+     "counts_if_out": true
     },
     {
      "id": 1630631,
@@ -4056,7 +4457,8 @@
      "value": 5.14,
      "mpg_recent": 16.8,
      "glue": 0.032,
-     "mpg_season": 20.394
+     "mpg_season": 20.394,
+     "counts_if_out": true
     },
     {
      "id": 1630534,
@@ -4065,7 +4467,8 @@
      "value": 4.885,
      "mpg_recent": 17.9,
      "glue": -0.206,
-     "mpg_season": 16.667
+     "mpg_season": 16.667,
+     "counts_if_out": true
     },
     {
      "id": 1629234,
@@ -4074,7 +4477,8 @@
      "value": 4.095,
      "mpg_recent": 12.2,
      "glue": 0.338,
-     "mpg_season": 13.143
+     "mpg_season": 13.143,
+     "counts_if_out": true
     },
     {
      "id": 1642885,
@@ -4083,7 +4487,8 @@
      "value": 3.37,
      "mpg_recent": 12.9,
      "glue": -0.488,
-     "mpg_season": 12.065
+     "mpg_season": 12.065,
+     "counts_if_out": true
     },
     {
      "id": 1642278,
@@ -4092,7 +4497,8 @@
      "value": 3.105,
      "mpg_recent": 7.9,
      "glue": -0.279,
-     "mpg_season": 14.0
+     "mpg_season": 14.0,
+     "counts_if_out": true
     },
     {
      "id": 1628396,
@@ -4101,7 +4507,8 @@
      "value": 2.935,
      "mpg_recent": 12.2,
      "glue": 0.297,
-     "mpg_season": 11.658
+     "mpg_season": 11.658,
+     "counts_if_out": true
     },
     {
      "id": 1641755,
@@ -4110,7 +4517,8 @@
      "value": 1.795,
      "mpg_recent": 6.9,
      "glue": 0.971,
-     "mpg_season": 10.538
+     "mpg_season": 10.538,
+     "counts_if_out": true
     },
     {
      "id": 1642359,
@@ -4119,7 +4527,8 @@
      "value": 1.645,
      "mpg_recent": 7.1,
      "glue": -0.331,
-     "mpg_season": 6.467
+     "mpg_season": 6.467,
+     "counts_if_out": true
     },
     {
      "id": 1643022,
@@ -4128,7 +4537,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643589,
@@ -4137,7 +4547,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -4168,7 +4579,8 @@
      "value": 24.525,
      "mpg_recent": 31.7,
      "glue": 0.504,
-     "mpg_season": 33.221
+     "mpg_season": 33.221,
+     "counts_if_out": true
     },
     {
      "id": 1631096,
@@ -4177,7 +4589,8 @@
      "value": 15.535,
      "mpg_recent": 26.1,
      "glue": 0.409,
-     "mpg_season": 28.942
+     "mpg_season": 28.942,
+     "counts_if_out": true
     },
     {
      "id": 1631114,
@@ -4186,7 +4599,8 @@
      "value": 14.155,
      "mpg_recent": 23.9,
      "glue": -0.01,
-     "mpg_season": 28.364
+     "mpg_season": 28.364,
+     "counts_if_out": true
     },
     {
      "id": 1628392,
@@ -4195,7 +4609,8 @@
      "value": 10.365,
      "mpg_recent": 20.2,
      "glue": 1.151,
-     "mpg_season": 24.191
+     "mpg_season": 24.191,
+     "counts_if_out": true
     },
     {
      "id": 1642349,
@@ -4204,7 +4619,8 @@
      "value": 10.045,
      "mpg_recent": 22.8,
      "glue": 0.042,
-     "mpg_season": 26.214
+     "mpg_season": 26.214,
+     "counts_if_out": true
     },
     {
      "id": 1631119,
@@ -4213,7 +4629,8 @@
      "value": 7.875,
      "mpg_recent": 15.9,
      "glue": 0.575,
-     "mpg_season": 19.646
+     "mpg_season": 19.646,
+     "counts_if_out": true
     },
     {
      "id": 1641717,
@@ -4222,7 +4639,8 @@
      "value": 7.545,
      "mpg_recent": 22.1,
      "glue": 0.62,
-     "mpg_season": 26.571
+     "mpg_season": 26.571,
+     "counts_if_out": true
     },
     {
      "id": 1642272,
@@ -4231,7 +4649,8 @@
      "value": 6.06,
      "mpg_recent": 14.8,
      "glue": -0.235,
-     "mpg_season": 18.377
+     "mpg_season": 18.377,
+     "counts_if_out": true
     },
     {
      "id": 1627936,
@@ -4240,7 +4659,8 @@
      "value": 5.24,
      "mpg_recent": 15.8,
      "glue": 1.073,
-     "mpg_season": 18.214
+     "mpg_season": 18.214,
+     "counts_if_out": true
     },
     {
      "id": 1629026,
@@ -4249,7 +4669,8 @@
      "value": 4.205,
      "mpg_recent": 12.5,
      "glue": -0.066,
-     "mpg_season": 15.887
+     "mpg_season": 15.887,
+     "counts_if_out": true
     },
     {
      "id": 1642260,
@@ -4258,7 +4679,8 @@
      "value": 3.8,
      "mpg_recent": 16.0,
      "glue": -0.329,
-     "mpg_season": 17.875
+     "mpg_season": 17.875,
+     "counts_if_out": true
     },
     {
      "id": 1629015,
@@ -4267,7 +4689,8 @@
      "value": 2.262,
      "mpg_recent": 11.0,
      "glue": 1.584,
-     "mpg_season": 6.5
+     "mpg_season": 6.5,
+     "counts_if_out": true
     },
     {
      "id": 1642964,
@@ -4276,7 +4699,8 @@
      "value": 1.835,
      "mpg_recent": 12.5,
      "glue": -0.478,
-     "mpg_season": 10.188
+     "mpg_season": 10.188,
+     "counts_if_out": true
     },
     {
      "id": 1643208,
@@ -4285,7 +4709,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643717,
@@ -4294,7 +4719,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643754,
@@ -4303,7 +4729,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643808,
@@ -4312,7 +4739,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642850,
@@ -4321,7 +4749,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642923,
@@ -4330,7 +4759,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642892,
@@ -4339,7 +4769,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643530,
@@ -4348,7 +4779,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -4379,7 +4811,8 @@
      "value": 17.3,
      "mpg_recent": 33.2,
      "glue": -0.385,
-     "mpg_season": 34.75
+     "mpg_season": 34.75,
+     "counts_if_out": true
     },
     {
      "id": 1630217,
@@ -4388,7 +4821,8 @@
      "value": 15.03,
      "mpg_recent": 29.3,
      "glue": -0.044,
-     "mpg_season": 33.61
+     "mpg_season": 33.61,
+     "counts_if_out": true
     },
     {
      "id": 1630532,
@@ -4397,7 +4831,8 @@
      "value": 14.0,
      "mpg_recent": 21.9,
      "glue": -0.063,
-     "mpg_season": 29.971
+     "mpg_season": 29.971,
+     "counts_if_out": true
     },
     {
      "id": 1630591,
@@ -4406,7 +4841,8 @@
      "value": 11.655,
      "mpg_recent": 30.6,
      "glue": 0.537,
-     "mpg_season": 27.614
+     "mpg_season": 27.614,
+     "counts_if_out": true
     },
     {
      "id": 1628976,
@@ -4415,7 +4851,8 @@
      "value": 11.055,
      "mpg_recent": 27.6,
      "glue": 0.512,
-     "mpg_season": 29.333
+     "mpg_season": 29.333,
+     "counts_if_out": true
     },
     {
      "id": 1641710,
@@ -4424,7 +4861,8 @@
      "value": 10.315,
      "mpg_recent": 22.9,
      "glue": -0.203,
-     "mpg_season": 29.844
+     "mpg_season": 29.844,
+     "counts_if_out": true
     },
     {
      "id": 1641783,
@@ -4433,7 +4871,8 @@
      "value": 9.63,
      "mpg_recent": 25.0,
      "glue": -0.271,
-     "mpg_season": 24.662
+     "mpg_season": 24.662,
+     "counts_if_out": true
     },
     {
      "id": 202696,
@@ -4442,7 +4881,8 @@
      "value": 9.255,
      "mpg_recent": 19.3,
      "glue": -0.021,
-     "mpg_season": 28.406
+     "mpg_season": 28.406,
+     "counts_if_out": true
     },
     {
      "id": 1631288,
@@ -4451,7 +4891,8 @@
      "value": 6.72,
      "mpg_recent": 19.4,
      "glue": -0.191,
-     "mpg_season": 13.629
+     "mpg_season": 13.629,
+     "counts_if_out": true
     },
     {
      "id": 1629048,
@@ -4460,7 +4901,8 @@
      "value": 6.52,
      "mpg_recent": 15.9,
      "glue": 0.818,
-     "mpg_season": 15.188
+     "mpg_season": 15.188,
+     "counts_if_out": true
     },
     {
      "id": 1630658,
@@ -4469,7 +4911,8 @@
      "value": 5.65,
      "mpg_recent": 14.7,
      "glue": -0.406,
-     "mpg_season": 6.0
+     "mpg_season": 6.0,
+     "counts_if_out": true
     },
     {
      "id": 1628975,
@@ -4478,7 +4921,8 @@
      "value": 5.535,
      "mpg_recent": 18.8,
      "glue": -0.293,
-     "mpg_season": 17.66
+     "mpg_season": 17.66,
+     "counts_if_out": true
     },
     {
      "id": 1631103,
@@ -4487,7 +4931,8 @@
      "value": 3.965,
      "mpg_recent": 12.5,
      "glue": -0.204,
-     "mpg_season": 11.348
+     "mpg_season": 11.348,
+     "counts_if_out": true
     },
     {
      "id": 1628371,
@@ -4496,7 +4941,8 @@
      "value": 2.295,
      "mpg_recent": 8.8,
      "glue": 0.31,
-     "mpg_season": 10.531
+     "mpg_season": 10.531,
+     "counts_if_out": true
     },
     {
      "id": 1642859,
@@ -4505,7 +4951,8 @@
      "value": 2.295,
      "mpg_recent": 8.0,
      "glue": -0.161,
-     "mpg_season": 13.917
+     "mpg_season": 13.917,
+     "counts_if_out": true
     },
     {
      "id": 1628995,
@@ -4514,7 +4961,8 @@
      "value": 2.25,
      "mpg_recent": 5.4,
      "glue": -0.649,
-     "mpg_season": 7.667
+     "mpg_season": 7.667,
+     "counts_if_out": true
     },
     {
      "id": 1642869,
@@ -4523,7 +4971,8 @@
      "value": 2.245,
      "mpg_recent": 8.6,
      "glue": 0.157,
-     "mpg_season": 14.118
+     "mpg_season": 14.118,
+     "counts_if_out": true
     },
     {
      "id": 1631120,
@@ -4532,7 +4981,8 @@
      "value": 2.135,
      "mpg_recent": 8.3,
      "glue": -0.26,
-     "mpg_season": 10.389
+     "mpg_season": 10.389,
+     "counts_if_out": true
     },
     {
      "id": 1631457,
@@ -4541,7 +4991,8 @@
      "value": 0.4,
      "mpg_recent": 6.0,
      "glue": 0.0,
-     "mpg_season": 6.0
+     "mpg_season": 6.0,
+     "counts_if_out": true
     },
     {
      "id": 1643593,
@@ -4550,7 +5001,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -4581,7 +5033,8 @@
      "value": 23.65,
      "mpg_recent": 33.2,
      "glue": 0.342,
-     "mpg_season": 31.605
+     "mpg_season": 31.605,
+     "counts_if_out": true
     },
     {
      "id": 1630178,
@@ -4590,7 +5043,8 @@
      "value": 19.73,
      "mpg_recent": 36.6,
      "glue": 0.208,
-     "mpg_season": 38.014
+     "mpg_season": 38.014,
+     "counts_if_out": true
     },
     {
      "id": 1627759,
@@ -4599,7 +5053,8 @@
      "value": 19.685,
      "mpg_recent": 36.1,
      "glue": -0.274,
-     "mpg_season": 34.408
+     "mpg_season": 34.408,
+     "counts_if_out": true
     },
     {
      "id": 2544,
@@ -4608,7 +5063,8 @@
      "value": 18.92,
      "mpg_recent": 32.0,
      "glue": -0.501,
-     "mpg_season": 33.15
+     "mpg_season": 33.15,
+     "counts_if_out": true
     },
     {
      "id": 1642845,
@@ -4617,7 +5073,8 @@
      "value": 14.61,
      "mpg_recent": 34.8,
      "glue": 0.173,
-     "mpg_season": 34.973
+     "mpg_season": 34.973,
+     "counts_if_out": true
     },
     {
      "id": 1629014,
@@ -4626,7 +5083,8 @@
      "value": 9.91,
      "mpg_recent": 26.6,
      "glue": -0.771,
-     "mpg_season": 25.019
+     "mpg_season": 25.019,
+     "counts_if_out": true
     },
     {
      "id": 1642348,
@@ -4635,7 +5093,8 @@
      "value": 7.605,
      "mpg_recent": 12.4,
      "glue": -0.25,
-     "mpg_season": 17.018
+     "mpg_season": 17.018,
+     "counts_if_out": true
     },
     {
      "id": 1641712,
@@ -4644,7 +5103,8 @@
      "value": 7.335,
      "mpg_recent": 32.9,
      "glue": -0.258,
-     "mpg_season": 18.981
+     "mpg_season": 18.981,
+     "counts_if_out": true
     },
     {
      "id": 1631126,
@@ -4653,7 +5113,8 @@
      "value": 6.745,
      "mpg_recent": 13.7,
      "glue": -0.651,
-     "mpg_season": 22.512
+     "mpg_season": 22.512,
+     "counts_if_out": true
     },
     {
      "id": 1631230,
@@ -4662,7 +5123,8 @@
      "value": 6.635,
      "mpg_recent": 21.7,
      "glue": 0.542,
-     "mpg_season": 23.789
+     "mpg_season": 23.789,
+     "counts_if_out": true
     },
     {
      "id": 1629731,
@@ -4671,7 +5133,8 @@
      "value": 6.31,
      "mpg_recent": 21.0,
      "glue": 0.215,
-     "mpg_season": 22.339
+     "mpg_season": 22.339,
+     "counts_if_out": true
     },
     {
      "id": 1641737,
@@ -4680,7 +5143,8 @@
      "value": 6.19,
      "mpg_recent": 16.2,
      "glue": 0.589,
-     "mpg_season": 17.486
+     "mpg_season": 17.486,
+     "counts_if_out": true
     },
     {
      "id": 203484,
@@ -4689,7 +5153,8 @@
      "value": 6.14,
      "mpg_recent": 22.8,
      "glue": -0.55,
-     "mpg_season": 21.333
+     "mpg_season": 21.333,
+     "counts_if_out": true
     },
     {
      "id": 1631133,
@@ -4698,7 +5163,8 @@
      "value": 4.76,
      "mpg_recent": 8.8,
      "glue": 0.003,
-     "mpg_season": 13.2
+     "mpg_season": 13.2,
+     "counts_if_out": true
     },
     {
      "id": 1641794,
@@ -4707,7 +5173,8 @@
      "value": 2.89,
      "mpg_recent": 12.8,
      "glue": -0.151,
-     "mpg_season": 7.75
+     "mpg_season": 7.75,
+     "counts_if_out": true
     },
     {
      "id": 1630574,
@@ -4716,7 +5183,8 @@
      "value": 2.755,
      "mpg_recent": 10.9,
      "glue": 0.704,
-     "mpg_season": 10.0
+     "mpg_season": 10.0,
+     "counts_if_out": true
     },
     {
      "id": 1629605,
@@ -4725,7 +5193,8 @@
      "value": 1.985,
      "mpg_recent": 5.6,
      "glue": -0.168,
-     "mpg_season": 5.9
+     "mpg_season": 5.9,
+     "counts_if_out": true
     },
     {
      "id": 1642392,
@@ -4734,7 +5203,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643148,
@@ -4743,7 +5213,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643575,
@@ -4752,7 +5223,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642889,
@@ -4761,7 +5233,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -4792,7 +5265,8 @@
      "value": 20.47,
      "mpg_recent": 33.8,
      "glue": -0.376,
-     "mpg_season": 33.531
+     "mpg_season": 33.531,
+     "counts_if_out": true
     },
     {
      "id": 1630224,
@@ -4801,7 +5275,8 @@
      "value": 13.09,
      "mpg_recent": 26.7,
      "glue": -0.766,
-     "mpg_season": 27.724
+     "mpg_season": 27.724,
+     "counts_if_out": true
     },
     {
      "id": 1628970,
@@ -4810,7 +5285,8 @@
      "value": 11.81,
      "mpg_recent": 28.1,
      "glue": -0.504,
-     "mpg_season": 31.0
+     "mpg_season": 31.0,
+     "counts_if_out": true
     },
     {
      "id": 1628415,
@@ -4819,7 +5295,8 @@
      "value": 11.42,
      "mpg_recent": 26.9,
      "glue": -0.552,
-     "mpg_season": 30.393
+     "mpg_season": 30.393,
+     "counts_if_out": true
     },
     {
      "id": 1631109,
@@ -4828,7 +5305,8 @@
      "value": 10.605,
      "mpg_recent": 21.3,
      "glue": 0.736,
-     "mpg_season": 23.6
+     "mpg_season": 23.6,
+     "counts_if_out": true
     },
     {
      "id": 1642345,
@@ -4837,7 +5315,8 @@
      "value": 9.12,
      "mpg_recent": 24.1,
      "glue": 0.905,
-     "mpg_season": 22.049
+     "mpg_season": 22.049,
+     "counts_if_out": true
     },
     {
      "id": 1631221,
@@ -4846,7 +5325,8 @@
      "value": 8.61,
      "mpg_recent": 25.0,
      "glue": 0.535,
-     "mpg_season": 28.525
+     "mpg_season": 28.525,
+     "counts_if_out": true
     },
     {
      "id": 1630692,
@@ -4855,7 +5335,8 @@
      "value": 8.505,
      "mpg_recent": 23.2,
      "glue": 0.687,
-     "mpg_season": 22.457
+     "mpg_season": 22.457,
+     "counts_if_out": true
     },
     {
      "id": 1628379,
@@ -4864,7 +5345,8 @@
      "value": 7.61,
      "mpg_recent": 25.9,
      "glue": -0.566,
-     "mpg_season": 21.688
+     "mpg_season": 21.688,
+     "counts_if_out": true
     },
     {
      "id": 1631113,
@@ -4873,7 +5355,8 @@
      "value": 7.54,
      "mpg_recent": 31.7,
      "glue": -0.048,
-     "mpg_season": 32.273
+     "mpg_season": 32.273,
+     "counts_if_out": true
     },
     {
      "id": 1630311,
@@ -4882,7 +5365,8 @@
      "value": 7.17,
      "mpg_recent": 24.2,
      "glue": -0.355,
-     "mpg_season": 20.483
+     "mpg_season": 20.483,
+     "counts_if_out": true
     },
     {
      "id": 1629312,
@@ -4891,7 +5375,8 @@
      "value": 6.285,
      "mpg_recent": 15.8,
      "glue": 0.047,
-     "mpg_season": 17.75
+     "mpg_season": 17.75,
+     "counts_if_out": true
     },
     {
      "id": 1642346,
@@ -4900,7 +5385,8 @@
      "value": 6.03,
      "mpg_recent": 19.4,
      "glue": -0.067,
-     "mpg_season": 19.794
+     "mpg_season": 19.794,
+     "counts_if_out": true
     },
     {
      "id": 1642853,
@@ -4909,7 +5395,8 @@
      "value": 5.005,
      "mpg_recent": 19.5,
      "glue": 0.017,
-     "mpg_season": 13.745
+     "mpg_season": 13.745,
+     "counts_if_out": true
     },
     {
      "id": 1642863,
@@ -4918,7 +5405,8 @@
      "value": 4.915,
      "mpg_recent": 13.5,
      "glue": 0.0,
-     "mpg_season": 9.442
+     "mpg_season": 9.442,
+     "counts_if_out": true
     },
     {
      "id": 1631123,
@@ -4927,7 +5415,8 @@
      "value": 3.075,
      "mpg_recent": 11.9,
      "glue": 0.218,
-     "mpg_season": 15.974
+     "mpg_season": 15.974,
+     "counts_if_out": true
     },
     {
      "id": 1643047,
@@ -4936,7 +5425,8 @@
      "value": 2.65,
      "mpg_recent": 10.0,
      "glue": 0.0,
-     "mpg_season": 29.0
+     "mpg_season": 29.0,
+     "counts_if_out": true
     },
     {
      "id": 1642886,
@@ -4945,7 +5435,8 @@
      "value": 2.517,
      "mpg_recent": 7.7,
      "glue": 0.0,
-     "mpg_season": 9.125
+     "mpg_season": 9.125,
+     "counts_if_out": true
     },
     {
      "id": 1641871,
@@ -4954,7 +5445,8 @@
      "value": 1.965,
      "mpg_recent": 8.1,
      "glue": 0.217,
-     "mpg_season": 8.929
+     "mpg_season": 8.929,
+     "counts_if_out": true
     },
     {
      "id": 1630762,
@@ -4963,7 +5455,8 @@
      "value": 0.02,
      "mpg_recent": 8.8,
      "glue": -0.694,
-     "mpg_season": 11.333
+     "mpg_season": 11.333,
+     "counts_if_out": true
     },
     {
      "id": 1643520,
@@ -4972,7 +5465,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -5003,7 +5497,8 @@
      "value": 19.475,
      "mpg_recent": 34.5,
      "glue": -0.624,
-     "mpg_season": 36.086
+     "mpg_season": 36.086,
+     "counts_if_out": true
     },
     {
      "id": 1630166,
@@ -5012,7 +5507,8 @@
      "value": 17.105,
      "mpg_recent": 32.8,
      "glue": -0.402,
-     "mpg_season": 33.318
+     "mpg_season": 33.318,
+     "counts_if_out": true
     },
     {
      "id": 1642270,
@@ -5021,7 +5517,8 @@
      "value": 14.365,
      "mpg_recent": 26.3,
      "glue": 0.609,
-     "mpg_season": 27.195
+     "mpg_season": 27.195,
+     "counts_if_out": true
     },
     {
      "id": 1629630,
@@ -5030,7 +5527,8 @@
      "value": 14.21,
      "mpg_recent": 26.1,
      "glue": -0.229,
-     "mpg_season": 28.45
+     "mpg_season": 28.45,
+     "counts_if_out": true
     },
     {
      "id": 201950,
@@ -5039,7 +5537,8 @@
      "value": 13.2,
      "mpg_recent": 31.4,
      "glue": 0.021,
-     "mpg_season": 29.577
+     "mpg_season": 29.577,
+     "counts_if_out": true
     },
     {
      "id": 1631101,
@@ -5048,7 +5547,8 @@
      "value": 12.095,
      "mpg_recent": 27.2,
      "glue": -0.444,
-     "mpg_season": 29.42
+     "mpg_season": 29.42,
+     "counts_if_out": true
     },
     {
      "id": 1641739,
@@ -5057,7 +5557,8 @@
      "value": 11.73,
      "mpg_recent": 33.3,
      "glue": 0.157,
-     "mpg_season": 33.305
+     "mpg_season": 33.305,
+     "counts_if_out": true
     },
     {
      "id": 1630703,
@@ -5066,7 +5567,8 @@
      "value": 9.875,
      "mpg_recent": 27.6,
      "glue": -0.208,
-     "mpg_season": 24.933
+     "mpg_season": 24.933,
+     "counts_if_out": true
     },
     {
      "id": 1630695,
@@ -5075,7 +5577,8 @@
      "value": 9.57,
      "mpg_recent": 21.5,
      "glue": 0.12,
-     "mpg_season": 19.739
+     "mpg_season": 19.739,
+     "counts_if_out": true
     },
     {
      "id": 1629057,
@@ -5084,7 +5587,8 @@
      "value": 9.39,
      "mpg_recent": 17.6,
      "glue": 0.561,
-     "mpg_season": 17.085
+     "mpg_season": 17.085,
+     "counts_if_out": true
     },
     {
      "id": 1642382,
@@ -5093,7 +5597,8 @@
      "value": 6.02,
      "mpg_recent": 13.7,
      "glue": -0.162,
-     "mpg_season": 12.658
+     "mpg_season": 12.658,
+     "counts_if_out": true
     },
     {
      "id": 1630249,
@@ -5102,7 +5607,8 @@
      "value": 5.445,
      "mpg_recent": 18.3,
      "glue": -0.221,
-     "mpg_season": 21.656
+     "mpg_season": 21.656,
+     "counts_if_out": true
     },
     {
      "id": 1641798,
@@ -5111,7 +5617,8 @@
      "value": 3.694,
      "mpg_recent": 22.2,
      "glue": -0.886,
-     "mpg_season": 24.667
+     "mpg_season": 24.667,
+     "counts_if_out": true
     },
     {
      "id": 1631110,
@@ -5120,7 +5627,8 @@
      "value": 2.635,
      "mpg_recent": 7.3,
      "glue": 0.438,
-     "mpg_season": 11.763
+     "mpg_season": 11.763,
+     "counts_if_out": true
     },
     {
      "id": 1643257,
@@ -5129,7 +5637,8 @@
      "value": 1.9,
      "mpg_recent": 4.6,
      "glue": 0.0,
-     "mpg_season": 7.0
+     "mpg_season": 7.0,
+     "counts_if_out": true
     },
     {
      "id": 1642959,
@@ -5138,7 +5647,8 @@
      "value": 1.875,
      "mpg_recent": 6.2,
      "glue": 0.0,
-     "mpg_season": 6.81
+     "mpg_season": 6.81,
+     "counts_if_out": true
     },
     {
      "id": 1631321,
@@ -5147,7 +5657,8 @@
      "value": 1.785,
      "mpg_recent": 10.9,
      "glue": -0.024,
-     "mpg_season": 20.515
+     "mpg_season": 20.515,
+     "counts_if_out": true
     },
     {
      "id": 1642910,
@@ -5156,7 +5667,8 @@
      "value": 1.667,
      "mpg_recent": 7.0,
      "glue": 0.0,
-     "mpg_season": 12.0
+     "mpg_season": 12.0,
+     "counts_if_out": true
     },
     {
      "id": 1642905,
@@ -5165,7 +5677,8 @@
      "value": 0.7,
      "mpg_recent": 4.8,
      "glue": 0.0,
-     "mpg_season": 7.553
+     "mpg_season": 7.553,
+     "counts_if_out": true
     }
    ]
   },
@@ -5196,7 +5709,8 @@
      "value": 15.045,
      "mpg_recent": 27.4,
      "glue": 0.589,
-     "mpg_season": 29.684
+     "mpg_season": 29.684,
+     "counts_if_out": true
     },
     {
      "id": 1642875,
@@ -5205,7 +5719,8 @@
      "value": 14.98,
      "mpg_recent": 31.8,
      "glue": 0.069,
-     "mpg_season": 26.541
+     "mpg_season": 26.541,
+     "counts_if_out": true
     },
     {
      "id": 1630173,
@@ -5214,7 +5729,8 @@
      "value": 13.88,
      "mpg_recent": 29.3,
      "glue": 0.384,
-     "mpg_season": 23.904
+     "mpg_season": 23.904,
+     "counts_if_out": true
     },
     {
      "id": 203897,
@@ -5223,7 +5739,8 @@
      "value": 11.925,
      "mpg_recent": 27.1,
      "glue": -0.992,
-     "mpg_season": 31.385
+     "mpg_season": 31.385,
+     "counts_if_out": true
     },
     {
      "id": 1642363,
@@ -5232,7 +5749,8 @@
      "value": 10.365,
      "mpg_recent": 34.6,
      "glue": 0.162,
-     "mpg_season": 25.093
+     "mpg_season": 25.093,
+     "counts_if_out": true
     },
     {
      "id": 1631099,
@@ -5241,7 +5759,8 @@
      "value": 9.84,
      "mpg_recent": 30.6,
      "glue": 0.033,
-     "mpg_season": 34.478
+     "mpg_season": 34.478,
+     "counts_if_out": true
     },
     {
      "id": 1628370,
@@ -5250,7 +5769,8 @@
      "value": 9.135,
      "mpg_recent": 21.0,
      "glue": -0.3,
-     "mpg_season": 22.533
+     "mpg_season": 22.533,
+     "counts_if_out": true
     },
     {
      "id": 1631342,
@@ -5259,7 +5779,8 @@
      "value": 8.285,
      "mpg_recent": 29.9,
      "glue": -0.532,
-     "mpg_season": 26.375
+     "mpg_season": 26.375,
+     "counts_if_out": true
     },
     {
      "id": 1642928,
@@ -5268,7 +5789,8 @@
      "value": 8.255,
      "mpg_recent": 20.9,
      "glue": 0.656,
-     "mpg_season": 20.953
+     "mpg_season": 20.953,
+     "counts_if_out": true
     },
     {
      "id": 1629631,
@@ -5277,7 +5799,8 @@
      "value": 7.225,
      "mpg_recent": 22.4,
      "glue": -0.596,
-     "mpg_season": 26.111
+     "mpg_season": 26.111,
+     "counts_if_out": true
     },
     {
      "id": 1641778,
@@ -5286,7 +5809,8 @@
      "value": 5.77,
      "mpg_recent": 27.3,
      "glue": -0.193,
-     "mpg_season": 28.867
+     "mpg_season": 28.867,
+     "counts_if_out": true
     },
     {
      "id": 1627732,
@@ -5295,7 +5819,8 @@
      "value": 4.725,
      "mpg_recent": 14.3,
      "glue": 0.025,
-     "mpg_season": 22.1
+     "mpg_season": 22.1,
+     "counts_if_out": true
     },
     {
      "id": 203901,
@@ -5304,7 +5829,8 @@
      "value": 3.755,
      "mpg_recent": 23.2,
      "glue": -0.374,
-     "mpg_season": 21.174
+     "mpg_season": 21.174,
+     "counts_if_out": true
     },
     {
      "id": 1642367,
@@ -5313,7 +5839,8 @@
      "value": 2.165,
      "mpg_recent": 6.3,
      "glue": 0.3,
-     "mpg_season": 7.833
+     "mpg_season": 7.833,
+     "counts_if_out": true
     },
     {
      "id": 1641745,
@@ -5322,7 +5849,8 @@
      "value": 1.63,
      "mpg_recent": 9.8,
      "glue": 0.166,
-     "mpg_season": 9.688
+     "mpg_season": 9.688,
+     "counts_if_out": true
     },
     {
      "id": 1641803,
@@ -5331,7 +5859,8 @@
      "value": 0.911,
      "mpg_recent": 3.111,
      "glue": 1.428,
-     "mpg_season": 12.0
+     "mpg_season": 12.0,
+     "counts_if_out": true
     },
     {
      "id": 1643411,
@@ -5340,7 +5869,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642284,
@@ -5349,7 +5879,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643567,
@@ -5358,7 +5889,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -5389,7 +5921,8 @@
      "value": 25.87,
      "mpg_recent": 28.6,
      "glue": 1.16,
-     "mpg_season": 29.156
+     "mpg_season": 29.156,
+     "counts_if_out": true
     },
     {
      "id": 1642264,
@@ -5398,7 +5931,8 @@
      "value": 15.695,
      "mpg_recent": 30.0,
      "glue": -0.13,
-     "mpg_season": 29.971
+     "mpg_season": 29.971,
+     "counts_if_out": true
     },
     {
      "id": 1628368,
@@ -5407,7 +5941,8 @@
      "value": 14.8,
      "mpg_recent": 29.0,
      "glue": -0.068,
-     "mpg_season": 30.986
+     "mpg_season": 30.986,
+     "counts_if_out": true
     },
     {
      "id": 202699,
@@ -5416,7 +5951,8 @@
      "value": 11.81,
      "mpg_recent": 25.7,
      "glue": -0.209,
-     "mpg_season": 28.065
+     "mpg_season": 28.065,
+     "counts_if_out": true
     },
     {
      "id": 1642844,
@@ -5425,7 +5961,8 @@
      "value": 11.785,
      "mpg_recent": 24.2,
      "glue": -0.099,
-     "mpg_season": 22.58
+     "mpg_season": 22.58,
+     "counts_if_out": true
     },
     {
      "id": 1630170,
@@ -5434,7 +5971,8 @@
      "value": 10.48,
      "mpg_recent": 29.8,
      "glue": -0.313,
-     "mpg_season": 30.507
+     "mpg_season": 30.507,
+     "counts_if_out": true
     },
     {
      "id": 1629640,
@@ -5443,7 +5981,8 @@
      "value": 10.2,
      "mpg_recent": 24.1,
      "glue": -0.412,
-     "mpg_season": 23.305
+     "mpg_season": 23.305,
+     "counts_if_out": true
     },
     {
      "id": 1630577,
@@ -5452,7 +5991,8 @@
      "value": 9.095,
      "mpg_recent": 27.0,
      "glue": 0.088,
-     "mpg_season": 27.634
+     "mpg_season": 27.634,
+     "counts_if_out": true
     },
     {
      "id": 203084,
@@ -5461,7 +6001,8 @@
      "value": 7.275,
      "mpg_recent": 21.9,
      "glue": -0.32,
-     "mpg_season": 25.792
+     "mpg_season": 25.792,
+     "counts_if_out": true
     },
     {
      "id": 1628436,
@@ -5470,7 +6011,8 @@
      "value": 6.595,
      "mpg_recent": 20.0,
      "glue": 0.554,
-     "mpg_season": 21.029
+     "mpg_season": 21.029,
+     "counts_if_out": true
     },
     {
      "id": 1643007,
@@ -5479,7 +6021,8 @@
      "value": 5.085,
      "mpg_recent": 19.3,
      "glue": 0.145,
-     "mpg_season": 14.968
+     "mpg_season": 14.968,
+     "counts_if_out": true
     },
     {
      "id": 1642868,
@@ -5488,7 +6031,8 @@
      "value": 5.065,
      "mpg_recent": 15.7,
      "glue": -0.275,
-     "mpg_season": 11.985
+     "mpg_season": 11.985,
+     "counts_if_out": true
     },
     {
      "id": 1642357,
@@ -5497,7 +6041,8 @@
      "value": 3.264,
      "mpg_recent": 6.6,
      "glue": 0.0,
-     "mpg_season": 7.222
+     "mpg_season": 7.222,
+     "counts_if_out": true
     },
     {
      "id": 1629162,
@@ -5506,7 +6051,8 @@
      "value": 2.27,
      "mpg_recent": 7.7,
      "glue": 0.953,
-     "mpg_season": 8.29
+     "mpg_season": 8.29,
+     "counts_if_out": true
     },
     {
      "id": 1642013,
@@ -5515,7 +6061,8 @@
      "value": 1.943,
      "mpg_recent": 15.143,
      "glue": -0.342,
-     "mpg_season": 15.286
+     "mpg_season": 15.286,
+     "counts_if_out": true
     },
     {
      "id": 1631399,
@@ -5524,7 +6071,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642930,
@@ -5533,7 +6081,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643542,
@@ -5542,7 +6091,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643576,
@@ -5551,7 +6101,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643551,
@@ -5560,7 +6111,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643519,
@@ -5569,7 +6121,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -5600,7 +6153,8 @@
      "value": 22.88,
      "mpg_recent": 30.8,
      "glue": 0.524,
-     "mpg_season": 32.077
+     "mpg_season": 32.077,
+     "counts_if_out": true
     },
     {
      "id": 1630567,
@@ -5609,7 +6163,8 @@
      "value": 16.085,
      "mpg_recent": 30.3,
      "glue": 0.399,
-     "mpg_season": 33.513
+     "mpg_season": 33.513,
+     "counts_if_out": true
     },
     {
      "id": 1629628,
@@ -5618,7 +6173,8 @@
      "value": 15.325,
      "mpg_recent": 31.5,
      "glue": -0.314,
-     "mpg_season": 30.281
+     "mpg_season": 30.281,
+     "counts_if_out": true
     },
     {
      "id": 1630193,
@@ -5627,7 +6183,8 @@
      "value": 13.315,
      "mpg_recent": 28.3,
      "glue": -0.387,
-     "mpg_season": 31.871
+     "mpg_season": 31.871,
+     "counts_if_out": true
     },
     {
      "id": 1627751,
@@ -5636,7 +6193,8 @@
      "value": 11.88,
      "mpg_recent": 23.0,
      "glue": 0.878,
-     "mpg_season": 24.978
+     "mpg_season": 24.978,
+     "counts_if_out": true
     },
     {
      "id": 1642867,
@@ -5645,7 +6203,8 @@
      "value": 10.29,
      "mpg_recent": 19.9,
      "glue": 0.568,
-     "mpg_season": 21.86
+     "mpg_season": 21.86,
+     "counts_if_out": true
     },
     {
      "id": 1642266,
@@ -5654,7 +6213,8 @@
      "value": 9.205,
      "mpg_recent": 28.6,
      "glue": 0.003,
-     "mpg_season": 20.472
+     "mpg_season": 20.472,
+     "counts_if_out": true
     },
     {
      "id": 1641869,
@@ -5663,7 +6223,8 @@
      "value": 8.26,
      "mpg_recent": 26.6,
      "glue": -0.25,
-     "mpg_season": 23.933
+     "mpg_season": 23.933,
+     "counts_if_out": true
     },
     {
      "id": 1642347,
@@ -5672,7 +6233,8 @@
      "value": 6.52,
      "mpg_recent": 25.6,
      "glue": -0.059,
-     "mpg_season": 22.585
+     "mpg_season": 22.585,
+     "counts_if_out": true
     },
     {
      "id": 203937,
@@ -5681,7 +6243,8 @@
      "value": 6.105,
      "mpg_recent": 21.0,
      "glue": 0.306,
-     "mpg_season": 19.837
+     "mpg_season": 19.837,
+     "counts_if_out": true
     },
     {
      "id": 1642419,
@@ -5690,7 +6253,8 @@
      "value": 2.47,
      "mpg_recent": 7.2,
      "glue": -0.825,
-     "mpg_season": 9.86
+     "mpg_season": 9.86,
+     "counts_if_out": true
     },
     {
      "id": 1631218,
@@ -5699,7 +6263,8 @@
      "value": 2.22,
      "mpg_recent": 5.1,
      "glue": 0.592,
-     "mpg_season": 10.02
+     "mpg_season": 10.02,
+     "counts_if_out": true
     },
     {
      "id": 1642918,
@@ -5708,7 +6273,8 @@
      "value": 1.84,
      "mpg_recent": 4.8,
      "glue": 0.0,
-     "mpg_season": 8.5
+     "mpg_season": 8.5,
+     "counts_if_out": true
     },
     {
      "id": 1641998,
@@ -5717,7 +6283,8 @@
      "value": 0.925,
      "mpg_recent": 7.1,
      "glue": 0.752,
-     "mpg_season": 7.0
+     "mpg_season": 7.0,
+     "counts_if_out": true
     },
     {
      "id": 1642935,
@@ -5726,7 +6293,8 @@
      "value": -1.65,
      "mpg_recent": 6.5,
      "glue": 0.0,
-     "mpg_season": 6.5
+     "mpg_season": 6.5,
+     "counts_if_out": true
     },
     {
      "id": 1642615,
@@ -5735,7 +6303,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642927,
@@ -5744,7 +6313,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643091,
@@ -5753,7 +6323,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643718,
@@ -5762,7 +6333,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643558,
@@ -5771,7 +6343,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643512,
@@ -5780,7 +6353,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -5811,7 +6385,8 @@
      "value": 19.44,
      "mpg_recent": 29.2,
      "glue": -0.006,
-     "mpg_season": 34.357
+     "mpg_season": 34.357,
+     "counts_if_out": true
     },
     {
      "id": 1641718,
@@ -5820,7 +6395,8 @@
      "value": 17.045,
      "mpg_recent": 27.0,
      "glue": -0.567,
-     "mpg_season": 33.453
+     "mpg_season": 33.453,
+     "counts_if_out": true
     },
     {
      "id": 1628991,
@@ -5829,7 +6405,8 @@
      "value": 15.105,
      "mpg_recent": 29.6,
      "glue": 0.26,
-     "mpg_season": 30.312
+     "mpg_season": 30.312,
+     "counts_if_out": true
     },
     {
      "id": 203994,
@@ -5838,7 +6415,8 @@
      "value": 14.595,
      "mpg_recent": 28.4,
      "glue": 1.076,
-     "mpg_season": 26.415
+     "mpg_season": 26.415,
+     "counts_if_out": true
     },
     {
      "id": 1642268,
@@ -5847,7 +6425,8 @@
      "value": 14.525,
      "mpg_recent": 26.7,
      "glue": -0.808,
-     "mpg_season": 26.214
+     "mpg_season": 26.214,
+     "counts_if_out": true
     },
     {
      "id": 1642271,
@@ -5856,7 +6435,8 @@
      "value": 14.14,
      "mpg_recent": 26.8,
      "glue": 0.344,
-     "mpg_season": 23.645
+     "mpg_season": 23.645,
+     "counts_if_out": true
     },
     {
      "id": 1641729,
@@ -5865,7 +6445,8 @@
      "value": 13.295,
      "mpg_recent": 30.0,
      "glue": -0.358,
-     "mpg_season": 24.493
+     "mpg_season": 24.493,
+     "counts_if_out": true
     },
     {
      "id": 1642846,
@@ -5874,7 +6455,8 @@
      "value": 11.725,
      "mpg_recent": 31.7,
      "glue": -0.425,
-     "mpg_season": 27.611
+     "mpg_season": 27.611,
+     "counts_if_out": true
     },
     {
      "id": 1629637,
@@ -5883,7 +6465,8 @@
      "value": 9.51,
      "mpg_recent": 22.2,
      "glue": 0.572,
-     "mpg_season": 18.288
+     "mpg_season": 18.288,
+     "counts_if_out": true
     },
     {
      "id": 1642396,
@@ -5892,7 +6475,8 @@
      "value": 8.986,
      "mpg_recent": 21.1,
      "glue": -0.334,
-     "mpg_season": 20.357
+     "mpg_season": 20.357,
+     "counts_if_out": true
     },
     {
      "id": 1629004,
@@ -5901,7 +6485,8 @@
      "value": 7.245,
      "mpg_recent": 19.5,
      "glue": 0.089,
-     "mpg_season": 23.388
+     "mpg_season": 23.388,
+     "counts_if_out": true
     },
     {
      "id": 1628964,
@@ -5910,7 +6495,8 @@
      "value": 4.575,
      "mpg_recent": 12.5,
      "glue": 0.227,
-     "mpg_season": 11.0
+     "mpg_season": 11.0,
+     "counts_if_out": true
     },
     {
      "id": 1629006,
@@ -5919,7 +6505,8 @@
      "value": 2.835,
      "mpg_recent": 13.0,
      "glue": 0.332,
-     "mpg_season": 18.027
+     "mpg_season": 18.027,
+     "counts_if_out": true
     },
     {
      "id": 1641725,
@@ -5928,7 +6515,8 @@
      "value": 2.385,
      "mpg_recent": 11.7,
      "glue": 0.034,
-     "mpg_season": 13.625
+     "mpg_season": 13.625,
+     "counts_if_out": true
     },
     {
      "id": 1630182,
@@ -5937,7 +6525,8 @@
      "value": 1.965,
      "mpg_recent": 10.5,
      "glue": 0.04,
-     "mpg_season": 16.491
+     "mpg_season": 16.491,
+     "counts_if_out": true
     },
     {
      "id": 1631127,
@@ -5946,7 +6535,8 @@
      "value": 1.55,
      "mpg_recent": 5.0,
      "glue": 2.689,
-     "mpg_season": 3.5
+     "mpg_season": 3.5,
+     "counts_if_out": true
     },
     {
      "id": 1641917,
@@ -5955,7 +6545,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643265,
@@ -5964,7 +6555,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1642926,
@@ -5973,7 +6565,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643408,
@@ -5982,7 +6575,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   },
@@ -6013,7 +6607,8 @@
      "value": 17.48,
      "mpg_recent": 33.3,
      "glue": 0.476,
-     "mpg_season": 31.3
+     "mpg_season": 31.3,
+     "counts_if_out": true
     },
     {
      "id": 1629027,
@@ -6022,7 +6617,8 @@
      "value": 16.96,
      "mpg_recent": 24.3,
      "glue": -0.336,
-     "mpg_season": 25.6
+     "mpg_season": 25.6,
+     "counts_if_out": true
     },
     {
      "id": 1642259,
@@ -6031,7 +6627,8 @@
      "value": 11.73,
      "mpg_recent": 21.8,
      "glue": 0.512,
-     "mpg_season": 27.188
+     "mpg_season": 27.188,
+     "counts_if_out": true
     },
     {
      "id": 1642860,
@@ -6040,7 +6637,8 @@
      "value": 11.495,
      "mpg_recent": 32.6,
      "glue": -0.564,
-     "mpg_season": 23.662
+     "mpg_season": 23.662,
+     "counts_if_out": true
     },
     {
      "id": 1629028,
@@ -6049,7 +6647,8 @@
      "value": 11.45,
      "mpg_recent": 24.8,
      "glue": 0.248,
-     "mpg_season": 27.194
+     "mpg_season": 27.194,
+     "counts_if_out": true
     },
     {
      "id": 1641731,
@@ -6058,7 +6657,8 @@
      "value": 11.215,
      "mpg_recent": 24.8,
      "glue": -0.181,
-     "mpg_season": 26.214
+     "mpg_season": 26.214,
+     "counts_if_out": true
     },
     {
      "id": 1642273,
@@ -6067,7 +6667,8 @@
      "value": 10.62,
      "mpg_recent": 20.1,
      "glue": 0.23,
-     "mpg_season": 28.979
+     "mpg_season": 28.979,
+     "counts_if_out": true
     },
     {
      "id": 1630551,
@@ -6076,7 +6677,8 @@
      "value": 10.22,
      "mpg_recent": 24.0,
      "glue": 0.169,
-     "mpg_season": 20.773
+     "mpg_season": 20.773,
+     "counts_if_out": true
     },
     {
      "id": 1642267,
@@ -6085,7 +6687,8 @@
      "value": 9.72,
      "mpg_recent": 27.9,
      "glue": -0.841,
-     "mpg_season": 27.852
+     "mpg_season": 27.852,
+     "counts_if_out": true
     },
     {
      "id": 1630264,
@@ -6094,7 +6697,8 @@
      "value": 8.98,
      "mpg_recent": 31.0,
      "glue": 0.303,
-     "mpg_season": 20.196
+     "mpg_season": 20.196,
+     "counts_if_out": true
     },
     {
      "id": 1641774,
@@ -6103,7 +6707,8 @@
      "value": 8.945,
      "mpg_recent": 17.5,
      "glue": 0.667,
-     "mpg_season": 14.149
+     "mpg_season": 14.149,
+     "counts_if_out": true
     },
     {
      "id": 1642364,
@@ -6112,7 +6717,8 @@
      "value": 8.54,
      "mpg_recent": 24.7,
      "glue": 0.343,
-     "mpg_season": 21.061
+     "mpg_season": 21.061,
+     "counts_if_out": true
     },
     {
      "id": 203114,
@@ -6121,7 +6727,8 @@
      "value": 5.185,
      "mpg_recent": 17.4,
      "glue": -0.273,
-     "mpg_season": 23.113
+     "mpg_season": 23.113,
+     "counts_if_out": true
     },
     {
      "id": 1642848,
@@ -6130,7 +6737,8 @@
      "value": 4.71,
      "mpg_recent": 23.5,
      "glue": -0.531,
-     "mpg_season": 24.155
+     "mpg_season": 24.155,
+     "counts_if_out": true
     },
     {
      "id": 1627746,
@@ -6139,7 +6747,8 @@
      "value": 4.445,
      "mpg_recent": 9.8,
      "glue": 2.177,
-     "mpg_season": 12.667
+     "mpg_season": 12.667,
+     "counts_if_out": true
     },
     {
      "id": 1641736,
@@ -6148,7 +6757,8 @@
      "value": 2.755,
      "mpg_recent": 20.7,
      "glue": 0.098,
-     "mpg_season": 14.312
+     "mpg_season": 14.312,
+     "counts_if_out": true
     },
     {
      "id": 1630544,
@@ -6157,7 +6767,8 @@
      "value": 1.51,
      "mpg_recent": 4.6,
      "glue": -0.632,
-     "mpg_season": 14.767
+     "mpg_season": 14.767,
+     "counts_if_out": true
     },
     {
      "id": 1641753,
@@ -6166,7 +6777,8 @@
      "value": 1.51,
      "mpg_recent": 5.2,
      "glue": 0.982,
-     "mpg_season": 5.667
+     "mpg_season": 5.667,
+     "counts_if_out": true
     },
     {
      "id": 1631211,
@@ -6175,7 +6787,8 @@
      "value": 0.327,
      "mpg_recent": 2.1,
      "glue": 0.0,
-     "mpg_season": 3.0
+     "mpg_season": 3.0,
+     "counts_if_out": true
     },
     {
      "id": 1643407,
@@ -6184,7 +6797,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     },
     {
      "id": 1643590,
@@ -6193,7 +6807,8 @@
      "value": null,
      "mpg_recent": null,
      "glue": null,
-     "mpg_season": null
+     "mpg_season": null,
+     "counts_if_out": true
     }
    ]
   }

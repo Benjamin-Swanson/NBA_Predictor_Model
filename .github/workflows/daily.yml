@@ -1,0 +1,37 @@
+# Refresh data and predictions twice a day, commit the results; Streamlit Cloud redeploys on push.
+name: daily predictions
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 11:00 ET (10:00 in winter): morning update
+    - cron: "0 22 * * *"   # 18:00 ET (17:00 in winter): closer to tip-off, fresher injury news
+  workflow_dispatch: {}      # "Run workflow" button in the Actions tab
+  push:
+    paths: [".github/workflows/daily.yml"]   # run once whenever this file changes (a quick test)
+
+permissions:
+  contents: write
+
+concurrency: daily-predictions
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Check stats.nba.com is reachable from GitHub's servers
+        run: curl -sS -m 60 -o /dev/null -w "stats.nba.com HTTP %{http_code} in %{time_total}s\n" -H "User-Agent: Mozilla/5.0" -H "Referer: https://www.nba.com/" "https://stats.nba.com/stats/scheduleleaguev2?LeagueID=00&Season=2026-27"
+      - run: python -m pipeline.predict_today
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/predictions.json data/team_state.json data/history data/raw
+          git diff --cached --quiet || git commit -m "Daily predictions $(date -u +%F)"
+          git push

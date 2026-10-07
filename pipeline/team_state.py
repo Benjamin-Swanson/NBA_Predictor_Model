@@ -31,6 +31,20 @@ def build() -> dict:
     glue = glue_index.build()[0].sort_values("DATE_TO").groupby("PLAYER_ID")[["GLUE", "MPG"]].last()
     pv = pv.join(glue.rename(columns={"GLUE": "glue", "MPG": "mpg_season"}), how="outer")
 
+    # Training counted an absent player as "missing" only if they'd played for the team in its last 10 games
+    # this season. Same rule here, except before a team's 10th game every rotation player counts
+    # (training saw ~no early-season absences; a star out on opening night clearly matters).
+    cur = pl[pl["SEASON_ID"].astype(str).str[1:] == CURRENT_SEASON[:4]]
+    cur_tg = tg[tg["SEASON"] == int(CURRENT_SEASON[:4])]
+
+    def counts_if_out(player_id: int, team_id: int) -> bool:
+        team_dates = cur_tg.loc[cur_tg["TEAM_ID"] == team_id, "GAME_DATE"]
+        if len(team_dates) < availability.ROSTER_GAMES:
+            return True
+        cutoff = team_dates.sort_values().iloc[-availability.ROSTER_GAMES]
+        mine = cur.loc[(cur["PLAYER_ID"] == player_id) & (cur["TEAM_ID"] == team_id), "GAME_DATE"]
+        return bool(len(mine) and mine.max() >= cutoff)
+
     rosters = current_rosters()
     state = {"as_of": f"{tg['GAME_DATE'].max():%Y-%m-%d}", "season": CURRENT_SEASON, "teams": {}}
     for abbr, ros in rosters.groupby("TEAM_ABBREVIATION"):
@@ -45,7 +59,8 @@ def build() -> dict:
             num = lambda k: None if v is None or pd.isna(v[k]) else round(float(v[k]), 3)  # noqa: E731
             players.append({"id": int(r.PLAYER_ID), "name": r.PLAYER, "pos": r.POSITION,
                             "value": num("value"), "mpg_recent": num("mpg_recent"),
-                            "glue": num("glue"), "mpg_season": num("mpg_season")})
+                            "glue": num("glue"), "mpg_season": num("mpg_season"),
+                            "counts_if_out": counts_if_out(r.PLAYER_ID, team_id)})
         players.sort(key=lambda p: -(p["value"] or -99))
         state["teams"][abbr] = {
             "id": team_id, "name": ros["TEAM_NAME"].iloc[0], "elo": round(elo, 1),

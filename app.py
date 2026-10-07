@@ -2,6 +2,9 @@
 
 Run:  streamlit run app.py      (opens http://localhost:8501)
 """
+import json
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -25,10 +28,41 @@ GROUP_LABELS = {"elo": "Team rating (Elo)", "availability": "Players out", "glue
 REST = {"Back-to-back": 1, "1 day off": 2, "2+ days off": 3}
 
 st.title("🏀 NBA Predictor")
-st.caption(f"Win chances and projected scores for any matchup · {state['season']} rosters · "
+st.caption(f"Win chances and projected scores for every game · {state['season']} rosters · "
            f"team ratings through {state['as_of']}")
 
-tab_match, tab_ratings, tab_record, tab_how = st.tabs(["Try a matchup", "Power ratings", "Track record", "How it works"])
+tab_today, tab_match, tab_ratings, tab_record, tab_how = st.tabs(
+    ["Games", "Try a matchup", "Power ratings", "Track record", "How it works"])
+
+# ---------------------------------------------------------------- scheduled games
+with tab_today:
+    pred_path = Path("data/predictions.json")
+    preds = json.loads(pred_path.read_text()) if pred_path.exists() else None
+    if not preds or not preds["games"]:
+        st.info("No upcoming games found yet. Predictions appear here once the schedule is out.")
+    else:
+        day = pd.Timestamp(preds["date"])
+        st.subheader(f"{day:%A, %B} {day.day}")
+        st.caption(f"Updated {pd.Timestamp(preds['generated_at']).tz_convert('America/New_York'):%b %d, %I:%M %p} ET · "
+                   "injuries from ESPN · players listed Out are removed, Day-To-Day assumed to play")
+        for g in preds["games"]:
+            with st.container(border=True):
+                p_home = g["home_win_prob"]
+                c0, c1, c2, c3 = st.columns([1.2, 2, 2, 2])
+                c0.markdown(f"**{g['tip_et']}**  \n{g['arena']}" + ("  \n*neutral site*" if g["neutral"] else ""))
+                c1.metric(g["away_name"], f"{1 - p_home:.0%}", f"projected {g['away_pts']:.0f}", delta_color="off")
+                c1.progress(1 - p_home)
+                c2.metric(g["home_name"], f"{p_home:.0%}", f"projected {g['home_pts']:.0f}", delta_color="off")
+                c2.progress(p_home)
+                fav = g["home"] if p_home >= 0.5 else g["away"]
+                c3.markdown(f"**{fav} by {abs(g['home_pts'] - g['away_pts']):.1f}**  \n"
+                            f"Total {g['total_mean']:.0f} (90%: {g['total_pct']['5']:.0f}–{g['total_pct']['95']:.0f})  \n"
+                            f"Rest: {g['away']} {g['rest_away']}d · {g['home']} {g['rest_home']}d")
+                inj = [f"{'🔴' if i['out'] else '🟡'} {i['name']} ({team}, {i['status']})"
+                       for team, key in ((g["away"], "injuries_away"), (g["home"], "injuries_home")) for i in g[key]]
+                if inj:
+                    with st.expander(f"Injury report ({len(inj)})"):
+                        st.markdown("  \n".join(inj))
 
 # ---------------------------------------------------------------- matchup
 with tab_match:

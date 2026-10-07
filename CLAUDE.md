@@ -72,3 +72,11 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 - Headline win prob = simulation (points model), so prob, score and margin agree. Logistic gives the "why" breakdown. The two differ by 2.6 pts median on test games.
 - `streamlit run app.py`: tabs Try a matchup / Power ratings / Track record / How it works. Never calls nba_api.
 - Known limit: team ratings are last season's until 2026-27 games are ingested (step 8).
+
+## Daily pipeline (step 8)
+- `python -m pipeline.predict_today [--date YYYY-MM-DD]`: refresh current-season logs (if >6h old), weekly hustle snapshot, rosters, schedule (`ScheduleLeagueV2`, game IDs `002…` only), ESPN injuries → `data/team_state.json`, `data/predictions.json`, `data/history/predictions_<date>.json`. Default date = next game day on/after today (US Eastern).
+- Injuries (`features/injuries.py`, swappable): "Out"/"Doubtful" = missing; "Day-To-Day" shown but assumed to play. Teams matched by nickname (ESPN "LA Clippers").
+- Missing-player rule matches training (played for the team in its last 10 games this season), except before a team's 10th game, when every rotation player counts.
+- Rest / 3-in-4 come from the schedule. Empty current season is handled (`_concat` skips empty frames).
+- GitHub Actions `.github/workflows/daily.yml`: 15:00 + 22:00 UTC, commits results. Historical raw data is committed so the job never re-downloads it.
+- Season rollover: bump `CURRENT_SEASON` + `SEASONS` in fetch_data.py and the season in .gitignore. Retrain (`features.build` → `models.train`) monthly, not in the daily job.

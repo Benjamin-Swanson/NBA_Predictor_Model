@@ -1,0 +1,244 @@
+{
+ "generated_at": "2026-10-07T20:07:18+00:00",
+ "date": "2026-10-20",
+ "ratings_through": "2026-04-12",
+ "unmatched_injuries": [],
+ "games": [
+  {
+   "game_id": "0022600001",
+   "tip_utc": "2026-10-20T19:00:00Z",
+   "tip_et": "3:00 pm ET",
+   "arena": "Little Caesars Arena, Detroit",
+   "home": "DET",
+   "away": "BOS",
+   "neutral": false,
+   "home_name": "Detroit Pistons",
+   "away_name": "Boston Celtics",
+   "home_win_prob": 0.6332,
+   "home_pts": 117.4,
+   "away_pts": 112.9,
+   "margin_pct": {
+    "5": -18.5,
+    "25": -4.6,
+    "50": 4.7,
+    "75": 13.9,
+    "95": 27.0
+   },
+   "total_mean": 230.4,
+   "total_pct": {
+    "5": 200.4,
+    "25": 218.1,
+    "50": 230.4,
+    "75": 242.8,
+    "95": 260.4
+   },
+   "rest_home": 7,
+   "rest_away": 7,
+   "injuries_home": [
+    {
+     "name": "Jalen Duren",
+     "status": "Day-To-Day",
+     "note": "Duren (rest) is expected to play at some point this preseason, per Hunter Patterson of The Athletic.",
+     "out": false
+    }
+   ],
+   "injuries_away": []
+  },
+  {
+   "game_id": "0022600002",
+   "tip_utc": "2026-10-20T23:00:00Z",
+   "tip_et": "7:00 pm ET",
+   "arena": "Madison Square Garden, New York",
+   "home": "NYK",
+   "away": "PHI",
+   "neutral": false,
+   "home_name": "New York Knicks",
+   "away_name": "Philadelphia 76ers",
+   "home_win_prob": 0.7235,
+   "home_pts": 119.4,
+   "away_pts": 111.4,
+   "margin_pct": {
+    "5": -15.0,
+    "25": -1.1,
+    "50": 8.2,
+    "75": 17.4,
+    "95": 30.5
+   },
+   "total_mean": 231.0,
+   "total_pct": {
+    "5": 200.9,
+    "25": 218.7,
+    "50": 231.0,
+    "75": 243.4,
+    "95": 260.9
+   },
+   "rest_home": 7,
+   "rest_away": 7,
+   "injuries_home": [
+    {
+     "name": "Jose Alvarado",
+     "status": "Day-To-Day",
+     "note": "Alvarado (knee) won't play in Monday's preseason game against the 76ers, Steve Popper of Newsday reports.",
+     "out": false
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Dominick Barlow",
+     "status": "Day-To-Day",
+     "note": "Barlow (back) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN.com reports.",
+     "out": false
+    },
+    {
+     "name": "Anfernee Simons",
+     "status": "Day-To-Day",
+     "note": "Simons (right hamstring) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN reports.",
+     "out": false
+    },
+    {
+     "name": "Adem Bona",
+     "status": "Day-To-Day",
+     "note": "Bona (left foot) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN.com reports.",
+     "out": false
+    },
+    {
+     "name": "Ariel Hukporti",
+     "status": "Out",
+     "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
+     "out": true
+    },
+    {
+     "name": "Tyrese Maxey",
+     "status": "Day-To-Day",
+     "note": "Maxey (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "out": false
+    },
+    {
+     "name": "LeBron James",
+     "status": "Day-To-Day",
+     "note": "James (rest) has been ruled out for Monday's game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "out": false
+    },
+    {
+     "name": "Joel Embiid",
+     "status": "Day-To-Day",
+     "note": "Embiid (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
+     "out": false
+    },
+    {
+     "name": "Tacko Fall",
+     "status": "Day-To-Day",
+     "note": "Fall was diagnosed with a left hip strain Thursday and will miss at least two weeks, Kyle Neubeck of AllPHLY.com reports.",
+     "out": false
+    }
+   ]
+  },
+  {
+   "game_id": "0022600003",
+   "tip_utc": "2026-10-21T01:30:00Z",
+   "tip_et": "9:30 pm ET",
+   "arena": "Frost Bank Center, San Antonio",
+   "home": "SAS",
+   "away": "OKC",
+   "neutral": false,
+   "home_name": "San Antonio Spurs",
+   "away_name": "Oklahoma City Thunder",
+   "home_win_prob": 0.5815,
+   "home_pts": 120.1,
+   "away_pts": 117.5,
+   "margin_pct": {
+    "5": -20.4,
+    "25": -6.5,
+    "50": 2.8,
+    "75": 11.9,
+    "95": 25.0
+   },
+   "total_mean": 237.7,
+   "total_pct": {
+    "5": 207.6,
+    "25": 225.4,
+    "50": 237.7,
+    "75": 250.1,
+    "95": 267.6
+   },
+   "rest_home": 7,
+   "rest_away": 7,
+   "injuries_home": [
+    {
+     "name": "Jayden Quaintance",
+     "status": "Out",
+     "note": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
+     "out": true
+    },
+    {
+     "name": "Tobias Harris",
+     "status": "Day-To-Day",
+     "note": "Spurs head coach Mitch Johnson said they will not rush Tobias Harris (calf) back to the court, Jared Weiss of The Athletic reports.",
+     "out": false
+    },
+    {
+     "name": "David Jones Garcia",
+     "status": "Day-To-Day",
+     "note": "Jones Garcia (ankle) agreed to a two-way contract with the Spurs on Wednesday, per Michael Scotto of HoopsHype.com.",
+     "out": false
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Jaylin Williams",
+     "status": "Day-To-Day",
+     "note": "Williams (heel) won't play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Thomas Sorber",
+     "status": "Day-To-Day",
+     "note": "Sorber (knee) will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Nikola Topi\u0107",
+     "status": "Day-To-Day",
+     "note": "Topic (back) will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Cason Wallace",
+     "status": "Day-To-Day",
+     "note": "Wallace will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Alex Caruso",
+     "status": "Day-To-Day",
+     "note": "Caruso will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Chet Holmgren",
+     "status": "Day-To-Day",
+     "note": "Holmgren (rest) will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Isaiah Hartenstein",
+     "status": "Day-To-Day",
+     "note": "Hartenstein (rest) will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Jalen Williams",
+     "status": "Day-To-Day",
+     "note": "Williams (not injury related) is out for Tuesday's preseason game against the Pelicans, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Shai Gilgeous-Alexander",
+     "status": "Day-To-Day",
+     "note": "Gilgeous-Alexander will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "out": false
+    }
+   ]
+  }
+ ]
+}

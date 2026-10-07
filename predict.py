@@ -21,22 +21,23 @@ def load():
     return json.loads((ROOT / "data" / "team_state.json").read_text()), joblib.load(ROOT / "models" / "model.joblib")
 
 
-def team_levels(team: dict, out_ids=(), rest: int = 2) -> dict:
+def team_levels(team: dict, out_ids=(), rest: int = 2, g3in4: int = 0) -> dict:
     out_ids = set(out_ids)
-    missing = [p["value"] for p in team["players"] if p["id"] in out_ids
+    missing = [p["value"] for p in team["players"] if p["id"] in out_ids and p.get("counts_if_out", True)
                and p["value"] is not None and (p["mpg_recent"] or 0) >= MIN_MPG]
     avail = [p for p in team["players"] if p["id"] not in out_ids and p["glue"] is not None and p["mpg_season"]]
     top = sorted(avail, key=lambda p: -p["mpg_season"])[:GLUE_TOP_N]
     glue = sum(p["mpg_season"] * p["glue"] for p in top) / sum(p["mpg_season"] for p in top) if top else 0.0
     lv = {f"R10_{k}": v for k, v in team["recent"].items()}
-    lv.update(ELO=team["elo"], REST=min(rest, 7), B2B=int(rest == 1), G3IN4=0,
+    lv.update(ELO=team["elo"], REST=min(rest, 7), B2B=int(rest == 1), G3IN4=g3in4,
               MISSING_GMSC=sum(missing), MISSING_TOP=max(missing, default=0.0), MISSING_N=len(missing), GLUE=glue)
     return lv
 
 
-def feature_row(state, home, away, out_home=(), out_away=(), rest_home=2, rest_away=2, neutral=False) -> pd.DataFrame:
-    h = team_levels(state["teams"][home], out_home, rest_home)
-    a = team_levels(state["teams"][away], out_away, rest_away)
+def feature_row(state, home, away, out_home=(), out_away=(), rest_home=2, rest_away=2, neutral=False,
+                g3in4_home=0, g3in4_away=0) -> pd.DataFrame:
+    h = team_levels(state["teams"][home], out_home, rest_home, g3in4_home)
+    a = team_levels(state["teams"][away], out_away, rest_away, g3in4_away)
     row = {"NEUTRAL": int(neutral)}
     for k in h:
         row[f"{k}_H"], row[f"{k}_A"], row[f"D_{k}"] = h[k], a[k], h[k] - a[k]
@@ -51,8 +52,8 @@ def why(art, x: pd.DataFrame) -> pd.Series:
 
 
 def predict_matchup(state, art, home, away, out_home=(), out_away=(), rest_home=2, rest_away=2,
-                    neutral=False, n=10_000, keep_draws=False) -> dict:
-    x = feature_row(state, home, away, out_home, out_away, rest_home, rest_away, neutral)
+                    neutral=False, n=10_000, keep_draws=False, g3in4_home=0, g3in4_away=0) -> dict:
+    x = feature_row(state, home, away, out_home, out_away, rest_home, rest_away, neutral, g3in4_home, g3in4_away)
     mu_h = float(art["points"]["H"]["model"].predict(x[art["points_cols"]])[0])
     mu_a = float(art["points"]["A"]["model"].predict(x[art["points_cols"]])[0])
     sim = simulate(mu_h, art["points"]["H"]["sigma"], mu_a, art["points"]["A"]["sigma"], n=n,
