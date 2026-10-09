@@ -1,0 +1,27 @@
+# Season simulation knobs, tuned by `python -m season.backtest` on 2016-17..2025-26 (minus 2019-20).
+# Results are in data/season_backtest.json. Re-run the backtest after changing anything here.
+
+n_sims = 10000
+seed = 0
+
+# Single-game win probability = Elo logistic with this home edge (60 = best on training seasons, game model)
+home_elo = 60.0
+
+# Offseason: fraction of the gap to the league mean (1505) each team gives back.
+# Tried 0.15-0.50; 0.33 best preseason win error (0.25 and 0.40 within 0.05 wins).
+regression = 0.33
+
+# Roster changes: Elo points per point of change in top-8 player value (Game Score per game).
+# Tried 0-8: 0 → 7.57 preseason win MAE, 3 → 7.10, 4 → 7.10, 6 → 7.39. Kept 3 (flat optimum, and the
+# backtest's "new roster" leaks a little, so the true benefit is probably somewhat smaller).
+# Also used for long-term injuries (out > 2 weeks) in the live season sim.
+roster_k = 3.0
+roster_fade_games = 30
+
+# Rating uncertainty: each simulated season shifts every team by Normal(0, sd),
+# sd = noise_preseason / sqrt(1 + games_played / noise_half_games).
+# 75: 10-90% win ranges contain the real total 78% of the time (target 80%), best playoff log loss.
+#     (0 noise: 51% coverage, i.e. badly overconfident.)
+# 40: in-season coverage 80%, best playoff log loss at ~20 and ~50 games in.
+noise_preseason = 75.0
+noise_half_games = 40.0

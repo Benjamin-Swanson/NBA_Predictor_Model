@@ -28,10 +28,12 @@ jobs:
       - name: Check stats.nba.com is reachable from GitHub's servers
         run: curl -sS -m 60 -o /dev/null -w "stats.nba.com HTTP %{http_code} in %{time_total}s\n" -H "User-Agent: Mozilla/5.0" -H "Referer: https://www.nba.com/" "https://stats.nba.com/stats/scheduleleaguev2?LeagueID=00&Season=2026-27"
       - run: python -m pipeline.predict_today
+      - run: python -m pipeline.simulate_season   # skips itself when no new games have finished
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/predictions.json data/team_state.json data/track_record.json data/history data/raw
+          git add data/predictions.json data/team_state.json data/track_record.json data/history data/raw \
+            data/season_outlook.json data/season_outlook_history.csv
           git diff --cached --quiet || git commit -m "Daily predictions $(date -u +%F)"
           git push

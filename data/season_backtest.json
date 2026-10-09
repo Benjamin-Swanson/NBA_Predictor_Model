@@ -1,0 +1,156 @@
+{
+ "seasons": [
+  "2016-17",
+  "2017-18",
+  "2018-19",
+  "2020-21",
+  "2021-22",
+  "2022-23",
+  "2023-24",
+  "2024-25",
+  "2025-26"
+ ],
+ "config": {
+  "regression": 0.33,
+  "roster_k": 3.0,
+  "noise_preseason": 75.0,
+  "noise_half_games": 40.0,
+  "home_elo": 60.0
+ },
+ "by_checkpoint": {
+  "preseason": {
+   "win_mae": 7.0741,
+   "win_cover_80": 0.7778,
+   "playoffs_ll": 0.5346,
+   "playoffs_brier": 0.1775,
+   "playin_ll": 0.5804,
+   "finals_ll": 0.2103,
+   "title_ll": 2.3203,
+   "champ_p": 0.1466
+  },
+  "g20": {
+   "win_mae": 5.1,
+   "win_cover_80": 0.8037,
+   "playoffs_ll": 0.4116,
+   "playoffs_brier": 0.1375,
+   "playin_ll": 0.5534,
+   "finals_ll": 0.2096,
+   "title_ll": 1.8323,
+   "champ_p": 0.2029
+  },
+  "g50": {
+   "win_mae": 2.8741,
+   "win_cover_80": 0.8,
+   "playoffs_ll": 0.2763,
+   "playoffs_brier": 0.0857,
+   "playin_ll": 0.4019,
+   "finals_ll": 0.1769,
+   "title_ll": 1.6018,
+   "champ_p": 0.2683
+  }
+ },
+ "naive_win_mae": 9.81,
+ "playoff_calibration": [
+  {
+   "bucket": "(-0.001, 0.1]",
+   "teams": 24,
+   "predicted": 0.058,
+   "actual": 0.042
+  },
+  {
+   "bucket": "(0.1, 0.3]",
+   "teams": 50,
+   "predicted": 0.202,
+   "actual": 0.26
+  },
+  {
+   "bucket": "(0.3, 0.5]",
+   "teams": 36,
+   "predicted": 0.401,
+   "actual": 0.333
+  },
+  {
+   "bucket": "(0.5, 0.7]",
+   "teams": 65,
+   "predicted": 0.607,
+   "actual": 0.6
+  },
+  {
+   "bucket": "(0.7, 0.9]",
+   "teams": 78,
+   "predicted": 0.801,
+   "actual": 0.833
+  },
+  {
+   "bucket": "(0.9, 1.0]",
+   "teams": 17,
+   "predicted": 0.946,
+   "actual": 0.824
+  }
+ ],
+ "per_season": [
+  {
+   "season": "2016-17",
+   "favorite": "Golden State Warriors",
+   "champion": "Golden State Warriors",
+   "champion_odds": 0.359,
+   "win_mae": 4.73
+  },
+  {
+   "season": "2017-18",
+   "favorite": "Golden State Warriors",
+   "champion": "Golden State Warriors",
+   "champion_odds": 0.323,
+   "win_mae": 6.2
+  },
+  {
+   "season": "2018-19",
+   "favorite": "Houston Rockets",
+   "champion": "Toronto Raptors",
+   "champion_odds": 0.099,
+   "win_mae": 6.47
+  },
+  {
+   "season": "2020-21",
+   "favorite": "Milwaukee Bucks",
+   "champion": "Milwaukee Bucks",
+   "champion_odds": 0.168,
+   "win_mae": 6.63
+  },
+  {
+   "season": "2021-22",
+   "favorite": "Utah Jazz",
+   "champion": "Golden State Warriors",
+   "champion_odds": 0.021,
+   "win_mae": 7.47
+  },
+  {
+   "season": "2022-23",
+   "favorite": "Boston Celtics",
+   "champion": "Denver Nuggets",
+   "champion_odds": 0.025,
+   "win_mae": 6.07
+  },
+  {
+   "season": "2023-24",
+   "favorite": "Boston Celtics",
+   "champion": "Boston Celtics",
+   "champion_odds": 0.194,
+   "win_mae": 8.13
+  },
+  {
+   "season": "2024-25",
+   "favorite": "Boston Celtics",
+   "champion": "Oklahoma City Thunder",
+   "champion_odds": 0.063,
+   "win_mae": 8.5
+  },
+  {
+   "season": "2025-26",
+   "favorite": "LA Clippers",
+   "champion": "New York Knicks",
+   "champion_odds": 0.067,
+   "win_mae": 9.47
+  }
+ ]
+}

@@ -76,7 +76,7 @@ def add_pregame_features(tg: pd.DataFrame) -> pd.DataFrame:
     return tg
 
 
-def add_elo(tg: pd.DataFrame) -> pd.DataFrame:
+def add_elo(tg: pd.DataFrame, carry: float = ELO_CARRY) -> pd.DataFrame:
     """Pre-game Elo per team-game (FiveThirtyEight style, margin-of-victory multiplier)."""
     elo: dict[int, float] = {}
     last_season: dict[int, int] = {}
@@ -86,7 +86,7 @@ def add_elo(tg: pd.DataFrame) -> pd.DataFrame:
         a, b = g.TEAM_ID, g.OPP_TEAM_ID
         for t in (a, b):
             if t in last_season and last_season[t] != g.SEASON:
-                elo[t] = ELO_CARRY * elo[t] + (1 - ELO_CARRY) * ELO_MEAN
+                elo[t] = carry * elo[t] + (1 - carry) * ELO_MEAN
             last_season[t] = g.SEASON
         ea, eb = elo.get(a, ELO_MEAN), elo.get(b, ELO_MEAN)
         pre[(g.GAME_ID, a)], pre[(g.GAME_ID, b)] = ea, eb

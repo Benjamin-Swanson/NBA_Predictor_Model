@@ -6,5 +6,6 @@ data/processed/
 # Raw data IS committed (the cloud job needs history), except files re-fetched every run.
 # Update the season below when CURRENT_SEASON changes in pipeline/fetch_data.py.
 data/raw/*gamelog_2026-27.parquet
+data/raw/standings_2026-27.parquet
 data/raw/rosters_*.parquet
 data/raw/schedule_*.parquet

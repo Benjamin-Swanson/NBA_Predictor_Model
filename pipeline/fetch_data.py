@@ -8,7 +8,8 @@ from pathlib import Path
 
 import pandas as pd
 import requests
-from nba_api.stats.endpoints import commonteamroster, leaguegamelog, leaguehustlestatsplayer, scheduleleaguev2
+from nba_api.stats.endpoints import (commonteamroster, leaguegamelog, leaguehustlestatsplayer, leaguestandingsv3,
+                                     scheduleleaguev2)
 from nba_api.stats.static import teams
 
 RAW = Path(__file__).resolve().parent.parent / "data" / "raw"
@@ -91,6 +92,29 @@ def snapshot_dates(season: str) -> list[pd.Timestamp]:
 def all_hustle_snapshots() -> pd.DataFrame:
     return _concat(hustle_snapshot(s, d).assign(SEASON_STR=s, DATE_TO=d)
                    for s in HUSTLE_SEASONS for d in snapshot_dates(s))
+
+
+def standings(season: str, sleep: float = 1.5) -> pd.DataFrame:
+    """Official standings: conference, division, W/L, seed (PlayoffRank). Current season refreshed when stale."""
+    path = RAW / f"standings_{season}.parquet"
+    if (path.exists() and season != CURRENT_SEASON) or (season == CURRENT_SEASON and _fresh(path)):
+        return pd.read_parquet(path)
+    df = leaguestandingsv3.LeagueStandingsV3(season=season, timeout=60).get_data_frames()[0]
+    time.sleep(sleep)
+    df.to_parquet(path, index=False)
+    return df
+
+
+def postseason_log(season: str, kind: str = "Playoffs", sleep: float = 1.5) -> pd.DataFrame:
+    """Team rows for "Playoffs" (game id 004...) or "PlayIn" (005...) games. Completed seasons only."""
+    path = RAW / f"{kind.lower()}_gamelog_{season}.parquet"
+    if path.exists():
+        return pd.read_parquet(path)
+    df = leaguegamelog.LeagueGameLog(season=season, season_type_all_star=kind,
+                                     player_or_team_abbreviation="T", timeout=60).get_data_frames()[0]
+    time.sleep(sleep)
+    df.to_parquet(path, index=False)
+    return df
 
 
 def schedule() -> pd.DataFrame:
