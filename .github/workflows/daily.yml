@@ -1,13 +1,10 @@
-# Refresh data and predictions twice a day, commit the results; Streamlit Cloud redeploys on push.
-name: daily predictions
+# DISABLED SCHEDULE: tested 2026-10-09, stats.nba.com does not respond to GitHub's servers (60s timeout).
+# The daily job runs on the Mac instead: scripts/daily_local.sh via launchd (see CLAUDE.md).
+# Kept for a manual retry ("Run workflow" in the Actions tab) in case the NBA stops blocking cloud IPs.
+name: daily predictions (manual)
 
 on:
-  schedule:
-    - cron: "0 15 * * *"   # 11:00 ET (10:00 in winter): morning update
-    - cron: "0 22 * * *"   # 18:00 ET (17:00 in winter): closer to tip-off, fresher injury news
-  workflow_dispatch: {}      # "Run workflow" button in the Actions tab
-  push:
-    paths: [".github/workflows/daily.yml"]   # run once whenever this file changes (a quick test)
+  workflow_dispatch: {}
 
 permissions:
   contents: write

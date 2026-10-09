@@ -91,3 +91,8 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 - `season/backtest.py` (~6 min): tuned config.toml → regression 0.33, roster_k 3, noise 75 preseason / half-life 40 games. Preseason win MAE 7.1 (everyone-41: 9.8), 80% ranges cover 78%; ~20 games in 5.1; ~50 games in 2.9. Champion's avg preseason title odds 15% (uniform 3%). No playoff-strength bonus (optional, not built).
 - `python -m pipeline.simulate_season [--force]` → data/season_outlook.json + season_outlook_history.csv; skips (but stamps last_checked) when no new games. In the daily workflow.
 - App: `app.py` is now a router (st.navigation) → pages/1_Games.py, pages/2_Season_Outlook.py.
+
+## Automation (actual setup)
+- GitHub Actions can't reach stats.nba.com (tested 2026-10-09: 60s timeout), so `.github/workflows/daily.yml` is manual-only.
+- The Mac runs `scripts/daily_local.sh` via launchd (`~/Library/LaunchAgents/com.nbapredictor.daily.plist`) at 9:00 and 16:00 local (11am / 6pm ET): pull, predict_today, simulate_season, commit data, push → Streamlit Cloud redeploys. Missed runs (Mac asleep) fire on wake. Log: `logs/daily.log`.
+- Run now: `launchctl start com.nbapredictor.daily`. Disable: `launchctl unload ~/Library/LaunchAgents/com.nbapredictor.daily.plist`.
