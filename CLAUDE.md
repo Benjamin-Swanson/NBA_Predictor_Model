@@ -5,7 +5,8 @@ Predicts win probability, projected score and margin for each NBA game of the da
 ## Environment
 - Always `source venv/bin/activate` first (conda base is on by default; never pip install into it).
 - Run modules from the project root: `python -m pipeline.fetch_data`.
-- Folder name has a space: `cd ~/Desktop/"NBA Model"`.
+- Project lives at `~/Projects/NBA Model`; `~/Desktop/NBA Model` is a shortcut (symlink) to it. Moved 2026-10-09 because
+  macOS blocks launchd jobs from reading ~/Desktop. Folder name has a space: quote it.
 
 ## Hard rules
 - **No leakage**: a game's features use only data from before its tip-off. Rolling stats are shifted; nba_api filters use `date_to_nullable` = the day before the game.
@@ -94,5 +95,5 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 
 ## Automation (actual setup)
 - GitHub Actions can't reach stats.nba.com (tested 2026-10-09: 60s timeout), so `.github/workflows/daily.yml` is manual-only.
-- The Mac runs `scripts/daily_local.sh` via launchd (`~/Library/LaunchAgents/com.nbapredictor.daily.plist`) at 9:00 and 16:00 local (11am / 6pm ET): pull, predict_today, simulate_season, commit data, push → Streamlit Cloud redeploys. Missed runs (Mac asleep) fire on wake. Log: `logs/daily.log`.
+- The Mac runs `scripts/daily_local.sh` (real path, not the Desktop shortcut) via launchd (`~/Library/LaunchAgents/com.nbapredictor.daily.plist`) at 9:00 and 16:00 local (11am / 6pm ET): pull, predict_today, simulate_season, commit data, push → Streamlit Cloud redeploys. Missed runs (Mac asleep) fire on wake. Log: `logs/daily.log`.
 - Run now: `launchctl start com.nbapredictor.daily`. Disable: `launchctl unload ~/Library/LaunchAgents/com.nbapredictor.daily.plist`.

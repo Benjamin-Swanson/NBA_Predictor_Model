@@ -2,7 +2,7 @@
 # Daily update run by launchd on this Mac (stats.nba.com blocks GitHub's servers).
 # Refreshes predictions + season odds, then pushes them so the Streamlit site updates.
 set -e
-cd "$HOME/Desktop/NBA Model"
+cd "$(dirname "$0")/.."  # real path (~/Projects/NBA Model): launchd may not read ~/Desktop
 echo "=== $(date) ==="
 /usr/bin/git pull --rebase --autostash -q origin main
 venv/bin/python -m pipeline.predict_today
