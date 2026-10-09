@@ -2907,6 +2907,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1643141,
+     "name": "Jahmyl Telfort",
+     "pos": "G",
+     "value": -0.425,
+     "mpg_recent": 4.25,
+     "glue": 0.0,
+     "mpg_season": 3.667,
+     "counts_if_out": true
+    },
+    {
      "id": 1643413,
      "name": "Keaton Wagler",
      "pos": "G",
@@ -5608,16 +5618,6 @@
      "mpg_recent": 18.3,
      "glue": -0.221,
      "mpg_season": 21.656,
-     "counts_if_out": true
-    },
-    {
-     "id": 1641798,
-     "name": "Jaylen Martin",
-     "pos": "G",
-     "value": 3.694,
-     "mpg_recent": 22.2,
-     "glue": -0.886,
-     "mpg_season": 24.667,
      "counts_if_out": true
     },
     {

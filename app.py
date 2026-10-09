@@ -143,6 +143,34 @@ with tab_ratings:
 
 # ---------------------------------------------------------------- track record
 with tab_record:
+    st.subheader(f"This season ({state['season']})")
+    rec_path = Path("data/track_record.json")
+    rec = json.loads(rec_path.read_text()) if rec_path.exists() else {"n": 0}
+    if not rec["n"]:
+        st.info("Every prediction is saved before tip-off and graded after the final buzzer. "
+                "The live record starts with the first games of the season.")
+    else:
+        a, b, c, d = st.columns(4)
+        a.metric("Games graded", rec["n"])
+        b.metric("Picked the winner", f"{rec['accuracy']:.1%}")
+        c.metric("Avg. margin miss", f"{rec['margin_mae']:.1f} pts")
+        d.metric("Final margin inside 90% range", f"{rec['band_coverage']:.0%}")
+        st.caption(f"Log loss {rec['log_loss']:.3f}, Brier {rec['brier']:.3f} (lower is better; "
+                   "a coin flip scores 0.693 and 0.250).")
+        bk = pd.DataFrame(rec["buckets"]).rename(columns={"bucket": "Model confidence", "games": "Games",
+                                                          "predicted": "Expected win rate", "actual": "Actual win rate"})
+        st.dataframe(bk.style.format({"Expected win rate": "{:.0%}", "Actual win rate": "{:.0%}"}),
+                     hide_index=True, width="stretch")
+        st.caption("Honest percentages mean the favorite's actual win rate tracks the expected rate in each row.")
+        games = pd.DataFrame(rec["games"])
+        games["Result"] = np.where(games["correct"] == 1, "✅", "❌")
+        games["Game"] = games["away"] + " @ " + games["home"]
+        games["Pick"] = games["pick"] + " " + (games["confidence"] * 100).round().astype(int).astype(str) + "%"
+        st.dataframe(games.rename(columns={"date": "Date", "proj": "Projected", "final": "Final"})
+                     [["Date", "Game", "Pick", "Projected", "Final", "Result"]],
+                     hide_index=True, width="stretch", height=400)
+
+    st.subheader("Past seasons (held-out test)")
     res = art["results"]
     test = res[res["split"] == "test"].set_index("model")
     nice = {"elo": "Elo only", "logreg_minimal": "Simple model", "logreg_full": "Full model",

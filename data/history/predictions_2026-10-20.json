@@ -1,8 +1,10 @@
 {
- "generated_at": "2026-10-07T20:07:18+00:00",
+ "generated_at": "2026-10-09T18:50:45+00:00",
  "date": "2026-10-20",
  "ratings_through": "2026-04-12",
- "unmatched_injuries": [],
+ "unmatched_injuries": [
+  "Kylor Kelley (Miami Heat)"
+ ],
  "games": [
   {
    "game_id": "0022600001",
@@ -42,7 +44,57 @@
      "out": false
     }
    ],
-   "injuries_away": []
+   "injuries_away": [
+    {
+     "name": "Sam Hauser",
+     "status": "Day-To-Day",
+     "note": "Hauser (rest) is out for Thursday's preseason game against the Cavaliers, Sean Grande of NBC Sports Boston reports.",
+     "out": false
+    },
+    {
+     "name": "Ron Harper Jr.",
+     "status": "Day-To-Day",
+     "note": "Harper (undisclosed) won't play in Thursday's preseason game against the Cavaliers, Sean Grande of NBC Sports Boston reports.",
+     "out": false
+    },
+    {
+     "name": "Payton Pritchard",
+     "status": "Day-To-Day",
+     "note": "Pritchard (undisclosed) has been ruled out for Thursday's preseason game against the Cavaliers, Sean Grande of NBC Sports Boston reports.",
+     "out": false
+    },
+    {
+     "name": "Mitchell Robinson",
+     "status": "Day-To-Day",
+     "note": "Robinson (undisclosed) won't play in Thursday's preseason game against the Cavaliers, Sean Grande of NBC Sports Boston reports.",
+     "out": false
+    },
+    {
+     "name": "Neemias Queta",
+     "status": "Day-To-Day",
+     "note": "Queta (rest) isn't in line to play Thursday against Cleveland, Zack Cox of the Boston Herald reports.",
+     "out": false
+    },
+    {
+     "name": "Paul George",
+     "status": "Day-To-Day",
+     "note": "George (rest) isn't in line to play Thursday versus Cleveland, Zack Cox of the Boston Herald reports.",
+     "out": false
+    },
+    {
+     "name": "Jayson Tatum",
+     "status": "Day-To-Day",
+     "note": "Tatum (rest) isn't in line to play Thursday against Cleveland, Zack Cox of the Boston Herald reports.",
+     "out": false
+    },
+    {
+     "name": "Derrick White",
+     "status": "Day-To-Day",
+     "note": "White (rest) isn't in line to play Thursday against Cleveland, Zack Cox of the Boston Herald reports.",
+     "out": false
+    }
+   ],
+   "predicted_at": "2026-10-09T18:50:45+00:00"
   },
   {
    "game_id": "0022600002",
@@ -76,9 +128,27 @@
    "rest_away": 7,
    "injuries_home": [
     {
-     "name": "Jose Alvarado",
+     "name": "Kevin McCullar Jr.",
      "status": "Day-To-Day",
-     "note": "Alvarado (knee) won't play in Monday's preseason game against the 76ers, Steve Popper of Newsday reports.",
+     "note": "McCullar (undisclosed) won't play in Thursday's preseason game against the Wizards but is in line to suit up for Monday's preseason matchup with Minnesota, Stefan Bondy of The New York Post reports.",
+     "out": false
+    },
+    {
+     "name": "Tony Bradley",
+     "status": "Day-To-Day",
+     "note": "Bradley (rest) is not in line to play in Thursday's preseason game against Wizards, Stefan Bondy of The New York Post reports.",
+     "out": false
+    },
+    {
+     "name": "Ochai Agbaji",
+     "status": "Day-To-Day",
+     "note": "Agbaji (coach's decision) won't play in Thursday's preseason game against Washington, Stefan Bondy of The New York Post reports.",
+     "out": false
+    },
+    {
+     "name": "Drew Eubanks",
+     "status": "Day-To-Day",
+     "note": "Eubanks (rest) is not in line to play in Thursday's preseason game against Wizards, Stefan Bondy of The New York Post reports.",
      "out": false
     }
    ],
@@ -108,30 +178,13 @@
      "out": true
     },
     {
-     "name": "Tyrese Maxey",
-     "status": "Day-To-Day",
-     "note": "Maxey (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-     "out": false
-    },
-    {
-     "name": "LeBron James",
-     "status": "Day-To-Day",
-     "note": "James (rest) has been ruled out for Monday's game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-     "out": false
-    },
-    {
-     "name": "Joel Embiid",
-     "status": "Day-To-Day",
-     "note": "Embiid (rest) won't play in Monday's preseason game against the Knicks, Chris Hine of The Minnesota Star Tribune reports.",
-     "out": false
-    },
-    {
      "name": "Tacko Fall",
      "status": "Day-To-Day",
      "note": "Fall was diagnosed with a left hip strain Thursday and will miss at least two weeks, Kyle Neubeck of AllPHLY.com reports.",
      "out": false
     }
-   ]
+   ],
+   "predicted_at": "2026-10-09T18:50:45+00:00"
   },
   {
    "game_id": "0022600003",
@@ -165,6 +218,24 @@
    "rest_away": 7,
    "injuries_home": [
     {
+     "name": "Malik Williams",
+     "status": "Day-To-Day",
+     "note": "Williams (undisclosed) is out for Thursday's preseason game against the Hawks, Matt Guzman of SI.com reports.",
+     "out": false
+    },
+    {
+     "name": "De'Aaron Fox",
+     "status": "Day-To-Day",
+     "note": "Fox won't play in Thursday's preseason game against the Hawks due to soreness, Jeff McDonald of the San Antonio Express-News reports.",
+     "out": false
+    },
+    {
+     "name": "Maliq Brown",
+     "status": "Day-To-Day",
+     "note": "Brown (back) is out for Thursday's preseason game against the Hawks, Tom Orsborn of the San Antonio Express-News reports.",
+     "out": false
+    },
+    {
      "name": "Jayden Quaintance",
      "status": "Out",
      "note": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
@@ -175,70 +246,41 @@
      "status": "Day-To-Day",
      "note": "Spurs head coach Mitch Johnson said they will not rush Tobias Harris (calf) back to the court, Jared Weiss of The Athletic reports.",
      "out": false
-    },
-    {
-     "name": "David Jones Garcia",
-     "status": "Day-To-Day",
-     "note": "Jones Garcia (ankle) agreed to a two-way contract with the Spurs on Wednesday, per Michael Scotto of HoopsHype.com.",
-     "out": false
     }
    ],
    "injuries_away": [
     {
-     "name": "Jaylin Williams",
-     "status": "Day-To-Day",
-     "note": "Williams (heel) won't play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
-     "out": false
-    },
-    {
      "name": "Thomas Sorber",
      "status": "Day-To-Day",
-     "note": "Sorber (knee) will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
-     "out": false
-    },
-    {
-     "name": "Nikola Topi\u0107",
-     "status": "Day-To-Day",
-     "note": "Topic (back) will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
-     "out": false
-    },
-    {
-     "name": "Cason Wallace",
-     "status": "Day-To-Day",
-     "note": "Wallace will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
-     "out": false
-    },
-    {
-     "name": "Alex Caruso",
-     "status": "Day-To-Day",
-     "note": "Caruso will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "note": "Sorber (knee) won't play in Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
      "out": false
     },
     {
      "name": "Chet Holmgren",
      "status": "Day-To-Day",
-     "note": "Holmgren (rest) will not play in Tuesday's preseason opener against New Orleans, Clemente Almanza of USA Today reports.",
+     "note": "Holmgren (quadriceps) won't play in Wednesday's preseason game against Milwaukee, Clemente Almanza of USA Today reports.",
+     "out": false
+    },
+    {
+     "name": "Nikola Topi\u0107",
+     "status": "Day-To-Day",
+     "note": "Topic (back) won't play in Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
      "out": false
     },
     {
      "name": "Isaiah Hartenstein",
      "status": "Day-To-Day",
-     "note": "Hartenstein (rest) will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "note": "Hartenstein (ankle) won't play in Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
      "out": false
     },
     {
-     "name": "Jalen Williams",
+     "name": "Jaylin Williams",
      "status": "Day-To-Day",
-     "note": "Williams (not injury related) is out for Tuesday's preseason game against the Pelicans, Clemente Almanza of USA Today reports.",
-     "out": false
-    },
-    {
-     "name": "Shai Gilgeous-Alexander",
-     "status": "Day-To-Day",
-     "note": "Gilgeous-Alexander will not play in Tuesday's preseason opener against the Pelicans, Clemente Almanza of USA Today reports.",
+     "note": "Williams (heel) is out for Wednesday's preseason game against the Bucks, Clemente Almanza of USA Today reports.",
      "out": false
     }
-   ]
+   ],
+   "predicted_at": "2026-10-09T18:50:45+00:00"
   }
  ]
 }

@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/predictions.json data/team_state.json data/history data/raw
+          git add data/predictions.json data/team_state.json data/track_record.json data/history data/raw
           git diff --cached --quiet || git commit -m "Daily predictions $(date -u +%F)"
           git push

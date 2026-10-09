@@ -11,7 +11,7 @@ from pathlib import Path
 import pandas as pd
 
 from features import injuries
-from pipeline import team_state
+from pipeline import team_state, track_record
 from pipeline.fetch_data import schedule
 from predict import load, predict_matchup
 
@@ -69,14 +69,14 @@ if __name__ == "__main__":
     preds = run(ap.parse_args().date)
     text = json.dumps(preds, indent=1)
     (DATA / "predictions.json").write_text(text)
-    # Keep each day's last pre-tip version so live accuracy can be scored later
-    (DATA / "history").mkdir(exist_ok=True)
-    (DATA / "history" / f"predictions_{preds['date']}.json").write_text(text)
+    track_record.save_history(preds)  # frozen per game at tip-off, graded once results arrive
+    rec = track_record.update()
     print(f"{len(preds['games'])} games on {preds['date']} (ratings through {preds['ratings_through']}):")
     for g in preds["games"]:
         fav, p = (g["home"], g["home_win_prob"]) if g["home_win_prob"] >= 0.5 else (g["away"], 1 - g["home_win_prob"])
         outs = [i["name"] for i in g["injuries_home"] + g["injuries_away"] if i["out"]]
         print(f"  {g['away']} @ {g['home']}: {fav} {p:.0%}, {g['away_pts']:.0f}-{g['home_pts']:.0f}"
               + (f"  (out: {', '.join(outs)})" if outs else ""))
+    print(f"track record: {rec['n']} graded games" + (f", {rec['accuracy']:.1%} correct" if rec["n"] else ""))
     if preds["unmatched_injuries"]:
         print("unmatched injury names:", preds["unmatched_injuries"])
