@@ -11,12 +11,14 @@ import streamlit as st
 import ui
 from predict import load, predict_matchup, team_levels
 
-@st.cache_resource
-def cached_load():
+@st.cache_resource(max_entries=1)
+def cached_load(versions):  # noqa: ARG001 (cache key only)
+    """Reloads when team_state.json or model.joblib changes: the daily job and retraining replace them under a
+    running server (Streamlit Cloud hot-reloads code on push without restarting)."""
     return load()
 
 
-state, art = cached_load()
+state, art = cached_load(tuple(Path(f).stat().st_mtime_ns for f in ("data/team_state.json", "models/model.joblib")))
 teams = state["teams"]
 names = {abbr: t["name"] for abbr, t in teams.items()}
 GROUP_LABELS = {"elo": "Team rating (Elo)", "availability": "Players out", "glue": "Glue guys (hustle)",
