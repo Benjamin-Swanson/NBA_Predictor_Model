@@ -7,8 +7,11 @@ from pathlib import Path
 
 import streamlit as st
 
-LOGOS = Path(__file__).resolve().parent / "static" / "logos"  # from cdn.nba.com/logos/nba/<team id>/primary/L/logo.svg
+STATIC = Path(__file__).resolve().parent / "static"
+LOGOS = STATIC / "logos"  # from cdn.nba.com/logos/nba/<team id>/primary/L/logo.svg
+BRAND = STATIC / "brand"  # site logo: *_source.png are the originals, the rest are trimmed/resized from them
 LOGO_COL = st.column_config.ImageColumn("", width=40)
+ACCENT = "#ed5b0c"  # logo orange; also in .streamlit/config.toml
 
 
 @cache
@@ -17,14 +20,23 @@ def logo(abbr: str) -> str:
     return "data:image/svg+xml;base64," + base64.b64encode((LOGOS / f"{abbr}.svg").read_bytes()).decode()
 
 
+def png(path: Path) -> str:
+    return "data:image/png;base64," + base64.b64encode(path.read_bytes()).decode()
+
+
 def img(abbr: str, size: int = 32) -> str:
     return f'<img class="hw-logo" src="{logo(abbr)}" width="{size}" height="{size}" alt="{abbr}">'
 
 
 CSS = """
-:root{--paper:#12100d;--panel:#1c1915;--panel2:#24201a;--rule:#2e2a23;--rule-strong:#463f33;--ink:#f2ede0;
---muted:#a39d8d;--faint:#6f695c;--accent:#f5a524;--dim:#4a4337;--win:#4cc06d;--loss:#e05a3a;--hot:#e6c35c;
+:root{--panel:#ffffff;--panel2:#f0ebe2;--rule:#e2dacb;--rule-strong:#cfc5b3;--ink:#1d1a16;--muted:#6b6457;
+--faint:#9a9284;--accent:#ed5b0c;--dim:#ddd5c7;--win:#2f9e55;--loss:#d1432a;--hot:#b8860b;--glow:none;
 --head:'Barlow Condensed','Arial Narrow',sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root{--panel:#1c1915;--panel2:#24201a;--rule:#2e2a23;--rule-strong:#463f33;
+--ink:#f2ede0;--muted:#a39d8d;--faint:#6f695c;--dim:#4a4337;--win:#4cc06d;--loss:#e05a3a;--hot:#e6c35c;
+--glow:drop-shadow(0 0 1px rgba(242,237,224,.7))}}
+.hw-dark{display:none}
+@media (prefers-color-scheme:dark){.hw-dark{display:inline}.hw-light{display:none}}
 .block-container{max-width:1180px;padding-top:3.5rem}
 h1,h2,h3{font-family:var(--head)!important;text-transform:uppercase;letter-spacing:.02em}
 [data-testid="stMetric"]{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:12px 16px}
@@ -32,15 +44,10 @@ h1,h2,h3{font-family:var(--head)!important;text-transform:uppercase;letter-spaci
 [data-testid="stMetricLabel"] p{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .stTabs [data-baseweb="tab"] p{font-family:var(--head);font-size:1.15rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 [data-testid="stImage"] img{border-radius:8px}
-img.hw-logo{filter:drop-shadow(0 0 1px rgba(242,237,224,.7))}
+img.hw-logo{filter:var(--glow)}
 .tnum{font-family:var(--mono);font-variant-numeric:tabular-nums}
-.hw-brand{display:flex;align-items:center;gap:12px;padding-bottom:14px;border-bottom:1px solid var(--rule);margin-bottom:6px}
-.hw-mark{width:34px;height:34px;border-radius:50%;background:var(--accent);position:relative;flex:none;
-  box-shadow:inset 0 0 0 2px #12100d}
-.hw-mark:before,.hw-mark:after{content:"";position:absolute;background:#12100d}
-.hw-mark:before{left:16px;top:0;width:2px;height:34px}.hw-mark:after{top:16px;left:0;height:2px;width:34px}
-.hw-word{font-family:var(--head);font-weight:700;font-size:1.6rem;letter-spacing:.06em;text-transform:uppercase;line-height:1}
-.hw-word span{color:var(--accent)}
+.hw-brand{display:flex;align-items:center;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--rule);margin-bottom:6px}
+.hw-brand .hw-mark{height:100px;width:auto}.hw-brand .hw-word{height:52px;width:auto}
 .hw-tag{margin-left:auto;font-family:var(--mono);font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
 .hw-kicker{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
 .hw-title{font-family:var(--head);font-weight:700;font-size:2.7rem;line-height:1;text-transform:uppercase;margin:.25rem 0 .4rem}
@@ -84,6 +91,7 @@ details.hw-inj summary{cursor:pointer;font-family:var(--mono);font-size:.7rem;te
 .hw-track i{display:block;height:100%;background:var(--accent);border-radius:4px}
 .hw-teamhead{display:flex;align-items:center;gap:14px;margin:.4rem 0 .8rem}
 @media (max-width:640px){.hw-title{font-size:2rem}.hw-tag{display:none}
+  .hw-brand{gap:10px}.hw-brand .hw-mark{height:56px}.hw-brand .hw-word{height:auto;width:calc(100% - 80px);max-width:300px}
   .hw-row{grid-template-columns:1.6em 26px 1fr 4em 4em;padding:7px 10px}.hw-row .hw-track,.hw-row .hide-sm{display:none}
   .hw-big{font-size:2rem}.hw-match{padding:16px 10px 12px}}
 """
@@ -94,9 +102,10 @@ def style() -> None:
 
 
 def brand() -> None:
-    st.html('<div class="hw-brand"><div class="hw-mark"></div>'
-            '<div class="hw-word">The Hardwood <span>Model</span></div>'
-            '<div class="hw-tag">NBA odds from 10,000 simulations</div></div>')
+    """The user's logo, split into artwork + wordmark; each in a light and a dark version, CSS shows the right one."""
+    pics = "".join(f'<img class="{part} hw-{mode}" src="{png(BRAND / f"{name}_{mode}.png")}" alt="The Hardwood Model">'
+                   for part, name in (("hw-mark", "mark"), ("hw-word", "wordmark")) for mode in ("light", "dark"))
+    st.html(f'<div class="hw-brand">{pics}<div class="hw-tag">NBA odds from 10,000 simulations</div></div>')
 
 
 def page_head(kicker: str, title: str, meta: str = "") -> None:

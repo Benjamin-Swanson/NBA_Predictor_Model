@@ -93,9 +93,12 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 - `python -m pipeline.simulate_season [--force]` → data/season_outlook.json + season_outlook_history.csv; skips (but stamps last_checked) when no new games. In the daily workflow.
 - App: `app.py` is a router (st.navigation, nav on top) → views/1_Games.py, views/2_Season_Outlook.py (url /season).
   Folder is `views/`, not `pages/`: that name triggers Streamlit's old auto-navigation on direct links.
-- Site name: The Hardwood Model. Look: `.streamlit/config.toml` (dark theme, amber accent, Barlow Condensed + IBM Plex
-  Mono) + `ui.py` (CSS, game cards, odds list). Team logos live in `static/logos/` (from cdn.nba.com) and are embedded
+- Site name: The Hardwood Model. Look: `.streamlit/config.toml` (light + dark themes following the device setting,
+  accent = logo orange #ed5b0c, Barlow Condensed + IBM Plex Mono) + `ui.py` (CSS, game cards, odds list). Team logos live in `static/logos/` (from cdn.nba.com) and are embedded
   as data URIs, because the NBA CDN refuses some browsers.
+- Site logo: user's originals in `static/brand/*_source.png` (light = transparent, dark = screenshot on gray, keyed
+  out). Header shows trimmed `mark_*` + `wordmark_*` PNGs; CSS `prefers-color-scheme` picks light/dark (not
+  `st.context.theme`, which is wrong on first load). Toolbar is minimal, so visitors can't pick a theme that disagrees with the device.
 
 ## Automation (actual setup)
 - GitHub Actions can't reach stats.nba.com (tested 2026-10-09: 60s timeout), so `.github/workflows/daily.yml` is manual-only.

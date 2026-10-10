@@ -96,13 +96,13 @@ with tab_match:
         bins = np.arange(-50, 52, 2)
         counts, _ = np.histogram(np.clip(r["margin_draws"], -49.9, 49.9), bins)
         st.bar_chart(pd.DataFrame({"simulated games": counts}, index=bins[:-1] + 1), x_label=f"{home} margin",
-                     y_label="games", color="#f5a524")
+                     y_label="games", color=ui.ACCENT)
         st.caption(f"Bars right of 0 are {home} wins.")
     with right:
         st.subheader("What drives this prediction")
         why = r["why"].rename(GROUP_LABELS).sort_values(key=abs, ascending=False)
         why = why[why.abs() > 0.005]
-        st.bar_chart(pd.DataFrame({f"→ favors {home}  /  ← favors {away}": why}), horizontal=True, color="#f5a524", sort=False)
+        st.bar_chart(pd.DataFrame({f"→ favors {home}  /  ← favors {away}": why}), horizontal=True, color=ui.ACCENT, sort=False)
         st.caption("Each factor's push on the odds, from the win-probability model. Bars to the right favor "
                    f"{home}, to the left favor {away}.")
 
@@ -169,14 +169,14 @@ with tab_record:
         cal = art["calibration"].assign(model=lambda d: d["model"].map(nice))
         order = [nice[m] for m in ("points_model", "logreg_full", "elo")]
         color = alt.Color("model:N", title=None, sort=order, legend=alt.Legend(orient="bottom", labelLimit=0),
-                          scale=alt.Scale(domain=order, range=["#f5a524", "#8fb7d9", "#6f695c"]))
+                          scale=alt.Scale(domain=order, range=[ui.ACCENT, "#3b82c4", "#8a8274"]))
         pct_axis = dict(format="%", values=[0, .2, .4, .6, .8, 1])
         x = alt.X("predicted:Q", title="Model's home-win chance", scale=alt.Scale(domain=[0, 1]), axis=alt.Axis(**pct_axis))
         y = alt.Y("actual:Q", title="How often the home team won", scale=alt.Scale(domain=[0, 1]), axis=alt.Axis(**pct_axis))
         tip = [alt.Tooltip("model:N", title="Model"), alt.Tooltip("predicted:Q", title="Predicted", format=".0%"),
                alt.Tooltip("actual:Q", title="Actual", format=".0%"), alt.Tooltip("games:Q", title="Games")]
         diag = alt.Chart(pd.DataFrame({"predicted": [0, 1], "actual": [0, 1]})).mark_line(
-            strokeDash=[4, 4], color="#6f695c").encode(x=x, y=y)
+            strokeDash=[4, 4], color="#8a8274").encode(x=x, y=y)
         base = alt.Chart(cal).encode(x=x, y=y, color=color, order=alt.Order("bin:Q"), tooltip=tip)
         st.altair_chart(diag + base.mark_line(strokeWidth=2) + base.mark_circle(opacity=1).encode(
             size=alt.Size("games:Q", legend=None, scale=alt.Scale(range=[15, 160]))), height=380)
@@ -186,7 +186,7 @@ with tab_record:
         st.subheader("What matters most")
         imp = art["importance"].clip(lower=0)
         st.bar_chart((imp / imp.sum() * 100).rename(GROUP_LABELS).sort_values(ascending=False), horizontal=True, sort=False,
-                     x_label="share of importance (%)", color="#f5a524")
+                     x_label="share of importance (%)", color=ui.ACCENT)
         st.caption("How much worse predictions get when each factor is scrambled (2023-24 season).")
 
 # ---------------------------------------------------------------- how it works

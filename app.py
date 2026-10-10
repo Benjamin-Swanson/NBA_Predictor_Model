@@ -7,7 +7,7 @@ import streamlit as st
 
 import ui
 
-st.set_page_config(page_title="The Hardwood Model", page_icon="🏀", layout="wide")
+st.set_page_config(page_title="The Hardwood Model", page_icon=str(ui.BRAND / "favicon.png"), layout="wide")
 ui.style()
 pg = st.navigation([
     st.Page("views/1_Games.py", title="Games", default=True),

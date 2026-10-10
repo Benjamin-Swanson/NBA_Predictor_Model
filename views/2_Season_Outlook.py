@@ -78,18 +78,18 @@ with a:
     st.markdown("**Final win total, across simulated seasons**")
     dist = pd.Series(t["wins_dist"], name="share of seasons")
     lo, hi = max(int(t["wins_p10"]) - 10, 0), min(int(t["wins_p90"]) + 10, 82)
-    st.bar_chart(dist.loc[lo:hi], x_label="wins", y_label="share of seasons", color="#f5a524")
+    st.bar_chart(dist.loc[lo:hi], x_label="wins", y_label="share of seasons", color=ui.ACCENT)
 with b:
     st.markdown("**Seed**")
     st.bar_chart(pd.Series(t["p_seed"], index=range(1, 16), name="chance"), x_label="seed", y_label="chance",
-                 color="#f5a524")
+                 color=ui.ACCENT)
 hist_path = DATA / "season_outlook_history.csv"
 if hist_path.exists():
     h = pd.read_csv(hist_path, parse_dates=["date"])
     h = h[h["abbr"] == pick].set_index("date")["p_title"].mul(100).rename("Title chance (%)")
     st.markdown("**Title chance over the season**")
     if len(h) > 1:
-        st.line_chart(h, color="#f5a524")
+        st.line_chart(h, color=ui.ACCENT)
     else:
         st.caption("The trend line starts once the odds have been updated on more than one day.")
 
