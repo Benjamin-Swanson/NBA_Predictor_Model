@@ -94,7 +94,7 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 - App: `app.py` is a router (st.navigation, nav on top) → views/1_Games.py, views/2_Season_Outlook.py (url /season).
   Folder is `views/`, not `pages/`: that name triggers Streamlit's old auto-navigation on direct links.
 - Site name: The Hardwood Model. Look: `.streamlit/config.toml` (light + dark themes following the device setting,
-  accent = logo orange #ed5b0c, Barlow Condensed + IBM Plex Mono) + `ui.py` (CSS, game cards, odds list). Team logos live in `static/logos/` (from cdn.nba.com) and are embedded
+  accent = gold #f5a524 (light mode #c78400 for contrast), Barlow Condensed + IBM Plex Mono) + `ui.py` (CSS, game cards, odds list). Team logos live in `static/logos/` (from cdn.nba.com) and are embedded
   as data URIs, because the NBA CDN refuses some browsers.
 - Site logo: user's originals in `static/brand/*_source.png` (light = transparent, dark = screenshot on gray, keyed
   out). Header shows trimmed `mark_*` + `wordmark_*` PNGs; CSS `prefers-color-scheme` picks light/dark (not

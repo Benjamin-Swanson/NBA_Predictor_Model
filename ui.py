@@ -11,7 +11,7 @@ STATIC = Path(__file__).resolve().parent / "static"
 LOGOS = STATIC / "logos"  # from cdn.nba.com/logos/nba/<team id>/primary/L/logo.svg
 BRAND = STATIC / "brand"  # site logo: *_source.png are the originals, the rest are trimmed/resized from them
 LOGO_COL = st.column_config.ImageColumn("", width=40)
-ACCENT = "#ed5b0c"  # logo orange; also in .streamlit/config.toml
+ACCENT = "#f5a524"  # gold, for charts; also in .streamlit/config.toml
 
 
 @cache
@@ -30,9 +30,9 @@ def img(abbr: str, size: int = 32) -> str:
 
 CSS = """
 :root{--panel:#ffffff;--panel2:#f0ebe2;--rule:#e2dacb;--rule-strong:#cfc5b3;--ink:#1d1a16;--muted:#6b6457;
---faint:#9a9284;--accent:#ed5b0c;--dim:#ddd5c7;--win:#2f9e55;--loss:#d1432a;--hot:#b8860b;--glow:none;
+--faint:#9a9284;--accent:#c78400;--dim:#ddd5c7;--win:#2f9e55;--loss:#d1432a;--hot:#b8860b;--glow:none;
 --head:'Barlow Condensed','Arial Narrow',sans-serif;--mono:'IBM Plex Mono',ui-monospace,monospace}
-@media (prefers-color-scheme:dark){:root{--panel:#1c1915;--panel2:#24201a;--rule:#2e2a23;--rule-strong:#463f33;
+@media (prefers-color-scheme:dark){:root{--accent:#f5a524;--panel:#1c1915;--panel2:#24201a;--rule:#2e2a23;--rule-strong:#463f33;
 --ink:#f2ede0;--muted:#a39d8d;--faint:#6f695c;--dim:#4a4337;--win:#4cc06d;--loss:#e05a3a;--hot:#e6c35c;
 --glow:drop-shadow(0 0 1px rgba(242,237,224,.7))}}
 .hw-dark{display:none}

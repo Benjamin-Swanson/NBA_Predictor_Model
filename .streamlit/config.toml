@@ -1,16 +1,17 @@
 # Site look, loosely after theopenmodel.com. Light and dark follow the visitor's device setting;
-# ui.py's CSS switches its own colors and the logo the same way (prefers-color-scheme). Accent = logo orange.
+# ui.py's CSS switches its own colors and the logo the same way (prefers-color-scheme). Accent = gold (deeper gold in light mode, for readable text).
 [theme]
-primaryColor = "#ed5b0c"
-linkColor = "#ed5b0c"
+primaryColor = "#f5a524"
+linkColor = "#f5a524"
 baseRadius = "6px"
 headingFont = "Barlow Condensed:https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&display=swap"
 codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
-chartCategoricalColors = ["#ed5b0c", "#3b82c4", "#14a38b", "#e0a800", "#8a8274"]
+chartCategoricalColors = ["#f5a524", "#3b82c4", "#14a38b", "#e0a800", "#8a8274"]
 showWidgetBorder = true
 
 [theme.dark]
-primaryColor = "#ed5b0c"
+primaryColor = "#f5a524"
+linkColor = "#f5a524"
 backgroundColor = "#12100d"
 secondaryBackgroundColor = "#1c1915"
 textColor = "#f2ede0"
@@ -19,7 +20,8 @@ dataframeBorderColor = "#2e2a23"
 dataframeHeaderBackgroundColor = "#1c1915"
 
 [theme.light]
-primaryColor = "#ed5b0c"
+primaryColor = "#c78400"
+linkColor = "#c78400"
 backgroundColor = "#faf7f1"
 secondaryBackgroundColor = "#f0ebe2"
 textColor = "#1d1a16"
