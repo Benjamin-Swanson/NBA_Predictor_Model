@@ -6,6 +6,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+import ui
+
 DATA = Path("data")
 out_path = DATA / "season_outlook.json"
 if not out_path.exists():
@@ -25,9 +27,9 @@ def pct(p: float) -> str:
 et = "America/New_York"
 updated = pd.Timestamp(o["last_updated"]).tz_convert(et)
 checked = pd.Timestamp(o.get("last_checked", o["last_updated"])).tz_convert(et)
-st.title(f"🏆 {o['season']} season outlook")
-st.markdown(f"**Odds last updated {updated:%b %d, %I:%M %p} ET** · {o['games_played']} games played · "
-            f"{o['config']['n_sims']:,} simulated seasons")
+ui.page_head(f"{o['season']} season outlook", "Who wins it all?",
+             f"Odds updated {updated:%b %d, %I:%M %p} ET · {o['games_played']} games played · "
+             f"{o['config']['n_sims']:,} simulated seasons")
 if pd.Timestamp.now(tz=et) - checked > pd.Timedelta(days=2):
     st.warning(f"These odds haven't been refreshed since {checked:%b %d}. The daily update may have failed.")
 elif o["games_played"] == 0:
@@ -37,14 +39,8 @@ elif o["games_played"] == 0:
 # ---------------------------------------------------------------- hero: favorites
 st.subheader("Championship favorites")
 top = teams.nlargest(10, "p_title")
-left, right = st.columns([3, 2])
-with left:
-    chart = top.set_index("name")["p_title"].mul(100).rename("Title chance (%)")
-    st.bar_chart(chart, horizontal=True, color="#c8102e", sort="-Title chance (%)", height=380)
-with right:
-    st.dataframe(pd.DataFrame({
-        "Team": top["abbr"], "Title": top["p_title"].map(pct), "Finals": top["p_finals"].map(pct),
-        "Proj. wins": top["wins_p50"]}), hide_index=True, width="stretch", height=390)
+ui.odds_list([{"abbr": r.abbr, "name": r.name, "p": r.p_title, "pct": pct(r.p_title), "pct2": pct(r.p_finals),
+               "wins": r.wins_p50} for r in top.itertuples()], "Title")
 st.caption("A 20% favorite still fails to win the title 4 times in 5. These are chances, not predictions.")
 
 # ---------------------------------------------------------------- conference views
@@ -53,20 +49,24 @@ for tab, conf in zip(st.tabs(["East", "West"]), ["East", "West"]):
     with tab:
         c = teams[teams["conf"] == conf].sort_values(["wins_mean", "p_title"], ascending=False)
         st.dataframe(pd.DataFrame({
-            "Team": c["name"], "Record": c["record"], "Proj. wins": c["wins_p50"],
+            "": c["abbr"].map(ui.logo), "Team": c["name"], "Record": c["record"], "Proj. wins": c["wins_p50"],
             "Range (10-90%)": c["wins_p10"].astype(str) + "–" + c["wins_p90"].astype(str),
             "Playoffs": c["p_playoffs"].map(pct), "Play-in": c["p_playin"].map(pct), "Lottery": c["p_lottery"].map(pct),
             "Conf. finals": c["p_conf_finals"].map(pct), "Finals": c["p_finals"].map(pct), "Title": c["p_title"].map(pct)}),
-            hide_index=True, width="stretch", height=560)
+            hide_index=True, width="stretch", height=560, column_config={"": ui.LOGO_COL})
         with st.expander("Seed odds"):
-            seeds = pd.DataFrame(c["p_seed"].tolist(), index=c["name"], columns=[str(k) for k in range(1, 16)])
-            st.dataframe(seeds.map(lambda p: "" if p == 0 else pct(p)), width="stretch", height=560)
+            seeds = pd.DataFrame(c["p_seed"].tolist(), columns=[str(k) for k in range(1, 16)]).map(
+                lambda p: "" if p == 0 else pct(p))
+            seeds.insert(0, "Team", c["name"].to_numpy())
+            seeds.insert(0, "", c["abbr"].map(ui.logo).to_numpy())
+            st.dataframe(seeds, hide_index=True, width="stretch", height=560, column_config={"": ui.LOGO_COL})
             st.caption("Seeds 1-6 go straight to the playoffs, 7-10 go to the play-in, 11-15 go to the lottery.")
 
 # ---------------------------------------------------------------- team detail
 st.subheader("Team detail")
 pick = st.selectbox("Team", teams.sort_values("name")["abbr"], format_func=lambda a: teams.set_index("abbr").loc[a, "name"])
 t = teams.set_index("abbr").loc[pick]
+ui.team_head(pick, t["name"], f"{t['conf']}ern Conference · {t['div']} Division · rating {t['rating']:.0f}")
 m = st.columns(5)
 m[0].metric("Record", t["record"])
 m[1].metric("Projected wins", int(t["wins_p50"]), f"80% range {t['wins_p10']}–{t['wins_p90']}", delta_color="off")
@@ -78,18 +78,18 @@ with a:
     st.markdown("**Final win total, across simulated seasons**")
     dist = pd.Series(t["wins_dist"], name="share of seasons")
     lo, hi = max(int(t["wins_p10"]) - 10, 0), min(int(t["wins_p90"]) + 10, 82)
-    st.bar_chart(dist.loc[lo:hi], x_label="wins", y_label="share of seasons", color="#1d428a")
+    st.bar_chart(dist.loc[lo:hi], x_label="wins", y_label="share of seasons", color="#f5a524")
 with b:
     st.markdown("**Seed**")
     st.bar_chart(pd.Series(t["p_seed"], index=range(1, 16), name="chance"), x_label="seed", y_label="chance",
-                 color="#1d428a")
+                 color="#f5a524")
 hist_path = DATA / "season_outlook_history.csv"
 if hist_path.exists():
     h = pd.read_csv(hist_path, parse_dates=["date"])
     h = h[h["abbr"] == pick].set_index("date")["p_title"].mul(100).rename("Title chance (%)")
     st.markdown("**Title chance over the season**")
     if len(h) > 1:
-        st.line_chart(h, color="#c8102e")
+        st.line_chart(h, color="#f5a524")
     else:
         st.caption("The trend line starts once the odds have been updated on more than one day.")
 

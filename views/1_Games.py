@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+import ui
 from predict import load, predict_matchup, team_levels
 
 @st.cache_resource
@@ -22,9 +23,8 @@ GROUP_LABELS = {"elo": "Team rating (Elo)", "availability": "Players out", "glue
                 "recent_form": "Recent margin", "pace": "Pace", "neutral_site": "Neutral site"}
 REST = {"Back-to-back": 1, "1 day off": 2, "2+ days off": 3}
 
-st.title("🏀 NBA Predictor")
-st.caption(f"Win chances and projected scores for every game · {state['season']} rosters · "
-           f"team ratings through {state['as_of']}")
+ui.page_head(f"{state['season']} season · game predictions", "Every game, simulated 10,000 times",
+             f"Win chances and projected scores · {state['season']} rosters · team ratings through {state['as_of']}")
 
 tab_today, tab_match, tab_ratings, tab_record, tab_how = st.tabs(
     ["Games", "Try a matchup", "Power ratings", "Track record", "How it works"])
@@ -38,26 +38,10 @@ with tab_today:
     else:
         day = pd.Timestamp(preds["date"])
         st.subheader(f"{day:%A, %B} {day.day}")
-        st.caption(f"Updated {pd.Timestamp(preds['generated_at']).tz_convert('America/New_York'):%b %d, %I:%M %p} ET · "
-                   "injuries from ESPN · players listed Out are removed, Day-To-Day assumed to play")
-        for g in preds["games"]:
-            with st.container(border=True):
-                p_home = g["home_win_prob"]
-                c0, c1, c2, c3 = st.columns([1.2, 2, 2, 2])
-                c0.markdown(f"**{g['tip_et']}**  \n{g['arena']}" + ("  \n*neutral site*" if g["neutral"] else ""))
-                c1.metric(g["away_name"], f"{1 - p_home:.0%}", f"projected {g['away_pts']:.0f}", delta_color="off")
-                c1.progress(1 - p_home)
-                c2.metric(g["home_name"], f"{p_home:.0%}", f"projected {g['home_pts']:.0f}", delta_color="off")
-                c2.progress(p_home)
-                fav = g["home"] if p_home >= 0.5 else g["away"]
-                c3.markdown(f"**{fav} by {abs(g['home_pts'] - g['away_pts']):.1f}**  \n"
-                            f"Total {g['total_mean']:.0f} (90%: {g['total_pct']['5']:.0f}–{g['total_pct']['95']:.0f})  \n"
-                            f"Rest: {g['away']} {g['rest_away']}d · {g['home']} {g['rest_home']}d")
-                inj = [f"{'🔴' if i['out'] else '🟡'} {i['name']} ({team}, {i['status']})"
-                       for team, key in ((g["away"], "injuries_away"), (g["home"], "injuries_home")) for i in g[key]]
-                if inj:
-                    with st.expander(f"Injury report ({len(inj)})"):
-                        st.markdown("  \n".join(inj))
+        st.html(f'<div class="hw-meta"><span class="hw-chip">{len(preds["games"])} games</span>'
+                f"Updated {pd.Timestamp(preds['generated_at']).tz_convert('America/New_York'):%b %d, %I:%M %p} ET · "
+                "injuries from ESPN · players listed Out are removed, Day-To-Day assumed to play</div>")
+        ui.games_grid(preds["games"])
 
 # ---------------------------------------------------------------- matchup
 with tab_match:
@@ -91,11 +75,7 @@ with tab_match:
     p_home = r["home_win_prob"]
     fav, p_fav = (home, p_home) if p_home >= 0.5 else (away, 1 - p_home)
 
-    m1, m2 = st.columns(2)
-    for col, abbr, p, pts in ((m1, away, 1 - p_home, r["mu_away"]), (m2, home, p_home, r["mu_home"])):
-        col.metric(f"{names[abbr]}" + (" (home)" if abbr == home and not neutral else ""), f"{p:.0%}",
-                   f"projected {pts:.0f} pts", delta_color="off")
-        col.progress(p)
+    ui.matchup_panel(away, home, names, p_home, r["mu_away"], r["mu_home"], neutral)
     st.markdown(f"**{p_fav:.0%}** means the model expects the **{names[fav]}** to win about "
                 f"**{round(p_fav * 10)} times in 10** games like this one. The favorite is not a sure thing.")
 
@@ -113,13 +93,13 @@ with tab_match:
         bins = np.arange(-50, 52, 2)
         counts, _ = np.histogram(np.clip(r["margin_draws"], -49.9, 49.9), bins)
         st.bar_chart(pd.DataFrame({"simulated games": counts}, index=bins[:-1] + 1), x_label=f"{home} margin",
-                     y_label="games", color="#1d428a")
+                     y_label="games", color="#f5a524")
         st.caption(f"Bars right of 0 are {home} wins.")
     with right:
         st.subheader("What drives this prediction")
         why = r["why"].rename(GROUP_LABELS).sort_values(key=abs, ascending=False)
         why = why[why.abs() > 0.005]
-        st.bar_chart(pd.DataFrame({f"→ favors {home}  /  ← favors {away}": why}), horizontal=True, color="#c8102e")
+        st.bar_chart(pd.DataFrame({f"→ favors {home}  /  ← favors {away}": why}), horizontal=True, color="#f5a524", sort=False)
         st.caption("Each factor's push on the odds, from the win-probability model. Bars to the right favor "
                    f"{home}, to the left favor {away}.")
 
@@ -127,12 +107,12 @@ with tab_match:
 with tab_ratings:
     rows = []
     for abbr, t in teams.items():
-        rows.append({"Team": t["name"], "Elo": round(t["elo"]), "Net rating (last 10)": round(t["recent"]["NET"], 1),
+        rows.append({"": ui.logo(abbr), "Team": t["name"], "Elo": round(t["elo"]), "Net rating (last 10)": round(t["recent"]["NET"], 1),
                      "Glue (full roster)": round(team_levels(t)["GLUE"], 2),
                      "Top players": ", ".join(p["name"] for p in t["players"][:3])})
-    df = pd.DataFrame(rows).sort_values("Elo", ascending=False).reset_index(drop=True)
-    df.index += 1
-    st.dataframe(df, width="stretch", height=1100)
+    df = pd.DataFrame(rows).sort_values("Elo", ascending=False)
+    df.insert(0, "#", range(1, len(df) + 1))
+    st.dataframe(df, hide_index=True, width="stretch", height=35 * (len(df) + 1) + 3, column_config={"": ui.LOGO_COL})
     st.caption("Elo is the model's main team rating (1500 = average). Before games are played this season it's "
                "last season's final rating pulled a quarter of the way back to average.")
 
@@ -160,10 +140,12 @@ with tab_record:
         games = pd.DataFrame(rec["games"])
         games["Result"] = np.where(games["correct"] == 1, "✅", "❌")
         games["Game"] = games["away"] + " @ " + games["home"]
+        games["Away"], games["Home"] = games["away"].map(ui.logo), games["home"].map(ui.logo)
         games["Pick"] = games["pick"] + " " + (games["confidence"] * 100).round().astype(int).astype(str) + "%"
         st.dataframe(games.rename(columns={"date": "Date", "proj": "Projected", "final": "Final"})
-                     [["Date", "Game", "Pick", "Projected", "Final", "Result"]],
-                     hide_index=True, width="stretch", height=400)
+                     [["Date", "Away", "Home", "Game", "Pick", "Projected", "Final", "Result"]],
+                     hide_index=True, width="stretch", height=400,
+                     column_config={"Away": ui.LOGO_COL, "Home": ui.LOGO_COL})
 
     st.subheader("Past seasons (held-out test)")
     res = art["results"]
@@ -188,7 +170,7 @@ with tab_record:
         st.subheader("What matters most")
         imp = art["importance"].clip(lower=0)
         st.bar_chart((imp / imp.sum() * 100).rename(GROUP_LABELS).sort_values(), horizontal=True,
-                     x_label="share of importance (%)", color="#1d428a")
+                     x_label="share of importance (%)", color="#f5a524")
         st.caption("How much worse predictions get when each factor is scrambled (2023-24 season).")
 
 # ---------------------------------------------------------------- how it works

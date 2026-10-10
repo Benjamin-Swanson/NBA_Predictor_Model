@@ -85,13 +85,17 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 ## Live track record
 - `pipeline/track_record.py`: `save_history` freezes each game's prediction once it tips off; `update` grades history vs current-season results → `data/track_record.json` (shown on the Games page). Runs inside predict_today.
 
-## Season outlook (season/, pipeline/simulate_season.py, pages/2_Season_Outlook.py)
+## Season outlook (season/, pipeline/simulate_season.py, views/2_Season_Outlook.py)
 - `season/inputs.py`: teams/conf/div (`LeagueStandingsV3`), played + remaining games as of any date. Current season: schedule + placeholders vs league-average opponent for the ~30 unscheduled/TBD Cup games (60 team slots). Verified: rebuilt records = official standings, 2023-26.
 - `season/ratings.py`: Elo as of date (configurable offseason regression via `add_elo(carry=)`), roster-change adjustment (top-8 last-season Game Score delta × roster_k, fading over 30 games), long-term injury adjustment (live only), fast `win_prob`. Fast path vs full game model on test: mean |diff| 0.055, corr 0.94.
 - `season/simulate.py`: vectorized 10k seasons in ~5s. Play-in + 2-2-1-1-1 best-of-7. Tiebreak SIMPLIFIED: pooled H2H among tied teams, then random. `check()` enforces sums (title 100%, seeds, 41 avg wins). Rule tests in tests/test_season_sim.py.
 - `season/backtest.py` (~6 min): tuned config.toml → regression 0.33, roster_k 3, noise 75 preseason / half-life 40 games. Preseason win MAE 7.1 (everyone-41: 9.8), 80% ranges cover 78%; ~20 games in 5.1; ~50 games in 2.9. Champion's avg preseason title odds 15% (uniform 3%). No playoff-strength bonus (optional, not built).
 - `python -m pipeline.simulate_season [--force]` → data/season_outlook.json + season_outlook_history.csv; skips (but stamps last_checked) when no new games. In the daily workflow.
-- App: `app.py` is now a router (st.navigation) → pages/1_Games.py, pages/2_Season_Outlook.py.
+- App: `app.py` is a router (st.navigation, nav on top) → views/1_Games.py, views/2_Season_Outlook.py (url /season).
+  Folder is `views/`, not `pages/`: that name triggers Streamlit's old auto-navigation on direct links.
+- Site name: The Hardwood Model. Look: `.streamlit/config.toml` (dark theme, amber accent, Barlow Condensed + IBM Plex
+  Mono) + `ui.py` (CSS, game cards, odds list). Team logos live in `static/logos/` (from cdn.nba.com) and are embedded
+  as data URIs, because the NBA CDN refuses some browsers.
 
 ## Automation (actual setup)
 - GitHub Actions can't reach stats.nba.com (tested 2026-10-09: 60s timeout), so `.github/workflows/daily.yml` is manual-only.

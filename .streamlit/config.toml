@@ -1,0 +1,19 @@
+# Site look (dark, amber accent), loosely after theopenmodel.com. Extra CSS lives in ui.py.
+[theme]
+base = "dark"
+primaryColor = "#f5a524"
+backgroundColor = "#12100d"
+secondaryBackgroundColor = "#1c1915"
+textColor = "#f2ede0"
+borderColor = "#2e2a23"
+dataframeBorderColor = "#2e2a23"
+dataframeHeaderBackgroundColor = "#1c1915"
+linkColor = "#ffc35e"
+baseRadius = "6px"
+headingFont = "Barlow Condensed:https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&display=swap"
+codeFont = "IBM Plex Mono:https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+chartCategoricalColors = ["#f5a524", "#8fb7d9", "#4cc06d", "#e05a3a", "#a39d8d"]
+showWidgetBorder = true
+
+[client]
+toolbarMode = "minimal"
