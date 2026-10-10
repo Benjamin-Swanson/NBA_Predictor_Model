@@ -41,7 +41,7 @@ Predicts win probability, projected score and margin for each NBA game of the da
 | logreg_full (step 4, chosen on val) | 0.602 | 0.208 | 67.8% |
 
 ## Step 4 findings (val = 2023-24)
-- Model choice uses val only; test is reported, never tuned on. `python -m models.train` writes `models/model.joblib` + `models/calibration.png`.
+- Model choice uses val only; test is reported, never tuned on. `python -m models.train` writes `models/model.joblib` (incl. test calibration bins the site charts with Altair; no image files).
 - ML models barely beat Elo (test log loss 0.604 → 0.601-0.602). All are well calibrated.
 - Elo carries almost everything (corr with rolling net rating 0.81). Drop-one-group ablation on val: Elo +0.021, rest +0.004, four factors +0.0003, efficiency -0.0004 (redundant), form/pace ~0.
 - LightGBM doesn't beat logistic regression on this feature set.

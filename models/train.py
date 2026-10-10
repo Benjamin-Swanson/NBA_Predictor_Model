@@ -1,4 +1,5 @@
-"""Train win-probability and points models, evaluate on date-based splits, save the best.
+"""Train win-probability and points models, evaluate on date-based splits, save the best
+(models/model.joblib, including test calibration bins that the site charts).
 
 Run from the project root:  python -m models.train   (after python -m features.build)
 Train 2016-17..2022-23 (glue starts then; Elo still warms up from 2015), choose models on val (2023-24), report test (2024-25 + 2025-26) once.
@@ -7,20 +8,15 @@ from pathlib import Path
 
 import joblib
 import lightgbm as lgb
-import matplotlib
 import numpy as np
 import pandas as pd
 from scipy.stats import norm
-from sklearn.calibration import CalibrationDisplay
 from sklearn.linear_model import LogisticRegression, Ridge
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 from features.build import OUT as GAMES, ROLL_COLS, WINDOW
 from models.baselines import elo_prob, score, split
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 R = [f"R{WINDOW}_{c}" for c in ROLL_COLS]
@@ -146,19 +142,18 @@ def main():
     print(pd.DataFrame({"logloss_increase": imp.round(5),
                         "share": (imp.clip(lower=0) / imp.clip(lower=0).sum() * 100).round(1)}).to_string())
 
-    fig, ax = plt.subplots(figsize=(6, 6))
-    y = te["HOME_WIN"]
-    for n in ("elo", "logreg_full", "lgbm_full"):
-        CalibrationDisplay.from_predictions(y, predict(n, te), n_bins=10, name=n, ax=ax)
-    ax.set_title("Calibration, test 2024-25 + 2025-26")
-    fig.savefig(HERE / "calibration.png", dpi=120, bbox_inches="tight")
+    # Calibration on test: 10 equal-width bins of predicted home-win chance (same as sklearn's calibration curve)
+    calib = pd.concat([
+        pd.DataFrame({"model": n, "p": p, "y": te["HOME_WIN"].to_numpy(), "bin": np.minimum((p * 10).astype(int), 9)})
+        .groupby(["model", "bin"]).agg(predicted=("p", "mean"), actual=("y", "mean"), games=("y", "size"))
+        for n in ("elo", "logreg_full", "points_model") for p in [predict(n, te)]]).reset_index()
 
     # ponytail: saved models are fit on train only; refit on all seasons before live use (step 8).
     joblib.dump({"name": best, "cols": cols, "model": m, "points": pts, "points_cols": POINTS,
                  "margin_sigma": margin_sigma, "rho": rho, "groups": GROUPS,
-                 "results": res, "importance": imp, "train_seasons": (int(tr["SEASON"].min()), int(tr["SEASON"].max()))},
+                 "results": res, "importance": imp, "calibration": calib, "train_seasons": (int(tr["SEASON"].min()), int(tr["SEASON"].max()))},
                 HERE / "model.joblib")
-    print(f"\nsaved {HERE / 'model.joblib'} and calibration.png")
+    print(f"\nsaved {HERE / 'model.joblib'}")
 
 
 if __name__ == "__main__":
