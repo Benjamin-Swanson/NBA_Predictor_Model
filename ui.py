@@ -37,7 +37,7 @@ CSS = """
 --glow:drop-shadow(0 0 1px rgba(242,237,224,.7))}}
 .hw-dark{display:none}
 @media (prefers-color-scheme:dark){.hw-dark{display:inline}.hw-light{display:none}}
-.block-container{max-width:1180px;padding-top:3.5rem}
+.block-container{max-width:1180px;padding-top:5.5rem}
 h1,h2,h3{font-family:var(--head)!important;text-transform:uppercase;letter-spacing:.02em}
 [data-testid="stMetric"]{background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:12px 16px}
 [data-testid="stMetricValue"]{font-family:var(--mono);font-size:1.6rem}
