@@ -405,6 +405,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1643749,
+     "name": "Dion Brown",
+     "pos": "G",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
      "id": 1643414,
      "name": "Mikel Brown Jr.",
      "pos": "G",
@@ -1330,6 +1340,26 @@
      "mpg_recent": 8.7,
      "glue": 0.196,
      "mpg_season": 10.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642283,
+     "name": "Jaxson Robinson",
+     "pos": "G-F",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643037,
+     "name": "Noam Yaacov",
+     "pos": "G",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -3149,6 +3179,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1643572,
+     "name": "Rafael Castro",
+     "pos": "C",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
      "id": 1643759,
      "name": "William Kyle",
      "pos": NaN,
@@ -3533,6 +3573,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1628372,
+     "name": "Dennis Smith Jr.",
+     "pos": "G",
+     "value": 4.575,
+     "mpg_recent": 15.1,
+     "glue": 0.776,
+     "mpg_season": 19.278,
+     "counts_if_out": true
+    },
+    {
      "id": 1630696,
      "name": "Dru Smith",
      "pos": "G",
@@ -3563,6 +3613,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1630283,
+     "name": "Kylor Kelley",
+     "pos": "C",
+     "value": 3.245,
+     "mpg_recent": 11.8,
+     "glue": -0.212,
+     "mpg_season": 12.5,
+     "counts_if_out": true
+    },
+    {
      "id": 1631107,
      "name": "Nikola Jovi\u0107",
      "pos": "F",
@@ -3590,6 +3650,16 @@
      "mpg_recent": 2.556,
      "glue": 0.0,
      "mpg_season": 3.167,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643019,
+     "name": "Gabe Madsen",
+     "pos": "F",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -4306,6 +4376,16 @@
      "mpg_recent": 4.8,
      "glue": -0.155,
      "mpg_season": 11.222,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642922,
+     "name": "Jalon Moore",
+     "pos": "F",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -6552,6 +6632,16 @@
      "id": 1643265,
      "name": "Jonas Aidoo",
      "pos": "C",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643753,
+     "name": "Mohamed Wague",
+     "pos": NaN,
      "value": null,
      "mpg_recent": null,
      "glue": null,
