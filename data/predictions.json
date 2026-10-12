@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:02:29+00:00",
+ "generated_at": "2026-10-12T22:00:09+00:00",
  "date": "2026-10-20",
  "ratings_through": "2026-04-12",
  "unmatched_injuries": [],
@@ -99,33 +99,20 @@
    },
    "rest_home": 7,
    "rest_away": 7,
-   "injuries_home": [
-    {
-     "name": "Kevin McCullar Jr.",
-     "status": "Day-To-Day",
-     "note": "McCullar (undisclosed) won't play in Thursday's preseason game against the Wizards but is in line to suit up for Monday's preseason matchup with Minnesota, Stefan Bondy of The New York Post reports.",
-     "out": false
-    },
-    {
-     "name": "Tony Bradley",
-     "status": "Day-To-Day",
-     "note": "Bradley (rest) is not in line to play in Thursday's preseason game against Wizards, Stefan Bondy of The New York Post reports.",
-     "out": false
-    },
-    {
-     "name": "Ochai Agbaji",
-     "status": "Day-To-Day",
-     "note": "Agbaji (coach's decision) won't play in Thursday's preseason game against Washington, Stefan Bondy of The New York Post reports.",
-     "out": false
-    },
-    {
-     "name": "Drew Eubanks",
-     "status": "Day-To-Day",
-     "note": "Eubanks (rest) is not in line to play in Thursday's preseason game against Wizards, Stefan Bondy of The New York Post reports.",
-     "out": false
-    }
-   ],
+   "injuries_home": [],
    "injuries_away": [
+    {
+     "name": "Adem Bona",
+     "status": "Day-To-Day",
+     "note": "Bona (foot) practiced in a limited fashion Monday, per Ky Carlin of USA Today.",
+     "out": false
+    },
+    {
+     "name": "Anfernee Simons",
+     "status": "Day-To-Day",
+     "note": "Simons (hamstring) was limited at Monday's practice, Ky Carlin of USA Today reports.",
+     "out": false
+    },
     {
      "name": "LeBron James",
      "status": "Day-To-Day",
@@ -154,18 +141,6 @@
      "name": "Dominick Barlow",
      "status": "Day-To-Day",
      "note": "Barlow (back) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN.com reports.",
-     "out": false
-    },
-    {
-     "name": "Anfernee Simons",
-     "status": "Day-To-Day",
-     "note": "Simons (right hamstring) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN reports.",
-     "out": false
-    },
-    {
-     "name": "Adem Bona",
-     "status": "Day-To-Day",
-     "note": "Bona (left foot) isn't expected to play in either of Philadelphia's next two preseason games against Brooklyn and Boston, Dave McMenamin of ESPN.com reports.",
      "out": false
     },
     {
@@ -216,13 +191,43 @@
     {
      "name": "Malik Williams",
      "status": "Day-To-Day",
-     "note": "Williams (undisclosed) didn't play in Saturday's 102-98 preseason loss to the Suns.",
+     "note": "Williams (undisclosed) is out for Monday's preseason game against Utah, per Tom Orsborn of the San Antonio Express-News.",
+     "out": false
+    },
+    {
+     "name": "Carter Bryant",
+     "status": "Day-To-Day",
+     "note": "Bryant (ankle) won't play in Monday's preseason game against Utah, per Tom Orsborn of the San Antonio Express-News.",
+     "out": false
+    },
+    {
+     "name": "Stephon Castle",
+     "status": "Day-To-Day",
+     "note": "Castle (rest) will not play in Monday's preseason matchup against Utah, Tom Orsborn of the San Antonio Express-News reports.",
+     "out": false
+    },
+    {
+     "name": "Devin Vassell",
+     "status": "Day-To-Day",
+     "note": "Vassell (rest) won't play in Monday's preseason game against Utah, per Tom Orsborn of the San Antonio Express-News.",
      "out": false
     },
     {
      "name": "De'Aaron Fox",
      "status": "Day-To-Day",
-     "note": "Fox (undisclosed) has been ruled out for Saturday's preseason game against the Suns, Matt Guzman of SI.com reports.",
+     "note": "Fox (undisclosed) has been ruled out for Monday's preseason game against the Jazz, Tom Orsborn of the San Antonio Express-News reports.",
+     "out": false
+    },
+    {
+     "name": "Dylan Harper",
+     "status": "Day-To-Day",
+     "note": "Harper (rest) won't play in Monday's preseason game against Utah, per Tom Orsborn of the San Antonio Express-News.",
+     "out": false
+    },
+    {
+     "name": "Victor Wembanyama",
+     "status": "Day-To-Day",
+     "note": "Wembanyama (rest) will not play in Monday's preseason matchup against the Jazz, Tom Orsborn of the San Antonio Express-News reports.",
      "out": false
     },
     {
