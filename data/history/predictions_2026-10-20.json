@@ -1,8 +1,10 @@
 {
- "generated_at": "2026-10-14T22:00:57+00:00",
+ "generated_at": "2026-10-15T23:09:22+00:00",
  "date": "2026-10-20",
  "ratings_through": "2026-04-12",
- "unmatched_injuries": [],
+ "unmatched_injuries": [
+  "Chucky Hepburn (Toronto Raptors)"
+ ],
  "games": [
   {
    "game_id": "0022600001",
@@ -34,41 +36,16 @@
    },
    "rest_home": 7,
    "rest_away": 7,
-   "injuries_home": [
-    {
-     "name": "Cade Cunningham",
-     "status": "Day-To-Day",
-     "note": "Cunningham (rest) didn't play in Saturday's 114-108 preseason loss to the Wizards.",
-     "out": false
-    },
-    {
-     "name": "Jalen Duren",
-     "status": "Day-To-Day",
-     "note": "Duren (reconditioning) won't suit up for Saturday's preseason game against the Wizards, Josh Robbins of The Athletic reports.",
-     "out": false
-    }
-   ],
+   "injuries_home": [],
    "injuries_away": [
-    {
-     "name": "Luka Garza",
-     "status": "Day-To-Day",
-     "note": "Garza (nose) went to the locker room late in the fourth quarter of Saturday's preseason game against the 76ers, Bobby Manning of CLNS Media Network reports.",
-     "out": false
-    },
     {
      "name": "Devin Carter",
      "status": "Day-To-Day",
-     "note": "Carter (illness) has been ruled out for Saturday's exhibition game against the 76ers, Jack Simone of BostonSportsJournal.com reports.",
-     "out": false
-    },
-    {
-     "name": "Ron Harper Jr.",
-     "status": "Day-To-Day",
-     "note": "Harper (shoulder) has been ruled out for Saturday's preseason game against the 76ers, Jack Simone of BostonSportsJournal.com reports.",
+     "note": "Carter (illness) won't play in Wednesday's preseason game against Charlotte, Bobby Krivitsky of Forbes.com reports.",
      "out": false
     }
    ],
-   "predicted_at": "2026-10-14T22:00:57+00:00"
+   "predicted_at": "2026-10-15T23:09:22+00:00"
   },
   {
    "game_id": "0022600002",
@@ -100,67 +77,24 @@
    },
    "rest_home": 7,
    "rest_away": 7,
-   "injuries_home": [
-    {
-     "name": "Landry Shamet",
-     "status": "Day-To-Day",
-     "note": "Shamet (rest) didn't play in Tuesday's 148-98 preseason loss to the Raptors.",
-     "out": false
-    },
-    {
-     "name": "Andre Drummond",
-     "status": "Day-To-Day",
-     "note": "Drummond (rest) didn't play in Tuesday's 148-98 preseason loss to the Raptors.",
-     "out": false
-    },
-    {
-     "name": "Karl-Anthony Towns",
-     "status": "Day-To-Day",
-     "note": "Towns ended with 11 points (3-6 FG, 1-4 3Pt, 4-4 FT), four assists, two rebounds and one steal over 22 minutes in Monday's 122-104 preseason loss to Minnesota. He won't play Tuesday against Toronto for rest purposes, Stefan Bondy of The New York Post reports.",
-     "out": false
-    },
-    {
-     "name": "Mikal Bridges",
-     "status": "Day-To-Day",
-     "note": "Bridges finished with nine points (3-6 FG, 1-2 3Pt, 2-2 FT), two rebounds and two assists over 22 minutes in Monday's 122-104 preseason loss to the Timberwolves.",
-     "out": false
-    },
-    {
-     "name": "Josh Hart",
-     "status": "Day-To-Day",
-     "note": "Hart recorded two points (1-2 FG, 0-1 3Pt), three rebounds, three assists and one steal over 22 minutes in Monday's 122-104 preseason loss to the Timberwolves.",
-     "out": false
-    },
-    {
-     "name": "OG Anunoby",
-     "status": "Day-To-Day",
-     "note": "Anunoby totaled 15 points (4-8 FG, 1-3 3Pt, 6-6 FT), three steals, two rebounds and one assist over 22 minutes in Monday's 122-104 preseason loss to Minnesota. He won't play Tuesday against Toronto for rest purposes, Stefan Bondy of The New York Post reports.",
-     "out": false
-    },
-    {
-     "name": "Jalen Brunson",
-     "status": "Day-To-Day",
-     "note": "Brunson (rest) won't suit up for Tuesday's preseason game in Toronto, Stefan Bondy of The New York Post reports.",
-     "out": false
-    }
-   ],
+   "injuries_home": [],
    "injuries_away": [
     {
-     "name": "Dominick Barlow",
+     "name": "Anfernee Simons",
      "status": "Day-To-Day",
-     "note": "Barlow (back) was unable to practice Tuesday, Noah Levick of NBC Sports Philadelphia reports.",
+     "note": "Simons (hamstring) is out for Friday's preseason game against the Celtics, Kyle Neubeck of AllPHLY.com reports.",
      "out": false
     },
     {
      "name": "Adem Bona",
      "status": "Day-To-Day",
-     "note": "Bona (foot) practiced in a limited fashion Monday, per Ky Carlin of USA Today.",
+     "note": "Bona (foot) remains out for Friday's preseason finale against the Celtics, but he's getting closer to a return, Kyle Neubeck of AllPHLY.com reports.",
      "out": false
     },
     {
-     "name": "Anfernee Simons",
+     "name": "Dominick Barlow",
      "status": "Day-To-Day",
-     "note": "Simons (hamstring) was limited at Monday's practice, Ky Carlin of USA Today reports.",
+     "note": "Barlow (back) was unable to practice Tuesday, Noah Levick of NBC Sports Philadelphia reports.",
      "out": false
     },
     {
@@ -200,7 +134,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-14T22:00:57+00:00"
+   "predicted_at": "2026-10-15T23:09:22+00:00"
   },
   {
    "game_id": "0022600003",
@@ -234,39 +168,21 @@
    "rest_away": 7,
    "injuries_home": [
     {
-     "name": "Carter Bryant",
+     "name": "Luke Kornet",
      "status": "Day-To-Day",
-     "note": "Bryant (ankle) won't play in Monday's preseason game against Utah, per Tom Orsborn of the San Antonio Express-News.",
+     "note": "Kornet (rest) won't play in Wednesday's preseason game against the Suns, Matt Guzman of SI.com reports.",
      "out": false
     },
     {
-     "name": "Stephon Castle",
+     "name": "Keldon Johnson",
      "status": "Day-To-Day",
-     "note": "Castle (rest) will not play in Monday's preseason matchup against Utah, Tom Orsborn of the San Antonio Express-News reports.",
+     "note": "Johnson (rest) has been ruled out for Wednesday's preseason game against Phoenix, Matt Guzman of SI.com reports.",
      "out": false
     },
     {
-     "name": "Devin Vassell",
+     "name": "Julian Champagnie",
      "status": "Day-To-Day",
-     "note": "Vassell (rest) won't play in Monday's preseason game against Utah, per Tom Orsborn of the San Antonio Express-News.",
-     "out": false
-    },
-    {
-     "name": "De'Aaron Fox",
-     "status": "Day-To-Day",
-     "note": "Fox (undisclosed) has been ruled out for Monday's preseason game against the Jazz, Tom Orsborn of the San Antonio Express-News reports.",
-     "out": false
-    },
-    {
-     "name": "Dylan Harper",
-     "status": "Day-To-Day",
-     "note": "Harper (rest) won't play in Monday's preseason game against Utah, per Tom Orsborn of the San Antonio Express-News.",
-     "out": false
-    },
-    {
-     "name": "Victor Wembanyama",
-     "status": "Day-To-Day",
-     "note": "Wembanyama (rest) will not play in Monday's preseason matchup against the Jazz, Tom Orsborn of the San Antonio Express-News reports.",
+     "note": "Champagnie (rest) has been ruled out for Wednesday's preseason game against Phoenix, Matt Guzman of SI.com reports.",
      "out": false
     },
     {
@@ -285,9 +201,9 @@
    "injuries_away": [
     {
      "name": "Otega Oweh",
-     "status": "Day-To-Day",
-     "note": "Oweh was helped to the locker room after sustaining an apparent lower right leg injury in the overtime period of Tuesday's preseason game against the Pacers, Rylan Stiles of SI.com reports.",
-     "out": false
+     "status": "Out",
+     "note": "Oweh (Achilles) underwent surgery Wednesday and will miss the entirety of the 2026-27 season, Brandon Rahbar of DailyThunder.com reports.",
+     "out": true
     },
     {
      "name": "Jaylin Williams",
@@ -320,7 +236,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-14T22:00:57+00:00"
+   "predicted_at": "2026-10-15T23:09:22+00:00"
   }
  ]
 }

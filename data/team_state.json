@@ -1303,16 +1303,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1642283,
-     "name": "Jaxson Robinson",
-     "pos": "G-F",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
      "id": 1643037,
      "name": "Noam Yaacov",
      "pos": "G",
@@ -2877,16 +2867,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1642353,
-     "name": "Cam Christie",
-     "pos": "G",
-     "value": 1.3,
-     "mpg_recent": 6.2,
-     "glue": -0.294,
-     "mpg_season": 10.816,
-     "counts_if_out": true
-    },
-    {
      "id": 1643141,
      "name": "Jahmyl Telfort",
      "pos": "G",
@@ -3096,16 +3076,6 @@
      "mpg_recent": 6.0,
      "glue": -0.802,
      "mpg_season": 12.098,
-     "counts_if_out": true
-    },
-    {
-     "id": 1631306,
-     "name": "Cole Swider",
-     "pos": "F",
-     "value": 1.845,
-     "mpg_recent": 17.0,
-     "glue": -0.463,
-     "mpg_season": 17.0,
      "counts_if_out": true
     },
     {
@@ -6015,16 +5985,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1643007,
-     "name": "Taelon Peter",
-     "pos": "G",
-     "value": 5.085,
-     "mpg_recent": 19.3,
-     "glue": 0.145,
-     "mpg_season": 14.968,
-     "counts_if_out": true
-    },
-    {
      "id": 1642868,
      "name": "Carter Bryant",
      "pos": "F",
@@ -6052,26 +6012,6 @@
      "mpg_recent": 7.7,
      "glue": 0.953,
      "mpg_season": 8.29,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642013,
-     "name": "Malik Williams",
-     "pos": "C",
-     "value": 1.943,
-     "mpg_recent": 15.143,
-     "glue": -0.342,
-     "mpg_season": 15.286,
-     "counts_if_out": true
-    },
-    {
-     "id": 1630678,
-     "name": "Terry Taylor",
-     "pos": "F",
-     "value": 1.17,
-     "mpg_recent": 3.3,
-     "glue": 0.371,
-     "mpg_season": 7.864,
      "counts_if_out": true
     },
     {
@@ -6274,16 +6214,6 @@
      "mpg_recent": 4.8,
      "glue": 0.0,
      "mpg_season": 8.5,
-     "counts_if_out": true
-    },
-    {
-     "id": 1641998,
-     "name": "Trey Jemison III",
-     "pos": "C",
-     "value": 0.925,
-     "mpg_recent": 7.1,
-     "glue": 0.752,
-     "mpg_season": 7.0,
      "counts_if_out": true
     },
     {
