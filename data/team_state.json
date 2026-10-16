@@ -173,16 +173,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1630793,
-     "name": "Giorgi Bezhanishvili",
-     "pos": "F",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
      "id": 1642937,
      "name": "Kobe Johnson",
      "pos": "G",
@@ -417,16 +407,6 @@
     {
      "id": 1643538,
      "name": "Joshua Jefferson",
-     "pos": "F",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643750,
-     "name": "Ben Humrichous",
      "pos": "F",
      "value": null,
      "mpg_recent": null,
@@ -879,9 +859,9 @@
      "counts_if_out": true
     },
     {
-     "id": 1643769,
-     "name": "Wyatt Fricks",
-     "pos": "F",
+     "id": 1643767,
+     "name": "Latrell Wrightsell",
+     "pos": "G",
      "value": null,
      "mpg_recent": null,
      "glue": null,
@@ -2019,9 +1999,9 @@
      "counts_if_out": true
     },
     {
-     "id": 1642924,
-     "name": "Brice Williams",
-     "pos": "G-F",
+     "id": 1643536,
+     "name": "Ebuka Okorie",
+     "pos": "G",
      "value": null,
      "mpg_recent": null,
      "glue": null,
@@ -2029,9 +2009,9 @@
      "counts_if_out": true
     },
     {
-     "id": 1643536,
-     "name": "Ebuka Okorie",
-     "pos": "G",
+     "id": 1642924,
+     "name": "Brice Williams",
+     "pos": "G-F",
      "value": null,
      "mpg_recent": null,
      "glue": null,
@@ -2453,6 +2433,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1643069,
+     "name": "Cameron Matthews",
+     "pos": "F",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
      "id": 1643595,
      "name": "Quadir Copeland",
      "pos": "G",
@@ -2867,6 +2857,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1629671,
+     "name": "Miye Oni",
+     "pos": "G-F",
+     "value": 0.25,
+     "mpg_recent": 2.9,
+     "glue": -0.808,
+     "mpg_season": 3.5,
+     "counts_if_out": true
+    },
+    {
      "id": 1643141,
      "name": "Jahmyl Telfort",
      "pos": "G",
@@ -2874,16 +2874,6 @@
      "mpg_recent": 4.25,
      "glue": 0.0,
      "mpg_season": 3.667,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643630,
-     "name": "Fletcher Loyer",
-     "pos": NaN,
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -3101,6 +3091,16 @@
     {
      "id": 1641751,
      "name": "Arthur Kaluma",
+     "pos": "F",
+     "value": null,
+     "mpg_recent": null,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643092,
+     "name": "Niwa Tait-Jones",
      "pos": "F",
      "value": null,
      "mpg_recent": null,
@@ -3576,16 +3576,6 @@
      "id": 1643553,
      "name": "Ryan Conwell",
      "pos": "G",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643867,
-     "name": "Ian Schieffelin",
-     "pos": "F",
      "value": null,
      "mpg_recent": null,
      "glue": null,
@@ -4259,6 +4249,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1630621,
+     "name": "Hunter Dickinson",
+     "pos": "C",
+     "value": 0.98,
+     "mpg_recent": 8.6,
+     "glue": 0.0,
+     "mpg_season": 8.4,
+     "counts_if_out": true
+    },
+    {
      "id": 1642922,
      "name": "Jalon Moore",
      "pos": "F",
@@ -4431,26 +4431,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1630534,
-     "name": "Ochai Agbaji",
-     "pos": "G",
-     "value": 4.885,
-     "mpg_recent": 17.9,
-     "glue": -0.206,
-     "mpg_season": 16.667,
-     "counts_if_out": true
-    },
-    {
-     "id": 1629234,
-     "name": "Drew Eubanks",
-     "pos": "F-C",
-     "value": 4.095,
-     "mpg_recent": 12.2,
-     "glue": 0.338,
-     "mpg_season": 13.143,
-     "counts_if_out": true
-    },
-    {
      "id": 1642885,
      "name": "Mohamed Diawara",
      "pos": "F",
@@ -4468,16 +4448,6 @@
      "mpg_recent": 7.9,
      "glue": -0.279,
      "mpg_season": 14.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1628396,
-     "name": "Tony Bradley",
-     "pos": "C-F",
-     "value": 2.935,
-     "mpg_recent": 12.2,
-     "glue": 0.297,
-     "mpg_season": 11.658,
      "counts_if_out": true
     },
     {
@@ -5177,26 +5147,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1643148,
-     "name": "Saint Thomas",
-     "pos": "F",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643575,
-     "name": "Duke Miles",
-     "pos": "G",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
      "id": 1642889,
      "name": "Labaron Philon",
      "pos": "G",
@@ -5578,6 +5528,16 @@
      "mpg_recent": 18.3,
      "glue": -0.221,
      "mpg_season": 21.656,
+     "counts_if_out": true
+    },
+    {
+     "id": 1631216,
+     "name": "Caleb Houstan",
+     "pos": "G",
+     "value": 2.705,
+     "mpg_recent": 3.4,
+     "glue": -0.669,
+     "mpg_season": 6.4,
      "counts_if_out": true
     },
     {
@@ -6015,13 +5975,13 @@
      "counts_if_out": true
     },
     {
-     "id": 1631399,
-     "name": "Jon Elmore",
+     "id": 1631112,
+     "name": "Kendall Brown",
      "pos": "G",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
+     "value": 0.94,
+     "mpg_recent": 4.2,
+     "glue": 3.326,
+     "mpg_season": 3.5,
      "counts_if_out": true
     },
     {
@@ -6469,29 +6429,9 @@
      "counts_if_out": true
     },
     {
-     "id": 1641917,
-     "name": "Taylor Funk",
-     "pos": "F",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
      "id": 1643265,
      "name": "Jonas Aidoo",
      "pos": "C",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643869,
-     "name": "Chance Moore",
-     "pos": "F",
      "value": null,
      "mpg_recent": null,
      "glue": null,

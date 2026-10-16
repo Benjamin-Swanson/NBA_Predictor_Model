@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T23:09:22+00:00",
+ "generated_at": "2026-10-16T15:01:21+00:00",
  "date": "2026-10-20",
  "ratings_through": "2026-04-12",
  "unmatched_injuries": [
@@ -45,7 +45,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-15T23:09:22+00:00"
+   "predicted_at": "2026-10-16T15:01:21+00:00"
   },
   {
    "game_id": "0022600002",
@@ -77,7 +77,14 @@
    },
    "rest_home": 7,
    "rest_away": 7,
-   "injuries_home": [],
+   "injuries_home": [
+    {
+     "name": "Josh Hart",
+     "status": "Day-To-Day",
+     "note": "Coach Mike Brown isn't concerned about Hart missing Tuesday's regular-season opener Tuesday against Philadelphia, Kristian Winfield of the New York Daily News reports.",
+     "out": false
+    }
+   ],
    "injuries_away": [
     {
      "name": "Anfernee Simons",
@@ -134,7 +141,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-15T23:09:22+00:00"
+   "predicted_at": "2026-10-16T15:01:21+00:00"
   },
   {
    "game_id": "0022600003",
@@ -200,43 +207,43 @@
    ],
    "injuries_away": [
     {
-     "name": "Otega Oweh",
-     "status": "Out",
-     "note": "Oweh (Achilles) underwent surgery Wednesday and will miss the entirety of the 2026-27 season, Brandon Rahbar of DailyThunder.com reports.",
-     "out": true
+     "name": "Thomas Sorber",
+     "status": "Day-To-Day",
+     "note": "Sorber (knee) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
+     "out": false
     },
     {
      "name": "Jaylin Williams",
      "status": "Day-To-Day",
-     "note": "Williams (heel) has been ruled out for Tuesday's preseason game against the Pacers, Clemente Almanza of USA Today reports.",
+     "note": "Williams (heel) won't play in Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports.",
      "out": false
     },
     {
-     "name": "Chet Holmgren",
+     "name": "Cason Wallace",
      "status": "Day-To-Day",
-     "note": "Holmgren (quadriceps) has been ruled out for Tuesday's preseason game against the Pacers, Clemente Almanza of USA Today reports.",
-     "out": false
-    },
-    {
-     "name": "Ajay Mitchell",
-     "status": "Day-To-Day",
-     "note": "Mitchell (rest) won't play in Tuesday's preseason game against the Pacers, Clemente Almanza of USA Today reports.",
-     "out": false
-    },
-    {
-     "name": "Thomas Sorber",
-     "status": "Day-To-Day",
-     "note": "Sorber (knee) won't play Tuesday against the Pacers, Clemente Almanza of USA Today reports.",
+     "note": "Wallace (undisclosed) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
      "out": false
     },
     {
      "name": "Nikola Topi\u0107",
      "status": "Day-To-Day",
-     "note": "Topic (back) won't play Tuesday against Indiana, Clemente Almanza of USA Today reports.",
+     "note": "Topic (back) is out for Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports.",
      "out": false
+    },
+    {
+     "name": "Chet Holmgren",
+     "status": "Day-To-Day",
+     "note": "Holmgren (quadriceps) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
+     "out": false
+    },
+    {
+     "name": "Otega Oweh",
+     "status": "Out",
+     "note": "Oweh (Achilles) underwent surgery Wednesday and will miss the entirety of the 2026-27 season, Brandon Rahbar of DailyThunder.com reports.",
+     "out": true
     }
    ],
-   "predicted_at": "2026-10-15T23:09:22+00:00"
+   "predicted_at": "2026-10-16T15:01:21+00:00"
   }
  ]
 }
