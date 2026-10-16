@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:01:21+00:00",
+ "generated_at": "2026-10-16T22:00:14+00:00",
  "date": "2026-10-20",
  "ratings_through": "2026-04-12",
  "unmatched_injuries": [
@@ -86,6 +86,12 @@
    ],
    "injuries_away": [
     {
+     "name": "VJ Edgecombe",
+     "status": "Day-To-Day",
+     "note": "Edgecombe (rest) won't play in Friday's preseason game against the Celtics, Chris Hine of The Philly Inquirer reports.",
+     "out": false
+    },
+    {
      "name": "Anfernee Simons",
      "status": "Day-To-Day",
      "note": "Simons (hamstring) is out for Friday's preseason game against the Celtics, Kyle Neubeck of AllPHLY.com reports.",
@@ -104,27 +110,9 @@
      "out": false
     },
     {
-     "name": "LeBron James",
-     "status": "Day-To-Day",
-     "note": "James (rest) won't be available for Saturday's preseason contest against the Celtics, Tony Jones of The Athletic reports.",
-     "out": false
-    },
-    {
      "name": "Kentavious Caldwell-Pope",
      "status": "Day-To-Day",
      "note": "Caldwell-Pope (rest) won't play in Saturday's exhibition against the Celtics, Tony Jones of The Athletic reports.",
-     "out": false
-    },
-    {
-     "name": "Jaylen Brown",
-     "status": "Day-To-Day",
-     "note": "Brown (rest) won't suit up for Saturday's preseason game in Boston, Tony Jones of The Athletic reports.",
-     "out": false
-    },
-    {
-     "name": "Joel Embiid",
-     "status": "Day-To-Day",
-     "note": "Embiid (rest) is out for Saturday's exhibition against the Celtics, Tony Jones of The Athletic reports.",
      "out": false
     },
     {
@@ -172,24 +160,6 @@
    "rest_home": 7,
    "rest_away": 7,
    "injuries_home": [
-    {
-     "name": "Luke Kornet",
-     "status": "Day-To-Day",
-     "note": "Kornet (rest) won't play in Wednesday's preseason game against the Suns, Matt Guzman of SI.com reports.",
-     "out": false
-    },
-    {
-     "name": "Keldon Johnson",
-     "status": "Day-To-Day",
-     "note": "Johnson (rest) has been ruled out for Wednesday's preseason game against Phoenix, Matt Guzman of SI.com reports.",
-     "out": false
-    },
-    {
-     "name": "Julian Champagnie",
-     "status": "Day-To-Day",
-     "note": "Champagnie (rest) has been ruled out for Wednesday's preseason game against Phoenix, Matt Guzman of SI.com reports.",
-     "out": false
-    },
     {
      "name": "Jayden Quaintance",
      "status": "Out",
