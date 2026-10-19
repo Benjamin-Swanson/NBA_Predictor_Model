@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T15:07:39+00:00",
+ "generated_at": "2026-10-19T22:00:12+00:00",
  "date": "2026-10-20",
  "ratings_through": "2026-04-12",
  "unmatched_injuries": [],
@@ -54,23 +54,23 @@
    "neutral": false,
    "home_name": "New York Knicks",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.7276,
-   "home_pts": 119.5,
-   "away_pts": 111.4,
+   "home_win_prob": 0.752,
+   "home_pts": 119.9,
+   "away_pts": 110.8,
    "margin_pct": {
-    "5": -14.8,
-    "25": -0.9,
-    "50": 8.4,
-    "75": 17.5,
-    "95": 30.6
+    "5": -13.8,
+    "25": 0.1,
+    "50": 9.4,
+    "75": 18.6,
+    "95": 31.6
    },
-   "total_mean": 231.0,
+   "total_mean": 230.8,
    "total_pct": {
-    "5": 201.0,
-    "25": 218.7,
-    "50": 231.0,
-    "75": 243.4,
-    "95": 261.0
+    "5": 200.8,
+    "25": 218.5,
+    "50": 230.8,
+    "75": 243.2,
+    "95": 260.8
    },
    "rest_home": 7,
    "rest_away": 7,
@@ -84,34 +84,34 @@
    ],
    "injuries_away": [
     {
+     "name": "Dean Wade",
+     "status": "Day-To-Day",
+     "note": "Wade (ankle) is questionable for Tuesday's season opener versus the Knicks, per Adam Aaronson of PhillyVoice.com.",
+     "out": false
+    },
+    {
      "name": "Adem Bona",
      "status": "Day-To-Day",
-     "note": "Bona (foot) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",
+     "note": "Bona (foot) is questionable for Tuesday's meeting in New York, Adam Aaronson of PhillyVoice.com reports.",
      "out": false
     },
     {
      "name": "Anfernee Simons",
      "status": "Day-To-Day",
-     "note": "Simons (hamstring) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",
+     "note": "Simons (hamstring) is questionable for Tuesday's game against the Knicks, Adam Aaronson of PhillyVoice.com reports.",
      "out": false
     },
     {
      "name": "Tacko Fall",
-     "status": "Day-To-Day",
-     "note": "Fall (hip) didn't participate in Sunday's practice, Ky Carlin of USA Today reports.",
-     "out": false
+     "status": "Out",
+     "note": "Fall (hip) is out for Tuesday's regular-season opener against the Knicks, Adam Aaronson of PhillyVoice.com reports.",
+     "out": true
     },
     {
      "name": "Dominick Barlow",
-     "status": "Day-To-Day",
-     "note": "Barlow (back) didn't participate in Sunday's practice, Adam Aaronson of PhillyVoice.com reports.",
-     "out": false
-    },
-    {
-     "name": "Dean Wade",
-     "status": "Day-To-Day",
-     "note": "Wade (ankle) didn't participate in Sunday's practice, Adam Aaronson of PhillyVoice.com reports.",
-     "out": false
+     "status": "Out",
+     "note": "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stress response, Adam Aaronson of PhillyVoice.com reports.",
+     "out": true
     },
     {
      "name": "Ariel Hukporti",
@@ -131,38 +131,38 @@
    "neutral": false,
    "home_name": "San Antonio Spurs",
    "away_name": "Oklahoma City Thunder",
-   "home_win_prob": 0.5815,
-   "home_pts": 120.1,
-   "away_pts": 117.5,
+   "home_win_prob": 0.5397,
+   "home_pts": 118.8,
+   "away_pts": 117.7,
    "margin_pct": {
-    "5": -20.4,
-    "25": -6.5,
-    "50": 2.8,
-    "75": 11.9,
-    "95": 25.0
+    "5": -21.9,
+    "25": -8.0,
+    "50": 1.3,
+    "75": 10.5,
+    "95": 23.5
    },
-   "total_mean": 237.7,
+   "total_mean": 236.6,
    "total_pct": {
-    "5": 207.6,
-    "25": 225.4,
-    "50": 237.7,
-    "75": 250.1,
-    "95": 267.6
+    "5": 206.6,
+    "25": 224.3,
+    "50": 236.6,
+    "75": 249.0,
+    "95": 266.6
    },
    "rest_home": 7,
    "rest_away": 7,
    "injuries_home": [
     {
+     "name": "Tobias Harris",
+     "status": "Out",
+     "note": "Harris (calf) will not be ready for the season opener Wednesday against the Thunder, Matt Guzman of SI.com reports.",
+     "out": true
+    },
+    {
      "name": "Jayden Quaintance",
      "status": "Out",
      "note": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
      "out": true
-    },
-    {
-     "name": "Tobias Harris",
-     "status": "Day-To-Day",
-     "note": "Spurs head coach Mitch Johnson said they will not rush Tobias Harris (calf) back to the court, Jared Weiss of The Athletic reports.",
-     "out": false
     }
    ],
    "injuries_away": [
