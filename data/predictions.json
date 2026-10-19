@@ -1,10 +1,8 @@
 {
- "generated_at": "2026-10-16T22:00:14+00:00",
+ "generated_at": "2026-10-19T15:07:39+00:00",
  "date": "2026-10-20",
  "ratings_through": "2026-04-12",
- "unmatched_injuries": [
-  "Chucky Hepburn (Toronto Raptors)"
- ],
+ "unmatched_injuries": [],
  "games": [
   {
    "game_id": "0022600001",
@@ -16,23 +14,23 @@
    "neutral": false,
    "home_name": "Detroit Pistons",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.6332,
-   "home_pts": 117.4,
-   "away_pts": 112.9,
+   "home_win_prob": 0.6754,
+   "home_pts": 117.7,
+   "away_pts": 111.6,
    "margin_pct": {
-    "5": -18.5,
-    "25": -4.6,
-    "50": 4.7,
-    "75": 13.9,
-    "95": 27.0
+    "5": -16.9,
+    "25": -3.0,
+    "50": 6.3,
+    "75": 15.5,
+    "95": 28.5
    },
-   "total_mean": 230.4,
+   "total_mean": 229.4,
    "total_pct": {
-    "5": 200.4,
-    "25": 218.1,
-    "50": 230.4,
-    "75": 242.8,
-    "95": 260.4
+    "5": 199.3,
+    "25": 217.1,
+    "50": 229.3,
+    "75": 241.8,
+    "95": 259.3
    },
    "rest_home": 7,
    "rest_away": 7,
@@ -40,9 +38,9 @@
    "injuries_away": [
     {
      "name": "Devin Carter",
-     "status": "Day-To-Day",
-     "note": "Carter (illness) won't play in Wednesday's preseason game against Charlotte, Bobby Krivitsky of Forbes.com reports.",
-     "out": false
+     "status": "Out",
+     "note": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports.",
+     "out": true
     }
    ]
   },
@@ -56,23 +54,23 @@
    "neutral": false,
    "home_name": "New York Knicks",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.7235,
-   "home_pts": 119.4,
+   "home_win_prob": 0.7276,
+   "home_pts": 119.5,
    "away_pts": 111.4,
    "margin_pct": {
-    "5": -15.0,
-    "25": -1.1,
-    "50": 8.2,
-    "75": 17.4,
-    "95": 30.5
+    "5": -14.8,
+    "25": -0.9,
+    "50": 8.4,
+    "75": 17.5,
+    "95": 30.6
    },
    "total_mean": 231.0,
    "total_pct": {
-    "5": 200.9,
+    "5": 201.0,
     "25": 218.7,
     "50": 231.0,
     "75": 243.4,
-    "95": 260.9
+    "95": 261.0
    },
    "rest_home": 7,
    "rest_away": 7,
@@ -86,33 +84,33 @@
    ],
    "injuries_away": [
     {
-     "name": "VJ Edgecombe",
+     "name": "Adem Bona",
      "status": "Day-To-Day",
-     "note": "Edgecombe (rest) won't play in Friday's preseason game against the Celtics, Chris Hine of The Philly Inquirer reports.",
+     "note": "Bona (foot) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",
      "out": false
     },
     {
      "name": "Anfernee Simons",
      "status": "Day-To-Day",
-     "note": "Simons (hamstring) is out for Friday's preseason game against the Celtics, Kyle Neubeck of AllPHLY.com reports.",
+     "note": "Simons (hamstring) was a full participant in Sunday's practice, Ky Carlin of USA Today reports.",
      "out": false
     },
     {
-     "name": "Adem Bona",
+     "name": "Tacko Fall",
      "status": "Day-To-Day",
-     "note": "Bona (foot) remains out for Friday's preseason finale against the Celtics, but he's getting closer to a return, Kyle Neubeck of AllPHLY.com reports.",
+     "note": "Fall (hip) didn't participate in Sunday's practice, Ky Carlin of USA Today reports.",
      "out": false
     },
     {
      "name": "Dominick Barlow",
      "status": "Day-To-Day",
-     "note": "Barlow (back) was unable to practice Tuesday, Noah Levick of NBC Sports Philadelphia reports.",
+     "note": "Barlow (back) didn't participate in Sunday's practice, Adam Aaronson of PhillyVoice.com reports.",
      "out": false
     },
     {
-     "name": "Kentavious Caldwell-Pope",
+     "name": "Dean Wade",
      "status": "Day-To-Day",
-     "note": "Caldwell-Pope (rest) won't play in Saturday's exhibition against the Celtics, Tony Jones of The Athletic reports.",
+     "note": "Wade (ankle) didn't participate in Sunday's practice, Adam Aaronson of PhillyVoice.com reports.",
      "out": false
     },
     {
@@ -120,12 +118,6 @@
      "status": "Out",
      "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
      "out": true
-    },
-    {
-     "name": "Tacko Fall",
-     "status": "Day-To-Day",
-     "note": "Fall was diagnosed with a left hip strain Thursday and will miss at least two weeks, Kyle Neubeck of AllPHLY.com reports.",
-     "out": false
     }
    ]
   },
@@ -175,6 +167,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Cason Wallace",
+     "status": "Day-To-Day",
+     "note": "Wallace (undisclosed) has agreed to a five-year, $139 million contract extension with the Thunder on Sunday, Shams Charania of ESPN reports.",
+     "out": false
+    },
+    {
      "name": "Thomas Sorber",
      "status": "Day-To-Day",
      "note": "Sorber (knee) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
@@ -184,12 +182,6 @@
      "name": "Jaylin Williams",
      "status": "Day-To-Day",
      "note": "Williams (heel) won't play in Thursday's preseason game against Houston, Justin Martinez of The Oklahoman reports.",
-     "out": false
-    },
-    {
-     "name": "Cason Wallace",
-     "status": "Day-To-Day",
-     "note": "Wallace (undisclosed) has been ruled out for Thursday's preseason game against the Rockets, Justin Martinez of The Oklahoman reports.",
      "out": false
     },
     {
