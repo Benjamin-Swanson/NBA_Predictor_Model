@@ -1,6 +1,76 @@
 {
- "updated": "2026-10-19T22:00:12+00:00",
- "n": 0,
- "games": [],
- "buckets": []
+ "updated": "2026-10-21T15:05:14+00:00",
+ "n": 3,
+ "accuracy": 0.3333,
+ "log_loss": 0.8542,
+ "brier": 0.3207,
+ "margin_mae": 10.03,
+ "band_coverage": 1.0,
+ "buckets": [
+  {
+   "bucket": "50-60%",
+   "games": 1,
+   "predicted": 0.54,
+   "actual": 0.0
+  },
+  {
+   "bucket": "60-70%",
+   "games": 1,
+   "predicted": 0.675,
+   "actual": 1.0
+  },
+  {
+   "bucket": "70-80%",
+   "games": 1,
+   "predicted": 0.752,
+   "actual": 0.0
+  }
+ ],
+ "games": [
+  {
+   "date": "2026-10-20",
+   "game_id": "0022600003",
+   "away": "OKC",
+   "home": "SAS",
+   "home_win_prob": 0.54,
+   "home_won": 0,
+   "pick": "SAS",
+   "confidence": 0.54,
+   "correct": 0,
+   "proj": "118-119",
+   "final": "116-104",
+   "margin_err": -13.1,
+   "in_band": 1
+  },
+  {
+   "date": "2026-10-20",
+   "game_id": "0022600002",
+   "away": "PHI",
+   "home": "NYK",
+   "home_win_prob": 0.752,
+   "home_won": 0,
+   "pick": "NYK",
+   "confidence": 0.752,
+   "correct": 0,
+   "proj": "111-120",
+   "final": "106-100",
+   "margin_err": -15.1,
+   "in_band": 1
+  },
+  {
+   "date": "2026-10-20",
+   "game_id": "0022600001",
+   "away": "BOS",
+   "home": "DET",
+   "home_win_prob": 0.675,
+   "home_won": 1,
+   "pick": "DET",
+   "confidence": 0.675,
+   "correct": 1,
+   "proj": "112-118",
+   "final": "113-121",
+   "margin_err": 1.9,
+   "in_band": 1
+  }
+ ]
 }
