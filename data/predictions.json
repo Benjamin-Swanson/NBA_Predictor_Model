@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T15:05:14+00:00",
+ "generated_at": "2026-10-21T22:00:14+00:00",
  "date": "2026-10-21",
  "ratings_through": "2026-10-20",
  "unmatched_injuries": [],
@@ -125,14 +125,7 @@
      "out": true
     }
    ],
-   "injuries_away": [
-    {
-     "name": "Nate Ament",
-     "status": "Day-To-Day",
-     "note": "Ament is probable for Wednesday's season opener against the Wizards with a right ankle sprain.",
-     "out": false
-    }
-   ]
+   "injuries_away": []
   },
   {
    "game_id": "0022600004",
@@ -164,14 +157,7 @@
    },
    "rest_home": 7,
    "rest_away": 7,
-   "injuries_home": [
-    {
-     "name": "Vladislav Goldin",
-     "status": "Day-To-Day",
-     "note": "Goldin is questionable for Wednesday's season opener against Minnesota with a right ankle sprain.",
-     "out": false
-    }
-   ],
+   "injuries_home": [],
    "injuries_away": [
     {
      "name": "Donte DiVincenzo",
@@ -256,23 +242,23 @@
    "neutral": false,
    "home_name": "Toronto Raptors",
    "away_name": "Chicago Bulls",
-   "home_win_prob": 0.841,
-   "home_pts": 127.2,
+   "home_win_prob": 0.8431,
+   "home_pts": 127.4,
    "away_pts": 113.3,
    "margin_pct": {
-    "5": -9.1,
-    "25": 4.8,
-    "50": 14.2,
-    "75": 23.3,
-    "95": 36.4
+    "5": -9.0,
+    "25": 4.9,
+    "50": 14.3,
+    "75": 23.4,
+    "95": 36.5
    },
-   "total_mean": 240.7,
+   "total_mean": 240.8,
    "total_pct": {
-    "5": 210.6,
-    "25": 228.4,
-    "50": 240.7,
-    "75": 253.1,
-    "95": 270.6
+    "5": 210.8,
+    "25": 228.5,
+    "50": 240.8,
+    "75": 253.2,
+    "95": 270.8
    },
    "rest_home": 7,
    "rest_away": 7,
@@ -286,39 +272,27 @@
    ],
    "injuries_away": [
     {
+     "name": "Dailyn Swain",
+     "status": "Out",
+     "note": "Swain is out for Wednesday's season opener against Toronto with an illness.",
+     "out": true
+    },
+    {
+     "name": "Jordan Hawkins",
+     "status": "Out",
+     "note": "Hawkins is out for Wednesday's season opener against Toronto with an illness.",
+     "out": true
+    },
+    {
      "name": "Leonard Miller",
      "status": "Day-To-Day",
      "note": "Miller is probable for Wednesday's game against the Raptors with a right adductor strain.",
      "out": false
     },
     {
-     "name": "Isaac Okoro",
-     "status": "Day-To-Day",
-     "note": "Okoro (knee) is probable for Wednesday's season opener against Toronto.",
-     "out": false
-    },
-    {
-     "name": "Dailyn Swain",
-     "status": "Day-To-Day",
-     "note": "Swain (illness) is officially doubtful for Wednesday's season opener in Toronto.",
-     "out": false
-    },
-    {
-     "name": "Zach Collins",
-     "status": "Day-To-Day",
-     "note": "Collins (toe) is probable for Wednesday's game against the Raptors.",
-     "out": false
-    },
-    {
      "name": "Tobe Awaka",
      "status": "Day-To-Day",
      "note": "Awaka (knee) is probable for Wednesday's game against the Raptors.",
-     "out": false
-    },
-    {
-     "name": "Jordan Hawkins",
-     "status": "Day-To-Day",
-     "note": "Hawkins (illness) is out for Wednesday's game against the Raptors, K.C. Johnson of Chicago Sports Network reports.",
      "out": false
     },
     {
@@ -339,23 +313,23 @@
    "neutral": false,
    "home_name": "Memphis Grizzlies",
    "away_name": "Utah Jazz",
-   "home_win_prob": 0.6174,
+   "home_win_prob": 0.62,
    "home_pts": 128.7,
-   "away_pts": 124.8,
+   "away_pts": 124.7,
    "margin_pct": {
-    "5": -19.1,
-    "25": -5.2,
-    "50": 4.1,
-    "75": 13.3,
+    "5": -19.0,
+    "25": -5.1,
+    "50": 4.2,
+    "75": 13.4,
     "95": 26.4
    },
-   "total_mean": 253.7,
+   "total_mean": 253.5,
    "total_pct": {
-    "5": 223.6,
-    "25": 241.4,
-    "50": 253.7,
-    "75": 266.1,
-    "95": 283.6
+    "5": 223.4,
+    "25": 241.2,
+    "50": 253.5,
+    "75": 265.9,
+    "95": 283.4
    },
    "rest_home": 7,
    "rest_away": 7,
@@ -368,12 +342,6 @@
     }
    ],
    "injuries_away": [
-    {
-     "name": "Blake Hinson",
-     "status": "Out",
-     "note": "Hinson (hamstring) is out for Wednesday's game against the Grizzlies.",
-     "out": true
-    },
     {
      "name": "Tony Bradley",
      "status": "Out",
@@ -494,7 +462,7 @@
     {
      "name": "Jett Howard",
      "status": "Day-To-Day",
-     "note": "Howard (calf) is listed as questionable for Wednesday's game against the Rockets.",
+     "note": "Howard (calf) is now doubtful for Wednesday against the Rockets.",
      "out": false
     },
     {
@@ -533,38 +501,38 @@
    "neutral": false,
    "home_name": "Los Angeles Lakers",
    "away_name": "Golden State Warriors",
-   "home_win_prob": 0.7777,
-   "home_pts": 118.7,
-   "away_pts": 108.2,
+   "home_win_prob": 0.7551,
+   "home_pts": 117.6,
+   "away_pts": 108.3,
    "margin_pct": {
-    "5": -12.6,
-    "25": 1.3,
-    "50": 10.7,
-    "75": 19.8,
-    "95": 32.9
+    "5": -13.7,
+    "25": 0.2,
+    "50": 9.5,
+    "75": 18.7,
+    "95": 31.8
    },
-   "total_mean": 227.0,
+   "total_mean": 226.0,
    "total_pct": {
-    "5": 196.9,
-    "25": 214.7,
-    "50": 227.0,
-    "75": 239.4,
-    "95": 256.9
+    "5": 196.0,
+    "25": 213.7,
+    "50": 226.0,
+    "75": 238.4,
+    "95": 256.0
    },
    "rest_home": 7,
    "rest_away": 7,
    "injuries_home": [
     {
+     "name": "Collin Sexton",
+     "status": "Out",
+     "note": "Sexton (calf) won't play in Wednesday's regular-season opener against the Warriors, per Khobi Price of The California Post.",
+     "out": true
+    },
+    {
      "name": "Cameron Carr",
      "status": "Out",
      "note": "Carr (oblique) is listed as out for Wednesday's game against the Warriors.",
      "out": true
-    },
-    {
-     "name": "Collin Sexton",
-     "status": "Day-To-Day",
-     "note": "Sexton (calf) is questionable for Wednesday's regular-season opener against the Warriors.",
-     "out": false
     },
     {
      "name": "Adou Thiero",
@@ -575,6 +543,18 @@
    ],
    "injuries_away": [
     {
+     "name": "Kristaps Porzi\u0146\u0123is",
+     "status": "Out",
+     "note": "Porzingis is contemplating his future in basketball as he deals with recurring symptoms from the autoimmune condition termed as postural orthostatic tachycardia syndrome, per Shams Charania of ESPN.",
+     "out": true
+    },
+    {
+     "name": "Charles Bassey",
+     "status": "Out",
+     "note": "Bassey (knee) is out for Wednesday's season opener versus the Lakers.",
+     "out": true
+    },
+    {
      "name": "Stephen Curry",
      "status": "Day-To-Day",
      "note": "Curry (ankle) is listed as probable for Wednesday's game against the Lakers.",
@@ -584,18 +564,6 @@
      "name": "Brandin Podziemski",
      "status": "Out",
      "note": "Podziemski (back) has been ruled out for Wednesday's game against the Lakers.",
-     "out": true
-    },
-    {
-     "name": "Charles Bassey",
-     "status": "Day-To-Day",
-     "note": "Bassey (knee) is questionable for Wednesday's season opener versus the Lakers, per Nick Friedell of The Athletic.",
-     "out": false
-    },
-    {
-     "name": "Kristaps Porzi\u0146\u0123is",
-     "status": "Out",
-     "note": "Porzingis (undisclosed) won't travel with the Warriors and remains out indefinitely, Luca Evans of the San Francisco Chronicle reports.",
      "out": true
     },
     {
@@ -644,6 +612,12 @@
    "rest_away": 7,
    "injuries_home": [
     {
+     "name": "Micah Potter",
+     "status": "Day-To-Day",
+     "note": "Potter (illness) has been upgraded to probable for Wednesday's game against the Suns.",
+     "out": false
+    },
+    {
      "name": "Branden Carlson",
      "status": "Out",
      "note": "Carlson (concussion) has been ruled out for Wednesday's game against the Suns.",
@@ -654,12 +628,6 @@
      "status": "Out",
      "note": "Youngblood is out for Wednesday's regular-season opener against Phoenix due to left ankle soreness.",
      "out": true
-    },
-    {
-     "name": "Micah Potter",
-     "status": "Day-To-Day",
-     "note": "Potter (illness) is questionable for Wednesday's regular-season opener against the Suns.",
-     "out": false
     },
     {
      "name": "Deni Avdija",
