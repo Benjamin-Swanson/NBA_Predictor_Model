@@ -1,0 +1,152 @@
+{
+ "generated_at": "2026-10-22T22:00:57+00:00",
+ "date": "2026-10-22",
+ "ratings_through": "2026-10-21",
+ "unmatched_injuries": [],
+ "games": [
+  {
+   "game_id": "0022600006",
+   "tip_utc": "2026-10-22T23:00:00Z",
+   "tip_et": "7:00 pm ET",
+   "arena": "Xfinity Mobile Arena, Philadelphia",
+   "home": "PHI",
+   "away": "CLE",
+   "neutral": false,
+   "home_name": "Philadelphia 76ers",
+   "away_name": "Cleveland Cavaliers",
+   "home_win_prob": 0.424,
+   "home_pts": 116.2,
+   "away_pts": 118.9,
+   "margin_pct": {
+    "5": -25.8,
+    "25": -11.8,
+    "50": -2.5,
+    "75": 6.6,
+    "95": 19.7
+   },
+   "total_mean": 235.2,
+   "total_pct": {
+    "5": 205.1,
+    "25": 222.9,
+    "50": 235.2,
+    "75": 247.6,
+    "95": 265.1
+   },
+   "rest_home": 2,
+   "rest_away": 7,
+   "injuries_home": [
+    {
+     "name": "Dean Wade",
+     "status": "Day-To-Day",
+     "note": "Wade (ankle) participated in Thursday's morning shootaround, Adam Aaronson of PhillyVoice.com reports.",
+     "out": false
+    },
+    {
+     "name": "Tacko Fall",
+     "status": "Out",
+     "note": "Fall (quadriceps) is out for Thursday's game against Cleveland.",
+     "out": true
+    },
+    {
+     "name": "Dominick Barlow",
+     "status": "Out",
+     "note": "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stress response, Adam Aaronson of PhillyVoice.com reports.",
+     "out": true
+    },
+    {
+     "name": "Ariel Hukporti",
+     "status": "Out",
+     "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Jarrett Allen",
+     "status": "Day-To-Day",
+     "note": "Allen (knee) said he expects to play Thursday against the 76ers, Chris Fedor of The Cleveland Plain Dealer reports.",
+     "out": false
+    },
+    {
+     "name": "Khalifa Diop",
+     "status": "Out",
+     "note": "Diop (knee) has been ruled out for Thursday's game against the 76ers.",
+     "out": true
+    },
+    {
+     "name": "Nae'Qwan Tomlin",
+     "status": "Out",
+     "note": "Tomlin is set to miss several weeks with a lower back stress reaction, Chris Fedor of The Cleveland Plain Dealer reports.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-10-22T22:00:57+00:00"
+  },
+  {
+   "game_id": "0022600007",
+   "tip_utc": "2026-10-23T01:30:00Z",
+   "tip_et": "9:30 pm ET",
+   "arena": "Paycom Center, Oklahoma City",
+   "home": "OKC",
+   "away": "DEN",
+   "neutral": false,
+   "home_name": "Oklahoma City Thunder",
+   "away_name": "Denver Nuggets",
+   "home_win_prob": 0.6222,
+   "home_pts": 122.8,
+   "away_pts": 118.7,
+   "margin_pct": {
+    "5": -18.9,
+    "25": -5.0,
+    "50": 4.3,
+    "75": 13.4,
+    "95": 26.5
+   },
+   "total_mean": 241.6,
+   "total_pct": {
+    "5": 211.5,
+    "25": 229.3,
+    "50": 241.6,
+    "75": 254.0,
+    "95": 271.5
+   },
+   "rest_home": 2,
+   "rest_away": 7,
+   "injuries_home": [
+    {
+     "name": "Nikola Topi\u0107",
+     "status": "Out",
+     "note": "Topic (back) won't play in Thursday's game against the Nuggets.",
+     "out": true
+    },
+    {
+     "name": "Thomas Sorber",
+     "status": "Out",
+     "note": "Sorber (knee) is listed as out for Thursday's game against Denver.",
+     "out": true
+    },
+    {
+     "name": "Otega Oweh",
+     "status": "Out",
+     "note": "Oweh (Achilles) underwent surgery Wednesday and will miss the entirety of the 2026-27 season, Brandon Rahbar of DailyThunder.com reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Spencer Jones",
+     "status": "Day-To-Day",
+     "note": "Jones (hamstring) is questionable for Thursday's season opener against the Thunder.",
+     "out": false
+    },
+    {
+     "name": "Julian Strawther",
+     "status": "Out",
+     "note": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-10-22T22:00:57+00:00"
+  }
+ ]
+}
