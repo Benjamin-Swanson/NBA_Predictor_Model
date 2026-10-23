@@ -1,23 +1,23 @@
 {
- "updated": "2026-10-22T22:00:57+00:00",
- "n": 14,
- "accuracy": 0.5714,
- "log_loss": 0.6035,
- "brier": 0.2112,
- "margin_mae": 14.74,
- "band_coverage": 0.7857,
+ "updated": "2026-10-23T22:00:16+00:00",
+ "n": 16,
+ "accuracy": 0.5625,
+ "log_loss": 0.6114,
+ "brier": 0.2145,
+ "margin_mae": 14.06,
+ "band_coverage": 0.8125,
  "buckets": [
   {
    "bucket": "50-60%",
-   "games": 2,
-   "predicted": 0.529,
+   "games": 3,
+   "predicted": 0.545,
    "actual": 0.0
   },
   {
    "bucket": "60-70%",
-   "games": 6,
-   "predicted": 0.633,
-   "actual": 0.5
+   "games": 7,
+   "predicted": 0.631,
+   "actual": 0.571
   },
   {
    "bucket": "70-80%",
@@ -33,6 +33,36 @@
   }
  ],
  "games": [
+  {
+   "date": "2026-10-22",
+   "game_id": "0022600007",
+   "away": "DEN",
+   "home": "OKC",
+   "home_win_prob": 0.622,
+   "home_won": 1,
+   "pick": "OKC",
+   "confidence": 0.622,
+   "correct": 1,
+   "proj": "119-123",
+   "final": "84-96",
+   "margin_err": 7.9,
+   "in_band": 1
+  },
+  {
+   "date": "2026-10-22",
+   "game_id": "0022600006",
+   "away": "CLE",
+   "home": "PHI",
+   "home_win_prob": 0.424,
+   "home_won": 1,
+   "pick": "CLE",
+   "confidence": 0.576,
+   "correct": 0,
+   "proj": "119-116",
+   "final": "106-114",
+   "margin_err": 10.7,
+   "in_band": 1
+  },
   {
    "date": "2026-10-21",
    "game_id": "0022600093",
