@@ -102,5 +102,5 @@ Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse 
 
 ## Automation (actual setup)
 - GitHub Actions can't reach stats.nba.com (tested 2026-10-09: 60s timeout), so `.github/workflows/daily.yml` is manual-only.
-- The Mac runs `scripts/daily_local.sh` (real path, not the Desktop shortcut) via launchd (`~/Library/LaunchAgents/com.nbapredictor.daily.plist`) at 9:00 and 16:00 local (11am / 6pm ET): pull, predict_today, simulate_season, commit data, push → Streamlit Cloud redeploys. Missed runs (Mac asleep) fire on wake. Log: `logs/daily.log`.
+- The Mac runs `scripts/daily_local.sh` (real path, not the Desktop shortcut) via launchd (`~/Library/LaunchAgents/com.nbapredictor.daily.plist`) at 6:00 and 16:00 local (8am / 6pm ET; 6am so the site has today's games before anyone looks): pull, predict_today, simulate_season, commit data, push → Streamlit Cloud redeploys. Missed runs (Mac asleep) fire on wake. Log: `logs/daily.log`.
 - Run now: `launchctl start com.nbapredictor.daily`. Disable: `launchctl unload ~/Library/LaunchAgents/com.nbapredictor.daily.plist`.
