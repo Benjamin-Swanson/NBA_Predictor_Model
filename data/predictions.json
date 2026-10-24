@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T18:58:48+00:00",
+ "generated_at": "2026-10-24T22:00:37+00:00",
  "date": "2026-10-24",
  "ratings_through": "2026-10-23",
  "unmatched_injuries": [],
@@ -42,12 +42,6 @@
      "out": true
     },
     {
-     "name": "Christian Anderson",
-     "status": "Day-To-Day",
-     "note": "Anderson (ankle) is probable for Saturday's game against the Heat.",
-     "out": false
-    },
-    {
      "name": "Coby White",
      "status": "Out",
      "note": "White (calf) has been ruled out for Saturday's game against Miami.",
@@ -66,14 +60,7 @@
      "out": true
     }
    ],
-   "injuries_away": [
-    {
-     "name": "Pelle Larsson",
-     "status": "Day-To-Day",
-     "note": "Larsson (finger) is listed as probable for Saturday's game against Charlotte.",
-     "out": false
-    }
-   ]
+   "injuries_away": []
   },
   {
    "game_id": "0022600105",
@@ -213,7 +200,13 @@
     {
      "name": "Noa Essengue",
      "status": "Day-To-Day",
-     "note": "Essengue (head) is probable for Saturday's game against the Wizards, Joel Lorenzi of The Athletic reports.",
+     "note": "Essengue (head) has been downgraded to questionable for Saturday's game against the Wizards.",
+     "out": false
+    },
+    {
+     "name": "Patrick Williams",
+     "status": "Day-To-Day",
+     "note": "Williams (groin) is listed as questionable for Saturday's game against the Wizards.",
      "out": false
     },
     {
@@ -278,7 +271,13 @@
     {
      "name": "Zaccharie Risacher",
      "status": "Day-To-Day",
-     "note": "Risacher is questionable for Saturday's game against the Spurs due to right hip soreness.",
+     "note": "Risacher (hip) has been upgraded from questionable to probable ahead of Saturday's game against San Antonio.",
+     "out": false
+    },
+    {
+     "name": "Kyrie Irving",
+     "status": "Day-To-Day",
+     "note": "Irving (knee) has been downgraded from questionable to doubtful ahead of Saturday's game against the Spurs.",
      "out": false
     },
     {
@@ -298,12 +297,6 @@
      "status": "Out",
      "note": "Howard (calf) is listed as doubtful against the Spurs on Saturday.",
      "out": true
-    },
-    {
-     "name": "Kyrie Irving",
-     "status": "Day-To-Day",
-     "note": "Irving (knee) is listed as questionable for Saturday's game against San Antonio.",
-     "out": false
     },
     {
      "name": "Max Christie",
@@ -397,6 +390,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Marcus Smart",
+     "status": "Day-To-Day",
+     "note": "Smart (forearm) is listed as questionable for Saturday's game against the Hawks.",
+     "out": false
+    },
+    {
      "name": "Steven Adams",
      "status": "Out",
      "note": "Adams (ankle) has been ruled out for Saturday's game against the Hawks.",
@@ -426,23 +425,23 @@
    "neutral": false,
    "home_name": "Denver Nuggets",
    "away_name": "New Orleans Pelicans",
-   "home_win_prob": 0.8072,
+   "home_win_prob": 0.8259,
    "home_pts": 129.6,
-   "away_pts": 117.7,
+   "away_pts": 116.7,
    "margin_pct": {
-    "5": -11.0,
-    "25": 2.9,
-    "50": 12.1,
-    "75": 21.3,
-    "95": 34.2
+    "5": -10.0,
+    "25": 3.9,
+    "50": 13.2,
+    "75": 22.3,
+    "95": 35.2
    },
-   "total_mean": 247.4,
+   "total_mean": 246.5,
    "total_pct": {
-    "5": 217.6,
-    "25": 235.1,
-    "50": 247.4,
-    "75": 259.6,
-    "95": 277.1
+    "5": 216.6,
+    "25": 234.2,
+    "50": 246.5,
+    "75": 258.7,
+    "95": 276.1
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -475,9 +474,9 @@
    "injuries_away": [
     {
      "name": "Yves Missi",
-     "status": "Day-To-Day",
-     "note": "Missi won't return to Friday's game against the Jazz due to a left knee injury.",
-     "out": false
+     "status": "Out",
+     "note": "Missi (knee) has been ruled out for Saturday's game against the Nuggets.",
+     "out": true
     }
    ]
   },
@@ -491,23 +490,23 @@
    "neutral": false,
    "home_name": "Phoenix Suns",
    "away_name": "Golden State Warriors",
-   "home_win_prob": 0.7371,
-   "home_pts": 116.0,
-   "away_pts": 107.5,
+   "home_win_prob": 0.7326,
+   "home_pts": 116.2,
+   "away_pts": 107.9,
    "margin_pct": {
-    "5": -14.4,
-    "25": -0.5,
-    "50": 8.7,
-    "75": 17.9,
-    "95": 30.8
+    "5": -14.6,
+    "25": -0.7,
+    "50": 8.6,
+    "75": 17.7,
+    "95": 30.6
    },
-   "total_mean": 223.6,
+   "total_mean": 224.2,
    "total_pct": {
-    "5": 193.8,
-    "25": 211.3,
-    "50": 223.6,
-    "75": 235.8,
-    "95": 253.2
+    "5": 194.4,
+    "25": 211.9,
+    "50": 224.2,
+    "75": 236.4,
+    "95": 253.9
    },
    "rest_home": 3,
    "rest_away": 1,
@@ -520,9 +519,9 @@
     },
     {
      "name": "Oso Ighodaro",
-     "status": "Day-To-Day",
-     "note": "Ighodaro (oblique) is listed as doubtful for Saturday's game against Golden State.",
-     "out": false
+     "status": "Out",
+     "note": "Ighodaro (oblique) has been ruled out for Saturday's game against the Warriors, Duane Rankin of The Arizona Republic reports.",
+     "out": true
     },
     {
      "name": "Mark Williams",
@@ -533,22 +532,34 @@
    ],
    "injuries_away": [
     {
+     "name": "Charles Bassey",
+     "status": "Day-To-Day",
+     "note": "Bassey (knee) is listed as questionable for Saturday's game against the Suns.",
+     "out": false
+    },
+    {
+     "name": "Al Horford",
+     "status": "Out",
+     "note": "Horford (back) has been ruled out for Saturday's game against the Suns.",
+     "out": true
+    },
+    {
+     "name": "Draymond Green",
+     "status": "Day-To-Day",
+     "note": "Green is doubtful to play Saturday against the Suns due to bilateral low back soreness.",
+     "out": false
+    },
+    {
+     "name": "Stephen Curry",
+     "status": "Out",
+     "note": "Curry (rest) won't play Saturday against the Suns.",
+     "out": true
+    },
+    {
      "name": "Brandin Podziemski",
      "status": "Out",
      "note": "Podziemski (back) told reporters Friday that he will not play in the second leg of the Warriors' back-to-back set Saturday against the Suns, Nick Friedell of The Athletic reports.",
      "out": true
-    },
-    {
-     "name": "Stephen Curry",
-     "status": "Day-To-Day",
-     "note": "Curry told reporters after Friday's loss to the Grizzlies that he will \"probably not\" play against the Suns on Saturday, Nick Friedell of The Athletic reports.",
-     "out": false
-    },
-    {
-     "name": "Charles Bassey",
-     "status": "Day-To-Day",
-     "note": "Bassey (knee) is out for Friday's game versus the Grizzlies.",
-     "out": false
     },
     {
      "name": "Kristaps Porzi\u0146\u0123is",
