@@ -84,7 +84,7 @@ details.hw-inj summary{cursor:pointer;font-family:var(--mono);font-size:.7rem;te
   border-top:1px solid var(--rule)}
 .hw-row:first-child{border-top:none}
 .hw-row.hw-headrow{font-family:var(--mono);font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
-.hw-row .r{text-align:right}
+.hw-row .r{text-align:center}
 .hw-row .hw-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .hw-rank{font-family:var(--mono);color:var(--faint)}
 .hw-track{height:8px;background:var(--panel2);border-radius:4px;overflow:hidden}
@@ -92,7 +92,7 @@ details.hw-inj summary{cursor:pointer;font-family:var(--mono);font-size:.7rem;te
 .hw-teamhead{display:flex;align-items:center;gap:14px;margin:.4rem 0 .8rem}
 @media (max-width:640px){.hw-title{font-size:2rem}.hw-tag{display:none}
   .hw-brand{gap:10px}.hw-brand .hw-mark{height:56px}.hw-brand .hw-word{height:auto;width:calc(100% - 80px);max-width:300px}
-  .hw-row{grid-template-columns:1.6em 26px 1fr 4em 4em;padding:7px 10px}.hw-row .hw-track,.hw-row .hide-sm{display:none}
+  .hw-row{grid-template-columns:1.4em 26px 1fr 3.2em 2.8em;gap:8px;padding:7px 10px}.hw-row .hw-track,.hw-row .hide-sm{display:none}
   .hw-big{font-size:2rem}.hw-match{padding:16px 10px 12px}}
 """
 
