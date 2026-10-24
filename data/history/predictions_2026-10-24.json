@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T15:24:42+00:00",
+ "generated_at": "2026-10-24T18:43:57+00:00",
  "date": "2026-10-24",
  "ratings_through": "2026-10-23",
  "unmatched_injuries": [],
@@ -14,44 +14,50 @@
    "neutral": false,
    "home_name": "Charlotte Hornets",
    "away_name": "Miami Heat",
-   "home_win_prob": 0.7054,
-   "home_pts": 122.5,
-   "away_pts": 115.2,
+   "home_win_prob": 0.6209,
+   "home_pts": 120.4,
+   "away_pts": 116.4,
    "margin_pct": {
-    "5": -15.7,
-    "25": -1.8,
-    "50": 7.5,
-    "75": 16.7,
-    "95": 29.8
+    "5": -19.0,
+    "25": -5.1,
+    "50": 4.2,
+    "75": 13.4,
+    "95": 26.5
    },
-   "total_mean": 237.8,
+   "total_mean": 236.9,
    "total_pct": {
-    "5": 207.7,
-    "25": 225.5,
-    "50": 237.7,
-    "75": 250.1,
-    "95": 267.7
+    "5": 206.9,
+    "25": 224.6,
+    "50": 236.9,
+    "75": 249.3,
+    "95": 266.9
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
      "name": "Grant Williams",
+     "status": "Out",
+     "note": "Williams (hamstring) has been ruled out for Saturday's game against the Heat.",
+     "out": true
+    },
+    {
+     "name": "Christian Anderson",
      "status": "Day-To-Day",
-     "note": "Williams (hamstring) is out for Friday's game against the Hawks.",
+     "note": "Anderson (ankle) is probable for Saturday's game against the Heat.",
      "out": false
     },
     {
      "name": "Coby White",
-     "status": "Day-To-Day",
-     "note": "White (calf) is out for Friday's game against the Hawks.",
-     "out": false
+     "status": "Out",
+     "note": "White (calf) has been ruled out for Saturday's game against Miami.",
+     "out": true
     },
     {
      "name": "Kon Knueppel",
-     "status": "Day-To-Day",
-     "note": "Knueppel (hamstring) is out for Friday's game against the Hawks.",
-     "out": false
+     "status": "Out",
+     "note": "Knueppel (hamstring) has been ruled out for Saturday's game against the Heat.",
+     "out": true
     },
     {
      "name": "Kylan Boswell",
@@ -60,8 +66,15 @@
      "out": true
     }
    ],
-   "injuries_away": [],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "injuries_away": [
+    {
+     "name": "Pelle Larsson",
+     "status": "Day-To-Day",
+     "note": "Larsson (finger) is listed as probable for Saturday's game against Charlotte.",
+     "out": false
+    }
+   ],
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   },
   {
    "game_id": "0022600105",
@@ -102,7 +115,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   },
   {
    "game_id": "0022600106",
@@ -114,27 +127,33 @@
    "neutral": false,
    "home_name": "Philadelphia 76ers",
    "away_name": "Milwaukee Bucks",
-   "home_win_prob": 0.7519,
-   "home_pts": 120.9,
-   "away_pts": 111.7,
+   "home_win_prob": 0.7089,
+   "home_pts": 119.6,
+   "away_pts": 112.1,
    "margin_pct": {
-    "5": -13.8,
-    "25": 0.1,
-    "50": 9.4,
-    "75": 18.5,
-    "95": 31.6
+    "5": -15.5,
+    "25": -1.6,
+    "50": 7.7,
+    "75": 16.8,
+    "95": 29.9
    },
-   "total_mean": 232.7,
+   "total_mean": 231.8,
    "total_pct": {
-    "5": 202.6,
-    "25": 220.4,
-    "50": 232.7,
-    "75": 245.1,
-    "95": 262.6
+    "5": 201.8,
+    "25": 219.5,
+    "50": 231.8,
+    "75": 244.2,
+    "95": 261.7
    },
    "rest_home": 2,
    "rest_away": 1,
    "injuries_home": [
+    {
+     "name": "LeBron James",
+     "status": "Out",
+     "note": "James (back) has been ruled out for Saturday's game against the Bucks, Adam Aaronson of PhillyVoice.com reports.",
+     "out": true
+    },
     {
      "name": "Tacko Fall",
      "status": "Out",
@@ -145,12 +164,6 @@
      "name": "Dean Wade",
      "status": "Day-To-Day",
      "note": "Wade is listed as questionable for Saturday's game against the Bucks due to a left ankle sprain.",
-     "out": false
-    },
-    {
-     "name": "LeBron James",
-     "status": "Day-To-Day",
-     "note": "James (back) is questionable for Saturday's game against the Bucks.",
      "out": false
     },
     {
@@ -167,7 +180,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   },
   {
    "game_id": "0022600108",
@@ -201,6 +214,12 @@
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Noa Essengue",
+     "status": "Day-To-Day",
+     "note": "Essengue (head) is probable for Saturday's game against the Wizards, Joel Lorenzi of The Athletic reports.",
+     "out": false
+    },
+    {
      "name": "Nic Claxton",
      "status": "Out",
      "note": "Claxton (hamstring) will be re-evaluated in two weeks, K.C. Johnson of Chicago Sports Network reports.",
@@ -210,9 +229,9 @@
    "injuries_away": [
     {
      "name": "AJ Dybantsa",
-     "status": "Day-To-Day",
-     "note": "Dybantsa (ankle) is out for Friday's game against the Raptors, Josh Robbins of The Athletic reports.",
-     "out": false
+     "status": "Out",
+     "note": "Dybantsa (ankle) has been ruled out for Saturday's game against the Bulls.",
+     "out": true
     },
     {
      "name": "Tristan Vuk\u010devi\u0107",
@@ -227,7 +246,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   },
   {
    "game_id": "0022600109",
@@ -239,61 +258,79 @@
    "neutral": false,
    "home_name": "Dallas Mavericks",
    "away_name": "San Antonio Spurs",
-   "home_win_prob": 0.255,
-   "home_pts": 115.6,
-   "away_pts": 124.8,
+   "home_win_prob": 0.2383,
+   "home_pts": 114.7,
+   "away_pts": 124.6,
    "margin_pct": {
-    "5": -32.2,
-    "25": -18.2,
-    "50": -8.9,
-    "75": 0.2,
-    "95": 13.3
+    "5": -32.9,
+    "25": -19.0,
+    "50": -9.6,
+    "75": -0.5,
+    "95": 12.6
    },
-   "total_mean": 240.5,
+   "total_mean": 239.4,
    "total_pct": {
-    "5": 210.5,
-    "25": 228.2,
-    "50": 240.5,
-    "75": 252.9,
-    "95": 270.5
+    "5": 209.4,
+    "25": 227.1,
+    "50": 239.4,
+    "75": 251.8,
+    "95": 269.3
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Kyrie Irving",
+     "name": "Zaccharie Risacher",
      "status": "Day-To-Day",
-     "note": "Irving posted 24 points (8-15 FG, 5-10 3Pt, 3-3 FT), one rebound, three assists, one block and one steal over 25 minutes before fouling out of Friday's 121-105 win over Indiana.",
+     "note": "Risacher is questionable for Saturday's game against the Spurs due to right hip soreness.",
+     "out": false
+    },
+    {
+     "name": "Morez Johnson Jr.",
+     "status": "Day-To-Day",
+     "note": "Johnson (shin) is listed as questionable for Saturday's game against the Spurs.",
      "out": false
     },
     {
      "name": "Caleb Martin",
-     "status": "Day-To-Day",
-     "note": "Martin (thumb) has been ruled out for Fridays' game against the Pacers.",
-     "out": false
+     "status": "Out",
+     "note": "Martin (thumb) has been ruled out against San Antonio on Saturday.",
+     "out": true
     },
     {
      "name": "Jett Howard",
+     "status": "Out",
+     "note": "Howard (calf) is listed as doubtful against the Spurs on Saturday.",
+     "out": true
+    },
+    {
+     "name": "Kyrie Irving",
      "status": "Day-To-Day",
-     "note": "Howard (calf) is out for Friday's game in Indiana.",
+     "note": "Irving (knee) is listed as questionable for Saturday's game against San Antonio.",
+     "out": false
+    },
+    {
+     "name": "Max Christie",
+     "status": "Day-To-Day",
+     "note": "Christie (shin) is questionable for Saturday's game against the Spurs.",
      "out": false
     },
     {
      "name": "Tarik Biberovi\u0107",
-     "status": "Day-To-Day",
-     "note": "Biberovic (heel) is out for Friday's game against Indiana.",
-     "out": false
+     "status": "Out",
+     "note": "Biberovic (heel) has been ruled out for Saturday's game against San Antonio.",
+     "out": true
     },
     {
      "name": "Santi Aldama",
-     "status": "Day-To-Day",
-     "note": "Aldama (knee) has been ruled out for Friday's game against the Pacers.",
-     "out": false
+     "status": "Out",
+     "note": "Aldama (knee) has been ruled out for Saturday's game against the Spurs.",
+     "out": true
     },
     {
      "name": "Cooper Flagg",
      "status": "Out",
-     "note": "Head coach Dusty May said Flagg (shoulder) will be evaluated in the next couple of days, Mike Curtis of The Dallas Morning News reports.",
+     "note": "The Mavericks diagnosed Flagg with a mild left shoulder sprain, and the second-year forward will be re-evaluated by medical staff next week, Brett Siegel of ClutchPoints.com reports.",
      "out": true
     },
     {
@@ -306,9 +343,9 @@
    "injuries_away": [
     {
      "name": "Tobias Harris",
-     "status": "Day-To-Day",
-     "note": "Harris (calf) is out for Friday's game against the Rockets.",
-     "out": false
+     "status": "Out",
+     "note": "Harris (calf) is out for Saturday's game against the Mavericks.",
+     "out": true
     },
     {
      "name": "Jayden Quaintance",
@@ -317,7 +354,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   },
   {
    "game_id": "0022600107",
@@ -329,23 +366,23 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Houston Rockets",
-   "home_win_prob": 0.6496,
-   "home_pts": 120.3,
-   "away_pts": 115.3,
+   "home_win_prob": 0.6814,
+   "home_pts": 120.5,
+   "away_pts": 114.2,
    "margin_pct": {
-    "5": -17.9,
-    "25": -4.0,
-    "50": 5.3,
-    "75": 14.5,
-    "95": 27.5
+    "5": -16.7,
+    "25": -2.7,
+    "50": 6.6,
+    "75": 15.7,
+    "95": 28.8
    },
-   "total_mean": 235.7,
+   "total_mean": 234.8,
    "total_pct": {
-    "5": 205.7,
-    "25": 223.4,
-    "50": 235.7,
-    "75": 248.1,
-    "95": 265.7
+    "5": 204.7,
+    "25": 222.5,
+    "50": 234.8,
+    "75": 247.2,
+    "95": 264.7
    },
    "rest_home": 1,
    "rest_away": 1,
@@ -365,25 +402,25 @@
    ],
    "injuries_away": [
     {
-     "name": "Fred VanVleet",
-     "status": "Day-To-Day",
-     "note": "VanVleet closed with six points (2-8 FG, 2-6 3Pt), two rebounds, 11 assists, one block and three steals in 30 minutes during Wednesday's 128-110 win over the Mavericks.",
-     "out": false
-    },
-    {
      "name": "Steven Adams",
-     "status": "Day-To-Day",
-     "note": "Adams (calf) is available for Friday's game against San Antonio.",
-     "out": false
+     "status": "Out",
+     "note": "Adams (ankle) has been ruled out for Saturday's game against the Hawks.",
+     "out": true
     },
     {
      "name": "Reed Sheppard",
      "status": "Day-To-Day",
-     "note": "Sheppard (knee) is out for Friday's game in San Antonio.",
+     "note": "Sheppard (knee) is listed as questionable for Saturday's game against the Hawks.",
      "out": false
+    },
+    {
+     "name": "Fred VanVleet",
+     "status": "Out",
+     "note": "VanVleet (knee) has been ruled out for Saturday's game against the Hawks.",
+     "out": true
     }
    ],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   },
   {
    "game_id": "0022600110",
@@ -449,7 +486,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   },
   {
    "game_id": "0022600111",
@@ -539,7 +576,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-24T15:24:42+00:00"
+   "predicted_at": "2026-10-24T18:43:57+00:00"
   }
  ]
 }
