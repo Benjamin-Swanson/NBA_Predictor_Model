@@ -1,137 +1,57 @@
 {
- "generated_at": "2026-10-23T22:00:16+00:00",
- "date": "2026-10-23",
- "ratings_through": "2026-10-22",
+ "generated_at": "2026-10-24T15:24:42+00:00",
+ "date": "2026-10-24",
+ "ratings_through": "2026-10-23",
  "unmatched_injuries": [],
  "games": [
   {
-   "game_id": "0022600099",
-   "tip_utc": "2026-10-23T20:00:00Z",
-   "tip_et": "Start of 3rd Qtr    ",
-   "arena": "Fiserv Forum, Milwaukee",
-   "home": "MIL",
-   "away": "CHI",
-   "neutral": false,
-   "home_name": "Milwaukee Bucks",
-   "away_name": "Chicago Bulls",
-   "home_win_prob": 0.6549,
-   "home_pts": 123.1,
-   "away_pts": 117.9,
-   "margin_pct": {
-    "5": -17.7,
-    "25": -3.8,
-    "50": 5.5,
-    "75": 14.7,
-    "95": 27.7
-   },
-   "total_mean": 241.1,
-   "total_pct": {
-    "5": 211.1,
-    "25": 228.8,
-    "50": 241.1,
-    "75": 253.5,
-    "95": 271.1
-   },
-   "rest_home": 2,
-   "rest_away": 2,
-   "injuries_home": [],
-   "injuries_away": [
-    {
-     "name": "Nic Claxton",
-     "status": "Out",
-     "note": "Claxton (hamstring) will be re-evaluated in two weeks, K.C. Johnson of Chicago Sports Network reports.",
-     "out": true
-    }
-   ]
-  },
-  {
-   "game_id": "0022600008",
-   "tip_utc": "2026-10-23T23:00:00Z",
-   "tip_et": "7:00 pm ET",
-   "arena": "TD Garden, Boston",
-   "home": "BOS",
-   "away": "NYK",
-   "neutral": false,
-   "home_name": "Boston Celtics",
-   "away_name": "New York Knicks",
-   "home_win_prob": 0.6785,
-   "home_pts": 115.4,
-   "away_pts": 109.1,
-   "margin_pct": {
-    "5": -16.8,
-    "25": -2.9,
-    "50": 6.4,
-    "75": 15.6,
-    "95": 28.7
-   },
-   "total_mean": 224.6,
-   "total_pct": {
-    "5": 194.6,
-    "25": 212.3,
-    "50": 224.6,
-    "75": 237.0,
-    "95": 254.6
-   },
-   "rest_home": 3,
-   "rest_away": 3,
-   "injuries_home": [
-    {
-     "name": "Devin Carter",
-     "status": "Out",
-     "note": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports.",
-     "out": true
-    }
-   ],
-   "injuries_away": []
-  },
-  {
-   "game_id": "0022600094",
-   "tip_utc": "2026-10-23T23:00:00Z",
-   "tip_et": "7:00 pm ET",
+   "game_id": "0022600104",
+   "tip_utc": "2026-10-24T22:00:00Z",
+   "tip_et": "6:00 pm ET",
    "arena": "Spectrum Center, Charlotte",
    "home": "CHA",
-   "away": "ATL",
+   "away": "MIA",
    "neutral": false,
    "home_name": "Charlotte Hornets",
-   "away_name": "Atlanta Hawks",
-   "home_win_prob": 0.5568,
-   "home_pts": 116.0,
-   "away_pts": 114.3,
+   "away_name": "Miami Heat",
+   "home_win_prob": 0.7054,
+   "home_pts": 122.5,
+   "away_pts": 115.2,
    "margin_pct": {
-    "5": -21.3,
-    "25": -7.4,
-    "50": 2.0,
-    "75": 11.1,
-    "95": 24.2
+    "5": -15.7,
+    "25": -1.8,
+    "50": 7.5,
+    "75": 16.7,
+    "95": 29.8
    },
-   "total_mean": 230.5,
+   "total_mean": 237.8,
    "total_pct": {
-    "5": 200.4,
-    "25": 218.1,
-    "50": 230.4,
-    "75": 242.8,
-    "95": 260.4
+    "5": 207.7,
+    "25": 225.5,
+    "50": 237.7,
+    "75": 250.1,
+    "95": 267.7
    },
-   "rest_home": 2,
-   "rest_away": 2,
+   "rest_home": 1,
+   "rest_away": 1,
    "injuries_home": [
     {
      "name": "Grant Williams",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Williams (hamstring) is out for Friday's game against the Hawks.",
-     "out": true
+     "out": false
     },
     {
      "name": "Coby White",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "White (calf) is out for Friday's game against the Hawks.",
-     "out": true
+     "out": false
     },
     {
      "name": "Kon Knueppel",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Knueppel (hamstring) is out for Friday's game against the Hawks.",
-     "out": true
+     "out": false
     },
     {
      "name": "Kylan Boswell",
@@ -140,205 +60,156 @@
      "out": true
     }
    ],
+   "injuries_away": []
+  },
+  {
+   "game_id": "0022600105",
+   "tip_utc": "2026-10-24T23:30:00Z",
+   "tip_et": "7:30 pm ET",
+   "arena": "Rocket Arena, Cleveland",
+   "home": "CLE",
+   "away": "BKN",
+   "neutral": false,
+   "home_name": "Cleveland Cavaliers",
+   "away_name": "Brooklyn Nets",
+   "home_win_prob": 0.8257,
+   "home_pts": 122.6,
+   "away_pts": 109.6,
+   "margin_pct": {
+    "5": -10.0,
+    "25": 3.9,
+    "50": 13.2,
+    "75": 22.4,
+    "95": 35.4
+   },
+   "total_mean": 232.4,
+   "total_pct": {
+    "5": 202.3,
+    "25": 220.0,
+    "50": 232.3,
+    "75": 244.7,
+    "95": 262.3
+   },
+   "rest_home": 2,
+   "rest_away": 3,
+   "injuries_home": [],
    "injuries_away": [
     {
-     "name": "Mouhamed Gueye",
+     "name": "Tyler Bilodeau",
      "status": "Out",
-     "note": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
-     "out": true
-    },
-    {
-     "name": "Henri Veesaar",
-     "status": "Out",
-     "note": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
+     "note": "Bilodeau (shoulder) has been ruled out for Saturday's game in Cleveland.",
      "out": true
     }
    ]
   },
   {
-   "game_id": "0022600095",
-   "tip_utc": "2026-10-23T23:00:00Z",
-   "tip_et": "7:00 pm ET",
-   "arena": "Gainbridge Fieldhouse, Indianapolis",
-   "home": "IND",
-   "away": "DAL",
+   "game_id": "0022600106",
+   "tip_utc": "2026-10-24T23:30:00Z",
+   "tip_et": "7:30 pm ET",
+   "arena": "Xfinity Mobile Arena, Philadelphia",
+   "home": "PHI",
+   "away": "MIL",
    "neutral": false,
-   "home_name": "Indiana Pacers",
-   "away_name": "Dallas Mavericks",
-   "home_win_prob": 0.5719,
-   "home_pts": 121.7,
-   "away_pts": 119.5,
+   "home_name": "Philadelphia 76ers",
+   "away_name": "Milwaukee Bucks",
+   "home_win_prob": 0.7519,
+   "home_pts": 120.9,
+   "away_pts": 111.7,
    "margin_pct": {
-    "5": -20.8,
-    "25": -6.9,
-    "50": 2.4,
-    "75": 11.6,
-    "95": 24.7
+    "5": -13.8,
+    "25": 0.1,
+    "50": 9.4,
+    "75": 18.5,
+    "95": 31.6
    },
-   "total_mean": 241.4,
+   "total_mean": 232.7,
    "total_pct": {
-    "5": 211.3,
-    "25": 229.0,
-    "50": 241.3,
-    "75": 253.7,
-    "95": 271.3
+    "5": 202.6,
+    "25": 220.4,
+    "50": 232.7,
+    "75": 245.1,
+    "95": 262.6
    },
    "rest_home": 2,
-   "rest_away": 2,
+   "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Ben Sheppard",
+     "name": "Tacko Fall",
      "status": "Out",
-     "note": "Sheppard (knee) is out for Friday's game against the Mavericks and there's no timetable for his return, according to head coach Rick Carlisle per Alex Golden of SI.com.",
+     "note": "Fall (quadriceps) is out for Saturday's game against the Bucks.",
      "out": true
     },
     {
-     "name": "T.J. McConnell",
-     "status": "Out",
-     "note": "McConnell (hamstring) is out for Friday's game against Dallas.",
-     "out": true
-    },
-    {
-     "name": "Johnny Furphy",
-     "status": "Out",
-     "note": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports.",
-     "out": true
-    }
-   ],
-   "injuries_away": [
-    {
-     "name": "Jett Howard",
+     "name": "Dean Wade",
      "status": "Day-To-Day",
-     "note": "Howard (calf) is listed as doubtful for Friday's game against the Pacers.",
+     "note": "Wade is listed as questionable for Saturday's game against the Bucks due to a left ankle sprain.",
      "out": false
     },
     {
-     "name": "Caleb Martin",
+     "name": "LeBron James",
+     "status": "Day-To-Day",
+     "note": "James (back) is questionable for Saturday's game against the Bucks.",
+     "out": false
+    },
+    {
+     "name": "Dominick Barlow",
      "status": "Out",
-     "note": "Martin (thumb) has been ruled out for Fridays' game against the Pacers.",
+     "note": "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stress response, Adam Aaronson of PhillyVoice.com reports.",
      "out": true
     },
     {
-     "name": "Santi Aldama",
+     "name": "Ariel Hukporti",
      "status": "Out",
-     "note": "Aldama (knee) has been ruled out for Friday's game against the Pacers.",
-     "out": true
-    },
-    {
-     "name": "Tarik Biberovi\u0107",
-     "status": "Out",
-     "note": "Biberovic (heel) is out for Friday's game against Indiana.",
-     "out": true
-    },
-    {
-     "name": "Dereck Lively II",
-     "status": "Out",
-     "note": "Lively (foot) has been ruled out for Friday's game against the Pacers.",
+     "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
      "out": true
     }
-   ]
+   ],
+   "injuries_away": []
   },
   {
-   "game_id": "0022600096",
-   "tip_utc": "2026-10-23T23:00:00Z",
-   "tip_et": "7:00 pm ET",
-   "arena": "Kia Center, Orlando",
-   "home": "ORL",
-   "away": "MIN",
+   "game_id": "0022600108",
+   "tip_utc": "2026-10-25T00:00:00Z",
+   "tip_et": "8:00 pm ET",
+   "arena": "United Center, Chicago",
+   "home": "CHI",
+   "away": "WAS",
    "neutral": false,
-   "home_name": "Orlando Magic",
-   "away_name": "Minnesota Timberwolves",
-   "home_win_prob": 0.5817,
-   "home_pts": 120.7,
-   "away_pts": 118.1,
+   "home_name": "Chicago Bulls",
+   "away_name": "Washington Wizards",
+   "home_win_prob": 0.6532,
+   "home_pts": 126.1,
+   "away_pts": 120.9,
    "margin_pct": {
-    "5": -20.4,
-    "25": -6.5,
-    "50": 2.8,
-    "75": 12.0,
-    "95": 25.0
+    "5": -17.8,
+    "25": -3.9,
+    "50": 5.4,
+    "75": 14.6,
+    "95": 27.7
    },
-   "total_mean": 239.0,
+   "total_mean": 247.1,
    "total_pct": {
-    "5": 208.9,
-    "25": 226.6,
-    "50": 238.9,
-    "75": 251.3,
-    "95": 268.9
+    "5": 217.1,
+    "25": 234.8,
+    "50": 247.1,
+    "75": 259.5,
+    "95": 277.1
    },
-   "rest_home": 2,
-   "rest_away": 2,
+   "rest_home": 1,
+   "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Anthony Black",
+     "name": "Nic Claxton",
      "status": "Out",
-     "note": "Black (ankle) has been ruled out for Friday's game against Minnesota but participated in shootaround and has experienced no setbacks in his recovery, Jason Beede of the Orlando Sentinel reports.",
-     "out": true
-    },
-    {
-     "name": "Jonathan Isaac",
-     "status": "Out",
-     "note": "Isaac (knee) is out for Friday's game against Minnesota.",
-     "out": true
-    },
-    {
-     "name": "Noah Penda",
-     "status": "Out",
-     "note": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports.",
-     "out": true
-    },
-    {
-     "name": "Izaiyah Nelson",
-     "status": "Out",
-     "note": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com.",
+     "note": "Claxton (hamstring) will be re-evaluated in two weeks, K.C. Johnson of Chicago Sports Network reports.",
      "out": true
     }
    ],
    "injuries_away": [
     {
-     "name": "Donte DiVincenzo",
-     "status": "Out",
-     "note": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
-     "out": true
-    }
-   ]
-  },
-  {
-   "game_id": "0022600097",
-   "tip_utc": "2026-10-23T23:00:00Z",
-   "tip_et": "7:00 pm ET",
-   "arena": "Capital One Arena, Washington",
-   "home": "WAS",
-   "away": "TOR",
-   "neutral": false,
-   "home_name": "Washington Wizards",
-   "away_name": "Toronto Raptors",
-   "home_win_prob": 0.2251,
-   "home_pts": 113.1,
-   "away_pts": 123.5,
-   "margin_pct": {
-    "5": -33.4,
-    "25": -19.5,
-    "50": -10.2,
-    "75": -1.0,
-    "95": 12.1
-   },
-   "total_mean": 236.7,
-   "total_pct": {
-    "5": 206.6,
-    "25": 224.4,
-    "50": 236.7,
-    "75": 249.1,
-    "95": 266.6
-   },
-   "rest_home": 2,
-   "rest_away": 2,
-   "injuries_home": [
-    {
      "name": "AJ Dybantsa",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Dybantsa (ankle) is out for Friday's game against the Raptors, Josh Robbins of The Athletic reports.",
-     "out": true
+     "out": false
     },
     {
      "name": "Tristan Vuk\u010devi\u0107",
@@ -352,97 +223,88 @@
      "note": "The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL.",
      "out": true
     }
-   ],
-   "injuries_away": [
-    {
-     "name": "Nate Bittle",
-     "status": "Out",
-     "note": "Bittle (foot) is out for Wednesday's season opener against the Bulls.",
-     "out": true
-    }
    ]
   },
   {
-   "game_id": "0022600098",
-   "tip_utc": "2026-10-24T00:00:00Z",
+   "game_id": "0022600109",
+   "tip_utc": "2026-10-25T00:00:00Z",
    "tip_et": "8:00 pm ET",
-   "arena": "Kaseya Center, Miami",
-   "home": "MIA",
-   "away": "DET",
+   "arena": "American Airlines Center, Dallas",
+   "home": "DAL",
+   "away": "SAS",
    "neutral": false,
-   "home_name": "Miami Heat",
-   "away_name": "Detroit Pistons",
-   "home_win_prob": 0.4337,
-   "home_pts": 120.0,
-   "away_pts": 122.4,
+   "home_name": "Dallas Mavericks",
+   "away_name": "San Antonio Spurs",
+   "home_win_prob": 0.255,
+   "home_pts": 115.6,
+   "away_pts": 124.8,
    "margin_pct": {
-    "5": -25.4,
-    "25": -11.5,
-    "50": -2.2,
-    "75": 7.0,
-    "95": 20.0
+    "5": -32.2,
+    "25": -18.2,
+    "50": -8.9,
+    "75": 0.2,
+    "95": 13.3
    },
-   "total_mean": 242.6,
+   "total_mean": 240.5,
    "total_pct": {
-    "5": 212.5,
-    "25": 230.2,
-    "50": 242.5,
-    "75": 254.9,
-    "95": 272.5
+    "5": 210.5,
+    "25": 228.2,
+    "50": 240.5,
+    "75": 252.9,
+    "95": 270.5
    },
-   "rest_home": 2,
-   "rest_away": 3,
-   "injuries_home": [],
-   "injuries_away": []
-  },
-  {
-   "game_id": "0022600009",
-   "tip_utc": "2026-10-24T01:30:00Z",
-   "tip_et": "9:30 pm ET",
-   "arena": "Moody Center, Austin",
-   "home": "SAS",
-   "away": "HOU",
-   "neutral": false,
-   "home_name": "San Antonio Spurs",
-   "away_name": "Houston Rockets",
-   "home_win_prob": 0.6175,
-   "home_pts": 121.1,
-   "away_pts": 117.1,
-   "margin_pct": {
-    "5": -19.1,
-    "25": -5.2,
-    "50": 4.1,
-    "75": 13.3,
-    "95": 26.4
-   },
-   "total_mean": 238.3,
-   "total_pct": {
-    "5": 208.3,
-    "25": 226.0,
-    "50": 238.3,
-    "75": 250.7,
-    "95": 268.3
-   },
-   "rest_home": 3,
-   "rest_away": 2,
+   "rest_home": 1,
+   "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Keldon Johnson",
+     "name": "Kyrie Irving",
      "status": "Day-To-Day",
-     "note": "Johnson (mouth) participated in shooting drills after Friday's morning shootaround, per Tom Orsborn of the San Antonio Express-News.",
+     "note": "Irving posted 24 points (8-15 FG, 5-10 3Pt, 3-3 FT), one rebound, three assists, one block and one steal over 25 minutes before fouling out of Friday's 121-105 win over Indiana.",
      "out": false
     },
     {
-     "name": "De'Aaron Fox",
+     "name": "Caleb Martin",
      "status": "Day-To-Day",
-     "note": "Fox (wrist) participated in Friday's morning shootaround, Tom Orsborn of the San Antonio Express-News reports.",
+     "note": "Martin (thumb) has been ruled out for Fridays' game against the Pacers.",
      "out": false
     },
+    {
+     "name": "Jett Howard",
+     "status": "Day-To-Day",
+     "note": "Howard (calf) is out for Friday's game in Indiana.",
+     "out": false
+    },
+    {
+     "name": "Tarik Biberovi\u0107",
+     "status": "Day-To-Day",
+     "note": "Biberovic (heel) is out for Friday's game against Indiana.",
+     "out": false
+    },
+    {
+     "name": "Santi Aldama",
+     "status": "Day-To-Day",
+     "note": "Aldama (knee) has been ruled out for Friday's game against the Pacers.",
+     "out": false
+    },
+    {
+     "name": "Cooper Flagg",
+     "status": "Out",
+     "note": "Head coach Dusty May said Flagg (shoulder) will be evaluated in the next couple of days, Mike Curtis of The Dallas Morning News reports.",
+     "out": true
+    },
+    {
+     "name": "Dereck Lively II",
+     "status": "Out",
+     "note": "Lively (foot) has been ruled out for Friday's game against the Pacers.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
     {
      "name": "Tobias Harris",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Harris (calf) is out for Friday's game against the Rockets.",
-     "out": true
+     "out": false
     },
     {
      "name": "Jayden Quaintance",
@@ -450,109 +312,205 @@
      "note": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
      "out": true
     }
+   ]
+  },
+  {
+   "game_id": "0022600107",
+   "tip_utc": "2026-10-25T00:30:00Z",
+   "tip_et": "8:30 pm ET",
+   "arena": "State Farm Arena, Atlanta",
+   "home": "ATL",
+   "away": "HOU",
+   "neutral": false,
+   "home_name": "Atlanta Hawks",
+   "away_name": "Houston Rockets",
+   "home_win_prob": 0.6496,
+   "home_pts": 120.3,
+   "away_pts": 115.3,
+   "margin_pct": {
+    "5": -17.9,
+    "25": -4.0,
+    "50": 5.3,
+    "75": 14.5,
+    "95": 27.5
+   },
+   "total_mean": 235.7,
+   "total_pct": {
+    "5": 205.7,
+    "25": 223.4,
+    "50": 235.7,
+    "75": 248.1,
+    "95": 265.7
+   },
+   "rest_home": 1,
+   "rest_away": 1,
+   "injuries_home": [
+    {
+     "name": "Mouhamed Gueye",
+     "status": "Out",
+     "note": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
+     "out": true
+    },
+    {
+     "name": "Henri Veesaar",
+     "status": "Out",
+     "note": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
+     "out": true
+    }
    ],
    "injuries_away": [
     {
+     "name": "Fred VanVleet",
+     "status": "Day-To-Day",
+     "note": "VanVleet closed with six points (2-8 FG, 2-6 3Pt), two rebounds, 11 assists, one block and three steals in 30 minutes during Wednesday's 128-110 win over the Mavericks.",
+     "out": false
+    },
+    {
      "name": "Steven Adams",
      "status": "Day-To-Day",
-     "note": "Adams (calf) is questionable to play in Friday's game against the Spurs.",
+     "note": "Adams (calf) is available for Friday's game against San Antonio.",
      "out": false
     },
     {
      "name": "Reed Sheppard",
      "status": "Day-To-Day",
-     "note": "Sheppard (knee) is listed as questionable for Friday's game against the Spurs.",
+     "note": "Sheppard (knee) is out for Friday's game in San Antonio.",
      "out": false
     }
    ]
   },
   {
-   "game_id": "0022600100",
-   "tip_utc": "2026-10-24T01:30:00Z",
-   "tip_et": "9:30 pm ET",
-   "arena": "Delta Center, Salt Lake City",
-   "home": "UTA",
+   "game_id": "0022600110",
+   "tip_utc": "2026-10-25T01:00:00Z",
+   "tip_et": "9:00 pm ET",
+   "arena": "Ball Arena, Denver",
+   "home": "DEN",
    "away": "NOP",
    "neutral": false,
-   "home_name": "Utah Jazz",
+   "home_name": "Denver Nuggets",
    "away_name": "New Orleans Pelicans",
-   "home_win_prob": 0.4304,
-   "home_pts": 123.6,
-   "away_pts": 126.1,
+   "home_win_prob": 0.807,
+   "home_pts": 130.3,
+   "away_pts": 118.4,
    "margin_pct": {
-    "5": -25.5,
-    "25": -11.6,
-    "50": -2.3,
-    "75": 6.9,
-    "95": 19.9
+    "5": -11.1,
+    "25": 2.8,
+    "50": 12.1,
+    "75": 21.3,
+    "95": 34.3
    },
-   "total_mean": 249.9,
+   "total_mean": 248.7,
    "total_pct": {
-    "5": 219.8,
-    "25": 237.6,
-    "50": 249.9,
-    "75": 262.3,
-    "95": 279.8
+    "5": 218.7,
+    "25": 236.4,
+    "50": 248.7,
+    "75": 261.1,
+    "95": 278.7
    },
    "rest_home": 2,
-   "rest_away": 2,
+   "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Trey Alexander",
+     "name": "Spencer Jones",
      "status": "Out",
-     "note": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
+     "note": "Jones (hamstring) is out for Saturday's game against the Pelicans.",
      "out": true
     },
     {
-     "name": "Jusuf Nurki\u0107",
+     "name": "Cameron Johnson",
      "status": "Out",
-     "note": "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of second toe in right foot, Chris Haynes of NBA TV reports.",
+     "note": "Johnson (ankle) has been ruled out for Saturday's game against New Orleans.",
+     "out": true
+    },
+    {
+     "name": "Alpha Diallo",
+     "status": "Day-To-Day",
+     "note": "Diallo is questionable for Saturday's game versus the Pelicans due to a right wrist sprain.",
+     "out": false
+    },
+    {
+     "name": "Julian Strawther",
+     "status": "Out",
+     "note": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.",
      "out": true
     }
    ],
-   "injuries_away": []
+   "injuries_away": [
+    {
+     "name": "Yves Missi",
+     "status": "Day-To-Day",
+     "note": "Missi won't return to Friday's game against the Jazz due to a left knee injury.",
+     "out": false
+    }
+   ]
   },
   {
-   "game_id": "0022600101",
-   "tip_utc": "2026-10-24T02:00:00Z",
+   "game_id": "0022600111",
+   "tip_utc": "2026-10-25T02:00:00Z",
    "tip_et": "10:00 pm ET",
-   "arena": "Chase Center, San Francisco",
-   "home": "GSW",
-   "away": "MEM",
+   "arena": "Mortgage Matchup Center, Phoenix",
+   "home": "PHX",
+   "away": "GSW",
    "neutral": false,
-   "home_name": "Golden State Warriors",
-   "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.5834,
-   "home_pts": 121.6,
-   "away_pts": 119.0,
+   "home_name": "Phoenix Suns",
+   "away_name": "Golden State Warriors",
+   "home_win_prob": 0.7501,
+   "home_pts": 116.9,
+   "away_pts": 107.8,
    "margin_pct": {
-    "5": -20.3,
-    "25": -6.4,
-    "50": 2.9,
-    "75": 12.0,
-    "95": 25.1
+    "5": -13.9,
+    "25": 0.0,
+    "50": 9.3,
+    "75": 18.5,
+    "95": 31.5
    },
-   "total_mean": 240.7,
+   "total_mean": 224.9,
    "total_pct": {
-    "5": 210.6,
-    "25": 228.4,
-    "50": 240.7,
-    "75": 253.1,
-    "95": 270.6
+    "5": 194.8,
+    "25": 212.6,
+    "50": 224.9,
+    "75": 237.3,
+    "95": 254.8
    },
-   "rest_home": 2,
-   "rest_away": 2,
+   "rest_home": 3,
+   "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Charles Bassey",
+     "name": "Luke Kennard",
+     "status": "Day-To-Day",
+     "note": "Kennard (knee) is questionable to play Saturday against the Warriors.",
+     "out": false
+    },
+    {
+     "name": "Oso Ighodaro",
+     "status": "Day-To-Day",
+     "note": "Ighodaro (oblique) is listed as doubtful for Saturday's game against Golden State.",
+     "out": false
+    },
+    {
+     "name": "Mark Williams",
      "status": "Out",
-     "note": "Bassey (knee) is out for Friday's game versus the Grizzlies.",
+     "note": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Brandin Podziemski",
+     "status": "Out",
+     "note": "Podziemski (back) told reporters Friday that he will not play in the second leg of the Warriors' back-to-back set Saturday against the Suns, Nick Friedell of The Athletic reports.",
      "out": true
     },
     {
-     "name": "Brandin Podziemski",
+     "name": "Stephen Curry",
      "status": "Day-To-Day",
-     "note": "Podziemski (back) is probable for Friday's game against the Grizzlies.",
+     "note": "Curry told reporters after Friday's loss to the Grizzlies that he will \"probably not\" play against the Suns on Saturday, Nick Friedell of The Athletic reports.",
+     "out": false
+    },
+    {
+     "name": "Charles Bassey",
+     "status": "Day-To-Day",
+     "note": "Bassey (knee) is out for Friday's game versus the Grizzlies.",
      "out": false
     },
     {
@@ -571,174 +529,6 @@
      "name": "Jimmy Butler III",
      "status": "Out",
      "note": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
-     "out": true
-    }
-   ],
-   "injuries_away": [
-    {
-     "name": "Cedric Coward",
-     "status": "Day-To-Day",
-     "note": "Coward is doubtful for Friday's game against the Warriors due to a left wrist sprain.",
-     "out": false
-    },
-    {
-     "name": "Isaiah Stewart",
-     "status": "Day-To-Day",
-     "note": "Stewart (ankle) is questionable for Friday's game against the Warriors.",
-     "out": false
-    }
-   ]
-  },
-  {
-   "game_id": "0022600102",
-   "tip_utc": "2026-10-24T02:00:00Z",
-   "tip_et": "10:00 pm ET",
-   "arena": "Crypto.com Arena, Los Angeles",
-   "home": "LAL",
-   "away": "LAC",
-   "neutral": false,
-   "home_name": "Los Angeles Lakers",
-   "away_name": "Los Angeles Clippers",
-   "home_win_prob": 0.7211,
-   "home_pts": 117.1,
-   "away_pts": 109.2,
-   "margin_pct": {
-    "5": -15.1,
-    "25": -1.2,
-    "50": 8.1,
-    "75": 17.3,
-    "95": 30.4
-   },
-   "total_mean": 226.4,
-   "total_pct": {
-    "5": 196.3,
-    "25": 214.1,
-    "50": 226.4,
-    "75": 238.8,
-    "95": 256.3
-   },
-   "rest_home": 2,
-   "rest_away": 2,
-   "injuries_home": [
-    {
-     "name": "Jake LaRavia",
-     "status": "Out",
-     "note": "LaRavia (ankle) has been ruled out for Friday's game against the Clippers, Mark Medina of TheSportingTribune.com reports.",
-     "out": true
-    },
-    {
-     "name": "Adou Thiero",
-     "status": "Out",
-     "note": "Thiero (knee) is out for Friday's game against the Clippers.",
-     "out": true
-    },
-    {
-     "name": "Cameron Carr",
-     "status": "Out",
-     "note": "Carr (oblique) is out for Friday's game against the Clippers.",
-     "out": true
-    }
-   ],
-   "injuries_away": [
-    {
-     "name": "Bradley Beal",
-     "status": "Out",
-     "note": "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Russo reports.",
-     "out": true
-    },
-    {
-     "name": "Max Strus",
-     "status": "Out",
-     "note": "Strus has been diagnosed with a partially torn plantar fascia in his right foot and he will be re-evaluated in four weeks, Ohm Youngmisuk of ESPN.com reports.",
-     "out": true
-    },
-    {
-     "name": "Yanic Konan Niederh\u00e4user",
-     "status": "Out",
-     "note": "Niederhauser (foot) won't be ready for the start of the season, Law Murray of The Athletic reports.",
-     "out": true
-    },
-    {
-     "name": "Brandon Ingram",
-     "status": "Out",
-     "note": "Ingram won't be ready for the start of the season due to a partially torn Achilles, per Joey Linn of SI.com.",
-     "out": true
-    },
-    {
-     "name": "Jordan Miller",
-     "status": "Out",
-     "note": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic.",
-     "out": true
-    }
-   ]
-  },
-  {
-   "game_id": "0022600103",
-   "tip_utc": "2026-10-24T02:00:00Z",
-   "tip_et": "10:00 pm ET",
-   "arena": "Golden 1 Center, Sacramento",
-   "home": "SAC",
-   "away": "POR",
-   "neutral": false,
-   "home_name": "Sacramento Kings",
-   "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.417,
-   "home_pts": 112.0,
-   "away_pts": 115.0,
-   "margin_pct": {
-    "5": -26.0,
-    "25": -12.1,
-    "50": -2.8,
-    "75": 6.4,
-    "95": 19.5
-   },
-   "total_mean": 227.1,
-   "total_pct": {
-    "5": 197.0,
-    "25": 214.8,
-    "50": 227.1,
-    "75": 239.5,
-    "95": 257.0
-   },
-   "rest_home": 2,
-   "rest_away": 2,
-   "injuries_home": [
-    {
-     "name": "Ben Simmons",
-     "status": "Out",
-     "note": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports.",
-     "out": true
-    },
-    {
-     "name": "Dylan Cardwell",
-     "status": "Out",
-     "note": "Cardwell (calf) is expected to miss at least the first five or six games of the regular season, with a longer absence possible, Frankie Cartoscelli of KHTK Sactown Sports 1140 reports.",
-     "out": true
-    },
-    {
-     "name": "Maxime Raynaud",
-     "status": "Out",
-     "note": "Raynaud (knee) is expected to miss at least the first five or six games of the regular season, and potentially longer, Frankie Cartoscelli of KHTK Sactown Sports 1140 reports.",
-     "out": true
-    }
-   ],
-   "injuries_away": [
-    {
-     "name": "Branden Carlson",
-     "status": "Out",
-     "note": "Carlson (concussion) has been ruled out for Friday's game against Sacramento.",
-     "out": true
-    },
-    {
-     "name": "Chris Youngblood",
-     "status": "Out",
-     "note": "Youngblood (ankle) is out for Friday's game against the Kings.",
-     "out": true
-    },
-    {
-     "name": "Shaedon Sharpe",
-     "status": "Out",
-     "note": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN.",
      "out": true
     }
    ]
