@@ -2,7 +2,8 @@
 (models/model.joblib, including test calibration bins that the site charts).
 
 Run from the project root:  python -m models.train   (after python -m features.build)
-Train 2016-17..2022-23 (glue starts then; Elo still warms up from 2015), choose models on val (2023-24), report test (2024-25 + 2025-26) once.
+Fit on train (2016-17..2023-24; glue starts 2016-17, Elo warms up from 2015), choose models, sigma and rho on val (2024-25),
+then refit everything on train + val. Test (2025-26) is never fit on: it's reported once, with the refit models.
 """
 from pathlib import Path
 
@@ -11,12 +12,13 @@ import lightgbm as lgb
 import numpy as np
 import pandas as pd
 from scipy.stats import norm
+from sklearn.base import clone
 from sklearn.linear_model import LogisticRegression, Ridge
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 from features.build import OUT as GAMES, ROLL_COLS, WINDOW
-from models.baselines import elo_prob, score, split
+from models.baselines import SPLITS, elo_prob, score, split
 
 HERE = Path(__file__).resolve().parent
 R = [f"R{WINDOW}_{c}" for c in ROLL_COLS]
@@ -118,10 +120,21 @@ def main():
         return m.predict_proba(df[cols])[:, 1]
 
     names = ["elo", *models, "points_model"]
-    rows = []
-    for split_name, df in (("val", va), ("test", te)):
-        y = df["HOME_WIN"].to_numpy()
-        rows += [{"split": split_name, "model": n, **score(y, predict(n, df))} for n in names]
+    rows = [{"split": "val", "model": n, **score(va["HOME_WIN"].to_numpy(), predict(n, va))} for n in names]
+    winner = min((r for r in rows if r["model"] in models), key=lambda r: r["log_loss"])["model"]  # val only
+    # Saved classifier = logistic, whatever wins: it only feeds the site's "what drives this prediction" breakdown,
+    # which needs its coefficients (headline odds come from the points model). 2024-25 val: LightGBM 0.5951 vs 0.5954.
+    best = "logreg_full"
+    imp = group_importance(models[best][1], models[best][0], va)  # on val, with train-only fits
+
+    # Refit on train + val with the settings chosen above (sigma and rho stay the honest out-of-sample val values)
+    full = pd.concat([tr, va])
+    n_trees = models["lgbm_full"][1].best_iteration_
+    models = {n: (cols, (clone(m).set_params(n_estimators=n_trees) if n == "lgbm_full" else clone(m))
+                  .fit(full[cols], full["HOME_WIN"])) for n, (cols, m) in models.items()}
+    for side in ("H", "A"):
+        pts[side]["model"] = clone(pts[side]["model"]).fit(full[POINTS], full[f"PTS_{side}"])
+    rows += [{"split": "test", "model": n, **score(te["HOME_WIN"].to_numpy(), predict(n, te))} for n in names]
     res = pd.DataFrame(rows)
     print(res.round(4).to_string(index=False))
 
@@ -134,11 +147,8 @@ def main():
     for group in ("availability", "glue"):
         ablation(group, tr, va, te)
 
-    # Model choice uses val only
-    best = res[(res["split"] == "val") & (res["model"].isin(models))].sort_values("log_loss").iloc[0]["model"]
     cols, m = models[best]
-    print(f"\nbest on val: {best}\n\ngroup importance (val log-loss increase when shuffled), {best}:")
-    imp = group_importance(m, cols, va)
+    print(f"\nbest on val: {winner} (saved for explanations: {best})\n\ngroup importance (val log-loss increase when shuffled), {best}:")
     print(pd.DataFrame({"logloss_increase": imp.round(5),
                         "share": (imp.clip(lower=0) / imp.clip(lower=0).sum() * 100).round(1)}).to_string())
 
@@ -151,7 +161,7 @@ def main():
     # ponytail: saved models are fit on train only; refit on all seasons before live use (step 8).
     joblib.dump({"name": best, "cols": cols, "model": m, "points": pts, "points_cols": POINTS,
                  "margin_sigma": margin_sigma, "rho": rho, "groups": GROUPS,
-                 "results": res, "importance": imp, "calibration": calib, "train_seasons": (int(tr["SEASON"].min()), int(tr["SEASON"].max()))},
+                 "results": res, "importance": imp, "calibration": calib, "train_seasons": (int(tr["SEASON"].min()), int(va["SEASON"].max())), "splits": SPLITS},
                 HERE / "model.joblib")
     print(f"\nsaved {HERE / 'model.joblib'}")
 

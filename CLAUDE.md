@@ -10,7 +10,9 @@ Predicts win probability, projected score and margin for each NBA game of the da
 
 ## Hard rules
 - **No leakage**: a game's features use only data from before its tip-off. Rolling stats are shifted; nba_api filters use `date_to_nullable` = the day before the game.
-- Split train/test by date, never randomly. Current plan: train 2015-16..2022-23, validate 2023-24, test 2024-25 + 2025-26.
+- Split train/test by date, never randomly. Since 2026-10-24: fit 2016-17..2023-24, tune on 2024-25 (model choice,
+  sigma, rho, LightGBM trees), refit on 2016-17..2024-25, test 2025-26 (never fit on; the user wants it kept as an unseen
+  reference). Before that: train ..2022-23, val 2023-24, test 2024-26. Splits live in models/baselines.py SPLITS.
 - Cache every raw pull in `data/raw/` and never re-fetch a completed season. `time.sleep` between API calls.
 - Print `df.columns` the first time you use any endpoint; don't assume column names.
 
@@ -59,8 +61,13 @@ Predicts win probability, projected score and margin for each NBA game of the da
 - Split: hustle-only -0.0015 (significant), on/off-only -0.0020 (not significant), full formula best. Glue is in the main model.
 - Skews toward bigs (screen assists, contests, box outs). Untuned knobs: PRIOR_GAMES=15, ONOFF_SHRINK_MIN=1000, component weights.
 
-## Current model (step 5): logreg_full, train 2016-17..2022-23
-Test: log loss 0.591, Brier 0.203, accuracy 68.1% (LightGBM 69.2% acc but worse val log loss). Importance: Elo 78%, availability 10.5%, glue 4.9%, rest 2.6%.
+## Current model (retrained 2026-10-24): fit through 2024-25, test 2025-26
+- Points model (headline odds) on 2025-26: accuracy 69.0%, log loss 0.585, margin miss 11.07 pts. Old model (fit through
+  2022-23) on the same games: 68.8%, 0.587, 11.11. Paired bootstrap: new better in 98.4% of resamples; 33/1230 picks changed.
+- Saved classifier is always logreg_full: it only feeds the site's "why" breakdown (needs coefficients). LightGBM won val
+  2024-25 by 0.0003 log loss (a tie). Importance (val): Elo 80%, glue 8.3%, availability 8.0%, rest 1.9%.
+- Sim check on 2025-26: margin 90% band covers 88.6%, total 87.6% (slightly narrow).
+- Early season is the weakest stretch: on 2023-26, each team's first 5 games 61.8% accuracy vs 65-69% afterwards.
 
 ## Monte Carlo (simulate.py), step 6
 - `simulate(mu_home, sigma_home, mu_away, sigma_away, n, rho)`: joint Normal draws; returns win prob, margin/total/score percentiles.

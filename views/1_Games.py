@@ -26,6 +26,14 @@ GROUP_LABELS = {"elo": "Team rating (Elo)", "availability": "Players out", "glue
                 "recent_form": "Recent margin", "pace": "Pace", "neutral_site": "Neutral site"}
 REST = {"Back-to-back": 1, "1 day off": 2, "2+ days off": 3}
 
+
+def szn(y: int) -> str:
+    return f"{y}-{str(y + 1)[-2:]}"
+
+
+TRAIN = f"{szn(art['train_seasons'][0])} to {szn(art['train_seasons'][1])}"
+VAL, TEST = szn(art["splits"]["val"][0]), szn(art["splits"]["test"][0])  # one season each
+
 ui.page_head(f"{state['season']} season · game predictions", "Every game, simulated 10,000 times",
              f"Win chances and projected scores · {state['season']} rosters · team ratings through {state['as_of']}")
 
@@ -156,8 +164,8 @@ with tab_record:
     nice = {"elo": "Elo only", "logreg_minimal": "Simple model", "logreg_full": "Full model",
             "lgbm_full": "Gradient boosting", "points_model": "Score model (powers the app)"}
     acc = test.loc["points_model", "accuracy"]
-    st.markdown(f"Tested on **{int(test['n'].iloc[0]):,} games** from 2024-25 and 2025-26 that the model never saw "
-                f"during training. The model picked the winner in **{acc:.1%}** of them; always picking the home "
+    st.markdown(f"Tested on **{int(test['n'].iloc[0]):,} games** from {TEST}, a season the model never "
+                f"saw during training. The model picked the winner in **{acc:.1%}** of them; always picking the home "
                 f"team gets about 55%.")
     tbl = test.rename(index=nice)[["accuracy", "log_loss", "brier"]]
     tbl.columns = ["Accuracy", "Log loss (lower is better)", "Brier score (lower is better)"]
@@ -187,7 +195,7 @@ with tab_record:
         imp = art["importance"].clip(lower=0)
         st.bar_chart((imp / imp.sum() * 100).rename(GROUP_LABELS).sort_values(ascending=False), horizontal=True, sort=False,
                      x_label="share of importance (%)", color=ui.ACCENT)
-        st.caption("How much worse predictions get when each factor is scrambled (2023-24 season).")
+        st.caption(f"How much worse predictions get when each factor is scrambled ({VAL} season).")
 
 # ---------------------------------------------------------------- how it works
 with tab_how:
@@ -207,8 +215,8 @@ For each game the model estimates how many points each team will score, then pla
 - **Home court.** Worth roughly 2 points now, less than it was before 2020.
 
 ### How it was built
-- NBA stats from 2015-16 to 2025-26 via `nba_api`. Trained on {art['train_seasons'][0]}-{str(art['train_seasons'][1] + 1)[-2:]},
-  tuned on 2023-24, tested on 2024-25 and 2025-26.
+- NBA stats from 2015-16 to 2025-26 via `nba_api`. Tuned on {VAL}, then trained on
+  {TRAIN}. Tested on {TEST}, which the model never saw.
 - Every feature uses only information available **before** tip-off.
 - Home and away scores are simulated together: fast games and overtime raise both scores at once.
 

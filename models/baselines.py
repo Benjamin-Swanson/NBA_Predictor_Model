@@ -7,7 +7,8 @@ import pandas as pd
 
 from features.build import ELO_HCA, OUT as GAMES
 
-SPLITS = {"train": (2015, 2022), "val": (2023, 2023), "test": (2024, 2025)}  # SEASON = start year
+# SEASON = start year. train.py tunes on val, then refits on train + val; test (2025-26) is never fit on.
+SPLITS = {"train": (2015, 2023), "val": (2024, 2024), "test": (2025, 2025)}
 
 
 def split(games: pd.DataFrame, name: str) -> pd.DataFrame:
