@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T20:00:12+00:00",
+ "generated_at": "2026-10-25T22:00:57+00:00",
  "date": "2026-10-25",
  "ratings_through": "2026-10-24",
  "unmatched_injuries": [
@@ -111,12 +111,6 @@
    ],
    "injuries_away": [
     {
-     "name": "Aaron Nesmith",
-     "status": "Day-To-Day",
-     "note": "Nesmith (hamstring) is listed as probable for Sunday's game against Brooklyn.",
-     "out": false
-    },
-    {
      "name": "T.J. McConnell",
      "status": "Out",
      "note": "McConnell (hamstring) is out for Sunday's game against the Nets.",
@@ -146,32 +140,32 @@
    "neutral": false,
    "home_name": "New York Knicks",
    "away_name": "Orlando Magic",
-   "home_win_prob": 0.7292,
-   "home_pts": 116.8,
-   "away_pts": 108.6,
+   "home_win_prob": 0.7044,
+   "home_pts": 116.2,
+   "away_pts": 109.0,
    "margin_pct": {
-    "5": -14.7,
-    "25": -0.9,
-    "50": 8.4,
-    "75": 17.5,
-    "95": 30.5
+    "5": -15.7,
+    "25": -1.9,
+    "50": 7.4,
+    "75": 16.5,
+    "95": 29.5
    },
-   "total_mean": 225.6,
+   "total_mean": 225.3,
    "total_pct": {
-    "5": 195.8,
-    "25": 213.4,
-    "50": 225.6,
-    "75": 237.9,
-    "95": 255.3
+    "5": 195.4,
+    "25": 213.0,
+    "50": 225.3,
+    "75": 237.5,
+    "95": 254.9
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Jose Alvarado",
-     "status": "Day-To-Day",
-     "note": "Alvarado is questionable for Sunday's game against Orlando due to a left ankle sprain.",
-     "out": false
+     "status": "Out",
+     "note": "Alvarado (ankle) is out for Sunday's game against the Magic, James L. Edwards III of The Athletic reports.",
+     "out": true
     }
    ],
    "injuries_away": [
@@ -180,12 +174,6 @@
      "status": "Out",
      "note": "Isaac (knee) has been ruled out ahead of Sunday's game against the Knicks.",
      "out": true
-    },
-    {
-     "name": "Anthony Black",
-     "status": "Day-To-Day",
-     "note": "Black (ankle) is listed as questionable for Sunday's game against the Knicks.",
-     "out": false
     },
     {
      "name": "Paolo Banchero",
@@ -363,6 +351,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "VJ Edgecombe",
+     "status": "Day-To-Day",
+     "note": "Edgecombe has been downgraded to questionable ahead of Sunday's game against the Pistons due to an abdominal contusion.",
+     "out": false
+    },
+    {
      "name": "Tacko Fall",
      "status": "Out",
      "note": "Fall (quadriceps) has been ruled out for Sunday's game against Detroit.",
@@ -465,6 +459,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Karim L\u00f3pez",
+     "status": "Day-To-Day",
+     "note": "Lopez (knee) is listed as questionable for Sunday's game against the Kings.",
+     "out": false
+    },
     {
      "name": "Cedric Coward",
      "status": "Day-To-Day",
