@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T16:34:29+00:00",
+ "generated_at": "2026-10-25T18:00:12+00:00",
  "date": "2026-10-25",
  "ratings_through": "2026-10-24",
  "unmatched_injuries": [
@@ -98,9 +98,9 @@
    "injuries_home": [
     {
      "name": "Tyler Bilodeau",
-     "status": "Day-To-Day",
-     "note": "Bilodeau (shoulder) has been ruled out for Saturday's game in Cleveland.",
-     "out": false
+     "status": "Out",
+     "note": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
+     "out": true
     },
     {
      "name": "Mikel Brown Jr.",
@@ -341,49 +341,43 @@
    "neutral": false,
    "home_name": "Philadelphia 76ers",
    "away_name": "Detroit Pistons",
-   "home_win_prob": 0.4398,
-   "home_pts": 113.7,
-   "away_pts": 115.9,
+   "home_win_prob": 0.3544,
+   "home_pts": 111.5,
+   "away_pts": 116.7,
    "margin_pct": {
-    "5": -25.1,
-    "25": -11.3,
-    "50": -2.0,
-    "75": 7.1,
-    "95": 20.1
+    "5": -28.1,
+    "25": -14.3,
+    "50": -5.0,
+    "75": 4.1,
+    "95": 17.1
    },
-   "total_mean": 229.7,
+   "total_mean": 228.3,
    "total_pct": {
-    "5": 199.9,
-    "25": 217.5,
-    "50": 229.8,
-    "75": 242.0,
-    "95": 259.4
+    "5": 198.5,
+    "25": 216.0,
+    "50": 228.3,
+    "75": 240.5,
+    "95": 258.0
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "LeBron James",
-     "status": "Day-To-Day",
-     "note": "James (back) has been ruled out for Saturday's game against the Bucks, Adam Aaronson of PhillyVoice.com reports.",
-     "out": false
-    },
-    {
-     "name": "Joel Embiid",
-     "status": "Day-To-Day",
-     "note": "Embiid produced 28 points (8-20 FG, 0-3 3Pt, 12-14 FT), 11 rebounds, 10 assists, one steal and four turnovers across 36 minutes in Saturday's 127-116 win over the Bucks.",
-     "out": false
+     "name": "Tacko Fall",
+     "status": "Out",
+     "note": "Fall (quadriceps) has been ruled out for Sunday's game against Detroit.",
+     "out": true
     },
     {
      "name": "Jabari Walker",
-     "status": "Day-To-Day",
-     "note": "Walker (ankle) exited Saturday's 127-116 win over the Bucks in the third quarter and did not return, finishing with six points (2-3 FG, 2-3 FT), three rebounds, one assist and one steal across 12 minutes.",
-     "out": false
+     "status": "Out",
+     "note": "Walker has been ruled out for Sunday's game against the Pistons due to left knee soreness.",
+     "out": true
     },
     {
-     "name": "Tacko Fall",
+     "name": "Joel Embiid",
      "status": "Out",
-     "note": "Fall (quadriceps) is out for Saturday's game against the Bucks.",
+     "note": "Embiid has been ruled out for Sunday's game against Detroit due to right plantar fasciitis management.",
      "out": true
     },
     {
