@@ -1,33 +1,33 @@
 {
- "as_of": "2026-10-23",
+ "as_of": "2026-10-24",
  "season": "2026-27",
  "teams": {
   "ATL": {
    "id": 1610612737,
    "name": "Atlanta Hawks",
-   "elo": 1621.2,
+   "elo": 1610.1,
    "recent": {
-    "ORTG": 117.7402,
-    "DRTG": 105.9373,
-    "NET": 11.8029,
-    "PACE": 104.278,
-    "MARGIN": 12.4,
-    "EFG": 0.5741,
-    "TOV_PCT": 0.136,
-    "ORB_PCT": 0.2736,
-    "FT_RATE": 0.2396,
-    "OPP_EFG": 0.524,
-    "OPP_TOV_PCT": 0.1631,
-    "DRB_PCT": 0.7563,
-    "OPP_FT_RATE": 0.2622
+    "ORTG": 116.3715,
+    "DRTG": 106.272,
+    "NET": 10.0995,
+    "PACE": 104.676,
+    "MARGIN": 10.7,
+    "EFG": 0.5661,
+    "TOV_PCT": 0.1364,
+    "ORB_PCT": 0.2764,
+    "FT_RATE": 0.2368,
+    "OPP_EFG": 0.5254,
+    "OPP_TOV_PCT": 0.1635,
+    "DRB_PCT": 0.7593,
+    "OPP_FT_RATE": 0.2741
    },
    "players": [
     {
      "id": 1629638,
      "name": "Nickeil Alexander-Walker",
      "pos": "G",
-     "value": 19.385,
-     "mpg_recent": 34.3,
+     "value": 19.295,
+     "mpg_recent": 33.7,
      "glue": 0.327,
      "mpg_season": 33.372,
      "counts_if_out": true
@@ -36,8 +36,8 @@
      "id": 1630552,
      "name": "Jalen Johnson",
      "pos": "F",
-     "value": 17.64,
-     "mpg_recent": 32.9,
+     "value": 18.785,
+     "mpg_recent": 33.0,
      "glue": -0.169,
      "mpg_season": 35.167,
      "counts_if_out": true
@@ -47,7 +47,7 @@
      "name": "Dyson Daniels",
      "pos": "G",
      "value": 16.145,
-     "mpg_recent": 33.2,
+     "mpg_recent": 31.8,
      "glue": 1.075,
      "mpg_season": 33.158,
      "counts_if_out": true
@@ -56,8 +56,8 @@
      "id": 203468,
      "name": "CJ McCollum",
      "pos": "G",
-     "value": 13.52,
-     "mpg_recent": 29.1,
+     "value": 13.48,
+     "mpg_recent": 28.7,
      "glue": -0.089,
      "mpg_season": 29.76,
      "counts_if_out": true
@@ -66,8 +66,8 @@
      "id": 1630168,
      "name": "Onyeka Okongwu",
      "pos": "F-C",
-     "value": 10.99,
-     "mpg_recent": 30.4,
+     "value": 10.35,
+     "mpg_recent": 30.6,
      "glue": 0.513,
      "mpg_season": 31.041,
      "counts_if_out": true
@@ -76,8 +76,8 @@
      "id": 1629111,
      "name": "Jock Landale",
      "pos": "C",
-     "value": 7.12,
-     "mpg_recent": 20.4,
+     "value": 6.835,
+     "mpg_recent": 21.2,
      "glue": 0.087,
      "mpg_season": 22.147,
      "counts_if_out": true
@@ -96,8 +96,8 @@
      "id": 1630598,
      "name": "Aaron Wiggins",
      "pos": "G",
-     "value": 6.11,
-     "mpg_recent": 17.9,
+     "value": 5.9,
+     "mpg_recent": 19.7,
      "glue": -0.087,
      "mpg_season": 22.226,
      "counts_if_out": true
@@ -106,8 +106,8 @@
      "id": 1629652,
      "name": "Luguentz Dort",
      "pos": "G",
-     "value": 5.155,
-     "mpg_recent": 22.1,
+     "value": 5.335,
+     "mpg_recent": 21.7,
      "glue": -0.385,
      "mpg_season": 26.797,
      "counts_if_out": true
@@ -163,16 +163,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1643412,
-     "name": "Kingston Flemings",
-     "pos": "G",
-     "value": 3.1,
-     "mpg_recent": 20.0,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
      "id": 1627827,
      "name": "Dorian Finney-Smith",
      "pos": "F",
@@ -180,6 +170,16 @@
      "mpg_recent": 14.8,
      "glue": -0.333,
      "mpg_season": 16.778,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643412,
+     "name": "Kingston Flemings",
+     "pos": "G",
+     "value": 1.567,
+     "mpg_recent": 18.333,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -207,29 +207,29 @@
   "BKN": {
    "id": 1610612751,
    "name": "Brooklyn Nets",
-   "elo": 1318.4,
+   "elo": 1317.0,
    "recent": {
-    "ORTG": 102.8918,
-    "DRTG": 116.7093,
-    "NET": -13.8175,
-    "PACE": 100.334,
-    "MARGIN": -14.1,
-    "EFG": 0.5109,
-    "TOV_PCT": 0.1483,
-    "ORB_PCT": 0.1879,
-    "FT_RATE": 0.2621,
-    "OPP_EFG": 0.5965,
-    "OPP_TOV_PCT": 0.159,
-    "DRB_PCT": 0.7471,
-    "OPP_FT_RATE": 0.281
+    "ORTG": 104.0638,
+    "DRTG": 116.5615,
+    "NET": -12.4977,
+    "PACE": 101.26,
+    "MARGIN": -12.8,
+    "EFG": 0.514,
+    "TOV_PCT": 0.1517,
+    "ORB_PCT": 0.199,
+    "FT_RATE": 0.274,
+    "OPP_EFG": 0.5951,
+    "OPP_TOV_PCT": 0.165,
+    "DRB_PCT": 0.7422,
+    "OPP_FT_RATE": 0.2691
    },
    "players": [
     {
      "id": 1629008,
      "name": "Michael Porter Jr.",
      "pos": "F",
-     "value": 14.78,
-     "mpg_recent": 31.2,
+     "value": 15.755,
+     "mpg_recent": 31.0,
      "glue": -0.192,
      "mpg_season": 32.481,
      "counts_if_out": true
@@ -238,8 +238,8 @@
      "id": 203944,
      "name": "Julius Randle",
      "pos": "F-C",
-     "value": 14.35,
-     "mpg_recent": 34.0,
+     "value": 14.575,
+     "mpg_recent": 33.8,
      "glue": -0.056,
      "mpg_season": 33.038,
      "counts_if_out": true
@@ -248,20 +248,10 @@
      "id": 1630549,
      "name": "Day'Ron Sharpe",
      "pos": "C",
-     "value": 10.54,
-     "mpg_recent": 19.9,
+     "value": 10.14,
+     "mpg_recent": 20.5,
      "glue": 1.189,
      "mpg_season": 18.71,
-     "counts_if_out": true
-    },
-    {
-     "id": 1631165,
-     "name": "Keon Ellis",
-     "pos": "G",
-     "value": 7.9,
-     "mpg_recent": 27.0,
-     "glue": 0.284,
-     "mpg_season": 20.886,
      "counts_if_out": true
     },
     {
@@ -275,21 +265,21 @@
      "counts_if_out": true
     },
     {
-     "id": 1641730,
-     "name": "Noah Clowney",
-     "pos": "F-C",
-     "value": 7.36,
-     "mpg_recent": 19.2,
-     "glue": -0.181,
-     "mpg_season": 26.97,
+     "id": 1631165,
+     "name": "Keon Ellis",
+     "pos": "G",
+     "value": 7.64,
+     "mpg_recent": 25.5,
+     "glue": 0.284,
+     "mpg_season": 20.886,
      "counts_if_out": true
     },
     {
      "id": 1643052,
      "name": "Chaney Johnson",
      "pos": "G-F",
-     "value": 7.267,
-     "mpg_recent": 18.7,
+     "value": 7.316,
+     "mpg_recent": 18.8,
      "glue": 0.427,
      "mpg_season": 20.471,
      "counts_if_out": true
@@ -298,20 +288,20 @@
      "id": 1642856,
      "name": "Egor D\u00ebmin",
      "pos": "G",
-     "value": 7.16,
-     "mpg_recent": 27.4,
+     "value": 7.3,
+     "mpg_recent": 27.3,
      "glue": -0.071,
      "mpg_season": 25.154,
      "counts_if_out": true
     },
     {
-     "id": 1631169,
-     "name": "Josh Minott",
-     "pos": "F",
-     "value": 6.865,
-     "mpg_recent": 23.3,
-     "glue": 0.461,
-     "mpg_season": 17.02,
+     "id": 1641730,
+     "name": "Noah Clowney",
+     "pos": "F-C",
+     "value": 7.26,
+     "mpg_recent": 19.2,
+     "glue": -0.181,
+     "mpg_season": 26.97,
      "counts_if_out": true
     },
     {
@@ -325,13 +315,13 @@
      "counts_if_out": true
     },
     {
-     "id": 1642849,
-     "name": "Nolan Traore",
-     "pos": "G",
-     "value": 5.135,
-     "mpg_recent": 21.9,
-     "glue": -0.27,
-     "mpg_season": 22.455,
+     "id": 1631169,
+     "name": "Josh Minott",
+     "pos": "F",
+     "value": 6.795,
+     "mpg_recent": 21.8,
+     "glue": 0.461,
+     "mpg_season": 17.02,
      "counts_if_out": true
     },
     {
@@ -345,6 +335,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1642849,
+     "name": "Nolan Traore",
+     "pos": "G",
+     "value": 4.845,
+     "mpg_recent": 19.8,
+     "glue": -0.27,
+     "mpg_season": 22.455,
+     "counts_if_out": true
+    },
+    {
      "id": 1642962,
      "name": "Drake Powell",
      "pos": "G-F",
@@ -352,6 +352,16 @@
      "mpg_recent": 28.3,
      "glue": -0.663,
      "mpg_season": 21.717,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643414,
+     "name": "Mikel Brown Jr.",
+     "pos": "G",
+     "value": 3.95,
+     "mpg_recent": 20.0,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -368,20 +378,10 @@
      "id": 1629021,
      "name": "Moritz Wagner",
      "pos": "F-C",
-     "value": 3.17,
-     "mpg_recent": 9.3,
+     "value": 2.87,
+     "mpg_recent": 9.4,
      "glue": 0.629,
      "mpg_season": 12.086,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643414,
-     "name": "Mikel Brown Jr.",
-     "pos": "G",
-     "value": 2.8,
-     "mpg_recent": 20.0,
-     "glue": null,
-     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -601,23 +601,33 @@
   "CHA": {
    "id": 1610612766,
    "name": "Charlotte Hornets",
-   "elo": 1576.3,
+   "elo": 1580.1,
    "recent": {
-    "ORTG": 111.8723,
-    "DRTG": 110.165,
-    "NET": 1.7073,
-    "PACE": 98.188,
-    "MARGIN": 1.6,
-    "EFG": 0.5339,
-    "TOV_PCT": 0.1601,
-    "ORB_PCT": 0.3174,
-    "FT_RATE": 0.1905,
-    "OPP_EFG": 0.5435,
-    "OPP_TOV_PCT": 0.1419,
-    "DRB_PCT": 0.7373,
-    "OPP_FT_RATE": 0.2192
+    "ORTG": 112.2831,
+    "DRTG": 108.4714,
+    "NET": 3.8117,
+    "PACE": 99.286,
+    "MARGIN": 3.6,
+    "EFG": 0.5356,
+    "TOV_PCT": 0.1626,
+    "ORB_PCT": 0.3186,
+    "FT_RATE": 0.196,
+    "OPP_EFG": 0.5351,
+    "OPP_TOV_PCT": 0.1469,
+    "DRB_PCT": 0.742,
+    "OPP_FT_RATE": 0.2218
    },
    "players": [
+    {
+     "id": 1641706,
+     "name": "Brandon Miller",
+     "pos": "F",
+     "value": 12.465,
+     "mpg_recent": 31.1,
+     "glue": -0.156,
+     "mpg_season": 30.277,
+     "counts_if_out": true
+    },
     {
      "id": 1642851,
      "name": "Kon Knueppel",
@@ -629,21 +639,11 @@
      "counts_if_out": true
     },
     {
-     "id": 1641706,
-     "name": "Brandon Miller",
-     "pos": "F",
-     "value": 11.84,
-     "mpg_recent": 30.7,
-     "glue": -0.156,
-     "mpg_season": 30.277,
-     "counts_if_out": true
-    },
-    {
      "id": 1628960,
      "name": "Grayson Allen",
      "pos": "G",
-     "value": 11.36,
-     "mpg_recent": 22.7,
+     "value": 11.39,
+     "mpg_recent": 23.9,
      "glue": -0.191,
      "mpg_season": 29.449,
      "counts_if_out": true
@@ -662,8 +662,8 @@
      "id": 1631217,
      "name": "Moussa Diabat\u00e9",
      "pos": "F",
-     "value": 9.645,
-     "mpg_recent": 26.5,
+     "value": 9.43,
+     "mpg_recent": 26.2,
      "glue": 0.935,
      "mpg_season": 26.014,
      "counts_if_out": true
@@ -672,30 +672,40 @@
      "id": 1629675,
      "name": "Naz Reid",
      "pos": "C-F",
-     "value": 7.865,
-     "mpg_recent": 27.1,
+     "value": 8.46,
+     "mpg_recent": 27.7,
      "glue": 0.09,
      "mpg_season": 26.342,
-     "counts_if_out": true
-    },
-    {
-     "id": 1626220,
-     "name": "Royce O'Neale",
-     "pos": "F",
-     "value": 7.735,
-     "mpg_recent": 21.2,
-     "glue": -0.575,
-     "mpg_season": 28.372,
      "counts_if_out": true
     },
     {
      "id": 1641750,
      "name": "Ryan Kalkbrenner",
      "pos": "C",
-     "value": 7.335,
-     "mpg_recent": 18.7,
+     "value": 7.57,
+     "mpg_recent": 19.7,
      "glue": 0.465,
      "mpg_season": 21.435,
+     "counts_if_out": true
+    },
+    {
+     "id": 1626220,
+     "name": "Royce O'Neale",
+     "pos": "F",
+     "value": 7.34,
+     "mpg_recent": 20.1,
+     "glue": -0.575,
+     "mpg_season": 28.372,
+     "counts_if_out": true
+    },
+    {
+     "id": 203471,
+     "name": "Dennis Schr\u00f6der",
+     "pos": "G",
+     "value": 6.815,
+     "mpg_recent": 23.3,
+     "glue": -0.468,
+     "mpg_season": 24.382,
      "counts_if_out": true
     },
     {
@@ -709,16 +719,6 @@
      "counts_if_out": true
     },
     {
-     "id": 203471,
-     "name": "Dennis Schr\u00f6der",
-     "pos": "G",
-     "value": 6.0,
-     "mpg_recent": 21.5,
-     "glue": -0.468,
-     "mpg_season": 24.382,
-     "counts_if_out": true
-    },
-    {
      "id": 1643419,
      "name": "Hannes Steinbach",
      "pos": "F",
@@ -729,21 +729,11 @@
      "counts_if_out": true
     },
     {
-     "id": 1642883,
-     "name": "Sion James",
-     "pos": "G",
-     "value": 4.325,
-     "mpg_recent": 22.0,
-     "glue": -0.553,
-     "mpg_season": 22.476,
-     "counts_if_out": true
-    },
-    {
      "id": 1642275,
      "name": "Tidjane Sala\u00fcn",
      "pos": "F",
-     "value": 4.295,
-     "mpg_recent": 14.1,
+     "value": 4.22,
+     "mpg_recent": 13.3,
      "glue": -0.316,
      "mpg_season": 17.121,
      "counts_if_out": true
@@ -756,6 +746,16 @@
      "mpg_recent": 15.7,
      "glue": 0.423,
      "mpg_season": 12.529,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642883,
+     "name": "Sion James",
+     "pos": "G",
+     "value": 4.12,
+     "mpg_recent": 22.4,
+     "glue": -0.553,
+     "mpg_season": 22.476,
      "counts_if_out": true
     },
     {
@@ -772,8 +772,8 @@
      "id": 1643515,
      "name": "Christian Anderson",
      "pos": "G",
-     "value": -1.05,
-     "mpg_recent": 14.5,
+     "value": -1.4,
+     "mpg_recent": 10.667,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -803,29 +803,29 @@
   "CHI": {
    "id": 1610612741,
    "name": "Chicago Bulls",
-   "elo": 1384.1,
+   "elo": 1374.0,
    "recent": {
-    "ORTG": 105.8647,
-    "DRTG": 117.3642,
-    "NET": -11.4995,
-    "PACE": 108.45,
-    "MARGIN": -12.3,
-    "EFG": 0.5073,
-    "TOV_PCT": 0.1557,
-    "ORB_PCT": 0.2556,
-    "FT_RATE": 0.2961,
-    "OPP_EFG": 0.5704,
-    "OPP_TOV_PCT": 0.1425,
-    "DRB_PCT": 0.7136,
-    "OPP_FT_RATE": 0.2706
+    "ORTG": 105.9282,
+    "DRTG": 116.357,
+    "NET": -10.4288,
+    "PACE": 108.936,
+    "MARGIN": -11.2,
+    "EFG": 0.5035,
+    "TOV_PCT": 0.1562,
+    "ORB_PCT": 0.2599,
+    "FT_RATE": 0.3058,
+    "OPP_EFG": 0.5653,
+    "OPP_TOV_PCT": 0.1438,
+    "DRB_PCT": 0.7261,
+    "OPP_FT_RATE": 0.2754
    },
    "players": [
     {
      "id": 1630200,
      "name": "Tre Jones",
      "pos": "G",
-     "value": 15.745,
-     "mpg_recent": 24.7,
+     "value": 15.36,
+     "mpg_recent": 23.9,
      "glue": -0.245,
      "mpg_season": 26.954,
      "counts_if_out": true
@@ -834,48 +834,58 @@
      "id": 1630581,
      "name": "Josh Giddey",
      "pos": "G",
-     "value": 13.6,
-     "mpg_recent": 31.2,
+     "value": 14.155,
+     "mpg_recent": 31.5,
      "glue": -0.13,
      "mpg_season": 32.056,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643410,
+     "name": "Caleb Wilson",
+     "pos": "F",
+     "value": 13.633,
+     "mpg_recent": 34.333,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
      "id": 1641824,
      "name": "Matas Buzelis",
      "pos": "F",
-     "value": 13.185,
+     "value": 13.285,
      "mpg_recent": 28.7,
      "glue": -0.311,
      "mpg_season": 29.195,
      "counts_if_out": true
     },
     {
-     "id": 1631159,
-     "name": "Leonard Miller",
-     "pos": "F",
-     "value": 11.75,
-     "mpg_recent": 29.6,
-     "glue": -0.012,
-     "mpg_season": 18.757,
-     "counts_if_out": true
-    },
-    {
      "id": 1626181,
      "name": "Norman Powell",
      "pos": "G",
-     "value": 11.655,
-     "mpg_recent": 27.2,
+     "value": 12.05,
+     "mpg_recent": 27.4,
      "glue": -0.242,
      "mpg_season": 29.947,
+     "counts_if_out": true
+    },
+    {
+     "id": 1631159,
+     "name": "Leonard Miller",
+     "pos": "F",
+     "value": 11.135,
+     "mpg_recent": 29.2,
+     "glue": -0.012,
+     "mpg_season": 18.757,
      "counts_if_out": true
     },
     {
      "id": 1630188,
      "name": "Jalen Smith",
      "pos": "F-C",
-     "value": 10.18,
-     "mpg_recent": 22.1,
+     "value": 10.085,
+     "mpg_recent": 22.7,
      "glue": 0.403,
      "mpg_season": 20.66,
      "counts_if_out": true
@@ -891,16 +901,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1630171,
-     "name": "Isaac Okoro",
-     "pos": "F-G",
-     "value": 7.68,
-     "mpg_recent": 25.9,
-     "glue": -0.34,
-     "mpg_season": 26.905,
-     "counts_if_out": true
-    },
-    {
      "id": 1643591,
      "name": "Tobe Awaka",
      "pos": "F",
@@ -911,31 +911,31 @@
      "counts_if_out": true
     },
     {
-     "id": 1628380,
-     "name": "Zach Collins",
-     "pos": "F-C",
-     "value": 7.38,
-     "mpg_recent": 17.2,
-     "glue": 0.655,
-     "mpg_season": 18.4,
+     "id": 1630171,
+     "name": "Isaac Okoro",
+     "pos": "F-G",
+     "value": 6.925,
+     "mpg_recent": 25.0,
+     "glue": -0.34,
+     "mpg_season": 26.905,
      "counts_if_out": true
     },
     {
-     "id": 1643410,
-     "name": "Caleb Wilson",
-     "pos": "F",
-     "value": 7.35,
-     "mpg_recent": 32.5,
-     "glue": null,
-     "mpg_season": null,
+     "id": 1628380,
+     "name": "Zach Collins",
+     "pos": "F-C",
+     "value": 6.82,
+     "mpg_recent": 16.4,
+     "glue": 0.655,
+     "mpg_season": 18.4,
      "counts_if_out": true
     },
     {
      "id": 1627741,
      "name": "Buddy Hield",
      "pos": "G",
-     "value": 5.835,
-     "mpg_recent": 10.8,
+     "value": 6.115,
+     "mpg_recent": 9.6,
      "glue": -0.079,
      "mpg_season": 17.152,
      "counts_if_out": true
@@ -995,29 +995,29 @@
   "CLE": {
    "id": 1610612739,
    "name": "Cleveland Cavaliers",
-   "elo": 1577.5,
+   "elo": 1578.9,
    "recent": {
-    "ORTG": 117.4515,
-    "DRTG": 113.9841,
-    "NET": 3.4674,
-    "PACE": 103.996,
-    "MARGIN": 3.7,
-    "EFG": 0.5732,
-    "TOV_PCT": 0.1394,
-    "ORB_PCT": 0.2633,
-    "FT_RATE": 0.2942,
-    "OPP_EFG": 0.5492,
-    "OPP_TOV_PCT": 0.1257,
-    "DRB_PCT": 0.7738,
-    "OPP_FT_RATE": 0.2574
+    "ORTG": 115.4426,
+    "DRTG": 113.4929,
+    "NET": 1.9497,
+    "PACE": 103.858,
+    "MARGIN": 2.0,
+    "EFG": 0.5705,
+    "TOV_PCT": 0.1513,
+    "ORB_PCT": 0.2693,
+    "FT_RATE": 0.3104,
+    "OPP_EFG": 0.547,
+    "OPP_TOV_PCT": 0.1313,
+    "DRB_PCT": 0.7625,
+    "OPP_FT_RATE": 0.2431
    },
    "players": [
     {
      "id": 1628378,
      "name": "Donovan Mitchell",
      "pos": "G",
-     "value": 19.41,
-     "mpg_recent": 33.5,
+     "value": 19.455,
+     "mpg_recent": 33.1,
      "glue": 0.139,
      "mpg_season": 33.457,
      "counts_if_out": true
@@ -1026,8 +1026,8 @@
      "id": 1628386,
      "name": "Jarrett Allen",
      "pos": "C",
-     "value": 18.895,
-     "mpg_recent": 25.9,
+     "value": 19.145,
+     "mpg_recent": 25.4,
      "glue": 0.942,
      "mpg_season": 27.125,
      "counts_if_out": true
@@ -1036,8 +1036,8 @@
      "id": 1630596,
      "name": "Evan Mobley",
      "pos": "C",
-     "value": 17.535,
-     "mpg_recent": 29.5,
+     "value": 17.95,
+     "mpg_recent": 29.7,
      "glue": 0.532,
      "mpg_season": 31.908,
      "counts_if_out": true
@@ -1046,8 +1046,8 @@
      "id": 201935,
      "name": "James Harden",
      "pos": "G",
-     "value": 17.125,
-     "mpg_recent": 34.0,
+     "value": 16.69,
+     "mpg_recent": 33.6,
      "glue": -0.418,
      "mpg_season": 34.829,
      "counts_if_out": true
@@ -1056,8 +1056,8 @@
      "id": 1631212,
      "name": "Peyton Watson",
      "pos": "G",
-     "value": 12.415,
-     "mpg_recent": 26.8,
+     "value": 11.785,
+     "mpg_recent": 26.4,
      "glue": -0.082,
      "mpg_season": 29.593,
      "counts_if_out": true
@@ -1066,8 +1066,8 @@
      "id": 1630241,
      "name": "Sam Merrill",
      "pos": "G",
-     "value": 8.59,
-     "mpg_recent": 28.7,
+     "value": 8.19,
+     "mpg_recent": 27.7,
      "glue": -0.245,
      "mpg_season": 26.481,
      "counts_if_out": true
@@ -1076,8 +1076,8 @@
      "id": 1642281,
      "name": "Jaylon Tyson",
      "pos": "G-F",
-     "value": 7.285,
-     "mpg_recent": 22.6,
+     "value": 7.5,
+     "mpg_recent": 21.5,
      "glue": -0.298,
      "mpg_season": 26.939,
      "counts_if_out": true
@@ -1096,30 +1096,30 @@
      "id": 1626209,
      "name": "Mario Hezonja",
      "pos": "F-G",
-     "value": 4.86,
-     "mpg_recent": 17.3,
+     "value": 5.22,
+     "mpg_recent": 18.0,
      "glue": -0.338,
      "mpg_season": 17.02,
-     "counts_if_out": true
-    },
-    {
-     "id": 1641854,
-     "name": "Craig Porter Jr.",
-     "pos": "G",
-     "value": 4.845,
-     "mpg_recent": 16.7,
-     "glue": 0.111,
-     "mpg_season": 18.403,
      "counts_if_out": true
     },
     {
      "id": 1642878,
      "name": "Tyrese Proctor",
      "pos": "G",
-     "value": 4.78,
-     "mpg_recent": 13.4,
+     "value": 5.015,
+     "mpg_recent": 12.6,
      "glue": 0.006,
      "mpg_season": 12.268,
+     "counts_if_out": true
+    },
+    {
+     "id": 1641854,
+     "name": "Craig Porter Jr.",
+     "pos": "G",
+     "value": 4.58,
+     "mpg_recent": 16.8,
+     "glue": 0.111,
+     "mpg_season": 18.403,
      "counts_if_out": true
     },
     {
@@ -1187,21 +1187,21 @@
   "DAL": {
    "id": 1610612742,
    "name": "Dallas Mavericks",
-   "elo": 1405.3,
+   "elo": 1399.2,
    "recent": {
-    "ORTG": 110.1368,
-    "DRTG": 117.6341,
-    "NET": -7.4973,
-    "PACE": 105.622,
-    "MARGIN": -7.7,
-    "EFG": 0.5128,
-    "TOV_PCT": 0.1238,
-    "ORB_PCT": 0.2515,
-    "FT_RATE": 0.2987,
-    "OPP_EFG": 0.5682,
-    "OPP_TOV_PCT": 0.1361,
-    "DRB_PCT": 0.7359,
-    "OPP_FT_RATE": 0.2777
+    "ORTG": 111.3534,
+    "DRTG": 117.5374,
+    "NET": -6.1839,
+    "PACE": 105.538,
+    "MARGIN": -6.3,
+    "EFG": 0.5315,
+    "TOV_PCT": 0.1297,
+    "ORB_PCT": 0.25,
+    "FT_RATE": 0.2695,
+    "OPP_EFG": 0.5627,
+    "OPP_TOV_PCT": 0.1371,
+    "DRB_PCT": 0.7186,
+    "OPP_FT_RATE": 0.281
    },
    "players": [
     {
@@ -1238,8 +1238,8 @@
      "id": 1629655,
      "name": "Daniel Gafford",
      "pos": "F-C",
-     "value": 11.84,
-     "mpg_recent": 21.8,
+     "value": 12.43,
+     "mpg_recent": 21.4,
      "glue": 1.013,
      "mpg_season": 21.727,
      "counts_if_out": true
@@ -1248,8 +1248,8 @@
      "id": 1629023,
      "name": "P.J. Washington",
      "pos": "F",
-     "value": 11.66,
-     "mpg_recent": 32.1,
+     "value": 11.29,
+     "mpg_recent": 32.4,
      "glue": -0.28,
      "mpg_season": 31.0,
      "counts_if_out": true
@@ -1258,8 +1258,8 @@
      "id": 1630230,
      "name": "Naji Marshall",
      "pos": "F",
-     "value": 11.15,
-     "mpg_recent": 30.1,
+     "value": 10.21,
+     "mpg_recent": 29.4,
      "glue": -0.368,
      "mpg_season": 29.514,
      "counts_if_out": true
@@ -1278,8 +1278,8 @@
      "id": 1642383,
      "name": "Walter Clayton Jr.",
      "pos": "G",
-     "value": 7.625,
-     "mpg_recent": 22.9,
+     "value": 7.545,
+     "mpg_recent": 21.6,
      "glue": -0.164,
      "mpg_season": 20.5,
      "counts_if_out": true
@@ -1288,8 +1288,8 @@
      "id": 1642258,
      "name": "Zaccharie Risacher",
      "pos": "F",
-     "value": 7.215,
-     "mpg_recent": 18.4,
+     "value": 7.155,
+     "mpg_recent": 20.2,
      "glue": -0.33,
      "mpg_season": 22.433,
      "counts_if_out": true
@@ -1298,8 +1298,8 @@
      "id": 1631108,
      "name": "Max Christie",
      "pos": "G",
-     "value": 7.14,
-     "mpg_recent": 28.1,
+     "value": 7.085,
+     "mpg_recent": 27.9,
      "glue": -0.717,
      "mpg_season": 29.156,
      "counts_if_out": true
@@ -1308,7 +1308,7 @@
      "id": 1630619,
      "name": "Moussa Ciss\u00e9",
      "pos": "C",
-     "value": 7.01,
+     "value": 6.75,
      "mpg_recent": 17.5,
      "glue": 1.044,
      "mpg_season": 14.297,
@@ -1325,12 +1325,32 @@
      "counts_if_out": true
     },
     {
+     "id": 1643547,
+     "name": "Sergio de Larrea",
+     "pos": "G",
+     "value": 4.633,
+     "mpg_recent": 13.667,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
      "id": 1641724,
      "name": "Jett Howard",
      "pos": "G",
-     "value": 4.48,
-     "mpg_recent": 13.2,
+     "value": 4.615,
+     "mpg_recent": 11.6,
      "glue": -0.635,
+     "mpg_season": 13.633,
+     "counts_if_out": true
+    },
+    {
+     "id": 1631204,
+     "name": "Marcus Sasser",
+     "pos": "G",
+     "value": 4.15,
+     "mpg_recent": 13.7,
+     "glue": -0.204,
      "mpg_season": 13.633,
      "counts_if_out": true
     },
@@ -1338,38 +1358,18 @@
      "id": 1643516,
      "name": "Morez Johnson Jr.",
      "pos": "F",
-     "value": 4.2,
-     "mpg_recent": 15.5,
+     "value": 2.7,
+     "mpg_recent": 14.333,
      "glue": null,
      "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1631204,
-     "name": "Marcus Sasser",
-     "pos": "G",
-     "value": 4.125,
-     "mpg_recent": 12.8,
-     "glue": -0.204,
-     "mpg_season": 13.633,
      "counts_if_out": true
     },
     {
      "id": 1643588,
      "name": "Tobi Lawal",
      "pos": "F",
-     "value": 1.0,
-     "mpg_recent": 1.0,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643547,
-     "name": "Sergio de Larrea",
-     "pos": "G",
-     "value": 0.15,
-     "mpg_recent": 4.0,
+     "value": 2.7,
+     "mpg_recent": 2.5,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -1389,29 +1389,29 @@
   "DEN": {
    "id": 1610612743,
    "name": "Denver Nuggets",
-   "elo": 1619.6,
+   "elo": 1621.9,
    "recent": {
-    "ORTG": 122.5702,
-    "DRTG": 113.724,
-    "NET": 8.8463,
-    "PACE": 101.404,
-    "MARGIN": 9.1,
-    "EFG": 0.5844,
-    "TOV_PCT": 0.1279,
-    "ORB_PCT": 0.2678,
-    "FT_RATE": 0.246,
-    "OPP_EFG": 0.5368,
-    "OPP_TOV_PCT": 0.1067,
-    "DRB_PCT": 0.7577,
-    "OPP_FT_RATE": 0.2229
+    "ORTG": 121.398,
+    "DRTG": 112.692,
+    "NET": 8.706,
+    "PACE": 101.2494,
+    "MARGIN": 9.0,
+    "EFG": 0.5736,
+    "TOV_PCT": 0.1298,
+    "ORB_PCT": 0.2823,
+    "FT_RATE": 0.2528,
+    "OPP_EFG": 0.5372,
+    "OPP_TOV_PCT": 0.1185,
+    "DRB_PCT": 0.7503,
+    "OPP_FT_RATE": 0.2181
    },
    "players": [
     {
      "id": 203999,
      "name": "Nikola Joki\u0107",
      "pos": "C",
-     "value": 26.44,
-     "mpg_recent": 35.2,
+     "value": 26.76,
+     "mpg_recent": 36.1,
      "glue": 1.184,
      "mpg_season": 34.846,
      "counts_if_out": true
@@ -1420,8 +1420,8 @@
      "id": 1627750,
      "name": "Jamal Murray",
      "pos": "G",
-     "value": 19.74,
-     "mpg_recent": 37.6,
+     "value": 19.6,
+     "mpg_recent": 38.8,
      "glue": -0.065,
      "mpg_season": 35.36,
      "counts_if_out": true
@@ -1430,8 +1430,8 @@
      "id": 201942,
      "name": "DeMar DeRozan",
      "pos": "G-F",
-     "value": 13.93,
-     "mpg_recent": 26.5,
+     "value": 13.245,
+     "mpg_recent": 27.2,
      "glue": -0.639,
      "mpg_season": 31.247,
      "counts_if_out": true
@@ -1440,8 +1440,8 @@
      "id": 203932,
      "name": "Aaron Gordon",
      "pos": "F",
-     "value": 12.785,
-     "mpg_recent": 28.4,
+     "value": 12.47,
+     "mpg_recent": 30.2,
      "glue": -0.169,
      "mpg_season": 27.917,
      "counts_if_out": true
@@ -1450,8 +1450,8 @@
      "id": 1631128,
      "name": "Christian Braun",
      "pos": "G",
-     "value": 11.235,
-     "mpg_recent": 31.1,
+     "value": 11.375,
+     "mpg_recent": 32.2,
      "glue": 0.067,
      "mpg_season": 31.795,
      "counts_if_out": true
@@ -1470,10 +1470,20 @@
      "id": 1628963,
      "name": "Marvin Bagley III",
      "pos": "F",
-     "value": 9.8,
-     "mpg_recent": 19.1,
+     "value": 9.205,
+     "mpg_recent": 18.4,
      "glue": 0.798,
      "mpg_season": 20.017,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642350,
+     "name": "Trevon Brazile",
+     "pos": "F",
+     "value": 8.4,
+     "mpg_recent": 23.0,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -1490,8 +1500,8 @@
      "id": 1641715,
      "name": "Cam Whitmore",
      "pos": "F",
-     "value": 5.99,
-     "mpg_recent": 17.2,
+     "value": 5.89,
+     "mpg_recent": 15.8,
      "glue": -0.168,
      "mpg_season": 16.857,
      "counts_if_out": true
@@ -1527,26 +1537,6 @@
      "counts_if_out": true
     },
     {
-     "id": 1642350,
-     "name": "Trevon Brazile",
-     "pos": "F",
-     "value": 3.2,
-     "mpg_recent": 18.0,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1626145,
-     "name": "Tyus Jones",
-     "pos": "G",
-     "value": 2.535,
-     "mpg_recent": 8.4,
-     "glue": -0.829,
-     "mpg_season": 16.0,
-     "counts_if_out": true
-    },
-    {
      "id": 1641747,
      "name": "DaRon Holmes II",
      "pos": "F",
@@ -1554,6 +1544,16 @@
      "mpg_recent": 2.9,
      "glue": 0.317,
      "mpg_season": 10.421,
+     "counts_if_out": true
+    },
+    {
+     "id": 1626145,
+     "name": "Tyus Jones",
+     "pos": "G",
+     "value": 2.275,
+     "mpg_recent": 8.6,
+     "glue": -0.829,
+     "mpg_season": 16.0,
      "counts_if_out": true
     },
     {
@@ -1570,8 +1570,8 @@
      "id": 1643624,
      "name": "Bryce Hopkins",
      "pos": "F",
-     "value": 0.7,
-     "mpg_recent": 2.0,
+     "value": 0.9,
+     "mpg_recent": 10.5,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -1783,21 +1783,21 @@
   "GSW": {
    "id": 1610612744,
    "name": "Golden State Warriors",
-   "elo": 1431.1,
+   "elo": 1426.0,
    "recent": {
-    "ORTG": 110.006,
-    "DRTG": 119.2968,
-    "NET": -9.2909,
-    "PACE": 98.87,
-    "MARGIN": -9.2,
-    "EFG": 0.5277,
-    "TOV_PCT": 0.1508,
-    "ORB_PCT": 0.2654,
-    "FT_RATE": 0.2594,
-    "OPP_EFG": 0.5947,
-    "OPP_TOV_PCT": 0.1627,
-    "DRB_PCT": 0.7139,
-    "OPP_FT_RATE": 0.2497
+    "ORTG": 112.075,
+    "DRTG": 119.8296,
+    "NET": -7.7546,
+    "PACE": 99.652,
+    "MARGIN": -7.8,
+    "EFG": 0.5315,
+    "TOV_PCT": 0.1516,
+    "ORB_PCT": 0.281,
+    "FT_RATE": 0.2813,
+    "OPP_EFG": 0.5999,
+    "OPP_TOV_PCT": 0.1666,
+    "DRB_PCT": 0.7032,
+    "OPP_FT_RATE": 0.2613
    },
    "players": [
     {
@@ -1821,6 +1821,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1642865,
+     "name": "Yaxel Lendeborg",
+     "pos": "F",
+     "value": 16.067,
+     "mpg_recent": 34.0,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
      "id": 1641764,
      "name": "Brandin Podziemski",
      "pos": "G",
@@ -1828,16 +1838,6 @@
      "mpg_recent": 29.4,
      "glue": -0.065,
      "mpg_season": 28.654,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642865,
-     "name": "Yaxel Lendeborg",
-     "pos": "F",
-     "value": 12.7,
-     "mpg_recent": 33.0,
-     "glue": null,
-     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -1854,30 +1854,30 @@
      "id": 1630611,
      "name": "Gui Santos",
      "pos": "F",
-     "value": 11.67,
-     "mpg_recent": 28.8,
+     "value": 11.5,
+     "mpg_recent": 27.6,
      "glue": 0.157,
      "mpg_season": 21.562,
-     "counts_if_out": true
-    },
-    {
-     "id": 1627780,
-     "name": "Gary Payton II",
-     "pos": "G",
-     "value": 11.445,
-     "mpg_recent": 19.3,
-     "glue": 0.536,
-     "mpg_season": 15.803,
      "counts_if_out": true
     },
     {
      "id": 1630314,
      "name": "Brandon Williams",
      "pos": "G",
-     "value": 11.16,
+     "value": 11.15,
      "mpg_recent": 20.0,
      "glue": 0.107,
      "mpg_season": 22.292,
+     "counts_if_out": true
+    },
+    {
+     "id": 1627780,
+     "name": "Gary Payton II",
+     "pos": "G",
+     "value": 11.09,
+     "mpg_recent": 18.5,
+     "glue": 0.536,
+     "mpg_season": 15.803,
      "counts_if_out": true
     },
     {
@@ -1904,10 +1904,20 @@
      "id": 1643633,
      "name": "Graham Ike",
      "pos": "F-C",
-     "value": 8.75,
-     "mpg_recent": 12.0,
+     "value": 9.067,
+     "mpg_recent": 16.667,
      "glue": null,
      "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
+     "id": 1629001,
+     "name": "De'Anthony Melton",
+     "pos": "G",
+     "value": 8.775,
+     "mpg_recent": 23.3,
+     "glue": 0.57,
+     "mpg_season": 22.959,
      "counts_if_out": true
     },
     {
@@ -1921,61 +1931,51 @@
      "counts_if_out": true
     },
     {
-     "id": 1629001,
-     "name": "De'Anthony Melton",
-     "pos": "G",
-     "value": 7.94,
-     "mpg_recent": 23.4,
-     "glue": 0.57,
-     "mpg_season": 22.959,
+     "id": 1629646,
+     "name": "Charles Bassey",
+     "pos": "F-C",
+     "value": 5.995,
+     "mpg_recent": 12.9,
+     "glue": 0.165,
+     "mpg_season": 12.5,
      "counts_if_out": true
     },
     {
      "id": 1627777,
      "name": "Georges Niang",
      "pos": "F",
-     "value": 5.535,
-     "mpg_recent": 18.5,
+     "value": 5.31,
+     "mpg_recent": 19.3,
      "glue": -0.431,
      "mpg_season": 21.59,
-     "counts_if_out": true
-    },
-    {
-     "id": 1629646,
-     "name": "Charles Bassey",
-     "pos": "F-C",
-     "value": 5.445,
-     "mpg_recent": 11.8,
-     "glue": 0.165,
-     "mpg_season": 12.5,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643018,
-     "name": "LJ Cryer",
-     "pos": "G",
-     "value": 4.868,
-     "mpg_recent": 18.4,
-     "glue": -0.401,
-     "mpg_season": 17.8,
      "counts_if_out": true
     },
     {
      "id": 1642954,
      "name": "Will Richard",
      "pos": "G",
-     "value": 4.505,
-     "mpg_recent": 15.2,
+     "value": 4.735,
+     "mpg_recent": 17.1,
      "glue": -0.136,
      "mpg_season": 20.06,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643018,
+     "name": "LJ Cryer",
+     "pos": "G",
+     "value": 4.56,
+     "mpg_recent": 18.2,
+     "glue": -0.401,
+     "mpg_season": 17.8,
      "counts_if_out": true
     },
     {
      "id": 1642502,
      "name": "Malevy Leons",
      "pos": "F",
-     "value": 3.165,
-     "mpg_recent": 13.9,
+     "value": 3.01,
+     "mpg_recent": 13.2,
      "glue": -0.407,
      "mpg_season": 12.227,
      "counts_if_out": true
@@ -1985,29 +1985,29 @@
   "HOU": {
    "id": 1610612745,
    "name": "Houston Rockets",
-   "elo": 1600.2,
+   "elo": 1611.2,
    "recent": {
-    "ORTG": 122.7123,
-    "DRTG": 109.6871,
-    "NET": 13.0251,
-    "PACE": 99.83,
-    "MARGIN": 13.2,
-    "EFG": 0.5839,
-    "TOV_PCT": 0.132,
-    "ORB_PCT": 0.3163,
-    "FT_RATE": 0.275,
-    "OPP_EFG": 0.5338,
-    "OPP_TOV_PCT": 0.1411,
-    "DRB_PCT": 0.7669,
-    "OPP_FT_RATE": 0.2624
+    "ORTG": 122.2263,
+    "DRTG": 110.4041,
+    "NET": 11.8222,
+    "PACE": 101.044,
+    "MARGIN": 12.2,
+    "EFG": 0.5767,
+    "TOV_PCT": 0.1365,
+    "ORB_PCT": 0.3334,
+    "FT_RATE": 0.2804,
+    "OPP_EFG": 0.5372,
+    "OPP_TOV_PCT": 0.1426,
+    "DRB_PCT": 0.758,
+    "OPP_FT_RATE": 0.2655
    },
    "players": [
     {
      "id": 201142,
      "name": "Kevin Durant",
      "pos": "F",
-     "value": 20.805,
-     "mpg_recent": 35.7,
+     "value": 20.195,
+     "mpg_recent": 36.5,
      "glue": -0.391,
      "mpg_season": 36.41,
      "counts_if_out": true
@@ -2016,8 +2016,8 @@
      "id": 1641708,
      "name": "Amen Thompson",
      "pos": "G-F",
-     "value": 19.925,
-     "mpg_recent": 37.4,
+     "value": 19.8,
+     "mpg_recent": 37.8,
      "glue": 0.105,
      "mpg_season": 37.38,
      "counts_if_out": true
@@ -2026,8 +2026,8 @@
      "id": 1630578,
      "name": "Alperen Sengun",
      "pos": "C",
-     "value": 18.22,
-     "mpg_recent": 31.2,
+     "value": 18.115,
+     "mpg_recent": 31.3,
      "glue": 0.429,
      "mpg_season": 33.761,
      "counts_if_out": true
@@ -2036,7 +2036,7 @@
      "id": 1631095,
      "name": "Jabari Smith Jr.",
      "pos": "F",
-     "value": 12.48,
+     "value": 12.075,
      "mpg_recent": 34.4,
      "glue": -0.518,
      "mpg_season": 35.13,
@@ -2046,8 +2046,8 @@
      "id": 1642263,
      "name": "Reed Sheppard",
      "pos": "G",
-     "value": 10.345,
-     "mpg_recent": 24.1,
+     "value": 11.235,
+     "mpg_recent": 25.0,
      "glue": 0.355,
      "mpg_season": 26.183,
      "counts_if_out": true
@@ -2086,8 +2086,8 @@
      "id": 1631106,
      "name": "Tari Eason",
      "pos": "F",
-     "value": 6.96,
-     "mpg_recent": 23.1,
+     "value": 7.21,
+     "mpg_recent": 23.2,
      "glue": 0.313,
      "mpg_season": 25.817,
      "counts_if_out": true
@@ -2106,8 +2106,8 @@
      "id": 203991,
      "name": "Clint Capela",
      "pos": "C",
-     "value": 5.11,
-     "mpg_recent": 11.4,
+     "value": 5.12,
+     "mpg_recent": 10.9,
      "glue": 0.934,
      "mpg_season": 12.589,
      "counts_if_out": true
@@ -2116,8 +2116,8 @@
      "id": 203992,
      "name": "Bogdan Bogdanovi\u0107",
      "pos": "G",
-     "value": 4.62,
-     "mpg_recent": 11.7,
+     "value": 4.01,
+     "mpg_recent": 13.5,
      "glue": -0.346,
      "mpg_season": 20.455,
      "counts_if_out": true
@@ -2127,7 +2127,7 @@
      "name": "Jae'Sean Tate",
      "pos": "F",
      "value": 2.265,
-     "mpg_recent": 10.2,
+     "mpg_recent": 9.4,
      "glue": 0.434,
      "mpg_season": 9.6,
      "counts_if_out": true
@@ -2146,8 +2146,8 @@
      "id": 1642384,
      "name": "Isaiah Crawford",
      "pos": "F",
-     "value": 1.285,
-     "mpg_recent": 6.8,
+     "value": 1.31,
+     "mpg_recent": 6.7,
      "glue": 0.211,
      "mpg_season": 10.429,
      "counts_if_out": true
@@ -2156,8 +2156,8 @@
      "id": 1643570,
      "name": "Bruce Thornton",
      "pos": "G",
-     "value": -0.7,
-     "mpg_recent": 3.0,
+     "value": -1.3,
+     "mpg_recent": 3.5,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -2975,29 +2975,29 @@
   "MIA": {
    "id": 1610612748,
    "name": "Miami Heat",
-   "elo": 1490.7,
+   "elo": 1486.9,
    "recent": {
-    "ORTG": 117.1161,
-    "DRTG": 121.2337,
-    "NET": -4.1177,
-    "PACE": 104.752,
-    "MARGIN": -4.2,
-    "EFG": 0.573,
-    "TOV_PCT": 0.1231,
-    "ORB_PCT": 0.2399,
-    "FT_RATE": 0.2558,
-    "OPP_EFG": 0.5887,
-    "OPP_TOV_PCT": 0.1188,
-    "DRB_PCT": 0.7464,
-    "OPP_FT_RATE": 0.2197
+    "ORTG": 116.5401,
+    "DRTG": 119.5268,
+    "NET": -2.9866,
+    "PACE": 104.57,
+    "MARGIN": -3.0,
+    "EFG": 0.5706,
+    "TOV_PCT": 0.129,
+    "ORB_PCT": 0.2377,
+    "FT_RATE": 0.2667,
+    "OPP_EFG": 0.5736,
+    "OPP_TOV_PCT": 0.1228,
+    "DRB_PCT": 0.7293,
+    "OPP_FT_RATE": 0.234
    },
    "players": [
     {
      "id": 203507,
      "name": "Giannis Antetokounmpo",
      "pos": "F",
-     "value": 22.555,
-     "mpg_recent": 28.8,
+     "value": 21.91,
+     "mpg_recent": 28.2,
      "glue": 0.469,
      "mpg_season": 28.861,
      "counts_if_out": true
@@ -3006,38 +3006,38 @@
      "id": 1628389,
      "name": "Bam Adebayo",
      "pos": "C-F",
-     "value": 19.675,
-     "mpg_recent": 33.2,
+     "value": 19.49,
+     "mpg_recent": 33.8,
      "glue": 0.615,
      "mpg_season": 32.397,
-     "counts_if_out": true
-    },
-    {
-     "id": 203952,
-     "name": "Andrew Wiggins",
-     "pos": "F",
-     "value": 11.405,
-     "mpg_recent": 28.8,
-     "glue": -0.271,
-     "mpg_season": 30.338,
      "counts_if_out": true
     },
     {
      "id": 1626171,
      "name": "Bobby Portis Jr.",
      "pos": "F",
-     "value": 11.17,
-     "mpg_recent": 24.9,
+     "value": 11.705,
+     "mpg_recent": 25.8,
      "glue": -0.036,
      "mpg_season": 24.164,
+     "counts_if_out": true
+    },
+    {
+     "id": 203952,
+     "name": "Andrew Wiggins",
+     "pos": "F",
+     "value": 11.17,
+     "mpg_recent": 26.9,
+     "glue": -0.271,
+     "mpg_season": 30.338,
      "counts_if_out": true
     },
     {
      "id": 1641796,
      "name": "Pelle Larsson",
      "pos": "G",
-     "value": 10.575,
-     "mpg_recent": 29.8,
+     "value": 10.865,
+     "mpg_recent": 30.8,
      "glue": -0.247,
      "mpg_season": 26.414,
      "counts_if_out": true
@@ -3046,8 +3046,8 @@
      "id": 1630558,
      "name": "Davion Mitchell",
      "pos": "G",
-     "value": 10.28,
-     "mpg_recent": 30.7,
+     "value": 10.74,
+     "mpg_recent": 32.0,
      "glue": -0.096,
      "mpg_season": 28.571,
      "counts_if_out": true
@@ -3056,8 +3056,8 @@
      "id": 203501,
      "name": "Tim Hardaway Jr.",
      "pos": "G",
-     "value": 7.55,
-     "mpg_recent": 22.6,
+     "value": 7.64,
+     "mpg_recent": 22.0,
      "glue": -0.779,
      "mpg_season": 26.797,
      "counts_if_out": true
@@ -3066,8 +3066,8 @@
      "id": 202691,
      "name": "Klay Thompson",
      "pos": "G-F",
-     "value": 7.12,
-     "mpg_recent": 19.5,
+     "value": 6.865,
+     "mpg_recent": 19.4,
      "glue": -0.725,
      "mpg_season": 21.439,
      "counts_if_out": true
@@ -3116,8 +3116,8 @@
      "id": 1631107,
      "name": "Nikola Jovi\u0107",
      "pos": "F",
-     "value": 2.77,
-     "mpg_recent": 11.2,
+     "value": 2.825,
+     "mpg_recent": 11.0,
      "glue": -0.388,
      "mpg_season": 18.929,
      "counts_if_out": true
@@ -3133,6 +3133,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1643553,
+     "name": "Ryan Conwell",
+     "pos": "G",
+     "value": 1.2,
+     "mpg_recent": 3.333,
+     "glue": null,
+     "mpg_season": null,
+     "counts_if_out": true
+    },
+    {
      "id": 1642884,
      "name": "Vladislav Goldin",
      "pos": "C",
@@ -3140,16 +3150,6 @@
      "mpg_recent": 2.556,
      "glue": 0.0,
      "mpg_season": 3.167,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643553,
-     "name": "Ryan Conwell",
-     "pos": "G",
-     "value": 0.65,
-     "mpg_recent": 3.0,
-     "glue": null,
-     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -3167,29 +3167,29 @@
   "MIL": {
    "id": 1610612749,
    "name": "Milwaukee Bucks",
-   "elo": 1365.1,
+   "elo": 1361.2,
    "recent": {
-    "ORTG": 112.8943,
-    "DRTG": 118.3145,
-    "NET": -5.4203,
-    "PACE": 101.12,
-    "MARGIN": -5.2,
-    "EFG": 0.5756,
-    "TOV_PCT": 0.1711,
-    "ORB_PCT": 0.2647,
-    "FT_RATE": 0.231,
-    "OPP_EFG": 0.5551,
-    "OPP_TOV_PCT": 0.1212,
-    "DRB_PCT": 0.7307,
-    "OPP_FT_RATE": 0.293
+    "ORTG": 112.1295,
+    "DRTG": 120.7527,
+    "NET": -8.6233,
+    "PACE": 101.246,
+    "MARGIN": -8.7,
+    "EFG": 0.573,
+    "TOV_PCT": 0.1745,
+    "ORB_PCT": 0.2767,
+    "FT_RATE": 0.2338,
+    "OPP_EFG": 0.565,
+    "OPP_TOV_PCT": 0.1183,
+    "DRB_PCT": 0.734,
+    "OPP_FT_RATE": 0.2986
    },
    "players": [
     {
      "id": 1629639,
      "name": "Tyler Herro",
      "pos": "G",
-     "value": 15.65,
-     "mpg_recent": 32.3,
+     "value": 15.45,
+     "mpg_recent": 32.4,
      "glue": -0.59,
      "mpg_season": 31.303,
      "counts_if_out": true
@@ -3198,8 +3198,8 @@
      "id": 1631170,
      "name": "Jaime Jaquez Jr.",
      "pos": "G",
-     "value": 13.705,
-     "mpg_recent": 29.8,
+     "value": 13.665,
+     "mpg_recent": 29.9,
      "glue": -0.285,
      "mpg_season": 28.28,
      "counts_if_out": true
@@ -3208,8 +3208,8 @@
      "id": 1631157,
      "name": "Ryan Rollins",
      "pos": "G",
-     "value": 13.415,
-     "mpg_recent": 29.8,
+     "value": 13.495,
+     "mpg_recent": 30.0,
      "glue": 0.506,
      "mpg_season": 32.095,
      "counts_if_out": true
@@ -3228,8 +3228,8 @@
      "id": 1628398,
      "name": "Kyle Kuzma",
      "pos": "F",
-     "value": 9.685,
-     "mpg_recent": 24.4,
+     "value": 10.165,
+     "mpg_recent": 24.3,
      "glue": -1.038,
      "mpg_season": 26.294,
      "counts_if_out": true
@@ -3238,8 +3238,8 @@
      "id": 1642276,
      "name": "Kel'el Ware",
      "pos": "C",
-     "value": 9.355,
-     "mpg_recent": 18.5,
+     "value": 9.75,
+     "mpg_recent": 19.9,
      "glue": 0.02,
      "mpg_season": 22.263,
      "counts_if_out": true
@@ -3248,8 +3248,8 @@
      "id": 1631260,
      "name": "AJ Green",
      "pos": "G",
-     "value": 8.615,
-     "mpg_recent": 31.0,
+     "value": 8.845,
+     "mpg_recent": 30.1,
      "glue": -0.144,
      "mpg_season": 29.103,
      "counts_if_out": true
@@ -3268,8 +3268,8 @@
      "id": 1642857,
      "name": "Kasparas Jaku\u010dionis",
      "pos": "G",
-     "value": 7.5,
-     "mpg_recent": 19.5,
+     "value": 7.495,
+     "mpg_recent": 20.6,
      "glue": 0.225,
      "mpg_season": 18.314,
      "counts_if_out": true
@@ -3288,10 +3288,20 @@
      "id": 1626167,
      "name": "Myles Turner",
      "pos": "C-F",
-     "value": 7.47,
-     "mpg_recent": 24.4,
+     "value": 6.49,
+     "mpg_recent": 24.6,
      "glue": 0.173,
      "mpg_season": 26.93,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643415,
+     "name": "Brayden Burries",
+     "pos": "G",
+     "value": 6.4,
+     "mpg_recent": 13.667,
+     "glue": null,
+     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -3312,16 +3322,6 @@
      "mpg_recent": 28.7,
      "glue": -0.043,
      "mpg_season": 17.537,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643415,
-     "name": "Brayden Burries",
-     "pos": "G",
-     "value": 5.0,
-     "mpg_recent": 12.0,
-     "glue": null,
-     "mpg_season": null,
      "counts_if_out": true
     },
     {
@@ -3348,8 +3348,8 @@
      "id": 1643417,
      "name": "Nate Ament",
      "pos": "F",
-     "value": null,
-     "mpg_recent": null,
+     "value": -1.6,
+     "mpg_recent": 11.0,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -3551,49 +3551,49 @@
   "NOP": {
    "id": 1610612740,
    "name": "New Orleans Pelicans",
-   "elo": 1417.6,
+   "elo": 1415.3,
    "recent": {
-    "ORTG": 110.24,
-    "DRTG": 118.4089,
-    "NET": -8.1689,
-    "PACE": 106.156,
-    "MARGIN": -8.2,
-    "EFG": 0.5107,
-    "TOV_PCT": 0.133,
-    "ORB_PCT": 0.2548,
-    "FT_RATE": 0.3193,
-    "OPP_EFG": 0.5672,
-    "OPP_TOV_PCT": 0.1302,
-    "DRB_PCT": 0.71,
-    "OPP_FT_RATE": 0.2784
+    "ORTG": 111.6153,
+    "DRTG": 119.0363,
+    "NET": -7.421,
+    "PACE": 106.3414,
+    "MARGIN": -7.5,
+    "EFG": 0.521,
+    "TOV_PCT": 0.135,
+    "ORB_PCT": 0.251,
+    "FT_RATE": 0.3227,
+    "OPP_EFG": 0.5663,
+    "OPP_TOV_PCT": 0.1269,
+    "DRB_PCT": 0.7137,
+    "OPP_FT_RATE": 0.2984
    },
    "players": [
+    {
+     "id": 1629627,
+     "name": "Zion Williamson",
+     "pos": "F",
+     "value": 16.095,
+     "mpg_recent": 30.5,
+     "glue": 0.099,
+     "mpg_season": 29.694,
+     "counts_if_out": true
+    },
     {
      "id": 1630530,
      "name": "Trey Murphy III",
      "pos": "F",
-     "value": 15.955,
+     "value": 15.17,
      "mpg_recent": 35.3,
      "glue": -0.235,
      "mpg_season": 35.47,
      "counts_if_out": true
     },
     {
-     "id": 1629627,
-     "name": "Zion Williamson",
-     "pos": "F",
-     "value": 15.74,
-     "mpg_recent": 30.4,
-     "glue": 0.099,
-     "mpg_season": 29.694,
-     "counts_if_out": true
-    },
-    {
      "id": 1627749,
      "name": "Dejounte Murray",
      "pos": "G",
-     "value": 14.28,
-     "mpg_recent": 29.9,
+     "value": 14.14,
+     "mpg_recent": 30.3,
      "glue": -0.235,
      "mpg_season": 27.786,
      "counts_if_out": true
@@ -3602,8 +3602,8 @@
      "id": 1630180,
      "name": "Saddiq Bey",
      "pos": "F",
-     "value": 13.53,
-     "mpg_recent": 30.5,
+     "value": 13.5,
+     "mpg_recent": 29.4,
      "glue": -0.458,
      "mpg_season": 31.239,
      "counts_if_out": true
@@ -3612,20 +3612,10 @@
      "id": 1642847,
      "name": "Jeremiah Fears",
      "pos": "G",
-     "value": 12.025,
-     "mpg_recent": 31.8,
+     "value": 12.015,
+     "mpg_recent": 31.3,
      "glue": -0.275,
      "mpg_season": 25.756,
-     "counts_if_out": true
-    },
-    {
-     "id": 1631097,
-     "name": "Bennedict Mathurin",
-     "pos": "G-F",
-     "value": 11.785,
-     "mpg_recent": 22.4,
-     "glue": -0.867,
-     "mpg_season": 30.0,
      "counts_if_out": true
     },
     {
@@ -3639,11 +3629,21 @@
      "counts_if_out": true
     },
     {
+     "id": 1631097,
+     "name": "Bennedict Mathurin",
+     "pos": "G-F",
+     "value": 11.08,
+     "mpg_recent": 21.7,
+     "glue": -0.867,
+     "mpg_season": 30.0,
+     "counts_if_out": true
+    },
+    {
      "id": 1642852,
      "name": "Derik Queen",
      "pos": "C",
-     "value": 9.375,
-     "mpg_recent": 28.5,
+     "value": 10.185,
+     "mpg_recent": 28.7,
      "glue": 0.162,
      "mpg_season": 24.975,
      "counts_if_out": true
@@ -3662,20 +3662,10 @@
      "id": 1631255,
      "name": "Karlo Matkovi\u0107",
      "pos": "F-C",
-     "value": 8.12,
-     "mpg_recent": 18.3,
+     "value": 7.61,
+     "mpg_recent": 16.9,
      "glue": 0.532,
      "mpg_season": 14.71,
-     "counts_if_out": true
-    },
-    {
-     "id": 1629673,
-     "name": "Jordan Poole",
-     "pos": "G",
-     "value": 6.57,
-     "mpg_recent": 18.4,
-     "glue": -0.662,
-     "mpg_season": 23.923,
      "counts_if_out": true
     },
     {
@@ -3689,6 +3679,26 @@
      "counts_if_out": true
     },
     {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "pos": "C",
+     "value": 6.405,
+     "mpg_recent": 16.3,
+     "glue": 0.023,
+     "mpg_season": 16.583,
+     "counts_if_out": true
+    },
+    {
+     "id": 1629673,
+     "name": "Jordan Poole",
+     "pos": "G",
+     "value": 6.25,
+     "mpg_recent": 19.7,
+     "glue": -0.662,
+     "mpg_season": 23.923,
+     "counts_if_out": true
+    },
+    {
      "id": 1630570,
      "name": "Trendon Watford",
      "pos": "G-F",
@@ -3699,21 +3709,11 @@
      "counts_if_out": true
     },
     {
-     "id": 201599,
-     "name": "DeAndre Jordan",
-     "pos": "C",
-     "value": 5.725,
-     "mpg_recent": 17.5,
-     "glue": 0.023,
-     "mpg_season": 16.583,
-     "counts_if_out": true
-    },
-    {
      "id": 1630529,
      "name": "Herbert Jones",
      "pos": "F",
-     "value": 5.615,
-     "mpg_recent": 23.5,
+     "value": 5.69,
+     "mpg_recent": 22.0,
      "glue": 0.441,
      "mpg_season": 28.357,
      "counts_if_out": true
@@ -3898,6 +3898,16 @@
      "mpg_recent": 7.9,
      "glue": -0.279,
      "mpg_season": 14.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642261,
+     "name": "Dalton Knecht",
+     "pos": "F",
+     "value": 2.265,
+     "mpg_recent": 6.0,
+     "glue": -0.802,
+     "mpg_season": 12.098,
      "counts_if_out": true
     },
     {
@@ -4096,16 +4106,6 @@
      "id": 1642850,
      "name": "Thomas Sorber",
      "pos": "C",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642923,
-     "name": "Otega Oweh",
-     "pos": "G",
      "value": null,
      "mpg_recent": null,
      "glue": null,
@@ -4319,29 +4319,29 @@
   "PHI": {
    "id": 1610612755,
    "name": "Philadelphia 76ers",
-   "elo": 1535.9,
+   "elo": 1539.8,
    "recent": {
-    "ORTG": 108.2351,
-    "DRTG": 106.6719,
-    "NET": 1.5633,
-    "PACE": 103.764,
-    "MARGIN": 2.2,
-    "EFG": 0.5189,
-    "TOV_PCT": 0.1266,
-    "ORB_PCT": 0.235,
-    "FT_RATE": 0.2585,
-    "OPP_EFG": 0.5075,
-    "OPP_TOV_PCT": 0.143,
-    "DRB_PCT": 0.7379,
-    "OPP_FT_RATE": 0.2525
+    "ORTG": 109.1895,
+    "DRTG": 105.6572,
+    "NET": 3.5323,
+    "PACE": 104.472,
+    "MARGIN": 4.3,
+    "EFG": 0.5215,
+    "TOV_PCT": 0.1269,
+    "ORB_PCT": 0.2367,
+    "FT_RATE": 0.2734,
+    "OPP_EFG": 0.5081,
+    "OPP_TOV_PCT": 0.1523,
+    "DRB_PCT": 0.7336,
+    "OPP_FT_RATE": 0.2524
    },
    "players": [
     {
      "id": 203954,
      "name": "Joel Embiid",
      "pos": "C-F",
-     "value": 23.25,
-     "mpg_recent": 32.8,
+     "value": 23.775,
+     "mpg_recent": 33.1,
      "glue": 0.342,
      "mpg_season": 31.605,
      "counts_if_out": true
@@ -4350,8 +4350,8 @@
      "id": 1630178,
      "name": "Tyrese Maxey",
      "pos": "G",
-     "value": 20.25,
-     "mpg_recent": 36.7,
+     "value": 20.14,
+     "mpg_recent": 35.9,
      "glue": 0.208,
      "mpg_season": 38.014,
      "counts_if_out": true
@@ -4360,7 +4360,7 @@
      "id": 1627759,
      "name": "Jaylen Brown",
      "pos": "G-F",
-     "value": 19.035,
+     "value": 18.975,
      "mpg_recent": 36.1,
      "glue": -0.274,
      "mpg_season": 34.408,
@@ -4380,7 +4380,7 @@
      "id": 1642845,
      "name": "VJ Edgecombe",
      "pos": "G",
-     "value": 14.445,
+     "value": 14.32,
      "mpg_recent": 35.5,
      "glue": 0.173,
      "mpg_season": 34.973,
@@ -4390,20 +4390,10 @@
      "id": 1629014,
      "name": "Anfernee Simons",
      "pos": "G",
-     "value": 8.94,
-     "mpg_recent": 26.3,
+     "value": 8.925,
+     "mpg_recent": 25.7,
      "glue": -0.771,
      "mpg_season": 25.019,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642348,
-     "name": "Justin Edwards",
-     "pos": "F",
-     "value": 7.605,
-     "mpg_recent": 12.4,
-     "glue": -0.25,
-     "mpg_season": 17.018,
      "counts_if_out": true
     },
     {
@@ -4417,13 +4407,13 @@
      "counts_if_out": true
     },
     {
-     "id": 1631126,
-     "name": "Caleb Love",
-     "pos": "G",
-     "value": 6.745,
-     "mpg_recent": 13.7,
-     "glue": -0.651,
-     "mpg_season": 22.512,
+     "id": 1642348,
+     "name": "Justin Edwards",
+     "pos": "F",
+     "value": 7.33,
+     "mpg_recent": 9.9,
+     "glue": -0.25,
+     "mpg_season": 17.018,
      "counts_if_out": true
     },
     {
@@ -4437,11 +4427,21 @@
      "counts_if_out": true
     },
     {
+     "id": 1631126,
+     "name": "Caleb Love",
+     "pos": "G",
+     "value": 6.44,
+     "mpg_recent": 12.0,
+     "glue": -0.651,
+     "mpg_season": 22.512,
+     "counts_if_out": true
+    },
+    {
      "id": 1629731,
      "name": "Dean Wade",
      "pos": "F-C",
-     "value": 6.31,
-     "mpg_recent": 21.0,
+     "value": 6.14,
+     "mpg_recent": 21.8,
      "glue": 0.215,
      "mpg_season": 22.339,
      "counts_if_out": true
@@ -4450,8 +4450,8 @@
      "id": 203484,
      "name": "Kentavious Caldwell-Pope",
      "pos": "G",
-     "value": 5.665,
-     "mpg_recent": 23.8,
+     "value": 6.05,
+     "mpg_recent": 24.5,
      "glue": -0.55,
      "mpg_season": 21.333,
      "counts_if_out": true
@@ -4460,8 +4460,8 @@
      "id": 1641737,
      "name": "Adem Bona",
      "pos": "F",
-     "value": 5.41,
-     "mpg_recent": 14.5,
+     "value": 5.145,
+     "mpg_recent": 14.9,
      "glue": 0.589,
      "mpg_season": 17.486,
      "counts_if_out": true
@@ -4470,8 +4470,8 @@
      "id": 1631133,
      "name": "Jabari Walker",
      "pos": "F",
-     "value": 4.715,
-     "mpg_recent": 6.8,
+     "value": 4.57,
+     "mpg_recent": 7.4,
      "glue": 0.003,
      "mpg_season": 13.2,
      "counts_if_out": true
@@ -4500,8 +4500,8 @@
      "id": 1642889,
      "name": "Labaron Philon Jr.",
      "pos": "G",
-     "value": null,
-     "mpg_recent": null,
+     "value": -0.7,
+     "mpg_recent": 4.0,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -4511,29 +4511,29 @@
   "PHX": {
    "id": 1610612756,
    "name": "Phoenix Suns",
-   "elo": 1524.4,
+   "elo": 1529.5,
    "recent": {
-    "ORTG": 109.0044,
-    "DRTG": 110.394,
-    "NET": -1.3897,
-    "PACE": 101.63,
-    "MARGIN": -0.9,
-    "EFG": 0.5211,
-    "TOV_PCT": 0.1513,
-    "ORB_PCT": 0.2963,
-    "FT_RATE": 0.2343,
-    "OPP_EFG": 0.5407,
-    "OPP_TOV_PCT": 0.1591,
-    "DRB_PCT": 0.7306,
-    "OPP_FT_RATE": 0.2534
+    "ORTG": 108.8285,
+    "DRTG": 111.7445,
+    "NET": -2.916,
+    "PACE": 101.538,
+    "MARGIN": -2.5,
+    "EFG": 0.5292,
+    "TOV_PCT": 0.1553,
+    "ORB_PCT": 0.2823,
+    "FT_RATE": 0.2397,
+    "OPP_EFG": 0.5429,
+    "OPP_TOV_PCT": 0.1621,
+    "DRB_PCT": 0.7161,
+    "OPP_FT_RATE": 0.268
    },
    "players": [
     {
      "id": 1626164,
      "name": "Devin Booker",
      "pos": "G",
-     "value": 20.995,
-     "mpg_recent": 33.2,
+     "value": 21.905,
+     "mpg_recent": 33.7,
      "glue": -0.376,
      "mpg_season": 33.531,
      "counts_if_out": true
@@ -4542,8 +4542,8 @@
      "id": 1630224,
      "name": "Jalen Green",
      "pos": "G",
-     "value": 12.76,
-     "mpg_recent": 25.6,
+     "value": 12.925,
+     "mpg_recent": 25.2,
      "glue": -0.766,
      "mpg_season": 27.724,
      "counts_if_out": true
@@ -4552,10 +4552,20 @@
      "id": 1628970,
      "name": "Miles Bridges",
      "pos": "F",
-     "value": 11.725,
-     "mpg_recent": 27.8,
+     "value": 12.09,
+     "mpg_recent": 28.1,
      "glue": -0.504,
      "mpg_season": 31.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1628415,
+     "name": "Dillon Brooks",
+     "pos": "G-F",
+     "value": 11.0,
+     "mpg_recent": 26.3,
+     "glue": -0.552,
+     "mpg_season": 30.393,
      "counts_if_out": true
     },
     {
@@ -4566,16 +4576,6 @@
      "mpg_recent": 21.3,
      "glue": 0.736,
      "mpg_season": 23.6,
-     "counts_if_out": true
-    },
-    {
-     "id": 1628415,
-     "name": "Dillon Brooks",
-     "pos": "G-F",
-     "value": 10.465,
-     "mpg_recent": 26.0,
-     "glue": -0.552,
-     "mpg_season": 30.393,
      "counts_if_out": true
     },
     {
@@ -4592,8 +4592,8 @@
      "id": 1630692,
      "name": "Jordan Goodwin",
      "pos": "G",
-     "value": 8.31,
-     "mpg_recent": 22.7,
+     "value": 8.26,
+     "mpg_recent": 22.2,
      "glue": 0.687,
      "mpg_season": 22.457,
      "counts_if_out": true
@@ -4602,8 +4602,8 @@
      "id": 1631221,
      "name": "Collin Gillespie",
      "pos": "G",
-     "value": 8.16,
-     "mpg_recent": 24.9,
+     "value": 8.22,
+     "mpg_recent": 25.0,
      "glue": 0.535,
      "mpg_season": 28.525,
      "counts_if_out": true
@@ -4612,8 +4612,8 @@
      "id": 1628379,
      "name": "Luke Kennard",
      "pos": "G",
-     "value": 7.61,
-     "mpg_recent": 25.9,
+     "value": 7.41,
+     "mpg_recent": 24.9,
      "glue": -0.566,
      "mpg_season": 21.688,
      "counts_if_out": true
@@ -4632,8 +4632,8 @@
      "id": 1642346,
      "name": "Ryan Dunn",
      "pos": "F",
-     "value": 6.17,
-     "mpg_recent": 18.8,
+     "value": 5.93,
+     "mpg_recent": 17.8,
      "glue": -0.067,
      "mpg_season": 19.794,
      "counts_if_out": true
@@ -4642,8 +4642,8 @@
      "id": 1642863,
      "name": "Khaman Maluach",
      "pos": "C",
-     "value": 5.17,
-     "mpg_recent": 13.5,
+     "value": 5.39,
+     "mpg_recent": 15.2,
      "glue": 0.0,
      "mpg_season": 9.442,
      "counts_if_out": true
@@ -4692,8 +4692,8 @@
      "id": 1641871,
      "name": "Duop Reath",
      "pos": "C",
-     "value": 1.855,
-     "mpg_recent": 8.4,
+     "value": 1.7,
+     "mpg_recent": 8.2,
      "glue": 0.217,
      "mpg_season": 8.929,
      "counts_if_out": true
@@ -5087,29 +5087,29 @@
   "SAS": {
    "id": 1610612759,
    "name": "San Antonio Spurs",
-   "elo": 1656.8,
+   "elo": 1662.9,
    "recent": {
-    "ORTG": 116.8245,
-    "DRTG": 110.5449,
-    "NET": 6.2796,
-    "PACE": 102.2616,
-    "MARGIN": 6.3,
-    "EFG": 0.55,
-    "TOV_PCT": 0.127,
-    "ORB_PCT": 0.2706,
-    "FT_RATE": 0.2494,
-    "OPP_EFG": 0.5266,
-    "OPP_TOV_PCT": 0.1145,
-    "DRB_PCT": 0.7652,
-    "OPP_FT_RATE": 0.2305
+    "ORTG": 116.1116,
+    "DRTG": 109.7418,
+    "NET": 6.3699,
+    "PACE": 102.2996,
+    "MARGIN": 6.4,
+    "EFG": 0.5466,
+    "TOV_PCT": 0.1269,
+    "ORB_PCT": 0.2648,
+    "FT_RATE": 0.2402,
+    "OPP_EFG": 0.5307,
+    "OPP_TOV_PCT": 0.124,
+    "DRB_PCT": 0.7582,
+    "OPP_FT_RATE": 0.217
    },
    "players": [
     {
      "id": 1641705,
      "name": "Victor Wembanyama",
      "pos": "F-C",
-     "value": 25.675,
-     "mpg_recent": 29.1,
+     "value": 25.805,
+     "mpg_recent": 29.4,
      "glue": 1.16,
      "mpg_season": 29.156,
      "counts_if_out": true
@@ -5118,8 +5118,8 @@
      "id": 1642264,
      "name": "Stephon Castle",
      "pos": "G",
-     "value": 15.595,
-     "mpg_recent": 31.7,
+     "value": 15.485,
+     "mpg_recent": 31.9,
      "glue": -0.13,
      "mpg_season": 29.971,
      "counts_if_out": true
@@ -5128,8 +5128,8 @@
      "id": 1628368,
      "name": "De'Aaron Fox",
      "pos": "G",
-     "value": 14.555,
-     "mpg_recent": 30.6,
+     "value": 14.79,
+     "mpg_recent": 31.1,
      "glue": -0.068,
      "mpg_season": 30.986,
      "counts_if_out": true
@@ -5138,8 +5138,8 @@
      "id": 1642844,
      "name": "Dylan Harper",
      "pos": "G",
-     "value": 11.985,
-     "mpg_recent": 26.6,
+     "value": 12.37,
+     "mpg_recent": 27.0,
      "glue": -0.099,
      "mpg_season": 22.58,
      "counts_if_out": true
@@ -5158,7 +5158,7 @@
      "id": 1629640,
      "name": "Keldon Johnson",
      "pos": "F-G",
-     "value": 9.89,
+     "value": 10.055,
      "mpg_recent": 23.5,
      "glue": -0.412,
      "mpg_season": 23.305,
@@ -5168,8 +5168,8 @@
      "id": 1630170,
      "name": "Devin Vassell",
      "pos": "G-F",
-     "value": 9.485,
-     "mpg_recent": 31.5,
+     "value": 9.765,
+     "mpg_recent": 31.6,
      "glue": -0.313,
      "mpg_season": 30.507,
      "counts_if_out": true
@@ -5178,7 +5178,7 @@
      "id": 1630577,
      "name": "Julian Champagnie",
      "pos": "F",
-     "value": 8.17,
+     "value": 9.06,
      "mpg_recent": 27.6,
      "glue": 0.088,
      "mpg_season": 27.634,
@@ -5188,8 +5188,8 @@
      "id": 203084,
      "name": "Harrison Barnes",
      "pos": "F",
-     "value": 6.775,
-     "mpg_recent": 19.3,
+     "value": 6.62,
+     "mpg_recent": 18.0,
      "glue": -0.32,
      "mpg_season": 25.792,
      "counts_if_out": true
@@ -5198,8 +5198,8 @@
      "id": 1628436,
      "name": "Luke Kornet",
      "pos": "C-F",
-     "value": 6.675,
-     "mpg_recent": 19.2,
+     "value": 6.38,
+     "mpg_recent": 18.7,
      "glue": 0.554,
      "mpg_season": 21.029,
      "counts_if_out": true
@@ -5208,8 +5208,8 @@
      "id": 1642868,
      "name": "Carter Bryant",
      "pos": "F",
-     "value": 4.34,
-     "mpg_recent": 14.1,
+     "value": 4.315,
+     "mpg_recent": 14.5,
      "glue": -0.275,
      "mpg_season": 11.985,
      "counts_if_out": true
@@ -5228,8 +5228,8 @@
      "id": 1629162,
      "name": "Jordan McLaughlin",
      "pos": "G",
-     "value": 2.27,
-     "mpg_recent": 7.7,
+     "value": 1.87,
+     "mpg_recent": 7.5,
      "glue": 0.953,
      "mpg_season": 8.29,
      "counts_if_out": true
@@ -5238,8 +5238,8 @@
      "id": 1643551,
      "name": "Ja'Kobi Gillespie",
      "pos": "G",
-     "value": 1.0,
-     "mpg_recent": 1.0,
+     "value": 1.5,
+     "mpg_recent": 2.0,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -5258,8 +5258,8 @@
      "id": 1643542,
      "name": "Tarris Reed Jr.",
      "pos": "C",
-     "value": 0.0,
-     "mpg_recent": 1.0,
+     "value": 0.45,
+     "mpg_recent": 4.0,
      "glue": null,
      "mpg_season": null,
      "counts_if_out": true
@@ -5629,6 +5629,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1641723,
+     "name": "Kobe Bufkin",
+     "pos": "G",
+     "value": 2.095,
+     "mpg_recent": 4.8,
+     "glue": -0.155,
+     "mpg_season": 11.222,
+     "counts_if_out": true
+    },
+    {
      "id": 1630182,
      "name": "Josh Green",
      "pos": "G",
@@ -5653,49 +5663,49 @@
   "WAS": {
    "id": 1610612764,
    "name": "Washington Wizards",
-   "elo": 1295.3,
+   "elo": 1305.4,
    "recent": {
-    "ORTG": 108.8585,
-    "DRTG": 121.8887,
-    "NET": -13.0302,
-    "PACE": 105.98,
-    "MARGIN": -13.9,
-    "EFG": 0.5347,
-    "TOV_PCT": 0.1481,
-    "ORB_PCT": 0.2184,
-    "FT_RATE": 0.2738,
-    "OPP_EFG": 0.5992,
-    "OPP_TOV_PCT": 0.1446,
-    "DRB_PCT": 0.7098,
-    "OPP_FT_RATE": 0.2763
+    "ORTG": 110.2627,
+    "DRTG": 121.056,
+    "NET": -10.7933,
+    "PACE": 106.75,
+    "MARGIN": -11.6,
+    "EFG": 0.5401,
+    "TOV_PCT": 0.152,
+    "ORB_PCT": 0.2309,
+    "FT_RATE": 0.2864,
+    "OPP_EFG": 0.5886,
+    "OPP_TOV_PCT": 0.1408,
+    "DRB_PCT": 0.7146,
+    "OPP_FT_RATE": 0.2681
    },
    "players": [
-    {
-     "id": 203076,
-     "name": "Anthony Davis",
-     "pos": "F-C",
-     "value": 17.155,
-     "mpg_recent": 32.9,
-     "glue": 0.476,
-     "mpg_season": 31.3,
-     "counts_if_out": true
-    },
     {
      "id": 1629027,
      "name": "Trae Young",
      "pos": "G",
-     "value": 16.96,
-     "mpg_recent": 27.2,
+     "value": 17.005,
+     "mpg_recent": 27.5,
      "glue": -0.336,
      "mpg_season": 25.6,
+     "counts_if_out": true
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "pos": "F-C",
+     "value": 16.315,
+     "mpg_recent": 32.6,
+     "glue": 0.476,
+     "mpg_season": 31.3,
      "counts_if_out": true
     },
     {
      "id": 1629028,
      "name": "Deandre Ayton",
      "pos": "C",
-     "value": 11.695,
-     "mpg_recent": 22.8,
+     "value": 11.615,
+     "mpg_recent": 22.2,
      "glue": 0.248,
      "mpg_season": 27.194,
      "counts_if_out": true
@@ -5704,8 +5714,8 @@
      "id": 1642259,
      "name": "Alex Sarr",
      "pos": "C",
-     "value": 11.64,
-     "mpg_recent": 22.4,
+     "value": 11.285,
+     "mpg_recent": 22.1,
      "glue": 0.512,
      "mpg_season": 27.188,
      "counts_if_out": true
@@ -5714,28 +5724,18 @@
      "id": 1641731,
      "name": "Bilal Coulibaly",
      "pos": "G",
-     "value": 11.43,
-     "mpg_recent": 23.6,
+     "value": 10.995,
+     "mpg_recent": 23.2,
      "glue": -0.181,
      "mpg_season": 26.214,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642860,
-     "name": "Will Riley",
-     "pos": "F",
-     "value": 10.98,
-     "mpg_recent": 29.8,
-     "glue": -0.564,
-     "mpg_season": 23.662,
      "counts_if_out": true
     },
     {
      "id": 1642273,
      "name": "Kyshawn George",
      "pos": "F",
-     "value": 10.41,
-     "mpg_recent": 21.1,
+     "value": 10.65,
+     "mpg_recent": 22.9,
      "glue": 0.23,
      "mpg_season": 28.979,
      "counts_if_out": true
@@ -5744,18 +5744,28 @@
      "id": 1630551,
      "name": "Justin Champagnie",
      "pos": "G-F",
-     "value": 10.38,
-     "mpg_recent": 24.1,
+     "value": 10.5,
+     "mpg_recent": 24.2,
      "glue": 0.169,
      "mpg_season": 20.773,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642860,
+     "name": "Will Riley",
+     "pos": "F",
+     "value": 10.18,
+     "mpg_recent": 27.7,
+     "glue": -0.564,
+     "mpg_season": 23.662,
      "counts_if_out": true
     },
     {
      "id": 1642267,
      "name": "Bub Carrington",
      "pos": "G",
-     "value": 9.59,
-     "mpg_recent": 26.1,
+     "value": 9.24,
+     "mpg_recent": 25.4,
      "glue": -0.841,
      "mpg_season": 27.852,
      "counts_if_out": true
@@ -5791,6 +5801,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1642848,
+     "name": "Tre Johnson",
+     "pos": "G",
+     "value": 4.82,
+     "mpg_recent": 23.3,
+     "glue": -0.531,
+     "mpg_season": 24.155,
+     "counts_if_out": true
+    },
+    {
      "id": 203114,
      "name": "Khris Middleton",
      "pos": "F",
@@ -5798,16 +5818,6 @@
      "mpg_recent": 17.2,
      "glue": -0.273,
      "mpg_season": 23.113,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642848,
-     "name": "Tre Johnson",
-     "pos": "G",
-     "value": 4.57,
-     "mpg_recent": 23.4,
-     "glue": -0.531,
-     "mpg_season": 24.155,
      "counts_if_out": true
     },
     {
