@@ -22,21 +22,54 @@ def _fresh(path: Path) -> bool:
     return path.exists() and pd.Timestamp.now() - pd.Timestamp(path.stat().st_mtime, unit="s") < CURRENT_MAX_AGE
 
 
-def game_log(season: str, kind: str = "T", sleep: float = 1.5) -> pd.DataFrame:
+def _get(endpoint, sleep: float = 1.5, **kwargs) -> pd.DataFrame:
+    """Every stats.nba.com call goes through here. The site often times out or drops the connection (about half
+    of the daily runs failed in Oct 2026 without this), so back off and retry before giving up."""
+    for wait in (5, 20, 60, 120, None):
+        try:
+            df = endpoint(timeout=60, **kwargs).get_data_frames()[0]
+            time.sleep(sleep)  # be polite to stats.nba.com
+            return df
+        except (requests.exceptions.RequestException, ValueError) as e:  # ValueError: truncated/invalid JSON
+            if wait is None:
+                raise
+            print(f"{endpoint.__name__}: {type(e).__name__}, retrying in {wait}s", flush=True)
+            time.sleep(wait)
+
+
+def _save_or_fallback(path: Path, fetch, fallback: Path | None) -> pd.DataFrame:
+    """Fetch and cache to path. If stats.nba.com is down even after retries, use the fallback file (yesterday's
+    copy) rather than fail the whole update; the next run tries again."""
+    try:
+        df = fetch()
+    except (requests.exceptions.RequestException, ValueError) as e:
+        if fallback is None or not fallback.exists():
+            raise
+        print(f"WARNING: {path.name} not refreshed ({type(e).__name__}); using {fallback.name} from "
+              f"{pd.Timestamp(fallback.stat().st_mtime, unit='s'):%b %d %H:%M}", flush=True)
+        return pd.read_parquet(fallback)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_parquet(path, index=False)
+    return df
+
+
+def _daily(pattern: str, fetch) -> pd.DataFrame:
+    """Cached once per day (schedule, rosters): today's file, else fetch, else the newest earlier file."""
+    path = RAW / pattern.format(f"{pd.Timestamp.today():%Y-%m-%d}")
+    if path.exists():
+        return pd.read_parquet(path)
+    older = sorted(RAW.glob(pattern.format("*")))
+    return _save_or_fallback(path, fetch, older[-1] if older else None)
+
+
+def game_log(season: str, kind: str = "T") -> pd.DataFrame:
     """kind "T": one row per team-game; "P": one row per player-game (players who sat out have no row)."""
     path = RAW / f"{'team' if kind == 'T' else 'player'}_gamelog_{season}.parquet"
     if (path.exists() and season != CURRENT_SEASON) or (season == CURRENT_SEASON and _fresh(path)):
         return pd.read_parquet(path)
-    df = leaguegamelog.LeagueGameLog(
-        season=season,
-        season_type_all_star="Regular Season",
-        player_or_team_abbreviation=kind,
-        timeout=60,
-    ).get_data_frames()[0]
-    time.sleep(sleep)  # be polite to stats.nba.com
-    RAW.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(path, index=False)
-    return df
+    return _save_or_fallback(path, lambda: _get(leaguegamelog.LeagueGameLog, season=season,
+                                                season_type_all_star="Regular Season", player_or_team_abbreviation=kind),
+                             path if season == CURRENT_SEASON else None)
 
 
 def _concat(frames) -> pd.DataFrame:
@@ -55,26 +88,13 @@ def all_player_game_logs() -> pd.DataFrame:
 HUSTLE_SEASONS = SEASONS[1:] + [CURRENT_SEASON]  # 2015-16 regular season has only 2 tracked games
 
 
-def hustle_snapshot(season: str, date_to: pd.Timestamp, sleep: float = 1.5) -> pd.DataFrame:
+def hustle_snapshot(season: str, date_to: pd.Timestamp) -> pd.DataFrame:
     """Season-to-date hustle totals for games played on or before date_to."""
     path = RAW / "hustle" / f"{season}_{date_to:%Y-%m-%d}.parquet"
     if path.exists():
         return pd.read_parquet(path)
-    for wait in (10, 30, 90, None):  # stats.nba.com times out under load: back off and retry
-        try:
-            df = leaguehustlestatsplayer.LeagueHustleStatsPlayer(
-                season=season, per_mode_time="Totals", date_to_nullable=f"{date_to:%m/%d/%Y}", timeout=60,
-            ).get_data_frames()[0]
-            break
-        except requests.exceptions.RequestException:
-            if wait is None:
-                raise
-            print(f"timeout on {season} {date_to:%Y-%m-%d}, retrying in {wait}s", flush=True)
-            time.sleep(wait)
-    time.sleep(sleep)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    df.to_parquet(path, index=False)
-    return df
+    return _save_or_fallback(path, lambda: _get(leaguehustlestatsplayer.LeagueHustleStatsPlayer, season=season,
+                                                per_mode_time="Totals", date_to_nullable=f"{date_to:%m/%d/%Y}"), None)
 
 
 def snapshot_dates(season: str) -> list[pd.Timestamp]:
@@ -90,62 +110,59 @@ def snapshot_dates(season: str) -> list[pd.Timestamp]:
 
 
 def all_hustle_snapshots() -> pd.DataFrame:
-    return _concat(hustle_snapshot(s, d).assign(SEASON_STR=s, DATE_TO=d)
-                   for s in HUSTLE_SEASONS for d in snapshot_dates(s))
+    frames = []
+    for s in HUSTLE_SEASONS:
+        for d in snapshot_dates(s):
+            try:
+                frames.append(hustle_snapshot(s, d).assign(SEASON_STR=s, DATE_TO=d))
+            except (requests.exceptions.RequestException, ValueError) as e:
+                if s != CURRENT_SEASON:
+                    raise
+                # Games then use the previous week's snapshot; the next run fetches this one (file still missing)
+                print(f"WARNING: hustle snapshot {d:%Y-%m-%d} skipped ({type(e).__name__})", flush=True)
+    return _concat(frames)
 
 
-def standings(season: str, sleep: float = 1.5) -> pd.DataFrame:
+def standings(season: str) -> pd.DataFrame:
     """Official standings: conference, division, W/L, seed (PlayoffRank). Current season refreshed when stale."""
     path = RAW / f"standings_{season}.parquet"
     if (path.exists() and season != CURRENT_SEASON) or (season == CURRENT_SEASON and _fresh(path)):
         return pd.read_parquet(path)
-    df = leaguestandingsv3.LeagueStandingsV3(season=season, timeout=60).get_data_frames()[0]
-    time.sleep(sleep)
-    df.to_parquet(path, index=False)
-    return df
+    return _save_or_fallback(path, lambda: _get(leaguestandingsv3.LeagueStandingsV3, season=season),
+                             path if season == CURRENT_SEASON else None)
 
 
-def postseason_log(season: str, kind: str = "Playoffs", sleep: float = 1.5) -> pd.DataFrame:
+def postseason_log(season: str, kind: str = "Playoffs") -> pd.DataFrame:
     """Team rows for "Playoffs" (game id 004...) or "PlayIn" (005...) games. Completed seasons only."""
     path = RAW / f"{kind.lower()}_gamelog_{season}.parquet"
     if path.exists():
         return pd.read_parquet(path)
-    df = leaguegamelog.LeagueGameLog(season=season, season_type_all_star=kind,
-                                     player_or_team_abbreviation="T", timeout=60).get_data_frames()[0]
-    time.sleep(sleep)
-    df.to_parquet(path, index=False)
-    return df
+    return _save_or_fallback(path, lambda: _get(leaguegamelog.LeagueGameLog, season=season, season_type_all_star=kind,
+                                                player_or_team_abbreviation="T"), None)
 
 
 def schedule() -> pd.DataFrame:
     """Current-season regular-season schedule, one row per game, cached per day."""
-    path = RAW / f"schedule_{pd.Timestamp.today():%Y-%m-%d}.parquet"
-    if path.exists():
-        return pd.read_parquet(path)
-    df = scheduleleaguev2.ScheduleLeagueV2(season=CURRENT_SEASON, timeout=60).get_data_frames()[0]
+    return _daily("schedule_{}.parquet", _fetch_schedule)
+
+
+def _fetch_schedule() -> pd.DataFrame:
+    df = _get(scheduleleaguev2.ScheduleLeagueV2, season=CURRENT_SEASON)
     df = df[df["gameId"].str.startswith("002")]  # 001 = preseason, 006 = NBA Cup final placeholder
     df = pd.DataFrame({
         "GAME_ID": df["gameId"], "GAME_DATE": pd.to_datetime(df["gameDateEst"]).dt.tz_localize(None).dt.normalize(),
         "TIP_UTC": df["gameDateTimeUTC"], "HOME": df["homeTeam_teamTricode"], "AWAY": df["awayTeam_teamTricode"],
         "NEUTRAL": df["isNeutral"].astype(bool), "ARENA": df["arenaName"] + ", " + df["arenaCity"],
         "STATUS": df["gameStatusText"]})
-    df.to_parquet(path, index=False)
     return df
 
 
-def current_rosters(sleep: float = 1.0) -> pd.DataFrame:
-    """Today's rosters for all 30 teams (30 calls), cached per day."""
-    path = RAW / f"rosters_{pd.Timestamp.today():%Y-%m-%d}.parquet"
-    if path.exists():
-        return pd.read_parquet(path)
-    out = []
-    for t in teams.get_teams():
-        out.append(commonteamroster.CommonTeamRoster(team_id=t["id"], season=CURRENT_SEASON, timeout=60)
-                   .get_data_frames()[0].assign(TEAM_ABBREVIATION=t["abbreviation"], TEAM_NAME=t["full_name"]))
-        time.sleep(sleep)
-    df = pd.concat(out, ignore_index=True)
-    df.to_parquet(path, index=False)
-    return df
+def current_rosters() -> pd.DataFrame:
+    """Today's rosters for all 30 teams (30 calls), cached per day; yesterday's if stats.nba.com is down."""
+    return _daily("rosters_{}.parquet", lambda: pd.concat(
+        [_get(commonteamroster.CommonTeamRoster, sleep=1.0, team_id=t["id"], season=CURRENT_SEASON)
+         .assign(TEAM_ABBREVIATION=t["abbreviation"], TEAM_NAME=t["full_name"]) for t in teams.get_teams()],
+        ignore_index=True))
 
 
 def validate(df: pd.DataFrame) -> None:

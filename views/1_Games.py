@@ -48,6 +48,9 @@ with tab_today:
         st.info("No upcoming games found yet. Predictions appear here once the schedule is out.")
     else:
         day = pd.Timestamp(preds["date"])
+        if day < pd.Timestamp.now(tz="America/New_York").tz_localize(None).normalize():
+            st.warning(f"These are the games from {day:%A, %B} {day.day}: today's update hasn't come through yet. "
+                       "Check back soon.")
         st.subheader(f"{day:%A, %B} {day.day}")
         st.html(f'<div class="hw-meta"><span class="hw-chip">{len(preds["games"])} games</span>'
                 f"Updated {pd.Timestamp(preds['generated_at']).tz_convert('America/New_York'):%b %d, %I:%M %p} ET · "

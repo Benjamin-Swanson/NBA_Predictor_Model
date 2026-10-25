@@ -109,5 +109,13 @@ Predicts win probability, projected score and margin for each NBA game of the da
 
 ## Automation (actual setup)
 - GitHub Actions can't reach stats.nba.com (tested 2026-10-09: 60s timeout), so `.github/workflows/daily.yml` is manual-only.
-- The Mac runs `scripts/daily_local.sh` (real path, not the Desktop shortcut) via launchd (`~/Library/LaunchAgents/com.nbapredictor.daily.plist`) at 6:00 and 16:00 local (8am / 6pm ET; 6am so the site has today's games before anyone looks): pull, predict_today, simulate_season, commit data, push → Streamlit Cloud redeploys. Missed runs (Mac asleep) fire on wake. Log: `logs/daily.log`.
+- The Mac runs `scripts/daily_local.sh` via launchd (`~/Library/LaunchAgents/com.nbapredictor.daily.plist`, wrapped in
+  `caffeinate -i -s`) at 6, 8, 10, 12, 14, 16 local (Mountain): pull, predict_today, simulate_season, commit data, push →
+  Streamlit Cloud redeploys. `pmset repeat wakeorpoweron` wakes the Mac at 5:55. Missed runs fire on wake. Log: `logs/daily.log`.
+- Reliability (fixed 2026-10-25; 20 of 36 runs had failed): stats.nba.com times out / resets often and the network lags
+  after a wake. Every nba_api call goes through `fetch_data._get` (5 tries, backoff 5-120s); current-season logs,
+  standings, schedule and rosters fall back to the last saved copy (`_save_or_fallback`, `_daily`) with a WARNING line;
+  a missing current-season hustle week is skipped. The script waits for the network, retries the whole update up to
+  4x (10 min apart) and pushes partial results. Tests: tests/test_fetch_resilience.py. Games page warns if predictions
+  are for a past date.
 - Run now: `launchctl start com.nbapredictor.daily`. Disable: `launchctl unload ~/Library/LaunchAgents/com.nbapredictor.daily.plist`.
