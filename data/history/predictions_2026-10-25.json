@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:00:12+00:00",
+ "generated_at": "2026-10-25T20:00:12+00:00",
  "date": "2026-10-25",
  "ratings_through": "2026-10-24",
  "unmatched_injuries": [
@@ -64,7 +64,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-25T18:00:12+00:00"
+   "predicted_at": "2026-10-25T20:00:12+00:00"
   },
   {
    "game_id": "0022600113",
@@ -136,7 +136,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-25T18:00:12+00:00"
+   "predicted_at": "2026-10-25T20:00:12+00:00"
   },
   {
    "game_id": "0022600114",
@@ -208,7 +208,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-25T18:00:12+00:00"
+   "predicted_at": "2026-10-25T20:00:12+00:00"
   },
   {
    "game_id": "0022600115",
@@ -256,7 +256,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-25T18:00:12+00:00"
+   "predicted_at": "2026-10-25T20:00:12+00:00"
   },
   {
    "game_id": "0022600116",
@@ -334,7 +334,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-25T18:00:12+00:00"
+   "predicted_at": "2026-10-25T20:00:12+00:00"
   },
   {
    "game_id": "0022600117",
@@ -412,7 +412,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-25T18:00:12+00:00"
+   "predicted_at": "2026-10-25T20:00:12+00:00"
   },
   {
    "game_id": "0022600118",
@@ -448,7 +448,7 @@
     {
      "name": "Keegan Murray",
      "status": "Day-To-Day",
-     "note": "Murray is questionable to play Sunday against the Grizzlies due to left ankle capsulitis.",
+     "note": "Murray (ankle) has been downgraded to doubtful for Sunday's game against Memphis.",
      "out": false
     },
     {
@@ -484,7 +484,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-25T18:00:12+00:00"
+   "predicted_at": "2026-10-25T20:00:12+00:00"
   }
  ]
 }
