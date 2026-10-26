@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T20:00:11+00:00",
+ "generated_at": "2026-10-26T22:00:12+00:00",
  "date": "2026-10-26",
  "ratings_through": "2026-10-25",
  "unmatched_injuries": [
@@ -72,7 +72,7 @@
     {
      "name": "AJ Dybantsa",
      "status": "Out",
-     "note": "Dybantsa (ankle) has been ruled out for Monday's game against the Hornets.",
+     "note": "Dybantsa, who has been ruled out for Monday's game against the Hornets, is progressing well from a left ankle sprain and will take part in on-court activities Tuesday, Josh Robbins of The Athletic reports.",
      "out": true
     },
     {
@@ -122,12 +122,6 @@
    "injuries_home": [],
    "injuries_away": [
     {
-     "name": "Anthony Edwards",
-     "status": "Day-To-Day",
-     "note": "Edwards (knee) is questionable for Monday's game against Cleveland.",
-     "out": false
-    },
-    {
      "name": "Donte DiVincenzo",
      "status": "Out",
      "note": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
@@ -145,22 +139,22 @@
    "neutral": false,
    "home_name": "Boston Celtics",
    "away_name": "Chicago Bulls",
-   "home_win_prob": 0.8531,
+   "home_win_prob": 0.8526,
    "home_pts": 127.3,
    "away_pts": 112.6,
    "margin_pct": {
     "5": -8.3,
-    "25": 5.6,
-    "50": 14.9,
-    "75": 24.0,
+    "25": 5.5,
+    "50": 14.8,
+    "75": 23.9,
     "95": 36.9
    },
    "total_mean": 240.0,
    "total_pct": {
     "5": 210.2,
-    "25": 227.7,
-    "50": 240.0,
-    "75": 252.2,
+    "25": 227.8,
+    "50": 240.1,
+    "75": 252.3,
     "95": 269.7
    },
    "rest_home": 3,
@@ -176,15 +170,9 @@
    "injuries_away": [
     {
      "name": "Patrick Williams",
-     "status": "Day-To-Day",
-     "note": "Williams (groin) is listed as questionable for Monday's game against Boston.",
-     "out": false
-    },
-    {
-     "name": "Noa Essengue",
-     "status": "Day-To-Day",
-     "note": "Essengue (head) is listed as questionable for Monday's game against Boston.",
-     "out": false
+     "status": "Out",
+     "note": "Williams (groin) has been ruled out for Monday's game against the Celtics.",
+     "out": true
     },
     {
      "name": "Nic Claxton",
