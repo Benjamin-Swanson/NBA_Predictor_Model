@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T19:37:17+00:00",
+ "generated_at": "2026-10-26T20:00:11+00:00",
  "date": "2026-10-26",
  "ratings_through": "2026-10-25",
  "unmatched_injuries": [
@@ -88,7 +88,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600120",
@@ -135,7 +135,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600121",
@@ -195,7 +195,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600122",
@@ -266,7 +266,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600123",
@@ -337,7 +337,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600124",
@@ -373,13 +373,13 @@
     {
      "name": "Nikola Topi\u0107",
      "status": "Out",
-     "note": "Topic (back) is off the injury report for Monday's game versus the Suns.",
+     "note": "Topic (back) won't play in Monday's game against the Suns, Andrew Schlecht of The Athletic reports.",
      "out": true
     },
     {
      "name": "Thomas Sorber",
      "status": "Out",
-     "note": "Sorber (knee) is available for Monday's game against the Suns.",
+     "note": "Sorber (knee) is out for Monday's game versus the Suns, per Andrew Schlecht of The Athletic.",
      "out": true
     },
     {
@@ -415,7 +415,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600125",
@@ -475,7 +475,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600126",
@@ -541,7 +541,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   },
   {
    "game_id": "0022600127",
@@ -637,7 +637,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T19:37:17+00:00"
+   "predicted_at": "2026-10-26T20:00:11+00:00"
   }
  ]
 }
