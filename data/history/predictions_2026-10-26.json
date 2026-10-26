@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T12:13:28+00:00",
+ "generated_at": "2026-10-26T14:14:02+00:00",
  "date": "2026-10-26",
  "ratings_through": "2026-10-25",
  "unmatched_injuries": [
@@ -82,7 +82,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600120",
@@ -123,7 +123,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600121",
@@ -183,7 +183,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600122",
@@ -254,7 +254,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600123",
@@ -313,7 +313,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600124",
@@ -325,32 +325,32 @@
    "neutral": false,
    "home_name": "Oklahoma City Thunder",
    "away_name": "Phoenix Suns",
-   "home_win_prob": 0.7909,
-   "home_pts": 118.3,
-   "away_pts": 107.3,
+   "home_win_prob": 0.7659,
+   "home_pts": 117.3,
+   "away_pts": 107.5,
    "margin_pct": {
-    "5": -11.9,
-    "25": 2.0,
-    "50": 11.3,
-    "75": 20.4,
-    "95": 33.3
+    "5": -13.1,
+    "25": 0.7,
+    "50": 10.0,
+    "75": 19.1,
+    "95": 32.1
    },
-   "total_mean": 225.8,
+   "total_mean": 224.9,
    "total_pct": {
-    "5": 195.9,
-    "25": 213.5,
-    "50": 225.8,
-    "75": 238.0,
-    "95": 255.4
+    "5": 195.0,
+    "25": 212.6,
+    "50": 224.9,
+    "75": 237.1,
+    "95": 254.5
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Jalen Williams",
-     "status": "Day-To-Day",
+     "status": "Out",
      "note": "Williams was stretchered off the floor during Sunday's game against the Clippers due to an apparent left ankle injury, NBA writer Justin Russo reports.",
-     "out": false
+     "out": true
     },
     {
      "name": "Jaylin Williams",
@@ -391,7 +391,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600125",
@@ -451,7 +451,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600126",
@@ -463,23 +463,23 @@
    "neutral": false,
    "home_name": "Utah Jazz",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.5561,
-   "home_pts": 123.9,
-   "away_pts": 122.2,
+   "home_win_prob": 0.4998,
+   "home_pts": 123.6,
+   "away_pts": 123.8,
    "margin_pct": {
-    "5": -21.2,
-    "25": -7.4,
-    "50": 1.9,
-    "75": 11.0,
-    "95": 24.0
+    "5": -23.1,
+    "25": -9.3,
+    "50": -0.0,
+    "75": 9.1,
+    "95": 22.1
    },
-   "total_mean": 246.3,
+   "total_mean": 247.5,
    "total_pct": {
-    "5": 216.5,
-    "25": 234.0,
-    "50": 246.3,
-    "75": 258.5,
-    "95": 276.0
+    "5": 217.7,
+    "25": 235.3,
+    "50": 247.6,
+    "75": 259.8,
+    "95": 277.2
    },
    "rest_home": 1,
    "rest_away": 1,
@@ -499,19 +499,19 @@
    ],
    "injuries_away": [
     {
+     "name": "Zach Edey",
+     "status": "Day-To-Day",
+     "note": "Edey has been ruled out for Sunday's game against Sacramento due to left ankle injury management.",
+     "out": false
+    },
+    {
      "name": "Karim L\u00f3pez",
      "status": "Out",
      "note": "Lopez (knee) is out for Sunday's game in Sacramento.",
      "out": true
-    },
-    {
-     "name": "Zach Edey",
-     "status": "Out",
-     "note": "Edey has been ruled out for Sunday's game against Sacramento due to left ankle injury management.",
-     "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   },
   {
    "game_id": "0022600127",
@@ -607,7 +607,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-26T12:13:28+00:00"
+   "predicted_at": "2026-10-26T14:14:02+00:00"
   }
  ]
 }
