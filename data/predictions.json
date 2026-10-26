@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T17:43:57+00:00",
+ "generated_at": "2026-10-26T19:37:17+00:00",
  "date": "2026-10-26",
  "ratings_through": "2026-10-25",
  "unmatched_injuries": [
@@ -274,22 +274,22 @@
    "neutral": false,
    "home_name": "Milwaukee Bucks",
    "away_name": "Indiana Pacers",
-   "home_win_prob": 0.6376,
-   "home_pts": 121.8,
-   "away_pts": 117.2,
+   "home_win_prob": 0.6569,
+   "home_pts": 122.2,
+   "away_pts": 116.8,
    "margin_pct": {
-    "5": -18.3,
-    "25": -4.5,
-    "50": 4.8,
-    "75": 14.0,
-    "95": 26.9
+    "5": -17.6,
+    "25": -3.7,
+    "50": 5.6,
+    "75": 14.7,
+    "95": 27.6
    },
-   "total_mean": 239.1,
+   "total_mean": 239.2,
    "total_pct": {
     "5": 209.3,
-    "25": 226.8,
-    "50": 239.1,
-    "75": 251.3,
+    "25": 226.9,
+    "50": 239.2,
+    "75": 251.4,
     "95": 268.8
    },
    "rest_home": 2,
@@ -297,15 +297,27 @@
    "injuries_home": [],
    "injuries_away": [
     {
-     "name": "Ivica Zubac",
+     "name": "Andrew Nembhard",
      "status": "Day-To-Day",
-     "note": "Head coach Rick Carlisle said that X-rays on Zubac's sprained left ankle came back negative, but he's got some swelling and is unlikely to play Monday in Milwaukee, Scott Agness of FieldhouseFiles.com reports.",
+     "note": "Nembhard (neck) is questionable for Monday's game against the Bucks.",
      "out": false
     },
     {
      "name": "T.J. McConnell",
      "status": "Out",
-     "note": "McConnell (hamstring) is out for Sunday's game against the Nets.",
+     "note": "McConnell (hamstring) is out for Monday's game against the Bucks.",
+     "out": true
+    },
+    {
+     "name": "Aaron Nesmith",
+     "status": "Day-To-Day",
+     "note": "Nesmith (hamstring) is probable for Monday's game against the Bucks.",
+     "out": false
+    },
+    {
+     "name": "Ivica Zubac",
+     "status": "Out",
+     "note": "Zubac (ankle) is out for Monday's game against the Bucks.",
      "out": true
     },
     {
@@ -332,64 +344,64 @@
    "neutral": false,
    "home_name": "Oklahoma City Thunder",
    "away_name": "Phoenix Suns",
-   "home_win_prob": 0.7659,
-   "home_pts": 117.3,
-   "away_pts": 107.5,
+   "home_win_prob": 0.7139,
+   "home_pts": 116.3,
+   "away_pts": 108.7,
    "margin_pct": {
-    "5": -13.1,
-    "25": 0.7,
-    "50": 10.0,
-    "75": 19.1,
-    "95": 32.1
+    "5": -15.3,
+    "25": -1.5,
+    "50": 7.8,
+    "75": 16.9,
+    "95": 29.9
    },
-   "total_mean": 224.9,
+   "total_mean": 225.1,
    "total_pct": {
-    "5": 195.0,
-    "25": 212.6,
-    "50": 224.9,
-    "75": 237.1,
-    "95": 254.5
+    "5": 195.2,
+    "25": 212.8,
+    "50": 225.1,
+    "75": 237.3,
+    "95": 254.7
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Jalen Williams",
-     "status": "Out",
-     "note": "Williams was stretchered off the floor during Sunday's game against the Clippers due to an apparent left ankle injury, NBA writer Justin Russo reports.",
-     "out": true
-    },
-    {
-     "name": "Jaylin Williams",
-     "status": "Day-To-Day",
-     "note": "Williams won't return to Sunday's game against the Clippers due to right wrist soreness, Nick Crain of SLAM reports.",
-     "out": false
-    },
-    {
-     "name": "Cason Wallace",
-     "status": "Day-To-Day",
-     "note": "Wallace (shoulder) will not return to Sunday's game against the Clippers, Rylan Stiles of SI.com  reports.",
-     "out": false
-    },
-    {
      "name": "Nikola Topi\u0107",
      "status": "Out",
-     "note": "Topic (back) won't play in Thursday's game against the Nuggets.",
+     "note": "Topic (back) is off the injury report for Monday's game versus the Suns.",
      "out": true
     },
     {
      "name": "Thomas Sorber",
      "status": "Out",
-     "note": "Sorber (knee) is listed as out for Thursday's game against Denver.",
+     "note": "Sorber (knee) is available for Monday's game against the Suns.",
+     "out": true
+    },
+    {
+     "name": "Cason Wallace",
+     "status": "Out",
+     "note": "Wallace (shoulder) is out for Monday's game versus the Suns.",
+     "out": true
+    },
+    {
+     "name": "Chet Holmgren",
+     "status": "Out",
+     "note": "Holmgren (knee) is out for Monday's game versus the Suns.",
+     "out": true
+    },
+    {
+     "name": "Jalen Williams",
+     "status": "Out",
+     "note": "Williams was stretchered off the floor during Sunday's game against the Clippers due to an apparent left ankle injury, NBA writer Justin Russo reports.",
      "out": true
     }
    ],
    "injuries_away": [
     {
      "name": "Oso Ighodaro",
-     "status": "Day-To-Day",
-     "note": "Ighodaro (oblique) is doubtful for Monday's matchup with the Thunder, Duane Rankin of The Arizona Republic reports.",
-     "out": false
+     "status": "Out",
+     "note": "Ighodaro (oblique) is out for Monday's matchup with the Thunder.",
+     "out": true
     },
     {
      "name": "Mark Williams",
@@ -490,6 +502,12 @@
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Jaxson Hayes",
+     "status": "Day-To-Day",
+     "note": "Hayes is listed as questionable for Monday's game against the Grizzlies due to right shoulder soreness, Shreyas Laddha of The Salt Lake Tribune reports.",
+     "out": false
+    },
+    {
      "name": "Trey Alexander",
      "status": "Out",
      "note": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
@@ -504,15 +522,15 @@
    ],
    "injuries_away": [
     {
-     "name": "Karim L\u00f3pez",
+     "name": "Isaiah Stewart",
      "status": "Day-To-Day",
-     "note": "Lopez (knee) is out for Sunday's game in Sacramento.",
+     "note": "Stewart is listed as questionable for Monday's game against the Jazz due to left ankle injury management.",
      "out": false
     },
     {
-     "name": "Zach Edey",
+     "name": "Karim L\u00f3pez",
      "status": "Day-To-Day",
-     "note": "Edey has been ruled out for Sunday's game against Sacramento due to left ankle injury management.",
+     "note": "Lopez (knee) is questionable for Monday's game in Utah.",
      "out": false
     }
    ]
@@ -527,17 +545,17 @@
    "neutral": false,
    "home_name": "Denver Nuggets",
    "away_name": "Golden State Warriors",
-   "home_win_prob": 0.8027,
-   "home_pts": 123.0,
-   "away_pts": 111.4,
+   "home_win_prob": 0.7962,
+   "home_pts": 122.8,
+   "away_pts": 111.5,
    "margin_pct": {
-    "5": -11.3,
-    "25": 2.6,
-    "50": 11.8,
-    "75": 21.0,
-    "95": 33.9
+    "5": -11.6,
+    "25": 2.2,
+    "50": 11.5,
+    "75": 20.6,
+    "95": 33.6
    },
-   "total_mean": 234.5,
+   "total_mean": 234.4,
    "total_pct": {
     "5": 204.6,
     "25": 222.2,
@@ -550,9 +568,9 @@
    "injuries_home": [
     {
      "name": "Alpha Diallo",
-     "status": "Day-To-Day",
-     "note": "Diallo (wrist) is doubtful for Monday's game against the Warriors.",
-     "out": false
+     "status": "Out",
+     "note": "Diallo (wrist) is out for Monday's game against the Warriors.",
+     "out": true
     },
     {
      "name": "Cameron Johnson",
