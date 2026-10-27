@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T16:39:38+00:00",
+ "generated_at": "2026-10-27T18:00:09+00:00",
  "date": "2026-10-27",
  "ratings_through": "2026-10-26",
  "unmatched_injuries": [
@@ -38,6 +38,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Derrick White",
+     "status": "Day-To-Day",
+     "note": "White (right hip) is probable for Tuesday's game against the Nets.",
+     "out": false
+    },
+    {
      "name": "Devin Carter",
      "status": "Out",
      "note": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports.",
@@ -52,7 +58,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-27T16:39:38+00:00"
+   "predicted_at": "2026-10-27T18:00:09+00:00"
   },
   {
    "game_id": "0022600129",
@@ -112,7 +118,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-27T16:39:38+00:00"
+   "predicted_at": "2026-10-27T18:00:09+00:00"
   },
   {
    "game_id": "0022600130",
@@ -184,7 +190,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-27T16:39:38+00:00"
+   "predicted_at": "2026-10-27T18:00:09+00:00"
   },
   {
    "game_id": "0022600131",
@@ -250,7 +256,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-27T16:39:38+00:00"
+   "predicted_at": "2026-10-27T18:00:09+00:00"
   }
  ]
 }
