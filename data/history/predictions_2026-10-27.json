@@ -1,0 +1,256 @@
+{
+ "generated_at": "2026-10-27T12:11:51+00:00",
+ "date": "2026-10-27",
+ "ratings_through": "2026-10-26",
+ "unmatched_injuries": [
+  "Otega Oweh (Oklahoma City Thunder)"
+ ],
+ "games": [
+  {
+   "game_id": "0022600128",
+   "tip_utc": "2026-10-27T23:30:00Z",
+   "tip_et": "7:30 pm ET",
+   "arena": "TD Garden, Boston",
+   "home": "BOS",
+   "away": "BKN",
+   "neutral": false,
+   "home_name": "Boston Celtics",
+   "away_name": "Brooklyn Nets",
+   "home_win_prob": 0.8134,
+   "home_pts": 119.8,
+   "away_pts": 107.6,
+   "margin_pct": {
+    "5": -10.7,
+    "25": 3.1,
+    "50": 12.4,
+    "75": 21.5,
+    "95": 34.5
+   },
+   "total_mean": 227.5,
+   "total_pct": {
+    "5": 197.7,
+    "25": 215.3,
+    "50": 227.6,
+    "75": 239.8,
+    "95": 257.2
+   },
+   "rest_home": 1,
+   "rest_away": 2,
+   "injuries_home": [
+    {
+     "name": "Devin Carter",
+     "status": "Out",
+     "note": "Carter has been diagnosed with mononucleosis and is without a timetable for a return, Gary Washburn of The Boston Globe reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Tyler Bilodeau",
+     "status": "Out",
+     "note": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-10-27T12:11:51+00:00"
+  },
+  {
+   "game_id": "0022600129",
+   "tip_utc": "2026-10-28T00:00:00Z",
+   "tip_et": "8:00 pm ET",
+   "arena": "Madison Square Garden, New York",
+   "home": "NYK",
+   "away": "DET",
+   "neutral": false,
+   "home_name": "New York Knicks",
+   "away_name": "Detroit Pistons",
+   "home_win_prob": 0.5412,
+   "home_pts": 111.5,
+   "away_pts": 110.4,
+   "margin_pct": {
+    "5": -21.7,
+    "25": -7.9,
+    "50": 1.4,
+    "75": 10.5,
+    "95": 23.5
+   },
+   "total_mean": 222.0,
+   "total_pct": {
+    "5": 192.2,
+    "25": 209.8,
+    "50": 222.1,
+    "75": 234.3,
+    "95": 251.7
+   },
+   "rest_home": 2,
+   "rest_away": 2,
+   "injuries_home": [
+    {
+     "name": "Jose Alvarado",
+     "status": "Out",
+     "note": "Alvarado (ankle) is out for Tuesday's game against the Pistons.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Isaiah Joe",
+     "status": "Day-To-Day",
+     "note": "Joe (hip) is questionable for Tuesday's game against the Knicks.",
+     "out": false
+    },
+    {
+     "name": "Ausar Thompson",
+     "status": "Day-To-Day",
+     "note": "Thompson (ankle) is listed as questionable for Tuesday's game against New York.",
+     "out": false
+    },
+    {
+     "name": "Jalen Duren",
+     "status": "Out",
+     "note": "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-10-27T12:11:51+00:00"
+  },
+  {
+   "game_id": "0022600130",
+   "tip_utc": "2026-10-28T00:00:00Z",
+   "tip_et": "8:00 pm ET",
+   "arena": "Frost Bank Center, San Antonio",
+   "home": "SAS",
+   "away": "SAC",
+   "neutral": false,
+   "home_name": "San Antonio Spurs",
+   "away_name": "Sacramento Kings",
+   "home_win_prob": 0.8891,
+   "home_pts": 125.4,
+   "away_pts": 108.4,
+   "margin_pct": {
+    "5": -5.9,
+    "25": 7.9,
+    "50": 17.2,
+    "75": 26.3,
+    "95": 39.3
+   },
+   "total_mean": 233.9,
+   "total_pct": {
+    "5": 204.1,
+    "25": 221.6,
+    "50": 233.9,
+    "75": 246.1,
+    "95": 263.6
+   },
+   "rest_home": 3,
+   "rest_away": 2,
+   "injuries_home": [
+    {
+     "name": "Tobias Harris",
+     "status": "Out",
+     "note": "Harris (calf) has been ruled out for Tuesday's game against the Kings.",
+     "out": true
+    },
+    {
+     "name": "Jayden Quaintance",
+     "status": "Out",
+     "note": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Dylan Cardwell",
+     "status": "Out",
+     "note": "Cardwell (calf) will be re-evaluated in one week, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
+     "out": true
+    },
+    {
+     "name": "Maxime Raynaud",
+     "status": "Out",
+     "note": "Raynaud (knee) is progressing in his rehabilitation and will be re-evaluated in approximately two weeks, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
+     "out": true
+    },
+    {
+     "name": "Keegan Murray",
+     "status": "Out",
+     "note": "Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports.",
+     "out": true
+    },
+    {
+     "name": "Ben Simmons",
+     "status": "Out",
+     "note": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-10-27T12:11:51+00:00"
+  },
+  {
+   "game_id": "0022600131",
+   "tip_utc": "2026-10-28T03:00:00Z",
+   "tip_et": "11:00 pm ET",
+   "arena": "Crypto.com Arena, Los Angeles",
+   "home": "LAL",
+   "away": "POR",
+   "neutral": false,
+   "home_name": "Los Angeles Lakers",
+   "away_name": "Portland Trail Blazers",
+   "home_win_prob": 0.7206,
+   "home_pts": 118.7,
+   "away_pts": 110.8,
+   "margin_pct": {
+    "5": -15.0,
+    "25": -1.2,
+    "50": 8.1,
+    "75": 17.2,
+    "95": 30.2
+   },
+   "total_mean": 229.6,
+   "total_pct": {
+    "5": 199.7,
+    "25": 217.3,
+    "50": 229.6,
+    "75": 241.8,
+    "95": 259.2
+   },
+   "rest_home": 2,
+   "rest_away": 4,
+   "injuries_home": [
+    {
+     "name": "Adou Thiero",
+     "status": "Out",
+     "note": "Thiero (knee) is out for Tuesday's game against Portland.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Chris Youngblood",
+     "status": "Out",
+     "note": "Youngblood (ankle/two-way player) is out for Tuesday's game against the Lakers.",
+     "out": true
+    },
+    {
+     "name": "Branden Carlson",
+     "status": "Day-To-Day",
+     "note": "Carlson (concussion) is listed as questionable for Tuesday's game against the Lakers.",
+     "out": false
+    },
+    {
+     "name": "Scoot Henderson",
+     "status": "Day-To-Day",
+     "note": "Henderson is questionable for Tuesday's game against the Lakers due to left ankle soreness.",
+     "out": false
+    },
+    {
+     "name": "Shaedon Sharpe",
+     "status": "Out",
+     "note": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-10-27T12:11:51+00:00"
+  }
+ ]
+}
