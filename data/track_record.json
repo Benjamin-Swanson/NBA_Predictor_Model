@@ -1,17 +1,17 @@
 {
- "updated": "2026-10-27T22:00:13+00:00",
- "n": 52,
- "accuracy": 0.6154,
- "log_loss": 0.612,
- "brier": 0.214,
- "margin_mae": 11.53,
- "band_coverage": 0.8654,
+ "updated": "2026-10-28T13:01:35+00:00",
+ "n": 56,
+ "accuracy": 0.625,
+ "log_loss": 0.6078,
+ "brier": 0.2126,
+ "margin_mae": 11.59,
+ "band_coverage": 0.875,
  "buckets": [
   {
    "bucket": "50-60%",
-   "games": 15,
-   "predicted": 0.561,
-   "actual": 0.4
+   "games": 16,
+   "predicted": 0.56,
+   "actual": 0.438
   },
   {
    "bucket": "60-70%",
@@ -21,18 +21,78 @@
   },
   {
    "bucket": "70-80%",
-   "games": 16,
-   "predicted": 0.745,
-   "actual": 0.75
+   "games": 17,
+   "predicted": 0.743,
+   "actual": 0.706
   },
   {
    "bucket": "80-100%",
-   "games": 6,
-   "predicted": 0.844,
+   "games": 8,
+   "predicted": 0.846,
    "actual": 1.0
   }
  ],
  "games": [
+  {
+   "date": "2026-10-27",
+   "game_id": "0022600131",
+   "away": "POR",
+   "home": "LAL",
+   "home_win_prob": 0.721,
+   "home_won": 0,
+   "pick": "LAL",
+   "confidence": 0.721,
+   "correct": 0,
+   "proj": "111-119",
+   "final": "136-129",
+   "margin_err": -14.9,
+   "in_band": 1
+  },
+  {
+   "date": "2026-10-27",
+   "game_id": "0022600130",
+   "away": "SAC",
+   "home": "SAS",
+   "home_win_prob": 0.889,
+   "home_won": 1,
+   "pick": "SAS",
+   "confidence": 0.889,
+   "correct": 1,
+   "proj": "108-125",
+   "final": "103-130",
+   "margin_err": 10.0,
+   "in_band": 1
+  },
+  {
+   "date": "2026-10-27",
+   "game_id": "0022600129",
+   "away": "DET",
+   "home": "NYK",
+   "home_win_prob": 0.541,
+   "home_won": 1,
+   "pick": "NYK",
+   "confidence": 0.541,
+   "correct": 1,
+   "proj": "110-112",
+   "final": "97-111",
+   "margin_err": 12.9,
+   "in_band": 1
+  },
+  {
+   "date": "2026-10-27",
+   "game_id": "0022600128",
+   "away": "BKN",
+   "home": "BOS",
+   "home_win_prob": 0.813,
+   "home_won": 1,
+   "pick": "BOS",
+   "confidence": 0.813,
+   "correct": 1,
+   "proj": "108-120",
+   "final": "124-125",
+   "margin_err": -11.2,
+   "in_band": 1
+  },
   {
    "date": "2026-10-26",
    "game_id": "0022600127",
