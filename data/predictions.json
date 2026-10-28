@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:00:36+00:00",
+ "generated_at": "2026-10-28T18:22:45+00:00",
  "date": "2026-10-28",
  "ratings_through": "2026-10-27",
  "unmatched_injuries": [
@@ -204,32 +204,32 @@
    "neutral": false,
    "home_name": "Indiana Pacers",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.3694,
-   "home_pts": 113.2,
-   "away_pts": 117.8,
+   "home_win_prob": 0.3017,
+   "home_pts": 111.4,
+   "away_pts": 118.6,
    "margin_pct": {
-    "5": -27.6,
-    "25": -13.7,
-    "50": -4.5,
-    "75": 4.7,
-    "95": 17.6
+    "5": -30.1,
+    "25": -16.3,
+    "50": -7.0,
+    "75": 2.1,
+    "95": 15.1
    },
-   "total_mean": 231.1,
+   "total_mean": 230.1,
    "total_pct": {
-    "5": 201.3,
-    "25": 218.8,
-    "50": 231.1,
-    "75": 243.3,
-    "95": 260.8
+    "5": 200.3,
+    "25": 217.9,
+    "50": 230.2,
+    "75": 242.4,
+    "95": 259.8
    },
    "rest_home": 2,
    "rest_away": 3,
    "injuries_home": [
     {
      "name": "Tyrese Haliburton",
-     "status": "Day-To-Day",
+     "status": "Out",
      "note": "Haliburton (hamstring) will miss time, though his timetable has yet to be announced, Shams Charania of ESPN reports.",
-     "out": false
+     "out": true
     },
     {
      "name": "Andrew Nembhard",
@@ -784,6 +784,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Alex Caruso",
+     "status": "Out",
+     "note": "Caruso (ankle) is expected to miss time due to an ankle sprain, Clemente Almanza of USA Today reports.",
+     "out": true
+    },
+    {
      "name": "Thomas Sorber",
      "status": "Out",
      "note": "Sorber (knee) has been ruled out for Wednesday's game against the Mavericks.",
@@ -806,12 +812,6 @@
      "status": "Day-To-Day",
      "note": "Mitchell (ankle) is questionable for Wednesday's game against Dallas.",
      "out": false
-    },
-    {
-     "name": "Alex Caruso",
-     "status": "Out",
-     "note": "Caruso (ankle) won't play Wednesday in Dallas.",
-     "out": true
     },
     {
      "name": "Jalen Williams",
