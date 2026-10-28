@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:22:45+00:00",
+ "generated_at": "2026-10-28T22:08:49+00:00",
  "date": "2026-10-28",
  "ratings_through": "2026-10-27",
  "unmatched_injuries": [
@@ -37,12 +37,6 @@
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
-    {
-     "name": "Aaron Wiggins",
-     "status": "Day-To-Day",
-     "note": "Wiggins (knee) is probable for Wednesday against Miami.",
-     "out": false
-    },
     {
      "name": "Mouhamed Gueye",
      "status": "Out",
@@ -100,7 +94,7 @@
     {
      "name": "Justin Champagnie",
      "status": "Out",
-     "note": "Champagnie (foot) is out for Wednesday's game versus Cleveland.",
+     "note": "Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic.",
      "out": true
     },
     {
@@ -226,45 +220,33 @@
    "rest_away": 3,
    "injuries_home": [
     {
-     "name": "Tyrese Haliburton",
-     "status": "Out",
-     "note": "Haliburton (hamstring) will miss time, though his timetable has yet to be announced, Shams Charania of ESPN reports.",
-     "out": true
-    },
-    {
-     "name": "Andrew Nembhard",
-     "status": "Day-To-Day",
-     "note": "Nembhard (neck) is listed as questionable for Wednesday's game against Philadelphia.",
-     "out": false
-    },
-    {
-     "name": "Obi Toppin",
-     "status": "Day-To-Day",
-     "note": "Toppin is probable to play Wednesday against the 76ers due to a left hand sprain.",
-     "out": false
-    },
-    {
      "name": "Aaron Nesmith",
      "status": "Day-To-Day",
-     "note": "Nesmith (hamstring) is probable for Wednesday's game against the 76ers.",
+     "note": "Nesmith (hamstring) is now questionable for Wednesday's game against Philadelphia.",
      "out": false
     },
     {
      "name": "T.J. McConnell",
      "status": "Out",
-     "note": "McConnell (hamstring) is out for Wednesday's game against the 76ers.",
+     "note": "Pacers head coach Rick Carlisle stated McConnell (hamstring) is \"doing better\" and \"getting closer\" to a return, Alex Golden of SI.com reports.",
+     "out": true
+    },
+    {
+     "name": "Ben Sheppard",
+     "status": "Out",
+     "note": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.",
+     "out": true
+    },
+    {
+     "name": "Tyrese Haliburton",
+     "status": "Out",
+     "note": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports.",
      "out": true
     },
     {
      "name": "Ivica Zubac",
      "status": "Out",
      "note": "Zubac (ankle) is out for Wednesday's game against the 76ers.",
-     "out": true
-    },
-    {
-     "name": "Ben Sheppard",
-     "status": "Out",
-     "note": "Sheppard is scheduled for surgery to repair a torn meniscus in his left knee Wednesday, Dustin Dopirak of The Indianapolis Star reports.",
      "out": true
     },
     {
@@ -394,23 +376,23 @@
    "neutral": false,
    "home_name": "Chicago Bulls",
    "away_name": "New York Knicks",
-   "home_win_prob": 0.3658,
-   "home_pts": 114.1,
-   "away_pts": 118.9,
+   "home_win_prob": 0.3919,
+   "home_pts": 114.3,
+   "away_pts": 118.2,
    "margin_pct": {
-    "5": -27.7,
-    "25": -13.9,
-    "50": -4.6,
-    "75": 4.5,
-    "95": 17.5
+    "5": -26.8,
+    "25": -13.0,
+    "50": -3.7,
+    "75": 5.4,
+    "95": 18.4
    },
-   "total_mean": 233.1,
+   "total_mean": 232.6,
    "total_pct": {
-    "5": 203.3,
-    "25": 220.8,
-    "50": 233.1,
-    "75": 245.3,
-    "95": 262.8
+    "5": 202.8,
+    "25": 220.3,
+    "50": 232.6,
+    "75": 244.8,
+    "95": 262.3
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -437,9 +419,9 @@
    "injuries_away": [
     {
      "name": "Jose Alvarado",
-     "status": "Day-To-Day",
-     "note": "Alvarado (ankle) is out for Tuesday's game against the Pistons.",
-     "out": false
+     "status": "Out",
+     "note": "Alvarado (ankle) is out for Wednesday's game against the Bulls.",
+     "out": true
     }
    ]
   },
@@ -543,7 +525,7 @@
     {
      "name": "Yaxel Lendeborg",
      "status": "Day-To-Day",
-     "note": "Lendeborg (foot) went through Wednesday's morning shootaround, per Nick Friedell of The Athletic.",
+     "note": "Lendeborg (foot) is trending toward playing Wednesday against the Timberwolves, Anthony Slater of ESPN.com reports.",
      "out": false
     },
     {
@@ -697,7 +679,7 @@
     {
      "name": "Tobias Harris",
      "status": "Out",
-     "note": "Harris (calf) has been ruled out for Tuesday's game against the Kings.",
+     "note": "Harris (calf) is out for Wednesday's game against Utah, Paul Garcia of ProjectSpurs.com reports.",
      "out": true
     },
     {
@@ -740,15 +722,21 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Santi Aldama",
-     "status": "Out",
-     "note": "The Mavericks recalled Aldama (knee) from the G League's Texas Legends on Tuesday.",
-     "out": true
+     "name": "Naji Marshall",
+     "status": "Day-To-Day",
+     "note": "Marshall (illness) is now doubtful for Wednesday against the Thunder.",
+     "out": false
     },
     {
      "name": "Tarik Biberovi\u0107",
      "status": "Out",
-     "note": "Biberovic is listed as doubtful for Wednesday's game against the Thunder.",
+     "note": "Biberovic (knee) is out for Wednesday's game against the Thunder.",
+     "out": true
+    },
+    {
+     "name": "Santi Aldama",
+     "status": "Out",
+     "note": "Aldama (knee) is out for Wednesday's game against the Thunder.",
      "out": true
     },
     {
@@ -762,12 +750,6 @@
      "status": "Out",
      "note": "Martin (thumb) is questionable for Wednesday's game against the Thunder.",
      "out": true
-    },
-    {
-     "name": "Naji Marshall",
-     "status": "Day-To-Day",
-     "note": "Marshall (illness) is questionable for Wednesday's game against the Thunder.",
-     "out": false
     },
     {
      "name": "Kyrie Irving",
@@ -837,23 +819,23 @@
    "neutral": false,
    "home_name": "Los Angeles Clippers",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.3877,
-   "home_pts": 111.9,
-   "away_pts": 116.0,
+   "home_win_prob": 0.5026,
+   "home_pts": 112.4,
+   "away_pts": 112.5,
    "margin_pct": {
-    "5": -27.0,
-    "25": -13.1,
-    "50": -3.8,
-    "75": 5.3,
-    "95": 18.2
+    "5": -23.0,
+    "25": -9.2,
+    "50": 0.1,
+    "75": 9.2,
+    "95": 22.2
    },
-   "total_mean": 228.0,
+   "total_mean": 225.0,
    "total_pct": {
-    "5": 198.2,
-    "25": 215.7,
-    "50": 228.0,
-    "75": 240.2,
-    "95": 257.7
+    "5": 195.1,
+    "25": 212.7,
+    "50": 225.0,
+    "75": 237.2,
+    "95": 254.6
    },
    "rest_home": 3,
    "rest_away": 1,
@@ -899,13 +881,25 @@
     {
      "name": "Cameron Carr",
      "status": "Out",
-     "note": "Carr (oblique) was assigned Wednesday to the G League's Coachella Valley Lakers, Thuc Nhi Nguyen of the Los Angeles Times reports",
+     "note": "Carr (oblique) is out for Wednesday's game against the Clippers.",
      "out": true
     },
     {
      "name": "Adou Thiero",
      "status": "Out",
-     "note": "Thiero (knee) is out for Tuesday's game against Portland.",
+     "note": "Thiero (knee) is out for Wednesday's game against the Clippers.",
+     "out": true
+    },
+    {
+     "name": "Ziaire Williams",
+     "status": "Out",
+     "note": "Williams (foot) is out for Wednesday's game against the Clippers.",
+     "out": true
+    },
+    {
+     "name": "Luka Don\u010di\u0107",
+     "status": "Out",
+     "note": "Doncic (back) is out for Wednesday's game against the Clippers.",
      "out": true
     }
    ]
