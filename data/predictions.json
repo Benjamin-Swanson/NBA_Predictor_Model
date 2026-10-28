@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:01:09+00:00",
+ "generated_at": "2026-10-28T14:44:42+00:00",
  "date": "2026-10-28",
  "ratings_through": "2026-10-27",
  "unmatched_injuries": [
@@ -541,16 +541,16 @@
    ],
    "injuries_away": [
     {
+     "name": "Kristaps Porzi\u0146\u0123is",
+     "status": "Out",
+     "note": "The Warriors are exploring potential trades involving Porzingis (personal), who remains away from the team indefinitely while dealing with ongoing health concerns, Anthony Slater of ESPN.com reports.",
+     "out": true
+    },
+    {
      "name": "Yaxel Lendeborg",
      "status": "Day-To-Day",
      "note": "Lendeborg (foot) is questionable for Wednesday's game against Minnesota.",
      "out": false
-    },
-    {
-     "name": "Kristaps Porzi\u0146\u0123is",
-     "status": "Out",
-     "note": "Porzingis is contemplating his future in basketball as he deals with recurring symptoms from the autoimmune condition termed as postural orthostatic tachycardia syndrome, per Shams Charania of ESPN.",
-     "out": true
     },
     {
      "name": "Moses Moody",

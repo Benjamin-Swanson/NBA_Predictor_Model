@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:01:09+00:00",
+ "generated_at": "2026-10-28T14:44:42+00:00",
  "date": "2026-10-28",
  "ratings_through": "2026-10-27",
  "unmatched_injuries": [
@@ -70,7 +70,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600133",
@@ -129,7 +129,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600134",
@@ -201,7 +201,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600135",
@@ -309,7 +309,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600136",
@@ -387,7 +387,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600137",
@@ -447,7 +447,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600138",
@@ -500,7 +500,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600139",
@@ -548,16 +548,16 @@
    ],
    "injuries_away": [
     {
+     "name": "Kristaps Porzi\u0146\u0123is",
+     "status": "Out",
+     "note": "The Warriors are exploring potential trades involving Porzingis (personal), who remains away from the team indefinitely while dealing with ongoing health concerns, Anthony Slater of ESPN.com reports.",
+     "out": true
+    },
+    {
      "name": "Yaxel Lendeborg",
      "status": "Day-To-Day",
      "note": "Lendeborg (foot) is questionable for Wednesday's game against Minnesota.",
      "out": false
-    },
-    {
-     "name": "Kristaps Porzi\u0146\u0123is",
-     "status": "Out",
-     "note": "Porzingis is contemplating his future in basketball as he deals with recurring symptoms from the autoimmune condition termed as postural orthostatic tachycardia syndrome, per Shams Charania of ESPN.",
-     "out": true
     },
     {
      "name": "Moses Moody",
@@ -572,7 +572,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600140",
@@ -644,7 +644,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600141",
@@ -722,7 +722,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600142",
@@ -842,7 +842,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   },
   {
    "game_id": "0022600143",
@@ -926,7 +926,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-28T13:01:09+00:00"
+   "predicted_at": "2026-10-28T14:44:42+00:00"
   }
  ]
 }
