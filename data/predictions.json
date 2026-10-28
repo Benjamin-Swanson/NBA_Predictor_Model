@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T14:44:42+00:00",
+ "generated_at": "2026-10-28T17:01:23+00:00",
  "date": "2026-10-28",
  "ratings_through": "2026-10-27",
  "unmatched_injuries": [
@@ -16,23 +16,23 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Miami Heat",
-   "home_win_prob": 0.744,
+   "home_win_prob": 0.7599,
    "home_pts": 126.2,
-   "away_pts": 117.3,
+   "away_pts": 116.6,
    "margin_pct": {
-    "5": -14.1,
-    "25": -0.3,
-    "50": 9.0,
-    "75": 18.1,
-    "95": 31.1
+    "5": -13.4,
+    "25": 0.5,
+    "50": 9.7,
+    "75": 18.9,
+    "95": 31.8
    },
-   "total_mean": 243.6,
+   "total_mean": 242.9,
    "total_pct": {
-    "5": 213.8,
-    "25": 231.4,
-    "50": 243.7,
-    "75": 255.9,
-    "95": 273.3
+    "5": 213.1,
+    "25": 230.7,
+    "50": 243.0,
+    "75": 255.2,
+    "95": 272.6
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -40,7 +40,7 @@
     {
      "name": "Aaron Wiggins",
      "status": "Day-To-Day",
-     "note": "Wiggins is questionable for Wednesday's game against the Heat due to a left knee contusion.",
+     "note": "Wiggins (knee) is probable for Wednesday against Miami.",
      "out": false
     },
     {
@@ -58,16 +58,10 @@
    ],
    "injuries_away": [
     {
-     "name": "Pelle Larsson",
-     "status": "Day-To-Day",
-     "note": "Larsson is listed as probable for Wednesday's game at Atlanta due to a right ankle sprain.",
-     "out": false
-    },
-    {
      "name": "Simone Fontecchio",
-     "status": "Day-To-Day",
-     "note": "Fontecchio is doubtful for Wednesday's game in Atlanta due to an illness, per Tim Reynolds of Associated Press.",
-     "out": false
+     "status": "Out",
+     "note": "Fontecchio (illness) is out for Wednesday's game against the Hawks.",
+     "out": true
     }
    ]
   },
@@ -107,12 +101,6 @@
      "name": "Justin Champagnie",
      "status": "Out",
      "note": "Champagnie (foot) is out for Wednesday's game versus Cleveland.",
-     "out": true
-    },
-    {
-     "name": "AJ Dybantsa",
-     "status": "Out",
-     "note": "Dybantsa (ankle) is questionable for Wednesday's game versus Cleveland.",
      "out": true
     },
     {
@@ -352,6 +340,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Anthony Black",
+     "status": "Day-To-Day",
+     "note": "Black (personal) was not present at Wednesday's morning shootaround, Jason Beede of the Orlando Sentinel reports.",
+     "out": false
+    },
     {
      "name": "Jonathan Isaac",
      "status": "Out",
