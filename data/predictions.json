@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T17:01:23+00:00",
+ "generated_at": "2026-10-28T18:00:36+00:00",
  "date": "2026-10-28",
  "ratings_through": "2026-10-27",
  "unmatched_injuries": [
@@ -127,17 +127,17 @@
    "neutral": false,
    "home_name": "Detroit Pistons",
    "away_name": "Charlotte Hornets",
-   "home_win_prob": 0.7055,
-   "home_pts": 115.6,
-   "away_pts": 108.4,
+   "home_win_prob": 0.686,
+   "home_pts": 115.2,
+   "away_pts": 108.8,
    "margin_pct": {
-    "5": -15.7,
-    "25": -1.8,
-    "50": 7.4,
-    "75": 16.6,
-    "95": 29.5
+    "5": -16.5,
+    "25": -2.6,
+    "50": 6.6,
+    "75": 15.8,
+    "95": 28.7
    },
-   "total_mean": 224.2,
+   "total_mean": 224.1,
    "total_pct": {
     "5": 194.3,
     "25": 211.9,
@@ -150,8 +150,14 @@
    "injuries_home": [
     {
      "name": "Isaiah Joe",
+     "status": "Out",
+     "note": "Joe (hip) is out for Wednesday's game against the Hornets.",
+     "out": true
+    },
+    {
+     "name": "Ausar Thompson",
      "status": "Day-To-Day",
-     "note": "Joe (hip) has been ruled out for Tuesday's game against the Knicks.",
+     "note": "Thompson (ankle) is probable for Wednesday against the Hornets.",
      "out": false
     },
     {
@@ -220,15 +226,15 @@
    "rest_away": 3,
    "injuries_home": [
     {
-     "name": "Andrew Nembhard",
+     "name": "Tyrese Haliburton",
      "status": "Day-To-Day",
-     "note": "Nembhard (neck) is listed as questionable for Wednesday's game against Philadelphia.",
+     "note": "Haliburton (hamstring) will miss time, though his timetable has yet to be announced, Shams Charania of ESPN reports.",
      "out": false
     },
     {
-     "name": "Tyrese Haliburton",
+     "name": "Andrew Nembhard",
      "status": "Day-To-Day",
-     "note": "Haliburton is listed as questionable for Wednesday's game against the 76ers due to left hamstring tightness.",
+     "note": "Nembhard (neck) is listed as questionable for Wednesday's game against Philadelphia.",
      "out": false
     },
     {
@@ -447,23 +453,23 @@
    "neutral": false,
    "home_name": "Milwaukee Bucks",
    "away_name": "Houston Rockets",
-   "home_win_prob": 0.3873,
-   "home_pts": 115.9,
-   "away_pts": 120.0,
+   "home_win_prob": 0.399,
+   "home_pts": 116.2,
+   "away_pts": 119.8,
    "margin_pct": {
-    "5": -27.0,
-    "25": -13.1,
-    "50": -3.9,
-    "75": 5.3,
-    "95": 18.2
+    "5": -26.5,
+    "25": -12.7,
+    "50": -3.4,
+    "75": 5.7,
+    "95": 18.7
    },
-   "total_mean": 236.0,
+   "total_mean": 236.2,
    "total_pct": {
-    "5": 206.1,
-    "25": 223.7,
-    "50": 236.0,
-    "75": 248.2,
-    "95": 265.6
+    "5": 206.3,
+    "25": 223.9,
+    "50": 236.2,
+    "75": 248.4,
+    "95": 265.8
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -471,9 +477,9 @@
    "injuries_away": [
     {
      "name": "Marcus Smart",
-     "status": "Day-To-Day",
-     "note": "Smart (forearm) is questionable for Wednesday's game versus the Bucks.",
-     "out": false
+     "status": "Out",
+     "note": "Smart (forearm) is out for Wednesday's game against the Bucks.",
+     "out": true
     },
     {
      "name": "Alperen Sengun",
@@ -535,16 +541,16 @@
    ],
    "injuries_away": [
     {
+     "name": "Yaxel Lendeborg",
+     "status": "Day-To-Day",
+     "note": "Lendeborg (foot) went through Wednesday's morning shootaround, per Nick Friedell of The Athletic.",
+     "out": false
+    },
+    {
      "name": "Kristaps Porzi\u0146\u0123is",
      "status": "Out",
      "note": "The Warriors are exploring potential trades involving Porzingis (personal), who remains away from the team indefinitely while dealing with ongoing health concerns, Anthony Slater of ESPN.com reports.",
      "out": true
-    },
-    {
-     "name": "Yaxel Lendeborg",
-     "status": "Day-To-Day",
-     "note": "Lendeborg (foot) is questionable for Wednesday's game against Minnesota.",
-     "out": false
     },
     {
      "name": "Moses Moody",
@@ -591,12 +597,6 @@
    "rest_home": 4,
    "rest_away": 2,
    "injuries_home": [
-    {
-     "name": "Jordan Poole",
-     "status": "Day-To-Day",
-     "note": "Poole (illness) is listed as probable for Wednesday's game against Denver.",
-     "out": false
-    },
     {
      "name": "Yves Missi",
      "status": "Out",
@@ -899,7 +899,7 @@
     {
      "name": "Cameron Carr",
      "status": "Out",
-     "note": "The Lakers recalled Carr (oblique) from the G League's Coachella Valley Lakers on Tuesday, Mark Medina of TheSportingTribune.com reports.",
+     "note": "Carr (oblique) was assigned Wednesday to the G League's Coachella Valley Lakers, Thuc Nhi Nguyen of the Los Angeles Times reports",
      "out": true
     },
     {
