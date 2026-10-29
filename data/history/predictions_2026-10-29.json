@@ -1,0 +1,174 @@
+{
+ "generated_at": "2026-10-29T12:13:39+00:00",
+ "date": "2026-10-29",
+ "ratings_through": "2026-10-28",
+ "unmatched_injuries": [],
+ "games": [
+  {
+   "game_id": "0022600144",
+   "tip_utc": "2026-10-30T00:00:00Z",
+   "tip_et": "8:00 pm ET",
+   "arena": "State Farm Arena, Atlanta",
+   "home": "ATL",
+   "away": "CLE",
+   "neutral": false,
+   "home_name": "Atlanta Hawks",
+   "away_name": "Cleveland Cavaliers",
+   "home_win_prob": 0.6053,
+   "home_pts": 121.1,
+   "away_pts": 117.7,
+   "margin_pct": {
+    "5": -19.5,
+    "25": -5.6,
+    "50": 3.6,
+    "75": 12.8,
+    "95": 25.7
+   },
+   "total_mean": 239.0,
+   "total_pct": {
+    "5": 209.1,
+    "25": 226.7,
+    "50": 239.0,
+    "75": 251.2,
+    "95": 268.6
+   },
+   "rest_home": 1,
+   "rest_away": 1,
+   "injuries_home": [
+    {
+     "name": "Mouhamed Gueye",
+     "status": "Out",
+     "note": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
+     "out": true
+    },
+    {
+     "name": "Henri Veesaar",
+     "status": "Out",
+     "note": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
+     "out": true
+    }
+   ],
+   "injuries_away": [],
+   "predicted_at": "2026-10-29T12:13:39+00:00"
+  },
+  {
+   "game_id": "0022600145",
+   "tip_utc": "2026-10-30T00:00:00Z",
+   "tip_et": "8:00 pm ET",
+   "arena": "Smoothie King Center, New Orleans",
+   "home": "NOP",
+   "away": "SAC",
+   "neutral": false,
+   "home_name": "New Orleans Pelicans",
+   "away_name": "Sacramento Kings",
+   "home_win_prob": 0.6692,
+   "home_pts": 122.3,
+   "away_pts": 116.5,
+   "margin_pct": {
+    "5": -17.1,
+    "25": -3.2,
+    "50": 6.0,
+    "75": 15.2,
+    "95": 28.1
+   },
+   "total_mean": 239.0,
+   "total_pct": {
+    "5": 209.1,
+    "25": 226.7,
+    "50": 239.0,
+    "75": 251.2,
+    "95": 268.6
+   },
+   "rest_home": 1,
+   "rest_away": 2,
+   "injuries_home": [
+    {
+     "name": "Jordan Poole",
+     "status": "Day-To-Day",
+     "note": "Poole (ankle) won't return to Wednesday's game against the Nuggets. He finished with two points (1-3 FG, 0-1 3Pt), one rebound and one steal over seven minutes.",
+     "out": false
+    },
+    {
+     "name": "Yves Missi",
+     "status": "Out",
+     "note": "Missi has been diagnosed with a left knee bone bruise and he will miss an extended period of time, Brett Siegel of ClutchPoints.com reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Dylan Cardwell",
+     "status": "Out",
+     "note": "Cardwell (calf) will be re-evaluated in one week, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
+     "out": true
+    },
+    {
+     "name": "Maxime Raynaud",
+     "status": "Out",
+     "note": "Raynaud (knee) is progressing in his rehabilitation and will be re-evaluated in approximately two weeks, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
+     "out": true
+    },
+    {
+     "name": "Keegan Murray",
+     "status": "Out",
+     "note": "Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports.",
+     "out": true
+    },
+    {
+     "name": "Ben Simmons",
+     "status": "Out",
+     "note": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-10-29T12:13:39+00:00"
+  },
+  {
+   "game_id": "0022600146",
+   "tip_utc": "2026-10-30T02:00:00Z",
+   "tip_et": "10:00 pm ET",
+   "arena": "Moda Center, Portland",
+   "home": "POR",
+   "away": "MEM",
+   "neutral": false,
+   "home_name": "Portland Trail Blazers",
+   "away_name": "Memphis Grizzlies",
+   "home_win_prob": 0.7498,
+   "home_pts": 122.6,
+   "away_pts": 113.6,
+   "margin_pct": {
+    "5": -13.9,
+    "25": -0.0,
+    "50": 9.3,
+    "75": 18.4,
+    "95": 31.3
+   },
+   "total_mean": 236.3,
+   "total_pct": {
+    "5": 206.5,
+    "25": 224.1,
+    "50": 236.4,
+    "75": 248.6,
+    "95": 266.0
+   },
+   "rest_home": 2,
+   "rest_away": 3,
+   "injuries_home": [
+    {
+     "name": "Chris Youngblood",
+     "status": "Out",
+     "note": "Youngblood (ankle/two-way player) is out for Tuesday's game against the Lakers.",
+     "out": true
+    },
+    {
+     "name": "Shaedon Sharpe",
+     "status": "Out",
+     "note": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN.",
+     "out": true
+    }
+   ],
+   "injuries_away": [],
+   "predicted_at": "2026-10-29T12:13:39+00:00"
+  }
+ ]
+}
