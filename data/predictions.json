@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:00:09+00:00",
+ "generated_at": "2026-10-29T20:00:10+00:00",
  "date": "2026-10-29",
  "ratings_through": "2026-10-28",
  "unmatched_injuries": [],
@@ -165,6 +165,12 @@
    "rest_home": 2,
    "rest_away": 3,
    "injuries_home": [
+    {
+     "name": "Robert Williams III",
+     "status": "Day-To-Day",
+     "note": "Williams (knee) is doubtful for Thursday's game against Memphis due to left knee injury management, according to the Trail Blazers.",
+     "out": false
+    },
     {
      "name": "Chris Youngblood",
      "status": "Out",

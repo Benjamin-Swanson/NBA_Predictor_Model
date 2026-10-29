@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:00:09+00:00",
+ "generated_at": "2026-10-29T20:00:10+00:00",
  "date": "2026-10-29",
  "ratings_through": "2026-10-28",
  "unmatched_injuries": [],
@@ -62,7 +62,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-29T18:00:09+00:00"
+   "predicted_at": "2026-10-29T20:00:10+00:00"
   },
   {
    "game_id": "0022600145",
@@ -134,7 +134,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-29T18:00:09+00:00"
+   "predicted_at": "2026-10-29T20:00:10+00:00"
   },
   {
    "game_id": "0022600146",
@@ -168,6 +168,12 @@
    "rest_away": 3,
    "injuries_home": [
     {
+     "name": "Robert Williams III",
+     "status": "Day-To-Day",
+     "note": "Williams (knee) is doubtful for Thursday's game against Memphis due to left knee injury management, according to the Trail Blazers.",
+     "out": false
+    },
+    {
      "name": "Chris Youngblood",
      "status": "Out",
      "note": "Youngblood (ankle/two-way player) is out for Tuesday's game against the Lakers.",
@@ -181,7 +187,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-10-29T18:00:09+00:00"
+   "predicted_at": "2026-10-29T20:00:10+00:00"
   }
  ]
 }
