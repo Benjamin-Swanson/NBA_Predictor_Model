@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:00:51+00:00",
+ "generated_at": "2026-10-30T20:00:12+00:00",
  "date": "2026-10-30",
  "ratings_through": "2026-10-29",
  "unmatched_injuries": [],
@@ -92,7 +92,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600016",
@@ -152,7 +152,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600017",
@@ -218,7 +218,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600018",
@@ -290,7 +290,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600019",
@@ -368,7 +368,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600020",
@@ -410,6 +410,18 @@
    ],
    "injuries_away": [
     {
+     "name": "T.J. McConnell",
+     "status": "Out",
+     "note": "McConnell (hamstring) is practicing in the G League at Noblesville Boom training camp, per Alex Golden of SI.com.",
+     "out": true
+    },
+    {
+     "name": "Johnny Furphy",
+     "status": "Out",
+     "note": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com.",
+     "out": true
+    },
+    {
      "name": "Andrew Nembhard",
      "status": "Day-To-Day",
      "note": "Nembhard (neck) is listed as probable for Friday's game against Miami.",
@@ -428,12 +440,6 @@
      "out": true
     },
     {
-     "name": "T.J. McConnell",
-     "status": "Out",
-     "note": "Pacers head coach Rick Carlisle stated McConnell (hamstring) is \"doing better\" and \"getting closer\" to a return, Alex Golden of SI.com reports.",
-     "out": true
-    },
-    {
      "name": "Ben Sheppard",
      "status": "Out",
      "note": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.",
@@ -444,15 +450,9 @@
      "status": "Out",
      "note": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports.",
      "out": true
-    },
-    {
-     "name": "Johnny Furphy",
-     "status": "Out",
-     "note": "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the season, Michael Scotto of USA Today reports.",
-     "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600021",
@@ -520,7 +520,7 @@
     {
      "name": "Reed Sheppard",
      "status": "Out",
-     "note": "Sheppard (back) is out for Friday's game against the Mavericks.",
+     "note": "Houston picked up Sheppard's (back) fourth-year team option Friday, per Lachard Binkley of SI.com.",
      "out": true
     },
     {
@@ -542,7 +542,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600022",
@@ -626,7 +626,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600023",
@@ -698,7 +698,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   },
   {
    "game_id": "0022600024",
@@ -770,7 +770,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-30T19:00:51+00:00"
+   "predicted_at": "2026-10-30T20:00:12+00:00"
   }
  ]
 }
