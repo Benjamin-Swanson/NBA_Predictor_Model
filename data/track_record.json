@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-29T22:09:43+00:00",
- "n": 68,
- "accuracy": 0.6324,
- "log_loss": 0.6132,
- "brier": 0.2144,
- "margin_mae": 11.89,
- "band_coverage": 0.8529,
+ "updated": "2026-10-30T12:01:42+00:00",
+ "n": 71,
+ "accuracy": 0.6338,
+ "log_loss": 0.6195,
+ "brier": 0.217,
+ "margin_mae": 11.9,
+ "band_coverage": 0.8451,
  "buckets": [
   {
    "bucket": "50-60%",
@@ -15,15 +15,15 @@
   },
   {
    "bucket": "60-70%",
-   "games": 22,
-   "predicted": 0.642,
-   "actual": 0.636
+   "games": 24,
+   "predicted": 0.641,
+   "actual": 0.667
   },
   {
    "bucket": "70-80%",
-   "games": 20,
+   "games": 21,
    "predicted": 0.746,
-   "actual": 0.65
+   "actual": 0.619
   },
   {
    "bucket": "80-100%",
@@ -33,6 +33,51 @@
   }
  ],
  "games": [
+  {
+   "date": "2026-10-29",
+   "game_id": "0022600146",
+   "away": "MEM",
+   "home": "POR",
+   "home_win_prob": 0.75,
+   "home_won": 0,
+   "pick": "POR",
+   "confidence": 0.75,
+   "correct": 0,
+   "proj": "114-123",
+   "final": "124-103",
+   "margin_err": -30.0,
+   "in_band": 0
+  },
+  {
+   "date": "2026-10-29",
+   "game_id": "0022600145",
+   "away": "SAC",
+   "home": "NOP",
+   "home_win_prob": 0.669,
+   "home_won": 1,
+   "pick": "NOP",
+   "confidence": 0.669,
+   "correct": 1,
+   "proj": "116-122",
+   "final": "120-132",
+   "margin_err": 6.2,
+   "in_band": 1
+  },
+  {
+   "date": "2026-10-29",
+   "game_id": "0022600144",
+   "away": "CLE",
+   "home": "ATL",
+   "home_win_prob": 0.605,
+   "home_won": 1,
+   "pick": "ATL",
+   "confidence": 0.605,
+   "correct": 1,
+   "proj": "118-121",
+   "final": "111-114",
+   "margin_err": -0.4,
+   "in_band": 1
+  },
   {
    "date": "2026-10-28",
    "game_id": "0022600143",
