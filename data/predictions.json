@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T14:13:37+00:00",
+ "generated_at": "2026-10-30T19:00:51+00:00",
  "date": "2026-10-30",
  "ratings_through": "2026-10-29",
  "unmatched_injuries": [],
@@ -64,13 +64,13 @@
     {
      "name": "Dennis Schr\u00f6der",
      "status": "Day-To-Day",
-     "note": "Schroder (foot) is questionable for Friday's game against the Wizards.",
+     "note": "Schroder (foot) is probable for Friday against the Wizards.",
      "out": false
     },
     {
      "name": "Kon Knueppel",
      "status": "Out",
-     "note": "Knueppel (hamstring) will practice with the G League's Greensboro Swarm on Thursday, the Hornets announced.",
+     "note": "Knueppel (hamstring) was recalled from the G League's Greensboro Swarm on Friday. He remains out for Friday's contest against the Wizards.",
      "out": true
     },
     {
@@ -103,17 +103,17 @@
    "neutral": false,
    "home_name": "Boston Celtics",
    "away_name": "Chicago Bulls",
-   "home_win_prob": 0.8674,
+   "home_win_prob": 0.8679,
    "home_pts": 127.5,
-   "away_pts": 112.0,
+   "away_pts": 111.9,
    "margin_pct": {
     "5": -7.4,
-    "25": 6.4,
-    "50": 15.7,
-    "75": 24.8,
+    "25": 6.5,
+    "50": 15.8,
+    "75": 24.9,
     "95": 37.8
    },
-   "total_mean": 239.6,
+   "total_mean": 239.5,
    "total_pct": {
     "5": 209.7,
     "25": 227.3,
@@ -132,12 +132,6 @@
     }
    ],
    "injuries_away": [
-    {
-     "name": "Patrick Williams",
-     "status": "Out",
-     "note": "Williams (adductor) is questionable for Friday's game in Boston.",
-     "out": true
-    },
     {
      "name": "Jalen Smith",
      "status": "Day-To-Day",
@@ -189,6 +183,12 @@
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Noah Clowney",
+     "status": "Day-To-Day",
+     "note": "Clowney (illness) was downgraded to questionable for Friday's game versus Detroit, Erik Slater of ClutchPoints.com reports.",
+     "out": false
+    },
     {
      "name": "Egor D\u00ebmin",
      "status": "Out",
@@ -585,7 +585,7 @@
     {
      "name": "Rui Hachimura",
      "status": "Day-To-Day",
-     "note": "Hachimura (quadriceps) is questionable for Friday's game against Minnesota, Tomer Azarly of ClutchPoints.com reports.",
+     "note": "Hachimura (quadriceps) is probable for Friday's game against Minnesota, per Ohm Youngmisuk of ESPN.com.",
      "out": false
     },
     {
@@ -678,12 +678,6 @@
    ],
    "injuries_away": [
     {
-     "name": "Cameron Carr",
-     "status": "Out",
-     "note": "Carr (oblique) has been ruled out for Friday's game against Golden State.",
-     "out": true
-    },
-    {
      "name": "Adou Thiero",
      "status": "Out",
      "note": "Thiero (knee) has been ruled out for Friday's game against the Warriors.",
@@ -743,15 +737,15 @@
    ],
    "injuries_away": [
     {
-     "name": "Alpha Diallo",
+     "name": "Cameron Johnson",
      "status": "Out",
-     "note": "Diallo (personal) is listed as questionable for Friday's game against the Suns.",
+     "note": "Johnson (ankle) is expected to play in Friday's game against the Suns, per John Gambadoro of Arizona Sports 98.7 FM.",
      "out": true
     },
     {
-     "name": "Cameron Johnson",
+     "name": "Alpha Diallo",
      "status": "Out",
-     "note": "Johnson (ankle) is questionable for Friday's game against Phoenix.",
+     "note": "Diallo (personal) is listed as questionable for Friday's game against the Suns.",
      "out": true
     },
     {
