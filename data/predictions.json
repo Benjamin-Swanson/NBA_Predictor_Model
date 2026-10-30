@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T20:00:12+00:00",
+ "generated_at": "2026-10-30T22:00:13+00:00",
  "date": "2026-10-30",
  "ratings_through": "2026-10-29",
  "unmatched_injuries": [],
@@ -133,6 +133,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Dailyn Swain",
+     "status": "Day-To-Day",
+     "note": "Swain is listed as questionable for Friday's game at Boston due to lower-back soreness.",
+     "out": false
+    },
+    {
      "name": "Jalen Smith",
      "status": "Day-To-Day",
      "note": "Smith is questionable for Friday's game against Boston with a left finger sprain.",
@@ -162,23 +168,23 @@
    "neutral": false,
    "home_name": "Brooklyn Nets",
    "away_name": "Detroit Pistons",
-   "home_win_prob": 0.2865,
-   "home_pts": 107.9,
+   "home_win_prob": 0.2922,
+   "home_pts": 108.1,
    "away_pts": 115.7,
    "margin_pct": {
-    "5": -30.8,
-    "25": -16.9,
-    "50": -7.7,
-    "75": 1.5,
-    "95": 14.4
+    "5": -30.5,
+    "25": -16.6,
+    "50": -7.4,
+    "75": 1.8,
+    "95": 14.7
    },
-   "total_mean": 223.7,
+   "total_mean": 223.9,
    "total_pct": {
-    "5": 193.9,
-    "25": 211.4,
-    "50": 223.7,
-    "75": 235.9,
-    "95": 253.4
+    "5": 194.0,
+    "25": 211.6,
+    "50": 223.9,
+    "75": 236.1,
+    "95": 253.5
    },
    "rest_home": 3,
    "rest_away": 2,
@@ -205,9 +211,9 @@
    "injuries_away": [
     {
      "name": "Isaiah Joe",
-     "status": "Day-To-Day",
-     "note": "Joe (hip) is listed as questionable for Friday's game against Brooklyn.",
-     "out": false
+     "status": "Out",
+     "note": "Joe (hip) has been ruled out for Friday's game against the Nets.",
+     "out": true
     },
     {
      "name": "Jalen Duren",
@@ -249,16 +255,16 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Jaylen Brown",
+     "status": "Day-To-Day",
+     "note": "Brown (knee) is doubtful for Friday's game against the Knicks.",
+     "out": false
+    },
+    {
      "name": "Jabari Walker",
      "status": "Out",
      "note": "Walker (knee) has been ruled out for Friday's game versus New York.",
      "out": true
-    },
-    {
-     "name": "Jaylen Brown",
-     "status": "Day-To-Day",
-     "note": "Brown (knee) is questionable for Friday's game against the Knicks.",
-     "out": false
     },
     {
      "name": "Tacko Fall",
@@ -280,6 +286,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Karl-Anthony Towns",
+     "status": "Day-To-Day",
+     "note": "Towns (wrist) is listed as probable for Friday's game against Philadelphia.",
+     "out": false
+    },
     {
      "name": "Jose Alvarado",
      "status": "Out",
@@ -399,11 +411,17 @@
     {
      "name": "Simone Fontecchio",
      "status": "Day-To-Day",
-     "note": "Fontecchio (illness) is listed as questionable for Friday's game against Indiana.",
+     "note": "Fontecchio (illness) is probable for Friday's against the Pacers.",
      "out": false
     }
    ],
    "injuries_away": [
+    {
+     "name": "Obi Toppin",
+     "status": "Day-To-Day",
+     "note": "Toppin (back) is questionable for Friday's game against the Heat.",
+     "out": false
+    },
     {
      "name": "T.J. McConnell",
      "status": "Out",
@@ -480,6 +498,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Naji Marshall",
+     "status": "Day-To-Day",
+     "note": "Marshall (illness) is probable for Friday's game against the Rockets.",
+     "out": false
+    },
+    {
      "name": "Tarik Biberovi\u0107",
      "status": "Out",
      "note": "Biberovic (heel) is listed as doubtful for Friday's game versus the Rockets.",
@@ -496,12 +520,6 @@
      "status": "Out",
      "note": "De Larrea (knee) is out for Friday's game against the Rockets.",
      "out": true
-    },
-    {
-     "name": "Naji Marshall",
-     "status": "Day-To-Day",
-     "note": "Marshall is questionable for Friday's game against the Rockets with an illness.",
-     "out": false
     },
     {
      "name": "Dereck Lively II",
@@ -630,23 +648,23 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.2762,
-   "home_pts": 110.2,
-   "away_pts": 118.5,
+   "home_win_prob": 0.3142,
+   "home_pts": 110.5,
+   "away_pts": 117.2,
    "margin_pct": {
-    "5": -31.2,
-    "25": -17.4,
-    "50": -8.1,
-    "75": 1.0,
-    "95": 14.0
+    "5": -29.6,
+    "25": -15.8,
+    "50": -6.5,
+    "75": 2.6,
+    "95": 15.5
    },
-   "total_mean": 228.9,
+   "total_mean": 227.9,
    "total_pct": {
-    "5": 199.1,
-    "25": 216.6,
-    "50": 228.9,
-    "75": 241.1,
-    "95": 258.6
+    "5": 198.0,
+    "25": 215.6,
+    "50": 227.9,
+    "75": 240.1,
+    "95": 257.5
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -654,7 +672,7 @@
     {
      "name": "Gui Santos",
      "status": "Day-To-Day",
-     "note": "Santos (knee) is listed as doubtful for Friday's game against the Warriors.",
+     "note": "Santos (knee) is questionable for Friday's game against the Lakers.",
      "out": false
     },
     {
@@ -678,16 +696,16 @@
    ],
    "injuries_away": [
     {
+     "name": "Ziaire Williams",
+     "status": "Out",
+     "note": "Williams has been ruled out for Friday's game against the Warriors due to left foot injury management, Mark Medina of TheSportingTribune.com reports.",
+     "out": true
+    },
+    {
      "name": "Adou Thiero",
      "status": "Out",
      "note": "Thiero (knee) has been ruled out for Friday's game against the Warriors.",
      "out": true
-    },
-    {
-     "name": "Ziaire Williams",
-     "status": "Day-To-Day",
-     "note": "Williams (foot) is questionable for Friday's game against Golden State.",
-     "out": false
     }
    ]
   },
@@ -737,15 +755,15 @@
    ],
    "injuries_away": [
     {
-     "name": "Cameron Johnson",
+     "name": "Alpha Diallo",
      "status": "Out",
-     "note": "Johnson (ankle) is expected to play in Friday's game against the Suns, per John Gambadoro of Arizona Sports 98.7 FM.",
+     "note": "Diallo (personal) is doubtful for Friday's game against the Suns.",
      "out": true
     },
     {
-     "name": "Alpha Diallo",
+     "name": "Cameron Johnson",
      "status": "Out",
-     "note": "Diallo (personal) is listed as questionable for Friday's game against the Suns.",
+     "note": "Johnson (ankle) is expected to play in Friday's game against the Suns, per John Gambadoro of Arizona Sports 98.7 FM.",
      "out": true
     },
     {
