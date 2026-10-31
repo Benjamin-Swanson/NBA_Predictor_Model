@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T18:15:13+00:00",
+ "generated_at": "2026-10-31T20:10:52+00:00",
  "date": "2026-10-31",
  "ratings_through": "2026-10-30",
  "unmatched_injuries": [],
@@ -35,12 +35,6 @@
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
-    {
-     "name": "Lauri Markkanen",
-     "status": "Day-To-Day",
-     "note": "Markkanen (wrist) is listed as questionable for Saturday's game against Portland.",
-     "out": false
-    },
     {
      "name": "Jaren Jackson Jr.",
      "status": "Out",
@@ -345,16 +339,16 @@
    "injuries_home": [],
    "injuries_away": [
     {
+     "name": "Meleek Thomas",
+     "status": "Day-To-Day",
+     "note": "Thomas (foot) has been upgraded to probable ahead of Saturday's meeting in Milwaukee.",
+     "out": false
+    },
+    {
      "name": "Jaylon Tyson",
      "status": "Out",
      "note": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks.",
      "out": true
-    },
-    {
-     "name": "Meleek Thomas",
-     "status": "Day-To-Day",
-     "note": "Thomas (foot) is questionable for Saturday's game against the Bucks.",
-     "out": false
     }
    ]
   },
@@ -389,6 +383,12 @@
    "rest_home": 3,
    "rest_away": 1,
    "injuries_home": [
+    {
+     "name": "Stephon Castle",
+     "status": "Day-To-Day",
+     "note": "Castle (migraine) is questionable for Saturday's game against the Timberwolves, Paul Garcia of ProjectSpurs.com reports.",
+     "out": false
+    },
     {
      "name": "Tobias Harris",
      "status": "Out",

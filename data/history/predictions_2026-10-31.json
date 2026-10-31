@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T18:15:13+00:00",
+ "generated_at": "2026-10-31T20:10:52+00:00",
  "date": "2026-10-31",
  "ratings_through": "2026-10-30",
  "unmatched_injuries": [],
@@ -176,7 +176,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T18:15:13+00:00"
+   "predicted_at": "2026-10-31T20:10:52+00:00"
   },
   {
    "game_id": "0022600149",
@@ -236,7 +236,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T18:15:13+00:00"
+   "predicted_at": "2026-10-31T20:10:52+00:00"
   },
   {
    "game_id": "0022600150",
@@ -314,7 +314,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T18:15:13+00:00"
+   "predicted_at": "2026-10-31T20:10:52+00:00"
   },
   {
    "game_id": "0022600151",
@@ -349,19 +349,19 @@
    "injuries_home": [],
    "injuries_away": [
     {
+     "name": "Meleek Thomas",
+     "status": "Day-To-Day",
+     "note": "Thomas (foot) has been upgraded to probable ahead of Saturday's meeting in Milwaukee.",
+     "out": false
+    },
+    {
      "name": "Jaylon Tyson",
      "status": "Out",
      "note": "Tyson (ankle) has been ruled out for Saturday's game against the Bucks.",
      "out": true
-    },
-    {
-     "name": "Meleek Thomas",
-     "status": "Day-To-Day",
-     "note": "Thomas (foot) is questionable for Saturday's game against the Bucks.",
-     "out": false
     }
    ],
-   "predicted_at": "2026-10-31T18:15:13+00:00"
+   "predicted_at": "2026-10-31T20:10:52+00:00"
   },
   {
    "game_id": "0022600152",
@@ -395,6 +395,12 @@
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Stephon Castle",
+     "status": "Day-To-Day",
+     "note": "Castle (migraine) is questionable for Saturday's game against the Timberwolves, Paul Garcia of ProjectSpurs.com reports.",
+     "out": false
+    },
+    {
      "name": "Tobias Harris",
      "status": "Out",
      "note": "Harris (calf) is listed as out for Saturday's game against Minnesota.",
@@ -427,7 +433,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T18:15:13+00:00"
+   "predicted_at": "2026-10-31T20:10:52+00:00"
   },
   {
    "game_id": "0022600153",
@@ -517,7 +523,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T18:15:13+00:00"
+   "predicted_at": "2026-10-31T20:10:52+00:00"
   }
  ]
 }
