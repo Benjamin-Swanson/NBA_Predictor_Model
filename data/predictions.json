@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T12:17:12+00:00",
+ "generated_at": "2026-10-31T15:12:13+00:00",
  "date": "2026-10-31",
  "ratings_through": "2026-10-30",
  "unmatched_injuries": [],
@@ -144,6 +144,18 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Joel Embiid",
+     "status": "Day-To-Day",
+     "note": "Embiid (rest) closed Friday's 98-93 victory over the Knicks with 10 points (3-12 FG, 0-4 3Pt, 4-4 FT), seven rebounds, seven assists, one block and one steal in 33 minutes.",
+     "out": false
+    },
+    {
+     "name": "LeBron James",
+     "status": "Day-To-Day",
+     "note": "James (rest) closed with 20 points (8-15 FG, 2-6 3Pt, 2-3 FT), nine rebounds, eight assists, one block and one steal across 34 minutes during Friday's 98-93 win over the Knicks.",
+     "out": false
+    },
     {
      "name": "Jaylen Brown",
      "status": "Day-To-Day",
