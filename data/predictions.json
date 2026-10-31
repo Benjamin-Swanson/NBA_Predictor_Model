@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T20:10:52+00:00",
+ "generated_at": "2026-10-31T22:17:28+00:00",
  "date": "2026-10-31",
  "ratings_through": "2026-10-30",
  "unmatched_injuries": [],
@@ -127,21 +127,9 @@
    ],
    "injuries_away": [
     {
-     "name": "Jabari Walker",
-     "status": "Out",
-     "note": "Walker (knee) is questionable for Saturday's game in Charlotte.",
-     "out": true
-    },
-    {
      "name": "LeBron James",
      "status": "Out",
      "note": "James (back) has been ruled out for Saturday's meeting in Charlotte.",
-     "out": true
-    },
-    {
-     "name": "Tacko Fall",
-     "status": "Out",
-     "note": "Fall (quad) is questionable to face the Hornets on Saturday.",
      "out": true
     },
     {
@@ -149,12 +137,6 @@
      "status": "Out",
      "note": "Embiid (foot) is out for Saturday's game in Charlotte.",
      "out": true
-    },
-    {
-     "name": "Jaylen Brown",
-     "status": "Day-To-Day",
-     "note": "Brown (knee) is questionable for Saturday's game in Charlotte.",
-     "out": false
     },
     {
      "name": "Dominick Barlow",
@@ -180,27 +162,33 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Atlanta Hawks",
-   "home_win_prob": 0.381,
-   "home_pts": 119.6,
-   "away_pts": 123.8,
+   "home_win_prob": 0.3404,
+   "home_pts": 118.6,
+   "away_pts": 124.4,
    "margin_pct": {
-    "5": -27.2,
-    "25": -13.3,
-    "50": -4.0,
-    "75": 5.1,
-    "95": 18.0
+    "5": -28.7,
+    "25": -14.8,
+    "50": -5.6,
+    "75": 3.6,
+    "95": 16.5
    },
-   "total_mean": 243.6,
+   "total_mean": 243.1,
    "total_pct": {
-    "5": 213.7,
-    "25": 231.3,
-    "50": 243.6,
-    "75": 255.8,
-    "95": 273.2
+    "5": 213.2,
+    "25": 230.8,
+    "50": 243.1,
+    "75": 255.3,
+    "95": 272.7
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Dejounte Murray",
+     "status": "Out",
+     "note": "Murray (personal) won't play in Saturday's game against the Hawks, Jim Eichenhofer of the Pelicans' official site reports.",
+     "out": true
+    },
     {
      "name": "Yves Missi",
      "status": "Out",
