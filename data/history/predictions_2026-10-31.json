@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T16:13:12+00:00",
+ "generated_at": "2026-10-31T18:15:13+00:00",
  "date": "2026-10-31",
  "ratings_through": "2026-10-30",
  "unmatched_injuries": [],
@@ -62,18 +62,6 @@
    ],
    "injuries_away": [
     {
-     "name": "Robert Williams III",
-     "status": "Day-To-Day",
-     "note": "Williams (knee) is questionable for Saturday's game against the Jazz.",
-     "out": false
-    },
-    {
-     "name": "Chris Youngblood",
-     "status": "Out",
-     "note": "Youngblood (ankle) is questionable for Saturday's game against Utah.",
-     "out": true
-    },
-    {
      "name": "Ja Morant",
      "status": "Out",
      "note": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday.",
@@ -86,7 +74,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T16:13:12+00:00"
+   "predicted_at": "2026-10-31T18:15:13+00:00"
   },
   {
    "game_id": "0022600148",
@@ -98,23 +86,23 @@
    "neutral": false,
    "home_name": "Charlotte Hornets",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.5759,
-   "home_pts": 110.4,
-   "away_pts": 108.0,
+   "home_win_prob": 0.6559,
+   "home_pts": 111.1,
+   "away_pts": 105.9,
    "margin_pct": {
-    "5": -20.5,
-    "25": -6.7,
-    "50": 2.6,
-    "75": 11.7,
-    "95": 24.7
+    "5": -17.6,
+    "25": -3.8,
+    "50": 5.5,
+    "75": 14.6,
+    "95": 27.6
    },
-   "total_mean": 218.4,
+   "total_mean": 217.1,
    "total_pct": {
-    "5": 188.6,
-    "25": 206.2,
-    "50": 218.5,
-    "75": 230.7,
-    "95": 248.1
+    "5": 187.3,
+    "25": 204.8,
+    "50": 217.1,
+    "75": 229.3,
+    "95": 246.8
    },
    "rest_home": 1,
    "rest_away": 1,
@@ -146,34 +134,34 @@
    ],
    "injuries_away": [
     {
-     "name": "Joel Embiid",
-     "status": "Day-To-Day",
-     "note": "Embiid (rest) closed Friday's 98-93 victory over the Knicks with 10 points (3-12 FG, 0-4 3Pt, 4-4 FT), seven rebounds, seven assists, one block and one steal in 33 minutes.",
-     "out": false
+     "name": "Jabari Walker",
+     "status": "Out",
+     "note": "Walker (knee) is questionable for Saturday's game in Charlotte.",
+     "out": true
     },
     {
      "name": "LeBron James",
-     "status": "Day-To-Day",
-     "note": "James (rest) closed with 20 points (8-15 FG, 2-6 3Pt, 2-3 FT), nine rebounds, eight assists, one block and one steal across 34 minutes during Friday's 98-93 win over the Knicks.",
-     "out": false
-    },
-    {
-     "name": "Jaylen Brown",
-     "status": "Day-To-Day",
-     "note": "Brown (knee) is out for Friday's game against the Knicks.",
-     "out": false
-    },
-    {
-     "name": "Jabari Walker",
      "status": "Out",
-     "note": "Walker (knee) has been ruled out for Friday's game versus New York.",
+     "note": "James (back) has been ruled out for Saturday's meeting in Charlotte.",
      "out": true
     },
     {
      "name": "Tacko Fall",
      "status": "Out",
-     "note": "Fall (quadriceps) is out for Wednesday's game in Indiana.",
+     "note": "Fall (quad) is questionable to face the Hornets on Saturday.",
      "out": true
+    },
+    {
+     "name": "Joel Embiid",
+     "status": "Out",
+     "note": "Embiid (foot) is out for Saturday's game in Charlotte.",
+     "out": true
+    },
+    {
+     "name": "Jaylen Brown",
+     "status": "Day-To-Day",
+     "note": "Brown (knee) is questionable for Saturday's game in Charlotte.",
+     "out": false
     },
     {
      "name": "Dominick Barlow",
@@ -188,7 +176,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T16:13:12+00:00"
+   "predicted_at": "2026-10-31T18:15:13+00:00"
   },
   {
    "game_id": "0022600149",
@@ -248,7 +236,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T16:13:12+00:00"
+   "predicted_at": "2026-10-31T18:15:13+00:00"
   },
   {
    "game_id": "0022600150",
@@ -326,7 +314,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T16:13:12+00:00"
+   "predicted_at": "2026-10-31T18:15:13+00:00"
   },
   {
    "game_id": "0022600151",
@@ -373,7 +361,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-10-31T16:13:12+00:00"
+   "predicted_at": "2026-10-31T18:15:13+00:00"
   },
   {
    "game_id": "0022600152",
@@ -421,6 +409,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Rudy Gobert",
+     "status": "Day-To-Day",
+     "note": "Gobert (back) is listed as questionable for Saturday's game at San Antonio.",
+     "out": false
+    },
+    {
      "name": "Anthony Edwards",
      "status": "Out",
      "note": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
@@ -433,7 +427,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T16:13:12+00:00"
+   "predicted_at": "2026-10-31T18:15:13+00:00"
   },
   {
    "game_id": "0022600153",
@@ -445,38 +439,38 @@
    "neutral": false,
    "home_name": "Houston Rockets",
    "away_name": "Oklahoma City Thunder",
-   "home_win_prob": 0.5992,
-   "home_pts": 117.1,
-   "away_pts": 114.0,
+   "home_win_prob": 0.5337,
+   "home_pts": 115.8,
+   "away_pts": 114.9,
    "margin_pct": {
-    "5": -19.7,
-    "25": -5.9,
-    "50": 3.4,
-    "75": 12.5,
-    "95": 25.5
+    "5": -22.0,
+    "25": -8.2,
+    "50": 1.1,
+    "75": 10.2,
+    "95": 23.2
    },
-   "total_mean": 231.2,
+   "total_mean": 230.8,
    "total_pct": {
-    "5": 201.4,
-    "25": 219.0,
-    "50": 231.3,
-    "75": 243.5,
-    "95": 260.9
+    "5": 201.0,
+    "25": 218.6,
+    "50": 230.9,
+    "75": 243.1,
+    "95": 260.5
    },
    "rest_home": 1,
    "rest_away": 3,
    "injuries_home": [
     {
      "name": "Reed Sheppard",
-     "status": "Day-To-Day",
-     "note": "Houston picked up Sheppard's (back) fourth-year team option Friday, per Lachard Binkley of SI.com.",
-     "out": false
+     "status": "Out",
+     "note": "Sheppard (back) is out for Saturday's game against the Thunder.",
+     "out": true
     },
     {
-     "name": "Alperen Sengun",
-     "status": "Day-To-Day",
-     "note": "Sengun (back) has been ruled out for Friday's game against the Mavericks, Mike Curtis of The Dallas Morning News reports.",
-     "out": false
+     "name": "Fred VanVleet",
+     "status": "Out",
+     "note": "VanVleet (knee) won't play Saturday against the Thunder.",
+     "out": true
     },
     {
      "name": "Steven Adams",
@@ -523,7 +517,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-10-31T16:13:12+00:00"
+   "predicted_at": "2026-10-31T18:15:13+00:00"
   }
  ]
 }
