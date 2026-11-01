@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:14:55+00:00",
+ "generated_at": "2026-11-01T17:36:54+00:00",
  "date": "2026-11-01",
  "ratings_through": "2026-10-31",
  "unmatched_injuries": [],
@@ -14,23 +14,23 @@
    "neutral": false,
    "home_name": "Orlando Magic",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.3897,
-   "home_pts": 113.3,
-   "away_pts": 117.3,
+   "home_win_prob": 0.4226,
+   "home_pts": 114.2,
+   "away_pts": 116.9,
    "margin_pct": {
-    "5": -26.9,
-    "25": -13.1,
-    "50": -3.8,
-    "75": 5.3,
-    "95": 18.3
+    "5": -25.7,
+    "25": -11.8,
+    "50": -2.6,
+    "75": 6.6,
+    "95": 19.5
    },
-   "total_mean": 230.8,
+   "total_mean": 231.2,
    "total_pct": {
-    "5": 200.9,
-    "25": 218.5,
-    "50": 230.8,
-    "75": 243.0,
-    "95": 260.4
+    "5": 201.4,
+    "25": 218.9,
+    "50": 231.2,
+    "75": 243.4,
+    "95": 260.9
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -69,9 +69,9 @@
    "injuries_away": [
     {
      "name": "Mitchell Robinson",
-     "status": "Day-To-Day",
-     "note": "Robinson (rest) is questionable for Sunday's game in Orlando, Jay King of The Athletic reports.",
-     "out": false
+     "status": "Out",
+     "note": "Robinson (rest) has been ruled out for Sunday's game against the Magic.",
+     "out": true
     },
     {
      "name": "Devin Carter",
@@ -113,6 +113,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "T.J. McConnell",
+     "status": "Out",
+     "note": "Indiana recalled McConnell (hamstring) from the G League's Noblesville Boom on Saturday.",
+     "out": true
+    },
+    {
      "name": "Ivica Zubac",
      "status": "Out",
      "note": "Zubac (ankle) will remain on the inactive list for Sunday's game against the Nets.",
@@ -129,12 +135,6 @@
      "status": "Day-To-Day",
      "note": "Toppin (back) is questionable for Sunday's game against the Nets.",
      "out": false
-    },
-    {
-     "name": "T.J. McConnell",
-     "status": "Out",
-     "note": "McConnell (hamstring) is practicing in the G League at Noblesville Boom training camp, per Alex Golden of SI.com.",
-     "out": true
     },
     {
      "name": "Johnny Furphy",
@@ -186,23 +186,23 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Los Angeles Clippers",
-   "home_win_prob": 0.4793,
-   "home_pts": 113.3,
-   "away_pts": 114.2,
+   "home_win_prob": 0.4587,
+   "home_pts": 113.2,
+   "away_pts": 114.8,
    "margin_pct": {
-    "5": -23.8,
-    "25": -9.9,
-    "50": -0.7,
-    "75": 8.5,
-    "95": 21.4
+    "5": -24.5,
+    "25": -10.6,
+    "50": -1.4,
+    "75": 7.8,
+    "95": 20.7
    },
-   "total_mean": 227.7,
+   "total_mean": 228.1,
    "total_pct": {
-    "5": 197.8,
-    "25": 215.4,
-    "50": 227.7,
-    "75": 239.9,
-    "95": 257.3
+    "5": 198.3,
+    "25": 215.8,
+    "50": 228.1,
+    "75": 240.3,
+    "95": 257.8
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -246,21 +246,9 @@
    ],
    "injuries_away": [
     {
-     "name": "Yanic Konan Niederh\u00e4user",
-     "status": "Out",
-     "note": "Niederhauser (foot) had his third-year team option picked up Thursday by the Clippers, Ohm Youngmisuk of ESPN.com reports.",
-     "out": true
-    },
-    {
      "name": "Max Strus",
      "status": "Out",
      "note": "Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports.",
-     "out": true
-    },
-    {
-     "name": "Brandon Ingram",
-     "status": "Out",
-     "note": "Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports.",
      "out": true
     },
     {
