@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T21:34:40+00:00",
+ "generated_at": "2026-11-01T23:00:12+00:00",
  "date": "2026-11-01",
  "ratings_through": "2026-10-31",
  "unmatched_injuries": [],
@@ -256,7 +256,7 @@
     {
      "name": "Max Strus",
      "status": "Out",
-     "note": "Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports.",
+     "note": "Los Angeles assigned Strus (foot) to the G League's San Diego Clippers on Friday.",
      "out": true
     },
     {
@@ -272,7 +272,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-01T21:34:40+00:00"
+   "predicted_at": "2026-11-01T23:00:12+00:00"
   },
   {
    "game_id": "0022600157",
@@ -332,7 +332,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-01T21:34:40+00:00"
+   "predicted_at": "2026-11-01T23:00:12+00:00"
   }
  ]
 }
