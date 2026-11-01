@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T19:40:46+00:00",
+ "generated_at": "2026-11-01T21:34:40+00:00",
  "date": "2026-11-01",
  "ratings_through": "2026-10-31",
  "unmatched_injuries": [],
@@ -91,27 +91,33 @@
    "neutral": false,
    "home_name": "Indiana Pacers",
    "away_name": "Brooklyn Nets",
-   "home_win_prob": 0.401,
-   "home_pts": 112.2,
-   "away_pts": 115.7,
+   "home_win_prob": 0.3682,
+   "home_pts": 111.6,
+   "away_pts": 116.3,
    "margin_pct": {
-    "5": -26.5,
-    "25": -12.6,
-    "50": -3.3,
-    "75": 5.8,
-    "95": 18.7
+    "5": -27.6,
+    "25": -13.8,
+    "50": -4.5,
+    "75": 4.6,
+    "95": 17.6
    },
    "total_mean": 228.0,
    "total_pct": {
-    "5": 198.2,
+    "5": 198.1,
     "25": 215.7,
     "50": 228.0,
     "75": 240.2,
-    "95": 257.7
+    "95": 257.6
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Obi Toppin",
+     "status": "Out",
+     "note": "Toppin (back) is out for Sunday's game against the Nets, Alex Golden of SI.com reports.",
+     "out": true
+    },
     {
      "name": "T.J. McConnell",
      "status": "Out",
@@ -123,18 +129,6 @@
      "status": "Out",
      "note": "Zubac (ankle) will remain on the inactive list for Sunday's game against the Nets.",
      "out": true
-    },
-    {
-     "name": "Aaron Nesmith",
-     "status": "Day-To-Day",
-     "note": "Nesmith (hamstring) is listed as probable for Sunday's game against Brooklyn.",
-     "out": false
-    },
-    {
-     "name": "Obi Toppin",
-     "status": "Day-To-Day",
-     "note": "Toppin (back) is questionable for Sunday's game against the Nets.",
-     "out": false
     },
     {
      "name": "Johnny Furphy",
@@ -186,23 +180,23 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Los Angeles Clippers",
-   "home_win_prob": 0.4587,
-   "home_pts": 113.2,
-   "away_pts": 114.8,
+   "home_win_prob": 0.4793,
+   "home_pts": 113.3,
+   "away_pts": 114.2,
    "margin_pct": {
-    "5": -24.5,
-    "25": -10.6,
-    "50": -1.4,
-    "75": 7.8,
-    "95": 20.7
+    "5": -23.8,
+    "25": -9.9,
+    "50": -0.7,
+    "75": 8.5,
+    "95": 21.4
    },
-   "total_mean": 228.1,
+   "total_mean": 227.7,
    "total_pct": {
-    "5": 198.3,
-    "25": 215.8,
-    "50": 228.1,
-    "75": 240.3,
-    "95": 257.8
+    "5": 197.8,
+    "25": 215.4,
+    "50": 227.7,
+    "75": 239.9,
+    "95": 257.3
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -246,6 +240,18 @@
    ],
    "injuries_away": [
     {
+     "name": "Yanic Konan Niederh\u00e4user",
+     "status": "Out",
+     "note": "Niederhauser (foot) had his third-year team option picked up Thursday by the Clippers, Ohm Youngmisuk of ESPN.com reports.",
+     "out": true
+    },
+    {
+     "name": "Brandon Ingram",
+     "status": "Out",
+     "note": "Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports.",
+     "out": true
+    },
+    {
      "name": "Max Strus",
      "status": "Out",
      "note": "Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmisuk of ESPN.com reports.",
@@ -275,38 +281,38 @@
    "neutral": false,
    "home_name": "Los Angeles Lakers",
    "away_name": "Toronto Raptors",
-   "home_win_prob": 0.7574,
-   "home_pts": 115.8,
-   "away_pts": 106.4,
+   "home_win_prob": 0.7182,
+   "home_pts": 114.6,
+   "away_pts": 106.8,
    "margin_pct": {
-    "5": -13.5,
-    "25": 0.3,
-    "50": 9.6,
-    "75": 18.7,
-    "95": 31.7
+    "5": -15.1,
+    "25": -1.3,
+    "50": 8.0,
+    "75": 17.1,
+    "95": 30.1
    },
-   "total_mean": 222.4,
+   "total_mean": 221.6,
    "total_pct": {
-    "5": 192.5,
-    "25": 210.1,
-    "50": 222.4,
-    "75": 234.6,
-    "95": 252.0
+    "5": 191.7,
+    "25": 209.3,
+    "50": 221.6,
+    "75": 233.8,
+    "95": 251.2
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Ziaire Williams",
+     "status": "Out",
+     "note": "Williams (foot) is out for Sunday's game against the Raptors.",
+     "out": true
+    },
+    {
      "name": "Adou Thiero",
      "status": "Out",
      "note": "Thiero (knee) has been ruled out for Sunday's game against the Raptors.",
      "out": true
-    },
-    {
-     "name": "Ziaire Williams",
-     "status": "Day-To-Day",
-     "note": "Williams (foot) is questionable for Sunday's game against the Raptors, Law Murray of The Athletic reports.",
-     "out": false
     }
    ],
    "injuries_away": [
