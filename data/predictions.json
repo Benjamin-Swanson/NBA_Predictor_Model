@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T13:51:25+00:00",
+ "generated_at": "2026-11-01T15:14:55+00:00",
  "date": "2026-11-01",
  "ratings_through": "2026-10-31",
  "unmatched_injuries": [],
@@ -309,16 +309,16 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Adou Thiero",
+     "status": "Out",
+     "note": "Thiero (knee) has been ruled out for Sunday's game against the Raptors.",
+     "out": true
+    },
+    {
      "name": "Ziaire Williams",
      "status": "Day-To-Day",
      "note": "Williams (foot) is questionable for Sunday's game against the Raptors, Law Murray of The Athletic reports.",
      "out": false
-    },
-    {
-     "name": "Adou Thiero",
-     "status": "Out",
-     "note": "Thiero (knee) has been ruled out for Friday's game against the Warriors.",
-     "out": true
     }
    ],
    "injuries_away": [
