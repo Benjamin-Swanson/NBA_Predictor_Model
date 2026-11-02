@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T15:12:24+00:00",
+ "generated_at": "2026-11-02T17:57:44+00:00",
  "date": "2026-11-02",
  "ratings_through": "2026-11-01",
  "unmatched_injuries": [],
@@ -86,7 +86,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600159",
@@ -136,7 +136,7 @@
     {
      "name": "Isaiah Joe",
      "status": "Out",
-     "note": "Joe (hip) is questionable for Friday's game against the Hornets.",
+     "note": "Joe (hip) is out for Monday against the Hornets.",
      "out": true
     },
     {
@@ -146,7 +146,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600160",
@@ -248,7 +248,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600161",
@@ -308,7 +308,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600162",
@@ -320,31 +320,37 @@
    "neutral": false,
    "home_name": "Orlando Magic",
    "away_name": "Washington Wizards",
-   "home_win_prob": 0.6607,
-   "home_pts": 118.8,
-   "away_pts": 113.3,
+   "home_win_prob": 0.6329,
+   "home_pts": 118.3,
+   "away_pts": 113.8,
    "margin_pct": {
-    "5": -17.5,
-    "25": -3.6,
-    "50": 5.7,
-    "75": 14.8,
-    "95": 27.7
+    "5": -18.5,
+    "25": -4.6,
+    "50": 4.6,
+    "75": 13.8,
+    "95": 26.7
    },
    "total_mean": 232.2,
    "total_pct": {
     "5": 202.4,
-    "25": 220.0,
-    "50": 232.3,
-    "75": 244.5,
+    "25": 219.9,
+    "50": 232.2,
+    "75": 244.4,
     "95": 261.9
    },
    "rest_home": 1,
    "rest_away": 3,
    "injuries_home": [
     {
+     "name": "Anthony Black",
+     "status": "Out",
+     "note": "Black will be rested Monday against the Wizards.",
+     "out": true
+    },
+    {
      "name": "Jonathan Isaac",
      "status": "Out",
-     "note": "Isaac (knee) is out for Friday's game in Toronto.",
+     "note": "Orlando recalled Isaac (knee) from the G League's Osceola Magic on Sunday.",
      "out": true
     },
     {
@@ -404,7 +410,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600163",
@@ -476,7 +482,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600164",
@@ -572,7 +578,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600165",
@@ -638,7 +644,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600166",
@@ -685,7 +691,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600167",
@@ -751,7 +757,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600168",
@@ -817,7 +823,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600169",
@@ -883,7 +889,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600170",
@@ -961,7 +967,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600171",
@@ -995,28 +1001,28 @@
    "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Derrick Jones Jr.",
-     "status": "Day-To-Day",
-     "note": "Jones (right knee) has been ruled out for the rest of Sunday's game against the Clippers, Ohm Youngmisuk of ESPN.com reports.",
-     "out": false
-    },
-    {
-     "name": "Max Strus",
-     "status": "Out",
-     "note": "Strus (foot) practiced and participated in 5-on-5 with the San Diego Clippers on Saturday, Los Angeles Clippers sideline reporter/host Ohm Youngmisuk reports.",
-     "out": true
-    },
-    {
      "name": "Yanic Konan Niederh\u00e4user",
      "status": "Out",
-     "note": "Niederhauser (foot) had his third-year team option picked up Thursday by the Clippers, Ohm Youngmisuk of ESPN.com reports.",
+     "note": "The Clippers recalled Niederhauser (foot) from the G League's San Diego Clippers on Sunday.",
      "out": true
     },
     {
      "name": "Brandon Ingram",
      "status": "Out",
-     "note": "Los Angeles assigned Ingram (Achilles) to the G League's San Diego Clippers on Saturday.",
+     "note": "The Clippers recalled Ingram (Achilles) from the G League's San Diego Clippers on Sunday.",
      "out": true
+    },
+    {
+     "name": "Max Strus",
+     "status": "Out",
+     "note": "The Clippers recalled Strus (foot) from the G League's San Diego Clippers on Sunday.",
+     "out": true
+    },
+    {
+     "name": "Derrick Jones Jr.",
+     "status": "Day-To-Day",
+     "note": "Jones (right knee) has been ruled out for the rest of Sunday's game against the Clippers, Ohm Youngmisuk of ESPN.com reports.",
+     "out": false
     },
     {
      "name": "Bradley Beal",
@@ -1051,7 +1057,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   },
   {
    "game_id": "0022600172",
@@ -1105,7 +1111,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-02T15:12:24+00:00"
+   "predicted_at": "2026-11-02T17:57:44+00:00"
   }
  ]
 }
