@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-31",
+ "as_of": "2026-11-01",
  "season": "2026-27",
  "teams": {
   "ATL": {
@@ -29,7 +29,7 @@
      "value": 17.01,
      "mpg_recent": 32.0,
      "glue": 0.41,
-     "mpg_season": 29.667,
+     "mpg_season": 30.143,
      "counts_if_out": true
     },
     {
@@ -39,7 +39,7 @@
      "value": 16.265,
      "mpg_recent": 32.9,
      "glue": -0.242,
-     "mpg_season": 31.667,
+     "mpg_season": 32.571,
      "counts_if_out": true
     },
     {
@@ -49,7 +49,7 @@
      "value": 14.265,
      "mpg_recent": 30.3,
      "glue": 1.101,
-     "mpg_season": 29.0,
+     "mpg_season": 28.857,
      "counts_if_out": true
     },
     {
@@ -59,7 +59,7 @@
      "value": 13.505,
      "mpg_recent": 27.3,
      "glue": -0.012,
-     "mpg_season": 25.333,
+     "mpg_season": 25.857,
      "counts_if_out": true
     },
     {
@@ -69,7 +69,7 @@
      "value": 10.5,
      "mpg_recent": 29.5,
      "glue": 0.495,
-     "mpg_season": 25.667,
+     "mpg_season": 28.286,
      "counts_if_out": true
     },
     {
@@ -79,7 +79,7 @@
      "value": 6.685,
      "mpg_recent": 23.7,
      "glue": -0.136,
-     "mpg_season": 27.333,
+     "mpg_season": 25.571,
      "counts_if_out": true
     },
     {
@@ -89,7 +89,7 @@
      "value": 6.329,
      "mpg_recent": 20.286,
      "glue": 0.0,
-     "mpg_season": 18.333,
+     "mpg_season": 20.286,
      "counts_if_out": true
     },
     {
@@ -99,7 +99,7 @@
      "value": 5.975,
      "mpg_recent": 18.4,
      "glue": 0.013,
-     "mpg_season": 18.333,
+     "mpg_season": 17.5,
      "counts_if_out": true
     },
     {
@@ -109,7 +109,7 @@
      "value": 5.685,
      "mpg_recent": 22.6,
      "glue": -0.486,
-     "mpg_season": 23.333,
+     "mpg_season": 23.714,
      "counts_if_out": true
     },
     {
@@ -159,7 +159,7 @@
      "value": 4.035,
      "mpg_recent": 11.6,
      "glue": -0.142,
-     "mpg_season": 8.0,
+     "mpg_season": 13.5,
      "counts_if_out": true
     },
     {
@@ -189,7 +189,7 @@
      "value": -0.15,
      "mpg_recent": 4.5,
      "glue": 0.0,
-     "mpg_season": 8.0,
+     "mpg_season": 5.0,
      "counts_if_out": true
     },
     {
@@ -207,61 +207,51 @@
   "BKN": {
    "id": 1610612751,
    "name": "Brooklyn Nets",
-   "elo": 1292.3,
+   "elo": 1306.3,
    "recent": {
-    "ORTG": 103.453,
-    "DRTG": 115.4237,
-    "NET": -11.9707,
-    "PACE": 102.5102,
-    "MARGIN": -12.4,
-    "EFG": 0.5053,
-    "TOV_PCT": 0.1522,
-    "ORB_PCT": 0.2186,
-    "FT_RATE": 0.2876,
-    "OPP_EFG": 0.5945,
-    "OPP_TOV_PCT": 0.1619,
-    "DRB_PCT": 0.7743,
-    "OPP_FT_RATE": 0.2818
+    "ORTG": 101.9891,
+    "DRTG": 113.6963,
+    "NET": -11.7071,
+    "PACE": 101.7302,
+    "MARGIN": -12.2,
+    "EFG": 0.4979,
+    "TOV_PCT": 0.1606,
+    "ORB_PCT": 0.2136,
+    "FT_RATE": 0.304,
+    "OPP_EFG": 0.5824,
+    "OPP_TOV_PCT": 0.1552,
+    "DRB_PCT": 0.7849,
+    "OPP_FT_RATE": 0.2892
    },
    "players": [
-    {
-     "id": 1629008,
-     "name": "Michael Porter Jr.",
-     "pos": "F",
-     "value": 14.695,
-     "mpg_recent": 30.8,
-     "glue": -0.112,
-     "mpg_season": 29.333,
-     "counts_if_out": true
-    },
     {
      "id": 203944,
      "name": "Julius Randle",
      "pos": "F-C",
-     "value": 14.2,
-     "mpg_recent": 32.9,
+     "value": 14.41,
+     "mpg_recent": 33.5,
      "glue": -0.023,
-     "mpg_season": 32.333,
+     "mpg_season": 34.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1629008,
+     "name": "Michael Porter Jr.",
+     "pos": "F",
+     "value": 13.86,
+     "mpg_recent": 31.4,
+     "glue": -0.112,
+     "mpg_season": 31.667,
      "counts_if_out": true
     },
     {
      "id": 1630549,
      "name": "Day'Ron Sharpe",
      "pos": "C",
-     "value": 8.71,
-     "mpg_recent": 21.2,
+     "value": 9.435,
+     "mpg_recent": 21.0,
      "glue": 1.198,
-     "mpg_season": 23.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643052,
-     "name": "Chaney Johnson",
-     "pos": "G-F",
-     "value": 7.445,
-     "mpg_recent": 21.6,
-     "glue": 0.804,
-     "mpg_season": 17.667,
+     "mpg_season": 22.5,
      "counts_if_out": true
     },
     {
@@ -271,7 +261,17 @@
      "value": 7.355,
      "mpg_recent": 17.7,
      "glue": 0.568,
-     "mpg_season": 15.0,
+     "mpg_season": 11.333,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643052,
+     "name": "Chaney Johnson",
+     "pos": "G-F",
+     "value": 7.325,
+     "mpg_recent": 22.0,
+     "glue": 0.804,
+     "mpg_season": 22.0,
      "counts_if_out": true
     },
     {
@@ -281,17 +281,7 @@
      "value": 7.22,
      "mpg_recent": 22.0,
      "glue": -0.282,
-     "mpg_season": 15.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1631165,
-     "name": "Keon Ellis",
-     "pos": "G",
-     "value": 6.95,
-     "mpg_recent": 24.8,
-     "glue": 0.24,
-     "mpg_season": 26.333,
+     "mpg_season": 13.5,
      "counts_if_out": true
     },
     {
@@ -311,27 +301,37 @@
      "value": 6.775,
      "mpg_recent": 24.4,
      "glue": -0.092,
-     "mpg_season": 25.667,
+     "mpg_season": 21.75,
+     "counts_if_out": true
+    },
+    {
+     "id": 1631165,
+     "name": "Keon Ellis",
+     "pos": "G",
+     "value": 6.195,
+     "mpg_recent": 24.6,
+     "glue": 0.24,
+     "mpg_season": 24.333,
      "counts_if_out": true
     },
     {
      "id": 1641730,
      "name": "Noah Clowney",
      "pos": "F-C",
-     "value": 6.34,
-     "mpg_recent": 20.1,
+     "value": 6.145,
+     "mpg_recent": 21.7,
      "glue": -0.158,
-     "mpg_season": 20.333,
+     "mpg_season": 21.833,
      "counts_if_out": true
     },
     {
      "id": 1642849,
      "name": "Nolan Traore",
      "pos": "G",
-     "value": 5.975,
-     "mpg_recent": 20.1,
+     "value": 5.85,
+     "mpg_recent": 20.8,
      "glue": -0.343,
-     "mpg_season": 20.0,
+     "mpg_season": 24.0,
      "counts_if_out": true
     },
     {
@@ -341,17 +341,27 @@
      "value": 5.675,
      "mpg_recent": 22.75,
      "glue": 0.0,
-     "mpg_season": 20.0,
+     "mpg_season": 22.5,
+     "counts_if_out": true
+    },
+    {
+     "id": 1629021,
+     "name": "Moritz Wagner",
+     "pos": "F-C",
+     "value": 4.49,
+     "mpg_recent": 13.4,
+     "glue": 0.597,
+     "mpg_season": 18.333,
      "counts_if_out": true
     },
     {
      "id": 1629611,
      "name": "Terance Mann",
      "pos": "G-F",
-     "value": 4.74,
-     "mpg_recent": 20.8,
+     "value": 4.4,
+     "mpg_recent": 19.4,
      "glue": -0.236,
-     "mpg_season": 24.27,
+     "mpg_season": 13.5,
      "counts_if_out": true
     },
     {
@@ -361,17 +371,7 @@
      "value": 4.11,
      "mpg_recent": 23.9,
      "glue": -0.829,
-     "mpg_season": 12.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1629021,
-     "name": "Moritz Wagner",
-     "pos": "F-C",
-     "value": 4.065,
-     "mpg_recent": 12.5,
-     "glue": 0.597,
-     "mpg_season": 15.0,
+     "mpg_season": 9.0,
      "counts_if_out": true
     },
     {
@@ -409,71 +409,71 @@
   "BOS": {
    "id": 1610612738,
    "name": "Boston Celtics",
-   "elo": 1653.0,
+   "elo": 1661.1,
    "recent": {
-    "ORTG": 116.9409,
-    "DRTG": 107.9513,
-    "NET": 8.9896,
-    "PACE": 101.1402,
-    "MARGIN": 9.6,
-    "EFG": 0.5723,
-    "TOV_PCT": 0.1489,
-    "ORB_PCT": 0.2787,
-    "FT_RATE": 0.255,
-    "OPP_EFG": 0.5213,
-    "OPP_TOV_PCT": 0.1543,
-    "DRB_PCT": 0.7266,
-    "OPP_FT_RATE": 0.2857
+    "ORTG": 116.9932,
+    "DRTG": 108.2247,
+    "NET": 8.7685,
+    "PACE": 100.4822,
+    "MARGIN": 9.3,
+    "EFG": 0.5656,
+    "TOV_PCT": 0.1448,
+    "ORB_PCT": 0.2781,
+    "FT_RATE": 0.2678,
+    "OPP_EFG": 0.5195,
+    "OPP_TOV_PCT": 0.1585,
+    "DRB_PCT": 0.7099,
+    "OPP_FT_RATE": 0.2877
    },
    "players": [
     {
      "id": 1628369,
      "name": "Jayson Tatum",
      "pos": "F-G",
-     "value": 18.21,
-     "mpg_recent": 36.1,
+     "value": 18.855,
+     "mpg_recent": 35.8,
      "glue": -0.496,
-     "mpg_season": 37.5,
+     "mpg_season": 35.667,
      "counts_if_out": true
     },
     {
      "id": 202331,
      "name": "Paul George",
      "pos": "F",
-     "value": 15.685,
-     "mpg_recent": 29.7,
+     "value": 15.84,
+     "mpg_recent": 30.2,
      "glue": 0.437,
-     "mpg_season": 32.0,
+     "mpg_season": 31.0,
      "counts_if_out": true
     },
     {
      "id": 1630202,
      "name": "Payton Pritchard",
      "pos": "G",
-     "value": 13.535,
-     "mpg_recent": 29.1,
+     "value": 13.655,
+     "mpg_recent": 29.2,
      "glue": -0.564,
-     "mpg_season": 29.0,
+     "mpg_season": 27.667,
      "counts_if_out": true
     },
     {
      "id": 1629674,
      "name": "Neemias Queta",
      "pos": "C",
-     "value": 12.47,
-     "mpg_recent": 22.3,
+     "value": 12.51,
+     "mpg_recent": 22.1,
      "glue": 0.951,
-     "mpg_season": 22.0,
+     "mpg_season": 21.0,
      "counts_if_out": true
     },
     {
      "id": 1628401,
      "name": "Derrick White",
      "pos": "G",
-     "value": 10.805,
-     "mpg_recent": 30.3,
+     "value": 9.96,
+     "mpg_recent": 30.6,
      "glue": 0.426,
-     "mpg_season": 34.5,
+     "mpg_season": 30.0,
      "counts_if_out": true
     },
     {
@@ -483,7 +483,7 @@
      "value": 9.77,
      "mpg_recent": 19.6,
      "glue": 1.175,
-     "mpg_season": 20.5,
+     "mpg_season": 20.0,
      "counts_if_out": true
     },
     {
@@ -500,40 +500,40 @@
      "id": 1630568,
      "name": "Luka Garza",
      "pos": "C",
-     "value": 7.62,
-     "mpg_recent": 15.4,
+     "value": 8.295,
+     "mpg_recent": 14.7,
      "glue": 0.912,
-     "mpg_season": 6.0,
+     "mpg_season": 10.833,
      "counts_if_out": true
     },
     {
      "id": 1630573,
      "name": "Sam Hauser",
      "pos": "F",
-     "value": 7.04,
-     "mpg_recent": 23.2,
+     "value": 6.76,
+     "mpg_recent": 22.2,
      "glue": -0.286,
-     "mpg_season": 20.5,
+     "mpg_season": 20.167,
      "counts_if_out": true
     },
     {
      "id": 1631248,
      "name": "Baylor Scheierman",
      "pos": "G",
-     "value": 6.355,
-     "mpg_recent": 21.1,
+     "value": 6.235,
+     "mpg_recent": 21.4,
      "glue": -0.274,
-     "mpg_season": 14.5,
+     "mpg_season": 18.833,
      "counts_if_out": true
     },
     {
      "id": 1641775,
      "name": "Jordan Walsh",
      "pos": "G",
-     "value": 4.715,
+     "value": 4.53,
      "mpg_recent": 18.9,
      "glue": -0.244,
-     "mpg_season": 17.0,
+     "mpg_season": 16.5,
      "counts_if_out": true
     },
     {
@@ -543,7 +543,7 @@
      "value": 3.705,
      "mpg_recent": 17.1,
      "glue": -0.383,
-     "mpg_season": 18.404,
+     "mpg_season": 7.0,
      "counts_if_out": true
     },
     {
@@ -553,17 +553,17 @@
      "value": 3.57,
      "mpg_recent": 8.8,
      "glue": -0.072,
-     "mpg_season": 14.35,
+     "mpg_season": 5.0,
      "counts_if_out": true
     },
     {
      "id": 1642864,
      "name": "Hugo Gonz\u00e1lez",
      "pos": "G",
-     "value": 2.44,
-     "mpg_recent": 10.4,
+     "value": 2.68,
+     "mpg_recent": 10.5,
      "glue": 0.004,
-     "mpg_season": 15.522,
+     "mpg_season": 14.75,
      "counts_if_out": true
     },
     {
@@ -572,8 +572,8 @@
      "pos": "F",
      "value": 1.6,
      "mpg_recent": 3.5,
-     "glue": null,
-     "mpg_season": null,
+     "glue": 0.0,
+     "mpg_season": 3.5,
      "counts_if_out": true
     },
     {
@@ -625,7 +625,7 @@
      "value": 14.33,
      "mpg_recent": 33.1,
      "glue": -0.111,
-     "mpg_season": 31.333,
+     "mpg_season": 34.0,
      "counts_if_out": true
     },
     {
@@ -645,7 +645,7 @@
      "value": 10.79,
      "mpg_recent": 29.0,
      "glue": 0.884,
-     "mpg_season": 25.667,
+     "mpg_season": 29.429,
      "counts_if_out": true
     },
     {
@@ -665,7 +665,7 @@
      "value": 10.385,
      "mpg_recent": 24.7,
      "glue": -0.192,
-     "mpg_season": 27.333,
+     "mpg_season": 27.286,
      "counts_if_out": true
     },
     {
@@ -675,7 +675,7 @@
      "value": 8.3,
      "mpg_recent": 27.7,
      "glue": 0.061,
-     "mpg_season": 31.667,
+     "mpg_season": 29.0,
      "counts_if_out": true
     },
     {
@@ -685,7 +685,7 @@
      "value": 6.85,
      "mpg_recent": 17.5,
      "glue": 0.566,
-     "mpg_season": 18.667,
+     "mpg_season": 16.571,
      "counts_if_out": true
     },
     {
@@ -695,7 +695,7 @@
      "value": 6.825,
      "mpg_recent": 28.7,
      "glue": -0.499,
-     "mpg_season": 31.0,
+     "mpg_season": 32.429,
      "counts_if_out": true
     },
     {
@@ -705,7 +705,7 @@
      "value": 6.575,
      "mpg_recent": 18.8,
      "glue": -0.597,
-     "mpg_season": 15.0,
+     "mpg_season": 18.0,
      "counts_if_out": true
     },
     {
@@ -725,7 +725,7 @@
      "value": 4.28,
      "mpg_recent": 12.5,
      "glue": -0.248,
-     "mpg_season": 16.5,
+     "mpg_season": 13.5,
      "counts_if_out": true
     },
     {
@@ -735,7 +735,7 @@
      "value": 4.115,
      "mpg_recent": 23.3,
      "glue": -0.655,
-     "mpg_season": 25.667,
+     "mpg_season": 25.0,
      "counts_if_out": true
     },
     {
@@ -765,7 +765,7 @@
      "value": 2.45,
      "mpg_recent": 7.0,
      "glue": 0.0,
-     "mpg_season": 12.0,
+     "mpg_season": 7.0,
      "counts_if_out": true
     },
     {
@@ -827,7 +827,7 @@
      "value": 14.36,
      "mpg_recent": 21.0,
      "glue": -0.207,
-     "mpg_season": 18.667,
+     "mpg_season": 18.167,
      "counts_if_out": true
     },
     {
@@ -837,7 +837,7 @@
      "value": 14.067,
      "mpg_recent": 34.0,
      "glue": 0.0,
-     "mpg_season": 34.667,
+     "mpg_season": 34.167,
      "counts_if_out": true
     },
     {
@@ -847,7 +847,7 @@
      "value": 13.76,
      "mpg_recent": 28.6,
      "glue": -0.158,
-     "mpg_season": 26.0,
+     "mpg_season": 26.333,
      "counts_if_out": true
     },
     {
@@ -857,7 +857,7 @@
      "value": 12.605,
      "mpg_recent": 25.9,
      "glue": -0.322,
-     "mpg_season": 25.667,
+     "mpg_season": 25.333,
      "counts_if_out": true
     },
     {
@@ -867,7 +867,7 @@
      "value": 12.375,
      "mpg_recent": 26.9,
      "glue": -0.241,
-     "mpg_season": 29.0,
+     "mpg_season": 29.833,
      "counts_if_out": true
     },
     {
@@ -877,7 +877,7 @@
      "value": 9.8,
      "mpg_recent": 25.1,
      "glue": 0.037,
-     "mpg_season": 23.333,
+     "mpg_season": 20.2,
      "counts_if_out": true
     },
     {
@@ -897,7 +897,7 @@
      "value": 9.69,
      "mpg_recent": 22.0,
      "glue": 0.483,
-     "mpg_season": 22.667,
+     "mpg_season": 24.167,
      "counts_if_out": true
     },
     {
@@ -907,7 +907,7 @@
      "value": 6.015,
      "mpg_recent": 21.1,
      "glue": -0.436,
-     "mpg_season": 19.667,
+     "mpg_season": 17.833,
      "counts_if_out": true
     },
     {
@@ -917,7 +917,7 @@
      "value": 5.975,
      "mpg_recent": 14.0,
      "glue": 0.668,
-     "mpg_season": 10.0,
+     "mpg_season": 7.0,
      "counts_if_out": true
     },
     {
@@ -927,7 +927,7 @@
      "value": 4.967,
      "mpg_recent": 12.667,
      "glue": 0.0,
-     "mpg_season": 14.0,
+     "mpg_season": 13.0,
      "counts_if_out": true
     },
     {
@@ -937,7 +937,7 @@
      "value": 4.925,
      "mpg_recent": 12.0,
      "glue": -0.042,
-     "mpg_season": 15.0,
+     "mpg_season": 14.0,
      "counts_if_out": true
     },
     {
@@ -957,7 +957,7 @@
      "value": 4.1,
      "mpg_recent": 18.7,
      "glue": -0.653,
-     "mpg_season": 16.15,
+     "mpg_season": 6.0,
      "counts_if_out": true
     },
     {
@@ -967,7 +967,7 @@
      "value": 0.586,
      "mpg_recent": 10.714,
      "glue": -0.621,
-     "mpg_season": 13.5,
+     "mpg_season": 14.0,
      "counts_if_out": true
     },
     {
@@ -976,8 +976,8 @@
      "pos": "F",
      "value": -0.1,
      "mpg_recent": 12.0,
-     "glue": null,
-     "mpg_season": null,
+     "glue": 0.0,
+     "mpg_season": 12.0,
      "counts_if_out": true
     },
     {
@@ -987,7 +987,7 @@
      "value": -1.3,
      "mpg_recent": 9.667,
      "glue": 0.0,
-     "mpg_season": 14.0,
+     "mpg_season": 13.0,
      "counts_if_out": true
     }
    ]
@@ -1019,7 +1019,7 @@
      "value": 18.7,
      "mpg_recent": 32.2,
      "glue": 0.171,
-     "mpg_season": 35.5,
+     "mpg_season": 33.0,
      "counts_if_out": true
     },
     {
@@ -1029,7 +1029,7 @@
      "value": 18.205,
      "mpg_recent": 31.3,
      "glue": 0.484,
-     "mpg_season": 34.5,
+     "mpg_season": 32.833,
      "counts_if_out": true
     },
     {
@@ -1039,7 +1039,7 @@
      "value": 17.075,
      "mpg_recent": 26.3,
      "glue": 0.973,
-     "mpg_season": 28.0,
+     "mpg_season": 27.833,
      "counts_if_out": true
     },
     {
@@ -1049,7 +1049,7 @@
      "value": 15.795,
      "mpg_recent": 33.1,
      "glue": -0.468,
-     "mpg_season": 33.0,
+     "mpg_season": 33.667,
      "counts_if_out": true
     },
     {
@@ -1059,7 +1059,7 @@
      "value": 10.355,
      "mpg_recent": 24.5,
      "glue": -0.002,
-     "mpg_season": 30.5,
+     "mpg_season": 28.5,
      "counts_if_out": true
     },
     {
@@ -1068,8 +1068,8 @@
      "pos": "G",
      "value": 9.333,
      "mpg_recent": 20.667,
-     "glue": null,
-     "mpg_season": null,
+     "glue": 0.0,
+     "mpg_season": 20.667,
      "counts_if_out": true
     },
     {
@@ -1079,7 +1079,7 @@
      "value": 8.355,
      "mpg_recent": 25.3,
      "glue": -0.275,
-     "mpg_season": 22.5,
+     "mpg_season": 24.6,
      "counts_if_out": true
     },
     {
@@ -1089,7 +1089,7 @@
      "value": 7.115,
      "mpg_recent": 21.0,
      "glue": -0.269,
-     "mpg_season": 22.5,
+     "mpg_season": 20.8,
      "counts_if_out": true
     },
     {
@@ -1099,7 +1099,7 @@
      "value": 6.98,
      "mpg_recent": 16.8,
      "glue": 0.222,
-     "mpg_season": 12.649,
+     "mpg_season": 11.0,
      "counts_if_out": true
     },
     {
@@ -1109,7 +1109,7 @@
      "value": 5.65,
      "mpg_recent": 17.7,
      "glue": 0.0,
-     "mpg_season": 19.5,
+     "mpg_season": 17.833,
      "counts_if_out": true
     },
     {
@@ -1119,7 +1119,7 @@
      "value": 4.68,
      "mpg_recent": 14.6,
      "glue": 0.009,
-     "mpg_season": 12.268,
+     "mpg_season": 19.0,
      "counts_if_out": true
     },
     {
@@ -1129,7 +1129,7 @@
      "value": 4.455,
      "mpg_recent": 15.8,
      "glue": 0.197,
-     "mpg_season": 6.5,
+     "mpg_season": 9.667,
      "counts_if_out": true
     },
     {
@@ -1139,7 +1139,7 @@
      "value": 3.65,
      "mpg_recent": 9.2,
      "glue": -0.033,
-     "mpg_season": 11.0,
+     "mpg_season": 6.0,
      "counts_if_out": true
     },
     {
@@ -1211,7 +1211,7 @@
      "value": 20.745,
      "mpg_recent": 30.9,
      "glue": -0.026,
-     "mpg_season": 25.0,
+     "mpg_season": 32.2,
      "counts_if_out": true
     },
     {
@@ -1221,7 +1221,7 @@
      "value": 18.52,
      "mpg_recent": 30.1,
      "glue": 0.0,
-     "mpg_season": 24.5,
+     "mpg_season": 28.6,
      "counts_if_out": true
     },
     {
@@ -1231,7 +1231,7 @@
      "value": 13.105,
      "mpg_recent": 21.7,
      "glue": 1.039,
-     "mpg_season": 19.667,
+     "mpg_season": 23.333,
      "counts_if_out": true
     },
     {
@@ -1251,7 +1251,7 @@
      "value": 10.77,
      "mpg_recent": 32.2,
      "glue": -0.308,
-     "mpg_season": 33.333,
+     "mpg_season": 33.167,
      "counts_if_out": true
     },
     {
@@ -1281,7 +1281,7 @@
      "value": 7.395,
      "mpg_recent": 24.1,
      "glue": -0.306,
-     "mpg_season": 30.333,
+     "mpg_season": 29.5,
      "counts_if_out": true
     },
     {
@@ -1291,7 +1291,7 @@
      "value": 6.75,
      "mpg_recent": 26.5,
      "glue": -0.755,
-     "mpg_season": 30.667,
+     "mpg_season": 26.333,
      "counts_if_out": true
     },
     {
@@ -1301,7 +1301,7 @@
      "value": 6.595,
      "mpg_recent": 16.5,
      "glue": 1.467,
-     "mpg_season": 3.667,
+     "mpg_season": 3.25,
      "counts_if_out": true
     },
     {
@@ -1311,7 +1311,7 @@
      "value": 6.14,
      "mpg_recent": 18.2,
      "glue": -0.201,
-     "mpg_season": 15.0,
+     "mpg_season": 13.75,
      "counts_if_out": true
     },
     {
@@ -1321,7 +1321,7 @@
      "value": 5.195,
      "mpg_recent": 17.6,
      "glue": -0.19,
-     "mpg_season": 16.255,
+     "mpg_season": 19.5,
      "counts_if_out": true
     },
     {
@@ -1341,7 +1341,7 @@
      "value": 3.8,
      "mpg_recent": 15.5,
      "glue": 0.0,
-     "mpg_season": 14.333,
+     "mpg_season": 15.5,
      "counts_if_out": true
     },
     {
@@ -1351,7 +1351,7 @@
      "value": 3.475,
      "mpg_recent": 14.9,
      "glue": -0.324,
-     "mpg_season": 25.667,
+     "mpg_season": 21.6,
      "counts_if_out": true
     },
     {
@@ -1413,7 +1413,7 @@
      "value": 25.19,
      "mpg_recent": 35.4,
      "glue": 1.116,
-     "mpg_season": 39.5,
+     "mpg_season": 37.2,
      "counts_if_out": true
     },
     {
@@ -1423,7 +1423,7 @@
      "value": 20.76,
      "mpg_recent": 38.1,
      "glue": -0.135,
-     "mpg_season": 40.0,
+     "mpg_season": 38.2,
      "counts_if_out": true
     },
     {
@@ -1433,7 +1433,7 @@
      "value": 12.78,
      "mpg_recent": 26.7,
      "glue": -0.676,
-     "mpg_season": 28.0,
+     "mpg_season": 26.75,
      "counts_if_out": true
     },
     {
@@ -1443,7 +1443,7 @@
      "value": 12.505,
      "mpg_recent": 35.0,
      "glue": -0.022,
-     "mpg_season": 36.5,
+     "mpg_season": 36.2,
      "counts_if_out": true
     },
     {
@@ -1453,7 +1453,7 @@
      "value": 11.395,
      "mpg_recent": 30.4,
      "glue": -0.143,
-     "mpg_season": 33.0,
+     "mpg_season": 30.2,
      "counts_if_out": true
     },
     {
@@ -1463,7 +1463,7 @@
      "value": 11.355,
      "mpg_recent": 29.3,
      "glue": -0.015,
-     "mpg_season": 11.0,
+     "mpg_season": 22.5,
      "counts_if_out": true
     },
     {
@@ -1473,7 +1473,7 @@
      "value": 8.28,
      "mpg_recent": 16.9,
      "glue": 0.825,
-     "mpg_season": 10.0,
+     "mpg_season": 12.0,
      "counts_if_out": true
     },
     {
@@ -1483,7 +1483,7 @@
      "value": 7.78,
      "mpg_recent": 22.8,
      "glue": 0.0,
-     "mpg_season": 28.0,
+     "mpg_season": 23.75,
      "counts_if_out": true
     },
     {
@@ -1493,7 +1493,7 @@
      "value": 6.995,
      "mpg_recent": 20.8,
      "glue": -0.234,
-     "mpg_season": 20.268,
+     "mpg_season": 4.0,
      "counts_if_out": true
     },
     {
@@ -1543,7 +1543,7 @@
      "value": 2.475,
      "mpg_recent": 3.0,
      "glue": 0.568,
-     "mpg_season": 10.421,
+     "mpg_season": 4.0,
      "counts_if_out": true
     },
     {
@@ -1553,7 +1553,7 @@
      "value": 2.4,
      "mpg_recent": 16.5,
      "glue": 0.0,
-     "mpg_season": 19.0,
+     "mpg_season": 21.333,
      "counts_if_out": true
     },
     {
@@ -1563,7 +1563,7 @@
      "value": 1.82,
      "mpg_recent": 10.1,
      "glue": -0.911,
-     "mpg_season": 10.0,
+     "mpg_season": 9.667,
      "counts_if_out": true
     },
     {
@@ -1573,7 +1573,7 @@
      "value": 1.59,
      "mpg_recent": 10.3,
      "glue": 0.008,
-     "mpg_season": 12.612,
+     "mpg_season": 4.0,
      "counts_if_out": true
     }
    ]
@@ -1615,7 +1615,7 @@
      "value": 16.7,
      "mpg_recent": 28.2,
      "glue": 0.39,
-     "mpg_season": 33.0,
+     "mpg_season": 33.5,
      "counts_if_out": true
     },
     {
@@ -1625,7 +1625,7 @@
      "value": 12.3,
      "mpg_recent": 23.8,
      "glue": -0.119,
-     "mpg_season": 25.333,
+     "mpg_season": 24.667,
      "counts_if_out": true
     },
     {
@@ -1635,7 +1635,7 @@
      "value": 11.82,
      "mpg_recent": 22.2,
      "glue": 1.567,
-     "mpg_season": 22.0,
+     "mpg_season": 26.833,
      "counts_if_out": true
     },
     {
@@ -1645,7 +1645,7 @@
      "value": 10.565,
      "mpg_recent": 27.4,
      "glue": -0.066,
-     "mpg_season": 29.0,
+     "mpg_season": 29.667,
      "counts_if_out": true
     },
     {
@@ -1655,7 +1655,7 @@
      "value": 10.465,
      "mpg_recent": 25.9,
      "glue": 1.14,
-     "mpg_season": 26.5,
+     "mpg_season": 26.6,
      "counts_if_out": true
     },
     {
@@ -1665,7 +1665,7 @@
      "value": 9.18,
      "mpg_recent": 24.8,
      "glue": -0.18,
-     "mpg_season": 29.667,
+     "mpg_season": 26.667,
      "counts_if_out": true
     },
     {
@@ -1685,7 +1685,7 @@
      "value": 7.405,
      "mpg_recent": 21.6,
      "glue": -0.277,
-     "mpg_season": 21.333,
+     "mpg_season": 20.667,
      "counts_if_out": true
     },
     {
@@ -1695,7 +1695,7 @@
      "value": 6.94,
      "mpg_recent": 25.4,
      "glue": -0.609,
-     "mpg_season": 23.5,
+     "mpg_season": 7.0,
      "counts_if_out": true
     },
     {
@@ -1705,7 +1705,7 @@
      "value": 6.6,
      "mpg_recent": 18.3,
      "glue": 0.587,
-     "mpg_season": 17.667,
+     "mpg_season": 18.667,
      "counts_if_out": true
     },
     {
@@ -1725,7 +1725,7 @@
      "value": 4.6,
      "mpg_recent": 17.6,
      "glue": -0.036,
-     "mpg_season": 16.0,
+     "mpg_season": 15.667,
      "counts_if_out": true
     },
     {
@@ -1735,7 +1735,7 @@
      "value": 2.975,
      "mpg_recent": 5.6,
      "glue": 0.04,
-     "mpg_season": 2.5,
+     "mpg_season": 3.5,
      "counts_if_out": true
     },
     {
@@ -1745,7 +1745,7 @@
      "value": 1.35,
      "mpg_recent": 5.0,
      "glue": -1.039,
-     "mpg_season": 7.75,
+     "mpg_season": 3.0,
      "counts_if_out": true
     },
     {
@@ -1755,7 +1755,7 @@
      "value": 0.665,
      "mpg_recent": 6.2,
      "glue": -0.397,
-     "mpg_season": 11.25,
+     "mpg_season": 2.0,
      "counts_if_out": true
     },
     {
@@ -1783,21 +1783,21 @@
   "GSW": {
    "id": 1610612744,
    "name": "Golden State Warriors",
-   "elo": 1490.5,
+   "elo": 1500.3,
    "recent": {
-    "ORTG": 114.0973,
-    "DRTG": 115.4897,
-    "NET": -1.3924,
-    "PACE": 100.104,
-    "MARGIN": -1.4,
-    "EFG": 0.5383,
-    "TOV_PCT": 0.1661,
-    "ORB_PCT": 0.321,
-    "FT_RATE": 0.3007,
-    "OPP_EFG": 0.5761,
-    "OPP_TOV_PCT": 0.171,
-    "DRB_PCT": 0.7048,
-    "OPP_FT_RATE": 0.2602
+    "ORTG": 115.3849,
+    "DRTG": 116.0678,
+    "NET": -0.6829,
+    "PACE": 100.228,
+    "MARGIN": -0.7,
+    "EFG": 0.5491,
+    "TOV_PCT": 0.1638,
+    "ORB_PCT": 0.3175,
+    "FT_RATE": 0.2877,
+    "OPP_EFG": 0.5743,
+    "OPP_TOV_PCT": 0.1698,
+    "DRB_PCT": 0.7083,
+    "OPP_FT_RATE": 0.2616
    },
    "players": [
     {
@@ -1807,7 +1807,7 @@
      "value": 18.565,
      "mpg_recent": 27.3,
      "glue": 0.039,
-     "mpg_season": 25.5,
+     "mpg_season": 28.0,
      "counts_if_out": true
     },
     {
@@ -1824,20 +1824,20 @@
      "id": 1642865,
      "name": "Yaxel Lendeborg",
      "pos": "F",
-     "value": 14.317,
-     "mpg_recent": 32.0,
+     "value": 17.029,
+     "mpg_recent": 32.286,
      "glue": 0.0,
-     "mpg_season": 34.333,
+     "mpg_season": 32.286,
      "counts_if_out": true
     },
     {
      "id": 1641764,
      "name": "Brandin Podziemski",
      "pos": "G",
-     "value": 14.315,
-     "mpg_recent": 31.0,
+     "value": 14.155,
+     "mpg_recent": 31.2,
      "glue": -0.147,
-     "mpg_season": 33.0,
+     "mpg_season": 33.6,
      "counts_if_out": true
     },
     {
@@ -1861,53 +1861,53 @@
      "counts_if_out": true
     },
     {
-     "id": 1630611,
-     "name": "Gui Santos",
-     "pos": "F",
-     "value": 10.375,
-     "mpg_recent": 25.2,
-     "glue": 0.061,
-     "mpg_season": 22.667,
-     "counts_if_out": true
-    },
-    {
      "id": 1630314,
      "name": "Brandon Williams",
      "pos": "G",
-     "value": 10.23,
-     "mpg_recent": 20.2,
+     "value": 10.27,
+     "mpg_recent": 19.9,
      "glue": -0.014,
-     "mpg_season": 17.0,
+     "mpg_season": 17.286,
+     "counts_if_out": true
+    },
+    {
+     "id": 1630611,
+     "name": "Gui Santos",
+     "pos": "F",
+     "value": 10.24,
+     "mpg_recent": 22.8,
+     "glue": 0.061,
+     "mpg_season": 20.167,
      "counts_if_out": true
     },
     {
      "id": 1627780,
      "name": "Gary Payton II",
      "pos": "G",
-     "value": 9.79,
-     "mpg_recent": 14.2,
+     "value": 9.02,
+     "mpg_recent": 13.2,
      "glue": 0.502,
-     "mpg_season": 15.333,
+     "mpg_season": 13.0,
      "counts_if_out": true
     },
     {
      "id": 1629001,
      "name": "De'Anthony Melton",
      "pos": "G",
-     "value": 8.21,
-     "mpg_recent": 21.9,
+     "value": 8.725,
+     "mpg_recent": 21.8,
      "glue": 0.69,
-     "mpg_season": 22.667,
+     "mpg_season": 22.286,
      "counts_if_out": true
     },
     {
      "id": 201143,
      "name": "Al Horford",
      "pos": "C",
-     "value": 8.05,
-     "mpg_recent": 19.5,
+     "value": 7.79,
+     "mpg_recent": 18.8,
      "glue": 0.085,
-     "mpg_season": 18.5,
+     "mpg_season": 18.667,
      "counts_if_out": true
     },
     {
@@ -1917,45 +1917,45 @@
      "value": 7.785,
      "mpg_recent": 28.5,
      "glue": 0.228,
-     "mpg_season": 26.0,
+     "mpg_season": 28.6,
      "counts_if_out": true
     },
     {
      "id": 1643633,
      "name": "Graham Ike",
      "pos": "F-C",
-     "value": 7.4,
-     "mpg_recent": 13.25,
+     "value": 6.46,
+     "mpg_recent": 11.8,
      "glue": 0.0,
-     "mpg_season": 17.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1627777,
-     "name": "Georges Niang",
-     "pos": "F",
-     "value": 5.605,
-     "mpg_recent": 19.1,
-     "glue": 0.0,
-     "mpg_season": 18.667,
+     "mpg_season": 14.25,
      "counts_if_out": true
     },
     {
      "id": 1629646,
      "name": "Charles Bassey",
      "pos": "F-C",
-     "value": 5.255,
-     "mpg_recent": 13.3,
+     "value": 5.355,
+     "mpg_recent": 14.7,
      "glue": -0.17,
-     "mpg_season": 13.0,
+     "mpg_season": 9.2,
+     "counts_if_out": true
+    },
+    {
+     "id": 1627777,
+     "name": "Georges Niang",
+     "pos": "F",
+     "value": 5.21,
+     "mpg_recent": 19.3,
+     "glue": 0.0,
+     "mpg_season": 19.571,
      "counts_if_out": true
     },
     {
      "id": 1643018,
      "name": "LJ Cryer",
      "pos": "G",
-     "value": 4.835,
-     "mpg_recent": 14.7,
+     "value": 4.685,
+     "mpg_recent": 13.4,
      "glue": -0.803,
      "mpg_season": 11.5,
      "counts_if_out": true
@@ -1964,10 +1964,10 @@
      "id": 1642954,
      "name": "Will Richard",
      "pos": "G",
-     "value": 3.56,
-     "mpg_recent": 13.9,
+     "value": 3.78,
+     "mpg_recent": 14.4,
      "glue": -0.167,
-     "mpg_season": 18.333,
+     "mpg_season": 18.833,
      "counts_if_out": true
     },
     {
@@ -1977,7 +1977,7 @@
      "value": 2.93,
      "mpg_recent": 12.3,
      "glue": 0.116,
-     "mpg_season": 6.5,
+     "mpg_season": 5.333,
      "counts_if_out": true
     }
    ]
@@ -2009,7 +2009,7 @@
      "value": 20.65,
      "mpg_recent": 34.9,
      "glue": -0.33,
-     "mpg_season": 37.0,
+     "mpg_season": 33.714,
      "counts_if_out": true
     },
     {
@@ -2019,7 +2019,7 @@
      "value": 19.545,
      "mpg_recent": 32.4,
      "glue": 0.3,
-     "mpg_season": 33.0,
+     "mpg_season": 33.8,
      "counts_if_out": true
     },
     {
@@ -2029,7 +2029,7 @@
      "value": 18.395,
      "mpg_recent": 35.6,
      "glue": 0.097,
-     "mpg_season": 36.333,
+     "mpg_season": 33.857,
      "counts_if_out": true
     },
     {
@@ -2039,7 +2039,7 @@
      "value": 13.06,
      "mpg_recent": 35.3,
      "glue": -0.525,
-     "mpg_season": 34.667,
+     "mpg_season": 34.286,
      "counts_if_out": true
     },
     {
@@ -2049,7 +2049,7 @@
      "value": 11.235,
      "mpg_recent": 23.2,
      "glue": 0.402,
-     "mpg_season": 23.0,
+     "mpg_season": 23.25,
      "counts_if_out": true
     },
     {
@@ -2059,7 +2059,7 @@
      "value": 10.5,
      "mpg_recent": 32.1,
      "glue": 0.0,
-     "mpg_season": 30.5,
+     "mpg_season": 30.4,
      "counts_if_out": true
     },
     {
@@ -2069,7 +2069,7 @@
      "value": 9.52,
      "mpg_recent": 19.1,
      "glue": 0.387,
-     "mpg_season": 16.593,
+     "mpg_season": 10.0,
      "counts_if_out": true
     },
     {
@@ -2079,7 +2079,7 @@
      "value": 8.37,
      "mpg_recent": 27.3,
      "glue": 0.674,
-     "mpg_season": 24.0,
+     "mpg_season": 25.25,
      "counts_if_out": true
     },
     {
@@ -2089,7 +2089,7 @@
      "value": 8.27,
      "mpg_recent": 24.5,
      "glue": 0.252,
-     "mpg_season": 20.0,
+     "mpg_season": 24.143,
      "counts_if_out": true
     },
     {
@@ -2099,7 +2099,7 @@
      "value": 7.395,
      "mpg_recent": 24.0,
      "glue": 0.814,
-     "mpg_season": 9.0,
+     "mpg_season": 8.0,
      "counts_if_out": true
     },
     {
@@ -2109,7 +2109,7 @@
      "value": 4.88,
      "mpg_recent": 13.8,
      "glue": 1.009,
-     "mpg_season": 9.5,
+     "mpg_season": 14.167,
      "counts_if_out": true
     },
     {
@@ -2119,7 +2119,7 @@
      "value": 4.13,
      "mpg_recent": 13.2,
      "glue": -0.42,
-     "mpg_season": 16.5,
+     "mpg_season": 16.2,
      "counts_if_out": true
     },
     {
@@ -2129,7 +2129,7 @@
      "value": 1.895,
      "mpg_recent": 7.8,
      "glue": 0.119,
-     "mpg_season": 2.0,
+     "mpg_season": 4.0,
      "counts_if_out": true
     },
     {
@@ -2149,7 +2149,7 @@
      "value": 1.58,
      "mpg_recent": 7.0,
      "glue": 0.092,
-     "mpg_season": 1.0,
+     "mpg_season": 8.0,
      "counts_if_out": true
     },
     {
@@ -2159,7 +2159,7 @@
      "value": 1.1,
      "mpg_recent": 3.4,
      "glue": 0.0,
-     "mpg_season": 4.0,
+     "mpg_season": 4.333,
      "counts_if_out": true
     },
     {
@@ -2177,21 +2177,21 @@
   "IND": {
    "id": 1610612754,
    "name": "Indiana Pacers",
-   "elo": 1368.8,
+   "elo": 1354.8,
    "recent": {
-    "ORTG": 108.6325,
-    "DRTG": 111.8703,
-    "NET": -3.2378,
-    "PACE": 105.07,
-    "MARGIN": -3.3,
-    "EFG": 0.5412,
-    "TOV_PCT": 0.1561,
-    "ORB_PCT": 0.2186,
-    "FT_RATE": 0.2798,
-    "OPP_EFG": 0.5371,
-    "OPP_TOV_PCT": 0.139,
-    "DRB_PCT": 0.7282,
-    "OPP_FT_RATE": 0.2659
+    "ORTG": 108.3937,
+    "DRTG": 110.5892,
+    "NET": -2.1955,
+    "PACE": 103.878,
+    "MARGIN": -2.1,
+    "EFG": 0.5364,
+    "TOV_PCT": 0.1503,
+    "ORB_PCT": 0.2238,
+    "FT_RATE": 0.2802,
+    "OPP_EFG": 0.5258,
+    "OPP_TOV_PCT": 0.1392,
+    "DRB_PCT": 0.7339,
+    "OPP_FT_RATE": 0.2904
    },
    "players": [
     {
@@ -2201,27 +2201,27 @@
      "value": 21.685,
      "mpg_recent": 32.9,
      "glue": 0.0,
-     "mpg_season": 32.333,
+     "mpg_season": 33.0,
      "counts_if_out": true
     },
     {
      "id": 1627783,
      "name": "Pascal Siakam",
      "pos": "F",
-     "value": 16.13,
-     "mpg_recent": 31.0,
+     "value": 16.16,
+     "mpg_recent": 31.2,
      "glue": -0.01,
-     "mpg_season": 30.0,
+     "mpg_season": 32.143,
      "counts_if_out": true
     },
     {
      "id": 1629614,
      "name": "Andrew Nembhard",
      "pos": "G-F",
-     "value": 14.4,
-     "mpg_recent": 32.6,
+     "value": 13.97,
+     "mpg_recent": 33.3,
      "glue": -0.724,
-     "mpg_season": 32.0,
+     "mpg_season": 32.667,
      "counts_if_out": true
     },
     {
@@ -2231,7 +2231,7 @@
      "value": 11.735,
      "mpg_recent": 21.6,
      "glue": -0.113,
-     "mpg_season": 23.333,
+     "mpg_season": 23.25,
      "counts_if_out": true
     },
     {
@@ -2258,70 +2258,70 @@
      "id": 1641716,
      "name": "Jarace Walker",
      "pos": "F",
-     "value": 9.155,
-     "mpg_recent": 22.5,
+     "value": 8.99,
+     "mpg_recent": 24.1,
      "glue": -0.652,
-     "mpg_season": 18.333,
-     "counts_if_out": true
-    },
-    {
-     "id": 1626162,
-     "name": "Kelly Oubre Jr.",
-     "pos": "F-G",
-     "value": 8.865,
-     "mpg_recent": 25.4,
-     "glue": -0.095,
-     "mpg_season": 22.333,
+     "mpg_season": 21.714,
      "counts_if_out": true
     },
     {
      "id": 1631245,
      "name": "Quenton Jackson",
      "pos": "G",
-     "value": 8.26,
-     "mpg_recent": 22.4,
+     "value": 8.715,
+     "mpg_recent": 22.3,
      "glue": 0.231,
-     "mpg_season": 16.667,
+     "mpg_season": 19.857,
+     "counts_if_out": true
+    },
+    {
+     "id": 1626162,
+     "name": "Kelly Oubre Jr.",
+     "pos": "F-G",
+     "value": 8.325,
+     "mpg_recent": 24.5,
+     "glue": -0.095,
+     "mpg_season": 23.143,
      "counts_if_out": true
     },
     {
      "id": 1630174,
      "name": "Aaron Nesmith",
      "pos": "G-F",
-     "value": 8.18,
-     "mpg_recent": 26.1,
+     "value": 8.245,
+     "mpg_recent": 26.5,
      "glue": -0.179,
-     "mpg_season": 19.5,
+     "mpg_season": 23.0,
      "counts_if_out": true
     },
     {
      "id": 1630643,
      "name": "Jay Huff",
      "pos": "C",
-     "value": 8.015,
-     "mpg_recent": 20.1,
+     "value": 7.25,
+     "mpg_recent": 20.0,
      "glue": 0.393,
-     "mpg_season": 13.0,
+     "mpg_season": 16.667,
      "counts_if_out": true
     },
     {
      "id": 1641738,
      "name": "Kobe Brown",
      "pos": "F",
-     "value": 7.545,
-     "mpg_recent": 22.7,
+     "value": 7.23,
+     "mpg_recent": 20.9,
      "glue": -0.51,
-     "mpg_season": 18.06,
+     "mpg_season": 17.5,
      "counts_if_out": true
     },
     {
      "id": 1641771,
      "name": "Jalen Slawson",
      "pos": "F",
-     "value": 5.86,
-     "mpg_recent": 19.5,
+     "value": 5.98,
+     "mpg_recent": 18.0,
      "glue": 0.081,
-     "mpg_season": 12.0,
+     "mpg_season": 12.5,
      "counts_if_out": true
     },
     {
@@ -2348,20 +2348,20 @@
      "id": 1626204,
      "name": "Larry Nance Jr.",
      "pos": "F-C",
-     "value": 3.82,
-     "mpg_recent": 16.7,
+     "value": 3.31,
+     "mpg_recent": 17.1,
      "glue": 0.231,
-     "mpg_season": 22.0,
+     "mpg_season": 21.4,
      "counts_if_out": true
     },
     {
      "id": 1643552,
      "name": "Braden Smith",
      "pos": "G",
-     "value": 0.3,
-     "mpg_recent": 5.667,
-     "glue": null,
-     "mpg_season": null,
+     "value": 0.225,
+     "mpg_recent": 4.5,
+     "glue": 0.0,
+     "mpg_season": 8.5,
      "counts_if_out": true
     }
    ]
@@ -2369,21 +2369,21 @@
   "LAC": {
    "id": 1610612746,
    "name": "Los Angeles Clippers",
-   "elo": 1506.5,
+   "elo": 1496.7,
    "recent": {
-    "ORTG": 108.4763,
-    "DRTG": 110.9146,
-    "NET": -2.4383,
-    "PACE": 101.594,
-    "MARGIN": -2.2,
-    "EFG": 0.5423,
-    "TOV_PCT": 0.1787,
-    "ORB_PCT": 0.2459,
-    "FT_RATE": 0.2658,
-    "OPP_EFG": 0.5382,
-    "OPP_TOV_PCT": 0.1525,
-    "DRB_PCT": 0.7115,
-    "OPP_FT_RATE": 0.2958
+    "ORTG": 106.6663,
+    "DRTG": 113.12,
+    "NET": -6.4537,
+    "PACE": 100.968,
+    "MARGIN": -6.3,
+    "EFG": 0.5298,
+    "TOV_PCT": 0.1786,
+    "ORB_PCT": 0.2507,
+    "FT_RATE": 0.2638,
+    "OPP_EFG": 0.5462,
+    "OPP_TOV_PCT": 0.1486,
+    "DRB_PCT": 0.7141,
+    "OPP_FT_RATE": 0.2886
    },
    "players": [
     {
@@ -2400,10 +2400,10 @@
      "id": 1629636,
      "name": "Darius Garland",
      "pos": "G",
-     "value": 14.63,
-     "mpg_recent": 31.1,
+     "value": 14.255,
+     "mpg_recent": 31.5,
      "glue": -0.561,
-     "mpg_season": 34.667,
+     "mpg_season": 32.5,
      "counts_if_out": true
     },
     {
@@ -2420,20 +2420,10 @@
      "id": 201572,
      "name": "Brook Lopez",
      "pos": "C",
-     "value": 9.93,
+     "value": 9.8,
      "mpg_recent": 24.6,
      "glue": 0.365,
-     "mpg_season": 23.333,
-     "counts_if_out": true
-    },
-    {
-     "id": 1643413,
-     "name": "Keaton Wagler",
-     "pos": "G",
-     "value": 9.64,
-     "mpg_recent": 26.4,
-     "glue": 0.0,
-     "mpg_season": 26.0,
+     "mpg_season": 21.833,
      "counts_if_out": true
     },
     {
@@ -2450,10 +2440,20 @@
      "id": 1630543,
      "name": "Isaiah Jackson",
      "pos": "F",
-     "value": 8.91,
-     "mpg_recent": 19.6,
+     "value": 8.96,
+     "mpg_recent": 19.9,
      "glue": 1.002,
-     "mpg_season": 22.333,
+     "mpg_season": 21.5,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643413,
+     "name": "Keaton Wagler",
+     "pos": "G",
+     "value": 8.9,
+     "mpg_recent": 25.167,
+     "glue": 0.0,
+     "mpg_season": 25.0,
      "counts_if_out": true
     },
     {
@@ -2467,43 +2467,43 @@
      "counts_if_out": true
     },
     {
-     "id": 1627884,
-     "name": "Derrick Jones Jr.",
-     "pos": "F",
-     "value": 8.005,
-     "mpg_recent": 26.7,
-     "glue": 0.063,
-     "mpg_season": 30.333,
-     "counts_if_out": true
-    },
-    {
      "id": 1629060,
      "name": "Rui Hachimura",
      "pos": "F",
-     "value": 7.355,
-     "mpg_recent": 29.3,
+     "value": 8.02,
+     "mpg_recent": 30.5,
      "glue": -0.656,
-     "mpg_season": 31.333,
+     "mpg_season": 30.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1627884,
+     "name": "Derrick Jones Jr.",
+     "pos": "F",
+     "value": 7.97,
+     "mpg_recent": 27.0,
+     "glue": 0.063,
+     "mpg_season": 28.667,
      "counts_if_out": true
     },
     {
      "id": 1627739,
      "name": "Kris Dunn",
      "pos": "G",
-     "value": 6.89,
+     "value": 7.455,
      "mpg_recent": 28.2,
      "glue": 0.131,
-     "mpg_season": 31.0,
+     "mpg_season": 29.667,
      "counts_if_out": true
     },
     {
      "id": 1642920,
      "name": "Kobe Sanders",
      "pos": "G",
-     "value": 6.5,
-     "mpg_recent": 21.1,
+     "value": 6.905,
+     "mpg_recent": 22.1,
      "glue": -0.19,
-     "mpg_season": 19.333,
+     "mpg_season": 23.167,
      "counts_if_out": true
     },
     {
@@ -2520,60 +2520,60 @@
      "id": 1641711,
      "name": "Gradey Dick",
      "pos": "G-F",
-     "value": 3.35,
-     "mpg_recent": 10.4,
+     "value": 3.08,
+     "mpg_recent": 10.6,
      "glue": 0.228,
      "mpg_season": 16.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1629618,
-     "name": "Jalen Pickett",
-     "pos": "G",
-     "value": 2.505,
-     "mpg_recent": 9.5,
-     "glue": -0.848,
-     "mpg_season": 2.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1631104,
-     "name": "Blake Wesley",
-     "pos": "G",
-     "value": 2.195,
-     "mpg_recent": 7.3,
-     "glue": -0.45,
-     "mpg_season": 14.2,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642394,
-     "name": "Baba Miller",
-     "pos": "F",
-     "value": 2.075,
-     "mpg_recent": 8.25,
-     "glue": 0.0,
-     "mpg_season": 9.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642353,
-     "name": "Cam Christie",
-     "pos": "G",
-     "value": 0.935,
-     "mpg_recent": 5.0,
-     "glue": -0.403,
-     "mpg_season": 2.0,
      "counts_if_out": true
     },
     {
      "id": 1643568,
      "name": "Nick Martinelli",
      "pos": "F",
-     "value": 0.833,
-     "mpg_recent": 4.333,
+     "value": 2.975,
+     "mpg_recent": 4.75,
      "glue": 0.0,
-     "mpg_season": 2.0,
+     "mpg_season": 4.667,
+     "counts_if_out": true
+    },
+    {
+     "id": 1629618,
+     "name": "Jalen Pickett",
+     "pos": "G",
+     "value": 2.525,
+     "mpg_recent": 9.5,
+     "glue": -0.848,
+     "mpg_season": 4.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1631104,
+     "name": "Blake Wesley",
+     "pos": "G",
+     "value": 2.33,
+     "mpg_recent": 6.9,
+     "glue": -0.45,
+     "mpg_season": 4.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642394,
+     "name": "Baba Miller",
+     "pos": "F",
+     "value": 2.18,
+     "mpg_recent": 7.8,
+     "glue": 0.0,
+     "mpg_season": 10.667,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642353,
+     "name": "Cam Christie",
+     "pos": "G",
+     "value": 1.07,
+     "mpg_recent": 5.2,
+     "glue": -0.403,
+     "mpg_season": 7.0,
      "counts_if_out": true
     }
    ]
@@ -2581,71 +2581,71 @@
   "LAL": {
    "id": 1610612747,
    "name": "Los Angeles Lakers",
-   "elo": 1581.4,
+   "elo": 1586.7,
    "recent": {
-    "ORTG": 115.104,
-    "DRTG": 108.7421,
-    "NET": 6.3619,
-    "PACE": 99.622,
-    "MARGIN": 6.3,
-    "EFG": 0.5961,
-    "TOV_PCT": 0.1719,
-    "ORB_PCT": 0.2462,
-    "FT_RATE": 0.3341,
-    "OPP_EFG": 0.53,
-    "OPP_TOV_PCT": 0.1856,
-    "DRB_PCT": 0.6838,
-    "OPP_FT_RATE": 0.2826
+    "ORTG": 118.093,
+    "DRTG": 107.4465,
+    "NET": 10.6466,
+    "PACE": 100.886,
+    "MARGIN": 10.5,
+    "EFG": 0.6111,
+    "TOV_PCT": 0.1762,
+    "ORB_PCT": 0.2545,
+    "FT_RATE": 0.3316,
+    "OPP_EFG": 0.5186,
+    "OPP_TOV_PCT": 0.1869,
+    "DRB_PCT": 0.6708,
+    "OPP_FT_RATE": 0.2907
    },
    "players": [
     {
      "id": 1629029,
      "name": "Luka Don\u010di\u0107",
      "pos": "F-G",
-     "value": 28.55,
-     "mpg_recent": 35.5,
+     "value": 29.395,
+     "mpg_recent": 35.1,
      "glue": 0.126,
-     "mpg_season": 35.0,
+     "mpg_season": 35.833,
      "counts_if_out": true
     },
     {
      "id": 1630559,
      "name": "Austin Reaves",
      "pos": "G",
-     "value": 18.025,
-     "mpg_recent": 34.4,
+     "value": 17.37,
+     "mpg_recent": 34.3,
      "glue": 0.145,
-     "mpg_season": 35.333,
+     "mpg_season": 36.0,
      "counts_if_out": true
     },
     {
      "id": 1631117,
      "name": "Walker Kessler",
      "pos": "C",
-     "value": 12.735,
-     "mpg_recent": 30.9,
+     "value": 12.79,
+     "mpg_recent": 31.0,
      "glue": 1.126,
-     "mpg_season": 31.0,
+     "mpg_season": 30.571,
      "counts_if_out": true
     },
     {
      "id": 1629012,
      "name": "Collin Sexton",
      "pos": "G",
-     "value": 12.11,
-     "mpg_recent": 23.7,
+     "value": 11.415,
+     "mpg_recent": 22.5,
      "glue": -0.283,
-     "mpg_season": 18.0,
+     "mpg_season": 17.667,
      "counts_if_out": true
     },
     {
      "id": 1630572,
      "name": "Sandro Mamukelashvili",
      "pos": "F-C",
-     "value": 10.68,
-     "mpg_recent": 22.4,
+     "value": 10.85,
+     "mpg_recent": 22.6,
      "glue": 0.435,
-     "mpg_season": 22.333,
+     "mpg_season": 23.429,
      "counts_if_out": true
     },
     {
@@ -2655,17 +2655,17 @@
      "value": 9.985,
      "mpg_recent": 25.4,
      "glue": 0.293,
-     "mpg_season": 28.333,
+     "mpg_season": 28.5,
      "counts_if_out": true
     },
     {
      "id": 1629656,
      "name": "Quentin Grimes",
      "pos": "G",
-     "value": 9.365,
-     "mpg_recent": 25.4,
+     "value": 8.265,
+     "mpg_recent": 25.7,
      "glue": -0.338,
-     "mpg_season": 26.0,
+     "mpg_season": 26.714,
      "counts_if_out": true
     },
     {
@@ -2682,30 +2682,30 @@
      "id": 1629680,
      "name": "Matisse Thybulle",
      "pos": "G-F",
-     "value": 6.855,
-     "mpg_recent": 23.3,
+     "value": 7.065,
+     "mpg_recent": 22.5,
      "glue": 1.495,
-     "mpg_season": 24.333,
+     "mpg_season": 25.143,
      "counts_if_out": true
     },
     {
      "id": 1631222,
      "name": "Jake LaRavia",
      "pos": "F",
-     "value": 5.84,
-     "mpg_recent": 25.8,
+     "value": 5.805,
+     "mpg_recent": 24.7,
      "glue": 0.163,
-     "mpg_season": 16.5,
+     "mpg_season": 23.333,
      "counts_if_out": true
     },
     {
      "id": 1630702,
      "name": "Jaden Hardy",
      "pos": "G",
-     "value": 5.675,
-     "mpg_recent": 15.8,
+     "value": 5.245,
+     "mpg_recent": 13.2,
      "glue": -0.506,
-     "mpg_season": 17.458,
+     "mpg_season": 5.5,
      "counts_if_out": true
     },
     {
@@ -2715,25 +2715,25 @@
      "value": 4.315,
      "mpg_recent": 11.7,
      "glue": 0.827,
-     "mpg_season": 8.0,
+     "mpg_season": 7.25,
      "counts_if_out": true
     },
     {
      "id": 1629020,
      "name": "Jarred Vanderbilt",
      "pos": "F",
-     "value": 3.36,
-     "mpg_recent": 15.7,
+     "value": 3.405,
+     "mpg_recent": 15.9,
      "glue": 0.284,
-     "mpg_season": 17.587,
+     "mpg_season": 15.333,
      "counts_if_out": true
     },
     {
      "id": 1642355,
      "name": "Bronny James",
      "pos": "G",
-     "value": 3.09,
-     "mpg_recent": 14.4,
+     "value": 2.57,
+     "mpg_recent": 12.0,
      "glue": -0.272,
      "mpg_season": 11.433,
      "counts_if_out": true
@@ -2762,10 +2762,10 @@
      "id": 1643418,
      "name": "Cameron Carr",
      "pos": "G",
-     "value": null,
-     "mpg_recent": null,
-     "glue": null,
-     "mpg_season": null,
+     "value": 0.0,
+     "mpg_recent": 1.0,
+     "glue": 0.0,
+     "mpg_season": 1.0,
      "counts_if_out": true
     },
     {
@@ -2807,7 +2807,7 @@
      "value": 16.885,
      "mpg_recent": 27.4,
      "glue": -0.016,
-     "mpg_season": 31.667,
+     "mpg_season": 29.8,
      "counts_if_out": true
     },
     {
@@ -2817,7 +2817,7 @@
      "value": 14.2,
      "mpg_recent": 31.0,
      "glue": 0.0,
-     "mpg_season": 34.0,
+     "mpg_season": 31.167,
      "counts_if_out": true
     },
     {
@@ -2827,7 +2827,7 @@
      "value": 11.71,
      "mpg_recent": 24.3,
      "glue": -0.176,
-     "mpg_season": 21.553,
+     "mpg_season": 20.0,
      "counts_if_out": true
     },
     {
@@ -2837,7 +2837,7 @@
      "value": 11.5,
      "mpg_recent": 24.3,
      "glue": 0.872,
-     "mpg_season": 22.0,
+     "mpg_season": 20.2,
      "counts_if_out": true
     },
     {
@@ -2847,7 +2847,7 @@
      "value": 10.925,
      "mpg_recent": 26.0,
      "glue": 0.63,
-     "mpg_season": 30.0,
+     "mpg_season": 28.2,
      "counts_if_out": true
     },
     {
@@ -2867,7 +2867,7 @@
      "value": 10.54,
      "mpg_recent": 20.4,
      "glue": -0.239,
-     "mpg_season": 16.333,
+     "mpg_season": 19.167,
      "counts_if_out": true
     },
     {
@@ -2877,7 +2877,7 @@
      "value": 10.435,
      "mpg_recent": 18.6,
      "glue": 0.188,
-     "mpg_season": 19.98,
+     "mpg_season": 4.0,
      "counts_if_out": true
     },
     {
@@ -2887,7 +2887,7 @@
      "value": 9.77,
      "mpg_recent": 19.2,
      "glue": -0.15,
-     "mpg_season": 14.667,
+     "mpg_season": 16.833,
      "counts_if_out": true
     },
     {
@@ -2897,7 +2897,7 @@
      "value": 9.71,
      "mpg_recent": 25.3,
      "glue": -0.423,
-     "mpg_season": 28.333,
+     "mpg_season": 27.167,
      "counts_if_out": true
     },
     {
@@ -2907,7 +2907,7 @@
      "value": 8.4,
      "mpg_recent": 17.5,
      "glue": -0.318,
-     "mpg_season": 19.5,
+     "mpg_season": 18.2,
      "counts_if_out": true
     },
     {
@@ -2917,7 +2917,7 @@
      "value": 8.285,
      "mpg_recent": 19.0,
      "glue": 0.252,
-     "mpg_season": 18.0,
+     "mpg_season": 16.0,
      "counts_if_out": true
     },
     {
@@ -2927,7 +2927,7 @@
      "value": 8.075,
      "mpg_recent": 17.6,
      "glue": 0.085,
-     "mpg_season": 7.0,
+     "mpg_season": 4.667,
      "counts_if_out": true
     },
     {
@@ -2937,7 +2937,7 @@
      "value": 5.42,
      "mpg_recent": 16.1,
      "glue": 0.24,
-     "mpg_season": 18.667,
+     "mpg_season": 15.2,
      "counts_if_out": true
     },
     {
@@ -2947,7 +2947,7 @@
      "value": 4.72,
      "mpg_recent": 27.6,
      "glue": 0.082,
-     "mpg_season": 23.138,
+     "mpg_season": 4.0,
      "counts_if_out": true
     },
     {
@@ -2957,7 +2957,7 @@
      "value": 4.665,
      "mpg_recent": 20.3,
      "glue": 0.083,
-     "mpg_season": 13.0,
+     "mpg_season": 17.0,
      "counts_if_out": true
     },
     {
@@ -2966,8 +2966,8 @@
      "pos": "F",
      "value": 1.35,
      "mpg_recent": 3.5,
-     "glue": null,
-     "mpg_season": null,
+     "glue": 0.0,
+     "mpg_season": 4.0,
      "counts_if_out": true
     },
     {
@@ -3009,7 +3009,7 @@
      "value": 22.09,
      "mpg_recent": 30.0,
      "glue": 0.512,
-     "mpg_season": 29.333,
+     "mpg_season": 31.5,
      "counts_if_out": true
     },
     {
@@ -3019,7 +3019,7 @@
      "value": 17.665,
      "mpg_recent": 33.0,
      "glue": 0.65,
-     "mpg_season": 31.0,
+     "mpg_season": 31.5,
      "counts_if_out": true
     },
     {
@@ -3029,7 +3029,7 @@
      "value": 11.035,
      "mpg_recent": 28.7,
      "glue": -0.333,
-     "mpg_season": 29.667,
+     "mpg_season": 29.5,
      "counts_if_out": true
     },
     {
@@ -3039,7 +3039,7 @@
      "value": 10.85,
      "mpg_recent": 24.1,
      "glue": -0.054,
-     "mpg_season": 24.333,
+     "mpg_season": 22.833,
      "counts_if_out": true
     },
     {
@@ -3049,7 +3049,7 @@
      "value": 10.81,
      "mpg_recent": 31.7,
      "glue": -0.11,
-     "mpg_season": 34.333,
+     "mpg_season": 34.167,
      "counts_if_out": true
     },
     {
@@ -3059,7 +3059,7 @@
      "value": 9.715,
      "mpg_recent": 26.8,
      "glue": -0.226,
-     "mpg_season": 23.667,
+     "mpg_season": 27.333,
      "counts_if_out": true
     },
     {
@@ -3069,7 +3069,7 @@
      "value": 7.135,
      "mpg_recent": 20.6,
      "glue": -0.814,
-     "mpg_season": 20.0,
+     "mpg_season": 18.167,
      "counts_if_out": true
     },
     {
@@ -3079,7 +3079,7 @@
      "value": 6.71,
      "mpg_recent": 20.1,
      "glue": -0.74,
-     "mpg_season": 22.333,
+     "mpg_season": 21.0,
      "counts_if_out": true
     },
     {
@@ -3109,7 +3109,7 @@
      "value": 4.13,
      "mpg_recent": 8.9,
      "glue": 0.555,
-     "mpg_season": 6.0,
+     "mpg_season": 9.5,
      "counts_if_out": true
     },
     {
@@ -3129,7 +3129,7 @@
      "value": 3.025,
      "mpg_recent": 12.1,
      "glue": -0.437,
-     "mpg_season": 14.667,
+     "mpg_season": 13.2,
      "counts_if_out": true
     },
     {
@@ -3149,7 +3149,7 @@
      "value": 1.7,
      "mpg_recent": 4.25,
      "glue": 0.0,
-     "mpg_season": 3.0,
+     "mpg_season": 4.333,
      "counts_if_out": true
     },
     {
@@ -3201,7 +3201,7 @@
      "value": 14.475,
      "mpg_recent": 30.1,
      "glue": -0.645,
-     "mpg_season": 31.5,
+     "mpg_season": 30.0,
      "counts_if_out": true
     },
     {
@@ -3211,7 +3211,7 @@
      "value": 13.06,
      "mpg_recent": 28.4,
      "glue": 0.55,
-     "mpg_season": 27.667,
+     "mpg_season": 26.333,
      "counts_if_out": true
     },
     {
@@ -3221,7 +3221,7 @@
      "value": 12.965,
      "mpg_recent": 28.0,
      "glue": -0.28,
-     "mpg_season": 31.333,
+     "mpg_season": 28.167,
      "counts_if_out": true
     },
     {
@@ -3241,7 +3241,7 @@
      "value": 9.885,
      "mpg_recent": 19.7,
      "glue": 0.005,
-     "mpg_season": 19.333,
+     "mpg_season": 19.667,
      "counts_if_out": true
     },
     {
@@ -3251,7 +3251,7 @@
      "value": 9.6,
      "mpg_recent": 25.3,
      "glue": -0.999,
-     "mpg_season": 30.667,
+     "mpg_season": 27.0,
      "counts_if_out": true
     },
     {
@@ -3261,7 +3261,7 @@
      "value": 8.495,
      "mpg_recent": 26.1,
      "glue": -0.148,
-     "mpg_season": 17.333,
+     "mpg_season": 19.333,
      "counts_if_out": true
     },
     {
@@ -3271,7 +3271,7 @@
      "value": 7.98,
      "mpg_recent": 25.3,
      "glue": -0.089,
-     "mpg_season": 2.0,
+     "mpg_season": 4.0,
      "counts_if_out": true
     },
     {
@@ -3281,7 +3281,7 @@
      "value": 7.333,
      "mpg_recent": 15.833,
      "glue": 0.0,
-     "mpg_season": 13.667,
+     "mpg_season": 15.833,
      "counts_if_out": true
     },
     {
@@ -3291,7 +3291,7 @@
      "value": 6.965,
      "mpg_recent": 20.7,
      "glue": 0.291,
-     "mpg_season": 24.667,
+     "mpg_season": 22.5,
      "counts_if_out": true
     },
     {
@@ -3301,7 +3301,7 @@
      "value": 6.89,
      "mpg_recent": 22.7,
      "glue": -1.037,
-     "mpg_season": 18.5,
+     "mpg_season": 11.8,
      "counts_if_out": true
     },
     {
@@ -3311,7 +3311,7 @@
      "value": 6.72,
      "mpg_recent": 25.1,
      "glue": 0.158,
-     "mpg_season": 27.333,
+     "mpg_season": 26.167,
      "counts_if_out": true
     },
     {
@@ -3351,7 +3351,7 @@
      "value": 4.25,
      "mpg_recent": 16.0,
      "glue": 0.0,
-     "mpg_season": 11.0,
+     "mpg_season": 15.75,
      "counts_if_out": true
     },
     {
@@ -3361,7 +3361,7 @@
      "value": 3.415,
      "mpg_recent": 19.8,
      "glue": -0.929,
-     "mpg_season": 23.509,
+     "mpg_season": 6.0,
      "counts_if_out": true
     },
     {
@@ -3403,7 +3403,7 @@
      "value": 18.82,
      "mpg_recent": 32.0,
      "glue": -0.244,
-     "mpg_season": 31.333,
+     "mpg_season": 33.75,
      "counts_if_out": true
     },
     {
@@ -3413,7 +3413,7 @@
      "value": 14.735,
      "mpg_recent": 27.6,
      "glue": 0.082,
-     "mpg_season": 22.667,
+     "mpg_season": 25.143,
      "counts_if_out": true
     },
     {
@@ -3423,7 +3423,7 @@
      "value": 13.85,
      "mpg_recent": 29.8,
      "glue": -0.443,
-     "mpg_season": 26.333,
+     "mpg_season": 29.143,
      "counts_if_out": true
     },
     {
@@ -3433,7 +3433,7 @@
      "value": 11.18,
      "mpg_recent": 29.9,
      "glue": 0.66,
-     "mpg_season": 31.333,
+     "mpg_season": 30.0,
      "counts_if_out": true
     },
     {
@@ -3443,7 +3443,7 @@
      "value": 10.69,
      "mpg_recent": 32.5,
      "glue": -0.238,
-     "mpg_season": 30.0,
+     "mpg_season": 33.286,
      "counts_if_out": true
     },
     {
@@ -3463,7 +3463,7 @@
      "value": 8.765,
      "mpg_recent": 28.8,
      "glue": -0.182,
-     "mpg_season": 27.667,
+     "mpg_season": 30.571,
      "counts_if_out": true
     },
     {
@@ -3473,7 +3473,7 @@
      "value": 8.58,
      "mpg_recent": 15.5,
      "glue": -0.135,
-     "mpg_season": 9.0,
+     "mpg_season": 11.714,
      "counts_if_out": true
     },
     {
@@ -3483,7 +3483,7 @@
      "value": 7.515,
      "mpg_recent": 24.8,
      "glue": -0.662,
-     "mpg_season": 21.667,
+     "mpg_season": 22.333,
      "counts_if_out": true
     },
     {
@@ -3493,7 +3493,7 @@
      "value": 6.75,
      "mpg_recent": 21.1,
      "glue": 0.508,
-     "mpg_season": 13.667,
+     "mpg_season": 18.714,
      "counts_if_out": true
     },
     {
@@ -3513,7 +3513,7 @@
      "value": 6.29,
      "mpg_recent": 20.5,
      "glue": 0.0,
-     "mpg_season": 14.333,
+     "mpg_season": 16.0,
      "counts_if_out": true
     },
     {
@@ -3523,7 +3523,7 @@
      "value": 3.9,
      "mpg_recent": 14.8,
      "glue": 0.106,
-     "mpg_season": 4.0,
+     "mpg_season": 10.6,
      "counts_if_out": true
     },
     {
@@ -3543,7 +3543,7 @@
      "value": 2.37,
      "mpg_recent": 5.2,
      "glue": -0.735,
-     "mpg_season": 18.0,
+     "mpg_season": 2.0,
      "counts_if_out": true
     },
     {
@@ -3595,7 +3595,7 @@
      "value": 16.725,
      "mpg_recent": 30.2,
      "glue": -0.083,
-     "mpg_season": 32.667,
+     "mpg_season": 31.667,
      "counts_if_out": true
     },
     {
@@ -3605,7 +3605,7 @@
      "value": 14.02,
      "mpg_recent": 33.6,
      "glue": -0.15,
-     "mpg_season": 33.333,
+     "mpg_season": 31.833,
      "counts_if_out": true
     },
     {
@@ -3615,7 +3615,7 @@
      "value": 13.615,
      "mpg_recent": 30.2,
      "glue": 0.088,
-     "mpg_season": 33.0,
+     "mpg_season": 32.25,
      "counts_if_out": true
     },
     {
@@ -3625,7 +3625,7 @@
      "value": 13.45,
      "mpg_recent": 28.1,
      "glue": -0.554,
-     "mpg_season": 23.667,
+     "mpg_season": 24.5,
      "counts_if_out": true
     },
     {
@@ -3635,7 +3635,7 @@
      "value": 13.305,
      "mpg_recent": 31.2,
      "glue": -0.325,
-     "mpg_season": 22.667,
+     "mpg_season": 25.333,
      "counts_if_out": true
     },
     {
@@ -3645,7 +3645,7 @@
      "value": 10.4,
      "mpg_recent": 27.7,
      "glue": 0.192,
-     "mpg_season": 24.0,
+     "mpg_season": 23.667,
      "counts_if_out": true
     },
     {
@@ -3655,7 +3655,7 @@
      "value": 10.343,
      "mpg_recent": 28.0,
      "glue": 0.636,
-     "mpg_season": 30.923,
+     "mpg_season": 3.0,
      "counts_if_out": true
     },
     {
@@ -3665,7 +3665,7 @@
      "value": 9.845,
      "mpg_recent": 19.3,
      "glue": -0.978,
-     "mpg_season": 17.667,
+     "mpg_season": 17.5,
      "counts_if_out": true
     },
     {
@@ -3685,7 +3685,7 @@
      "value": 7.065,
      "mpg_recent": 16.5,
      "glue": 0.409,
-     "mpg_season": 8.5,
+     "mpg_season": 16.0,
      "counts_if_out": true
     },
     {
@@ -3695,7 +3695,7 @@
      "value": 6.065,
      "mpg_recent": 19.3,
      "glue": -0.095,
-     "mpg_season": 21.775,
+     "mpg_season": 9.0,
      "counts_if_out": true
     },
     {
@@ -3705,7 +3705,7 @@
      "value": 5.97,
      "mpg_recent": 15.4,
      "glue": 0.054,
-     "mpg_season": 20.0,
+     "mpg_season": 16.5,
      "counts_if_out": true
     },
     {
@@ -3715,7 +3715,7 @@
      "value": 5.85,
      "mpg_recent": 14.3,
      "glue": -0.401,
-     "mpg_season": 16.725,
+     "mpg_season": 17.5,
      "counts_if_out": true
     },
     {
@@ -3725,7 +3725,7 @@
      "value": 5.82,
      "mpg_recent": 18.9,
      "glue": -0.74,
-     "mpg_season": 18.667,
+     "mpg_season": 16.0,
      "counts_if_out": true
     },
     {
@@ -3735,7 +3735,7 @@
      "value": 5.425,
      "mpg_recent": 20.5,
      "glue": 0.35,
-     "mpg_season": 17.0,
+     "mpg_season": 21.167,
      "counts_if_out": true
     },
     {
@@ -3745,7 +3745,7 @@
      "value": 2.62,
      "mpg_recent": 11.3,
      "glue": -0.341,
-     "mpg_season": 12.258,
+     "mpg_season": 3.0,
      "counts_if_out": true
     },
     {
@@ -3797,7 +3797,7 @@
      "value": 19.0,
      "mpg_recent": 31.1,
      "glue": 0.29,
-     "mpg_season": 31.333,
+     "mpg_season": 31.667,
      "counts_if_out": true
     },
     {
@@ -3807,7 +3807,7 @@
      "value": 18.67,
      "mpg_recent": 34.6,
      "glue": -0.459,
-     "mpg_season": 34.667,
+     "mpg_season": 35.167,
      "counts_if_out": true
     },
     {
@@ -3817,7 +3817,7 @@
      "value": 12.81,
      "mpg_recent": 32.1,
      "glue": 0.343,
-     "mpg_season": 33.333,
+     "mpg_season": 33.5,
      "counts_if_out": true
     },
     {
@@ -3827,7 +3827,7 @@
      "value": 10.8,
      "mpg_recent": 31.9,
      "glue": 0.069,
-     "mpg_season": 33.667,
+     "mpg_season": 32.5,
      "counts_if_out": true
     },
     {
@@ -3837,7 +3837,7 @@
      "value": 7.89,
      "mpg_recent": 26.1,
      "glue": -0.446,
-     "mpg_season": 30.0,
+     "mpg_season": 27.333,
      "counts_if_out": true
     },
     {
@@ -3847,7 +3847,7 @@
      "value": 7.405,
      "mpg_recent": 17.0,
      "glue": 0.298,
-     "mpg_season": 13.0,
+     "mpg_season": 13.333,
      "counts_if_out": true
     },
     {
@@ -3867,7 +3867,7 @@
      "value": 5.485,
      "mpg_recent": 10.8,
      "glue": -0.5,
-     "mpg_season": 7.0,
+     "mpg_season": 10.0,
      "counts_if_out": true
     },
     {
@@ -3887,7 +3887,7 @@
      "value": 4.675,
      "mpg_recent": 22.5,
      "glue": -0.472,
-     "mpg_season": 22.667,
+     "mpg_season": 24.167,
      "counts_if_out": true
     },
     {
@@ -3897,7 +3897,7 @@
      "value": 4.36,
      "mpg_recent": 15.1,
      "glue": 0.399,
-     "mpg_season": 4.5,
+     "mpg_season": 3.333,
      "counts_if_out": true
     },
     {
@@ -3907,7 +3907,7 @@
      "value": 3.76,
      "mpg_recent": 10.1,
      "glue": -0.245,
-     "mpg_season": 15.0,
+     "mpg_season": 14.25,
      "counts_if_out": true
     },
     {
@@ -3989,7 +3989,7 @@
      "value": 22.315,
      "mpg_recent": 30.8,
      "glue": 0.462,
-     "mpg_season": 35.667,
+     "mpg_season": 32.667,
      "counts_if_out": true
     },
     {
@@ -4019,7 +4019,7 @@
      "value": 10.88,
      "mpg_recent": 23.3,
      "glue": 0.11,
-     "mpg_season": 24.667,
+     "mpg_season": 25.5,
      "counts_if_out": true
     },
     {
@@ -4029,7 +4029,7 @@
      "value": 9.41,
      "mpg_recent": 21.3,
      "glue": 1.242,
-     "mpg_season": 22.333,
+     "mpg_season": 24.0,
      "counts_if_out": true
     },
     {
@@ -4059,7 +4059,7 @@
      "value": 5.72,
      "mpg_recent": 21.8,
      "glue": -0.189,
-     "mpg_season": 20.333,
+     "mpg_season": 24.667,
      "counts_if_out": true
     },
     {
@@ -4069,7 +4069,7 @@
      "value": 5.067,
      "mpg_recent": 18.0,
      "glue": 0.0,
-     "mpg_season": 13.0,
+     "mpg_season": 17.833,
      "counts_if_out": true
     },
     {
@@ -4079,7 +4079,7 @@
      "value": 5.055,
      "mpg_recent": 16.3,
      "glue": 0.483,
-     "mpg_season": 12.333,
+     "mpg_season": 18.167,
      "counts_if_out": true
     },
     {
@@ -4089,7 +4089,7 @@
      "value": 4.57,
      "mpg_recent": 16.3,
      "glue": -0.176,
-     "mpg_season": 6.0,
+     "mpg_season": 17.0,
      "counts_if_out": true
     },
     {
@@ -4109,7 +4109,7 @@
      "value": 2.817,
      "mpg_recent": 15.5,
      "glue": 0.0,
-     "mpg_season": 6.5,
+     "mpg_season": 18.4,
      "counts_if_out": true
     },
     {
@@ -4119,7 +4119,7 @@
      "value": 2.505,
      "mpg_recent": 22.3,
      "glue": -0.095,
-     "mpg_season": 17.02,
+     "mpg_season": 9.0,
      "counts_if_out": true
     },
     {
@@ -4129,7 +4129,7 @@
      "value": 2.205,
      "mpg_recent": 9.8,
      "glue": -0.702,
-     "mpg_season": 10.188,
+     "mpg_season": 10.0,
      "counts_if_out": true
     },
     {
@@ -4138,8 +4138,8 @@
      "pos": "G",
      "value": -0.033,
      "mpg_recent": 18.333,
-     "glue": null,
-     "mpg_season": null,
+     "glue": 0.0,
+     "mpg_season": 18.333,
      "counts_if_out": true
     },
     {
@@ -4157,21 +4157,21 @@
   "ORL": {
    "id": 1610612753,
    "name": "Orlando Magic",
-   "elo": 1516.9,
+   "elo": 1508.7,
    "recent": {
-    "ORTG": 110.008,
-    "DRTG": 109.2309,
-    "NET": 0.7771,
-    "PACE": 104.846,
-    "MARGIN": 0.8,
-    "EFG": 0.5398,
-    "TOV_PCT": 0.1561,
-    "ORB_PCT": 0.2567,
-    "FT_RATE": 0.3386,
-    "OPP_EFG": 0.5321,
-    "OPP_TOV_PCT": 0.1519,
-    "DRB_PCT": 0.7436,
-    "OPP_FT_RATE": 0.2841
+    "ORTG": 109.7014,
+    "DRTG": 110.4675,
+    "NET": -0.7661,
+    "PACE": 103.702,
+    "MARGIN": -0.7,
+    "EFG": 0.5437,
+    "TOV_PCT": 0.1629,
+    "ORB_PCT": 0.2595,
+    "FT_RATE": 0.3234,
+    "OPP_EFG": 0.5357,
+    "OPP_TOV_PCT": 0.1515,
+    "DRB_PCT": 0.7298,
+    "OPP_FT_RATE": 0.2722
    },
    "players": [
     {
@@ -4188,30 +4188,30 @@
      "id": 1630217,
      "name": "Desmond Bane",
      "pos": "G",
-     "value": 12.69,
-     "mpg_recent": 29.9,
+     "value": 12.71,
+     "mpg_recent": 30.5,
      "glue": -0.012,
-     "mpg_season": 31.667,
+     "mpg_season": 34.5,
      "counts_if_out": true
     },
     {
      "id": 1630532,
      "name": "Franz Wagner",
      "pos": "F",
-     "value": 12.68,
-     "mpg_recent": 28.0,
+     "value": 12.375,
+     "mpg_recent": 30.3,
      "glue": -0.197,
-     "mpg_season": 33.333,
+     "mpg_season": 35.5,
      "counts_if_out": true
     },
     {
      "id": 1628976,
      "name": "Wendell Carter Jr.",
      "pos": "C-F",
-     "value": 11.235,
-     "mpg_recent": 28.4,
+     "value": 10.765,
+     "mpg_recent": 28.7,
      "glue": 0.56,
-     "mpg_season": 30.667,
+     "mpg_season": 32.167,
      "counts_if_out": true
     },
     {
@@ -4228,50 +4228,50 @@
      "id": 1641710,
      "name": "Anthony Black",
      "pos": "G",
-     "value": 9.055,
-     "mpg_recent": 19.7,
+     "value": 9.735,
+     "mpg_recent": 20.7,
      "glue": -0.238,
-     "mpg_season": 26.0,
+     "mpg_season": 28.0,
      "counts_if_out": true
     },
     {
      "id": 1641783,
      "name": "Tristan da Silva",
      "pos": "F",
-     "value": 8.835,
-     "mpg_recent": 25.4,
+     "value": 9.535,
+     "mpg_recent": 27.1,
      "glue": -0.199,
-     "mpg_season": 28.0,
+     "mpg_season": 28.833,
      "counts_if_out": true
     },
     {
      "id": 202696,
      "name": "Nikola Vu\u010devi\u0107",
      "pos": "C",
-     "value": 6.4,
-     "mpg_recent": 12.7,
+     "value": 6.425,
+     "mpg_recent": 13.2,
      "glue": -0.034,
-     "mpg_season": 8.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1629048,
-     "name": "Goga Bitadze",
-     "pos": "C-F",
-     "value": 6.39,
-     "mpg_recent": 14.8,
-     "glue": 0.834,
-     "mpg_season": 12.0,
+     "mpg_season": 8.833,
      "counts_if_out": true
     },
     {
      "id": 1631288,
      "name": "Jamal Cain",
      "pos": "F",
-     "value": 6.385,
-     "mpg_recent": 16.7,
+     "value": 6.365,
+     "mpg_recent": 15.7,
      "glue": -0.352,
-     "mpg_season": 12.5,
+     "mpg_season": 14.8,
+     "counts_if_out": true
+    },
+    {
+     "id": 1629048,
+     "name": "Goga Bitadze",
+     "pos": "C-F",
+     "value": 6.115,
+     "mpg_recent": 14.1,
+     "glue": 0.834,
+     "mpg_season": 9.4,
      "counts_if_out": true
     },
     {
@@ -4281,7 +4281,7 @@
      "value": 5.455,
      "mpg_recent": 12.7,
      "glue": 0.884,
-     "mpg_season": 4.0,
+     "mpg_season": 5.5,
      "counts_if_out": true
     },
     {
@@ -4291,17 +4291,17 @@
      "value": 5.34,
      "mpg_recent": 18.4,
      "glue": -0.309,
-     "mpg_season": 13.0,
+     "mpg_season": 17.5,
      "counts_if_out": true
     },
     {
      "id": 1642859,
      "name": "Jase Richardson",
      "pos": "G",
-     "value": 2.905,
-     "mpg_recent": 11.8,
+     "value": 2.895,
+     "mpg_recent": 13.6,
      "glue": -0.229,
-     "mpg_season": 15.333,
+     "mpg_season": 19.833,
      "counts_if_out": true
     },
     {
@@ -4331,7 +4331,7 @@
      "value": 0.2,
      "mpg_recent": 6.286,
      "glue": -0.967,
-     "mpg_season": 4.0,
+     "mpg_season": 6.333,
      "counts_if_out": true
     },
     {
@@ -4373,7 +4373,7 @@
      "value": 22.2,
      "mpg_recent": 34.6,
      "glue": 0.407,
-     "mpg_season": 34.667,
+     "mpg_season": 35.2,
      "counts_if_out": true
     },
     {
@@ -4383,7 +4383,7 @@
      "value": 19.405,
      "mpg_recent": 36.3,
      "glue": 0.31,
-     "mpg_season": 37.75,
+     "mpg_season": 37.571,
      "counts_if_out": true
     },
     {
@@ -4393,7 +4393,7 @@
      "value": 17.84,
      "mpg_recent": 31.3,
      "glue": -0.441,
-     "mpg_season": 33.333,
+     "mpg_season": 33.4,
      "counts_if_out": true
     },
     {
@@ -4403,7 +4403,7 @@
      "value": 17.815,
      "mpg_recent": 35.7,
      "glue": -0.271,
-     "mpg_season": 36.75,
+     "mpg_season": 36.667,
      "counts_if_out": true
     },
     {
@@ -4413,7 +4413,7 @@
      "value": 13.845,
      "mpg_recent": 35.2,
      "glue": 0.207,
-     "mpg_season": 32.667,
+     "mpg_season": 33.333,
      "counts_if_out": true
     },
     {
@@ -4423,7 +4423,7 @@
      "value": 9.01,
      "mpg_recent": 24.4,
      "glue": -0.783,
-     "mpg_season": 22.25,
+     "mpg_season": 24.714,
      "counts_if_out": true
     },
     {
@@ -4443,7 +4443,7 @@
      "value": 6.945,
      "mpg_recent": 8.7,
      "glue": -0.187,
-     "mpg_season": 17.018,
+     "mpg_season": 2.0,
      "counts_if_out": true
     },
     {
@@ -4473,7 +4473,7 @@
      "value": 6.03,
      "mpg_recent": 24.0,
      "glue": 0.229,
-     "mpg_season": 32.5,
+     "mpg_season": 27.8,
      "counts_if_out": true
     },
     {
@@ -4483,7 +4483,7 @@
      "value": 5.53,
      "mpg_recent": 24.9,
      "glue": -0.628,
-     "mpg_season": 27.5,
+     "mpg_season": 24.286,
      "counts_if_out": true
     },
     {
@@ -4493,7 +4493,7 @@
      "value": 5.075,
      "mpg_recent": 7.5,
      "glue": -0.095,
-     "mpg_season": 8.0,
+     "mpg_season": 12.0,
      "counts_if_out": true
     },
     {
@@ -4503,7 +4503,7 @@
      "value": 4.695,
      "mpg_recent": 15.0,
      "glue": 0.586,
-     "mpg_season": 14.5,
+     "mpg_season": 14.143,
      "counts_if_out": true
     },
     {
@@ -4533,7 +4533,7 @@
      "value": 1.2,
      "mpg_recent": 8.25,
      "glue": 0.0,
-     "mpg_season": 8.5,
+     "mpg_season": 8.0,
      "counts_if_out": true
     }
    ]
@@ -4565,7 +4565,7 @@
      "value": 20.095,
      "mpg_recent": 34.8,
      "glue": -0.325,
-     "mpg_season": 33.0,
+     "mpg_season": 34.75,
      "counts_if_out": true
     },
     {
@@ -4575,7 +4575,7 @@
      "value": 13.14,
      "mpg_recent": 29.7,
      "glue": -0.592,
-     "mpg_season": 31.0,
+     "mpg_season": 32.5,
      "counts_if_out": true
     },
     {
@@ -4585,7 +4585,7 @@
      "value": 12.205,
      "mpg_recent": 25.7,
      "glue": -0.665,
-     "mpg_season": 25.5,
+     "mpg_season": 26.5,
      "counts_if_out": true
     },
     {
@@ -4595,7 +4595,7 @@
      "value": 11.66,
      "mpg_recent": 28.6,
      "glue": -0.523,
-     "mpg_season": 30.0,
+     "mpg_season": 28.5,
      "counts_if_out": true
     },
     {
@@ -4615,7 +4615,7 @@
      "value": 8.92,
      "mpg_recent": 21.5,
      "glue": 0.97,
-     "mpg_season": 15.0,
+     "mpg_season": 18.0,
      "counts_if_out": true
     },
     {
@@ -4635,7 +4635,7 @@
      "value": 7.69,
      "mpg_recent": 24.7,
      "glue": 0.543,
-     "mpg_season": 24.5,
+     "mpg_season": 26.5,
      "counts_if_out": true
     },
     {
@@ -4645,7 +4645,7 @@
      "value": 7.435,
      "mpg_recent": 23.7,
      "glue": -0.556,
-     "mpg_season": 18.0,
+     "mpg_season": 15.667,
      "counts_if_out": true
     },
     {
@@ -4665,7 +4665,7 @@
      "value": 5.965,
      "mpg_recent": 15.6,
      "glue": -0.042,
-     "mpg_season": 13.5,
+     "mpg_season": 12.75,
      "counts_if_out": true
     },
     {
@@ -4675,7 +4675,7 @@
      "value": 5.515,
      "mpg_recent": 16.2,
      "glue": 0.427,
-     "mpg_season": 22.0,
+     "mpg_season": 21.75,
      "counts_if_out": true
     },
     {
@@ -4685,7 +4685,7 @@
      "value": 4.56,
      "mpg_recent": 15.8,
      "glue": 0.023,
-     "mpg_season": 12.0,
+     "mpg_season": 7.5,
      "counts_if_out": true
     },
     {
@@ -4695,7 +4695,7 @@
      "value": 2.985,
      "mpg_recent": 10.1,
      "glue": 0.061,
-     "mpg_season": 7.0,
+     "mpg_season": 5.0,
      "counts_if_out": true
     },
     {
@@ -4715,7 +4715,7 @@
      "value": 1.965,
      "mpg_recent": 8.8,
      "glue": 0.105,
-     "mpg_season": 6.0,
+     "mpg_season": 6.333,
      "counts_if_out": true
     },
     {
@@ -4725,7 +4725,7 @@
      "value": 1.35,
      "mpg_recent": 5.0,
      "glue": 0.0,
-     "mpg_season": 7.0,
+     "mpg_season": 5.0,
      "counts_if_out": true
     }
    ]
@@ -4757,7 +4757,7 @@
      "value": 18.58,
      "mpg_recent": 33.8,
      "glue": -0.451,
-     "mpg_season": 30.5,
+     "mpg_season": 31.4,
      "counts_if_out": true
     },
     {
@@ -4767,7 +4767,7 @@
      "value": 17.255,
      "mpg_recent": 32.0,
      "glue": 0.0,
-     "mpg_season": 28.5,
+     "mpg_season": 29.0,
      "counts_if_out": true
     },
     {
@@ -4777,7 +4777,7 @@
      "value": 13.77,
      "mpg_recent": 27.9,
      "glue": -0.376,
-     "mpg_season": 24.5,
+     "mpg_season": 25.75,
      "counts_if_out": true
     },
     {
@@ -4787,7 +4787,7 @@
      "value": 13.135,
      "mpg_recent": 31.2,
      "glue": 0.097,
-     "mpg_season": 25.0,
+     "mpg_season": 26.2,
      "counts_if_out": true
     },
     {
@@ -4797,7 +4797,7 @@
      "value": 13.0,
      "mpg_recent": 24.4,
      "glue": 0.556,
-     "mpg_season": 20.5,
+     "mpg_season": 22.2,
      "counts_if_out": true
     },
     {
@@ -4817,7 +4817,7 @@
      "value": 11.71,
      "mpg_recent": 29.5,
      "glue": 0.103,
-     "mpg_season": 23.5,
+     "mpg_season": 24.6,
      "counts_if_out": true
     },
     {
@@ -4827,7 +4827,7 @@
      "value": 8.67,
      "mpg_recent": 18.6,
      "glue": 0.483,
-     "mpg_season": 16.5,
+     "mpg_season": 17.0,
      "counts_if_out": true
     },
     {
@@ -4837,7 +4837,7 @@
      "value": 8.045,
      "mpg_recent": 18.8,
      "glue": 0.232,
-     "mpg_season": 19.739,
+     "mpg_season": 9.0,
      "counts_if_out": true
     },
     {
@@ -4847,7 +4847,7 @@
      "value": 8.005,
      "mpg_recent": 25.9,
      "glue": -0.406,
-     "mpg_season": 20.0,
+     "mpg_season": 21.2,
      "counts_if_out": true
     },
     {
@@ -4857,7 +4857,7 @@
      "value": 5.45,
      "mpg_recent": 13.1,
      "glue": -0.398,
-     "mpg_season": 12.658,
+     "mpg_season": 12.0,
      "counts_if_out": true
     },
     {
@@ -4867,7 +4867,7 @@
      "value": 4.17,
      "mpg_recent": 12.4,
      "glue": -0.167,
-     "mpg_season": 16.0,
+     "mpg_season": 13.5,
      "counts_if_out": true
     },
     {
@@ -4877,7 +4877,7 @@
      "value": 2.35,
      "mpg_recent": 14.0,
      "glue": -0.107,
-     "mpg_season": 26.0,
+     "mpg_season": 22.0,
      "counts_if_out": true
     },
     {
@@ -4887,7 +4887,7 @@
      "value": 1.943,
      "mpg_recent": 6.714,
      "glue": 0.012,
-     "mpg_season": 12.0,
+     "mpg_season": 5.0,
      "counts_if_out": true
     },
     {
@@ -4897,7 +4897,7 @@
      "value": 1.685,
      "mpg_recent": 6.1,
      "glue": -0.191,
-     "mpg_season": 6.81,
+     "mpg_season": 7.0,
      "counts_if_out": true
     },
     {
@@ -4907,7 +4907,7 @@
      "value": 1.43,
      "mpg_recent": 6.5,
      "glue": 0.63,
-     "mpg_season": 12.0,
+     "mpg_season": 10.0,
      "counts_if_out": true
     },
     {
@@ -4949,7 +4949,7 @@
      "value": 16.115,
      "mpg_recent": 33.3,
      "glue": 0.395,
-     "mpg_season": 35.667,
+     "mpg_season": 37.0,
      "counts_if_out": true
     },
     {
@@ -4969,7 +4969,7 @@
      "value": 14.817,
      "mpg_recent": 36.5,
      "glue": 0.0,
-     "mpg_season": 36.0,
+     "mpg_season": 36.5,
      "counts_if_out": true
     },
     {
@@ -4979,7 +4979,7 @@
      "value": 12.935,
      "mpg_recent": 30.2,
      "glue": -1.155,
-     "mpg_season": 38.0,
+     "mpg_season": 34.0,
      "counts_if_out": true
     },
     {
@@ -4989,7 +4989,7 @@
      "value": 12.77,
      "mpg_recent": 28.8,
      "glue": 0.422,
-     "mpg_season": 31.333,
+     "mpg_season": 28.833,
      "counts_if_out": true
     },
     {
@@ -5019,7 +5019,7 @@
      "value": 7.695,
      "mpg_recent": 22.9,
      "glue": 0.194,
-     "mpg_season": 17.0,
+     "mpg_season": 14.0,
      "counts_if_out": true
     },
     {
@@ -5029,7 +5029,7 @@
      "value": 7.63,
      "mpg_recent": 22.2,
      "glue": -0.475,
-     "mpg_season": 16.667,
+     "mpg_season": 16.75,
      "counts_if_out": true
     },
     {
@@ -5039,7 +5039,7 @@
      "value": 7.325,
      "mpg_recent": 15.0,
      "glue": -0.319,
-     "mpg_season": 12.0,
+     "mpg_season": 12.667,
      "counts_if_out": true
     },
     {
@@ -5049,7 +5049,7 @@
      "value": 6.955,
      "mpg_recent": 27.1,
      "glue": -0.652,
-     "mpg_season": 24.667,
+     "mpg_season": 29.333,
      "counts_if_out": true
     },
     {
@@ -5059,7 +5059,7 @@
      "value": 5.44,
      "mpg_recent": 22.4,
      "glue": -0.386,
-     "mpg_season": 28.867,
+     "mpg_season": 8.0,
      "counts_if_out": true
     },
     {
@@ -5079,7 +5079,7 @@
      "value": 2.79,
      "mpg_recent": 10.4,
      "glue": 0.778,
-     "mpg_season": 13.0,
+     "mpg_season": 17.25,
      "counts_if_out": true
     },
     {
@@ -5099,7 +5099,7 @@
      "value": 0.767,
      "mpg_recent": 17.833,
      "glue": 0.0,
-     "mpg_season": 15.333,
+     "mpg_season": 18.0,
      "counts_if_out": true
     },
     {
@@ -5109,7 +5109,7 @@
      "value": 0.075,
      "mpg_recent": 9.5,
      "glue": 0.0,
-     "mpg_season": 5.0,
+     "mpg_season": 9.333,
      "counts_if_out": true
     }
    ]
@@ -5141,7 +5141,7 @@
      "value": 26.29,
      "mpg_recent": 30.6,
      "glue": 1.196,
-     "mpg_season": 31.667,
+     "mpg_season": 32.5,
      "counts_if_out": true
     },
     {
@@ -5151,7 +5151,7 @@
      "value": 14.92,
      "mpg_recent": 30.9,
      "glue": -0.072,
-     "mpg_season": 30.0,
+     "mpg_season": 29.5,
      "counts_if_out": true
     },
     {
@@ -5161,7 +5161,7 @@
      "value": 13.9,
      "mpg_recent": 31.5,
      "glue": -0.026,
-     "mpg_season": 31.0,
+     "mpg_season": 32.0,
      "counts_if_out": true
     },
     {
@@ -5171,7 +5171,7 @@
      "value": 12.88,
      "mpg_recent": 30.5,
      "glue": -0.12,
-     "mpg_season": 32.0,
+     "mpg_season": 33.333,
      "counts_if_out": true
     },
     {
@@ -5191,7 +5191,7 @@
      "value": 10.365,
      "mpg_recent": 31.4,
      "glue": -0.235,
-     "mpg_season": 32.667,
+     "mpg_season": 32.0,
      "counts_if_out": true
     },
     {
@@ -5201,7 +5201,7 @@
      "value": 10.35,
      "mpg_recent": 23.4,
      "glue": -0.385,
-     "mpg_season": 21.667,
+     "mpg_season": 22.5,
      "counts_if_out": true
     },
     {
@@ -5211,7 +5211,7 @@
      "value": 9.865,
      "mpg_recent": 27.5,
      "glue": 0.163,
-     "mpg_season": 27.667,
+     "mpg_season": 28.333,
      "counts_if_out": true
     },
     {
@@ -5221,7 +5221,7 @@
      "value": 6.12,
      "mpg_recent": 16.7,
      "glue": 0.5,
-     "mpg_season": 14.333,
+     "mpg_season": 14.667,
      "counts_if_out": true
     },
     {
@@ -5231,7 +5231,7 @@
      "value": 5.79,
      "mpg_recent": 16.7,
      "glue": -0.321,
-     "mpg_season": 6.5,
+     "mpg_season": 9.0,
      "counts_if_out": true
     },
     {
@@ -5241,7 +5241,7 @@
      "value": 3.49,
      "mpg_recent": 14.8,
      "glue": -0.337,
-     "mpg_season": 7.0,
+     "mpg_season": 9.8,
      "counts_if_out": true
     },
     {
@@ -5261,7 +5261,7 @@
      "value": 2.06,
      "mpg_recent": 7.2,
      "glue": 0.01,
-     "mpg_season": 8.29,
+     "mpg_season": 5.0,
      "counts_if_out": true
     },
     {
@@ -5281,7 +5281,7 @@
      "value": 1.267,
      "mpg_recent": 4.333,
      "glue": 0.0,
-     "mpg_season": 4.0,
+     "mpg_season": 4.333,
      "counts_if_out": true
     },
     {
@@ -5309,21 +5309,21 @@
   "TOR": {
    "id": 1610612761,
    "name": "Toronto Raptors",
-   "elo": 1548.1,
+   "elo": 1542.8,
    "recent": {
-    "ORTG": 114.3656,
-    "DRTG": 105.5809,
-    "NET": 8.7848,
-    "PACE": 101.962,
-    "MARGIN": 9.7,
-    "EFG": 0.5502,
-    "TOV_PCT": 0.1296,
-    "ORB_PCT": 0.2576,
-    "FT_RATE": 0.2833,
-    "OPP_EFG": 0.529,
-    "OPP_TOV_PCT": 0.1776,
-    "DRB_PCT": 0.7589,
-    "OPP_FT_RATE": 0.3334
+    "ORTG": 115.8273,
+    "DRTG": 106.2064,
+    "NET": 9.6209,
+    "PACE": 102.768,
+    "MARGIN": 10.5,
+    "EFG": 0.5487,
+    "TOV_PCT": 0.1285,
+    "ORB_PCT": 0.2798,
+    "FT_RATE": 0.2857,
+    "OPP_EFG": 0.5361,
+    "OPP_TOV_PCT": 0.1818,
+    "DRB_PCT": 0.7648,
+    "OPP_FT_RATE": 0.3552
    },
    "players": [
     {
@@ -5340,40 +5340,30 @@
      "id": 1630567,
      "name": "Scottie Barnes",
      "pos": "F-G",
-     "value": 16.8,
-     "mpg_recent": 31.4,
+     "value": 17.065,
+     "mpg_recent": 31.8,
      "glue": 0.45,
-     "mpg_season": 30.333,
+     "mpg_season": 32.833,
      "counts_if_out": true
     },
     {
      "id": 1629628,
      "name": "RJ Barrett",
      "pos": "F-G",
-     "value": 14.335,
-     "mpg_recent": 31.7,
+     "value": 14.125,
+     "mpg_recent": 32.0,
      "glue": -0.309,
-     "mpg_season": 31.0,
+     "mpg_season": 31.667,
      "counts_if_out": true
     },
     {
      "id": 1630193,
      "name": "Immanuel Quickley",
      "pos": "G",
-     "value": 13.01,
-     "mpg_recent": 26.9,
+     "value": 12.87,
+     "mpg_recent": 26.8,
      "glue": -0.384,
-     "mpg_season": 28.667,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642266,
-     "name": "Ja'Kobe Walter",
-     "pos": "G",
-     "value": 10.55,
-     "mpg_recent": 27.5,
-     "glue": -0.007,
-     "mpg_season": 26.0,
+     "mpg_season": 30.667,
      "counts_if_out": true
     },
     {
@@ -5383,17 +5373,27 @@
      "value": 10.44,
      "mpg_recent": 20.2,
      "glue": 0.809,
-     "mpg_season": 22.667,
+     "mpg_season": 20.2,
+     "counts_if_out": true
+    },
+    {
+     "id": 1642266,
+     "name": "Ja'Kobe Walter",
+     "pos": "G",
+     "value": 10.005,
+     "mpg_recent": 27.6,
+     "glue": -0.007,
+     "mpg_season": 28.5,
      "counts_if_out": true
     },
     {
      "id": 1642867,
      "name": "Collin Murray-Boyles",
      "pos": "F",
-     "value": 9.025,
-     "mpg_recent": 19.9,
+     "value": 9.125,
+     "mpg_recent": 19.6,
      "glue": 0.718,
-     "mpg_season": 18.667,
+     "mpg_season": 19.0,
      "counts_if_out": true
     },
     {
@@ -5407,73 +5407,73 @@
      "counts_if_out": true
     },
     {
-     "id": 1643512,
-     "name": "Allen Graves",
-     "pos": "F",
-     "value": 6.78,
-     "mpg_recent": 14.4,
-     "glue": 0.0,
-     "mpg_season": 15.333,
-     "counts_if_out": true
-    },
-    {
      "id": 1642347,
      "name": "Jamal Shead",
      "pos": "G",
-     "value": 6.51,
-     "mpg_recent": 22.6,
+     "value": 6.87,
+     "mpg_recent": 22.5,
      "glue": 0.004,
-     "mpg_season": 20.333,
+     "mpg_season": 22.0,
+     "counts_if_out": true
+    },
+    {
+     "id": 1643512,
+     "name": "Allen Graves",
+     "pos": "F",
+     "value": 5.6,
+     "mpg_recent": 13.667,
+     "glue": 0.0,
+     "mpg_season": 13.667,
      "counts_if_out": true
     },
     {
      "id": 203937,
      "name": "Kyle Anderson",
      "pos": "F-G",
-     "value": 5.535,
-     "mpg_recent": 16.9,
+     "value": 5.335,
+     "mpg_recent": 15.5,
      "glue": 0.451,
-     "mpg_season": 8.0,
+     "mpg_season": 6.25,
      "counts_if_out": true
     },
     {
      "id": 1642419,
      "name": "Jamison Battle",
      "pos": "F",
-     "value": 2.955,
-     "mpg_recent": 9.3,
+     "value": 3.525,
+     "mpg_recent": 10.9,
      "glue": -0.282,
-     "mpg_season": 12.5,
+     "mpg_season": 16.0,
      "counts_if_out": true
     },
     {
      "id": 1631218,
      "name": "Trayce Jackson-Davis",
      "pos": "F",
-     "value": 2.155,
-     "mpg_recent": 6.4,
+     "value": 2.42,
+     "mpg_recent": 6.2,
      "glue": 0.634,
-     "mpg_season": 8.0,
+     "mpg_season": 9.2,
      "counts_if_out": true
     },
     {
      "id": 1643558,
      "name": "Jaden Bradley",
      "pos": "G",
-     "value": 1.375,
+     "value": 2.04,
      "mpg_recent": 4.0,
-     "glue": null,
-     "mpg_season": null,
+     "glue": 0.0,
+     "mpg_season": 4.5,
      "counts_if_out": true
     },
     {
      "id": 1642918,
      "name": "Alijah Martin",
      "pos": "G",
-     "value": 1.015,
-     "mpg_recent": 5.9,
+     "value": 1.135,
+     "mpg_recent": 6.2,
      "glue": 1.149,
-     "mpg_season": 6.0,
+     "mpg_season": 9.333,
      "counts_if_out": true
     },
     {
@@ -5515,7 +5515,7 @@
      "value": 16.52,
      "mpg_recent": 27.1,
      "glue": 0.004,
-     "mpg_season": 36.0,
+     "mpg_season": 28.6,
      "counts_if_out": true
     },
     {
@@ -5525,7 +5525,7 @@
      "value": 16.37,
      "mpg_recent": 29.6,
      "glue": -0.501,
-     "mpg_season": 31.333,
+     "mpg_season": 32.167,
      "counts_if_out": true
     },
     {
@@ -5545,7 +5545,7 @@
      "value": 13.665,
      "mpg_recent": 27.4,
      "glue": 0.146,
-     "mpg_season": 31.667,
+     "mpg_season": 26.0,
      "counts_if_out": true
     },
     {
@@ -5555,7 +5555,7 @@
      "value": 13.31,
      "mpg_recent": 20.8,
      "glue": -0.36,
-     "mpg_season": 15.333,
+     "mpg_season": 16.25,
      "counts_if_out": true
     },
     {
@@ -5565,7 +5565,7 @@
      "value": 11.95,
      "mpg_recent": 31.0,
      "glue": -0.513,
-     "mpg_season": 25.0,
+     "mpg_season": 30.833,
      "counts_if_out": true
     },
     {
@@ -5575,7 +5575,7 @@
      "value": 11.905,
      "mpg_recent": 20.1,
      "glue": 0.392,
-     "mpg_season": 8.5,
+     "mpg_season": 7.75,
      "counts_if_out": true
     },
     {
@@ -5585,7 +5585,7 @@
      "value": 11.155,
      "mpg_recent": 21.4,
      "glue": -0.89,
-     "mpg_season": 15.667,
+     "mpg_season": 18.5,
      "counts_if_out": true
     },
     {
@@ -5595,7 +5595,7 @@
      "value": 10.345,
      "mpg_recent": 24.1,
      "glue": 0.547,
-     "mpg_season": 23.667,
+     "mpg_season": 25.8,
      "counts_if_out": true
     },
     {
@@ -5605,7 +5605,7 @@
      "value": 8.783,
      "mpg_recent": 29.833,
      "glue": 0.0,
-     "mpg_season": 30.333,
+     "mpg_season": 29.833,
      "counts_if_out": true
     },
     {
@@ -5615,7 +5615,7 @@
      "value": 6.265,
      "mpg_recent": 17.3,
      "glue": 0.129,
-     "mpg_season": 18.333,
+     "mpg_season": 17.4,
      "counts_if_out": true
     },
     {
@@ -5625,7 +5625,7 @@
      "value": 5.43,
      "mpg_recent": 14.6,
      "glue": 0.739,
-     "mpg_season": 11.0,
+     "mpg_season": 18.333,
      "counts_if_out": true
     },
     {
@@ -5635,7 +5635,7 @@
      "value": 2.715,
      "mpg_recent": 12.2,
      "glue": -0.041,
-     "mpg_season": 11.658,
+     "mpg_season": 6.0,
      "counts_if_out": true
     },
     {
@@ -5655,7 +5655,7 @@
      "value": 2.34,
      "mpg_recent": 17.5,
      "glue": 0.232,
-     "mpg_season": 8.5,
+     "mpg_season": 16.0,
      "counts_if_out": true
     },
     {
@@ -5675,7 +5675,7 @@
      "value": 1.79,
      "mpg_recent": 11.6,
      "glue": 0.154,
-     "mpg_season": 16.491,
+     "mpg_season": 24.0,
      "counts_if_out": true
     },
     {
@@ -5717,7 +5717,7 @@
      "value": 17.19,
      "mpg_recent": 34.8,
      "glue": 0.277,
-     "mpg_season": 32.333,
+     "mpg_season": 33.333,
      "counts_if_out": true
     },
     {
@@ -5736,8 +5736,8 @@
      "pos": "F",
      "value": 12.75,
      "mpg_recent": 28.5,
-     "glue": null,
-     "mpg_season": null,
+     "glue": 0.0,
+     "mpg_season": 28.5,
      "counts_if_out": true
     },
     {
@@ -5747,7 +5747,7 @@
      "value": 10.405,
      "mpg_recent": 24.8,
      "glue": -0.134,
-     "mpg_season": 27.0,
+     "mpg_season": 26.333,
      "counts_if_out": true
     },
     {
@@ -5757,7 +5757,7 @@
      "value": 10.39,
      "mpg_recent": 24.1,
      "glue": 0.506,
-     "mpg_season": 24.0,
+     "mpg_season": 25.333,
      "counts_if_out": true
     },
     {
@@ -5777,7 +5777,7 @@
      "value": 10.01,
      "mpg_recent": 19.6,
      "glue": 0.267,
-     "mpg_season": 15.333,
+     "mpg_season": 14.333,
      "counts_if_out": true
     },
     {
@@ -5797,7 +5797,7 @@
      "value": 9.39,
      "mpg_recent": 26.6,
      "glue": 0.184,
-     "mpg_season": 30.333,
+     "mpg_season": 31.5,
      "counts_if_out": true
     },
     {
@@ -5837,7 +5837,7 @@
      "value": 8.315,
      "mpg_recent": 24.7,
      "glue": -0.822,
-     "mpg_season": 16.667,
+     "mpg_season": 19.667,
      "counts_if_out": true
     },
     {
@@ -5847,7 +5847,7 @@
      "value": 4.56,
      "mpg_recent": 22.2,
      "glue": -0.669,
-     "mpg_season": 22.667,
+     "mpg_season": 20.6,
      "counts_if_out": true
     },
     {
@@ -5867,7 +5867,7 @@
      "value": 2.395,
      "mpg_recent": 15.6,
      "glue": -0.38,
-     "mpg_season": 14.0,
+     "mpg_season": 13.8,
      "counts_if_out": true
     },
     {
