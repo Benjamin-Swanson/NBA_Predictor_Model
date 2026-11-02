@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T19:04:26+00:00",
+ "generated_at": "2026-11-02T20:09:43+00:00",
  "date": "2026-11-02",
  "ratings_through": "2026-11-01",
  "unmatched_injuries": [],
@@ -568,7 +568,7 @@
     {
      "name": "Dylan Cardwell",
      "status": "Out",
-     "note": "Cardwell (calf) is questionable to suit up for Monday's game against the Mavericks.",
+     "note": "Cardwell is probable for Monday's game against Dallas due to a left calf strain.",
      "out": true
     },
     {
@@ -694,6 +694,18 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Terrence Shannon Jr",
+     "status": "Day-To-Day",
+     "note": "Shannon has a left hip contusion and is questionable to face the Bucks on Monday.",
+     "out": false
+    },
+    {
+     "name": "LaMelo Ball",
+     "status": "Day-To-Day",
+     "note": "Ball is questionable for Monday's game against Milwaukee due to a right wrist contusion.",
+     "out": false
+    },
+    {
      "name": "Anthony Edwards",
      "status": "Out",
      "note": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
@@ -718,32 +730,32 @@
    "neutral": false,
    "home_name": "Houston Rockets",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.6727,
+   "home_win_prob": 0.6833,
    "home_pts": 118.8,
-   "away_pts": 112.9,
+   "away_pts": 112.5,
    "margin_pct": {
-    "5": -17.0,
-    "25": -3.1,
-    "50": 6.2,
-    "75": 15.3,
-    "95": 28.2
+    "5": -16.6,
+    "25": -2.7,
+    "50": 6.5,
+    "75": 15.7,
+    "95": 28.6
    },
-   "total_mean": 231.9,
+   "total_mean": 231.4,
    "total_pct": {
-    "5": 202.0,
-    "25": 219.6,
-    "50": 231.9,
-    "75": 244.1,
-    "95": 261.5
+    "5": 201.6,
+    "25": 219.1,
+    "50": 231.4,
+    "75": 243.6,
+    "95": 261.1
    },
    "rest_home": 2,
    "rest_away": 1,
    "injuries_home": [
     {
      "name": "Clint Capela",
-     "status": "Day-To-Day",
-     "note": "Capela (ankle) is questionable to play in Monday's game against the Celtics.",
-     "out": false
+     "status": "Out",
+     "note": "Capela (ankle) has been ruled out for Monday's game against the Celtics.",
+     "out": true
     },
     {
      "name": "Reed Sheppard",
@@ -760,10 +772,10 @@
    ],
    "injuries_away": [
     {
-     "name": "Mitchell Robinson",
-     "status": "Day-To-Day",
-     "note": "Robinson (rest) has been ruled out for Sunday's game against the Magic.",
-     "out": false
+     "name": "Paul George",
+     "status": "Out",
+     "note": "George will be rested Monday against Houston.",
+     "out": true
     },
     {
      "name": "Devin Carter",
@@ -1113,14 +1125,7 @@
      "out": true
     }
    ],
-   "injuries_away": [
-    {
-     "name": "Tim Hardaway Jr.",
-     "status": "Day-To-Day",
-     "note": "Hardaway (personal) is listed as questionable for Monday's game against the Lakers.",
-     "out": false
-    }
-   ]
+   "injuries_away": []
   }
  ]
 }
