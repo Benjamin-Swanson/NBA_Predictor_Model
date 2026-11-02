@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T21:00:12+00:00",
+ "generated_at": "2026-11-02T23:00:13+00:00",
  "date": "2026-11-02",
  "ratings_through": "2026-11-01",
  "unmatched_injuries": [],
@@ -86,7 +86,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600159",
@@ -146,7 +146,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600160",
@@ -272,7 +272,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600161",
@@ -326,7 +326,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600162",
@@ -434,7 +434,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600163",
@@ -494,19 +494,13 @@
      "out": false
     },
     {
-     "name": "Tobe Awaka",
-     "status": "Day-To-Day",
-     "note": "Awaka (ankle) is probable for Monday's game against Philadelphia.",
-     "out": false
-    },
-    {
      "name": "Nic Claxton",
      "status": "Out",
      "note": "Claxton (hamstring) is listed as doubtful for Monday's game against Philadelphia.",
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600164",
@@ -574,7 +568,7 @@
     {
      "name": "Dylan Cardwell",
      "status": "Out",
-     "note": "Cardwell (calf) has been downgraded to questionable for Monday's game against Dallas.",
+     "note": "Cardwell (calf) has been downgraded to doubtful for Monday's game against Dallas.",
      "out": true
     },
     {
@@ -602,7 +596,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600165",
@@ -614,23 +608,23 @@
    "neutral": false,
    "home_name": "Memphis Grizzlies",
    "away_name": "New Orleans Pelicans",
-   "home_win_prob": 0.6238,
-   "home_pts": 124.9,
-   "away_pts": 120.7,
+   "home_win_prob": 0.651,
+   "home_pts": 125.1,
+   "away_pts": 120.0,
    "margin_pct": {
-    "5": -18.8,
-    "25": -4.9,
-    "50": 4.3,
-    "75": 13.5,
-    "95": 26.4
+    "5": -17.8,
+    "25": -4.0,
+    "50": 5.3,
+    "75": 14.4,
+    "95": 27.4
    },
-   "total_mean": 245.7,
+   "total_mean": 245.3,
    "total_pct": {
-    "5": 215.9,
-    "25": 233.5,
-    "50": 245.8,
-    "75": 258.0,
-    "95": 275.4
+    "5": 215.4,
+    "25": 233.0,
+    "50": 245.3,
+    "75": 257.5,
+    "95": 274.9
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -651,9 +645,9 @@
    "injuries_away": [
     {
      "name": "Dejounte Murray",
-     "status": "Day-To-Day",
-     "note": "Murray (personal) is now questionable for Monday against Memphis.",
-     "out": false
+     "status": "Out",
+     "note": "Murray (personal) is out for Monday's game against the Grizzlies.",
+     "out": true
     },
     {
      "name": "Jordan Poole",
@@ -668,7 +662,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600166",
@@ -727,7 +721,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600167",
@@ -793,7 +787,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600168",
@@ -859,7 +853,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600169",
@@ -925,7 +919,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600170",
@@ -937,44 +931,44 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Phoenix Suns",
-   "home_win_prob": 0.4574,
-   "home_pts": 113.8,
-   "away_pts": 115.4,
+   "home_win_prob": 0.4375,
+   "home_pts": 113.5,
+   "away_pts": 115.8,
    "margin_pct": {
-    "5": -24.5,
-    "25": -10.7,
-    "50": -1.4,
-    "75": 7.7,
-    "95": 20.7
+    "5": -25.2,
+    "25": -11.4,
+    "50": -2.1,
+    "75": 7.0,
+    "95": 20.0
    },
-   "total_mean": 229.4,
+   "total_mean": 229.3,
    "total_pct": {
-    "5": 199.6,
+    "5": 199.5,
     "25": 217.1,
     "50": 229.4,
     "75": 241.6,
-    "95": 259.1
+    "95": 259.0
    },
    "rest_home": 1,
    "rest_away": 3,
    "injuries_home": [
     {
+     "name": "Brandon Williams",
+     "status": "Day-To-Day",
+     "note": "Williams (quadriceps) is listed as questionable for Monday's game against the Suns.",
+     "out": false
+    },
+    {
+     "name": "Al Horford",
+     "status": "Out",
+     "note": "Horford will be rested Monday against the Suns.",
+     "out": true
+    },
+    {
      "name": "Gui Santos",
      "status": "Out",
      "note": "Santos did not play in the second half of Sunday's 124-112 win over the Clippers due to a knee injury and will not play against the Suns on Monday, Danny Emerman of SFStandard.com reports.",
      "out": true
-    },
-    {
-     "name": "Draymond Green",
-     "status": "Day-To-Day",
-     "note": "Green (back) is out for Sunday's game against the Clippers.",
-     "out": false
-    },
-    {
-     "name": "Stephen Curry",
-     "status": "Day-To-Day",
-     "note": "Curry (rest) won't play Sunday against the Clippers, Brett Siegel of ClutchPoints.com reports.",
-     "out": false
     },
     {
      "name": "Kristaps Porzi\u0146\u0123is",
@@ -1003,7 +997,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600171",
@@ -1015,15 +1009,15 @@
    "neutral": false,
    "home_name": "Los Angeles Clippers",
    "away_name": "Toronto Raptors",
-   "home_win_prob": 0.4638,
-   "home_pts": 111.9,
-   "away_pts": 113.3,
+   "home_win_prob": 0.4374,
+   "home_pts": 111.4,
+   "away_pts": 113.7,
    "margin_pct": {
-    "5": -24.3,
-    "25": -10.5,
-    "50": -1.2,
-    "75": 7.9,
-    "95": 20.9
+    "5": -25.2,
+    "25": -11.4,
+    "50": -2.1,
+    "75": 7.0,
+    "95": 20.0
    },
    "total_mean": 225.3,
    "total_pct": {
@@ -1037,6 +1031,18 @@
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Rui Hachimura",
+     "status": "Out",
+     "note": "Hachimura (quadriceps) has been ruled out for Monday's game against the Raptors.",
+     "out": true
+    },
+    {
+     "name": "Derrick Jones Jr.",
+     "status": "Out",
+     "note": "Jones (knee) has been ruled out for Monday's game against the Raptors.",
+     "out": true
+    },
+    {
      "name": "Yanic Konan Niederh\u00e4user",
      "status": "Out",
      "note": "The Clippers recalled Niederhauser (foot) from the G League's San Diego Clippers on Sunday.",
@@ -1047,18 +1053,6 @@
      "status": "Out",
      "note": "The Clippers recalled Ingram (Achilles) from the G League's San Diego Clippers on Sunday.",
      "out": true
-    },
-    {
-     "name": "Max Strus",
-     "status": "Out",
-     "note": "The Clippers recalled Strus (foot) from the G League's San Diego Clippers on Sunday.",
-     "out": true
-    },
-    {
-     "name": "Derrick Jones Jr.",
-     "status": "Day-To-Day",
-     "note": "Jones (right knee) has been ruled out for the rest of Sunday's game against the Clippers, Ohm Youngmisuk of ESPN.com reports.",
-     "out": false
     },
     {
      "name": "Bradley Beal",
@@ -1074,6 +1068,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Scottie Barnes",
+     "status": "Day-To-Day",
+     "note": "Barnes (hip) is listed as questionable for Monday's game against the Clippers.",
+     "out": false
+    },
     {
      "name": "Jakob Poeltl",
      "status": "Day-To-Day",
@@ -1093,7 +1093,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   },
   {
    "game_id": "0022600172",
@@ -1105,33 +1105,27 @@
    "neutral": false,
    "home_name": "Los Angeles Lakers",
    "away_name": "Miami Heat",
-   "home_win_prob": 0.6934,
-   "home_pts": 121.4,
-   "away_pts": 114.6,
+   "home_win_prob": 0.7244,
+   "home_pts": 122.4,
+   "away_pts": 114.4,
    "margin_pct": {
-    "5": -16.2,
-    "25": -2.3,
-    "50": 7.0,
-    "75": 16.1,
-    "95": 29.0
+    "5": -14.9,
+    "25": -1.0,
+    "50": 8.2,
+    "75": 17.4,
+    "95": 30.3
    },
-   "total_mean": 236.1,
+   "total_mean": 237.0,
    "total_pct": {
-    "5": 206.3,
-    "25": 223.9,
-    "50": 236.2,
-    "75": 248.4,
-    "95": 265.8
+    "5": 207.2,
+    "25": 224.7,
+    "50": 237.0,
+    "75": 249.2,
+    "95": 266.7
    },
    "rest_home": 1,
    "rest_away": 3,
    "injuries_home": [
-    {
-     "name": "Ziaire Williams",
-     "status": "Out",
-     "note": "Williams (foot) is out for Sunday's game against the Raptors.",
-     "out": true
-    },
     {
      "name": "Adou Thiero",
      "status": "Out",
@@ -1140,7 +1134,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-02T21:00:12+00:00"
+   "predicted_at": "2026-11-02T23:00:13+00:00"
   }
  ]
 }
