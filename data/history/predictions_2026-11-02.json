@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T20:09:43+00:00",
+ "generated_at": "2026-11-02T21:00:12+00:00",
  "date": "2026-11-02",
  "ratings_through": "2026-11-01",
  "unmatched_injuries": [],
@@ -86,7 +86,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600159",
@@ -146,7 +146,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600160",
@@ -272,7 +272,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600161",
@@ -326,7 +326,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600162",
@@ -434,7 +434,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600163",
@@ -506,7 +506,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600164",
@@ -574,7 +574,7 @@
     {
      "name": "Dylan Cardwell",
      "status": "Out",
-     "note": "Cardwell is probable for Monday's game against Dallas due to a left calf strain.",
+     "note": "Cardwell (calf) has been downgraded to questionable for Monday's game against Dallas.",
      "out": true
     },
     {
@@ -602,7 +602,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600165",
@@ -668,7 +668,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600166",
@@ -727,7 +727,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600167",
@@ -793,7 +793,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600168",
@@ -859,7 +859,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600169",
@@ -925,7 +925,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600170",
@@ -1003,7 +1003,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600171",
@@ -1077,23 +1077,23 @@
     {
      "name": "Jakob Poeltl",
      "status": "Day-To-Day",
-     "note": "Poeltl (shoulder) won't play in Sunday's game against the Lakers, Vivek Jacob of the Raptors' official site reports.",
+     "note": "Poeltl (shoulder) is listed as questionable for Monday's game against the Clippers.",
      "out": false
+    },
+    {
+     "name": "Nate Bittle",
+     "status": "Out",
+     "note": "Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return.",
+     "out": true
     },
     {
      "name": "Kawhi Leonard",
      "status": "Out",
      "note": "Leonard (knee) is expected to be sidelined for at least three to four weeks, Chris Haynes of NBA TV reports.",
      "out": true
-    },
-    {
-     "name": "Nate Bittle",
-     "status": "Out",
-     "note": "Bittle (foot) has been ruled out for Wednesday's game against the Magic, Cody Taylor of USA Today reports.",
-     "out": true
     }
    ],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   },
   {
    "game_id": "0022600172",
@@ -1140,7 +1140,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-02T20:09:43+00:00"
+   "predicted_at": "2026-11-02T21:00:12+00:00"
   }
  ]
 }
