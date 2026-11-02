@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T18:15:34+00:00",
+ "generated_at": "2026-11-02T19:04:26+00:00",
  "date": "2026-11-02",
  "ratings_through": "2026-11-01",
  "unmatched_injuries": [],
@@ -156,43 +156,67 @@
    "neutral": false,
    "home_name": "Indiana Pacers",
    "away_name": "Atlanta Hawks",
-   "home_win_prob": 0.1879,
-   "home_pts": 111.3,
-   "away_pts": 123.3,
+   "home_win_prob": 0.1317,
+   "home_pts": 109.5,
+   "away_pts": 124.8,
    "margin_pct": {
-    "5": -34.9,
-    "25": -21.0,
-    "50": -11.8,
-    "75": -2.6,
-    "95": 10.3
+    "5": -38.2,
+    "25": -24.3,
+    "50": -15.1,
+    "75": -5.9,
+    "95": 7.0
    },
-   "total_mean": 234.7,
+   "total_mean": 234.5,
    "total_pct": {
-    "5": 204.9,
-    "25": 222.4,
-    "50": 234.7,
-    "75": 246.9,
-    "95": 264.4
+    "5": 204.7,
+    "25": 222.2,
+    "50": 234.5,
+    "75": 246.7,
+    "95": 264.2
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Obi Toppin",
-     "status": "Day-To-Day",
-     "note": "Toppin (back) is out for Sunday's game against the Nets, Alex Golden of SI.com reports.",
-     "out": false
-    },
-    {
      "name": "T.J. McConnell",
      "status": "Out",
-     "note": "Indiana recalled McConnell (hamstring) from the G League's Noblesville Boom on Saturday.",
+     "note": "McConnell (hamstring) is out for Monday's game against the Hawks and remains week-to-week.",
      "out": true
     },
     {
      "name": "Ivica Zubac",
      "status": "Out",
-     "note": "Zubac (ankle) will remain on the inactive list for Sunday's game against the Nets.",
+     "note": "Zubac (ankle) has been ruled out for Monday's game against the Hawks.",
+     "out": true
+    },
+    {
+     "name": "Larry Nance Jr.",
+     "status": "Day-To-Day",
+     "note": "Nance (illness) is doubtful for Monday against the Hawks.",
+     "out": false
+    },
+    {
+     "name": "Obi Toppin",
+     "status": "Day-To-Day",
+     "note": "Toppin (back) is questionable for Monday's game against Atlanta.",
+     "out": false
+    },
+    {
+     "name": "Aaron Nesmith",
+     "status": "Out",
+     "note": "Nesmith (rest) is sitting out Monday against Atlanta.",
+     "out": true
+    },
+    {
+     "name": "Andrew Nembhard",
+     "status": "Out",
+     "note": "Nembhard (cervical strain) is out for Monday's game against Atlanta.",
+     "out": true
+    },
+    {
+     "name": "Pascal Siakam",
+     "status": "Out",
+     "note": "Siakam will be rested against the Hawks on Monday.",
      "out": true
     },
     {
@@ -310,23 +334,23 @@
    "neutral": false,
    "home_name": "Orlando Magic",
    "away_name": "Washington Wizards",
-   "home_win_prob": 0.6625,
-   "home_pts": 119.0,
-   "away_pts": 113.5,
+   "home_win_prob": 0.6765,
+   "home_pts": 119.4,
+   "away_pts": 113.3,
    "margin_pct": {
-    "5": -17.4,
-    "25": -3.5,
-    "50": 5.7,
-    "75": 14.9,
-    "95": 27.8
+    "5": -16.8,
+    "25": -3.0,
+    "50": 6.3,
+    "75": 15.4,
+    "95": 28.4
    },
-   "total_mean": 232.6,
+   "total_mean": 232.9,
    "total_pct": {
-    "5": 202.8,
-    "25": 220.3,
-    "50": 232.6,
-    "75": 244.8,
-    "95": 262.3
+    "5": 203.0,
+    "25": 220.6,
+    "50": 232.9,
+    "75": 245.1,
+    "95": 262.5
    },
    "rest_home": 1,
    "rest_away": 3,
@@ -370,6 +394,18 @@
    ],
    "injuries_away": [
     {
+     "name": "Reece Beekman",
+     "status": "Out",
+     "note": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks.",
+     "out": true
+    },
+    {
+     "name": "Anthony Gill",
+     "status": "Out",
+     "note": "Gill (back) is out for Monday's game against the Magic.",
+     "out": true
+    },
+    {
      "name": "Alex Sarr",
      "status": "Out",
      "note": "Sarr (knee) is out for Monday's game against Orlando.",
@@ -380,12 +416,6 @@
      "status": "Out",
      "note": "Vukcevic (hip) is listed as out for Monday's game against Orlando.",
      "out": true
-    },
-    {
-     "name": "Anthony Gill",
-     "status": "Day-To-Day",
-     "note": "Gill (back) is questionable to suit up in Monday's contest against Orlando.",
-     "out": false
     },
     {
      "name": "Justin Champagnie",
@@ -504,6 +534,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Kyrie Irving",
+     "status": "Day-To-Day",
+     "note": "Irving (knee) is now doubtful for Monday against the Kings.",
+     "out": false
+    },
+    {
      "name": "Tarik Biberovi\u0107",
      "status": "Out",
      "note": "Biberovic (heel) is listed as out for Monday's game against Sacramento.",
@@ -514,12 +550,6 @@
      "status": "Out",
      "note": "Lively (foot) is listed as out for Monday's game against the Kings.",
      "out": true
-    },
-    {
-     "name": "Kyrie Irving",
-     "status": "Day-To-Day",
-     "note": "Irving (knee) is questionable to play Monday against the Kings.",
-     "out": false
     },
     {
      "name": "Santi Aldama",
@@ -613,9 +643,9 @@
    ],
    "injuries_away": [
     {
-     "name": "Trey Murphy III",
+     "name": "Dejounte Murray",
      "status": "Day-To-Day",
-     "note": "Murphy (knee) is listed as probable for Monday's game against the Grizzlies.",
+     "note": "Murray (personal) is now questionable for Monday against Memphis.",
      "out": false
     },
     {
