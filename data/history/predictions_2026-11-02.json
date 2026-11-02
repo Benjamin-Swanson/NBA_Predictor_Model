@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T13:12:13+00:00",
+ "generated_at": "2026-11-02T15:12:24+00:00",
  "date": "2026-11-02",
  "ratings_through": "2026-11-01",
  "unmatched_injuries": [],
@@ -86,7 +86,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600159",
@@ -146,7 +146,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600160",
@@ -248,7 +248,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600161",
@@ -308,7 +308,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600162",
@@ -404,7 +404,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600163",
@@ -474,15 +474,9 @@
      "status": "Out",
      "note": "Claxton (hamstring) is listed as doubtful for Monday's game against Philadelphia.",
      "out": true
-    },
-    {
-     "name": "Dailyn Swain",
-     "status": "Day-To-Day",
-     "note": "Swain (back) has been ruled out for Friday's game against Boston.",
-     "out": false
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600164",
@@ -578,7 +572,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600165",
@@ -644,7 +638,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600166",
@@ -691,7 +685,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600167",
@@ -703,23 +697,23 @@
    "neutral": false,
    "home_name": "Houston Rockets",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.6934,
-   "home_pts": 119.4,
-   "away_pts": 112.6,
+   "home_win_prob": 0.6727,
+   "home_pts": 118.8,
+   "away_pts": 112.9,
    "margin_pct": {
-    "5": -16.2,
-    "25": -2.3,
-    "50": 7.0,
-    "75": 16.1,
-    "95": 29.0
+    "5": -17.0,
+    "25": -3.1,
+    "50": 6.2,
+    "75": 15.3,
+    "95": 28.2
    },
-   "total_mean": 232.2,
+   "total_mean": 231.9,
    "total_pct": {
-    "5": 202.4,
-    "25": 219.9,
-    "50": 232.2,
-    "75": 244.4,
-    "95": 261.9
+    "5": 202.0,
+    "25": 219.6,
+    "50": 231.9,
+    "75": 244.1,
+    "95": 261.5
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -746,9 +740,9 @@
    "injuries_away": [
     {
      "name": "Mitchell Robinson",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Robinson (rest) has been ruled out for Sunday's game against the Magic.",
-     "out": true
+     "out": false
     },
     {
      "name": "Devin Carter",
@@ -757,7 +751,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600168",
@@ -823,7 +817,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600169",
@@ -889,7 +883,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600170",
@@ -901,44 +895,44 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Phoenix Suns",
-   "home_win_prob": 0.4096,
-   "home_pts": 113.0,
-   "away_pts": 116.2,
+   "home_win_prob": 0.4574,
+   "home_pts": 113.8,
+   "away_pts": 115.4,
    "margin_pct": {
-    "5": -26.2,
-    "25": -12.3,
-    "50": -3.1,
-    "75": 6.1,
-    "95": 19.0
+    "5": -24.5,
+    "25": -10.7,
+    "50": -1.4,
+    "75": 7.7,
+    "95": 20.7
    },
-   "total_mean": 229.3,
+   "total_mean": 229.4,
    "total_pct": {
-    "5": 199.5,
+    "5": 199.6,
     "25": 217.1,
     "50": 229.4,
     "75": 241.6,
-    "95": 259.0
+    "95": 259.1
    },
    "rest_home": 1,
    "rest_away": 3,
    "injuries_home": [
     {
      "name": "Gui Santos",
-     "status": "Day-To-Day",
+     "status": "Out",
      "note": "Santos did not play in the second half of Sunday's 124-112 win over the Clippers due to a knee injury and will not play against the Suns on Monday, Danny Emerman of SFStandard.com reports.",
-     "out": false
+     "out": true
     },
     {
      "name": "Draymond Green",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Green (back) is out for Sunday's game against the Clippers.",
-     "out": true
+     "out": false
     },
     {
      "name": "Stephen Curry",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Curry (rest) won't play Sunday against the Clippers, Brett Siegel of ClutchPoints.com reports.",
-     "out": true
+     "out": false
     },
     {
      "name": "Kristaps Porzi\u0146\u0123is",
@@ -967,7 +961,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600171",
@@ -1057,7 +1051,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   },
   {
    "game_id": "0022600172",
@@ -1111,7 +1105,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-02T13:12:13+00:00"
+   "predicted_at": "2026-11-02T15:12:24+00:00"
   }
  ]
 }
