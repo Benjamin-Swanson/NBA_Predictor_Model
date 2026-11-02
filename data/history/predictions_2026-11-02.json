@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T17:57:44+00:00",
+ "generated_at": "2026-11-02T18:15:34+00:00",
  "date": "2026-11-02",
  "ratings_through": "2026-11-01",
  "unmatched_injuries": [],
@@ -86,7 +86,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600159",
@@ -146,7 +146,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600160",
@@ -248,7 +248,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600161",
@@ -290,12 +290,6 @@
    ],
    "injuries_away": [
     {
-     "name": "Mikel Brown Jr.",
-     "status": "Day-To-Day",
-     "note": "Brown (rest) is out for Sunday's game in Indiana.",
-     "out": false
-    },
-    {
      "name": "Egor D\u00ebmin",
      "status": "Out",
      "note": "The Nets exercised Demin's third-year team option for the 2027-28 season, Sharif Phillips-Keaton of USA Today reports Thursday.",
@@ -308,7 +302,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600162",
@@ -320,23 +314,23 @@
    "neutral": false,
    "home_name": "Orlando Magic",
    "away_name": "Washington Wizards",
-   "home_win_prob": 0.6329,
-   "home_pts": 118.3,
-   "away_pts": 113.8,
+   "home_win_prob": 0.6625,
+   "home_pts": 119.0,
+   "away_pts": 113.5,
    "margin_pct": {
-    "5": -18.5,
-    "25": -4.6,
-    "50": 4.6,
-    "75": 13.8,
-    "95": 26.7
+    "5": -17.4,
+    "25": -3.5,
+    "50": 5.7,
+    "75": 14.9,
+    "95": 27.8
    },
-   "total_mean": 232.2,
+   "total_mean": 232.6,
    "total_pct": {
-    "5": 202.4,
-    "25": 219.9,
-    "50": 232.2,
-    "75": 244.4,
-    "95": 261.9
+    "5": 202.8,
+    "25": 220.3,
+    "50": 232.6,
+    "75": 244.8,
+    "95": 262.3
    },
    "rest_home": 1,
    "rest_away": 3,
@@ -380,16 +374,16 @@
    ],
    "injuries_away": [
     {
+     "name": "Alex Sarr",
+     "status": "Out",
+     "note": "Sarr (knee) is out for Monday's game against Orlando.",
+     "out": true
+    },
+    {
      "name": "Tristan Vuk\u010devi\u0107",
      "status": "Out",
      "note": "Vukcevic (hip) is listed as out for Monday's game against Orlando.",
      "out": true
-    },
-    {
-     "name": "Alex Sarr",
-     "status": "Day-To-Day",
-     "note": "Sarr (knee) is questionable to play in Monday's game against the Magic.",
-     "out": false
     },
     {
      "name": "Anthony Gill",
@@ -410,7 +404,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600163",
@@ -482,7 +476,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600164",
@@ -578,7 +572,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600165",
@@ -644,7 +638,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600166",
@@ -691,7 +685,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600167",
@@ -757,7 +751,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600168",
@@ -823,7 +817,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600169",
@@ -889,7 +883,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600170",
@@ -967,7 +961,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600171",
@@ -1057,7 +1051,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   },
   {
    "game_id": "0022600172",
@@ -1111,7 +1105,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-02T17:57:44+00:00"
+   "predicted_at": "2026-11-02T18:15:34+00:00"
   }
  ]
 }
