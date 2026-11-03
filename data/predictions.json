@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T13:13:41+00:00",
+ "generated_at": "2026-11-03T15:15:01+00:00",
  "date": "2026-11-04",
  "ratings_through": "2026-11-02",
  "unmatched_injuries": [],
@@ -580,32 +580,32 @@
    "neutral": false,
    "home_name": "Houston Rockets",
    "away_name": "Minnesota Timberwolves",
-   "home_win_prob": 0.7459,
-   "home_pts": 122.0,
-   "away_pts": 113.1,
+   "home_win_prob": 0.7631,
+   "home_pts": 122.4,
+   "away_pts": 112.7,
    "margin_pct": {
-    "5": -14.0,
-    "25": -0.2,
-    "50": 9.1,
-    "75": 18.2,
-    "95": 31.2
+    "5": -13.2,
+    "25": 0.6,
+    "50": 9.9,
+    "75": 19.0,
+    "95": 32.0
    },
    "total_mean": 235.3,
    "total_pct": {
-    "5": 205.5,
+    "5": 205.4,
     "25": 223.0,
     "50": 235.3,
     "75": 247.5,
-    "95": 265.0
+    "95": 264.9
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Clint Capela",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Capela (ankle) has been ruled out for Monday's game against the Celtics.",
-     "out": true
+     "out": false
     },
     {
      "name": "Steven Adams",
