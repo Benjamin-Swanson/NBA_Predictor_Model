@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T19:00:22+00:00",
+ "generated_at": "2026-11-03T22:24:27+00:00",
  "date": "2026-11-04",
  "ratings_through": "2026-11-02",
  "unmatched_injuries": [],
@@ -38,7 +38,7 @@
     {
      "name": "Isaiah Joe",
      "status": "Out",
-     "note": "Joe (hip) is out for Monday against the Hornets.",
+     "note": "Joe (hip) has been ruled out for Wednesday's game against Philadelphia.",
      "out": true
     },
     {
@@ -52,7 +52,7 @@
     {
      "name": "Dominick Barlow",
      "status": "Out",
-     "note": "Barlow (back) has been on the court \"a little bit\" and will be re-evaluated Tuesday, Austin Krell of OnPattison.com reports.",
+     "note": "Barlow (back) won't play in Wednesday's game against the Pistons, Austin Krell of OnPattison.com reports.",
      "out": true
     },
     {
@@ -62,7 +62,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600174",
@@ -74,37 +74,37 @@
    "neutral": false,
    "home_name": "Washington Wizards",
    "away_name": "Atlanta Hawks",
-   "home_win_prob": 0.2523,
-   "home_pts": 112.7,
-   "away_pts": 121.9,
+   "home_win_prob": 0.2653,
+   "home_pts": 112.9,
+   "away_pts": 121.6,
    "margin_pct": {
-    "5": -32.2,
-    "25": -18.3,
-    "50": -9.0,
-    "75": 0.1,
-    "95": 13.0
+    "5": -31.6,
+    "25": -17.8,
+    "50": -8.5,
+    "75": 0.6,
+    "95": 13.6
    },
-   "total_mean": 234.7,
+   "total_mean": 234.6,
    "total_pct": {
-    "5": 204.9,
+    "5": 204.8,
     "25": 222.4,
     "50": 234.7,
     "75": 246.9,
-    "95": 264.4
+    "95": 264.3
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Alex Sarr",
+     "name": "Anthony Gill",
      "status": "Day-To-Day",
-     "note": "Sarr (knee) is out for Monday's game against Orlando.",
+     "note": "Gill (back) is questionable for Wednesday against the Hawks.",
      "out": false
     },
     {
-     "name": "Anthony Gill",
+     "name": "Alex Sarr",
      "status": "Day-To-Day",
-     "note": "Gill (back) is out for Monday's game against the Magic.",
+     "note": "Sarr (knee) is listed as questionable for Wednesday's game against Atlanta.",
      "out": false
     },
     {
@@ -135,14 +135,14 @@
    "injuries_away": [
     {
      "name": "Jock Landale",
-     "status": "Day-To-Day",
-     "note": "Landale (hip) has been ruled out for Monday's game against Indiana.",
-     "out": false
+     "status": "Out",
+     "note": "Landale is out for Wednesday's game against the Wizards with a left hip strain, Kevin Chouinard of the Hawks' official site reports.",
+     "out": true
     },
     {
      "name": "Jalen Johnson",
      "status": "Day-To-Day",
-     "note": "Johnson (ankle) has been ruled out for Monday's game versus Indiana.",
+     "note": "Johnson (ankle) is listed as questionable for Wednesday's game in Washington, Kevin Chouinard of the Hawks' official site reports.",
      "out": false
     },
     {
@@ -158,7 +158,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600175",
@@ -192,9 +192,15 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Paul George",
+     "name": "Payton Pritchard",
      "status": "Day-To-Day",
-     "note": "George will be rested Monday against Houston.",
+     "note": "Pritchard is listed as questionable for Wednesday's game against Milwaukee due to a right shoulder contusion, Taylor Snow of the Celtics' official site reports.",
+     "out": false
+    },
+    {
+     "name": "Jayson Tatum",
+     "status": "Day-To-Day",
+     "note": "Tatum (rest) is questionable for Wednesday against the Bucks, Taylor Snow of the Celtics' official site reports.",
      "out": false
     },
     {
@@ -205,7 +211,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600176",
@@ -253,19 +259,25 @@
    ],
    "injuries_away": [
     {
+     "name": "Kon Knueppel",
+     "status": "Out",
+     "note": "Knueppel (hamstring) is listed as probable for Wednesday's game against the Nets.",
+     "out": true
+    },
+    {
+     "name": "Coby White",
+     "status": "Day-To-Day",
+     "note": "White (calf) is probable for Wednesday's game in Brooklyn.",
+     "out": false
+    },
+    {
      "name": "Grant Williams",
      "status": "Out",
      "note": "Williams (hamstring) is listed as out for Monday's game against the Pistons.",
      "out": true
-    },
-    {
-     "name": "Kon Knueppel",
-     "status": "Out",
-     "note": "Knueppel (hamstring) is listed as out for Monday's game versus the Pistons.",
-     "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600177",
@@ -297,16 +309,29 @@
    },
    "rest_home": 2,
    "rest_away": 2,
-   "injuries_home": [],
+   "injuries_home": [
+    {
+     "name": "Josh Hart",
+     "status": "Day-To-Day",
+     "note": "Hart is questionable for Wednesday's game against the Bulls due to right ankle soreness.",
+     "out": false
+    }
+   ],
    "injuries_away": [
     {
      "name": "Nic Claxton",
      "status": "Out",
-     "note": "Claxton (hamstring) is out for Monday's game against the 76ers.",
+     "note": "Claxton (hamstring) is questionable for Wednesday against the Knicks.",
      "out": true
+    },
+    {
+     "name": "Jalen Smith",
+     "status": "Day-To-Day",
+     "note": "Smith is probable for Wednesday's game against the Knicks with a left finger sprain.",
+     "out": false
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600178",
@@ -420,7 +445,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600179",
@@ -492,7 +517,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600180",
@@ -504,23 +529,23 @@
    "neutral": false,
    "home_name": "Oklahoma City Thunder",
    "away_name": "Cleveland Cavaliers",
-   "home_win_prob": 0.5141,
+   "home_win_prob": 0.5472,
    "home_pts": 116.2,
-   "away_pts": 115.9,
+   "away_pts": 114.8,
    "margin_pct": {
-    "5": -22.7,
-    "25": -8.8,
-    "50": 0.5,
-    "75": 9.6,
-    "95": 22.5
+    "5": -21.5,
+    "25": -7.7,
+    "50": 1.6,
+    "75": 10.7,
+    "95": 23.7
    },
-   "total_mean": 232.2,
+   "total_mean": 231.0,
    "total_pct": {
-    "5": 202.4,
-    "25": 220.0,
-    "50": 232.3,
-    "75": 244.5,
-    "95": 261.9
+    "5": 201.2,
+    "25": 218.8,
+    "50": 231.1,
+    "75": 243.3,
+    "95": 260.7
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -564,19 +589,19 @@
    ],
    "injuries_away": [
     {
-     "name": "Peyton Watson",
-     "status": "Day-To-Day",
-     "note": "Watson (hamstring) is out for Monday's game against the Thunder, Chris Fedor of The Cleveland Plain Dealer reports.",
-     "out": false
+     "name": "Jaylon Tyson",
+     "status": "Out",
+     "note": "Tyson is out for Wednesday's game against the Thunder due to a right ankle sprain.",
+     "out": true
     },
     {
-     "name": "Jaylon Tyson",
-     "status": "Day-To-Day",
-     "note": "Tyson (ankle) has been ruled out for Monday's game against Oklahoma City.",
-     "out": false
+     "name": "Peyton Watson",
+     "status": "Out",
+     "note": "Watson (hamstring) is out for Wednesday's game in Oklahoma City.",
+     "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600181",
@@ -642,7 +667,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600182",
@@ -708,7 +733,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600183",
@@ -768,7 +793,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600184",
@@ -816,12 +841,6 @@
    ],
    "injuries_away": [
     {
-     "name": "Kyrie Irving",
-     "status": "Day-To-Day",
-     "note": "Irving (knee) has been ruled out for Monday's game against the Kings.",
-     "out": false
-    },
-    {
      "name": "Max Christie",
      "status": "Day-To-Day",
      "note": "Christie has been ruled out for the rest of Monday's game against the Kings due to a right hip injury, Mike Curtis of The Dallas Morning News reports. He'll end the night with no points (0-5 FG, 0-5 3Pt), two rebounds and one steal in eight minutes.",
@@ -852,7 +871,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600185",
@@ -918,7 +937,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   },
   {
    "game_id": "0022600186",
@@ -989,7 +1008,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-03T19:00:22+00:00"
+   "predicted_at": "2026-11-03T22:24:27+00:00"
   }
  ]
 }
