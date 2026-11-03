@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T22:24:27+00:00",
+ "generated_at": "2026-11-03T23:00:11+00:00",
  "date": "2026-11-04",
  "ratings_through": "2026-11-02",
  "unmatched_injuries": [],
@@ -451,32 +451,32 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Utah Jazz",
-   "home_win_prob": 0.6737,
-   "home_pts": 124.1,
-   "away_pts": 118.1,
+   "home_win_prob": 0.7129,
+   "home_pts": 125.1,
+   "away_pts": 117.6,
    "margin_pct": {
-    "5": -16.9,
-    "25": -3.1,
-    "50": 6.2,
-    "75": 15.3,
-    "95": 28.3
+    "5": -15.4,
+    "25": -1.5,
+    "50": 7.7,
+    "75": 16.9,
+    "95": 29.8
    },
-   "total_mean": 242.3,
+   "total_mean": 242.8,
    "total_pct": {
-    "5": 212.5,
-    "25": 230.0,
-    "50": 242.3,
-    "75": 254.5,
-    "95": 272.0
+    "5": 213.0,
+    "25": 230.5,
+    "50": 242.8,
+    "75": 255.0,
+    "95": 272.5
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Dejounte Murray",
-     "status": "Out",
-     "note": "Murray (personal) is out for Monday's game against the Grizzlies.",
-     "out": true
+     "name": "Trey Murphy III",
+     "status": "Day-To-Day",
+     "note": "Murphy (knee) is probable for Wednesday's game versus the Jazz.",
+     "out": false
     },
     {
      "name": "Jordan Poole",
@@ -522,32 +522,44 @@
    "neutral": false,
    "home_name": "Oklahoma City Thunder",
    "away_name": "Cleveland Cavaliers",
-   "home_win_prob": 0.5472,
-   "home_pts": 116.2,
-   "away_pts": 114.8,
+   "home_win_prob": 0.5904,
+   "home_pts": 116.9,
+   "away_pts": 114.0,
    "margin_pct": {
-    "5": -21.5,
-    "25": -7.7,
-    "50": 1.6,
-    "75": 10.7,
-    "95": 23.7
+    "5": -20.0,
+    "25": -6.2,
+    "50": 3.1,
+    "75": 12.2,
+    "95": 25.2
    },
-   "total_mean": 231.0,
+   "total_mean": 230.9,
    "total_pct": {
-    "5": 201.2,
-    "25": 218.8,
-    "50": 231.1,
-    "75": 243.3,
-    "95": 260.7
+    "5": 201.1,
+    "25": 218.7,
+    "50": 231.0,
+    "75": 243.2,
+    "95": 260.6
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Nikola Topi\u0107",
+     "status": "Out",
+     "note": "Topic (back) is listed as out for Wednesday's game against Cleveland.",
+     "out": true
+    },
+    {
      "name": "Thomas Sorber",
      "status": "Out",
-     "note": "Oklahoma City exercised the third-year team option on Sorber (knee) on Sunday, Clemente Almanza of USA Today reports.",
+     "note": "Sorber (knee) is out for Wednesday's game against the Cavaliers.",
      "out": true
+    },
+    {
+     "name": "Jaylin Williams",
+     "status": "Day-To-Day",
+     "note": "Williams (back) is listed as questionable for Wednesday's game against the Cavaliers.",
+     "out": false
     },
     {
      "name": "Cason Wallace",
@@ -565,18 +577,6 @@
      "name": "Jalen Williams",
      "status": "Out",
      "note": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports.",
-     "out": true
-    },
-    {
-     "name": "Alex Caruso",
-     "status": "Out",
-     "note": "Caruso (ankle) is expected to miss time due to an ankle sprain, Clemente Almanza of USA Today reports.",
-     "out": true
-    },
-    {
-     "name": "Nikola Topi\u0107",
-     "status": "Out",
-     "note": "Topic (back) will remain on the inactive list for Wednesday's game in Dallas.",
      "out": true
     }
    ],
@@ -629,7 +629,7 @@
     {
      "name": "Clint Capela",
      "status": "Day-To-Day",
-     "note": "Capela (ankle) has been ruled out for Monday's game against the Celtics.",
+     "note": "Capela (ankle) is listed as questionable for Wednesday's game against the Timberwolves.",
      "out": false
     },
     {
@@ -794,22 +794,22 @@
    "neutral": false,
    "home_name": "San Antonio Spurs",
    "away_name": "Dallas Mavericks",
-   "home_win_prob": 0.8384,
-   "home_pts": 125.1,
+   "home_win_prob": 0.8345,
+   "home_pts": 125.0,
    "away_pts": 111.5,
    "margin_pct": {
-    "5": -9.2,
-    "25": 4.6,
-    "50": 13.9,
-    "75": 23.0,
-    "95": 36.0
+    "5": -9.4,
+    "25": 4.4,
+    "50": 13.7,
+    "75": 22.8,
+    "95": 35.8
    },
    "total_mean": 236.7,
    "total_pct": {
     "5": 206.9,
-    "25": 224.5,
-    "50": 236.8,
-    "75": 249.0,
+    "25": 224.4,
+    "50": 236.7,
+    "75": 248.9,
     "95": 266.4
    },
    "rest_home": 2,
@@ -831,14 +831,14 @@
    "injuries_away": [
     {
      "name": "Max Christie",
-     "status": "Day-To-Day",
-     "note": "Christie has been ruled out for the rest of Monday's game against the Kings due to a right hip injury, Mike Curtis of The Dallas Morning News reports. He'll end the night with no points (0-5 FG, 0-5 3Pt), two rebounds and one steal in eight minutes.",
-     "out": false
+     "status": "Out",
+     "note": "Christie (hip) is out for Wednesday's game against the Spurs.",
+     "out": true
     },
     {
      "name": "Santi Aldama",
      "status": "Out",
-     "note": "Aldama (knee) has been ruled out for Monday's matchup with Sacramento.",
+     "note": "Aldama (knee) is questionable for Wednesday's game against the Spurs.",
      "out": true
     },
     {
