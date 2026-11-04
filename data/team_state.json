@@ -722,7 +722,7 @@
      "id": 1642275,
      "name": "Tidjane Sala\u00fcn",
      "pos": "F",
-     "value": 4.21,
+     "value": 4.16,
      "mpg_recent": 12.7,
      "glue": -0.248,
      "mpg_season": 13.5,
@@ -3544,16 +3544,6 @@
      "mpg_recent": 5.2,
      "glue": -0.735,
      "mpg_season": 2.0,
-     "counts_if_out": true
-    },
-    {
-     "id": 1642402,
-     "name": "Enrique Freeman",
-     "pos": "F",
-     "value": 2.23,
-     "mpg_recent": 10.5,
-     "glue": -0.58,
-     "mpg_season": 9.25,
      "counts_if_out": true
     },
     {

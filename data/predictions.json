@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T23:00:11+00:00",
+ "generated_at": "2026-11-04T15:56:04+00:00",
  "date": "2026-11-04",
  "ratings_through": "2026-11-02",
  "unmatched_injuries": [],
@@ -338,23 +338,23 @@
    "neutral": false,
    "home_name": "Memphis Grizzlies",
    "away_name": "Indiana Pacers",
-   "home_win_prob": 0.7737,
-   "home_pts": 123.5,
-   "away_pts": 113.2,
+   "home_win_prob": 0.7519,
+   "home_pts": 122.6,
+   "away_pts": 113.4,
    "margin_pct": {
-    "5": -12.7,
-    "25": 1.2,
-    "50": 10.5,
-    "75": 19.6,
-    "95": 32.5
+    "5": -13.8,
+    "25": 0.1,
+    "50": 9.4,
+    "75": 18.5,
+    "95": 31.4
    },
-   "total_mean": 236.8,
+   "total_mean": 236.1,
    "total_pct": {
-    "5": 207.0,
-    "25": 224.5,
-    "50": 236.8,
-    "75": 249.0,
-    "95": 266.5
+    "5": 206.3,
+    "25": 223.8,
+    "50": 236.1,
+    "75": 248.3,
+    "95": 265.8
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -362,63 +362,39 @@
     {
      "name": "Quinten Post",
      "status": "Day-To-Day",
-     "note": "Post (ankle) has been downgraded to out for Monday's game against the Pelicans.",
+     "note": "Post (ankle) is listed as questionable for Wednesday's game against Indiana.",
      "out": false
     },
     {
      "name": "Scotty Pippen Jr.",
-     "status": "Day-To-Day",
-     "note": "Pippen (back) has been ruled out for Monday's game against the Pelicans.",
-     "out": false
+     "status": "Out",
+     "note": "Pippen (back) won't play Wednesday against the Pacers.",
+     "out": true
     }
    ],
    "injuries_away": [
     {
-     "name": "Pascal Siakam",
-     "status": "Day-To-Day",
-     "note": "Siakam will be rested against the Hawks on Monday.",
-     "out": false
-    },
-    {
-     "name": "Aaron Nesmith",
-     "status": "Day-To-Day",
-     "note": "Nesmith (rest) is sitting out Monday against Atlanta.",
-     "out": false
-    },
-    {
-     "name": "Andrew Nembhard",
-     "status": "Day-To-Day",
-     "note": "Nembhard (cervical strain) is out for Monday's game against Atlanta.",
-     "out": false
+     "name": "Ivica Zubac",
+     "status": "Out",
+     "note": "Zubac (ankle) is listed as questionable for Wednesday's game against the Grizzlies.",
+     "out": true
     },
     {
      "name": "Kelly Oubre Jr.",
      "status": "Day-To-Day",
-     "note": "Oubre (knee) has been ruled out for Monday's game against the Hawks.",
-     "out": false
-    },
-    {
-     "name": "Larry Nance Jr.",
-     "status": "Day-To-Day",
-     "note": "Nance (illness) has been ruled out for Monday's game against the Hawks.",
+     "note": "Oubre (knee) is questionable for Wednesday's game against the Grizzlies.",
      "out": false
     },
     {
      "name": "Obi Toppin",
      "status": "Out",
-     "note": "Toppin (back) will dress for Monday's game against  Hawks but will only play in an emergency, Tony East of Forbes.com reports.",
+     "note": "Toppin (back) is questionable for Wednesday's game against the Grizzlies.",
      "out": true
     },
     {
      "name": "T.J. McConnell",
      "status": "Out",
      "note": "McConnell (hamstring) is out for Monday's game against the Hawks and remains week-to-week.",
-     "out": true
-    },
-    {
-     "name": "Ivica Zubac",
-     "status": "Out",
-     "note": "Zubac (ankle) has been ruled out for Monday's game against the Hawks.",
      "out": true
     },
     {
@@ -473,16 +449,16 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Jordan Poole",
+     "status": "Out",
+     "note": "Poole (ankle) is listed as probable for Wednesday's game against Utah.",
+     "out": true
+    },
+    {
      "name": "Trey Murphy III",
      "status": "Day-To-Day",
      "note": "Murphy (knee) is probable for Wednesday's game versus the Jazz.",
      "out": false
-    },
-    {
-     "name": "Jordan Poole",
-     "status": "Out",
-     "note": "Poole (ankle) has been ruled out for Monday's game against the Grizzlies.",
-     "out": true
     },
     {
      "name": "Yves Missi",
@@ -493,6 +469,18 @@
    ],
    "injuries_away": [
     {
+     "name": "Jusuf Nurki\u0107",
+     "status": "Out",
+     "note": "Nurkic (foot) is out for Wednesday's game against the Pelicans.",
+     "out": true
+    },
+    {
+     "name": "Mo Bamba",
+     "status": "Day-To-Day",
+     "note": "Bamba is questionable for Wednesday's game in New Orleans due to a sprained right ankle.",
+     "out": false
+    },
+    {
      "name": "Jaren Jackson Jr.",
      "status": "Out",
      "note": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.",
@@ -502,12 +490,6 @@
      "name": "Trey Alexander",
      "status": "Out",
      "note": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
-     "out": true
-    },
-    {
-     "name": "Jusuf Nurki\u0107",
-     "status": "Out",
-     "note": "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of second toe in right foot, Chris Haynes of NBA TV reports.",
      "out": true
     }
    ]
@@ -643,7 +625,7 @@
     {
      "name": "Terrence Shannon Jr",
      "status": "Day-To-Day",
-     "note": "Shannon (hip) has been ruled out for Monday's game against the Bucks, Jon Krawczynski of The Athletic reports.",
+     "note": "Shannon (hip) is listed as questionable for Wednesday's game in Houston.",
      "out": false
     },
     {
@@ -692,9 +674,21 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Cameron Johnson",
+     "status": "Day-To-Day",
+     "note": "Johnson (lower body injury management) is listed as probable for Wednesday's game against Toronto.",
+     "out": false
+    },
+    {
+     "name": "Alpha Diallo",
+     "status": "Day-To-Day",
+     "note": "Diallo (wrist) is probable for Wednesday's game against the Raptors.",
+     "out": false
+    },
+    {
      "name": "Spencer Jones",
      "status": "Out",
-     "note": "Jones (hamstring) is listed as out for Monday's game against the Trail Blazers.",
+     "note": "Jones (hamstring) is out for Wednesday's game against the Raptors.",
      "out": true
     },
     {
@@ -706,21 +700,21 @@
    ],
    "injuries_away": [
     {
+     "name": "Kawhi Leonard",
+     "status": "Out",
+     "note": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports.",
+     "out": true
+    },
+    {
      "name": "Jakob Poeltl",
      "status": "Day-To-Day",
-     "note": "Poeltl (shoulder) has been ruled out for Monday's game against the Clippers, Zulfi Sheikh reports.",
+     "note": "Poeltl is questionable for Wednesday's game against the Nuggets due to left shoulder bursitis, Blake Murphy of Sportsnet.ca reports.",
      "out": false
     },
     {
      "name": "Nate Bittle",
      "status": "Out",
      "note": "Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return.",
-     "out": true
-    },
-    {
-     "name": "Kawhi Leonard",
-     "status": "Out",
-     "note": "Leonard (knee) is expected to be sidelined for at least three to four weeks, Chris Haynes of NBA TV reports.",
      "out": true
     }
    ]
@@ -759,7 +753,13 @@
     {
      "name": "Jordan Goodwin",
      "status": "Day-To-Day",
-     "note": "Goodwin won't return to Monday's game against the Warriors due to a left calf injury, Duane Rankin of The Arizona Republic reports. He recorded four points (2-3 FG, 0-1 3Pt), two rebounds, two assists and one steal in 10 minutes before exiting.",
+     "note": "Goodwin (calf) is questionable for Wednesday's game against Portland, Duane Rankin of The Arizona Republic reports.",
+     "out": false
+    },
+    {
+     "name": "Rasheer Fleming",
+     "status": "Day-To-Day",
+     "note": "Fleming is questionable for Wednesday's game against the Trail Blazers due to a sprained left ankle, Duane Rankin of The Arizona Republic reports.",
      "out": false
     },
     {
@@ -871,32 +871,32 @@
    "neutral": false,
    "home_name": "Sacramento Kings",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.1692,
-   "home_pts": 109.4,
-   "away_pts": 122.3,
+   "home_win_prob": 0.1983,
+   "home_pts": 110.1,
+   "away_pts": 121.5,
    "margin_pct": {
-    "5": -35.9,
-    "25": -22.0,
-    "50": -12.7,
-    "75": -3.6,
-    "95": 9.3
+    "5": -34.4,
+    "25": -20.6,
+    "50": -11.3,
+    "75": -2.1,
+    "95": 10.8
    },
-   "total_mean": 231.8,
+   "total_mean": 231.7,
    "total_pct": {
-    "5": 202.0,
-    "25": 219.6,
+    "5": 201.9,
+    "25": 219.5,
     "50": 231.8,
-    "75": 244.1,
-    "95": 261.5
+    "75": 244.0,
+    "95": 261.4
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Dylan Cardwell",
-     "status": "Out",
-     "note": "Cardwell (calf) has been ruled out for Monday's game against the Mavericks.",
-     "out": true
+     "name": "Precious Achiuwa",
+     "status": "Day-To-Day",
+     "note": "Achiuwa (ankle) is listed as probable for Wednesday's game against the Lakers.",
+     "out": false
     },
     {
      "name": "Maxime Raynaud",
@@ -958,18 +958,6 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Derrick Jones Jr.",
-     "status": "Day-To-Day",
-     "note": "Jones (knee) has been ruled out for Monday's game against the Raptors.",
-     "out": false
-    },
-    {
-     "name": "Rui Hachimura",
-     "status": "Day-To-Day",
-     "note": "Hachimura (quadriceps) has been ruled out for Monday's game against the Raptors.",
-     "out": false
-    },
-    {
      "name": "Yanic Konan Niederh\u00e4user",
      "status": "Out",
      "note": "The Clippers recalled Niederhauser (foot) from the G League's San Diego Clippers on Sunday.",
@@ -994,7 +982,20 @@
      "out": true
     }
    ],
-   "injuries_away": []
+   "injuries_away": [
+    {
+     "name": "Myron Gardner",
+     "status": "Day-To-Day",
+     "note": "Gardner (quadriceps) is listed as questionable for Wednesday's game against the Clippers.",
+     "out": false
+    },
+    {
+     "name": "Giannis Antetokounmpo",
+     "status": "Day-To-Day",
+     "note": "Antetokounmpo is probable to play Wednesday against the Clippers due to a sprained right wrist.",
+     "out": false
+    }
+   ]
   }
  ]
 }
