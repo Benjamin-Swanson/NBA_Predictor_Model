@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T19:52:13+00:00",
+ "generated_at": "2026-11-04T21:00:08+00:00",
  "date": "2026-11-04",
  "ratings_through": "2026-11-02",
  "unmatched_injuries": [],
@@ -736,37 +736,37 @@
    "neutral": false,
    "home_name": "Phoenix Suns",
    "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.5603,
-   "home_pts": 115.3,
-   "away_pts": 113.5,
+   "home_win_prob": 0.5453,
+   "home_pts": 115.0,
+   "away_pts": 113.7,
    "margin_pct": {
-    "5": -21.1,
-    "25": -7.2,
-    "50": 2.0,
-    "75": 11.2,
-    "95": 24.1
+    "5": -21.6,
+    "25": -7.7,
+    "50": 1.6,
+    "75": 10.7,
+    "95": 23.6
    },
    "total_mean": 228.9,
    "total_pct": {
-    "5": 199.1,
+    "5": 199.0,
     "25": 216.6,
     "50": 228.9,
     "75": 241.1,
-    "95": 258.6
+    "95": 258.5
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Rasheer Fleming",
+     "status": "Out",
+     "note": "Fleming is out for Wednesday's game against the Trail Blazers due to a sprained left ankle.",
+     "out": true
+    },
+    {
      "name": "Jordan Goodwin",
      "status": "Day-To-Day",
      "note": "Goodwin (calf) is questionable for Wednesday's game against Portland, Duane Rankin of The Arizona Republic reports.",
-     "out": false
-    },
-    {
-     "name": "Rasheer Fleming",
-     "status": "Day-To-Day",
-     "note": "Fleming is questionable for Wednesday's game against the Trail Blazers due to a sprained left ankle, Duane Rankin of The Arizona Republic reports.",
      "out": false
     },
     {
@@ -964,6 +964,12 @@
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Isaiah Jackson",
+     "status": "Day-To-Day",
+     "note": "Jackson is questionable for Wednesday's game against the Heat with left groin soreness, per Law Murray of The Athletic.",
+     "out": false
+    },
     {
      "name": "Yanic Konan Niederh\u00e4user",
      "status": "Out",
