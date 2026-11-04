@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T21:00:08+00:00",
+ "generated_at": "2026-11-04T23:00:10+00:00",
  "date": "2026-11-04",
  "ratings_through": "2026-11-02",
  "unmatched_injuries": [],
@@ -52,7 +52,7 @@
     {
      "name": "Dominick Barlow",
      "status": "Out",
-     "note": "Barlow (back) won't play in Wednesday's game against the Pistons, Austin Krell of OnPattison.com reports.",
+     "note": "Head coach Nick Nurse said Wednesday that Barlow (back) likely needs another 10-12 days before he's cleared to return to the court, Derek Bodner of AllPHLY.com reports.",
      "out": true
     },
     {
@@ -98,12 +98,6 @@
      "name": "Bilal Coulibaly",
      "status": "Day-To-Day",
      "note": "Coulibaly (illness) is questionable for Wednesday against the Hawks.",
-     "out": false
-    },
-    {
-     "name": "Anthony Gill",
-     "status": "Day-To-Day",
-     "note": "Gill (back) is questionable for Wednesday against the Hawks.",
      "out": false
     },
     {
@@ -324,14 +318,8 @@
     {
      "name": "Nic Claxton",
      "status": "Out",
-     "note": "Claxton (hamstring) is questionable for Wednesday against the Knicks.",
+     "note": "Claxton (hamstring) is listed as out for Wednesday's game against New York.",
      "out": true
-    },
-    {
-     "name": "Jalen Smith",
-     "status": "Day-To-Day",
-     "note": "Smith is probable for Wednesday's game against the Knicks with a left finger sprain.",
-     "out": false
     }
    ]
   },
@@ -878,32 +866,32 @@
    "neutral": false,
    "home_name": "Sacramento Kings",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.1983,
-   "home_pts": 110.1,
-   "away_pts": 121.5,
+   "home_win_prob": 0.1856,
+   "home_pts": 109.7,
+   "away_pts": 121.9,
    "margin_pct": {
-    "5": -34.4,
-    "25": -20.6,
-    "50": -11.3,
-    "75": -2.1,
-    "95": 10.8
+    "5": -35.1,
+    "25": -21.2,
+    "50": -11.9,
+    "75": -2.8,
+    "95": 10.1
    },
    "total_mean": 231.7,
    "total_pct": {
     "5": 201.9,
-    "25": 219.5,
-    "50": 231.8,
-    "75": 244.0,
+    "25": 219.4,
+    "50": 231.7,
+    "75": 243.9,
     "95": 261.4
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Precious Achiuwa",
-     "status": "Day-To-Day",
-     "note": "Achiuwa (ankle) is listed as probable for Wednesday's game against the Lakers.",
-     "out": false
+     "name": "Daeqwon Plowden",
+     "status": "Out",
+     "note": "Plowden (illness) is out for Wednesday's game against the Lakers.",
+     "out": true
     },
     {
      "name": "Maxime Raynaud",
