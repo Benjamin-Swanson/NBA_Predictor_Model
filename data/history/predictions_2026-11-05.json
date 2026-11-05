@@ -1,0 +1,151 @@
+{
+ "generated_at": "2026-11-05T13:12:15+00:00",
+ "date": "2026-11-05",
+ "ratings_through": "2026-11-04",
+ "unmatched_injuries": [],
+ "games": [
+  {
+   "game_id": "0022600187",
+   "tip_utc": "2026-11-06T02:00:00Z",
+   "tip_et": "9:00 pm ET",
+   "arena": "Mortgage Matchup Center, Phoenix",
+   "home": "PHX",
+   "away": "ORL",
+   "neutral": false,
+   "home_name": "Phoenix Suns",
+   "away_name": "Orlando Magic",
+   "home_win_prob": 0.5446,
+   "home_pts": 114.4,
+   "away_pts": 113.0,
+   "margin_pct": {
+    "5": -21.6,
+    "25": -7.8,
+    "50": 1.5,
+    "75": 10.7,
+    "95": 23.6
+   },
+   "total_mean": 227.5,
+   "total_pct": {
+    "5": 197.7,
+    "25": 215.3,
+    "50": 227.6,
+    "75": 239.8,
+    "95": 257.2
+   },
+   "rest_home": 1,
+   "rest_away": 3,
+   "injuries_home": [
+    {
+     "name": "Jordan Goodwin",
+     "status": "Out",
+     "note": "Goodwin (calf) won't play in Wednesday's game against Portland.",
+     "out": true
+    },
+    {
+     "name": "Rasheer Fleming",
+     "status": "Out",
+     "note": "Fleming is out for Wednesday's game against the Trail Blazers due to a sprained left ankle.",
+     "out": true
+    },
+    {
+     "name": "Mark Williams",
+     "status": "Out",
+     "note": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Jonathan Isaac",
+     "status": "Out",
+     "note": "Orlando recalled Isaac (knee) from the G League's Osceola Magic on Sunday.",
+     "out": true
+    },
+    {
+     "name": "Jalen Suggs",
+     "status": "Out",
+     "note": "Suggs has been diagnosed with a mild bone bruise in his right knee and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
+     "out": true
+    },
+    {
+     "name": "Paolo Banchero",
+     "status": "Out",
+     "note": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
+     "out": true
+    },
+    {
+     "name": "Noah Penda",
+     "status": "Out",
+     "note": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports.",
+     "out": true
+    },
+    {
+     "name": "Izaiyah Nelson",
+     "status": "Out",
+     "note": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-11-05T13:12:15+00:00"
+  },
+  {
+   "game_id": "0022600188",
+   "tip_utc": "2026-11-06T03:00:00Z",
+   "tip_et": "10:00 pm ET",
+   "arena": "Chase Center, San Francisco",
+   "home": "GSW",
+   "away": "MIA",
+   "neutral": false,
+   "home_name": "Golden State Warriors",
+   "away_name": "Miami Heat",
+   "home_win_prob": 0.5336,
+   "home_pts": 119.8,
+   "away_pts": 118.9,
+   "margin_pct": {
+    "5": -22.0,
+    "25": -8.2,
+    "50": 1.1,
+    "75": 10.2,
+    "95": 23.2
+   },
+   "total_mean": 238.8,
+   "total_pct": {
+    "5": 208.9,
+    "25": 226.5,
+    "50": 238.8,
+    "75": 251.0,
+    "95": 268.4
+   },
+   "rest_home": 3,
+   "rest_away": 1,
+   "injuries_home": [
+    {
+     "name": "Gui Santos",
+     "status": "Out",
+     "note": "Santos (knee) has been ruled out for Thursday's game against the Heat.",
+     "out": true
+    },
+    {
+     "name": "Kristaps Porzi\u0146\u0123is",
+     "status": "Out",
+     "note": "The Warriors have stopped issuing salary payments to Porzingis, who remains away from the team and is considering retirement, Anthony Slater and Shams Charania of ESPN reported Wednesday.",
+     "out": true
+    },
+    {
+     "name": "Moses Moody",
+     "status": "Out",
+     "note": "Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports.",
+     "out": true
+    },
+    {
+     "name": "Jimmy Butler III",
+     "status": "Out",
+     "note": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [],
+   "predicted_at": "2026-11-05T13:12:15+00:00"
+  }
+ ]
+}
