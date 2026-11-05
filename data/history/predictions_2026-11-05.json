@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T15:00:08+00:00",
+ "generated_at": "2026-11-05T18:35:52+00:00",
  "date": "2026-11-05",
  "ratings_through": "2026-11-04",
  "unmatched_injuries": [],
@@ -14,22 +14,22 @@
    "neutral": false,
    "home_name": "Phoenix Suns",
    "away_name": "Orlando Magic",
-   "home_win_prob": 0.5446,
-   "home_pts": 114.4,
-   "away_pts": 113.0,
+   "home_win_prob": 0.5985,
+   "home_pts": 115.3,
+   "away_pts": 112.1,
    "margin_pct": {
-    "5": -21.6,
-    "25": -7.8,
-    "50": 1.5,
-    "75": 10.7,
-    "95": 23.6
+    "5": -19.8,
+    "25": -5.9,
+    "50": 3.4,
+    "75": 12.5,
+    "95": 25.4
    },
    "total_mean": 227.5,
    "total_pct": {
     "5": 197.7,
-    "25": 215.3,
-    "50": 227.6,
-    "75": 239.8,
+    "25": 215.2,
+    "50": 227.5,
+    "75": 239.7,
     "95": 257.2
    },
    "rest_home": 1,
@@ -37,15 +37,15 @@
    "injuries_home": [
     {
      "name": "Jordan Goodwin",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Goodwin (calf) won't play in Wednesday's game against Portland.",
-     "out": true
+     "out": false
     },
     {
      "name": "Rasheer Fleming",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Fleming is out for Wednesday's game against the Trail Blazers due to a sprained left ankle.",
-     "out": true
+     "out": false
     },
     {
      "name": "Mark Williams",
@@ -58,7 +58,7 @@
     {
      "name": "Jonathan Isaac",
      "status": "Out",
-     "note": "Orlando recalled Isaac (knee) from the G League's Osceola Magic on Sunday.",
+     "note": "Orlando recalled Isaac (knee) from the G League's Osceola Magic on Wednesday.",
      "out": true
     },
     {
@@ -86,7 +86,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-05T15:00:08+00:00"
+   "predicted_at": "2026-11-05T18:35:52+00:00"
   },
   {
    "game_id": "0022600188",
@@ -145,7 +145,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-05T15:00:08+00:00"
+   "predicted_at": "2026-11-05T18:35:52+00:00"
   }
  ]
 }
