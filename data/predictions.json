@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T17:07:52+00:00",
+ "generated_at": "2026-11-06T19:01:00+00:00",
  "date": "2026-11-06",
  "ratings_through": "2026-11-05",
  "unmatched_injuries": [],
@@ -115,15 +115,15 @@
    "neutral": false,
    "home_name": "Charlotte Hornets",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.4104,
-   "home_pts": 107.3,
-   "away_pts": 110.5,
+   "home_win_prob": 0.3487,
+   "home_pts": 106.2,
+   "away_pts": 111.6,
    "margin_pct": {
-    "5": -26.1,
-    "25": -12.3,
-    "50": -3.0,
-    "75": 6.1,
-    "95": 19.1
+    "5": -28.3,
+    "25": -14.5,
+    "50": -5.2,
+    "75": 3.9,
+    "95": 16.9
    },
    "total_mean": 217.9,
    "total_pct": {
@@ -138,15 +138,15 @@
    "injuries_home": [
     {
      "name": "Dennis Schr\u00f6der",
-     "status": "Day-To-Day",
-     "note": "Schroder (thigh) is questionable for Friday's game against the Celtics.",
-     "out": false
+     "status": "Out",
+     "note": "Schroder (thigh) is out for Friday's game versus Boston.",
+     "out": true
     },
     {
      "name": "Moussa Diabat\u00e9",
-     "status": "Day-To-Day",
-     "note": "Diabate (quadriceps) is questionable for Friday's game against the Celtics.",
-     "out": false
+     "status": "Out",
+     "note": "Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.",
+     "out": true
     },
     {
      "name": "Kon Knueppel",
@@ -162,12 +162,6 @@
     }
    ],
    "injuries_away": [
-    {
-     "name": "Payton Pritchard",
-     "status": "Day-To-Day",
-     "note": "Pritchard (eye) is questionable for Friday against Charlotte, Taylor Snow of the Celtics' official site reports.",
-     "out": false
-    },
     {
      "name": "Devin Carter",
      "status": "Out",
@@ -319,7 +313,7 @@
     {
      "name": "Jusuf Nurki\u0107",
      "status": "Out",
-     "note": "Nurkic (foot) is out for Wednesday's game against the Pelicans.",
+     "note": "Nurkic (toe) has begun participating in on-court activities as he continues recovering from a right foot injury sustained during an Oct. 4 preseason game against Denver. He will be re-evaluated in two weeks, the Jazz announced Friday.",
      "out": true
     },
     {
@@ -459,15 +453,27 @@
    ],
    "injuries_away": [
     {
-     "name": "Kyle Anderson",
+     "name": "Jakob Poeltl",
      "status": "Day-To-Day",
-     "note": "Anderson is questionable for Friday against the Bucks due to illness.",
+     "note": "Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee.",
+     "out": false
+    },
+    {
+     "name": "Immanuel Quickley",
+     "status": "Day-To-Day",
+     "note": "Quickley (hamstring) is questionable for Friday against the Bucks.",
      "out": false
     },
     {
      "name": "Scottie Barnes",
      "status": "Day-To-Day",
-     "note": "Barnes (groin) is questionable to play Friday's game against the Bucks.",
+     "note": "Barnes (adductor) was not present at the morning shootaround, Michael Grange of Sportsnet.careports.",
+     "out": false
+    },
+    {
+     "name": "Kyle Anderson",
+     "status": "Day-To-Day",
+     "note": "Anderson is questionable for Friday against the Bucks due to illness.",
      "out": false
     },
     {
@@ -494,23 +500,23 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Minnesota Timberwolves",
-   "home_win_prob": 0.5254,
-   "home_pts": 118.7,
-   "away_pts": 118.1,
+   "home_win_prob": 0.5092,
+   "home_pts": 118.4,
+   "away_pts": 118.3,
    "margin_pct": {
-    "5": -22.3,
-    "25": -8.5,
-    "50": 0.8,
-    "75": 9.9,
-    "95": 22.9
+    "5": -22.8,
+    "25": -8.9,
+    "50": 0.3,
+    "75": 9.5,
+    "95": 22.4
    },
-   "total_mean": 237.0,
+   "total_mean": 236.9,
    "total_pct": {
-    "5": 207.2,
-    "25": 224.7,
-    "50": 237.0,
-    "75": 249.2,
-    "95": 266.7
+    "5": 207.1,
+    "25": 224.6,
+    "50": 236.9,
+    "75": 249.1,
+    "95": 266.6
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -520,20 +526,14 @@
      "status": "Out",
      "note": "Missi (knee) is out for Friday's game against Minnesota.",
      "out": true
-    },
-    {
-     "name": "Trey Murphy III",
-     "status": "Day-To-Day",
-     "note": "Murphy (knee) is probable for Friday's game against Minnesota.",
-     "out": false
     }
    ],
    "injuries_away": [
     {
      "name": "Terrence Shannon Jr",
-     "status": "Day-To-Day",
-     "note": "Shannon (hip) is questionable for Friday's game against New Orleans.",
-     "out": false
+     "status": "Out",
+     "note": "Shannon (hip) has been ruled out for Friday's game against New Orleans.",
+     "out": true
     },
     {
      "name": "Anthony Edwards",
