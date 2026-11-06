@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-05T23:00:15+00:00",
- "n": 121,
- "accuracy": 0.6281,
+ "updated": "2026-11-06T17:07:53+00:00",
+ "n": 123,
+ "accuracy": 0.6341,
  "log_loss": 0.6207,
- "brier": 0.2182,
- "margin_mae": 11.63,
- "band_coverage": 0.876,
+ "brier": 0.2181,
+ "margin_mae": 11.69,
+ "band_coverage": 0.878,
  "buckets": [
   {
    "bucket": "50-60%",
-   "games": 29,
-   "predicted": 0.553,
-   "actual": 0.483
+   "games": 31,
+   "predicted": 0.552,
+   "actual": 0.516
   },
   {
    "bucket": "60-70%",
@@ -33,6 +33,36 @@
   }
  ],
  "games": [
+  {
+   "date": "2026-11-05",
+   "game_id": "0022600188",
+   "away": "MIA",
+   "home": "GSW",
+   "home_win_prob": 0.534,
+   "home_won": 1,
+   "pick": "GSW",
+   "confidence": 0.534,
+   "correct": 1,
+   "proj": "119-120",
+   "final": "100-120",
+   "margin_err": 19.1,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-05",
+   "game_id": "0022600187",
+   "away": "ORL",
+   "home": "PHX",
+   "home_win_prob": 0.545,
+   "home_won": 1,
+   "pick": "PHX",
+   "confidence": 0.545,
+   "correct": 1,
+   "proj": "113-114",
+   "final": "104-117",
+   "margin_err": 11.6,
+   "in_band": 1
+  },
   {
    "date": "2026-11-04",
    "game_id": "0022600186",
