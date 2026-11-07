@@ -1,8 +1,10 @@
 {
- "generated_at": "2026-11-07T17:05:19+00:00",
+ "generated_at": "2026-11-07T19:00:10+00:00",
  "date": "2026-11-07",
  "ratings_through": "2026-11-06",
- "unmatched_injuries": [],
+ "unmatched_injuries": [
+  "Richie Saunders (Memphis Grizzlies)"
+ ],
  "games": [
   {
    "game_id": "0022600189",
@@ -80,7 +82,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T17:05:19+00:00"
+   "predicted_at": "2026-11-07T19:00:10+00:00"
   },
   {
    "game_id": "0022600190",
@@ -92,17 +94,17 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Brooklyn Nets",
-   "home_win_prob": 0.6945,
-   "home_pts": 115.8,
-   "away_pts": 109.0,
+   "home_win_prob": 0.6787,
+   "home_pts": 115.5,
+   "away_pts": 109.3,
    "margin_pct": {
-    "5": -16.1,
-    "25": -2.3,
-    "50": 7.0,
-    "75": 16.1,
-    "95": 29.1
+    "5": -16.7,
+    "25": -2.9,
+    "50": 6.4,
+    "75": 15.5,
+    "95": 28.4
    },
-   "total_mean": 224.9,
+   "total_mean": 225.0,
    "total_pct": {
     "5": 195.1,
     "25": 212.7,
@@ -115,26 +117,26 @@
    "injuries_home": [
     {
      "name": "Keshon Gilbert",
-     "status": "Day-To-Day",
-     "note": "Gilbert is out for Friday's game against the Wizards due to left knee inflammation.",
-     "out": false
+     "status": "Out",
+     "note": "Gilbert (knee) is out for Saturday's game against Brooklyn.",
+     "out": true
     },
     {
      "name": "Asa Newell",
-     "status": "Day-To-Day",
-     "note": "Newell (toe) is out for Friday's game against Washington.",
-     "out": false
-    },
-    {
-     "name": "Jalen Johnson",
      "status": "Out",
-     "note": "Johnson (ankle) is out for Friday's game against the Wizards.",
+     "note": "Newell (toe)  is out for Saturday's game against the Nets.",
      "out": true
     },
     {
      "name": "Jock Landale",
      "status": "Out",
-     "note": "Landale (hip) has been ruled out for Friday's game against the Wizards.",
+     "note": "Landale (hip) has been ruled out for Saturday's game against the Nets.",
+     "out": true
+    },
+    {
+     "name": "Jalen Johnson",
+     "status": "Out",
+     "note": "Johnson (ankle) is probable for Saturday's game against Brooklyn.",
      "out": true
     },
     {
@@ -168,15 +170,9 @@
      "status": "Out",
      "note": "The Nets exercised Demin's third-year team option for the 2027-28 season, Sharif Phillips-Keaton of USA Today reports Thursday.",
      "out": true
-    },
-    {
-     "name": "Tyler Bilodeau",
-     "status": "Out",
-     "note": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
-     "out": true
     }
    ],
-   "predicted_at": "2026-11-07T17:05:19+00:00"
+   "predicted_at": "2026-11-07T19:00:10+00:00"
   },
   {
    "game_id": "0022600191",
@@ -188,43 +184,43 @@
    "neutral": false,
    "home_name": "Cleveland Cavaliers",
    "away_name": "New York Knicks",
-   "home_win_prob": 0.6326,
-   "home_pts": 115.6,
-   "away_pts": 111.2,
+   "home_win_prob": 0.5429,
+   "home_pts": 113.7,
+   "away_pts": 112.4,
    "margin_pct": {
-    "5": -18.5,
-    "25": -4.6,
-    "50": 4.6,
-    "75": 13.8,
-    "95": 26.7
+    "5": -21.6,
+    "25": -7.8,
+    "50": 1.5,
+    "75": 10.6,
+    "95": 23.5
    },
-   "total_mean": 227.0,
+   "total_mean": 226.3,
    "total_pct": {
-    "5": 197.2,
-    "25": 214.7,
-    "50": 227.0,
-    "75": 239.2,
-    "95": 256.7
+    "5": 196.4,
+    "25": 214.0,
+    "50": 226.3,
+    "75": 238.5,
+    "95": 255.9
    },
    "rest_home": 1,
    "rest_away": 3,
    "injuries_home": [
     {
+     "name": "Jaylon Tyson",
+     "status": "Out",
+     "note": "Tyson (ankle) is out for Saturday's game against the Knicks.",
+     "out": true
+    },
+    {
      "name": "Sam Merrill",
-     "status": "Day-To-Day",
-     "note": "Merrill (elbow) won't return to Friday's game against the 76ers, Dave McMenamin of ESPN.com reports.",
-     "out": false
+     "status": "Out",
+     "note": "Merrill (elbow) is out for Saturday's game against the Knicks.",
+     "out": true
     },
     {
      "name": "Jarrett Allen",
-     "status": "Day-To-Day",
-     "note": "Allen (knee) is out for Friday's game against the 76ers.",
-     "out": false
-    },
-    {
-     "name": "Jaylon Tyson",
      "status": "Out",
-     "note": "Tyson (ankle) is out for Friday's game against the 76ers.",
+     "note": "Allen (knee) is out for Saturday's game against the Knicks",
      "out": true
     }
    ],
@@ -236,7 +232,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T17:05:19+00:00"
+   "predicted_at": "2026-11-07T19:00:10+00:00"
   },
   {
    "game_id": "0022600192",
@@ -332,7 +328,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T17:05:19+00:00"
+   "predicted_at": "2026-11-07T19:00:10+00:00"
   },
   {
    "game_id": "0022600193",
@@ -434,7 +430,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T17:05:19+00:00"
+   "predicted_at": "2026-11-07T19:00:10+00:00"
   },
   {
    "game_id": "0022600194",
@@ -500,7 +496,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T17:05:19+00:00"
+   "predicted_at": "2026-11-07T19:00:10+00:00"
   },
   {
    "game_id": "0022600195",
@@ -566,7 +562,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T17:05:19+00:00"
+   "predicted_at": "2026-11-07T19:00:10+00:00"
   }
  ]
 }
