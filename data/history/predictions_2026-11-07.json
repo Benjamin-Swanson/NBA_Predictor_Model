@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T19:00:10+00:00",
+ "generated_at": "2026-11-07T21:10:14+00:00",
  "date": "2026-11-07",
  "ratings_through": "2026-11-06",
  "unmatched_injuries": [
@@ -16,17 +16,17 @@
    "neutral": true,
    "home_name": "Indiana Pacers",
    "away_name": "Denver Nuggets",
-   "home_win_prob": 0.1483,
-   "home_pts": 105.0,
-   "away_pts": 119.1,
+   "home_win_prob": 0.1663,
+   "home_pts": 105.5,
+   "away_pts": 118.6,
    "margin_pct": {
-    "5": -37.0,
-    "25": -23.2,
-    "50": -13.9,
-    "75": -4.8,
-    "95": 8.2
+    "5": -36.0,
+    "25": -22.2,
+    "50": -12.9,
+    "75": -3.8,
+    "95": 9.2
    },
-   "total_mean": 224.2,
+   "total_mean": 224.3,
    "total_pct": {
     "5": 194.4,
     "25": 212.0,
@@ -38,16 +38,10 @@
    "rest_away": 3,
    "injuries_home": [
     {
-     "name": "T.J. McConnell",
+     "name": "Tyrese Haliburton",
      "status": "Out",
-     "note": "McConnell (hamstring) is questionable for Saturday's game against Denver.",
+     "note": "Haliburton (hamstring) is progressing well but does not have a timetable to return, Dustin Dopirak of The Indianapolis Star reports.",
      "out": true
-    },
-    {
-     "name": "Kelly Oubre Jr.",
-     "status": "Day-To-Day",
-     "note": "Oubre (calf) is questionable for Saturday's game against Denver.",
-     "out": false
     },
     {
      "name": "Johnny Furphy",
@@ -60,21 +54,9 @@
      "status": "Out",
      "note": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.",
      "out": true
-    },
-    {
-     "name": "Tyrese Haliburton",
-     "status": "Out",
-     "note": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports.",
-     "out": true
     }
    ],
    "injuries_away": [
-    {
-     "name": "DeMar DeRozan",
-     "status": "Day-To-Day",
-     "note": "DeRozan (back) is probable for Saturday's game against the Pacers.",
-     "out": false
-    },
     {
      "name": "Julian Strawther",
      "status": "Out",
@@ -82,7 +64,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T19:00:10+00:00"
+   "predicted_at": "2026-11-07T21:10:14+00:00"
   },
   {
    "game_id": "0022600190",
@@ -172,7 +154,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T19:00:10+00:00"
+   "predicted_at": "2026-11-07T21:10:14+00:00"
   },
   {
    "game_id": "0022600191",
@@ -232,7 +214,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T19:00:10+00:00"
+   "predicted_at": "2026-11-07T21:10:14+00:00"
   },
   {
    "game_id": "0022600192",
@@ -244,22 +226,22 @@
    "neutral": false,
    "home_name": "Oklahoma City Thunder",
    "away_name": "Washington Wizards",
-   "home_win_prob": 0.828,
-   "home_pts": 120.9,
-   "away_pts": 107.8,
+   "home_win_prob": 0.8134,
+   "home_pts": 120.5,
+   "away_pts": 108.2,
    "margin_pct": {
-    "5": -9.9,
-    "25": 4.0,
-    "50": 13.3,
-    "75": 22.4,
-    "95": 35.3
+    "5": -10.7,
+    "25": 3.1,
+    "50": 12.4,
+    "75": 21.5,
+    "95": 34.5
    },
    "total_mean": 228.8,
    "total_pct": {
     "5": 199.0,
-    "25": 216.5,
-    "50": 228.8,
-    "75": 241.0,
+    "25": 216.6,
+    "50": 228.9,
+    "75": 241.1,
     "95": 258.5
    },
    "rest_home": 1,
@@ -267,9 +249,9 @@
    "injuries_home": [
     {
      "name": "Jaylin Williams",
-     "status": "Day-To-Day",
-     "note": "Williams (back) has been ruled out for Friday's game against the Grizzlies.",
-     "out": false
+     "status": "Out",
+     "note": "Williams (back) has been ruled out for Saturday's game against the Wizards, Brandon Rahbar of DailyThunder.com reports.",
+     "out": true
     },
     {
      "name": "Thomas Sorber",
@@ -300,7 +282,7 @@
     {
      "name": "Anthony Davis",
      "status": "Day-To-Day",
-     "note": "Davis (ankle) is listed as out for Friday's game against the Hawks.",
+     "note": "Davis (ankle) is questionable for Saturday's game against the Thunder.",
      "out": false
     },
     {
@@ -328,7 +310,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T19:00:10+00:00"
+   "predicted_at": "2026-11-07T21:10:14+00:00"
   },
   {
    "game_id": "0022600193",
@@ -340,23 +322,23 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Orlando Magic",
-   "home_win_prob": 0.6187,
-   "home_pts": 115.0,
-   "away_pts": 111.1,
+   "home_win_prob": 0.639,
+   "home_pts": 115.5,
+   "away_pts": 110.9,
    "margin_pct": {
-    "5": -19.0,
-    "25": -5.1,
-    "50": 4.1,
-    "75": 13.3,
-    "95": 26.2
+    "5": -18.2,
+    "25": -4.4,
+    "50": 4.9,
+    "75": 14.0,
+    "95": 26.9
    },
-   "total_mean": 226.2,
+   "total_mean": 226.5,
    "total_pct": {
-    "5": 196.4,
-    "25": 213.9,
-    "50": 226.2,
-    "75": 238.4,
-    "95": 255.9
+    "5": 196.7,
+    "25": 214.2,
+    "50": 226.5,
+    "75": 238.7,
+    "95": 256.2
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -400,6 +382,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Desmond Bane",
+     "status": "Out",
+     "note": "Bane (illness) has been ruled out for Saturday's game against the Warriors.",
+     "out": true
+    },
+    {
      "name": "Jonathan Isaac",
      "status": "Out",
      "note": "Orlando recalled Isaac (knee) from the G League's Osceola Magic on Wednesday.",
@@ -430,7 +418,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T19:00:10+00:00"
+   "predicted_at": "2026-11-07T21:10:14+00:00"
   },
   {
    "game_id": "0022600194",
@@ -496,7 +484,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T19:00:10+00:00"
+   "predicted_at": "2026-11-07T21:10:14+00:00"
   },
   {
    "game_id": "0022600195",
@@ -508,15 +496,15 @@
    "neutral": false,
    "home_name": "Portland Trail Blazers",
    "away_name": "San Antonio Spurs",
-   "home_win_prob": 0.4691,
-   "home_pts": 115.0,
-   "away_pts": 116.3,
+   "home_win_prob": 0.4364,
+   "home_pts": 114.5,
+   "away_pts": 116.8,
    "margin_pct": {
-    "5": -24.1,
-    "25": -10.3,
-    "50": -1.0,
-    "75": 8.1,
-    "95": 21.0
+    "5": -25.2,
+    "25": -11.4,
+    "50": -2.1,
+    "75": 7.0,
+    "95": 20.0
    },
    "total_mean": 231.5,
    "total_pct": {
@@ -529,6 +517,12 @@
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
+    {
+     "name": "Robert Williams III",
+     "status": "Out",
+     "note": "Williams closed Wednesday's 132-119 victory over the Suns with nine points (4-8 FG, 1-1 FT), eight rebounds, one assist, three blocks and two steals over 16 minutes.",
+     "out": true
+    },
     {
      "name": "V\u00edt Krej\u010d\u00ed",
      "status": "Out",
@@ -562,7 +556,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T19:00:10+00:00"
+   "predicted_at": "2026-11-07T21:10:14+00:00"
   }
  ]
 }
