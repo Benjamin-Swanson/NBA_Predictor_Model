@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T21:10:14+00:00",
+ "generated_at": "2026-11-07T23:12:14+00:00",
  "date": "2026-11-07",
  "ratings_through": "2026-11-06",
  "unmatched_injuries": [
@@ -76,23 +76,23 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Brooklyn Nets",
-   "home_win_prob": 0.6787,
-   "home_pts": 115.5,
-   "away_pts": 109.3,
+   "home_win_prob": 0.7248,
+   "home_pts": 116.9,
+   "away_pts": 108.9,
    "margin_pct": {
-    "5": -16.7,
-    "25": -2.9,
-    "50": 6.4,
-    "75": 15.5,
-    "95": 28.4
+    "5": -14.9,
+    "25": -1.0,
+    "50": 8.2,
+    "75": 17.4,
+    "95": 30.3
    },
-   "total_mean": 225.0,
+   "total_mean": 225.9,
    "total_pct": {
-    "5": 195.1,
-    "25": 212.7,
-    "50": 225.0,
-    "75": 237.2,
-    "95": 254.6
+    "5": 196.0,
+    "25": 213.6,
+    "50": 225.9,
+    "75": 238.1,
+    "95": 255.5
    },
    "rest_home": 1,
    "rest_away": 3,
@@ -113,12 +113,6 @@
      "name": "Jock Landale",
      "status": "Out",
      "note": "Landale (hip) has been ruled out for Saturday's game against the Nets.",
-     "out": true
-    },
-    {
-     "name": "Jalen Johnson",
-     "status": "Out",
-     "note": "Johnson (ankle) is probable for Saturday's game against Brooklyn.",
      "out": true
     },
     {
@@ -154,7 +148,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T21:10:14+00:00"
+   "predicted_at": "2026-11-07T23:12:14+00:00"
   },
   {
    "game_id": "0022600191",
@@ -214,7 +208,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T21:10:14+00:00"
+   "predicted_at": "2026-11-07T23:12:14+00:00"
   },
   {
    "game_id": "0022600192",
@@ -310,7 +304,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T21:10:14+00:00"
+   "predicted_at": "2026-11-07T23:12:14+00:00"
   },
   {
    "game_id": "0022600193",
@@ -418,7 +412,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T21:10:14+00:00"
+   "predicted_at": "2026-11-07T23:12:14+00:00"
   },
   {
    "game_id": "0022600194",
@@ -484,7 +478,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T21:10:14+00:00"
+   "predicted_at": "2026-11-07T23:12:14+00:00"
   },
   {
    "game_id": "0022600195",
@@ -520,7 +514,7 @@
     {
      "name": "Robert Williams III",
      "status": "Out",
-     "note": "Williams closed Wednesday's 132-119 victory over the Suns with nine points (4-8 FG, 1-1 FT), eight rebounds, one assist, three blocks and two steals over 16 minutes.",
+     "note": "Williams (rest) won't play in Saturday's game against the Spurs.",
      "out": true
     },
     {
@@ -556,7 +550,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-07T21:10:14+00:00"
+   "predicted_at": "2026-11-07T23:12:14+00:00"
   }
  ]
 }
