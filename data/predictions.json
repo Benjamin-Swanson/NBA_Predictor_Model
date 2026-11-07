@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T19:01:00+00:00",
+ "generated_at": "2026-11-07T00:55:40+00:00",
  "date": "2026-11-06",
  "ratings_through": "2026-11-05",
  "unmatched_injuries": [],
@@ -14,27 +14,33 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Washington Wizards",
-   "home_win_prob": 0.7981,
-   "home_pts": 122.0,
-   "away_pts": 110.7,
+   "home_win_prob": 0.7987,
+   "home_pts": 121.4,
+   "away_pts": 110.0,
    "margin_pct": {
     "5": -11.5,
-    "25": 2.3,
+    "25": 2.4,
     "50": 11.6,
-    "75": 20.7,
+    "75": 20.8,
     "95": 33.7
    },
-   "total_mean": 232.8,
+   "total_mean": 231.5,
    "total_pct": {
-    "5": 203.0,
-    "25": 220.6,
-    "50": 232.9,
-    "75": 245.1,
-    "95": 262.5
+    "5": 201.7,
+    "25": 219.2,
+    "50": 231.5,
+    "75": 243.7,
+    "95": 261.2
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Jalen Johnson",
+     "status": "Out",
+     "note": "Johnson (ankle) is out for Friday's game against the Wizards.",
+     "out": true
+    },
     {
      "name": "Keshon Gilbert",
      "status": "Out",
@@ -54,12 +60,6 @@
      "out": true
     },
     {
-     "name": "Jalen Johnson",
-     "status": "Day-To-Day",
-     "note": "Johnson is questionable to suit up for Friday's game against Washington.",
-     "out": false
-    },
-    {
      "name": "Mouhamed Gueye",
      "status": "Out",
      "note": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
@@ -75,9 +75,9 @@
    "injuries_away": [
     {
      "name": "Anthony Davis",
-     "status": "Day-To-Day",
-     "note": "Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Athletic reports.",
-     "out": false
+     "status": "Out",
+     "note": "Davis (ankle) is listed as out for Friday's game against the Hawks.",
+     "out": true
     },
     {
      "name": "Reece Beekman",
@@ -180,58 +180,46 @@
    "neutral": false,
    "home_name": "Cleveland Cavaliers",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.6607,
-   "home_pts": 119.3,
-   "away_pts": 113.8,
+   "home_win_prob": 0.5964,
+   "home_pts": 117.8,
+   "away_pts": 114.7,
    "margin_pct": {
-    "5": -17.5,
-    "25": -3.6,
-    "50": 5.7,
-    "75": 14.8,
-    "95": 27.7
+    "5": -19.8,
+    "25": -6.0,
+    "50": 3.3,
+    "75": 12.4,
+    "95": 25.4
    },
-   "total_mean": 233.2,
+   "total_mean": 232.7,
    "total_pct": {
-    "5": 203.4,
-    "25": 221.0,
-    "50": 233.3,
-    "75": 245.5,
-    "95": 262.9
+    "5": 202.8,
+    "25": 220.4,
+    "50": 232.7,
+    "75": 244.9,
+    "95": 262.3
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Tyrese Proctor",
-     "status": "Day-To-Day",
-     "note": "Proctor (ankle) is questionable to play in Friday's game against the 76ers.",
-     "out": false
+     "name": "Jarrett Allen",
+     "status": "Out",
+     "note": "Allen (knee) is out for Friday's game against the 76ers.",
+     "out": true
     },
     {
      "name": "Jaylon Tyson",
      "status": "Out",
      "note": "Tyson (ankle) is out for Friday's game against the 76ers.",
      "out": true
-    },
-    {
-     "name": "Peyton Watson",
-     "status": "Day-To-Day",
-     "note": "Watson (hamstring) is questionable for Friday's game against the 76ers.",
-     "out": false
-    },
-    {
-     "name": "Jarrett Allen",
-     "status": "Day-To-Day",
-     "note": "Allen (knee) is questionable for Friday's game against Philadelphia.",
-     "out": false
     }
    ],
    "injuries_away": [
     {
      "name": "Adem Bona",
-     "status": "Day-To-Day",
-     "note": "Bona (back) is doubtful to play in Friday's game against the Cavaliers, Ky Carlin of USA Today reports.",
-     "out": false
+     "status": "Out",
+     "note": "Bona (neck) is listed as out for Friday's game versus the Cavaliers.",
+     "out": true
     },
     {
      "name": "Dominick Barlow",
@@ -257,23 +245,23 @@
    "neutral": false,
    "home_name": "Dallas Mavericks",
    "away_name": "Utah Jazz",
-   "home_win_prob": 0.6558,
-   "home_pts": 119.5,
-   "away_pts": 114.2,
+   "home_win_prob": 0.6896,
+   "home_pts": 120.3,
+   "away_pts": 113.7,
    "margin_pct": {
-    "5": -17.6,
-    "25": -3.8,
-    "50": 5.5,
-    "75": 14.6,
-    "95": 27.6
+    "5": -16.3,
+    "25": -2.4,
+    "50": 6.8,
+    "75": 16.0,
+    "95": 28.9
    },
-   "total_mean": 233.8,
+   "total_mean": 234.2,
    "total_pct": {
-    "5": 203.9,
-    "25": 221.5,
-    "50": 233.8,
-    "75": 246.0,
-    "95": 263.4
+    "5": 204.4,
+    "25": 221.9,
+    "50": 234.2,
+    "75": 246.4,
+    "95": 263.9
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -283,18 +271,6 @@
      "status": "Out",
      "note": "De Larrea (knee) is out for Friday's game against Utah.",
      "out": true
-    },
-    {
-     "name": "Santi Aldama",
-     "status": "Out",
-     "note": "Aldama (knee) is probable to suit up for Friday's game against the Jazz.",
-     "out": true
-    },
-    {
-     "name": "Max Christie",
-     "status": "Day-To-Day",
-     "note": "Christie (hip) is probable for Friday's game against the Jazz.",
-     "out": false
     },
     {
      "name": "Tarik Biberovi\u0107",
@@ -423,23 +399,23 @@
    "neutral": false,
    "home_name": "Milwaukee Bucks",
    "away_name": "Toronto Raptors",
-   "home_win_prob": 0.4426,
-   "home_pts": 115.5,
-   "away_pts": 117.6,
+   "home_win_prob": 0.4601,
+   "home_pts": 116.0,
+   "away_pts": 117.5,
    "margin_pct": {
-    "5": -25.0,
-    "25": -11.2,
-    "50": -1.9,
-    "75": 7.2,
-    "95": 20.2
+    "5": -24.5,
+    "25": -10.6,
+    "50": -1.3,
+    "75": 7.8,
+    "95": 20.7
    },
-   "total_mean": 233.2,
+   "total_mean": 233.6,
    "total_pct": {
-    "5": 203.4,
-    "25": 221.0,
-    "50": 233.3,
-    "75": 245.5,
-    "95": 262.9
+    "5": 203.8,
+    "25": 221.3,
+    "50": 233.6,
+    "75": 245.8,
+    "95": 263.3
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -453,28 +429,16 @@
    ],
    "injuries_away": [
     {
-     "name": "Jakob Poeltl",
-     "status": "Day-To-Day",
-     "note": "Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee.",
-     "out": false
+     "name": "Scottie Barnes",
+     "status": "Out",
+     "note": "Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.",
+     "out": true
     },
     {
      "name": "Immanuel Quickley",
-     "status": "Day-To-Day",
-     "note": "Quickley (hamstring) is questionable for Friday against the Bucks.",
-     "out": false
-    },
-    {
-     "name": "Scottie Barnes",
-     "status": "Day-To-Day",
-     "note": "Barnes (adductor) was not present at the morning shootaround, Michael Grange of Sportsnet.careports.",
-     "out": false
-    },
-    {
-     "name": "Kyle Anderson",
-     "status": "Day-To-Day",
-     "note": "Anderson is questionable for Friday against the Bucks due to illness.",
-     "out": false
+     "status": "Out",
+     "note": "Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.",
+     "out": true
     },
     {
      "name": "Kawhi Leonard",
@@ -579,14 +543,7 @@
    },
    "rest_home": 2,
    "rest_away": 2,
-   "injuries_home": [
-    {
-     "name": "Sandro Mamukelashvili",
-     "status": "Day-To-Day",
-     "note": "Mamukelashvili (illness) is listed as questionable for Friday's game against Portland.",
-     "out": false
-    }
-   ],
+   "injuries_home": [],
    "injuries_away": [
     {
      "name": "V\u00edt Krej\u010d\u00ed",
@@ -618,27 +575,33 @@
    "neutral": false,
    "home_name": "Sacramento Kings",
    "away_name": "San Antonio Spurs",
-   "home_win_prob": 0.2257,
-   "home_pts": 111.7,
-   "away_pts": 121.9,
+   "home_win_prob": 0.2188,
+   "home_pts": 111.5,
+   "away_pts": 122.0,
    "margin_pct": {
-    "5": -33.2,
-    "25": -19.4,
-    "50": -10.1,
-    "75": -1.0,
-    "95": 12.0
+    "5": -33.5,
+    "25": -19.6,
+    "50": -10.3,
+    "75": -1.2,
+    "95": 11.7
    },
-   "total_mean": 233.7,
+   "total_mean": 233.6,
    "total_pct": {
-    "5": 203.9,
-    "25": 221.5,
-    "50": 233.8,
-    "75": 246.0,
-    "95": 263.4
+    "5": 203.8,
+    "25": 221.4,
+    "50": 233.7,
+    "75": 245.9,
+    "95": 263.3
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "De'Andre Hunter",
+     "status": "Out",
+     "note": "Hunter (illness) is listed as out for Friday's game against San Antonio.",
+     "out": true
+    },
     {
      "name": "Maxime Raynaud",
      "status": "Out",
