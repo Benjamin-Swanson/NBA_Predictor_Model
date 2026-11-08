@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T21:00:31+00:00",
+ "generated_at": "2026-11-08T23:04:53+00:00",
  "date": "2026-11-08",
  "ratings_through": "2026-11-07",
  "unmatched_injuries": [],
@@ -413,6 +413,12 @@
    "rest_home": 2,
    "rest_away": 3,
    "injuries_home": [
+    {
+     "name": "Domantas Sabonis",
+     "status": "Day-To-Day",
+     "note": "Sabonis has been downgraded to questionable for Sunday's game against Miami due to left knee soreness.",
+     "out": false
+    },
     {
      "name": "Maxime Raynaud",
      "status": "Out",
