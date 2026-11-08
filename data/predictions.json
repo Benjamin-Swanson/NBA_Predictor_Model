@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T19:03:02+00:00",
+ "generated_at": "2026-11-08T21:00:31+00:00",
  "date": "2026-11-08",
  "ratings_through": "2026-11-07",
  "unmatched_injuries": [],
@@ -38,20 +38,8 @@
     {
      "name": "Norman Powell",
      "status": "Out",
-     "note": "Powell (shoulder) is listed as questionable for Sunday's game against the 76ers.",
+     "note": "Powell (shoulder) has been ruled out for Sunday's game against the 76ers, Adam Aaronson of PhillyVoice.com reports.",
      "out": true
-    },
-    {
-     "name": "Tobe Awaka",
-     "status": "Day-To-Day",
-     "note": "Awaka (knee) is questionable for Sundays' game against the 76ers.",
-     "out": false
-    },
-    {
-     "name": "Jalen Smith",
-     "status": "Day-To-Day",
-     "note": "Smith (finger) is probable for Sunday's game against Philadelphia.",
-     "out": false
     },
     {
      "name": "Zach Collins",
@@ -61,12 +49,6 @@
     }
    ],
    "injuries_away": [
-    {
-     "name": "Joel Embiid",
-     "status": "Day-To-Day",
-     "note": "Embiid (foot) is probable for Sunday's game against the Bulls.",
-     "out": false
-    },
     {
      "name": "Adem Bona",
      "status": "Out",
@@ -410,33 +392,27 @@
    "neutral": false,
    "home_name": "Sacramento Kings",
    "away_name": "Miami Heat",
-   "home_win_prob": 0.3657,
-   "home_pts": 115.6,
-   "away_pts": 120.4,
+   "home_win_prob": 0.392,
+   "home_pts": 116.0,
+   "away_pts": 119.9,
    "margin_pct": {
-    "5": -27.7,
-    "25": -13.9,
-    "50": -4.6,
-    "75": 4.5,
-    "95": 17.5
+    "5": -26.8,
+    "25": -13.0,
+    "50": -3.7,
+    "75": 5.4,
+    "95": 18.4
    },
    "total_mean": 236.1,
    "total_pct": {
     "5": 206.3,
-    "25": 223.8,
+    "25": 223.9,
     "50": 236.1,
-    "75": 248.3,
+    "75": 248.4,
     "95": 265.8
    },
    "rest_home": 2,
    "rest_away": 3,
    "injuries_home": [
-    {
-     "name": "Keegan Murray",
-     "status": "Out",
-     "note": "Murray (ankle) is questionable for Sunday's game against the Heat.",
-     "out": true
-    },
     {
      "name": "Maxime Raynaud",
      "status": "Out",
