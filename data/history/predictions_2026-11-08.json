@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T18:05:01+00:00",
+ "generated_at": "2026-11-08T19:03:02+00:00",
  "date": "2026-11-08",
  "ratings_through": "2026-11-07",
  "unmatched_injuries": [],
@@ -14,32 +14,32 @@
    "neutral": false,
    "home_name": "Chicago Bulls",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.3376,
-   "home_pts": 115.8,
-   "away_pts": 121.7,
+   "home_win_prob": 0.3356,
+   "home_pts": 115.7,
+   "away_pts": 121.6,
    "margin_pct": {
     "5": -28.8,
-    "25": -14.9,
+    "25": -15.0,
     "50": -5.7,
-    "75": 3.5,
+    "75": 3.4,
     "95": 16.4
    },
-   "total_mean": 237.7,
+   "total_mean": 237.5,
    "total_pct": {
-    "5": 207.8,
-    "25": 225.4,
-    "50": 237.7,
-    "75": 249.9,
-    "95": 267.3
+    "5": 207.6,
+    "25": 225.2,
+    "50": 237.5,
+    "75": 249.7,
+    "95": 267.1
    },
    "rest_home": 4,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Norman Powell",
-     "status": "Day-To-Day",
+     "status": "Out",
      "note": "Powell (shoulder) is listed as questionable for Sunday's game against the 76ers.",
-     "out": false
+     "out": true
     },
     {
      "name": "Tobe Awaka",
@@ -52,12 +52,6 @@
      "status": "Day-To-Day",
      "note": "Smith (finger) is probable for Sunday's game against Philadelphia.",
      "out": false
-    },
-    {
-     "name": "Nic Claxton",
-     "status": "Out",
-     "note": "Claxton (hamstring) has been downgraded to questionable for Sunday's game against the 76ers.",
-     "out": true
     },
     {
      "name": "Zach Collins",
@@ -92,7 +86,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-08T18:05:01+00:00"
+   "predicted_at": "2026-11-08T19:03:02+00:00"
   },
   {
    "game_id": "0022600197",
@@ -104,23 +98,23 @@
    "neutral": false,
    "home_name": "Detroit Pistons",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.5603,
+   "home_win_prob": 0.6565,
    "home_pts": 113.8,
-   "away_pts": 112.0,
+   "away_pts": 108.5,
    "margin_pct": {
-    "5": -21.1,
-    "25": -7.2,
-    "50": 2.0,
-    "75": 11.2,
-    "95": 24.1
+    "5": -17.6,
+    "25": -3.7,
+    "50": 5.5,
+    "75": 14.7,
+    "95": 27.6
    },
-   "total_mean": 226.0,
+   "total_mean": 222.4,
    "total_pct": {
-    "5": 196.2,
-    "25": 213.7,
-    "50": 226.0,
-    "75": 238.2,
-    "95": 255.7
+    "5": 192.6,
+    "25": 210.1,
+    "50": 222.4,
+    "75": 234.6,
+    "95": 252.1
    },
    "rest_home": 4,
    "rest_away": 2,
@@ -141,12 +135,12 @@
    "injuries_away": [
     {
      "name": "Luka Don\u010di\u0107",
-     "status": "Day-To-Day",
-     "note": "Doncic (back) is questionable for Sunday's game against the Pistons.",
-     "out": false
+     "status": "Out",
+     "note": "Doncic has been ruled out for Sunday's game at Detroit due to lower-back tightness, Trevor Lane of LakersNation.com reports.",
+     "out": true
     }
    ],
-   "predicted_at": "2026-11-08T18:05:01+00:00"
+   "predicted_at": "2026-11-08T19:03:02+00:00"
   },
   {
    "game_id": "0022600198",
@@ -218,7 +212,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-08T18:05:01+00:00"
+   "predicted_at": "2026-11-08T19:03:02+00:00"
   },
   {
    "game_id": "0022600199",
@@ -290,7 +284,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-08T18:05:01+00:00"
+   "predicted_at": "2026-11-08T19:03:02+00:00"
   },
   {
    "game_id": "0022600200",
@@ -322,9 +316,23 @@
    },
    "rest_home": 2,
    "rest_away": 2,
-   "injuries_home": [],
-   "injuries_away": [],
-   "predicted_at": "2026-11-08T18:05:01+00:00"
+   "injuries_home": [
+    {
+     "name": "Gary Trent Jr.",
+     "status": "Day-To-Day",
+     "note": "Trent (illness) has been downgraded to questionable for Sunday's game against Boston.",
+     "out": false
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Mitchell Robinson",
+     "status": "Day-To-Day",
+     "note": "Robinson (illness) is questionable for Sunday's game versus Milwaukee, Bobby Krivitsky of Forbes.com reports.",
+     "out": false
+    }
+   ],
+   "predicted_at": "2026-11-08T19:03:02+00:00"
   },
   {
    "game_id": "0022600201",
@@ -396,7 +404,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-08T18:05:01+00:00"
+   "predicted_at": "2026-11-08T19:03:02+00:00"
   },
   {
    "game_id": "0022600202",
@@ -449,7 +457,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-08T18:05:01+00:00"
+   "predicted_at": "2026-11-08T19:03:02+00:00"
   }
  ]
 }
