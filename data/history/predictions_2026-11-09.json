@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T15:13:37+00:00",
+ "generated_at": "2026-11-09T19:22:15+00:00",
  "date": "2026-11-09",
  "ratings_through": "2026-11-08",
  "unmatched_injuries": [],
@@ -14,23 +14,23 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.6546,
-   "home_pts": 118.7,
-   "away_pts": 113.5,
+   "home_win_prob": 0.5641,
+   "home_pts": 118.4,
+   "away_pts": 116.5,
    "margin_pct": {
-    "5": -17.7,
-    "25": -3.8,
-    "50": 5.4,
-    "75": 14.6,
-    "95": 27.5
+    "5": -21.0,
+    "25": -7.1,
+    "50": 2.2,
+    "75": 11.3,
+    "95": 24.2
    },
-   "total_mean": 232.4,
+   "total_mean": 235.1,
    "total_pct": {
-    "5": 202.5,
-    "25": 220.1,
-    "50": 232.4,
-    "75": 244.6,
-    "95": 262.0
+    "5": 205.2,
+    "25": 222.8,
+    "50": 235.1,
+    "75": 247.3,
+    "95": 264.7
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -69,18 +69,18 @@
    "injuries_away": [
     {
      "name": "Quentin Grimes",
-     "status": "Day-To-Day",
-     "note": "Grimes (finger) did not return to Sunday's game against the Pistons.",
-     "out": false
+     "status": "Out",
+     "note": "Grimes (finger) is out for Monday's game against Atlanta, per Dave McMenamin of ESPN.com.",
+     "out": true
     },
     {
-     "name": "Luka Don\u010di\u0107",
-     "status": "Out",
-     "note": "Doncic has been ruled out for Sunday's game at Detroit due to lower-back tightness, Trevor Lane of LakersNation.com reports.",
-     "out": true
+     "name": "Austin Reaves",
+     "status": "Day-To-Day",
+     "note": "Reaves is questionable for Monday's game against the Hawks due to an illness, per Dave McMenamin of ESPN.com.",
+     "out": false
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   },
   {
    "game_id": "0022600204",
@@ -114,6 +114,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Moussa Diabat\u00e9",
+     "status": "Day-To-Day",
+     "note": "Diabate (quadriceps) is doubtful for Monday's game against the Cavaliers.",
+     "out": false
+    },
+    {
      "name": "Grant Williams",
      "status": "Out",
      "note": "Williams (hamstring) is out for Monday's game against the Cavaliers.",
@@ -124,12 +130,6 @@
      "status": "Out",
      "note": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
      "out": true
-    },
-    {
-     "name": "Moussa Diabat\u00e9",
-     "status": "Day-To-Day",
-     "note": "Diabate (quadriceps) is questionable for Monday's game against the Cavaliers.",
-     "out": false
     },
     {
      "name": "Dennis Schr\u00f6der",
@@ -164,7 +164,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   },
   {
    "game_id": "0022600205",
@@ -198,19 +198,25 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Isaiah Joe",
+     "status": "Out",
+     "note": "Joe (hip) is out for Monday against the Wizards.",
+     "out": true
+    },
+    {
      "name": "Jalen Duren",
      "status": "Out",
      "note": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.",
      "out": true
-    },
-    {
-     "name": "Isaiah Joe",
-     "status": "Out",
-     "note": "Joe (hip) has been ruled out for Sunday's game against the Lakers.",
-     "out": true
     }
    ],
    "injuries_away": [
+    {
+     "name": "Bilal Coulibaly",
+     "status": "Day-To-Day",
+     "note": "Coulibaly (hand) is listed as questionable for Monday's game against Detroit.",
+     "out": false
+    },
     {
      "name": "Tristan Vuk\u010devi\u0107",
      "status": "Out",
@@ -242,7 +248,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   },
   {
    "game_id": "0022600206",
@@ -275,6 +281,12 @@
    "rest_home": 3,
    "rest_away": 3,
    "injuries_home": [
+    {
+     "name": "Collin Murray-Boyles",
+     "status": "Day-To-Day",
+     "note": "Murray-Boyles (illness) is questionable for Monday's game versus Memphis, per Josh Lewenberg of TSN.ca.",
+     "out": false
+    },
     {
      "name": "Nate Bittle",
      "status": "Out",
@@ -320,7 +332,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   },
   {
    "game_id": "0022600207",
@@ -353,6 +365,12 @@
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Morez Johnson Jr.",
+     "status": "Day-To-Day",
+     "note": "Johnson (leg) is questionable for Monday's game against Indiana.",
+     "out": false
+    },
     {
      "name": "Sergio de Larrea",
      "status": "Out",
@@ -398,7 +416,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   },
   {
    "game_id": "0022600208",
@@ -410,27 +428,33 @@
    "neutral": false,
    "home_name": "Houston Rockets",
    "away_name": "Denver Nuggets",
-   "home_win_prob": 0.5837,
-   "home_pts": 115.1,
-   "away_pts": 112.5,
+   "home_win_prob": 0.5567,
+   "home_pts": 114.6,
+   "away_pts": 112.9,
    "margin_pct": {
-    "5": -20.3,
-    "25": -6.4,
-    "50": 2.9,
-    "75": 12.0,
-    "95": 24.9
+    "5": -21.2,
+    "25": -7.4,
+    "50": 1.9,
+    "75": 11.0,
+    "95": 24.0
    },
-   "total_mean": 227.7,
+   "total_mean": 227.6,
    "total_pct": {
-    "5": 197.9,
-    "25": 215.5,
-    "50": 227.8,
-    "75": 240.0,
-    "95": 257.4
+    "5": 197.8,
+    "25": 215.3,
+    "50": 227.6,
+    "75": 239.8,
+    "95": 257.3
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Oscar Tshiebwe",
+     "status": "Out",
+     "note": "Tshiebwe has been ruled out for Monday's game against the Nuggets due to an illness.",
+     "out": true
+    },
     {
      "name": "Clint Capela",
      "status": "Out",
@@ -488,7 +512,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   },
   {
    "game_id": "0022600209",
@@ -500,23 +524,23 @@
    "neutral": false,
    "home_name": "Phoenix Suns",
    "away_name": "San Antonio Spurs",
-   "home_win_prob": 0.3182,
-   "home_pts": 110.9,
-   "away_pts": 117.5,
+   "home_win_prob": 0.3459,
+   "home_pts": 110.8,
+   "away_pts": 116.3,
    "margin_pct": {
-    "5": -29.5,
-    "25": -15.6,
-    "50": -6.4,
-    "75": 2.8,
-    "95": 15.7
+    "5": -28.5,
+    "25": -14.6,
+    "50": -5.3,
+    "75": 3.8,
+    "95": 16.7
    },
-   "total_mean": 228.6,
+   "total_mean": 227.3,
    "total_pct": {
-    "5": 198.8,
-    "25": 216.3,
-    "50": 228.6,
-    "75": 240.8,
-    "95": 258.3
+    "5": 197.4,
+    "25": 215.0,
+    "50": 227.3,
+    "75": 239.5,
+    "95": 256.9
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -536,16 +560,16 @@
    ],
    "injuries_away": [
     {
+     "name": "Devin Vassell",
+     "status": "Out",
+     "note": "Vassell (groin) is out for Monday's game against the Suns, Tom Orsborn of the San Antonio Express-News reports.",
+     "out": true
+    },
+    {
      "name": "Tobias Harris",
      "status": "Out",
      "note": "Harris (calf) is listed as out for Monday's game against Phoenix.",
      "out": true
-    },
-    {
-     "name": "Devin Vassell",
-     "status": "Day-To-Day",
-     "note": "Vassell is questionable for Monday's game against the Suns due to left adductor tightness.",
-     "out": false
     },
     {
      "name": "Jayden Quaintance",
@@ -554,7 +578,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   },
   {
    "game_id": "0022600210",
@@ -626,7 +650,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T15:13:37+00:00"
+   "predicted_at": "2026-11-09T19:22:15+00:00"
   }
  ]
 }
