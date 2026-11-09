@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T19:22:15+00:00",
+ "generated_at": "2026-11-09T21:27:31+00:00",
  "date": "2026-11-09",
  "ratings_through": "2026-11-08",
  "unmatched_injuries": [],
@@ -467,37 +467,37 @@
     {
      "name": "Cameron Johnson",
      "status": "Day-To-Day",
-     "note": "Johnson (lower body) is questionable for Monday's game against Houston.",
-     "out": false
-    },
-    {
-     "name": "DeMar DeRozan",
-     "status": "Day-To-Day",
-     "note": "DeRozan is questionable for Monday's game against the Rockets due to lower back spasms.",
+     "note": "Johnson (ankle) is probable for Monday against Houston.",
      "out": false
     },
     {
      "name": "Christian Braun",
      "status": "Day-To-Day",
-     "note": "Braun (calf/illness) is listed as questionable for Monday's game against Houston.",
-     "out": false
-    },
-    {
-     "name": "Jamal Murray",
-     "status": "Day-To-Day",
-     "note": "Murray is questionable for Monday's game against the Rockets due to a left shin contusion.",
+     "note": "Braun (left calf contusion/illness) is probable for Monday's matchup against the Rockets.",
      "out": false
     },
     {
      "name": "Aaron Gordon",
      "status": "Day-To-Day",
-     "note": "Gordon (lower body injury management) is listed as questionable for Monday's game against the Rockets.",
+     "note": "Gordon (left calf injury management) is probable for Monday's game against Houston.",
      "out": false
     },
     {
      "name": "Nikola Joki\u0107",
      "status": "Day-To-Day",
-     "note": "Jokic (elbow) is listed as questionable for Monday's game in Houston.",
+     "note": "Jokic (right elbow sprain) is probable for Monday's game against the Rockets.",
+     "out": false
+    },
+    {
+     "name": "DeMar DeRozan",
+     "status": "Day-To-Day",
+     "note": "DeRozan (back) is probable for Monday against Houston.",
+     "out": false
+    },
+    {
+     "name": "Jamal Murray",
+     "status": "Day-To-Day",
+     "note": "Murray (leg) is probable for Monday against Houston.",
      "out": false
     },
     {
@@ -583,27 +583,33 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "New Orleans Pelicans",
-   "home_win_prob": 0.7559,
-   "home_pts": 121.6,
-   "away_pts": 112.3,
+   "home_win_prob": 0.7935,
+   "home_pts": 122.4,
+   "away_pts": 111.3,
    "margin_pct": {
-    "5": -13.5,
-    "25": 0.3,
-    "50": 9.6,
-    "75": 18.7,
-    "95": 31.6
+    "5": -11.7,
+    "25": 2.1,
+    "50": 11.4,
+    "75": 20.5,
+    "95": 33.5
    },
-   "total_mean": 234.0,
+   "total_mean": 233.8,
    "total_pct": {
-    "5": 204.2,
-    "25": 221.8,
-    "50": 234.1,
-    "75": 246.3,
-    "95": 263.7
+    "5": 204.0,
+    "25": 221.5,
+    "50": 233.8,
+    "75": 246.0,
+    "95": 263.5
    },
    "rest_home": 2,
    "rest_away": 1,
    "injuries_home": [
+    {
+     "name": "Gary Payton II",
+     "status": "Day-To-Day",
+     "note": "Payton (left knee soreness) is listed as questionable for Monday's game against New Orleans.",
+     "out": false
+    },
     {
      "name": "Will Richard",
      "status": "Out",
@@ -636,6 +642,18 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Trendon Watford",
+     "status": "Out",
+     "note": "Watford (ankle) is out for Monday's game versus Utah.",
+     "out": true
+    },
+    {
+     "name": "Trey Murphy III",
+     "status": "Out",
+     "note": "Murphy (knees) has been ruled out for Monday's game against Golden State.",
+     "out": true
+    },
     {
      "name": "Yves Missi",
      "status": "Out",
