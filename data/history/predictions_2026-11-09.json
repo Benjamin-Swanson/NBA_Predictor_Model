@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T21:27:31+00:00",
+ "generated_at": "2026-11-09T23:00:09+00:00",
  "date": "2026-11-09",
  "ratings_through": "2026-11-08",
  "unmatched_injuries": [],
@@ -14,23 +14,23 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.5641,
-   "home_pts": 118.4,
-   "away_pts": 116.5,
+   "home_win_prob": 0.6191,
+   "home_pts": 118.9,
+   "away_pts": 114.9,
    "margin_pct": {
-    "5": -21.0,
-    "25": -7.1,
-    "50": 2.2,
-    "75": 11.3,
-    "95": 24.2
+    "5": -19.0,
+    "25": -5.1,
+    "50": 4.2,
+    "75": 13.3,
+    "95": 26.2
    },
-   "total_mean": 235.1,
+   "total_mean": 233.9,
    "total_pct": {
-    "5": 205.2,
-    "25": 222.8,
-    "50": 235.1,
-    "75": 247.3,
-    "95": 264.7
+    "5": 204.1,
+    "25": 221.7,
+    "50": 234.0,
+    "75": 246.2,
+    "95": 263.6
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -48,12 +48,6 @@
      "out": true
     },
     {
-     "name": "Jock Landale",
-     "status": "Out",
-     "note": "Landale (hip) is listed as questionable for Monday's game against the Lakers.",
-     "out": true
-    },
-    {
      "name": "Mouhamed Gueye",
      "status": "Out",
      "note": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
@@ -68,19 +62,19 @@
    ],
    "injuries_away": [
     {
+     "name": "Austin Reaves",
+     "status": "Out",
+     "note": "Reaves (illness) has been ruled out for Monday's game against Atlanta, Benjamin Royer of The Orange County Register reports.",
+     "out": true
+    },
+    {
      "name": "Quentin Grimes",
      "status": "Out",
      "note": "Grimes (finger) is out for Monday's game against Atlanta, per Dave McMenamin of ESPN.com.",
      "out": true
-    },
-    {
-     "name": "Austin Reaves",
-     "status": "Day-To-Day",
-     "note": "Reaves is questionable for Monday's game against the Hawks due to an illness, per Dave McMenamin of ESPN.com.",
-     "out": false
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   },
   {
    "game_id": "0022600204",
@@ -92,32 +86,32 @@
    "neutral": false,
    "home_name": "Charlotte Hornets",
    "away_name": "Cleveland Cavaliers",
-   "home_win_prob": 0.415,
-   "home_pts": 108.4,
-   "away_pts": 111.4,
+   "home_win_prob": 0.3527,
+   "home_pts": 107.4,
+   "away_pts": 112.6,
    "margin_pct": {
-    "5": -25.9,
-    "25": -12.1,
-    "50": -2.8,
-    "75": 6.3,
-    "95": 19.2
+    "5": -28.2,
+    "25": -14.4,
+    "50": -5.1,
+    "75": 4.0,
+    "95": 17.0
    },
-   "total_mean": 220.0,
+   "total_mean": 220.1,
    "total_pct": {
-    "5": 190.2,
-    "25": 207.7,
-    "50": 220.0,
-    "75": 232.2,
-    "95": 249.7
+    "5": 190.3,
+    "25": 207.9,
+    "50": 220.2,
+    "75": 232.4,
+    "95": 249.8
    },
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Moussa Diabat\u00e9",
-     "status": "Day-To-Day",
-     "note": "Diabate (quadriceps) is doubtful for Monday's game against the Cavaliers.",
-     "out": false
+     "status": "Out",
+     "note": "Diabate (quadriceps) has been downgraded to out for Monday's game against Cleveland.",
+     "out": true
     },
     {
      "name": "Grant Williams",
@@ -164,7 +158,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   },
   {
    "game_id": "0022600205",
@@ -248,7 +242,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   },
   {
    "game_id": "0022600206",
@@ -260,27 +254,33 @@
    "neutral": false,
    "home_name": "Toronto Raptors",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.6875,
-   "home_pts": 119.0,
-   "away_pts": 112.5,
+   "home_win_prob": 0.6407,
+   "home_pts": 118.1,
+   "away_pts": 113.4,
    "margin_pct": {
-    "5": -16.4,
-    "25": -2.5,
-    "50": 6.7,
-    "75": 15.9,
-    "95": 28.8
+    "5": -18.2,
+    "25": -4.3,
+    "50": 4.9,
+    "75": 14.1,
+    "95": 27.0
    },
-   "total_mean": 231.7,
+   "total_mean": 231.6,
    "total_pct": {
     "5": 201.8,
-    "25": 219.4,
-    "50": 231.7,
-    "75": 243.9,
+    "25": 219.3,
+    "50": 231.6,
+    "75": 243.8,
     "95": 261.3
    },
    "rest_home": 3,
    "rest_away": 3,
    "injuries_home": [
+    {
+     "name": "Scottie Barnes",
+     "status": "Out",
+     "note": "Barnes (adductor) was a limited participant in Sunday's practice and will be listed as questionable for Monday's game against the Grizzlies, Michael Grange of Sportsnet.ca reports.",
+     "out": true
+    },
     {
      "name": "Collin Murray-Boyles",
      "status": "Day-To-Day",
@@ -297,12 +297,6 @@
      "name": "Immanuel Quickley",
      "status": "Day-To-Day",
      "note": "Quickley (hamstring) was a limited participant in Sunday's practice and will be listed as questionable for Monday's game against the Grizzlies, Michael Grange of Sportsnet.ca reports.",
-     "out": false
-    },
-    {
-     "name": "Scottie Barnes",
-     "status": "Day-To-Day",
-     "note": "Barnes (adductor) was a limited participant in Sunday's practice and will be listed as questionable for Monday's game against the Grizzlies, Michael Grange of Sportsnet.ca reports.",
      "out": false
     },
     {
@@ -332,7 +326,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   },
   {
    "game_id": "0022600207",
@@ -416,7 +410,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   },
   {
    "game_id": "0022600208",
@@ -512,7 +506,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   },
   {
    "game_id": "0022600209",
@@ -578,7 +572,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   },
   {
    "game_id": "0022600210",
@@ -590,15 +584,15 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "New Orleans Pelicans",
-   "home_win_prob": 0.7935,
-   "home_pts": 122.4,
-   "away_pts": 111.3,
+   "home_win_prob": 0.8111,
+   "home_pts": 122.9,
+   "away_pts": 110.8,
    "margin_pct": {
-    "5": -11.7,
-    "25": 2.1,
-    "50": 11.4,
-    "75": 20.5,
-    "95": 33.5
+    "5": -10.8,
+    "25": 3.0,
+    "50": 12.3,
+    "75": 21.4,
+    "95": 34.4
    },
    "total_mean": 233.8,
    "total_pct": {
@@ -650,6 +644,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Zion Williamson",
+     "status": "Out",
+     "note": "Williamson (rest) is out for Monday's game against the Warriors.",
+     "out": true
+    },
+    {
      "name": "Trendon Watford",
      "status": "Out",
      "note": "Watford (ankle) is out for Monday's game versus Utah.",
@@ -668,7 +668,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-09T21:27:31+00:00"
+   "predicted_at": "2026-11-09T23:00:09+00:00"
   }
  ]
 }
