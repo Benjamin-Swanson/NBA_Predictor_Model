@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T17:12:33+00:00",
+ "generated_at": "2026-11-10T19:00:12+00:00",
  "date": "2026-11-10",
  "ratings_through": "2026-11-09",
  "unmatched_injuries": [],
@@ -44,13 +44,19 @@
    ],
    "injuries_away": [
     {
+     "name": "Kel'el Ware",
+     "status": "Day-To-Day",
+     "note": "Ware is questionable for Tuesday's game against the Knicks due to a left ankle sprain.",
+     "out": false
+    },
+    {
      "name": "Tyler Herro",
      "status": "Day-To-Day",
      "note": "Herro (contusion) is listed as questionable for Tuesday's game against the Knicks.",
      "out": false
     }
    ],
-   "predicted_at": "2026-11-10T17:12:33+00:00"
+   "predicted_at": "2026-11-10T19:00:12+00:00"
   },
   {
    "game_id": "0022600212",
@@ -103,7 +109,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-10T17:12:33+00:00"
+   "predicted_at": "2026-11-10T19:00:12+00:00"
   },
   {
    "game_id": "0022600213",
@@ -181,7 +187,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-10T17:12:33+00:00"
+   "predicted_at": "2026-11-10T19:00:12+00:00"
   },
   {
    "game_id": "0022600214",
@@ -193,38 +199,38 @@
    "neutral": false,
    "home_name": "Utah Jazz",
    "away_name": "Miami Heat",
-   "home_win_prob": 0.3397,
-   "home_pts": 111.1,
-   "away_pts": 116.9,
+   "home_win_prob": 0.2976,
+   "home_pts": 110.3,
+   "away_pts": 117.6,
    "margin_pct": {
-    "5": -28.7,
-    "25": -14.9,
-    "50": -5.6,
-    "75": 3.5,
-    "95": 16.5
+    "5": -30.3,
+    "25": -16.4,
+    "50": -7.1,
+    "75": 2.0,
+    "95": 14.9
    },
-   "total_mean": 228.2,
+   "total_mean": 228.0,
    "total_pct": {
-    "5": 198.4,
-    "25": 215.9,
-    "50": 228.2,
-    "75": 240.4,
-    "95": 257.9
+    "5": 198.2,
+    "25": 215.7,
+    "50": 228.0,
+    "75": 240.2,
+    "95": 257.7
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Lauri Markkanen",
+     "status": "Out",
+     "note": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
+     "out": true
+    },
+    {
      "name": "Keyonte George",
      "status": "Out",
      "note": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
      "out": true
-    },
-    {
-     "name": "Lauri Markkanen",
-     "status": "Day-To-Day",
-     "note": "Markkanen (wrist) is questionable for Tuesday's game against Miami.",
-     "out": false
     },
     {
      "name": "Jusuf Nurki\u0107",
@@ -247,7 +253,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-10T17:12:33+00:00"
+   "predicted_at": "2026-11-10T19:00:12+00:00"
   },
   {
    "game_id": "0022600215",
@@ -343,7 +349,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-10T17:12:33+00:00"
+   "predicted_at": "2026-11-10T19:00:12+00:00"
   },
   {
    "game_id": "0022600216",
@@ -427,7 +433,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-10T17:12:33+00:00"
+   "predicted_at": "2026-11-10T19:00:12+00:00"
   }
  ]
 }
