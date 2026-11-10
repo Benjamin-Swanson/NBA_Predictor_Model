@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T15:13:51+00:00",
+ "generated_at": "2026-11-10T17:12:33+00:00",
  "date": "2026-11-10",
  "ratings_through": "2026-11-09",
  "unmatched_injuries": [],
@@ -302,6 +302,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Tristan da Silva",
+     "status": "Day-To-Day",
+     "note": "Da Silva is questionable for Tuesday's game against the Kings due to a left calf strain.",
+     "out": false
+    },
     {
      "name": "Jalen Suggs",
      "status": "Out",
