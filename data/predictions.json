@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T19:00:12+00:00",
+ "generated_at": "2026-11-10T21:00:11+00:00",
  "date": "2026-11-10",
  "ratings_through": "2026-11-09",
  "unmatched_injuries": [],
@@ -38,7 +38,7 @@
     {
      "name": "Josh Hart",
      "status": "Day-To-Day",
-     "note": "Hart is questionable for Tuesday's game against the Bucks due to right ankle soreness.",
+     "note": "Hart is doubtful for Tuesday's game against the Bucks due to an illness.",
      "out": false
     }
    ],
@@ -119,33 +119,27 @@
    "neutral": false,
    "home_name": "Phoenix Suns",
    "away_name": "Los Angeles Clippers",
-   "home_win_prob": 0.5624,
-   "home_pts": 115.5,
-   "away_pts": 113.6,
+   "home_win_prob": 0.5991,
+   "home_pts": 116.2,
+   "away_pts": 113.0,
    "margin_pct": {
-    "5": -21.0,
-    "25": -7.2,
-    "50": 2.1,
-    "75": 11.2,
-    "95": 24.2
+    "5": -19.7,
+    "25": -5.9,
+    "50": 3.4,
+    "75": 12.5,
+    "95": 25.5
    },
    "total_mean": 229.3,
    "total_pct": {
-    "5": 199.5,
+    "5": 199.4,
     "25": 217.0,
     "50": 229.3,
     "75": 241.5,
-    "95": 259.0
+    "95": 258.9
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
-    {
-     "name": "Jordan Goodwin",
-     "status": "Out",
-     "note": "Goodwin (calf) has been ruled out for Monday's game against the Spurs, Kellan Olson of ArizonaSports.com reports.",
-     "out": true
-    },
     {
      "name": "Mark Williams",
      "status": "Out",
@@ -287,18 +281,6 @@
      "status": "Out",
      "note": "Raynaud (knee) has been ruled out for Tuesday's game against Orlando.",
      "out": true
-    },
-    {
-     "name": "Keegan Murray",
-     "status": "Day-To-Day",
-     "note": "Murray is questionable for Tuesday's game against the Magic due to right wrist soreness.",
-     "out": false
-    },
-    {
-     "name": "Domantas Sabonis",
-     "status": "Day-To-Day",
-     "note": "Sabonis (knee) is questionable to play Tuesday's game against the Magic.",
-     "out": false
     },
     {
      "name": "Ben Simmons",
