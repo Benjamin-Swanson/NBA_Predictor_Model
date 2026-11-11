@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T21:03:31+00:00",
+ "generated_at": "2026-11-11T23:00:11+00:00",
  "date": "2026-11-11",
  "ratings_through": "2026-11-10",
  "unmatched_injuries": [],
@@ -36,15 +36,9 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "T.J. McConnell",
-     "status": "Day-To-Day",
-     "note": "McConnell is questionable for Wednesday's game against the Wizards due to a strained right hamstring.",
-     "out": false
-    },
-    {
      "name": "Tyrese Haliburton",
      "status": "Out",
-     "note": "Haliburton (hamstring) is progressing well but does not have a timetable to return, Dustin Dopirak of The Indianapolis Star reports.",
+     "note": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.",
      "out": true
     },
     {
@@ -97,40 +91,27 @@
    "neutral": false,
    "home_name": "New York Knicks",
    "away_name": "Cleveland Cavaliers",
-   "home_win_prob": 0.5691,
-   "home_pts": 113.1,
-   "away_pts": 110.9,
+   "home_win_prob": 0.6121,
+   "home_pts": 114.3,
+   "away_pts": 110.6,
    "margin_pct": {
-    "5": -20.8,
-    "25": -6.9,
-    "50": 2.4,
-    "75": 11.5,
-    "95": 24.4
+    "5": -19.2,
+    "25": -5.4,
+    "50": 3.9,
+    "75": 13.0,
+    "95": 26.0
    },
-   "total_mean": 224.1,
+   "total_mean": 225.0,
    "total_pct": {
-    "5": 194.3,
-    "25": 211.9,
-    "50": 224.2,
-    "75": 236.4,
-    "95": 253.8
+    "5": 195.2,
+    "25": 212.8,
+    "50": 225.1,
+    "75": 237.3,
+    "95": 254.7
    },
    "rest_home": 1,
    "rest_away": 2,
-   "injuries_home": [
-    {
-     "name": "Karl-Anthony Towns",
-     "status": "Day-To-Day",
-     "note": "Towns (calf) is listed as questionable for Wednesday's game against Cleveland.",
-     "out": false
-    },
-    {
-     "name": "Josh Hart",
-     "status": "Out",
-     "note": "Hart (illness) is probable for Wednesday's game against the Cavaliers.",
-     "out": true
-    }
-   ],
+   "injuries_home": [],
    "injuries_away": [
     {
      "name": "Sam Merrill",
@@ -178,33 +159,21 @@
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Kawhi Leonard",
+     "status": "Out",
+     "note": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
+     "out": true
+    },
+    {
      "name": "Trayce Jackson-Davis",
      "status": "Out",
      "note": "Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
      "out": true
     },
     {
-     "name": "Collin Murray-Boyles",
-     "status": "Day-To-Day",
-     "note": "Murray-Boyles (illness) is questionable for Wednesday's game against the Celtics.",
-     "out": false
-    },
-    {
-     "name": "Immanuel Quickley",
-     "status": "Day-To-Day",
-     "note": "Quickley (hamstring) is questionable for Wednesday's game against Boston.",
-     "out": false
-    },
-    {
      "name": "Scottie Barnes",
      "status": "Out",
      "note": "Barnes (groin) is out for Wednesday's game against Boston.",
-     "out": true
-    },
-    {
-     "name": "Kawhi Leonard",
-     "status": "Out",
-     "note": "Leonard (knee) is continuing the reconditioning process, and another update will be provided in one week, Blake Murphy of Sportsnet.ca reports.",
      "out": true
     },
     {
@@ -428,23 +397,23 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Brooklyn Nets",
-   "home_win_prob": 0.6126,
-   "home_pts": 115.2,
-   "away_pts": 111.5,
+   "home_win_prob": 0.6091,
+   "home_pts": 115.0,
+   "away_pts": 111.4,
    "margin_pct": {
-    "5": -19.2,
-    "25": -5.3,
-    "50": 3.9,
-    "75": 13.1,
-    "95": 26.0
+    "5": -19.3,
+    "25": -5.5,
+    "50": 3.8,
+    "75": 12.9,
+    "95": 25.9
    },
-   "total_mean": 226.8,
+   "total_mean": 226.6,
    "total_pct": {
-    "5": 197.0,
-    "25": 214.5,
-    "50": 226.8,
-    "75": 239.0,
-    "95": 256.5
+    "5": 196.7,
+    "25": 214.3,
+    "50": 226.6,
+    "75": 238.8,
+    "95": 256.2
    },
    "rest_home": 2,
    "rest_away": 3,
@@ -476,16 +445,16 @@
    ],
    "injuries_away": [
     {
+     "name": "Nolan Traore",
+     "status": "Out",
+     "note": "Traore (calf) has been ruled out for Wednesday's game against the Pelicans, Ian Begley of SportsNet New York reports.",
+     "out": true
+    },
+    {
      "name": "Mikel Brown Jr.",
      "status": "Out",
      "note": "Brown has been ruled out for Wednesday's game against the Pelicans due to an illness, Sharif Phillips-Keaton of USA Today reports.",
      "out": true
-    },
-    {
-     "name": "Nolan Traore",
-     "status": "Day-To-Day",
-     "note": "Traore (calf) is listed as questionable for Wednesday's game against New Orleans.",
-     "out": false
     }
    ]
   },
@@ -683,27 +652,33 @@
    "neutral": false,
    "home_name": "Portland Trail Blazers",
    "away_name": "Oklahoma City Thunder",
-   "home_win_prob": 0.5777,
-   "home_pts": 115.3,
-   "away_pts": 112.8,
+   "home_win_prob": 0.6091,
+   "home_pts": 115.9,
+   "away_pts": 112.3,
    "margin_pct": {
-    "5": -20.4,
-    "25": -6.6,
-    "50": 2.7,
-    "75": 11.8,
-    "95": 24.8
+    "5": -19.4,
+    "25": -5.5,
+    "50": 3.8,
+    "75": 12.9,
+    "95": 25.8
    },
-   "total_mean": 228.3,
+   "total_mean": 228.4,
    "total_pct": {
-    "5": 198.5,
-    "25": 216.0,
-    "50": 228.3,
-    "75": 240.5,
-    "95": 258.0
+    "5": 198.6,
+    "25": 216.1,
+    "50": 228.4,
+    "75": 240.6,
+    "95": 258.1
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
+    {
+     "name": "Chris Youngblood",
+     "status": "Out",
+     "note": "Youngblood has been ruled out for Wednesday's game against the Thunder.",
+     "out": true
+    },
     {
      "name": "V\u00edt Krej\u010d\u00ed",
      "status": "Out",
@@ -727,7 +702,13 @@
     {
      "name": "Jaylin Williams",
      "status": "Out",
-     "note": "Williams (back) has been ruled out for Tuesday's game against the Trail Blazers.",
+     "note": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely.",
+     "out": true
+    },
+    {
+     "name": "Ajay Mitchell",
+     "status": "Out",
+     "note": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain.",
      "out": true
     },
     {
