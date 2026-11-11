@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T19:03:41+00:00",
+ "generated_at": "2026-11-11T21:03:31+00:00",
  "date": "2026-11-11",
  "ratings_through": "2026-11-10",
  "unmatched_injuries": [],
@@ -233,27 +233,33 @@
    "neutral": false,
    "home_name": "Chicago Bulls",
    "away_name": "San Antonio Spurs",
-   "home_win_prob": 0.1967,
-   "home_pts": 115.6,
-   "away_pts": 127.1,
+   "home_win_prob": 0.1857,
+   "home_pts": 115.1,
+   "away_pts": 127.2,
    "margin_pct": {
-    "5": -34.5,
-    "25": -20.6,
-    "50": -11.3,
-    "75": -2.2,
-    "95": 10.7
+    "5": -35.0,
+    "25": -21.2,
+    "50": -11.9,
+    "75": -2.8,
+    "95": 10.2
    },
-   "total_mean": 242.8,
+   "total_mean": 242.5,
    "total_pct": {
-    "5": 213.0,
-    "25": 230.5,
-    "50": 242.8,
-    "75": 255.0,
-    "95": 272.5
+    "5": 212.6,
+    "25": 230.2,
+    "50": 242.5,
+    "75": 254.7,
+    "95": 272.1
    },
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Tobe Awaka",
+     "status": "Out",
+     "note": "Awaka (back) has been ruled out for Wednesday's game against the Spurs.",
+     "out": true
+    },
     {
      "name": "Caleb Wilson",
      "status": "Day-To-Day",
@@ -264,12 +270,6 @@
      "name": "Norman Powell",
      "status": "Day-To-Day",
      "note": "Powell (shoulder) is listed as questionable for Wednesday's game versus the Spurs.",
-     "out": false
-    },
-    {
-     "name": "Tobe Awaka",
-     "status": "Day-To-Day",
-     "note": "Awaka (back) is questionable for Wednesday's game against the Spurs.",
      "out": false
     },
     {
@@ -375,23 +375,23 @@
    "neutral": false,
    "home_name": "Milwaukee Bucks",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.163,
-   "home_pts": 110.4,
-   "away_pts": 123.7,
+   "home_win_prob": 0.1508,
+   "home_pts": 109.4,
+   "away_pts": 123.3,
    "margin_pct": {
-    "5": -36.2,
-    "25": -22.3,
-    "50": -13.1,
-    "75": -3.9,
-    "95": 9.0
+    "5": -36.9,
+    "25": -23.0,
+    "50": -13.7,
+    "75": -4.6,
+    "95": 8.3
    },
-   "total_mean": 234.3,
+   "total_mean": 232.8,
    "total_pct": {
-    "5": 204.5,
-    "25": 222.0,
-    "50": 234.3,
-    "75": 246.5,
-    "95": 264.0
+    "5": 203.0,
+    "25": 220.6,
+    "50": 232.9,
+    "75": 245.1,
+    "95": 262.5
    },
    "rest_home": 1,
    "rest_away": 2,
@@ -399,16 +399,22 @@
     {
      "name": "Tyler Herro",
      "status": "Day-To-Day",
-     "note": "Herro (knee) is listed as out for Tuesday's game against New York.",
+     "note": "Herro (knee) is listed as questionable for Wednesday's game against the Lakers.",
      "out": false
+    },
+    {
+     "name": "Myles Turner",
+     "status": "Out",
+     "note": "Turner has been ruled out for Wednesday's game against the Lakers due to rest.",
+     "out": true
     }
    ],
    "injuries_away": [
     {
      "name": "Quentin Grimes",
-     "status": "Day-To-Day",
-     "note": "Grimes (finger) is listed as questionable for Wednesday's game in Milwaukee.",
-     "out": false
+     "status": "Out",
+     "note": "Grimes (finger) has been ruled out for Wednesday's game against the Bucks.",
+     "out": true
     }
    ]
   },
@@ -515,16 +521,16 @@
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Keyonte George",
+     "status": "Day-To-Day",
+     "note": "George (ankle) is questionable for Wednesday's game against Orlando.",
+     "out": false
+    },
+    {
      "name": "Lauri Markkanen",
      "status": "Out",
      "note": "Markkanen has been diagnosed with a non-displaced fracture in his right hand and will be sidelined for at least one month, Shams Charania of ESPN reports.",
      "out": true
-    },
-    {
-     "name": "Keyonte George",
-     "status": "Day-To-Day",
-     "note": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
-     "out": false
     },
     {
      "name": "Jusuf Nurki\u0107",
@@ -541,9 +547,15 @@
    ],
    "injuries_away": [
     {
+     "name": "Jamal Cain",
+     "status": "Day-To-Day",
+     "note": "Cain is questionable for Wednesday's game against the Jazz due to a left shoulder contusion.",
+     "out": false
+    },
+    {
      "name": "Tristan da Silva",
      "status": "Day-To-Day",
-     "note": "Da Silva (calf) has been ruled out for Tuesday's game against the Kings, Jason Beede of the Orlando Sentinel reports.",
+     "note": "Da Silva (calf) is listed as questionable for Wednesday's game at Utah.",
      "out": false
     },
     {
@@ -626,7 +638,7 @@
     {
      "name": "Will Richard",
      "status": "Day-To-Day",
-     "note": "Richard (thumb) is questionable for Wednesday's game against Houston.",
+     "note": "Richard (thumb) has been upgraded to probable for Wednesday's game at Houston.",
      "out": false
     },
     {
@@ -693,15 +705,15 @@
    "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Ja Morant",
+     "name": "V\u00edt Krej\u010d\u00ed",
      "status": "Out",
-     "note": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
+     "note": "Krejci underwent surgery on his fractured left ankle Wednesday and will be re-evaluated in eight weeks, Brett Siegel of ClutchPoints.com reports.",
      "out": true
     },
     {
-     "name": "V\u00edt Krej\u010d\u00ed",
+     "name": "Ja Morant",
      "status": "Out",
-     "note": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports.",
+     "note": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
      "out": true
     },
     {
