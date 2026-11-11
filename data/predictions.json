@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T13:11:40+00:00",
+ "generated_at": "2026-11-11T15:13:53+00:00",
  "date": "2026-11-11",
  "ratings_through": "2026-11-10",
  "unmatched_injuries": [],
@@ -356,32 +356,32 @@
    "neutral": false,
    "home_name": "Milwaukee Bucks",
    "away_name": "Los Angeles Lakers",
-   "home_win_prob": 0.1405,
-   "home_pts": 109.1,
+   "home_win_prob": 0.163,
+   "home_pts": 110.4,
    "away_pts": 123.7,
    "margin_pct": {
-    "5": -37.5,
-    "25": -23.7,
-    "50": -14.4,
-    "75": -5.3,
-    "95": 7.7
+    "5": -36.2,
+    "25": -22.3,
+    "50": -13.1,
+    "75": -3.9,
+    "95": 9.0
    },
-   "total_mean": 233.0,
+   "total_mean": 234.3,
    "total_pct": {
-    "5": 203.1,
-    "25": 220.7,
-    "50": 233.0,
-    "75": 245.2,
-    "95": 262.6
+    "5": 204.5,
+    "25": 222.0,
+    "50": 234.3,
+    "75": 246.5,
+    "95": 264.0
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Tyler Herro",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Herro (knee) is listed as out for Tuesday's game against New York.",
-     "out": true
+     "out": false
     }
    ],
    "injuries_away": [
@@ -474,38 +474,38 @@
    "neutral": false,
    "home_name": "Utah Jazz",
    "away_name": "Orlando Magic",
-   "home_win_prob": 0.4171,
-   "home_pts": 107.3,
-   "away_pts": 110.3,
+   "home_win_prob": 0.4949,
+   "home_pts": 108.7,
+   "away_pts": 109.1,
    "margin_pct": {
-    "5": -25.9,
-    "25": -12.0,
-    "50": -2.7,
-    "75": 6.4,
-    "95": 19.3
+    "5": -23.3,
+    "25": -9.4,
+    "50": -0.2,
+    "75": 9.0,
+    "95": 21.9
    },
-   "total_mean": 217.7,
+   "total_mean": 218.0,
    "total_pct": {
-    "5": 187.9,
-    "25": 205.5,
-    "50": 217.8,
-    "75": 230.0,
-    "95": 247.4
+    "5": 188.1,
+    "25": 205.7,
+    "50": 218.0,
+    "75": 230.2,
+    "95": 247.6
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Lauri Markkanen",
-     "status": "Out",
-     "note": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
-     "out": true
+     "name": "Keyonte George",
+     "status": "Day-To-Day",
+     "note": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
+     "out": false
     },
     {
-     "name": "Keyonte George",
-     "status": "Out",
-     "note": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
-     "out": true
+     "name": "Lauri Markkanen",
+     "status": "Day-To-Day",
+     "note": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
+     "out": false
     },
     {
      "name": "Jusuf Nurki\u0107",
@@ -523,9 +523,9 @@
    "injuries_away": [
     {
      "name": "Tristan da Silva",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Da Silva (calf) has been ruled out for Tuesday's game against the Kings, Jason Beede of the Orlando Sentinel reports.",
-     "out": true
+     "out": false
     },
     {
      "name": "Jalen Suggs",
