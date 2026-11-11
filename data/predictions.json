@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T15:13:53+00:00",
+ "generated_at": "2026-11-11T19:03:41+00:00",
  "date": "2026-11-11",
  "ratings_through": "2026-11-10",
  "unmatched_injuries": [],
@@ -119,9 +119,15 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Karl-Anthony Towns",
+     "status": "Day-To-Day",
+     "note": "Towns (calf) is listed as questionable for Wednesday's game against Cleveland.",
+     "out": false
+    },
+    {
      "name": "Josh Hart",
      "status": "Out",
-     "note": "Hart (illness) won't play Tuesday against the Bucks, Kristian Winfield of the New York Daily News reports.",
+     "note": "Hart (illness) is probable for Wednesday's game against the Cavaliers.",
      "out": true
     }
    ],
@@ -150,32 +156,32 @@
    "neutral": false,
    "home_name": "Toronto Raptors",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.3911,
-   "home_pts": 110.0,
-   "away_pts": 114.0,
+   "home_win_prob": 0.4596,
+   "home_pts": 110.3,
+   "away_pts": 111.9,
    "margin_pct": {
-    "5": -26.9,
-    "25": -13.0,
-    "50": -3.7,
-    "75": 5.4,
-    "95": 18.3
+    "5": -24.5,
+    "25": -10.6,
+    "50": -1.3,
+    "75": 7.8,
+    "95": 20.7
    },
-   "total_mean": 224.1,
+   "total_mean": 222.4,
    "total_pct": {
-    "5": 194.3,
-    "25": 211.8,
-    "50": 224.1,
-    "75": 236.3,
-    "95": 253.8
+    "5": 192.5,
+    "25": 210.1,
+    "50": 222.4,
+    "75": 234.6,
+    "95": 252.0
    },
    "rest_home": 2,
    "rest_away": 1,
    "injuries_home": [
     {
      "name": "Trayce Jackson-Davis",
-     "status": "Day-To-Day",
-     "note": "Jackson-Davis is questionable for Wednesday's game against Boston with an illness.",
-     "out": false
+     "status": "Out",
+     "note": "Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
+     "out": true
     },
     {
      "name": "Collin Murray-Boyles",
@@ -208,7 +214,14 @@
      "out": true
     }
    ],
-   "injuries_away": []
+   "injuries_away": [
+    {
+     "name": "Paul George",
+     "status": "Out",
+     "note": "George (illness) has been ruled out for Wednesday's game against Toronto, Taylor Snow of the Celtics' official site reports.",
+     "out": true
+    }
+   ]
   },
   {
    "game_id": "0022600220",
@@ -241,6 +254,12 @@
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Caleb Wilson",
+     "status": "Day-To-Day",
+     "note": "Wilson has been downgraded to questionable for Wednesday's game against the Spurs due to right hip soreness.",
+     "out": false
+    },
     {
      "name": "Norman Powell",
      "status": "Day-To-Day",
@@ -403,38 +422,44 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Brooklyn Nets",
-   "home_win_prob": 0.6262,
-   "home_pts": 115.5,
-   "away_pts": 111.2,
+   "home_win_prob": 0.6126,
+   "home_pts": 115.2,
+   "away_pts": 111.5,
    "margin_pct": {
-    "5": -18.7,
-    "25": -4.8,
-    "50": 4.5,
-    "75": 13.6,
-    "95": 26.5
+    "5": -19.2,
+    "25": -5.3,
+    "50": 3.9,
+    "75": 13.1,
+    "95": 26.0
    },
-   "total_mean": 226.9,
+   "total_mean": 226.8,
    "total_pct": {
     "5": 197.0,
-    "25": 214.6,
-    "50": 226.9,
-    "75": 239.1,
+    "25": 214.5,
+    "50": 226.8,
+    "75": 239.0,
     "95": 256.5
    },
    "rest_home": 2,
    "rest_away": 3,
    "injuries_home": [
     {
-     "name": "Trendon Watford",
+     "name": "Bennedict Mathurin",
      "status": "Out",
-     "note": "Watford (ankle) is out for Wednesday's game against the Nets.",
+     "note": "Mathurin has been ruled out for Wednesday's game against the Nets due to a right thumb sprain.",
      "out": true
     },
     {
      "name": "Trey Murphy III",
      "status": "Day-To-Day",
-     "note": "Murphy (knee) is probable for Wednesday's game against the Nets.",
+     "note": "Murphy (knee) is doubtful for Wednesday's game against the Nets.",
      "out": false
+    },
+    {
+     "name": "Trendon Watford",
+     "status": "Out",
+     "note": "Watford (ankle) is out for Wednesday's game against the Nets.",
+     "out": true
     },
     {
      "name": "Yves Missi",
@@ -445,21 +470,15 @@
    ],
    "injuries_away": [
     {
-     "name": "Nolan Traore",
-     "status": "Day-To-Day",
-     "note": "Traore (calf) is listed as questionable for Wednesday's game against New Orleans.",
-     "out": false
-    },
-    {
-     "name": "Egor D\u00ebmin",
+     "name": "Mikel Brown Jr.",
      "status": "Out",
-     "note": "Demin (leg) is probable for Wednesday's game against the Pelicans, Erik Slater of ClutchPoints.com reports.",
+     "note": "Brown has been ruled out for Wednesday's game against the Pelicans due to an illness, Sharif Phillips-Keaton of USA Today reports.",
      "out": true
     },
     {
-     "name": "Grant Nelson",
+     "name": "Nolan Traore",
      "status": "Day-To-Day",
-     "note": "Nelson signed a two-way contract with the Nets on Friday, Michael Scotto of HoopsHype.com reports.",
+     "note": "Traore (calf) is listed as questionable for Wednesday's game against New Orleans.",
      "out": false
     }
    ]
@@ -474,37 +493,37 @@
    "neutral": false,
    "home_name": "Utah Jazz",
    "away_name": "Orlando Magic",
-   "home_win_prob": 0.4949,
-   "home_pts": 108.7,
-   "away_pts": 109.1,
+   "home_win_prob": 0.4372,
+   "home_pts": 107.7,
+   "away_pts": 110.0,
    "margin_pct": {
-    "5": -23.3,
-    "25": -9.4,
-    "50": -0.2,
-    "75": 9.0,
-    "95": 21.9
+    "5": -25.2,
+    "25": -11.4,
+    "50": -2.1,
+    "75": 7.0,
+    "95": 20.0
    },
-   "total_mean": 218.0,
+   "total_mean": 217.8,
    "total_pct": {
-    "5": 188.1,
-    "25": 205.7,
-    "50": 218.0,
-    "75": 230.2,
-    "95": 247.6
+    "5": 187.9,
+    "25": 205.5,
+    "50": 217.8,
+    "75": 230.0,
+    "95": 247.4
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Lauri Markkanen",
+     "status": "Out",
+     "note": "Markkanen has been diagnosed with a non-displaced fracture in his right hand and will be sidelined for at least one month, Shams Charania of ESPN reports.",
+     "out": true
+    },
+    {
      "name": "Keyonte George",
      "status": "Day-To-Day",
      "note": "George (ankle) has been ruled out for Tuesday's game against the Heat.",
-     "out": false
-    },
-    {
-     "name": "Lauri Markkanen",
-     "status": "Day-To-Day",
-     "note": "Markkanen is out for Tuesday's game versus the Heat with a right wrist sprain.",
      "out": false
     },
     {
@@ -569,23 +588,23 @@
    "neutral": false,
    "home_name": "Houston Rockets",
    "away_name": "Golden State Warriors",
-   "home_win_prob": 0.6532,
-   "home_pts": 116.5,
-   "away_pts": 111.3,
+   "home_win_prob": 0.6509,
+   "home_pts": 116.4,
+   "away_pts": 111.4,
    "margin_pct": {
-    "5": -17.7,
-    "25": -3.9,
-    "50": 5.4,
-    "75": 14.5,
-    "95": 27.5
+    "5": -17.8,
+    "25": -4.0,
+    "50": 5.3,
+    "75": 14.4,
+    "95": 27.4
    },
-   "total_mean": 228.0,
+   "total_mean": 227.9,
    "total_pct": {
-    "5": 198.2,
-    "25": 215.7,
-    "50": 228.0,
-    "75": 240.2,
-    "95": 257.7
+    "5": 198.1,
+    "25": 215.6,
+    "50": 227.9,
+    "75": 240.1,
+    "95": 257.6
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -605,15 +624,15 @@
    ],
    "injuries_away": [
     {
+     "name": "Will Richard",
+     "status": "Day-To-Day",
+     "note": "Richard (thumb) is questionable for Wednesday's game against Houston.",
+     "out": false
+    },
+    {
      "name": "Gary Payton II",
      "status": "Out",
      "note": "Payton (knee) is out for Wednesday's game against Houston.",
-     "out": true
-    },
-    {
-     "name": "Will Richard",
-     "status": "Out",
-     "note": "Richard (thumb) is questionable for Wednesday's game against Houston.",
      "out": true
     },
     {
