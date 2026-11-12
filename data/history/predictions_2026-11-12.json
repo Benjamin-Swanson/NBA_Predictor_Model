@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T17:05:47+00:00",
+ "generated_at": "2026-11-12T19:12:58+00:00",
  "date": "2026-11-12",
  "ratings_through": "2026-11-11",
  "unmatched_injuries": [],
@@ -14,27 +14,33 @@
    "neutral": false,
    "home_name": "Philadelphia 76ers",
    "away_name": "Toronto Raptors",
-   "home_win_prob": 0.7498,
-   "home_pts": 116.7,
-   "away_pts": 107.6,
+   "home_win_prob": 0.7073,
+   "home_pts": 115.3,
+   "away_pts": 108.0,
    "margin_pct": {
-    "5": -13.9,
-    "25": -0.0,
-    "50": 9.3,
-    "75": 18.4,
-    "95": 31.3
+    "5": -15.6,
+    "25": -1.8,
+    "50": 7.5,
+    "75": 16.6,
+    "95": 29.6
    },
-   "total_mean": 224.5,
+   "total_mean": 223.4,
    "total_pct": {
-    "5": 194.7,
-    "25": 212.2,
-    "50": 224.5,
-    "75": 236.7,
-    "95": 254.2
+    "5": 193.6,
+    "25": 211.1,
+    "50": 223.4,
+    "75": 235.6,
+    "95": 253.1
    },
    "rest_home": 2,
    "rest_away": 1,
    "injuries_home": [
+    {
+     "name": "LeBron James",
+     "status": "Out",
+     "note": "James (back) is out for Thursday's game against Toronto.",
+     "out": true
+    },
     {
      "name": "Dominick Barlow",
      "status": "Out",
@@ -54,12 +60,6 @@
      "out": false
     },
     {
-     "name": "LeBron James",
-     "status": "Day-To-Day",
-     "note": "James (back) remains questionable for Thursday's game against the Raptors, but he participated in the team's morning shootaround, Ky Carlin of USA Today reports.",
-     "out": false
-    },
-    {
      "name": "Ariel Hukporti",
      "status": "Out",
      "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
@@ -69,20 +69,20 @@
    "injuries_away": [
     {
      "name": "Trayce Jackson-Davis",
-     "status": "Day-To-Day",
-     "note": "Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
-     "out": false
-    },
-    {
-     "name": "Kawhi Leonard",
      "status": "Out",
-     "note": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
+     "note": "Jackson-Davis is out for Thursday's game against the 76ers due to an illness.",
      "out": true
     },
     {
      "name": "Scottie Barnes",
      "status": "Out",
-     "note": "Barnes (groin) is out for Wednesday's game against Boston.",
+     "note": "Barnes (groin) is out for Thursday's game against Philadelphia.",
+     "out": true
+    },
+    {
+     "name": "Kawhi Leonard",
+     "status": "Out",
+     "note": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
      "out": true
     },
     {
@@ -92,7 +92,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-12T17:05:47+00:00"
+   "predicted_at": "2026-11-12T19:12:58+00:00"
   },
   {
    "game_id": "0022600228",
@@ -170,7 +170,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-12T17:05:47+00:00"
+   "predicted_at": "2026-11-12T19:12:58+00:00"
   },
   {
    "game_id": "0022600229",
@@ -242,7 +242,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-12T17:05:47+00:00"
+   "predicted_at": "2026-11-12T19:12:58+00:00"
   },
   {
    "game_id": "0022600230",
@@ -254,23 +254,23 @@
    "neutral": false,
    "home_name": "Phoenix Suns",
    "away_name": "Charlotte Hornets",
-   "home_win_prob": 0.6713,
-   "home_pts": 112.7,
-   "away_pts": 106.8,
+   "home_win_prob": 0.6658,
+   "home_pts": 112.5,
+   "away_pts": 106.9,
    "margin_pct": {
-    "5": -17.0,
-    "25": -3.2,
-    "50": 6.1,
-    "75": 15.2,
-    "95": 28.2
+    "5": -17.2,
+    "25": -3.4,
+    "50": 5.9,
+    "75": 15.0,
+    "95": 28.0
    },
-   "total_mean": 219.6,
+   "total_mean": 219.5,
    "total_pct": {
-    "5": 189.8,
+    "5": 189.7,
     "25": 207.3,
     "50": 219.6,
     "75": 231.8,
-    "95": 249.3
+    "95": 249.2
    },
    "rest_home": 2,
    "rest_away": 3,
@@ -283,18 +283,6 @@
     }
    ],
    "injuries_away": [
-    {
-     "name": "Grant Williams",
-     "status": "Out",
-     "note": "Williams (hamstring) is listed as probable for Thursday's game against the Suns.",
-     "out": true
-    },
-    {
-     "name": "Moussa Diabat\u00e9",
-     "status": "Day-To-Day",
-     "note": "Diabate (quadriceps) is listed as probable for Thursday's game against the Suns.",
-     "out": false
-    },
     {
      "name": "Brandon Miller",
      "status": "Out",
@@ -314,7 +302,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-12T17:05:47+00:00"
+   "predicted_at": "2026-11-12T19:12:58+00:00"
   }
  ]
 }
