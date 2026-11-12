@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T16:10:41+00:00",
+ "generated_at": "2026-11-12T17:05:47+00:00",
  "date": "2026-11-12",
  "ratings_through": "2026-11-11",
  "unmatched_injuries": [],
@@ -36,28 +36,28 @@
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Dominick Barlow",
+     "status": "Out",
+     "note": "Barlow (back) participated in Thursday's shootaround but doesn't have a timeline to return to game action, Ky Carlin of USA Today reports.",
+     "out": true
+    },
+    {
      "name": "Adem Bona",
      "status": "Out",
-     "note": "Bona (back) is out for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.",
+     "note": "Bona (back) will be re-evaluated in approximately one week after seeing a specialist, Ky Carlin of USA Today reports.",
      "out": true
     },
     {
      "name": "Joel Embiid",
      "status": "Day-To-Day",
-     "note": "Embiid (foot) is listed as questionable for Thursday's game against Toronto, Adam Aaronson of PhillyVoice.com reports.",
+     "note": "Embiid (foot) remains questionable for Thursday's game against the Raptors, but he participated in the team's morning shootaround, Ky Carlin of USA Today reports.",
      "out": false
     },
     {
      "name": "LeBron James",
      "status": "Day-To-Day",
-     "note": "James (back) is questionable for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.",
+     "note": "James (back) remains questionable for Thursday's game against the Raptors, but he participated in the team's morning shootaround, Ky Carlin of USA Today reports.",
      "out": false
-    },
-    {
-     "name": "Dominick Barlow",
-     "status": "Out",
-     "note": "Head coach Nick Nurse said Wednesday that Barlow (back) likely needs another 10-12 days before he's cleared to return to the court, Derek Bodner of AllPHLY.com reports.",
-     "out": true
     },
     {
      "name": "Ariel Hukporti",
@@ -92,7 +92,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-12T16:10:41+00:00"
+   "predicted_at": "2026-11-12T17:05:47+00:00"
   },
   {
    "game_id": "0022600228",
@@ -170,7 +170,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-12T16:10:41+00:00"
+   "predicted_at": "2026-11-12T17:05:47+00:00"
   },
   {
    "game_id": "0022600229",
@@ -242,7 +242,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-12T16:10:41+00:00"
+   "predicted_at": "2026-11-12T17:05:47+00:00"
   },
   {
    "game_id": "0022600230",
@@ -314,7 +314,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-12T16:10:41+00:00"
+   "predicted_at": "2026-11-12T17:05:47+00:00"
   }
  ]
 }
