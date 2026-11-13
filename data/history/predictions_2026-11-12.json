@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T19:12:58+00:00",
+ "generated_at": "2026-11-13T00:45:39+00:00",
  "date": "2026-11-12",
  "ratings_through": "2026-11-11",
  "unmatched_injuries": [],
@@ -234,15 +234,9 @@
      "status": "Out",
      "note": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota.",
      "out": true
-    },
-    {
-     "name": "Morez Johnson Jr.",
-     "status": "Day-To-Day",
-     "note": "Johnson (shin) is listed as probable for Thursday's game against Minnesota.",
-     "out": false
     }
    ],
-   "predicted_at": "2026-11-12T19:12:58+00:00"
+   "predicted_at": "2026-11-13T00:45:39+00:00"
   },
   {
    "game_id": "0022600230",
@@ -302,7 +296,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-12T19:12:58+00:00"
+   "predicted_at": "2026-11-13T00:45:39+00:00"
   }
  ]
 }

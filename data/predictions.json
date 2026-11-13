@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T19:12:58+00:00",
+ "generated_at": "2026-11-13T00:45:39+00:00",
  "date": "2026-11-12",
  "ratings_through": "2026-11-11",
  "unmatched_injuries": [],
@@ -52,12 +52,6 @@
      "status": "Out",
      "note": "Bona (back) will be re-evaluated in approximately one week after seeing a specialist, Ky Carlin of USA Today reports.",
      "out": true
-    },
-    {
-     "name": "Joel Embiid",
-     "status": "Day-To-Day",
-     "note": "Embiid (foot) remains questionable for Thursday's game against the Raptors, but he participated in the team's morning shootaround, Ky Carlin of USA Today reports.",
-     "out": false
     },
     {
      "name": "Ariel Hukporti",
@@ -232,12 +226,6 @@
      "status": "Out",
      "note": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota.",
      "out": true
-    },
-    {
-     "name": "Morez Johnson Jr.",
-     "status": "Day-To-Day",
-     "note": "Johnson (shin) is listed as probable for Thursday's game against Minnesota.",
-     "out": false
     }
    ]
   },
