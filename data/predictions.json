@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T19:29:44+00:00",
+ "generated_at": "2026-11-13T21:00:16+00:00",
  "date": "2026-11-13",
  "ratings_through": "2026-11-12",
  "unmatched_injuries": [],
@@ -302,27 +302,33 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.4773,
-   "home_pts": 116.2,
-   "away_pts": 117.2,
+   "home_win_prob": 0.4313,
+   "home_pts": 115.5,
+   "away_pts": 117.9,
    "margin_pct": {
-    "5": -23.9,
-    "25": -10.0,
-    "50": -0.8,
-    "75": 8.4,
-    "95": 21.3
+    "5": -25.4,
+    "25": -11.5,
+    "50": -2.2,
+    "75": 6.9,
+    "95": 19.8
    },
    "total_mean": 233.6,
    "total_pct": {
-    "5": 203.8,
+    "5": 203.7,
     "25": 221.3,
     "50": 233.6,
     "75": 245.8,
-    "95": 263.3
+    "95": 263.2
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Dejounte Murray",
+     "status": "Out",
+     "note": "Murray (ankle) is out for Friday's game against Memphis.",
+     "out": true
+    },
     {
      "name": "Bryce McGowens",
      "status": "Out",
@@ -339,12 +345,6 @@
      "name": "Bennedict Mathurin",
      "status": "Day-To-Day",
      "note": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis.",
-     "out": false
-    },
-    {
-     "name": "Dejounte Murray",
-     "status": "Day-To-Day",
-     "note": "Murray (ankle) is doubtful for Friday's game against Memphis.",
      "out": false
     },
     {
