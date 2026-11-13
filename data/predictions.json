@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T16:04:04+00:00",
+ "generated_at": "2026-11-13T19:29:44+00:00",
  "date": "2026-11-13",
  "ratings_through": "2026-11-12",
  "unmatched_injuries": [],
@@ -100,21 +100,21 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Tristan da Silva",
+     "name": "Jamal Cain",
      "status": "Day-To-Day",
-     "note": "Da Silva (calf) is questionable for Friday's game against Milwaukee.",
+     "note": "Cain (shoulder) participated in Friday morning's shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
      "out": false
     },
     {
-     "name": "Jamal Cain",
+     "name": "Tristan da Silva",
      "status": "Day-To-Day",
-     "note": "Cain (shoulder) is questionable for Friday's game against the Bucks.",
+     "note": "Da Silva (calf) participated in Friday's morning shootaround and remains questionable for Friday's game against Milwaukee, Jason Beede of the Orlando Sentinel reports.",
      "out": false
     },
     {
      "name": "Jalen Suggs",
      "status": "Out",
-     "note": "Suggs (knee) is questionable for Friday's game against Milwaukee.",
+     "note": "Suggs (knee) participated in Friday's morning shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
      "out": true
     },
     {
@@ -178,19 +178,13 @@
     {
      "name": "Klay Thompson",
      "status": "Day-To-Day",
-     "note": "Thompson (ankle) is listed as questionable for Friday's game against the Cavaliers.",
-     "out": false
-    },
-    {
-     "name": "Giannis Antetokounmpo",
-     "status": "Day-To-Day",
-     "note": "Antetokounmpo (wrist) is probable for Friday's game against Cleveland.",
+     "note": "Thompson (ankle) is listed as probable for Friday's game against the Cavaliers.",
      "out": false
     },
     {
      "name": "Pelle Larsson",
      "status": "Day-To-Day",
-     "note": "Larsson (illness) is listed as questionable for Friday's game against Cleveland.",
+     "note": "Larsson (illness) is listed as doubtful for Friday's game against Cleveland.",
      "out": false
     }
    ],
@@ -308,56 +302,62 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.5568,
-   "home_pts": 117.9,
-   "away_pts": 116.2,
+   "home_win_prob": 0.4773,
+   "home_pts": 116.2,
+   "away_pts": 117.2,
    "margin_pct": {
-    "5": -21.2,
-    "25": -7.4,
-    "50": 1.9,
-    "75": 11.0,
-    "95": 24.0
+    "5": -23.9,
+    "25": -10.0,
+    "50": -0.8,
+    "75": 8.4,
+    "95": 21.3
    },
-   "total_mean": 234.2,
+   "total_mean": 233.6,
    "total_pct": {
-    "5": 204.4,
-    "25": 222.0,
-    "50": 234.3,
-    "75": 246.5,
-    "95": 263.9
+    "5": 203.8,
+    "25": 221.3,
+    "50": 233.6,
+    "75": 245.8,
+    "95": 263.3
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Bryce McGowens",
+     "status": "Out",
+     "note": "McGowens (elbow) is listed as out for Friday's game against the Grizzlies.",
+     "out": true
+    },
+    {
+     "name": "Yves Missi",
+     "status": "Out",
+     "note": "Missi (knee) is out for Friday's game against the Grizzlies.",
+     "out": true
+    },
+    {
+     "name": "Bennedict Mathurin",
      "status": "Day-To-Day",
-     "note": "McGowens (elbow) is listed as doubtful for Friday's game against the Grizzlies.",
+     "note": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis.",
      "out": false
+    },
+    {
+     "name": "Dejounte Murray",
+     "status": "Day-To-Day",
+     "note": "Murray (ankle) is doubtful for Friday's game against Memphis.",
+     "out": false
+    },
+    {
+     "name": "Trey Murphy III",
+     "status": "Out",
+     "note": "Murphy (knee) is out for Friday's game against Memphis.",
+     "out": true
     },
     {
      "name": "Trendon Watford",
      "status": "Out",
      "note": "Watford (ankle) is listed as out for Friday's game against the Grizzlies.",
      "out": true
-    },
-    {
-     "name": "Bennedict Mathurin",
-     "status": "Day-To-Day",
-     "note": "Mathurin (thumb) is listed as doubtful for Friday's game against Memphis.",
-     "out": false
-    },
-    {
-     "name": "Yves Missi",
-     "status": "Out",
-     "note": "Missi (knee) is listed as doubtful for Friday's game against the Grizzlies.",
-     "out": true
-    },
-    {
-     "name": "Trey Murphy III",
-     "status": "Day-To-Day",
-     "note": "Murphy (knee) is listed as doubtful for Friday's game against the Grizzlies.",
-     "out": false
     }
    ],
    "injuries_away": [
