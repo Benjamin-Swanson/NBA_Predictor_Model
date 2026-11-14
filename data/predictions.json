@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T21:00:16+00:00",
+ "generated_at": "2026-11-14T00:09:32+00:00",
  "date": "2026-11-13",
  "ratings_through": "2026-11-12",
  "unmatched_injuries": [],
@@ -36,18 +36,6 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "T.J. McConnell",
-     "status": "Day-To-Day",
-     "note": "McConnell is probable for Friday's game against the Knicks due to a right hamstring strain.",
-     "out": false
-    },
-    {
-     "name": "Aaron Nesmith",
-     "status": "Day-To-Day",
-     "note": "Nesmith (knee) is questionable for Friday's game against the Knicks.",
-     "out": false
-    },
-    {
      "name": "Tyrese Haliburton",
      "status": "Out",
      "note": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.",
@@ -78,45 +66,27 @@
    "neutral": false,
    "home_name": "Orlando Magic",
    "away_name": "Milwaukee Bucks",
-   "home_win_prob": 0.719,
-   "home_pts": 115.4,
-   "away_pts": 107.5,
+   "home_win_prob": 0.7554,
+   "home_pts": 116.1,
+   "away_pts": 106.7,
    "margin_pct": {
-    "5": -15.1,
-    "25": -1.2,
-    "50": 8.0,
-    "75": 17.2,
-    "95": 30.1
+    "5": -13.6,
+    "25": 0.3,
+    "50": 9.6,
+    "75": 18.7,
+    "95": 31.6
    },
    "total_mean": 223.0,
    "total_pct": {
-    "5": 193.2,
+    "5": 193.1,
     "25": 210.7,
     "50": 223.0,
     "75": 235.2,
-    "95": 252.7
+    "95": 252.6
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
-    {
-     "name": "Jamal Cain",
-     "status": "Day-To-Day",
-     "note": "Cain (shoulder) participated in Friday morning's shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
-     "out": false
-    },
-    {
-     "name": "Tristan da Silva",
-     "status": "Day-To-Day",
-     "note": "Da Silva (calf) participated in Friday's morning shootaround and remains questionable for Friday's game against Milwaukee, Jason Beede of the Orlando Sentinel reports.",
-     "out": false
-    },
-    {
-     "name": "Jalen Suggs",
-     "status": "Out",
-     "note": "Suggs (knee) participated in Friday's morning shootaround and remains questionable for Friday's game against the Bucks, Jason Beede of the Orlando Sentinel reports.",
-     "out": true
-    },
     {
      "name": "Jonathan Isaac",
      "status": "Out",
@@ -154,38 +124,38 @@
    "neutral": false,
    "home_name": "Miami Heat",
    "away_name": "Cleveland Cavaliers",
-   "home_win_prob": 0.5372,
-   "home_pts": 116.3,
-   "away_pts": 115.3,
+   "home_win_prob": 0.4999,
+   "home_pts": 115.2,
+   "away_pts": 115.4,
    "margin_pct": {
-    "5": -21.9,
-    "25": -8.0,
-    "50": 1.2,
-    "75": 10.4,
-    "95": 23.3
+    "5": -23.1,
+    "25": -9.3,
+    "50": -0.0,
+    "75": 9.1,
+    "95": 22.1
    },
-   "total_mean": 231.7,
+   "total_mean": 230.7,
    "total_pct": {
-    "5": 201.9,
-    "25": 219.5,
-    "50": 231.8,
-    "75": 244.0,
-    "95": 261.4
+    "5": 200.9,
+    "25": 218.5,
+    "50": 230.8,
+    "75": 243.0,
+    "95": 260.4
    },
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Klay Thompson",
-     "status": "Day-To-Day",
-     "note": "Thompson (ankle) is listed as probable for Friday's game against the Cavaliers.",
-     "out": false
+     "status": "Out",
+     "note": "Thompson (ankle) is out for Friday's game against the Cavaliers.",
+     "out": true
     },
     {
      "name": "Pelle Larsson",
-     "status": "Day-To-Day",
-     "note": "Larsson (illness) is listed as doubtful for Friday's game against Cleveland.",
-     "out": false
+     "status": "Out",
+     "note": "Larsson (illness) is out for Friday's game against Cleveland.",
+     "out": true
     }
    ],
    "injuries_away": [
@@ -199,6 +169,12 @@
      "name": "Sam Merrill",
      "status": "Out",
      "note": "Merrill (elbow) is listed as out for Wednesday's game against the Knicks.",
+     "out": true
+    },
+    {
+     "name": "Nae'Qwan Tomlin",
+     "status": "Out",
+     "note": "Tomlin is set to miss several weeks with a lower back stress reaction, Chris Fedor of The Cleveland Plain Dealer reports.",
      "out": true
     }
    ]
@@ -247,12 +223,6 @@
      "out": false
     },
     {
-     "name": "Norman Powell",
-     "status": "Day-To-Day",
-     "note": "Powell (shoulder) is questionable for Friday's game against the Hawks.",
-     "out": false
-    },
-    {
      "name": "Caleb Wilson",
      "status": "Out",
      "note": "Wilson (hand) is expected to miss four to six weeks, Shams Charania of ESPN reports.",
@@ -277,12 +247,6 @@
      "status": "Out",
      "note": "Newell (toe) has been ruled out for Friday's game against Chicago.",
      "out": true
-    },
-    {
-     "name": "Kingston Flemings",
-     "status": "Day-To-Day",
-     "note": "Flemings (back) is questionable for Friday's game against the Bulls.",
-     "out": false
     },
     {
      "name": "Henri Veesaar",
@@ -340,12 +304,6 @@
      "status": "Out",
      "note": "Missi (knee) is out for Friday's game against the Grizzlies.",
      "out": true
-    },
-    {
-     "name": "Bennedict Mathurin",
-     "status": "Day-To-Day",
-     "note": "Mathurin (thumb) is listed as questionable for Friday's game against Memphis.",
-     "out": false
     },
     {
      "name": "Trey Murphy III",
@@ -569,32 +527,32 @@
    "neutral": false,
    "home_name": "Sacramento Kings",
    "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.3529,
-   "home_pts": 113.9,
-   "away_pts": 119.2,
+   "home_win_prob": 0.3147,
+   "home_pts": 112.7,
+   "away_pts": 119.4,
    "margin_pct": {
-    "5": -28.2,
-    "25": -14.4,
-    "50": -5.1,
-    "75": 4.0,
-    "95": 17.0
+    "5": -29.6,
+    "25": -15.8,
+    "50": -6.5,
+    "75": 2.6,
+    "95": 15.6
    },
-   "total_mean": 233.2,
+   "total_mean": 232.2,
    "total_pct": {
-    "5": 203.3,
-    "25": 220.9,
-    "50": 233.2,
-    "75": 245.4,
-    "95": 262.8
+    "5": 202.4,
+    "25": 220.0,
+    "50": 232.3,
+    "75": 244.5,
+    "95": 261.9
    },
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Precious Achiuwa",
-     "status": "Day-To-Day",
-     "note": "Achiuwa (ankle) is questionable to play Friday's game against the Trail Blazers.",
-     "out": false
+     "status": "Out",
+     "note": "Achiuwa (ankle) is out for Friday's game against the Trail Blazers.",
+     "out": true
     },
     {
      "name": "Maxime Raynaud",
