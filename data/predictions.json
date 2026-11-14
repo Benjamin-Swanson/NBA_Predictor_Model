@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T15:35:08+00:00",
+ "generated_at": "2026-11-14T18:08:58+00:00",
  "date": "2026-11-14",
  "ratings_through": "2026-11-13",
  "unmatched_injuries": [],
@@ -14,32 +14,38 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Denver Nuggets",
-   "home_win_prob": 0.1824,
-   "home_pts": 108.8,
-   "away_pts": 121.1,
+   "home_win_prob": 0.1713,
+   "home_pts": 108.5,
+   "away_pts": 121.3,
    "margin_pct": {
-    "5": -35.2,
-    "25": -21.3,
-    "50": -12.0,
-    "75": -2.9,
-    "95": 10.0
+    "5": -35.7,
+    "25": -21.9,
+    "50": -12.6,
+    "75": -3.5,
+    "95": 9.5
    },
    "total_mean": 230.0,
    "total_pct": {
-    "5": 200.2,
+    "5": 200.1,
     "25": 217.7,
     "50": 230.0,
     "75": 242.2,
-    "95": 259.7
+    "95": 259.6
    },
    "rest_home": 1,
    "rest_away": 3,
    "injuries_home": [
     {
      "name": "Bryce McGowens",
-     "status": "Day-To-Day",
-     "note": "McGowens (elbow) is listed as out for Friday's game against the Grizzlies.",
-     "out": false
+     "status": "Out",
+     "note": "McGowens (elbow) has been ruled out for Saturday's game against the Nuggets.",
+     "out": true
+    },
+    {
+     "name": "Trey Murphy III",
+     "status": "Out",
+     "note": "Murphy (knees) has been ruled out for Saturday's game against the Nuggets.",
+     "out": true
     },
     {
      "name": "Dejounte Murray",
@@ -51,12 +57,6 @@
      "name": "Yves Missi",
      "status": "Out",
      "note": "Missi (knee) is out for Friday's game against the Grizzlies.",
-     "out": true
-    },
-    {
-     "name": "Trey Murphy III",
-     "status": "Out",
-     "note": "Murphy (knee) is out for Friday's game against Memphis.",
      "out": true
     },
     {
@@ -283,7 +283,7 @@
     {
      "name": "Mikel Brown Jr.",
      "status": "Day-To-Day",
-     "note": "Brown (illness) is listed as questionable for Saturday's game against Memphis.",
+     "note": "Brown (illness) has been upgraded to probable for Saturday's game at Memphis.",
      "out": false
     },
     {
@@ -339,6 +339,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Norman Powell",
+     "status": "Day-To-Day",
+     "note": "Powell finished with 33 points (12-19 FG, 4-8 3Pt, 5-6 FT), five rebounds, two assists and one steal across 31 minutes in Friday's 125-117 overtime win over the Hawks.",
+     "out": false
+    },
     {
      "name": "Dailyn Swain",
      "status": "Day-To-Day",
