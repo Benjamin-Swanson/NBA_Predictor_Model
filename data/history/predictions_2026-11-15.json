@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T16:01:30+00:00",
+ "generated_at": "2026-11-15T17:10:02+00:00",
  "date": "2026-11-15",
  "ratings_through": "2026-11-14",
  "unmatched_injuries": [],
@@ -14,23 +14,23 @@
    "neutral": false,
    "home_name": "Philadelphia 76ers",
    "away_name": "Indiana Pacers",
-   "home_win_prob": 0.7301,
+   "home_win_prob": 0.7268,
    "home_pts": 114.5,
-   "away_pts": 106.2,
+   "away_pts": 106.3,
    "margin_pct": {
-    "5": -14.7,
-    "25": -0.8,
-    "50": 8.5,
-    "75": 17.6,
-    "95": 30.5
+    "5": -14.8,
+    "25": -0.9,
+    "50": 8.3,
+    "75": 17.5,
+    "95": 30.4
    },
    "total_mean": 220.9,
    "total_pct": {
-    "5": 191.0,
+    "5": 191.1,
     "25": 208.6,
     "50": 220.9,
     "75": 233.1,
-    "95": 250.5
+    "95": 250.6
    },
    "rest_home": 3,
    "rest_away": 2,
@@ -63,9 +63,9 @@
    "injuries_away": [
     {
      "name": "Andrew Nembhard",
-     "status": "Day-To-Day",
-     "note": "Nembhard is questionable for Sunday's game against the 76ers due to left hip soreness.",
-     "out": false
+     "status": "Out",
+     "note": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports.",
+     "out": true
     },
     {
      "name": "T.J. McConnell",
@@ -98,7 +98,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600237",
@@ -164,7 +164,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600238",
@@ -236,7 +236,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600239",
@@ -314,7 +314,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600240",
@@ -379,7 +379,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600241",
@@ -438,7 +438,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600242",
@@ -540,7 +540,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600243",
@@ -612,7 +612,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   },
   {
    "game_id": "0022600244",
@@ -708,7 +708,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T16:01:30+00:00"
+   "predicted_at": "2026-11-15T17:10:02+00:00"
   }
  ]
 }
