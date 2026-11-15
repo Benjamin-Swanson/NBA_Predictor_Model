@@ -1,23 +1,23 @@
 {
- "updated": "2026-11-15T00:16:07+00:00",
- "n": 183,
- "accuracy": 0.6667,
- "log_loss": 0.5866,
- "brier": 0.2023,
- "margin_mae": 11.82,
- "band_coverage": 0.8689,
+ "updated": "2026-11-15T16:01:30+00:00",
+ "n": 188,
+ "accuracy": 0.6596,
+ "log_loss": 0.5959,
+ "brier": 0.2059,
+ "margin_mae": 11.96,
+ "band_coverage": 0.8617,
  "buckets": [
   {
    "bucket": "50-60%",
-   "games": 49,
+   "games": 51,
    "predicted": 0.549,
-   "actual": 0.531
+   "actual": 0.529
   },
   {
    "bucket": "60-70%",
-   "games": 60,
+   "games": 61,
    "predicted": 0.65,
-   "actual": 0.6
+   "actual": 0.59
   },
   {
    "bucket": "70-80%",
@@ -27,12 +27,87 @@
   },
   {
    "bucket": "80-100%",
-   "games": 28,
-   "predicted": 0.839,
-   "actual": 1.0
+   "games": 30,
+   "predicted": 0.84,
+   "actual": 0.967
   }
  ],
  "games": [
+  {
+   "date": "2026-11-14",
+   "game_id": "0022600235",
+   "away": "CHI",
+   "home": "MIN",
+   "home_win_prob": 0.881,
+   "home_won": 0,
+   "pick": "MIN",
+   "confidence": 0.881,
+   "correct": 0,
+   "proj": "110-126",
+   "final": "117-106",
+   "margin_err": -27.4,
+   "in_band": 0
+  },
+  {
+   "date": "2026-11-14",
+   "game_id": "0022600234",
+   "away": "BKN",
+   "home": "MEM",
+   "home_win_prob": 0.532,
+   "home_won": 1,
+   "pick": "MEM",
+   "confidence": 0.532,
+   "correct": 1,
+   "proj": "115-116",
+   "final": "110-129",
+   "margin_err": 18.1,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-14",
+   "game_id": "0022600233",
+   "away": "DET",
+   "home": "MIA",
+   "home_win_prob": 0.384,
+   "home_won": 1,
+   "pick": "DET",
+   "confidence": 0.616,
+   "correct": 0,
+   "proj": "115-110",
+   "final": "117-137",
+   "margin_err": 24.2,
+   "in_band": 0
+  },
+  {
+   "date": "2026-11-14",
+   "game_id": "0022600232",
+   "away": "DAL",
+   "home": "CLE",
+   "home_win_prob": 0.459,
+   "home_won": 1,
+   "pick": "DAL",
+   "confidence": 0.541,
+   "correct": 0,
+   "proj": "116-115",
+   "final": "117-127",
+   "margin_err": 11.6,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-14",
+   "game_id": "0022600231",
+   "away": "DEN",
+   "home": "NOP",
+   "home_win_prob": 0.171,
+   "home_won": 0,
+   "pick": "DEN",
+   "confidence": 0.829,
+   "correct": 1,
+   "proj": "121-108",
+   "final": "116-108",
+   "margin_err": 4.8,
+   "in_band": 1
+  },
   {
    "date": "2026-11-13",
    "game_id": "0022600042",
