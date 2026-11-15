@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T21:13:38+00:00",
+ "generated_at": "2026-11-15T00:16:07+00:00",
  "date": "2026-11-14",
  "ratings_through": "2026-11-13",
  "unmatched_injuries": [],
@@ -86,56 +86,56 @@
    "neutral": false,
    "home_name": "Cleveland Cavaliers",
    "away_name": "Dallas Mavericks",
-   "home_win_prob": 0.6433,
-   "home_pts": 118.3,
-   "away_pts": 113.5,
+   "home_win_prob": 0.4589,
+   "home_pts": 114.8,
+   "away_pts": 116.4,
    "margin_pct": {
-    "5": -18.1,
-    "25": -4.3,
-    "50": 5.0,
-    "75": 14.1,
-    "95": 27.1
+    "5": -24.5,
+    "25": -10.6,
+    "50": -1.4,
+    "75": 7.8,
+    "95": 20.7
    },
-   "total_mean": 231.9,
+   "total_mean": 231.4,
    "total_pct": {
-    "5": 202.1,
-    "25": 219.6,
-    "50": 231.9,
-    "75": 244.1,
-    "95": 261.6
+    "5": 201.6,
+    "25": 219.1,
+    "50": 231.4,
+    "75": 243.6,
+    "95": 261.1
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Peyton Watson",
-     "status": "Day-To-Day",
-     "note": "Watson (hamstring) is listed as questionable for Saturday's game against the Mavericks.",
-     "out": false
+     "status": "Out",
+     "note": "Watson (hamstring) has been ruled out for Saturday's game against the Mavericks.",
+     "out": true
+    },
+    {
+     "name": "James Harden",
+     "status": "Out",
+     "note": "Harden (calf) has been ruled out for Saturday's game against Dallas.",
+     "out": true
+    },
+    {
+     "name": "Donovan Mitchell",
+     "status": "Out",
+     "note": "Mitchell (knee) has been ruled out for Saturday's game against the Mavericks.",
+     "out": true
+    },
+    {
+     "name": "Jarrett Allen",
+     "status": "Out",
+     "note": "Allen (knee) has been ruled out for Saturday's game against the Mavericks.",
+     "out": true
     },
     {
      "name": "Evan Mobley",
      "status": "Out",
      "note": "Mobley (toe) has been ruled out for Saturday's meeting with Dallas.",
      "out": true
-    },
-    {
-     "name": "Jarrett Allen",
-     "status": "Day-To-Day",
-     "note": "Allen (knee) is listed as questionable for Saturday's game against Dallas.",
-     "out": false
-    },
-    {
-     "name": "Donovan Mitchell",
-     "status": "Day-To-Day",
-     "note": "Mitchell (knee) is listed as questionable for Saturday's game against the Mavericks.",
-     "out": false
-    },
-    {
-     "name": "James Harden",
-     "status": "Day-To-Day",
-     "note": "Harden (left lower leg/calf tightness) is listed as questionable for Saturday's game against the Mavericks.",
-     "out": false
     },
     {
      "name": "Sam Merrill",
@@ -153,15 +153,9 @@
    "injuries_away": [
     {
      "name": "Max Christie",
-     "status": "Day-To-Day",
-     "note": "Christie (ankle) has been downgraded to doubtful for Saturday's game against the Cavaliers",
-     "out": false
-    },
-    {
-     "name": "Morez Johnson Jr.",
-     "status": "Day-To-Day",
-     "note": "Johnson (left shin contusion) is listed as probable for Saturday against Cleveland.",
-     "out": false
+     "status": "Out",
+     "note": "Christie (ankle) has been ruled out for Saturday's game against Cleveland.",
+     "out": true
     },
     {
      "name": "Dereck Lively II",
@@ -182,7 +176,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-14T21:13:38+00:00"
+   "predicted_at": "2026-11-15T00:16:07+00:00"
   },
   {
    "game_id": "0022600233",
@@ -194,44 +188,32 @@
    "neutral": false,
    "home_name": "Miami Heat",
    "away_name": "Detroit Pistons",
-   "home_win_prob": 0.4162,
-   "home_pts": 111.6,
-   "away_pts": 114.6,
+   "home_win_prob": 0.3842,
+   "home_pts": 110.5,
+   "away_pts": 114.7,
    "margin_pct": {
-    "5": -25.9,
-    "25": -12.0,
-    "50": -2.8,
-    "75": 6.4,
-    "95": 19.3
+    "5": -27.1,
+    "25": -13.2,
+    "50": -3.9,
+    "75": 5.2,
+    "95": 18.1
    },
-   "total_mean": 226.3,
+   "total_mean": 225.4,
    "total_pct": {
-    "5": 196.5,
-    "25": 214.0,
-    "50": 226.3,
-    "75": 238.5,
-    "95": 256.0
+    "5": 195.5,
+    "25": 213.1,
+    "50": 225.4,
+    "75": 237.6,
+    "95": 255.0
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Pelle Larsson",
-     "status": "Day-To-Day",
-     "note": "Larsson (illness) is listed as doubtful for Saturday's game against Detroit.",
-     "out": false
-    },
-    {
-     "name": "Klay Thompson",
-     "status": "Day-To-Day",
-     "note": "Thompson (ankle) is listed as probable for Saturday's game against the Pistons.",
-     "out": false
-    },
-    {
-     "name": "Giannis Antetokounmpo",
-     "status": "Day-To-Day",
-     "note": "Antetokounmpo (wrist) is listed as probable for Saturday's game against Detroit.",
-     "out": false
+     "status": "Out",
+     "note": "Larsson (illness) has been ruled out for Saturday's game against the Pistons.",
+     "out": true
     }
    ],
    "injuries_away": [
@@ -254,7 +236,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-14T21:13:38+00:00"
+   "predicted_at": "2026-11-15T00:16:07+00:00"
   },
   {
    "game_id": "0022600234",
@@ -326,19 +308,13 @@
    ],
    "injuries_away": [
     {
-     "name": "Mikel Brown Jr.",
+     "name": "Michael Porter Jr.",
      "status": "Day-To-Day",
-     "note": "Brown (illness) has been upgraded to probable for Saturday's game at Memphis.",
-     "out": false
-    },
-    {
-     "name": "Nolan Traore",
-     "status": "Day-To-Day",
-     "note": "Traore (calf) is listed as probable for Saturday's game against Memphis.",
+     "note": "Porter (personal) is listed as questionable for Saturday's game against Memphis, Erik Slater of ClutchPoints.com reports.",
      "out": false
     }
    ],
-   "predicted_at": "2026-11-14T21:13:38+00:00"
+   "predicted_at": "2026-11-15T00:16:07+00:00"
   },
   {
    "game_id": "0022600235",
@@ -350,23 +326,23 @@
    "neutral": false,
    "home_name": "Minnesota Timberwolves",
    "away_name": "Chicago Bulls",
-   "home_win_prob": 0.8621,
-   "home_pts": 125.4,
-   "away_pts": 110.3,
+   "home_win_prob": 0.8809,
+   "home_pts": 126.3,
+   "away_pts": 109.9,
    "margin_pct": {
-    "5": -7.7,
-    "25": 6.1,
-    "50": 15.4,
-    "75": 24.5,
-    "95": 37.5
+    "5": -6.5,
+    "25": 7.4,
+    "50": 16.7,
+    "75": 25.8,
+    "95": 38.7
    },
-   "total_mean": 235.8,
+   "total_mean": 236.4,
    "total_pct": {
-    "5": 206.0,
-    "25": 223.6,
-    "50": 235.9,
-    "75": 248.1,
-    "95": 265.5
+    "5": 206.5,
+    "25": 224.1,
+    "50": 236.4,
+    "75": 248.6,
+    "95": 266.0
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -386,28 +362,22 @@
    ],
    "injuries_away": [
     {
-     "name": "Tobe Awaka",
+     "name": "Jalen Smith",
      "status": "Out",
-     "note": "Awaka has been ruled out for Saturday's game against the Timberwolves.",
+     "note": "Smith (finger) has been ruled out for Saturday's game against Minnesota, K.C. Johnson of Chicago Sports Network reports.",
      "out": true
     },
     {
      "name": "Nic Claxton",
-     "status": "Day-To-Day",
-     "note": "Claxton (hamstring) is listed as questionable for Saturday's game against the Timberwolves.",
-     "out": false
+     "status": "Out",
+     "note": "Claxton (hamstring) is out for Saturday's game against the Timberwolves, K.C. Johnson of Chicago Sports Network reports.",
+     "out": true
     },
     {
-     "name": "Jalen Smith",
-     "status": "Day-To-Day",
-     "note": "Smith (finger) is listed as questionable for Saturday's game at Minnesota.",
-     "out": false
-    },
-    {
-     "name": "Norman Powell",
-     "status": "Day-To-Day",
-     "note": "Powell (back) is listed as questionable for Saturday's game against Minnesota.",
-     "out": false
+     "name": "Tobe Awaka",
+     "status": "Out",
+     "note": "Awaka has been ruled out for Saturday's game against the Timberwolves.",
+     "out": true
     },
     {
      "name": "Caleb Wilson",
@@ -416,7 +386,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-14T21:13:38+00:00"
+   "predicted_at": "2026-11-15T00:16:07+00:00"
   }
  ]
 }
