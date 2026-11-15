@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T17:10:02+00:00",
+ "generated_at": "2026-11-15T19:00:13+00:00",
  "date": "2026-11-15",
  "ratings_through": "2026-11-14",
  "unmatched_injuries": [],
@@ -164,7 +164,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   },
   {
    "game_id": "0022600238",
@@ -236,7 +236,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   },
   {
    "game_id": "0022600239",
@@ -302,6 +302,12 @@
    ],
    "injuries_away": [
     {
+     "name": "De'Aaron Fox",
+     "status": "Day-To-Day",
+     "note": "Fox (hip) is listed as questionable for Sunday's game against Utah.",
+     "out": false
+    },
+    {
      "name": "Tobias Harris",
      "status": "Out",
      "note": "Harris (calf) is out for Wednesday's game against Chicago, Jared Weiss of The Athletic reports.",
@@ -314,7 +320,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   },
   {
    "game_id": "0022600240",
@@ -349,15 +355,27 @@
    "injuries_home": [],
    "injuries_away": [
     {
-     "name": "Daniel Gafford",
+     "name": "Santi Aldama",
      "status": "Day-To-Day",
-     "note": "Gafford (face) won't return to Saturday's game against the Cavaliers, Grant Afseth of DallasHoopsJournal.com reports.",
+     "note": "Aldama (ankle) is listed as questionable for Sunday's game in Boston.",
      "out": false
     },
     {
      "name": "Max Christie",
      "status": "Day-To-Day",
-     "note": "Christie (ankle) has been ruled out for Saturday's game against Cleveland.",
+     "note": "Christie (ankle) is doubtful to play Sunday's game against the Celtics.",
+     "out": false
+    },
+    {
+     "name": "Kyrie Irving",
+     "status": "Day-To-Day",
+     "note": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
+     "out": false
+    },
+    {
+     "name": "Daniel Gafford",
+     "status": "Day-To-Day",
+     "note": "Gafford (shoulder) is probable to play in Sunday's game against the Celtics.",
      "out": false
     },
     {
@@ -379,7 +397,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   },
   {
    "game_id": "0022600241",
@@ -438,7 +456,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   },
   {
    "game_id": "0022600242",
@@ -522,12 +540,6 @@
      "out": true
     },
     {
-     "name": "Steven Adams",
-     "status": "Out",
-     "note": "Adams (calf) has been upgraded to probable for Sunday's game against the Wizards.",
-     "out": true
-    },
-    {
      "name": "Fred VanVleet",
      "status": "Out",
      "note": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards.",
@@ -540,7 +552,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   },
   {
    "game_id": "0022600243",
@@ -574,6 +586,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Ryan Rollins",
+     "status": "Day-To-Day",
+     "note": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.",
+     "out": false
+    },
+    {
      "name": "Ousmane Dieng",
      "status": "Out",
      "note": "Dieng (finger) has been ruled out for Sunday's game against the Hawks.",
@@ -581,6 +599,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Jock Landale",
+     "status": "Day-To-Day",
+     "note": "Landale (hip) is listed as questionable for Sunday's game against Milwakee.",
+     "out": false
+    },
     {
      "name": "Kingston Flemings",
      "status": "Out",
@@ -612,7 +636,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   },
   {
    "game_id": "0022600244",
@@ -708,7 +732,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-15T17:10:02+00:00"
+   "predicted_at": "2026-11-15T19:00:13+00:00"
   }
  ]
 }
