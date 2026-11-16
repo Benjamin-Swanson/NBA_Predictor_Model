@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:11:55+00:00",
+ "generated_at": "2026-11-16T15:12:47+00:00",
  "date": "2026-11-16",
  "ratings_through": "2026-11-15",
  "unmatched_injuries": [],
@@ -155,32 +155,32 @@
    "neutral": false,
    "home_name": "Washington Wizards",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.3878,
-   "home_pts": 113.9,
+   "home_win_prob": 0.3983,
+   "home_pts": 114.3,
    "away_pts": 118.0,
    "margin_pct": {
-    "5": -27.0,
-    "25": -13.1,
-    "50": -3.8,
-    "75": 5.3,
-    "95": 18.2
+    "5": -26.6,
+    "25": -12.7,
+    "50": -3.4,
+    "75": 5.7,
+    "95": 18.6
    },
-   "total_mean": 232.0,
+   "total_mean": 232.4,
    "total_pct": {
-    "5": 202.2,
-    "25": 219.8,
-    "50": 232.1,
-    "75": 244.3,
-    "95": 261.7
+    "5": 202.6,
+    "25": 220.2,
+    "50": 232.5,
+    "75": 244.7,
+    "95": 262.1
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Tre Johnson",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Johnson (back) won't play in Sunday's game against Houston, Josh Robbins of The Athletic reports.",
-     "out": true
+     "out": false
     },
     {
      "name": "Tristan Vuk\u010devi\u0107",
@@ -320,23 +320,23 @@
    "neutral": false,
    "home_name": "Miami Heat",
    "away_name": "Houston Rockets",
-   "home_win_prob": 0.5938,
+   "home_win_prob": 0.5747,
    "home_pts": 118.0,
-   "away_pts": 115.0,
+   "away_pts": 115.7,
    "margin_pct": {
-    "5": -19.9,
-    "25": -6.1,
-    "50": 3.2,
-    "75": 12.3,
-    "95": 25.3
+    "5": -20.6,
+    "25": -6.7,
+    "50": 2.5,
+    "75": 11.7,
+    "95": 24.6
    },
-   "total_mean": 233.2,
+   "total_mean": 233.9,
    "total_pct": {
-    "5": 203.3,
-    "25": 220.9,
-    "50": 233.2,
-    "75": 245.4,
-    "95": 262.8
+    "5": 204.1,
+    "25": 221.6,
+    "50": 233.9,
+    "75": 246.1,
+    "95": 263.6
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -350,15 +350,15 @@
    ],
    "injuries_away": [
     {
+     "name": "Fred VanVleet",
+     "status": "Day-To-Day",
+     "note": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards.",
+     "out": false
+    },
+    {
      "name": "Clint Capela",
      "status": "Out",
      "note": "Capela (ankle) has been ruled out for Sunday's game at Washington.",
-     "out": true
-    },
-    {
-     "name": "Fred VanVleet",
-     "status": "Out",
-     "note": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards.",
      "out": true
     },
     {
