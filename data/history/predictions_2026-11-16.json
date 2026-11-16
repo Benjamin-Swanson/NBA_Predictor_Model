@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:30:42+00:00",
+ "generated_at": "2026-11-16T21:15:18+00:00",
  "date": "2026-11-16",
  "ratings_through": "2026-11-15",
  "unmatched_injuries": [],
@@ -68,7 +68,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   },
   {
    "game_id": "0022600246",
@@ -152,7 +152,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   },
   {
    "game_id": "0022600247",
@@ -260,7 +260,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   },
   {
    "game_id": "0022600248",
@@ -325,7 +325,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   },
   {
    "game_id": "0022600249",
@@ -403,7 +403,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   },
   {
    "game_id": "0022600250",
@@ -481,7 +481,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   },
   {
    "game_id": "0022600251",
@@ -583,7 +583,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   },
   {
    "game_id": "0022600252",
@@ -625,13 +625,19 @@
    ],
    "injuries_away": [
     {
+     "name": "Ryan Dunn",
+     "status": "Day-To-Day",
+     "note": "Dunn (thumb) is listed as questionable for Monday's game against Denver.",
+     "out": false
+    },
+    {
      "name": "Mark Williams",
      "status": "Out",
      "note": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T19:30:42+00:00"
+   "predicted_at": "2026-11-16T21:15:18+00:00"
   }
  ]
 }

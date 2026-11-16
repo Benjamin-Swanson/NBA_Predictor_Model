@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T19:30:42+00:00",
+ "generated_at": "2026-11-16T21:15:18+00:00",
  "date": "2026-11-16",
  "ratings_through": "2026-11-15",
  "unmatched_injuries": [],
@@ -617,6 +617,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Ryan Dunn",
+     "status": "Day-To-Day",
+     "note": "Dunn (thumb) is listed as questionable for Monday's game against Denver.",
+     "out": false
+    },
     {
      "name": "Mark Williams",
      "status": "Out",
