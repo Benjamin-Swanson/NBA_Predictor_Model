@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T05:14:54+00:00",
+ "generated_at": "2026-11-16T13:11:55+00:00",
  "date": "2026-11-16",
  "ratings_through": "2026-11-15",
  "unmatched_injuries": [],
@@ -14,22 +14,22 @@
    "neutral": false,
    "home_name": "Boston Celtics",
    "away_name": "Orlando Magic",
-   "home_win_prob": 0.7594,
-   "home_pts": 113.5,
+   "home_win_prob": 0.7619,
+   "home_pts": 113.6,
    "away_pts": 104.0,
    "margin_pct": {
-    "5": -13.4,
-    "25": 0.4,
-    "50": 9.7,
-    "75": 18.8,
-    "95": 31.8
+    "5": -13.3,
+    "25": 0.5,
+    "50": 9.8,
+    "75": 18.9,
+    "95": 31.9
    },
-   "total_mean": 217.7,
+   "total_mean": 217.8,
    "total_pct": {
     "5": 187.9,
-    "25": 205.4,
-    "50": 217.7,
-    "75": 229.9,
+    "25": 205.5,
+    "50": 217.8,
+    "75": 230.0,
     "95": 247.4
    },
    "rest_home": 1,
@@ -61,7 +61,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   },
   {
    "game_id": "0022600246",
@@ -73,23 +73,23 @@
    "neutral": false,
    "home_name": "Cleveland Cavaliers",
    "away_name": "Chicago Bulls",
-   "home_win_prob": 0.7803,
-   "home_pts": 124.5,
+   "home_win_prob": 0.7755,
+   "home_pts": 124.4,
    "away_pts": 114.0,
    "margin_pct": {
-    "5": -12.3,
-    "25": 1.5,
-    "50": 10.8,
-    "75": 19.9,
-    "95": 32.8
+    "5": -12.6,
+    "25": 1.3,
+    "50": 10.5,
+    "75": 19.7,
+    "95": 32.6
    },
-   "total_mean": 238.6,
+   "total_mean": 238.5,
    "total_pct": {
-    "5": 208.8,
-    "25": 226.4,
-    "50": 238.7,
-    "75": 250.9,
-    "95": 268.3
+    "5": 208.7,
+    "25": 226.3,
+    "50": 238.6,
+    "75": 250.8,
+    "95": 268.2
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -145,7 +145,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   },
   {
    "game_id": "0022600247",
@@ -157,17 +157,17 @@
    "neutral": false,
    "home_name": "Washington Wizards",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.3872,
+   "home_win_prob": 0.3878,
    "home_pts": 113.9,
    "away_pts": 118.0,
    "margin_pct": {
     "5": -27.0,
     "25": -13.1,
-    "50": -3.9,
+    "50": -3.8,
     "75": 5.3,
     "95": 18.2
    },
-   "total_mean": 232.1,
+   "total_mean": 232.0,
    "total_pct": {
     "5": 202.2,
     "25": 219.8,
@@ -253,7 +253,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   },
   {
    "game_id": "0022600248",
@@ -265,23 +265,23 @@
    "neutral": false,
    "home_name": "Brooklyn Nets",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.4902,
-   "home_pts": 111.3,
+   "home_win_prob": 0.4861,
+   "home_pts": 111.2,
    "away_pts": 111.8,
    "margin_pct": {
-    "5": -23.4,
-    "25": -9.6,
-    "50": -0.3,
-    "75": 8.8,
-    "95": 21.8
+    "5": -23.6,
+    "25": -9.7,
+    "50": -0.4,
+    "75": 8.7,
+    "95": 21.6
    },
    "total_mean": 223.2,
    "total_pct": {
-    "5": 193.4,
+    "5": 193.3,
     "25": 210.9,
     "50": 223.2,
     "75": 235.4,
-    "95": 252.9
+    "95": 252.8
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -312,7 +312,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   },
   {
    "game_id": "0022600249",
@@ -324,23 +324,23 @@
    "neutral": false,
    "home_name": "Miami Heat",
    "away_name": "Houston Rockets",
-   "home_win_prob": 0.5939,
-   "home_pts": 118.1,
+   "home_win_prob": 0.5938,
+   "home_pts": 118.0,
    "away_pts": 115.0,
    "margin_pct": {
     "5": -19.9,
     "25": -6.1,
     "50": 3.2,
-    "75": 12.4,
+    "75": 12.3,
     "95": 25.3
    },
    "total_mean": 233.2,
    "total_pct": {
-    "5": 203.4,
-    "25": 221.0,
-    "50": 233.3,
-    "75": 245.5,
-    "95": 262.9
+    "5": 203.3,
+    "25": 220.9,
+    "50": 233.2,
+    "75": 245.4,
+    "95": 262.8
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -372,7 +372,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   },
   {
    "game_id": "0022600250",
@@ -384,11 +384,11 @@
    "neutral": false,
    "home_name": "Minnesota Timberwolves",
    "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.5303,
-   "home_pts": 115.1,
+   "home_win_prob": 0.5302,
+   "home_pts": 115.0,
    "away_pts": 114.3,
    "margin_pct": {
-    "5": -22.1,
+    "5": -22.2,
     "25": -8.3,
     "50": 1.0,
     "75": 10.1,
@@ -450,7 +450,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   },
   {
    "game_id": "0022600251",
@@ -462,23 +462,23 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Golden State Warriors",
-   "home_win_prob": 0.3169,
-   "home_pts": 112.0,
-   "away_pts": 118.7,
+   "home_win_prob": 0.3333,
+   "home_pts": 112.5,
+   "away_pts": 118.5,
    "margin_pct": {
-    "5": -29.5,
-    "25": -15.7,
-    "50": -6.4,
-    "75": 2.7,
-    "95": 15.7
+    "5": -28.9,
+    "25": -15.1,
+    "50": -5.8,
+    "75": 3.3,
+    "95": 16.3
    },
-   "total_mean": 230.8,
+   "total_mean": 231.1,
    "total_pct": {
-    "5": 201.0,
-    "25": 218.6,
-    "50": 230.9,
-    "75": 243.1,
-    "95": 260.5
+    "5": 201.3,
+    "25": 218.8,
+    "50": 231.1,
+    "75": 243.3,
+    "95": 260.8
    },
    "rest_home": 2,
    "rest_away": 3,
@@ -552,7 +552,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   },
   {
    "game_id": "0022600252",
@@ -564,17 +564,17 @@
    "neutral": false,
    "home_name": "Denver Nuggets",
    "away_name": "Phoenix Suns",
-   "home_win_prob": 0.7737,
-   "home_pts": 125.4,
+   "home_win_prob": 0.7724,
+   "home_pts": 125.3,
    "away_pts": 115.1,
    "margin_pct": {
     "5": -12.7,
-    "25": 1.2,
-    "50": 10.5,
-    "75": 19.6,
-    "95": 32.5
+    "25": 1.1,
+    "50": 10.4,
+    "75": 19.5,
+    "95": 32.4
    },
-   "total_mean": 240.6,
+   "total_mean": 240.5,
    "total_pct": {
     "5": 210.7,
     "25": 228.3,
@@ -606,7 +606,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T05:14:54+00:00"
+   "predicted_at": "2026-11-16T13:11:55+00:00"
   }
  ]
 }
