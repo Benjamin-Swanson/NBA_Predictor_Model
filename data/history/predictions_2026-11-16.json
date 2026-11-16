@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T15:12:47+00:00",
+ "generated_at": "2026-11-16T17:07:20+00:00",
  "date": "2026-11-16",
  "ratings_through": "2026-11-15",
  "unmatched_injuries": [],
@@ -61,7 +61,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   },
   {
    "game_id": "0022600246",
@@ -145,7 +145,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   },
   {
    "game_id": "0022600247",
@@ -253,7 +253,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   },
   {
    "game_id": "0022600248",
@@ -312,7 +312,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   },
   {
    "game_id": "0022600249",
@@ -354,6 +354,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Julian Phillips",
+     "status": "Day-To-Day",
+     "note": "Phillips (illness) is available for Wednesday's game against Dallas.",
+     "out": false
+    },
+    {
      "name": "Fred VanVleet",
      "status": "Day-To-Day",
      "note": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards.",
@@ -372,7 +378,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   },
   {
    "game_id": "0022600250",
@@ -450,7 +456,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   },
   {
    "game_id": "0022600251",
@@ -552,7 +558,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   },
   {
    "game_id": "0022600252",
@@ -594,19 +600,13 @@
    ],
    "injuries_away": [
     {
-     "name": "Drew Timme",
-     "status": "Day-To-Day",
-     "note": "The Suns claimed Timme off waivers Monday, per Michael Scotto of HoopsHype.com.",
-     "out": false
-    },
-    {
      "name": "Mark Williams",
      "status": "Out",
      "note": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
      "out": true
     }
    ],
-   "predicted_at": "2026-11-16T15:12:47+00:00"
+   "predicted_at": "2026-11-16T17:07:20+00:00"
   }
  ]
 }
