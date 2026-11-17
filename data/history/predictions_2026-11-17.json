@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:20:27+00:00",
+ "generated_at": "2026-11-17T17:00:14+00:00",
  "date": "2026-11-17",
  "ratings_through": "2026-11-16",
  "unmatched_injuries": [],
@@ -55,7 +55,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-17T15:20:27+00:00"
+   "predicted_at": "2026-11-17T17:00:14+00:00"
   },
   {
    "game_id": "0022600254",
@@ -139,7 +139,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-17T15:20:27+00:00"
+   "predicted_at": "2026-11-17T17:00:14+00:00"
   },
   {
    "game_id": "0022600255",
@@ -187,6 +187,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Duncan Robinson",
+     "status": "Out",
+     "note": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
+     "out": true
+    },
+    {
      "name": "Taurean Prince",
      "status": "Out",
      "note": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
@@ -205,19 +211,13 @@
      "out": true
     },
     {
-     "name": "Duncan Robinson",
-     "status": "Out",
-     "note": "Robinson (quadriceps) has been ruled out for Tuesday's game against the Spurs.",
-     "out": true
-    },
-    {
      "name": "Jalen Duren",
      "status": "Out",
      "note": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.",
      "out": true
     }
    ],
-   "predicted_at": "2026-11-17T15:20:27+00:00"
+   "predicted_at": "2026-11-17T17:00:14+00:00"
   },
   {
    "game_id": "0022600257",
@@ -301,7 +301,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-17T15:20:27+00:00"
+   "predicted_at": "2026-11-17T17:00:14+00:00"
   },
   {
    "game_id": "0022600256",
@@ -361,7 +361,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-17T15:20:27+00:00"
+   "predicted_at": "2026-11-17T17:00:14+00:00"
   }
  ]
 }
