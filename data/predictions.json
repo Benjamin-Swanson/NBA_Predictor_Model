@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T17:00:14+00:00",
+ "generated_at": "2026-11-17T19:00:09+00:00",
  "date": "2026-11-17",
  "ratings_through": "2026-11-16",
  "unmatched_injuries": [],
@@ -35,6 +35,12 @@
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Scottie Barnes",
+     "status": "Day-To-Day",
+     "note": "Barnes (illness) has been downgraded to questionable for Tuesday's game against the Knicks, Blake Murphy of Sportsnet.ca reports.",
+     "out": false
+    },
     {
      "name": "Nate Bittle",
      "status": "Out",
@@ -185,6 +191,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Isaiah Joe",
+     "status": "Out",
+     "note": "Joe (hip) is out for Tuesday's game against the Spurs.",
+     "out": true
+    },
+    {
      "name": "Duncan Robinson",
      "status": "Out",
      "note": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
@@ -200,12 +212,6 @@
      "name": "Ronald Holland II",
      "status": "Out",
      "note": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
-     "out": true
-    },
-    {
-     "name": "Isaiah Joe",
-     "status": "Out",
-     "note": "Joe (hip) is doubtful to play in Tuesday's game against the Spurs.",
      "out": true
     },
     {
