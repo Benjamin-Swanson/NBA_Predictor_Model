@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T19:03:10+00:00",
+ "generated_at": "2026-11-18T20:42:32+00:00",
  "date": "2026-11-18",
  "ratings_through": "2026-11-17",
  "unmatched_injuries": [],
@@ -424,12 +424,6 @@
      "status": "Out",
      "note": "Bittle (foot) has been ruled out for Sunday's game against the Knicks, Zulfi Sheikh of Sportsnet.ca reports.",
      "out": true
-    },
-    {
-     "name": "Kevin McCullar Jr.",
-     "status": "Day-To-Day",
-     "note": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports.",
-     "out": false
     }
    ],
    "injuries_away": [
@@ -475,23 +469,23 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Detroit Pistons",
-   "home_win_prob": 0.2534,
-   "home_pts": 108.0,
+   "home_win_prob": 0.2556,
+   "home_pts": 108.1,
    "away_pts": 117.2,
    "margin_pct": {
-    "5": -32.1,
-    "25": -18.3,
-    "50": -9.0,
-    "75": 0.1,
-    "95": 13.1
+    "5": -32.0,
+    "25": -18.2,
+    "50": -8.9,
+    "75": 0.2,
+    "95": 13.2
    },
-   "total_mean": 225.3,
+   "total_mean": 225.4,
    "total_pct": {
-    "5": 195.5,
-    "25": 213.0,
-    "50": 225.3,
-    "75": 237.5,
-    "95": 255.0
+    "5": 195.6,
+    "25": 213.1,
+    "50": 225.4,
+    "75": 237.6,
+    "95": 255.1
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -529,21 +523,27 @@
    ],
    "injuries_away": [
     {
-     "name": "Taurean Prince",
+     "name": "Cade Cunningham",
      "status": "Day-To-Day",
-     "note": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
-     "out": false
-    },
-    {
-     "name": "Ronald Holland II",
-     "status": "Day-To-Day",
-     "note": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
+     "note": "Cunningham is questionable for Wednesday's game against the Pelicans due to right knee soreness",
      "out": false
     },
     {
      "name": "Isaiah Joe",
      "status": "Out",
-     "note": "Joe (hip) is out for Tuesday's game against the Spurs.",
+     "note": "Joe (hip) is listed as questionable for Wednesday's game against the Pelicans.",
+     "out": true
+    },
+    {
+     "name": "Taurean Prince",
+     "status": "Out",
+     "note": "Prince (knee) is out for Wednesday's game against the Pelicans.",
+     "out": true
+    },
+    {
+     "name": "Ronald Holland II",
+     "status": "Out",
+     "note": "Holland (knee) is out for Wednesday's game against the Pelicans.",
      "out": true
     },
     {
