@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:24:17+00:00",
+ "generated_at": "2026-11-18T19:03:10+00:00",
  "date": "2026-11-18",
  "ratings_through": "2026-11-17",
  "unmatched_injuries": [],
@@ -14,27 +14,39 @@
    "neutral": false,
    "home_name": "Cleveland Cavaliers",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.6723,
-   "home_pts": 121.6,
-   "away_pts": 115.7,
+   "home_win_prob": 0.6563,
+   "home_pts": 121.3,
+   "away_pts": 116.0,
    "margin_pct": {
-    "5": -17.0,
-    "25": -3.1,
-    "50": 6.1,
-    "75": 15.3,
-    "95": 28.2
+    "5": -17.6,
+    "25": -3.8,
+    "50": 5.5,
+    "75": 14.6,
+    "95": 27.6
    },
    "total_mean": 237.4,
    "total_pct": {
     "5": 207.6,
-    "25": 225.2,
-    "50": 237.5,
-    "75": 249.7,
+    "25": 225.1,
+    "50": 237.4,
+    "75": 249.6,
     "95": 267.1
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Peyton Watson",
+     "status": "Day-To-Day",
+     "note": "Watson (back) is doubtful for Wednesday's game versus Memphis.",
+     "out": false
+    },
+    {
+     "name": "Jaylon Tyson",
+     "status": "Out",
+     "note": "Tyson (ankle) has been ruled out for Wednesday's game against Memphis.",
+     "out": true
+    },
     {
      "name": "Nae'Qwan Tomlin",
      "status": "Out",
@@ -42,22 +54,10 @@
      "out": true
     },
     {
-     "name": "Jaylon Tyson",
-     "status": "Day-To-Day",
-     "note": "Tyson (ankle) is listed as doubtful for Wednesday's game against the Grizzlies.",
-     "out": false
-    },
-    {
      "name": "Sam Merrill",
      "status": "Out",
      "note": "Merrill (elbow) is questionable to face the Grizzlies on Wednesday.",
      "out": true
-    },
-    {
-     "name": "Peyton Watson",
-     "status": "Day-To-Day",
-     "note": "Watson (back) is listed as questionable for Wednesday's game against Memphis.",
-     "out": false
     },
     {
      "name": "Evan Mobley",
