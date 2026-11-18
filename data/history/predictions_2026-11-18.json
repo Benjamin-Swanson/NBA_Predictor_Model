@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T21:00:13+00:00",
+ "generated_at": "2026-11-18T23:31:44+00:00",
  "date": "2026-11-18",
  "ratings_through": "2026-11-17",
  "unmatched_injuries": [],
@@ -14,22 +14,22 @@
    "neutral": false,
    "home_name": "Cleveland Cavaliers",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.6563,
-   "home_pts": 121.3,
-   "away_pts": 116.0,
+   "home_win_prob": 0.6742,
+   "home_pts": 121.7,
+   "away_pts": 115.6,
    "margin_pct": {
-    "5": -17.6,
-    "25": -3.8,
-    "50": 5.5,
-    "75": 14.6,
-    "95": 27.6
+    "5": -16.9,
+    "25": -3.0,
+    "50": 6.2,
+    "75": 15.4,
+    "95": 28.3
    },
-   "total_mean": 237.4,
+   "total_mean": 237.5,
    "total_pct": {
     "5": 207.6,
-    "25": 225.1,
-    "50": 237.4,
-    "75": 249.6,
+    "25": 225.2,
+    "50": 237.5,
+    "75": 249.7,
     "95": 267.1
    },
    "rest_home": 2,
@@ -51,12 +51,6 @@
      "name": "Nae'Qwan Tomlin",
      "status": "Out",
      "note": "Tomlin (back) will remain on the inactive list for Wednesday's game against the Grizzlies.",
-     "out": true
-    },
-    {
-     "name": "Sam Merrill",
-     "status": "Out",
-     "note": "Merrill (elbow) is questionable to face the Grizzlies on Wednesday.",
      "out": true
     },
     {
@@ -98,7 +92,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600259",
@@ -110,38 +104,32 @@
    "neutral": false,
    "home_name": "Indiana Pacers",
    "away_name": "Houston Rockets",
-   "home_win_prob": 0.3285,
-   "home_pts": 111.0,
-   "away_pts": 117.2,
+   "home_win_prob": 0.2976,
+   "home_pts": 109.7,
+   "away_pts": 117.1,
    "margin_pct": {
-    "5": -29.1,
-    "25": -15.3,
-    "50": -6.0,
-    "75": 3.1,
-    "95": 16.1
+    "5": -30.3,
+    "25": -16.4,
+    "50": -7.1,
+    "75": 2.0,
+    "95": 14.9
    },
-   "total_mean": 228.2,
+   "total_mean": 226.9,
    "total_pct": {
-    "5": 198.4,
-    "25": 216.0,
-    "50": 228.3,
-    "75": 240.5,
-    "95": 257.9
+    "5": 197.1,
+    "25": 214.7,
+    "50": 227.0,
+    "75": 239.2,
+    "95": 256.6
    },
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "T.J. McConnell",
-     "status": "Day-To-Day",
-     "note": "McConnell (hamstring) is probable to play Wednesday against the Rockets.",
-     "out": false
-    },
-    {
      "name": "Andrew Nembhard",
-     "status": "Day-To-Day",
-     "note": "Nembhard (hip) is questionable for Wednesday's game against Houston.",
-     "out": false
+     "status": "Out",
+     "note": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
+     "out": true
     },
     {
      "name": "Tyrese Haliburton",
@@ -168,15 +156,9 @@
      "status": "Out",
      "note": "Capela (ankle) has been ruled out for Wednesday's game against Indiana.",
      "out": true
-    },
-    {
-     "name": "Amen Thompson",
-     "status": "Day-To-Day",
-     "note": "Thompson (knee) is questionable for Wednesday's game against the Pacers.",
-     "out": false
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600260",
@@ -230,7 +212,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600261",
@@ -242,23 +224,23 @@
    "neutral": false,
    "home_name": "Orlando Magic",
    "away_name": "Philadelphia 76ers",
-   "home_win_prob": 0.6177,
-   "home_pts": 112.1,
-   "away_pts": 108.2,
+   "home_win_prob": 0.6344,
+   "home_pts": 112.5,
+   "away_pts": 108.0,
    "margin_pct": {
-    "5": -19.0,
-    "25": -5.2,
-    "50": 4.1,
-    "75": 13.2,
-    "95": 26.2
+    "5": -18.4,
+    "25": -4.6,
+    "50": 4.7,
+    "75": 13.8,
+    "95": 26.8
    },
-   "total_mean": 220.4,
+   "total_mean": 220.7,
    "total_pct": {
-    "5": 190.6,
-    "25": 208.2,
-    "50": 220.5,
-    "75": 232.7,
-    "95": 250.1
+    "5": 190.9,
+    "25": 208.4,
+    "50": 220.7,
+    "75": 232.9,
+    "95": 250.4
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -291,20 +273,26 @@
    "injuries_away": [
     {
      "name": "Dean Wade",
+     "status": "Out",
+     "note": "Wade (hamstring) is out for Wednesday's game in Orlando.",
+     "out": true
+    },
+    {
+     "name": "Tyrese Maxey",
      "status": "Day-To-Day",
-     "note": "Wade (hamstring) has been downgraded to questionable for Wednesday's game against the Magic.",
+     "note": "Maxey is questionable for Wednesday's game in Orlando due to right foot soreness, Gina Mizell of The Philadelphia Inquirer reports.",
      "out": false
+    },
+    {
+     "name": "Jaylen Brown",
+     "status": "Out",
+     "note": "Brown (hamstring) will be re-evaluated at some point this weekend, per Kris Rihm of ESPN.com.",
+     "out": true
     },
     {
      "name": "Dominick Barlow",
      "status": "Out",
      "note": "Barlow (back) is out for Wednesday's game against Orlando.",
-     "out": true
-    },
-    {
-     "name": "Jaylen Brown",
-     "status": "Out",
-     "note": "Brown is out for Wednesday's game against the Magic with a left hamstring strain.",
      "out": true
     },
     {
@@ -320,7 +308,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600262",
@@ -355,12 +343,6 @@
    "injuries_home": [],
    "injuries_away": [
     {
-     "name": "Patrick Williams",
-     "status": "Day-To-Day",
-     "note": "Williams (finger) is listed as probable for Wednesday's game against Brooklyn.",
-     "out": false
-    },
-    {
      "name": "Tobe Awaka",
      "status": "Out",
      "note": "Awaka (back) has been ruled out for Wednesday's game against the Nets.",
@@ -373,7 +355,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600263",
@@ -385,32 +367,32 @@
    "neutral": false,
    "home_name": "Toronto Raptors",
    "away_name": "Washington Wizards",
-   "home_win_prob": 0.6892,
-   "home_pts": 115.6,
-   "away_pts": 109.0,
+   "home_win_prob": 0.6652,
+   "home_pts": 115.0,
+   "away_pts": 109.4,
    "margin_pct": {
-    "5": -16.3,
-    "25": -2.5,
-    "50": 6.8,
-    "75": 15.9,
-    "95": 28.9
+    "5": -17.2,
+    "25": -3.4,
+    "50": 5.9,
+    "75": 15.0,
+    "95": 27.9
    },
-   "total_mean": 224.7,
+   "total_mean": 224.5,
    "total_pct": {
-    "5": 194.8,
-    "25": 212.4,
-    "50": 224.7,
-    "75": 236.9,
-    "95": 254.3
+    "5": 194.7,
+    "25": 212.3,
+    "50": 224.6,
+    "75": 236.8,
+    "95": 254.2
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "RJ Barrett",
-     "status": "Day-To-Day",
-     "note": "Barrett is questionable for Wednesday's game against the Wizards due to hamstring tightness, Esfandiar Baraheni of The Athletic reports.",
-     "out": false
+     "status": "Out",
+     "note": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports.",
+     "out": true
     },
     {
      "name": "Scottie Barnes",
@@ -463,7 +445,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600264",
@@ -565,7 +547,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600265",
@@ -667,7 +649,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600267",
@@ -787,7 +769,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600266",
@@ -828,7 +810,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600268",
@@ -840,45 +822,39 @@
    "neutral": false,
    "home_name": "Los Angeles Lakers",
    "away_name": "Utah Jazz",
-   "home_win_prob": 0.9196,
-   "home_pts": 124.1,
-   "away_pts": 104.5,
+   "home_win_prob": 0.8939,
+   "home_pts": 122.3,
+   "away_pts": 104.8,
    "margin_pct": {
-    "5": -3.4,
-    "25": 10.4,
-    "50": 19.7,
-    "75": 28.8,
-    "95": 41.8
+    "5": -5.5,
+    "25": 8.4,
+    "50": 17.6,
+    "75": 26.8,
+    "95": 39.7
    },
-   "total_mean": 228.7,
+   "total_mean": 227.2,
    "total_pct": {
-    "5": 198.9,
-    "25": 216.4,
-    "50": 228.7,
-    "75": 240.9,
-    "95": 258.4
+    "5": 197.4,
+    "25": 215.0,
+    "50": 227.3,
+    "75": 239.5,
+    "95": 256.9
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
      "name": "Austin Reaves",
-     "status": "Day-To-Day",
-     "note": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
-     "out": false
-    },
-    {
-     "name": "Walker Kessler",
-     "status": "Day-To-Day",
-     "note": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-     "out": false
+     "status": "Out",
+     "note": "Reaves (heel) is out for Wednesday's game against the Jazz.",
+     "out": true
     }
    ],
    "injuries_away": [
     {
      "name": "Jaxson Hayes",
      "status": "Day-To-Day",
-     "note": "Hayes (knee) has been ruled out for Tuesday's game against the Clippers.",
+     "note": "Hayes (knee) is questionable for Wednesday's game against the Lakers.",
      "out": false
     },
     {
@@ -900,7 +876,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   },
   {
    "game_id": "0022600269",
@@ -940,18 +916,6 @@
      "out": true
     },
     {
-     "name": "De'Andre Hunter",
-     "status": "Day-To-Day",
-     "note": "Hunter (hip) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
-     "out": false
-    },
-    {
-     "name": "Precious Achiuwa",
-     "status": "Day-To-Day",
-     "note": "Achiuwa (ankle) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
-     "out": false
-    },
-    {
      "name": "Ben Simmons",
      "status": "Out",
      "note": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports.",
@@ -966,7 +930,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-18T21:00:13+00:00"
+   "predicted_at": "2026-11-18T23:31:44+00:00"
   }
  ]
 }
