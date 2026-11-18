@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:00:10+00:00",
+ "generated_at": "2026-11-18T18:24:17+00:00",
  "date": "2026-11-18",
  "ratings_through": "2026-11-17",
  "unmatched_injuries": [],
@@ -173,12 +173,6 @@
      "status": "Day-To-Day",
      "note": "Thompson (knee) is questionable for Wednesday's game against the Pacers.",
      "out": false
-    },
-    {
-     "name": "Julian Phillips",
-     "status": "Day-To-Day",
-     "note": "Phillips (illness) is available for Wednesday's game against Dallas.",
-     "out": false
     }
    ]
   },
@@ -192,47 +186,41 @@
    "neutral": false,
    "home_name": "Miami Heat",
    "away_name": "Milwaukee Bucks",
-   "home_win_prob": 0.8462,
-   "home_pts": 124.0,
-   "away_pts": 109.8,
+   "home_win_prob": 0.8661,
+   "home_pts": 124.5,
+   "away_pts": 109.1,
    "margin_pct": {
-    "5": -8.8,
-    "25": 5.1,
-    "50": 14.4,
-    "75": 23.5,
-    "95": 36.4
+    "5": -7.5,
+    "25": 6.3,
+    "50": 15.6,
+    "75": 24.7,
+    "95": 37.7
    },
-   "total_mean": 234.0,
+   "total_mean": 233.7,
    "total_pct": {
-    "5": 204.1,
-    "25": 221.7,
-    "50": 234.0,
-    "75": 246.2,
-    "95": 263.6
+    "5": 203.9,
+    "25": 221.4,
+    "50": 233.7,
+    "75": 245.9,
+    "95": 263.4
    },
    "rest_home": 2,
    "rest_away": 3,
    "injuries_home": [
     {
      "name": "Myron Gardner",
-     "status": "Day-To-Day",
-     "note": "Gardner (hamstring) is questionable for Wednesday's game against the Bucks, per Ira Winderman of the South Florida Sun Sentinel.",
-     "out": false
-    },
-    {
-     "name": "Nikola Jovi\u0107",
-     "status": "Day-To-Day",
-     "note": "Jovic (illness) is listed as probable for Wednesday's game against Milwaukee, Ira Winderman of the South Florida Sun Sentinel reports.",
-     "out": false
-    },
-    {
-     "name": "Bam Adebayo",
-     "status": "Day-To-Day",
-     "note": "Adebayo (hip) is probable for Wednesday's game against the Bucks, per Ira Winderman of the South Florida Sun Sentinel.",
-     "out": false
+     "status": "Out",
+     "note": "Gardner (hamstring) is out for Wednesday's game against the Bucks.",
+     "out": true
     }
    ],
    "injuries_away": [
+    {
+     "name": "Ryan Rollins",
+     "status": "Out",
+     "note": "Rollins (illness) has been ruled out for Wednesday's game at Miami.",
+     "out": true
+    },
     {
      "name": "Ousmane Dieng",
      "status": "Out",
@@ -275,7 +263,7 @@
     {
      "name": "Izaiyah Nelson",
      "status": "Out",
-     "note": "Nelson (ankle) has been ruled out for Wednesday's game against the 76ers.",
+     "note": "Head coach Sean Sweeney said Wednesday that Nelson (ankle) has been doing \"some on-court stuff,\" though Sweeney added that the work has been \"minimal,\" Jason Beede of the Orlando Sentinel reports.",
      "out": true
     },
     {
@@ -298,6 +286,12 @@
     }
    ],
    "injuries_away": [
+    {
+     "name": "Dean Wade",
+     "status": "Day-To-Day",
+     "note": "Wade (hamstring) has been downgraded to questionable for Wednesday's game against the Magic.",
+     "out": false
+    },
     {
      "name": "Dominick Barlow",
      "status": "Out",
@@ -386,27 +380,39 @@
    "neutral": false,
    "home_name": "Toronto Raptors",
    "away_name": "Washington Wizards",
-   "home_win_prob": 0.7532,
-   "home_pts": 117.6,
-   "away_pts": 108.3,
+   "home_win_prob": 0.6892,
+   "home_pts": 115.6,
+   "away_pts": 109.0,
    "margin_pct": {
-    "5": -13.7,
-    "25": 0.2,
-    "50": 9.4,
-    "75": 18.6,
-    "95": 31.5
+    "5": -16.3,
+    "25": -2.5,
+    "50": 6.8,
+    "75": 15.9,
+    "95": 28.9
    },
-   "total_mean": 226.0,
+   "total_mean": 224.7,
    "total_pct": {
-    "5": 196.2,
-    "25": 213.8,
-    "50": 226.1,
-    "75": 238.3,
-    "95": 255.7
+    "5": 194.8,
+    "25": 212.4,
+    "50": 224.7,
+    "75": 236.9,
+    "95": 254.3
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "RJ Barrett",
+     "status": "Day-To-Day",
+     "note": "Barrett is questionable for Wednesday's game against the Wizards due to hamstring tightness, Esfandiar Baraheni of The Athletic reports.",
+     "out": false
+    },
+    {
+     "name": "Scottie Barnes",
+     "status": "Out",
+     "note": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports.",
+     "out": true
+    },
     {
      "name": "Kawhi Leonard",
      "status": "Out",
@@ -469,23 +475,23 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Detroit Pistons",
-   "home_win_prob": 0.2556,
-   "home_pts": 108.1,
+   "home_win_prob": 0.2534,
+   "home_pts": 108.0,
    "away_pts": 117.2,
    "margin_pct": {
-    "5": -32.0,
-    "25": -18.2,
-    "50": -8.9,
-    "75": 0.2,
-    "95": 13.2
+    "5": -32.1,
+    "25": -18.3,
+    "50": -9.0,
+    "75": 0.1,
+    "95": 13.1
    },
-   "total_mean": 225.4,
+   "total_mean": 225.3,
    "total_pct": {
-    "5": 195.6,
-    "25": 213.1,
-    "50": 225.4,
-    "75": 237.6,
-    "95": 255.1
+    "5": 195.5,
+    "25": 213.0,
+    "50": 225.3,
+    "75": 237.5,
+    "95": 255.0
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -523,6 +529,18 @@
    ],
    "injuries_away": [
     {
+     "name": "Taurean Prince",
+     "status": "Day-To-Day",
+     "note": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
+     "out": false
+    },
+    {
+     "name": "Ronald Holland II",
+     "status": "Day-To-Day",
+     "note": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
+     "out": false
+    },
+    {
      "name": "Isaiah Joe",
      "status": "Out",
      "note": "Joe (hip) is out for Tuesday's game against the Spurs.",
@@ -532,18 +550,6 @@
      "name": "Duncan Robinson",
      "status": "Out",
      "note": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
-     "out": true
-    },
-    {
-     "name": "Taurean Prince",
-     "status": "Out",
-     "note": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
-     "out": true
-    },
-    {
-     "name": "Ronald Holland II",
-     "status": "Out",
-     "note": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
      "out": true
     },
     {
@@ -731,6 +737,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Brandon Williams",
+     "status": "Out",
+     "note": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
+     "out": true
+    },
+    {
      "name": "Draymond Green",
      "status": "Day-To-Day",
      "note": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow.",
@@ -746,12 +758,6 @@
      "name": "Stephen Curry",
      "status": "Out",
      "note": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
-     "out": true
-    },
-    {
-     "name": "Brandon Williams",
-     "status": "Out",
-     "note": "Williams (hamstring) will miss at least one week, per Anthony Slater of ESPN.com.",
      "out": true
     },
     {
@@ -824,46 +830,46 @@
    "neutral": false,
    "home_name": "Los Angeles Lakers",
    "away_name": "Utah Jazz",
-   "home_win_prob": 0.8777,
-   "home_pts": 121.9,
-   "away_pts": 105.7,
+   "home_win_prob": 0.9196,
+   "home_pts": 124.1,
+   "away_pts": 104.5,
    "margin_pct": {
-    "5": -6.7,
-    "25": 7.1,
-    "50": 16.4,
-    "75": 25.5,
-    "95": 38.5
+    "5": -3.4,
+    "25": 10.4,
+    "50": 19.7,
+    "75": 28.8,
+    "95": 41.8
    },
-   "total_mean": 227.8,
+   "total_mean": 228.7,
    "total_pct": {
-    "5": 198.0,
-    "25": 215.5,
-    "50": 227.8,
-    "75": 240.0,
-    "95": 257.5
+    "5": 198.9,
+    "25": 216.4,
+    "50": 228.7,
+    "75": 240.9,
+    "95": 258.4
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
-     "name": "Walker Kessler",
-     "status": "Out",
-     "note": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-     "out": true
+     "name": "Austin Reaves",
+     "status": "Day-To-Day",
+     "note": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
+     "out": false
     },
     {
-     "name": "Austin Reaves",
-     "status": "Out",
-     "note": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
-     "out": true
+     "name": "Walker Kessler",
+     "status": "Day-To-Day",
+     "note": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+     "out": false
     }
    ],
    "injuries_away": [
     {
      "name": "Jaxson Hayes",
-     "status": "Out",
+     "status": "Day-To-Day",
      "note": "Hayes (knee) has been ruled out for Tuesday's game against the Clippers.",
-     "out": true
+     "out": false
     },
     {
      "name": "Lauri Markkanen",
