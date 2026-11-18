@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T19:00:09+00:00",
+ "generated_at": "2026-11-18T02:07:48+00:00",
  "date": "2026-11-17",
  "ratings_through": "2026-11-16",
  "unmatched_injuries": [],
@@ -36,10 +36,10 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Scottie Barnes",
-     "status": "Day-To-Day",
-     "note": "Barnes (illness) has been downgraded to questionable for Tuesday's game against the Knicks, Blake Murphy of Sportsnet.ca reports.",
-     "out": false
+     "name": "Kawhi Leonard",
+     "status": "Out",
+     "note": "Leonard (knee) has progressed in his strength and conditioning program but will miss at least one more week, Michael Scotto of HoopsHype.com reports.",
+     "out": true
     },
     {
      "name": "Nate Bittle",
@@ -52,12 +52,6 @@
      "status": "Day-To-Day",
      "note": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports.",
      "out": false
-    },
-    {
-     "name": "Kawhi Leonard",
-     "status": "Out",
-     "note": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
-     "out": true
     }
    ],
    "injuries_away": []
@@ -72,32 +66,38 @@
    "neutral": false,
    "home_name": "Minnesota Timberwolves",
    "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.6295,
-   "home_pts": 116.3,
-   "away_pts": 112.0,
+   "home_win_prob": 0.6215,
+   "home_pts": 115.6,
+   "away_pts": 111.6,
    "margin_pct": {
-    "5": -18.6,
-    "25": -4.7,
-    "50": 4.5,
-    "75": 13.7,
-    "95": 26.6
+    "5": -18.9,
+    "25": -5.0,
+    "50": 4.2,
+    "75": 13.4,
+    "95": 26.3
    },
-   "total_mean": 228.4,
+   "total_mean": 227.3,
    "total_pct": {
-    "5": 198.5,
-    "25": 216.1,
-    "50": 228.4,
-    "75": 240.6,
-    "95": 258.0
+    "5": 197.4,
+    "25": 215.0,
+    "50": 227.3,
+    "75": 239.5,
+    "95": 256.9
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
+     "name": "Zyon Pullin",
+     "status": "Out",
+     "note": "Pullin (quadriceps) has been ruled out for Tuesday's game against Portland.",
+     "out": true
+    },
+    {
      "name": "Jonathan Kuminga",
-     "status": "Day-To-Day",
-     "note": "Kuminga (shoulder) exited in the fourth quarter of Monday's 106-98 win over Portland and did not return. He closed with 13 points (5-12 FG, 1-2 3Pt, 2-2 FT), nine rebounds and one assist across 29 minutes.",
-     "out": false
+     "status": "Out",
+     "note": "Kuminga (shoulder) is out for Tuesday's game against Portland.",
+     "out": true
     },
     {
      "name": "Jaylen Clark",
@@ -120,9 +120,15 @@
    ],
    "injuries_away": [
     {
+     "name": "Deni Avdija",
+     "status": "Out",
+     "note": "Avdija (foot) won't play Tuesday versus Minnesota.",
+     "out": true
+    },
+    {
      "name": "Chris Youngblood",
      "status": "Out",
-     "note": "Youngblood (foot) is out for Monday's game against the Timberwolves.",
+     "note": "Youngblood (heel) has been ruled out for Tuesday's game at Minnesota.",
      "out": true
     },
     {
