@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:10:28+00:00",
+ "generated_at": "2026-11-19T19:35:00+00:00",
  "date": "2026-11-19",
  "ratings_through": "2026-11-18",
  "unmatched_injuries": [],
@@ -14,23 +14,23 @@
    "neutral": false,
    "home_name": "Memphis Grizzlies",
    "away_name": "Golden State Warriors",
-   "home_win_prob": 0.6188,
-   "home_pts": 117.3,
-   "away_pts": 113.3,
+   "home_win_prob": 0.5809,
+   "home_pts": 116.7,
+   "away_pts": 114.1,
    "margin_pct": {
-    "5": -19.0,
-    "25": -5.1,
-    "50": 4.2,
-    "75": 13.3,
-    "95": 26.2
+    "5": -20.3,
+    "25": -6.5,
+    "50": 2.8,
+    "75": 11.9,
+    "95": 24.9
    },
-   "total_mean": 230.7,
+   "total_mean": 230.9,
    "total_pct": {
-    "5": 200.9,
-    "25": 218.4,
-    "50": 230.7,
-    "75": 242.9,
-    "95": 260.4
+    "5": 201.0,
+    "25": 218.6,
+    "50": 230.9,
+    "75": 243.1,
+    "95": 260.5
    },
    "rest_home": 1,
    "rest_away": 1,
@@ -38,19 +38,25 @@
     {
      "name": "Isaiah Stewart",
      "status": "Day-To-Day",
-     "note": "Stewart (illness) won't play Wednesday against the Cavs.",
+     "note": "Stewart is questionable for Thursday's game against the Warriors due to an illness.",
      "out": false
     },
     {
-     "name": "GG Jackson",
+     "name": "Zach Edey",
      "status": "Out",
-     "note": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months.",
+     "note": "Edey (hip) has been ruled out for Thursday's game against the Warriors.",
      "out": true
     },
     {
      "name": "Ty Jerome",
      "status": "Out",
-     "note": "Jerome (hip) has been ruled out for Wednesday's game in Cleveland.",
+     "note": "Jerome (hip) has been ruled out for Thursday's game against the Warriors.",
+     "out": true
+    },
+    {
+     "name": "GG Jackson",
+     "status": "Out",
+     "note": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months.",
      "out": true
     },
     {
@@ -69,14 +75,14 @@
    "injuries_away": [
     {
      "name": "Draymond Green",
-     "status": "Day-To-Day",
-     "note": "Green (elbow) is available for Wednesday's game against the Mavericks.",
-     "out": false
+     "status": "Out",
+     "note": "Green (elbow) is out for Thursday's game against the Grizzlies.",
+     "out": true
     },
     {
-     "name": "Al Horford",
+     "name": "LJ Cryer",
      "status": "Day-To-Day",
-     "note": "Horford (back) is out for Wednesday's game against the Mavericks, but will play Thursday against the Grizzlies, Nick Friedell of The Athletic reports.",
+     "note": "Cryer (back) is questionable for Thursday's game against Memphis.",
      "out": false
     },
     {
@@ -110,7 +116,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-19T16:10:28+00:00"
+   "predicted_at": "2026-11-19T19:35:00+00:00"
   },
   {
    "game_id": "0022600271",
@@ -122,32 +128,38 @@
    "neutral": false,
    "home_name": "Milwaukee Bucks",
    "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.1936,
-   "home_pts": 132.5,
-   "away_pts": 144.1,
+   "home_win_prob": 0.1686,
+   "home_pts": 131.6,
+   "away_pts": 144.6,
    "margin_pct": {
-    "5": -34.6,
-    "25": -20.8,
-    "50": -11.5,
-    "75": -2.4,
-    "95": 10.6
+    "5": -35.9,
+    "25": -22.0,
+    "50": -12.8,
+    "75": -3.6,
+    "95": 9.3
    },
-   "total_mean": 276.7,
+   "total_mean": 276.3,
    "total_pct": {
-    "5": 246.9,
-    "25": 264.5,
-    "50": 276.8,
-    "75": 289.0,
-    "95": 306.4
+    "5": 246.5,
+    "25": 264.0,
+    "50": 276.3,
+    "75": 288.5,
+    "95": 306.0
    },
    "rest_home": 1,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Ryan Rollins",
-     "status": "Day-To-Day",
-     "note": "Rollins (illness) has been ruled out for Wednesday's game at Miami.",
-     "out": false
+     "name": "Myles Turner",
+     "status": "Out",
+     "note": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
+     "out": true
+    },
+    {
+     "name": "Kyle Kuzma",
+     "status": "Out",
+     "note": "Kuzma registered 26 points (9-16 FG, 2-5 3Pt, 6-10 FT), five rebounds, one assist, one block and two steals over 30 minutes during Wednesday's 137-130 loss to Miami.",
+     "out": true
     },
     {
      "name": "Ousmane Dieng",
@@ -200,7 +212,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-19T16:10:28+00:00"
+   "predicted_at": "2026-11-19T19:35:00+00:00"
   },
   {
    "game_id": "0022600272",
@@ -234,12 +246,6 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Zyon Pullin",
-     "status": "Day-To-Day",
-     "note": "Pullin (quadriceps) is listed as questionable for Thursday's game against the Knicks.",
-     "out": false
-    },
-    {
      "name": "Jonathan Kuminga",
      "status": "Day-To-Day",
      "note": "Kuminga (shoulder) is questionable for Thursday's game against the Knicks, Charlie Walton of ZoneCoverage.com reports.",
@@ -265,7 +271,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-19T16:10:28+00:00"
+   "predicted_at": "2026-11-19T19:35:00+00:00"
   },
   {
    "game_id": "0022600273",
@@ -301,7 +307,7 @@
     {
      "name": "Dylan Harper",
      "status": "Out",
-     "note": "Harper (hip) won't play in Thursday's game against the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
+     "note": "Harper (hip) will undergo further testing Thursday, but his return date remains uncertain and he won't be available to face the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
      "out": true
     },
     {
@@ -337,7 +343,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-19T16:10:28+00:00"
+   "predicted_at": "2026-11-19T19:35:00+00:00"
   }
  ]
 }
