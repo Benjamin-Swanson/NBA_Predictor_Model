@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T19:35:00+00:00",
+ "generated_at": "2026-11-19T21:45:29+00:00",
  "date": "2026-11-19",
  "ratings_through": "2026-11-18",
  "unmatched_injuries": [],
@@ -149,15 +149,15 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Myles Turner",
+     "name": "Kyle Kuzma",
      "status": "Out",
-     "note": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
+     "note": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
      "out": true
     },
     {
-     "name": "Kyle Kuzma",
+     "name": "Myles Turner",
      "status": "Out",
-     "note": "Kuzma registered 26 points (9-16 FG, 2-5 3Pt, 6-10 FT), five rebounds, one assist, one block and two steals over 30 minutes during Wednesday's 137-130 loss to Miami.",
+     "note": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
      "out": true
     },
     {
@@ -304,7 +304,7 @@
     {
      "name": "Dylan Harper",
      "status": "Out",
-     "note": "Harper (hip) will undergo further testing Thursday, but his return date remains uncertain and he won't be available to face the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
+     "note": "Harper (hip) is expected to miss two to three weeks, Brett Siegel of ClutchPoints.com reports.",
      "out": true
     },
     {
