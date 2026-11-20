@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T16:19:40+00:00",
+ "generated_at": "2026-11-20T18:05:42+00:00",
  "date": "2026-11-20",
  "ratings_through": "2026-11-19",
  "unmatched_injuries": [],
@@ -269,27 +269,33 @@
    "neutral": false,
    "home_name": "Detroit Pistons",
    "away_name": "Toronto Raptors",
-   "home_win_prob": 0.8021,
-   "home_pts": 115.6,
-   "away_pts": 104.0,
+   "home_win_prob": 0.8081,
+   "home_pts": 115.8,
+   "away_pts": 103.8,
    "margin_pct": {
-    "5": -11.3,
-    "25": 2.5,
-    "50": 11.8,
-    "75": 20.9,
-    "95": 33.9
+    "5": -11.0,
+    "25": 2.9,
+    "50": 12.2,
+    "75": 21.3,
+    "95": 34.2
    },
    "total_mean": 219.7,
    "total_pct": {
-    "5": 189.8,
+    "5": 189.9,
     "25": 207.4,
     "50": 219.7,
     "75": 231.9,
-    "95": 249.3
+    "95": 249.4
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Ronald Holland II",
+     "status": "Day-To-Day",
+     "note": "Holland (knee) has been upgraded to doubtful for Friday's game against Toronto, Hunter Patterson of The Athletic reports.",
+     "out": false
+    },
     {
      "name": "Taurean Prince",
      "status": "Out",
@@ -300,12 +306,6 @@
      "name": "Ebuka Okorie",
      "status": "Out",
      "note": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
-     "out": true
-    },
-    {
-     "name": "Ronald Holland II",
-     "status": "Out",
-     "note": "Holland (knee) won't play in Friday's game against the Raptors, Blake Murphy of Sportsnet.ca reports.",
      "out": true
     },
     {
@@ -392,6 +392,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Jalen Smith",
+     "status": "Day-To-Day",
+     "note": "Smith (illness) has been downgraded to questionable for Friday's game against the Wizards.",
+     "out": false
+    },
+    {
      "name": "Noa Essengue",
      "status": "Day-To-Day",
      "note": "Essengue is listed as probable for Friday's game against Washington due to bilateral wrist soreness.",
@@ -453,27 +459,33 @@
    "neutral": false,
    "home_name": "Oklahoma City Thunder",
    "away_name": "New Orleans Pelicans",
-   "home_win_prob": 0.8751,
-   "home_pts": 122.9,
-   "away_pts": 106.9,
+   "home_win_prob": 0.8688,
+   "home_pts": 122.6,
+   "away_pts": 107.0,
    "margin_pct": {
-    "5": -6.9,
-    "25": 6.9,
-    "50": 16.2,
-    "75": 25.4,
-    "95": 38.3
+    "5": -7.3,
+    "25": 6.5,
+    "50": 15.8,
+    "75": 24.9,
+    "95": 37.9
    },
-   "total_mean": 230.0,
+   "total_mean": 229.7,
    "total_pct": {
-    "5": 200.1,
-    "25": 217.7,
-    "50": 230.0,
-    "75": 242.2,
-    "95": 259.6
+    "5": 199.9,
+    "25": 217.4,
+    "50": 229.7,
+    "75": 241.9,
+    "95": 259.4
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Nikola Topi\u0107",
+     "status": "Out",
+     "note": "Topic (hip) is out for Friday's game against New Orleans.",
+     "out": true
+    },
     {
      "name": "Alex Caruso",
      "status": "Day-To-Day",
