@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T21:00:12+00:00",
+ "generated_at": "2026-11-20T23:00:15+00:00",
  "date": "2026-11-20",
  "ratings_through": "2026-11-19",
  "unmatched_injuries": [],
@@ -14,17 +14,17 @@
    "neutral": false,
    "home_name": "Atlanta Hawks",
    "away_name": "Charlotte Hornets",
-   "home_win_prob": 0.7018,
-   "home_pts": 112.8,
-   "away_pts": 105.7,
+   "home_win_prob": 0.6862,
+   "home_pts": 112.4,
+   "away_pts": 106.0,
    "margin_pct": {
-    "5": -15.8,
-    "25": -2.0,
-    "50": 7.3,
-    "75": 16.4,
-    "95": 29.4
+    "5": -16.5,
+    "25": -2.6,
+    "50": 6.7,
+    "75": 15.8,
+    "95": 28.7
    },
-   "total_mean": 218.6,
+   "total_mean": 218.5,
    "total_pct": {
     "5": 188.7,
     "25": 206.3,
@@ -36,16 +36,16 @@
    "rest_away": 3,
    "injuries_home": [
     {
+     "name": "Kingston Flemings",
+     "status": "Out",
+     "note": "Flemings (back) is out for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
+     "out": true
+    },
+    {
      "name": "Jock Landale",
      "status": "Out",
      "note": "Landale (hip) won't play in Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
      "out": true
-    },
-    {
-     "name": "Kingston Flemings",
-     "status": "Day-To-Day",
-     "note": "Flemings (back) is questionable for Friday's game against the Hornets, Brad Rowland of the Locked On Podcast Network reports.",
-     "out": false
     },
     {
      "name": "Asa Newell",
@@ -335,6 +335,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Kawhi Leonard",
+     "status": "Out",
+     "note": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
+     "out": true
+    },
+    {
      "name": "Collin Murray-Boyles",
      "status": "Out",
      "note": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.",
@@ -344,12 +350,6 @@
      "name": "RJ Barrett",
      "status": "Out",
      "note": "Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports.",
-     "out": true
-    },
-    {
-     "name": "Kawhi Leonard",
-     "status": "Out",
-     "note": "Leonard (knee) has progressed in his strength and conditioning program but will miss at least one more week, Michael Scotto of HoopsHype.com reports.",
      "out": true
     },
     {
@@ -584,7 +584,7 @@
     {
      "name": "Jusuf Nurki\u0107",
      "status": "Out",
-     "note": "Nurkic (toe) is listed as out for Friday's game against Phoenix.",
+     "note": "Nurkic (foot) has been cleared for on-court work and will be re-evaluated in one week.",
      "out": true
     },
     {
@@ -678,23 +678,23 @@
    "neutral": false,
    "home_name": "Los Angeles Lakers",
    "away_name": "Sacramento Kings",
-   "home_win_prob": 0.8462,
-   "home_pts": 121.7,
-   "away_pts": 107.6,
+   "home_win_prob": 0.8651,
+   "home_pts": 121.8,
+   "away_pts": 106.4,
    "margin_pct": {
-    "5": -8.8,
-    "25": 5.1,
-    "50": 14.4,
-    "75": 23.5,
-    "95": 36.4
+    "5": -7.5,
+    "25": 6.3,
+    "50": 15.6,
+    "75": 24.7,
+    "95": 37.7
    },
-   "total_mean": 229.5,
+   "total_mean": 228.3,
    "total_pct": {
-    "5": 199.6,
-    "25": 217.2,
-    "50": 229.5,
-    "75": 241.7,
-    "95": 259.1
+    "5": 198.5,
+    "25": 216.0,
+    "50": 228.3,
+    "75": 240.5,
+    "95": 258.0
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -709,9 +709,9 @@
    "injuries_away": [
     {
      "name": "Precious Achiuwa",
-     "status": "Day-To-Day",
-     "note": "Achiuwa is doubtful for Friday's game against the Lakers due to a left lower leg bruise.",
-     "out": false
+     "status": "Out",
+     "note": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
+     "out": true
     },
     {
      "name": "De'Andre Hunter",
