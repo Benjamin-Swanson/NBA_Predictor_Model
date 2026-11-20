@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T19:32:58+00:00",
+ "generated_at": "2026-11-20T21:00:12+00:00",
  "date": "2026-11-20",
  "ratings_through": "2026-11-19",
  "unmatched_injuries": [],
@@ -222,6 +222,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Tyrese Haliburton",
+     "status": "Out",
+     "note": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
+     "out": true
+    },
+    {
      "name": "T.J. McConnell",
      "status": "Day-To-Day",
      "note": "McConnell (hamstring) is listed as probable for Friday's game in Cleveland.",
@@ -238,12 +244,6 @@
      "status": "Day-To-Day",
      "note": "Smith (ankle) is listed as questionable for Friday's game against Cleveland.",
      "out": false
-    },
-    {
-     "name": "Tyrese Haliburton",
-     "status": "Out",
-     "note": "Head coach Rick Carlisle said Tuesday that Haliburton (hamstring) is \"getting there,\" but there's still no definitive timetable for his return to game action, Dustin Dopirak of The Indianapolis Star reports.",
-     "out": true
     },
     {
      "name": "Johnny Furphy",

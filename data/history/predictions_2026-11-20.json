@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T19:32:58+00:00",
+ "generated_at": "2026-11-20T21:00:12+00:00",
  "date": "2026-11-20",
  "ratings_through": "2026-11-19",
  "unmatched_injuries": [],
@@ -98,7 +98,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600044",
@@ -164,7 +164,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600045",
@@ -224,6 +224,12 @@
    ],
    "injuries_away": [
     {
+     "name": "Tyrese Haliburton",
+     "status": "Out",
+     "note": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
+     "out": true
+    },
+    {
      "name": "T.J. McConnell",
      "status": "Day-To-Day",
      "note": "McConnell (hamstring) is listed as probable for Friday's game in Cleveland.",
@@ -242,12 +248,6 @@
      "out": false
     },
     {
-     "name": "Tyrese Haliburton",
-     "status": "Out",
-     "note": "Head coach Rick Carlisle said Tuesday that Haliburton (hamstring) is \"getting there,\" but there's still no definitive timetable for his return to game action, Dustin Dopirak of The Indianapolis Star reports.",
-     "out": true
-    },
-    {
      "name": "Johnny Furphy",
      "status": "Out",
      "note": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com.",
@@ -260,7 +260,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600046",
@@ -362,7 +362,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600047",
@@ -452,7 +452,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600048",
@@ -554,7 +554,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600049",
@@ -614,7 +614,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600050",
@@ -674,7 +674,7 @@
      "out": false
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   },
   {
    "game_id": "0022600051",
@@ -740,7 +740,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-20T19:32:58+00:00"
+   "predicted_at": "2026-11-20T21:00:12+00:00"
   }
  ]
 }
