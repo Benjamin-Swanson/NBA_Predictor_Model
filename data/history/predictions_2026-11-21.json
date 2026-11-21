@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T21:38:14+00:00",
+ "generated_at": "2026-11-21T23:05:39+00:00",
  "date": "2026-11-21",
  "ratings_through": "2026-11-20",
  "unmatched_injuries": [],
@@ -92,38 +92,38 @@
    "neutral": false,
    "home_name": "New York Knicks",
    "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.6137,
-   "home_pts": 112.3,
-   "away_pts": 108.5,
+   "home_win_prob": 0.4744,
+   "home_pts": 109.3,
+   "away_pts": 110.4,
    "margin_pct": {
-    "5": -19.1,
-    "25": -5.3,
-    "50": 4.0,
-    "75": 13.1,
-    "95": 26.1
+    "5": -24.0,
+    "25": -10.1,
+    "50": -0.9,
+    "75": 8.3,
+    "95": 21.2
    },
-   "total_mean": 220.9,
+   "total_mean": 219.8,
    "total_pct": {
-    "5": 191.1,
-    "25": 208.7,
-    "50": 221.0,
-    "75": 233.2,
-    "95": 250.6
+    "5": 189.9,
+    "25": 207.5,
+    "50": 219.8,
+    "75": 232.0,
+    "95": 249.4
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "OG Anunoby",
-     "status": "Day-To-Day",
-     "note": "Anunoby (calf) has been downgraded to doubtful for Saturday's game against the Trail Bllazers.",
-     "out": false
+     "name": "Karl-Anthony Towns",
+     "status": "Out",
+     "note": "Towns (illness) won't play in Saturday's game versus the Trail Blazers.",
+     "out": true
     },
     {
-     "name": "Karl-Anthony Towns",
-     "status": "Day-To-Day",
-     "note": "Towns is questionable for Saturday's game against the Trail Blazers due to an illness.",
-     "out": false
+     "name": "OG Anunoby",
+     "status": "Out",
+     "note": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers.",
+     "out": true
     },
     {
      "name": "Jordan Clarkson",
@@ -138,12 +138,6 @@
      "status": "Out",
      "note": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks.",
      "out": true
-    },
-    {
-     "name": "Deni Avdija",
-     "status": "Day-To-Day",
-     "note": "Avdija (foot) is listed as questionable for Saturday's game against the Knicks.",
-     "out": false
     },
     {
      "name": "V\u00edt Krej\u010d\u00ed",
@@ -164,7 +158,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T21:38:14+00:00"
+   "predicted_at": "2026-11-21T23:05:39+00:00"
   },
   {
    "game_id": "0022600276",
@@ -254,7 +248,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T21:38:14+00:00"
+   "predicted_at": "2026-11-21T23:05:39+00:00"
   },
   {
    "game_id": "0022600277",
@@ -344,7 +338,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T21:38:14+00:00"
+   "predicted_at": "2026-11-21T23:05:39+00:00"
   },
   {
    "game_id": "0022600278",
@@ -428,7 +422,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T21:38:14+00:00"
+   "predicted_at": "2026-11-21T23:05:39+00:00"
   },
   {
    "game_id": "0022600279",
@@ -500,7 +494,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T21:38:14+00:00"
+   "predicted_at": "2026-11-21T23:05:39+00:00"
   }
  ]
 }
