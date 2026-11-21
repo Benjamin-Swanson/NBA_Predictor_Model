@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T17:00:15+00:00",
+ "generated_at": "2026-11-21T21:38:14+00:00",
  "date": "2026-11-21",
  "ratings_through": "2026-11-20",
  "unmatched_injuries": [],
@@ -164,7 +164,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T17:00:15+00:00"
+   "predicted_at": "2026-11-21T21:38:14+00:00"
   },
   {
    "game_id": "0022600276",
@@ -198,16 +198,16 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "P.J. Washington",
+     "status": "Day-To-Day",
+     "note": "Washington (illness/shoulder) has been downgraded from questionable to doubtful ahead of Saturday's game against the Clippers.",
+     "out": false
+    },
+    {
      "name": "Tobi Lawal",
      "status": "Out",
      "note": "Lawal (groin) is out for Saturday's game against the Clippers.",
      "out": true
-    },
-    {
-     "name": "P.J. Washington",
-     "status": "Day-To-Day",
-     "note": "Washington (shoulder) is listed as questionable for Saturday's game versus the Clippers.",
-     "out": false
     },
     {
      "name": "Walter Clayton Jr.",
@@ -254,7 +254,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T17:00:15+00:00"
+   "predicted_at": "2026-11-21T21:38:14+00:00"
   },
   {
    "game_id": "0022600277",
@@ -266,23 +266,23 @@
    "neutral": false,
    "home_name": "Minnesota Timberwolves",
    "away_name": "Memphis Grizzlies",
-   "home_win_prob": 0.7129,
-   "home_pts": 119.2,
-   "away_pts": 111.7,
+   "home_win_prob": 0.6935,
+   "home_pts": 118.9,
+   "away_pts": 112.1,
    "margin_pct": {
-    "5": -15.4,
-    "25": -1.5,
-    "50": 7.7,
-    "75": 16.9,
-    "95": 29.8
+    "5": -16.2,
+    "25": -2.3,
+    "50": 7.0,
+    "75": 16.1,
+    "95": 29.0
    },
-   "total_mean": 231.0,
+   "total_mean": 231.1,
    "total_pct": {
-    "5": 201.2,
-    "25": 218.8,
-    "50": 231.1,
-    "75": 243.3,
-    "95": 260.7
+    "5": 201.3,
+    "25": 218.9,
+    "50": 231.2,
+    "75": 243.4,
+    "95": 260.8
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -326,12 +326,6 @@
      "out": true
     },
     {
-     "name": "Ty Jerome",
-     "status": "Out",
-     "note": "Jerome (hip) is probable for Saturday's game in Minnesota.",
-     "out": true
-    },
-    {
      "name": "GG Jackson",
      "status": "Out",
      "note": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months.",
@@ -350,7 +344,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T17:00:15+00:00"
+   "predicted_at": "2026-11-21T21:38:14+00:00"
   },
   {
    "game_id": "0022600278",
@@ -362,17 +356,17 @@
    "neutral": false,
    "home_name": "San Antonio Spurs",
    "away_name": "New Orleans Pelicans",
-   "home_win_prob": 0.9008,
-   "home_pts": 123.4,
-   "away_pts": 105.4,
+   "home_win_prob": 0.9081,
+   "home_pts": 123.7,
+   "away_pts": 105.1,
    "margin_pct": {
-    "5": -4.9,
-    "25": 9.0,
-    "50": 18.2,
-    "75": 27.4,
-    "95": 40.3
+    "5": -4.3,
+    "25": 9.5,
+    "50": 18.8,
+    "75": 27.9,
+    "95": 40.9
    },
-   "total_mean": 228.9,
+   "total_mean": 229.0,
    "total_pct": {
     "5": 199.1,
     "25": 216.7,
@@ -404,15 +398,21 @@
    ],
    "injuries_away": [
     {
-     "name": "Bryce McGowens",
+     "name": "Trey Murphy III",
      "status": "Out",
-     "note": "McGowens (elbow) has been ruled out for Friday's game against the Thunder.",
+     "note": "Murphy (knee) has been ruled out for Saturday's game against the Spurs.",
      "out": true
     },
     {
      "name": "Trendon Watford",
      "status": "Out",
-     "note": "Watford (ankle) has been ruled out for Friday's game against Oklahoma City.",
+     "note": "Watford (ankle) is out for Saturday's game against the Spurs.",
+     "out": true
+    },
+    {
+     "name": "Bryce McGowens",
+     "status": "Out",
+     "note": "McGowens (elbow) has been ruled out for Friday's game against the Thunder.",
      "out": true
     },
     {
@@ -428,7 +428,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-21T17:00:15+00:00"
+   "predicted_at": "2026-11-21T21:38:14+00:00"
   },
   {
    "game_id": "0022600279",
@@ -440,23 +440,23 @@
    "neutral": false,
    "home_name": "Sacramento Kings",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.201,
-   "home_pts": 103.7,
-   "away_pts": 115.0,
+   "home_win_prob": 0.2827,
+   "home_pts": 104.3,
+   "away_pts": 112.4,
    "margin_pct": {
-    "5": -34.3,
-    "25": -20.4,
-    "50": -11.1,
-    "75": -2.0,
-    "95": 10.9
+    "5": -30.9,
+    "25": -17.1,
+    "50": -7.8,
+    "75": 1.3,
+    "95": 14.3
    },
-   "total_mean": 218.8,
+   "total_mean": 216.8,
    "total_pct": {
-    "5": 189.0,
-    "25": 206.6,
-    "50": 218.9,
-    "75": 231.1,
-    "95": 248.5
+    "5": 187.0,
+    "25": 204.6,
+    "50": 216.9,
+    "75": 229.1,
+    "95": 246.5
    },
    "rest_home": 1,
    "rest_away": 3,
@@ -464,7 +464,7 @@
     {
      "name": "Precious Achiuwa",
      "status": "Day-To-Day",
-     "note": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
+     "note": "Achiuwa (lower leg) is questionable for Saturday's game against the Celtics.",
      "out": false
     },
     {
@@ -482,19 +482,25 @@
    ],
    "injuries_away": [
     {
-     "name": "Jayson Tatum",
-     "status": "Day-To-Day",
-     "note": "Tatum (rest) is listed as questionable for Saturday's game against Sacramento.",
-     "out": false
+     "name": "Mitchell Robinson",
+     "status": "Out",
+     "note": "Robinson (illness) has been ruled out for Saturday's game against the Kings, Keith Smith of Spotrac.com reports.",
+     "out": true
     },
     {
      "name": "Derrick White",
-     "status": "Day-To-Day",
-     "note": "White (shoulder) is questionable to play in Saturday's game against Sacramento.",
-     "out": false
+     "status": "Out",
+     "note": "White (shoulder) has been ruled out for Saturday's game against Sacramento.",
+     "out": true
+    },
+    {
+     "name": "Jayson Tatum",
+     "status": "Out",
+     "note": "Tatum (rest) has been ruled out for Saturday's game against the Kings.",
+     "out": true
     }
    ],
-   "predicted_at": "2026-11-21T17:00:15+00:00"
+   "predicted_at": "2026-11-21T21:38:14+00:00"
   }
  ]
 }
