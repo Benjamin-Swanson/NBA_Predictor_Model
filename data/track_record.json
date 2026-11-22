@@ -1,38 +1,128 @@
 {
- "updated": "2026-11-21T23:05:39+00:00",
- "n": 235,
- "accuracy": 0.6553,
- "log_loss": 0.6128,
- "brier": 0.213,
- "margin_mae": 11.88,
- "band_coverage": 0.8681,
+ "updated": "2026-11-22T20:01:58+00:00",
+ "n": 241,
+ "accuracy": 0.6556,
+ "log_loss": 0.611,
+ "brier": 0.2123,
+ "margin_mae": 11.73,
+ "band_coverage": 0.8714,
  "buckets": [
   {
    "bucket": "50-60%",
-   "games": 65,
+   "games": 67,
    "predicted": 0.55,
-   "actual": 0.554
+   "actual": 0.552
   },
   {
    "bucket": "60-70%",
-   "games": 73,
+   "games": 74,
    "predicted": 0.651,
-   "actual": 0.575
+   "actual": 0.581
   },
   {
    "bucket": "70-80%",
-   "games": 58,
+   "games": 60,
    "predicted": 0.743,
-   "actual": 0.707
+   "actual": 0.7
   },
   {
    "bucket": "80-100%",
-   "games": 39,
-   "predicted": 0.845,
-   "actual": 0.897
+   "games": 40,
+   "predicted": 0.847,
+   "actual": 0.9
   }
  ],
  "games": [
+  {
+   "date": "2026-11-21",
+   "game_id": "0022600279",
+   "away": "BOS",
+   "home": "SAC",
+   "home_win_prob": 0.283,
+   "home_won": 1,
+   "pick": "BOS",
+   "confidence": 0.717,
+   "correct": 0,
+   "proj": "112-104",
+   "final": "96-97",
+   "margin_err": 9.1,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-21",
+   "game_id": "0022600278",
+   "away": "NOP",
+   "home": "SAS",
+   "home_win_prob": 0.908,
+   "home_won": 1,
+   "pick": "SAS",
+   "confidence": 0.908,
+   "correct": 1,
+   "proj": "105-124",
+   "final": "91-114",
+   "margin_err": 4.4,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-21",
+   "game_id": "0022600277",
+   "away": "MEM",
+   "home": "MIN",
+   "home_win_prob": 0.694,
+   "home_won": 1,
+   "pick": "MIN",
+   "confidence": 0.694,
+   "correct": 1,
+   "proj": "112-119",
+   "final": "95-104",
+   "margin_err": 2.2,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-21",
+   "game_id": "0022600276",
+   "away": "LAC",
+   "home": "DAL",
+   "home_win_prob": 0.578,
+   "home_won": 1,
+   "pick": "DAL",
+   "confidence": 0.578,
+   "correct": 1,
+   "proj": "114-117",
+   "final": "100-110",
+   "margin_err": 7.5,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-21",
+   "game_id": "0022600275",
+   "away": "POR",
+   "home": "NYK",
+   "home_win_prob": 0.474,
+   "home_won": 1,
+   "pick": "POR",
+   "confidence": 0.526,
+   "correct": 0,
+   "proj": "110-109",
+   "final": "96-97",
+   "margin_err": 2.1,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-21",
+   "game_id": "0022600274",
+   "away": "MIL",
+   "home": "PHI",
+   "home_win_prob": 0.796,
+   "home_won": 1,
+   "pick": "PHI",
+   "confidence": 0.796,
+   "correct": 1,
+   "proj": "109-121",
+   "final": "129-132",
+   "margin_err": -8.3,
+   "in_band": 1
+  },
   {
    "date": "2026-11-20",
    "game_id": "0022600051",
