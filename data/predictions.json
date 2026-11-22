@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:01:58+00:00",
+ "generated_at": "2026-11-22T23:02:05+00:00",
  "date": "2026-11-22",
  "ratings_through": "2026-11-21",
  "unmatched_injuries": [],
@@ -69,14 +69,8 @@
    "injuries_away": [
     {
      "name": "Ebuka Okorie",
-     "status": "Out",
-     "note": "Okorie (oblique) is out for Sunday's game in Atlanta.",
-     "out": true
-    },
-    {
-     "name": "Cade Cunningham",
      "status": "Day-To-Day",
-     "note": "Cunningham (knee) is probable to play Sunday in Atlanta.",
+     "note": "Okorie (oblique) is out for Sunday's game in Atlanta.",
      "out": false
     },
     {
@@ -109,46 +103,46 @@
    "neutral": false,
    "home_name": "Miami Heat",
    "away_name": "Oklahoma City Thunder",
-   "home_win_prob": 0.5309,
-   "home_pts": 118.9,
-   "away_pts": 118.1,
+   "home_win_prob": 0.5053,
+   "home_pts": 116.9,
+   "away_pts": 116.9,
    "margin_pct": {
-    "5": -22.1,
-    "25": -8.3,
-    "50": 1.0,
-    "75": 10.1,
-    "95": 23.1
+    "5": -23.0,
+    "25": -9.1,
+    "50": 0.2,
+    "75": 9.3,
+    "95": 22.2
    },
-   "total_mean": 237.2,
+   "total_mean": 233.9,
    "total_pct": {
-    "5": 207.3,
-    "25": 224.9,
-    "50": 237.2,
-    "75": 249.4,
-    "95": 266.8
+    "5": 204.1,
+    "25": 221.6,
+    "50": 233.9,
+    "75": 246.1,
+    "95": 263.6
    },
    "rest_home": 4,
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Myron Gardner",
-     "status": "Day-To-Day",
-     "note": "Gardner (hamstring) is probable for Sunday's game against the Thunder.",
-     "out": false
-    },
-    {
      "name": "Giannis Antetokounmpo",
-     "status": "Day-To-Day",
-     "note": "Antetokounmpo (groin) is listed as questionable for Sunday's game against Oklahoma City, Ira Winderman of the South Florida Sun Sentinel reports.",
-     "out": false
+     "status": "Out",
+     "note": "Antetokounmpo (groin) won't play in Sunday's game against Oklahoma City, Clemente Almanza of USA Today reports.",
+     "out": true
     }
    ],
    "injuries_away": [
     {
+     "name": "Aday Mara",
+     "status": "Out",
+     "note": "Mara (shin) is listed as out for Sunday's game versus Miami.",
+     "out": true
+    },
+    {
      "name": "Shai Gilgeous-Alexander",
-     "status": "Day-To-Day",
-     "note": "Gilgeous-Alexander (back/neck) is listed as questionable for Sunday's game versus Miami.",
-     "out": false
+     "status": "Out",
+     "note": "Gilgeous-Alexander (back/neck) is listed as out for Sunday's game against the Heat.",
+     "out": true
     },
     {
      "name": "Nikola Topi\u0107",
@@ -299,22 +293,22 @@
    "neutral": false,
    "home_name": "Chicago Bulls",
    "away_name": "Denver Nuggets",
-   "home_win_prob": 0.2769,
-   "home_pts": 115.6,
-   "away_pts": 123.9,
+   "home_win_prob": 0.2469,
+   "home_pts": 115.0,
+   "away_pts": 124.5,
    "margin_pct": {
-    "5": -31.2,
-    "25": -17.4,
-    "50": -8.1,
-    "75": 1.0,
-    "95": 14.0
+    "5": -32.4,
+    "25": -18.5,
+    "50": -9.2,
+    "75": -0.1,
+    "95": 12.8
    },
    "total_mean": 239.6,
    "total_pct": {
     "5": 209.8,
-    "25": 227.3,
-    "50": 239.6,
-    "75": 251.8,
+    "25": 227.4,
+    "50": 239.7,
+    "75": 251.9,
     "95": 269.3
    },
    "rest_home": 2,
@@ -322,27 +316,15 @@
    "injuries_home": [
     {
      "name": "Nic Claxton",
-     "status": "Day-To-Day",
-     "note": "Claxton (illness) is questionable to play in Sunday's game against the Nuggets.",
-     "out": false
-    },
-    {
-     "name": "Jalen Smith",
-     "status": "Day-To-Day",
-     "note": "Smith (illness) has been upgraded to probable for Sunday's game against the Nuggets.",
-     "out": false
+     "status": "Out",
+     "note": "Claxton (illness) won't play in Sunday's game against the Nuggets.",
+     "out": true
     },
     {
      "name": "Norman Powell",
      "status": "Out",
      "note": "Powell has been diagnosed with a mild right hamstring strain and will be re-evaluated later this week.",
      "out": true
-    },
-    {
-     "name": "Patrick Williams",
-     "status": "Day-To-Day",
-     "note": "Williams is probable for Sunday's game against the Nuggets due to a left thumb sprain.",
-     "out": false
     },
     {
      "name": "Caleb Wilson",
@@ -370,23 +352,23 @@
    "neutral": false,
    "home_name": "Utah Jazz",
    "away_name": "Dallas Mavericks",
-   "home_win_prob": 0.521,
-   "home_pts": 112.4,
-   "away_pts": 111.9,
+   "home_win_prob": 0.5508,
+   "home_pts": 112.3,
+   "away_pts": 110.7,
    "margin_pct": {
-    "5": -22.5,
-    "25": -8.6,
-    "50": 0.7,
-    "75": 9.8,
-    "95": 22.7
+    "5": -21.4,
+    "25": -7.6,
+    "50": 1.7,
+    "75": 10.8,
+    "95": 23.8
    },
-   "total_mean": 224.4,
+   "total_mean": 223.1,
    "total_pct": {
-    "5": 194.6,
-    "25": 212.2,
-    "50": 224.4,
-    "75": 236.6,
-    "95": 254.1
+    "5": 193.3,
+    "25": 210.9,
+    "50": 223.2,
+    "75": 235.4,
+    "95": 252.8
    },
    "rest_home": 2,
    "rest_away": 1,
@@ -413,15 +395,9 @@
    "injuries_away": [
     {
      "name": "P.J. Washington",
-     "status": "Day-To-Day",
-     "note": "Washington (illness) is doubtful to play Sunday's game against the Jazz.",
-     "out": false
-    },
-    {
-     "name": "Walter Clayton Jr.",
-     "status": "Day-To-Day",
-     "note": "Clayton (knee) is listed as questionable for Sunday's game against the Jazz.",
-     "out": false
+     "status": "Out",
+     "note": "Washington (illness) has been ruled out for Sunday's game against the Jazz.",
+     "out": true
     },
     {
      "name": "Tobi Lawal",
@@ -542,23 +518,23 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Boston Celtics",
-   "home_win_prob": 0.3546,
-   "home_pts": 106.8,
-   "away_pts": 112.0,
+   "home_win_prob": 0.428,
+   "home_pts": 107.5,
+   "away_pts": 110.1,
    "margin_pct": {
-    "5": -28.1,
-    "25": -14.3,
-    "50": -5.0,
-    "75": 4.1,
-    "95": 17.1
+    "5": -25.5,
+    "25": -11.6,
+    "50": -2.4,
+    "75": 6.8,
+    "95": 19.7
    },
-   "total_mean": 219.0,
+   "total_mean": 217.7,
    "total_pct": {
-    "5": 189.2,
-    "25": 206.7,
-    "50": 219.0,
-    "75": 231.2,
-    "95": 248.7
+    "5": 187.9,
+    "25": 205.5,
+    "50": 217.8,
+    "75": 230.0,
+    "95": 247.4
    },
    "rest_home": 3,
    "rest_away": 1,
@@ -596,22 +572,16 @@
    ],
    "injuries_away": [
     {
-     "name": "Derrick White",
-     "status": "Day-To-Day",
-     "note": "White (shoulder) has been ruled out for Saturday's game against Sacramento.",
-     "out": false
-    },
-    {
      "name": "Mitchell Robinson",
-     "status": "Day-To-Day",
-     "note": "Robinson (illness) has been ruled out for Saturday's game against the Kings, Keith Smith of Spotrac.com reports.",
-     "out": false
+     "status": "Out",
+     "note": "Robinson (illness) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
+     "out": true
     },
     {
-     "name": "Jayson Tatum",
-     "status": "Day-To-Day",
-     "note": "Tatum (rest) has been ruled out for Saturday's game against the Kings.",
-     "out": false
+     "name": "Paul George",
+     "status": "Out",
+     "note": "George (rest) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
+     "out": true
     }
    ]
   }
