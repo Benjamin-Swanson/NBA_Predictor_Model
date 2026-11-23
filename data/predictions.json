@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T19:09:30+00:00",
+ "generated_at": "2026-11-23T21:55:25+00:00",
  "date": "2026-11-23",
  "ratings_through": "2026-11-22",
  "unmatched_injuries": [],
@@ -258,15 +258,15 @@
    ],
    "injuries_away": [
     {
-     "name": "Nikola Topi\u0107",
+     "name": "Jaylin Williams",
      "status": "Out",
-     "note": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+     "note": "Williams (back) has been ruled out for Monday's game against the Pacers",
      "out": true
     },
     {
-     "name": "Jaylin Williams",
+     "name": "Nikola Topi\u0107",
      "status": "Out",
-     "note": "Williams (back) is listed as out for Sunday's game against Miami.",
+     "note": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
      "out": true
     },
     {
@@ -628,23 +628,23 @@
    "neutral": false,
    "home_name": "Los Angeles Lakers",
    "away_name": "Utah Jazz",
-   "home_win_prob": 0.8925,
-   "home_pts": 121.3,
-   "away_pts": 104.0,
+   "home_win_prob": 0.8996,
+   "home_pts": 121.7,
+   "away_pts": 103.8,
    "margin_pct": {
-    "5": -5.6,
-    "25": 8.2,
-    "50": 17.5,
-    "75": 26.6,
-    "95": 39.6
+    "5": -5.0,
+    "25": 8.9,
+    "50": 18.1,
+    "75": 27.3,
+    "95": 40.2
    },
-   "total_mean": 225.4,
+   "total_mean": 225.7,
    "total_pct": {
-    "5": 195.6,
-    "25": 213.1,
-    "50": 225.4,
-    "75": 237.6,
-    "95": 255.1
+    "5": 195.8,
+    "25": 213.4,
+    "50": 225.7,
+    "75": 237.9,
+    "95": 255.3
    },
    "rest_home": 3,
    "rest_away": 1,
@@ -659,9 +659,9 @@
    "injuries_away": [
     {
      "name": "Jaxson Hayes",
-     "status": "Day-To-Day",
-     "note": "Hayes (knee) has been ruled out for the remainder of Sunday's game against the Mavericks, Grant Afseth of DallasHoopsJournal.com reports.",
-     "out": false
+     "status": "Out",
+     "note": "Hayes (knee) has been ruled out for Monday's game against the Lakers.",
+     "out": true
     },
     {
      "name": "Jusuf Nurki\u0107",
