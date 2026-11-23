@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T21:55:25+00:00",
+ "generated_at": "2026-11-23T23:18:48+00:00",
  "date": "2026-11-23",
  "ratings_through": "2026-11-22",
  "unmatched_injuries": [],
@@ -40,12 +40,6 @@
      "status": "Out",
      "note": "Allen (concussion) has been ruled out for Monday's game against the Grizzlies.",
      "out": true
-    },
-    {
-     "name": "Brandon Miller",
-     "status": "Day-To-Day",
-     "note": "Miller is probable for Monday's game against the Grizzlies due to a right knee contusion.",
-     "out": false
     },
     {
      "name": "Grant Williams",
@@ -98,7 +92,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600288",
@@ -110,32 +104,32 @@
    "neutral": false,
    "home_name": "Philadelphia 76ers",
    "away_name": "Portland Trail Blazers",
-   "home_win_prob": 0.5907,
-   "home_pts": 119.1,
-   "away_pts": 116.1,
+   "home_win_prob": 0.5183,
+   "home_pts": 117.2,
+   "away_pts": 116.9,
    "margin_pct": {
-    "5": -20.0,
-    "25": -6.2,
-    "50": 3.1,
-    "75": 12.2,
-    "95": 25.2
+    "5": -22.5,
+    "25": -8.7,
+    "50": 0.6,
+    "75": 9.7,
+    "95": 22.7
    },
-   "total_mean": 235.3,
+   "total_mean": 234.2,
    "total_pct": {
-    "5": 205.5,
-    "25": 223.1,
-    "50": 235.4,
-    "75": 247.6,
-    "95": 265.0
+    "5": 204.4,
+    "25": 222.0,
+    "50": 234.3,
+    "75": 246.5,
+    "95": 263.9
    },
    "rest_home": 2,
    "rest_away": 2,
    "injuries_home": [
     {
      "name": "Joel Embiid",
-     "status": "Day-To-Day",
-     "note": "Embiid (knee) has been downgraded to questionable for Monday's game against Portland.",
-     "out": false
+     "status": "Out",
+     "note": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
+     "out": true
     },
     {
      "name": "Adem Bona",
@@ -188,7 +182,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600289",
@@ -232,12 +226,6 @@
      "status": "Out",
      "note": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
      "out": true
-    },
-    {
-     "name": "Pascal Siakam",
-     "status": "Day-To-Day",
-     "note": "Siakam is questionable for Monday's game against Oklahoma City due to left hip injury management, according to the NBA's injury report.",
-     "out": false
     },
     {
      "name": "Tyrese Haliburton",
@@ -308,7 +296,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600290",
@@ -342,18 +330,6 @@
    "rest_away": 2,
    "injuries_home": [
     {
-     "name": "Jaden Bradley",
-     "status": "Day-To-Day",
-     "note": "Bradley is questionable for Monday's game against the Bucks due to an ankle sprain, Blake Murphy of Sportsnet.ca reports.",
-     "out": false
-    },
-    {
-     "name": "Collin Murray-Boyles",
-     "status": "Day-To-Day",
-     "note": "Murray-Boyles (concussion) is listed as probable for Monday's game against Milwaukee, Blake Murphy of Sportsnet.ca reports.",
-     "out": false
-    },
-    {
      "name": "Nate Bittle",
      "status": "Out",
      "note": "Bittle (foot) has been ruled out for Monday's game against the Bucks, Blake Murphy of Sportsnet.ca reports.",
@@ -373,7 +349,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600291",
@@ -433,7 +409,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600292",
@@ -511,7 +487,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600293",
@@ -577,7 +553,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600294",
@@ -624,7 +600,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600295",
@@ -690,7 +666,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   },
   {
    "game_id": "0022600296",
@@ -774,7 +750,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T21:55:25+00:00"
+   "predicted_at": "2026-11-23T23:18:48+00:00"
   }
  ]
 }
