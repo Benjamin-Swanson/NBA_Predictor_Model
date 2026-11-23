@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T17:07:15+00:00",
+ "generated_at": "2026-11-23T19:09:30+00:00",
  "date": "2026-11-23",
  "ratings_through": "2026-11-22",
  "unmatched_injuries": [],
@@ -98,7 +98,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600288",
@@ -188,7 +188,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600289",
@@ -200,31 +200,43 @@
    "neutral": false,
    "home_name": "Indiana Pacers",
    "away_name": "Oklahoma City Thunder",
-   "home_win_prob": 0.2688,
+   "home_win_prob": 0.3001,
    "home_pts": 111.3,
-   "away_pts": 119.9,
+   "away_pts": 118.6,
    "margin_pct": {
-    "5": -31.5,
-    "25": -17.7,
-    "50": -8.4,
-    "75": 0.7,
-    "95": 13.7
+    "5": -30.2,
+    "25": -16.3,
+    "50": -7.0,
+    "75": 2.1,
+    "95": 15.0
    },
-   "total_mean": 231.3,
+   "total_mean": 230.1,
    "total_pct": {
-    "5": 201.5,
-    "25": 219.1,
-    "50": 231.4,
-    "75": 243.6,
-    "95": 261.0
+    "5": 200.2,
+    "25": 217.8,
+    "50": 230.1,
+    "75": 242.3,
+    "95": 259.7
    },
    "rest_home": 1,
    "rest_away": 1,
    "injuries_home": [
     {
      "name": "T.J. McConnell",
+     "status": "Out",
+     "note": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
+     "out": true
+    },
+    {
+     "name": "Aaron Nesmith",
+     "status": "Out",
+     "note": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
+     "out": true
+    },
+    {
+     "name": "Pascal Siakam",
      "status": "Day-To-Day",
-     "note": "McConnell (hamstring) is listed as out for Sunday's game in New York.",
+     "note": "Siakam is questionable for Monday's game against Oklahoma City due to left hip injury management, according to the NBA's injury report.",
      "out": false
     },
     {
@@ -248,34 +260,34 @@
    ],
    "injuries_away": [
     {
-     "name": "Aday Mara",
-     "status": "Day-To-Day",
-     "note": "Mara (shin) is listed as out for Sunday's game versus Miami.",
-     "out": false
+     "name": "Nikola Topi\u0107",
+     "status": "Out",
+     "note": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+     "out": true
     },
     {
      "name": "Jaylin Williams",
-     "status": "Day-To-Day",
+     "status": "Out",
      "note": "Williams (back) is listed as out for Sunday's game against Miami.",
-     "out": false
+     "out": true
     },
     {
-     "name": "Nikola Topi\u0107",
-     "status": "Day-To-Day",
-     "note": "Topic (hip) is listed as out for Sunday's game versus the Heat.",
-     "out": false
+     "name": "Aday Mara",
+     "status": "Out",
+     "note": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
+     "out": true
     },
     {
-     "name": "Shai Gilgeous-Alexander",
-     "status": "Day-To-Day",
-     "note": "Gilgeous-Alexander (back/neck) is listed as out for Sunday's game against the Heat.",
-     "out": false
+     "name": "Jalen Williams",
+     "status": "Out",
+     "note": "Williams (ankle) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+     "out": true
     },
     {
      "name": "Alex Caruso",
-     "status": "Day-To-Day",
-     "note": "Caruso (hip) won't play Sunday against the Heat.",
-     "out": false
+     "status": "Out",
+     "note": "Caruso (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+     "out": true
     },
     {
      "name": "Thomas Sorber",
@@ -294,15 +306,9 @@
      "status": "Out",
      "note": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
      "out": true
-    },
-    {
-     "name": "Jalen Williams",
-     "status": "Out",
-     "note": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports.",
-     "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600290",
@@ -314,27 +320,33 @@
    "neutral": false,
    "home_name": "Toronto Raptors",
    "away_name": "Milwaukee Bucks",
-   "home_win_prob": 0.7799,
-   "home_pts": 115.8,
-   "away_pts": 105.2,
+   "home_win_prob": 0.7666,
+   "home_pts": 115.7,
+   "away_pts": 105.9,
    "margin_pct": {
-    "5": -12.4,
-    "25": 1.5,
-    "50": 10.8,
-    "75": 19.9,
-    "95": 32.8
+    "5": -13.1,
+    "25": 0.8,
+    "50": 10.1,
+    "75": 19.2,
+    "95": 32.1
    },
-   "total_mean": 221.1,
+   "total_mean": 221.8,
    "total_pct": {
-    "5": 191.3,
-    "25": 208.8,
-    "50": 221.1,
-    "75": 233.3,
-    "95": 250.8
+    "5": 191.9,
+    "25": 209.5,
+    "50": 221.8,
+    "75": 234.0,
+    "95": 251.4
    },
    "rest_home": 3,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Jaden Bradley",
+     "status": "Day-To-Day",
+     "note": "Bradley is questionable for Monday's game against the Bucks due to an ankle sprain, Blake Murphy of Sportsnet.ca reports.",
+     "out": false
+    },
     {
      "name": "Collin Murray-Boyles",
      "status": "Day-To-Day",
@@ -360,15 +372,8 @@
      "out": true
     }
    ],
-   "injuries_away": [
-    {
-     "name": "Ousmane Dieng",
-     "status": "Out",
-     "note": "Dieng (finger) is questionable for Monday's game against the Raptors.",
-     "out": true
-    }
-   ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "injuries_away": [],
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600291",
@@ -426,15 +431,9 @@
      "status": "Out",
      "note": "Traore will be re-evaluated in approximately 8-10 weeks due to a right hamstring strain, Michael Scotto of HoopsHype.com reports.",
      "out": true
-    },
-    {
-     "name": "Grant Nelson",
-     "status": "Day-To-Day",
-     "note": "Nelson (ankle) is probable for Monday's game against the Timberwolves.",
-     "out": false
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600292",
@@ -468,9 +467,15 @@
    "rest_away": 3,
    "injuries_home": [
     {
+     "name": "Jalen Smith",
+     "status": "Day-To-Day",
+     "note": "Smith (illness) is probable for Monday's game against Cleveland.",
+     "out": false
+    },
+    {
      "name": "Nic Claxton",
      "status": "Day-To-Day",
-     "note": "Claxton (illness) won't play in Sunday's game against the Nuggets.",
+     "note": "Claxton (illness) is questionable for Monday's game against Cleveland.",
      "out": false
     },
     {
@@ -506,7 +511,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600293",
@@ -518,15 +523,15 @@
    "neutral": false,
    "home_name": "New Orleans Pelicans",
    "away_name": "Phoenix Suns",
-   "home_win_prob": 0.3775,
-   "home_pts": 114.0,
-   "away_pts": 118.4,
+   "home_win_prob": 0.3957,
+   "home_pts": 114.3,
+   "away_pts": 118.1,
    "margin_pct": {
-    "5": -27.3,
-    "25": -13.5,
-    "50": -4.2,
-    "75": 4.9,
-    "95": 17.9
+    "5": -26.7,
+    "25": -12.8,
+    "50": -3.5,
+    "75": 5.6,
+    "95": 18.5
    },
    "total_mean": 232.5,
    "total_pct": {
@@ -539,18 +544,6 @@
    "rest_home": 2,
    "rest_away": 3,
    "injuries_home": [
-    {
-     "name": "Trey Murphy III",
-     "status": "Day-To-Day",
-     "note": "Murphy (knees) is listed as probable for Monday's game against the Suns.",
-     "out": false
-    },
-    {
-     "name": "Bryce McGowens",
-     "status": "Out",
-     "note": "McGowens (elbow) is listed as probable for Monday's game against Phoenix.",
-     "out": true
-    },
     {
      "name": "Zion Williamson",
      "status": "Day-To-Day",
@@ -578,19 +571,13 @@
    ],
    "injuries_away": [
     {
-     "name": "Ryan Dunn",
-     "status": "Day-To-Day",
-     "note": "Dunn (quadriceps) is listed as questionable for Monday's game against the Pelicans.",
-     "out": false
-    },
-    {
      "name": "Mark Williams",
      "status": "Out",
      "note": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600294",
@@ -637,7 +624,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600295",
@@ -703,7 +690,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   },
   {
    "game_id": "0022600296",
@@ -787,7 +774,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-23T17:07:15+00:00"
+   "predicted_at": "2026-11-23T19:09:30+00:00"
   }
  ]
 }
