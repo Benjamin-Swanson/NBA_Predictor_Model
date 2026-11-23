@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-22T23:02:05+00:00",
- "n": 241,
- "accuracy": 0.6556,
- "log_loss": 0.611,
- "brier": 0.2123,
- "margin_mae": 11.73,
- "band_coverage": 0.8714,
+ "updated": "2026-11-23T17:07:15+00:00",
+ "n": 248,
+ "accuracy": 0.6492,
+ "log_loss": 0.6126,
+ "brier": 0.2131,
+ "margin_mae": 11.63,
+ "band_coverage": 0.871,
  "buckets": [
   {
    "bucket": "50-60%",
-   "games": 67,
-   "predicted": 0.55,
-   "actual": 0.552
+   "games": 71,
+   "predicted": 0.551,
+   "actual": 0.535
   },
   {
    "bucket": "60-70%",
-   "games": 74,
+   "games": 75,
    "predicted": 0.651,
-   "actual": 0.581
+   "actual": 0.573
   },
   {
    "bucket": "70-80%",
-   "games": 60,
+   "games": 62,
    "predicted": 0.743,
-   "actual": 0.7
+   "actual": 0.71
   },
   {
    "bucket": "80-100%",
@@ -33,6 +33,111 @@
   }
  ],
  "games": [
+  {
+   "date": "2026-11-22",
+   "game_id": "0022600286",
+   "away": "BOS",
+   "home": "GSW",
+   "home_win_prob": 0.428,
+   "home_won": 1,
+   "pick": "BOS",
+   "confidence": 0.572,
+   "correct": 0,
+   "proj": "110-108",
+   "final": "87-88",
+   "margin_err": 3.6,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-22",
+   "game_id": "0022600285",
+   "away": "IND",
+   "home": "NYK",
+   "home_win_prob": 0.737,
+   "home_won": 1,
+   "pick": "NYK",
+   "confidence": 0.737,
+   "correct": 1,
+   "proj": "104-112",
+   "final": "106-113",
+   "margin_err": -1.6,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-22",
+   "game_id": "0022600284",
+   "away": "DAL",
+   "home": "UTA",
+   "home_win_prob": 0.551,
+   "home_won": 0,
+   "pick": "UTA",
+   "confidence": 0.551,
+   "correct": 0,
+   "proj": "111-112",
+   "final": "116-114",
+   "margin_err": -3.6,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-22",
+   "game_id": "0022600283",
+   "away": "DEN",
+   "home": "CHI",
+   "home_win_prob": 0.247,
+   "home_won": 0,
+   "pick": "DEN",
+   "confidence": 0.753,
+   "correct": 1,
+   "proj": "124-115",
+   "final": "151-145",
+   "margin_err": 3.5,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-22",
+   "game_id": "0022600282",
+   "away": "ORL",
+   "home": "WAS",
+   "home_win_prob": 0.371,
+   "home_won": 1,
+   "pick": "ORL",
+   "confidence": 0.629,
+   "correct": 0,
+   "proj": "115-110",
+   "final": "96-116",
+   "margin_err": 24.6,
+   "in_band": 0
+  },
+  {
+   "date": "2026-11-22",
+   "game_id": "0022600281",
+   "away": "OKC",
+   "home": "MIA",
+   "home_win_prob": 0.531,
+   "home_won": 1,
+   "pick": "MIA",
+   "confidence": 0.531,
+   "correct": 1,
+   "proj": "118-119",
+   "final": "113-123",
+   "margin_err": 9.2,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-22",
+   "game_id": "0022600280",
+   "away": "DET",
+   "home": "ATL",
+   "home_win_prob": 0.443,
+   "home_won": 1,
+   "pick": "DET",
+   "confidence": 0.557,
+   "correct": 0,
+   "proj": "114-112",
+   "final": "97-107",
+   "margin_err": 12.1,
+   "in_band": 1
+  },
   {
    "date": "2026-11-21",
    "game_id": "0022600279",
