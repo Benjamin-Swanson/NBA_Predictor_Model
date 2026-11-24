@@ -1,0 +1,229 @@
+{
+ "generated_at": "2026-11-24T06:13:11+00:00",
+ "date": "2026-11-24",
+ "ratings_through": "2026-11-23",
+ "unmatched_injuries": [],
+ "games": [
+  {
+   "game_id": "0022600052",
+   "tip_utc": "2026-11-25T00:00:00Z",
+   "tip_et": "7:00 pm ET",
+   "arena": "Kia Center, Orlando",
+   "home": "ORL",
+   "away": "DET",
+   "neutral": false,
+   "home_name": "Orlando Magic",
+   "away_name": "Detroit Pistons",
+   "home_win_prob": 0.495,
+   "home_pts": 108.8,
+   "away_pts": 109.2,
+   "margin_pct": {
+    "5": -23.3,
+    "25": -9.4,
+    "50": -0.2,
+    "75": 9.0,
+    "95": 21.9
+   },
+   "total_mean": 218.1,
+   "total_pct": {
+    "5": 188.3,
+    "25": 205.8,
+    "50": 218.1,
+    "75": 230.3,
+    "95": 247.8
+   },
+   "rest_home": 2,
+   "rest_away": 2,
+   "injuries_home": [
+    {
+     "name": "Jonathan Isaac",
+     "status": "Out",
+     "note": "Isaac (knee) is out for Sunday's game against the Wizards.",
+     "out": true
+    },
+    {
+     "name": "Izaiyah Nelson",
+     "status": "Out",
+     "note": "Head coach Sean Sweeney said Wednesday that Nelson (ankle) has been doing \"some on-court stuff,\" though Sweeney added that the work has been \"minimal,\" Jason Beede of the Orlando Sentinel reports.",
+     "out": true
+    },
+    {
+     "name": "Noah Penda",
+     "status": "Out",
+     "note": "Penda (hamstring) is making progress but remains without a timetable to return to game action, Jason Beede of the Orlando Sentinel reports.",
+     "out": true
+    },
+    {
+     "name": "Paolo Banchero",
+     "status": "Out",
+     "note": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Ebuka Okorie",
+     "status": "Out",
+     "note": "Okorie (oblique) won't play Tuesday in Orlando.",
+     "out": true
+    },
+    {
+     "name": "Jalen Duren",
+     "status": "Out",
+     "note": "Duren (hamstring) has been ruled out for Tuesday's game against the Magic.",
+     "out": true
+    },
+    {
+     "name": "Cade Cunningham",
+     "status": "Day-To-Day",
+     "note": "Cunningham (knee) is probable for Tuesday's game against the Orlando.",
+     "out": false
+    },
+    {
+     "name": "Taurean Prince",
+     "status": "Out",
+     "note": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
+     "out": true
+    },
+    {
+     "name": "Duncan Robinson",
+     "status": "Out",
+     "note": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-11-24T06:13:11+00:00"
+  },
+  {
+   "game_id": "0022600053",
+   "tip_utc": "2026-11-25T01:00:00Z",
+   "tip_et": "8:00 pm ET",
+   "arena": "Capital One Arena, Washington",
+   "home": "WAS",
+   "away": "BOS",
+   "neutral": false,
+   "home_name": "Washington Wizards",
+   "away_name": "Boston Celtics",
+   "home_win_prob": 0.3001,
+   "home_pts": 107.4,
+   "away_pts": 114.6,
+   "margin_pct": {
+    "5": -30.2,
+    "25": -16.3,
+    "50": -7.0,
+    "75": 2.1,
+    "95": 15.0
+   },
+   "total_mean": 222.1,
+   "total_pct": {
+    "5": 192.3,
+    "25": 209.9,
+    "50": 222.2,
+    "75": 234.4,
+    "95": 251.8
+   },
+   "rest_home": 2,
+   "rest_away": 2,
+   "injuries_home": [
+    {
+     "name": "Tristan Vuk\u010devi\u0107",
+     "status": "Out",
+     "note": "Vukcevic (hip) has been ruled out for Tuesday's game against Boston.",
+     "out": true
+    },
+    {
+     "name": "Reece Beekman",
+     "status": "Out",
+     "note": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks.",
+     "out": true
+    },
+    {
+     "name": "Justin Champagnie",
+     "status": "Out",
+     "note": "Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic.",
+     "out": true
+    },
+    {
+     "name": "Jamir Watkins",
+     "status": "Out",
+     "note": "The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL.",
+     "out": true
+    }
+   ],
+   "injuries_away": [
+    {
+     "name": "Mitchell Robinson",
+     "status": "Out",
+     "note": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-11-24T06:13:11+00:00"
+  },
+  {
+   "game_id": "0022600054",
+   "tip_utc": "2026-11-25T03:00:00Z",
+   "tip_et": "10:00 pm ET",
+   "arena": "Ball Arena, Denver",
+   "home": "DEN",
+   "away": "DAL",
+   "neutral": false,
+   "home_name": "Denver Nuggets",
+   "away_name": "Dallas Mavericks",
+   "home_win_prob": 0.7289,
+   "home_pts": 123.3,
+   "away_pts": 115.1,
+   "margin_pct": {
+    "5": -14.7,
+    "25": -0.9,
+    "50": 8.4,
+    "75": 17.5,
+    "95": 30.5
+   },
+   "total_mean": 238.6,
+   "total_pct": {
+    "5": 208.8,
+    "25": 226.3,
+    "50": 238.6,
+    "75": 250.8,
+    "95": 268.3
+   },
+   "rest_home": 2,
+   "rest_away": 2,
+   "injuries_home": [],
+   "injuries_away": [
+    {
+     "name": "Tobi Lawal",
+     "status": "Out",
+     "note": "Lawal (groin) is out for Tuesday's game against Denver.",
+     "out": true
+    },
+    {
+     "name": "P.J. Washington",
+     "status": "Day-To-Day",
+     "note": "Washington (illness) is questionable for Tuesday's game against the Nuggets.",
+     "out": false
+    },
+    {
+     "name": "Dereck Lively II",
+     "status": "Out",
+     "note": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.",
+     "out": true
+    },
+    {
+     "name": "Sergio de Larrea",
+     "status": "Out",
+     "note": "De Larrea (knee) is listed as out for Wednesday's game against the Warriors.",
+     "out": true
+    },
+    {
+     "name": "Tarik Biberovi\u0107",
+     "status": "Out",
+     "note": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
+     "out": true
+    }
+   ],
+   "predicted_at": "2026-11-24T06:13:11+00:00"
+  }
+ ]
+}
