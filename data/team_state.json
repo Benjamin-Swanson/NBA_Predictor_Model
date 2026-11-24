@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-22",
+ "as_of": "2026-11-23",
  "season": "2026-27",
  "teams": {
   "ATL": {
@@ -207,21 +207,21 @@
   "BKN": {
    "id": 1610612751,
    "name": "Brooklyn Nets",
-   "elo": 1308.4,
+   "elo": 1307.1,
    "recent": {
-    "ORTG": 111.052,
-    "DRTG": 117.3837,
-    "NET": -6.3317,
-    "PACE": 100.008,
-    "MARGIN": -6.4,
-    "EFG": 0.5468,
-    "TOV_PCT": 0.1658,
+    "ORTG": 113.0285,
+    "DRTG": 121.5429,
+    "NET": -8.5144,
+    "PACE": 105.746,
+    "MARGIN": -7.7,
+    "EFG": 0.5718,
+    "TOV_PCT": 0.1678,
     "ORB_PCT": 0.2792,
-    "FT_RATE": 0.346,
-    "OPP_EFG": 0.5619,
-    "OPP_TOV_PCT": 0.1558,
+    "FT_RATE": 0.3213,
+    "OPP_EFG": 0.5877,
+    "OPP_TOV_PCT": 0.1583,
     "DRB_PCT": 0.6903,
-    "OPP_FT_RATE": 0.3447
+    "OPP_FT_RATE": 0.3174
    },
    "players": [
     {
@@ -601,21 +601,21 @@
   "CHA": {
    "id": 1610612766,
    "name": "Charlotte Hornets",
-   "elo": 1478.0,
+   "elo": 1472.2,
    "recent": {
-    "ORTG": 101.0813,
-    "DRTG": 113.5325,
-    "NET": -12.4513,
-    "PACE": 97.3368,
-    "MARGIN": -12.2,
-    "EFG": 0.4836,
+    "ORTG": 105.2756,
+    "DRTG": 116.4935,
+    "NET": -11.2179,
+    "PACE": 97.3508,
+    "MARGIN": -10.8,
+    "EFG": 0.499,
     "TOV_PCT": 0.19,
-    "ORB_PCT": 0.333,
-    "FT_RATE": 0.2247,
-    "OPP_EFG": 0.5723,
-    "OPP_TOV_PCT": 0.135,
-    "DRB_PCT": 0.7861,
-    "OPP_FT_RATE": 0.2719
+    "ORB_PCT": 0.3494,
+    "FT_RATE": 0.2329,
+    "OPP_EFG": 0.5935,
+    "OPP_TOV_PCT": 0.136,
+    "DRB_PCT": 0.7745,
+    "OPP_FT_RATE": 0.2404
    },
    "players": [
     {
@@ -736,7 +736,7 @@
      "mpg_recent": 14.0,
      "glue": 0.297,
      "mpg_season": 10.0,
-     "counts_if_out": true
+     "counts_if_out": false
     },
     {
      "id": 1642275,
@@ -803,21 +803,21 @@
   "CHI": {
    "id": 1610612741,
    "name": "Chicago Bulls",
-   "elo": 1391.4,
+   "elo": 1387.9,
    "recent": {
-    "ORTG": 112.255,
-    "DRTG": 115.3793,
-    "NET": -3.1243,
-    "PACE": 103.3918,
-    "MARGIN": -3.2,
-    "EFG": 0.5618,
-    "TOV_PCT": 0.1557,
-    "ORB_PCT": 0.2651,
-    "FT_RATE": 0.2394,
-    "OPP_EFG": 0.5495,
-    "OPP_TOV_PCT": 0.1368,
-    "DRB_PCT": 0.6916,
-    "OPP_FT_RATE": 0.2587
+    "ORTG": 112.7434,
+    "DRTG": 117.2681,
+    "NET": -4.5247,
+    "PACE": Infinity,
+    "MARGIN": -1.6,
+    "EFG": 0.5589,
+    "TOV_PCT": 0.152,
+    "ORB_PCT": 0.2774,
+    "FT_RATE": 0.2035,
+    "OPP_EFG": 0.5707,
+    "OPP_TOV_PCT": 0.1342,
+    "DRB_PCT": 0.7226,
+    "OPP_FT_RATE": 0.349
    },
    "players": [
     {
@@ -968,7 +968,7 @@
      "mpg_recent": 10.0,
      "glue": 0.0,
      "mpg_season": 10.25,
-     "counts_if_out": true
+     "counts_if_out": false
     },
     {
      "id": 1643637,
@@ -1005,21 +1005,21 @@
   "CLE": {
    "id": 1610612739,
    "name": "Cleveland Cavaliers",
-   "elo": 1566.8,
+   "elo": 1570.3,
    "recent": {
-    "ORTG": 116.5658,
-    "DRTG": 115.3425,
-    "NET": 1.2233,
-    "PACE": 101.422,
-    "MARGIN": 1.5,
-    "EFG": 0.5655,
-    "TOV_PCT": 0.1323,
-    "ORB_PCT": 0.2533,
-    "FT_RATE": 0.2464,
-    "OPP_EFG": 0.5454,
-    "OPP_TOV_PCT": 0.123,
-    "DRB_PCT": 0.7551,
-    "OPP_FT_RATE": 0.2925
+    "ORTG": 119.5585,
+    "DRTG": 114.3608,
+    "NET": 5.1977,
+    "PACE": Infinity,
+    "MARGIN": 2.6,
+    "EFG": 0.5923,
+    "TOV_PCT": 0.1298,
+    "ORB_PCT": 0.2329,
+    "FT_RATE": 0.346,
+    "OPP_EFG": 0.5364,
+    "OPP_TOV_PCT": 0.1243,
+    "DRB_PCT": 0.7337,
+    "OPP_FT_RATE": 0.2532
    },
    "players": [
     {
@@ -2187,21 +2187,21 @@
   "IND": {
    "id": 1610612754,
    "name": "Indiana Pacers",
-   "elo": 1358.0,
+   "elo": 1368.0,
    "recent": {
-    "ORTG": 107.5328,
-    "DRTG": 111.1905,
-    "NET": -3.6577,
-    "PACE": 103.064,
-    "MARGIN": -3.8,
-    "EFG": 0.5351,
-    "TOV_PCT": 0.1307,
-    "ORB_PCT": 0.1821,
-    "FT_RATE": 0.251,
-    "OPP_EFG": 0.5489,
-    "OPP_TOV_PCT": 0.1435,
-    "DRB_PCT": 0.757,
-    "OPP_FT_RATE": 0.2172
+    "ORTG": 108.7827,
+    "DRTG": 111.2414,
+    "NET": -2.4586,
+    "PACE": 107.262,
+    "MARGIN": -3.1,
+    "EFG": 0.5326,
+    "TOV_PCT": 0.1181,
+    "ORB_PCT": 0.1897,
+    "FT_RATE": 0.2357,
+    "OPP_EFG": 0.5462,
+    "OPP_TOV_PCT": 0.1337,
+    "DRB_PCT": 0.7713,
+    "OPP_FT_RATE": 0.2233
    },
    "players": [
     {
@@ -2783,21 +2783,21 @@
   "MEM": {
    "id": 1610612763,
    "name": "Memphis Grizzlies",
-   "elo": 1486.6,
+   "elo": 1492.4,
    "recent": {
-    "ORTG": 117.6268,
-    "DRTG": 111.2194,
-    "NET": 6.4074,
-    "PACE": 101.116,
-    "MARGIN": 6.4,
-    "EFG": 0.5656,
-    "TOV_PCT": 0.1595,
-    "ORB_PCT": 0.3073,
-    "FT_RATE": 0.27,
-    "OPP_EFG": 0.5402,
-    "OPP_TOV_PCT": 0.1477,
-    "DRB_PCT": 0.7185,
-    "OPP_FT_RATE": 0.2501
+    "ORTG": 120.4473,
+    "DRTG": 113.2451,
+    "NET": 7.2022,
+    "PACE": 100.46,
+    "MARGIN": 7.0,
+    "EFG": 0.581,
+    "TOV_PCT": 0.1566,
+    "ORB_PCT": 0.3096,
+    "FT_RATE": 0.2705,
+    "OPP_EFG": 0.539,
+    "OPP_TOV_PCT": 0.1446,
+    "DRB_PCT": 0.6917,
+    "OPP_FT_RATE": 0.2508
    },
    "players": [
     {
@@ -3177,21 +3177,21 @@
   "MIL": {
    "id": 1610612749,
    "name": "Milwaukee Bucks",
-   "elo": 1310.0,
+   "elo": 1308.6,
    "recent": {
-    "ORTG": 107.2155,
-    "DRTG": 119.4058,
-    "NET": -12.1902,
-    "PACE": 100.614,
-    "MARGIN": -11.9,
-    "EFG": 0.5216,
-    "TOV_PCT": 0.1607,
-    "ORB_PCT": 0.2718,
-    "FT_RATE": 0.2723,
-    "OPP_EFG": 0.5561,
-    "OPP_TOV_PCT": 0.1418,
-    "DRB_PCT": 0.6818,
-    "OPP_FT_RATE": 0.3218
+    "ORTG": 105.6146,
+    "DRTG": 117.3419,
+    "NET": -11.7273,
+    "PACE": 106.1,
+    "MARGIN": -11.3,
+    "EFG": 0.5209,
+    "TOV_PCT": 0.1663,
+    "ORB_PCT": 0.2597,
+    "FT_RATE": 0.274,
+    "OPP_EFG": 0.5526,
+    "OPP_TOV_PCT": 0.1373,
+    "DRB_PCT": 0.7034,
+    "OPP_FT_RATE": 0.297
    },
    "players": [
     {
@@ -3379,21 +3379,21 @@
   "MIN": {
    "id": 1610612750,
    "name": "Minnesota Timberwolves",
-   "elo": 1602.0,
+   "elo": 1603.3,
    "recent": {
-    "ORTG": 109.0003,
-    "DRTG": 100.6309,
-    "NET": 8.3693,
-    "PACE": 102.114,
-    "MARGIN": 8.6,
-    "EFG": 0.5515,
-    "TOV_PCT": 0.1666,
-    "ORB_PCT": 0.2701,
-    "FT_RATE": 0.2935,
-    "OPP_EFG": 0.489,
-    "OPP_TOV_PCT": 0.1645,
-    "DRB_PCT": 0.739,
-    "OPP_FT_RATE": 0.209
+    "ORTG": 111.6336,
+    "DRTG": 103.1337,
+    "NET": 8.4999,
+    "PACE": 107.158,
+    "MARGIN": 7.9,
+    "EFG": 0.5755,
+    "TOV_PCT": 0.1742,
+    "ORB_PCT": 0.2526,
+    "FT_RATE": 0.2821,
+    "OPP_EFG": 0.518,
+    "OPP_TOV_PCT": 0.1688,
+    "DRB_PCT": 0.7511,
+    "OPP_FT_RATE": 0.2147
    },
    "players": [
     {
@@ -3571,21 +3571,21 @@
   "NOP": {
    "id": 1610612740,
    "name": "New Orleans Pelicans",
-   "elo": 1364.8,
+   "elo": 1362.9,
    "recent": {
-    "ORTG": 107.1867,
-    "DRTG": 123.6905,
-    "NET": -16.5038,
-    "PACE": 101.11,
-    "MARGIN": -16.7,
-    "EFG": 0.4938,
-    "TOV_PCT": 0.1404,
-    "ORB_PCT": 0.2582,
-    "FT_RATE": 0.3458,
-    "OPP_EFG": 0.5843,
-    "OPP_TOV_PCT": 0.1349,
-    "DRB_PCT": 0.7063,
-    "OPP_FT_RATE": 0.3676
+    "ORTG": 106.2382,
+    "DRTG": 122.1412,
+    "NET": -15.9029,
+    "PACE": Infinity,
+    "MARGIN": -16.1,
+    "EFG": 0.4811,
+    "TOV_PCT": 0.1523,
+    "ORB_PCT": 0.2865,
+    "FT_RATE": 0.3309,
+    "OPP_EFG": 0.5732,
+    "OPP_TOV_PCT": 0.1375,
+    "DRB_PCT": 0.7183,
+    "OPP_FT_RATE": 0.3811
    },
    "players": [
     {
@@ -3965,21 +3965,21 @@
   "OKC": {
    "id": 1610612760,
    "name": "Oklahoma City Thunder",
-   "elo": 1611.2,
+   "elo": 1601.2,
    "recent": {
-    "ORTG": 113.1365,
-    "DRTG": 107.5106,
-    "NET": 5.6259,
-    "PACE": 102.912,
-    "MARGIN": 6.0,
-    "EFG": 0.552,
-    "TOV_PCT": 0.1255,
-    "ORB_PCT": 0.2338,
-    "FT_RATE": 0.258,
-    "OPP_EFG": 0.5156,
-    "OPP_TOV_PCT": 0.1436,
-    "DRB_PCT": 0.7491,
-    "OPP_FT_RATE": 0.2425
+    "ORTG": 111.7793,
+    "DRTG": 107.7265,
+    "NET": 4.0529,
+    "PACE": 107.004,
+    "MARGIN": 4.9,
+    "EFG": 0.5447,
+    "TOV_PCT": 0.1215,
+    "ORB_PCT": 0.2342,
+    "FT_RATE": 0.2326,
+    "OPP_EFG": 0.5124,
+    "OPP_TOV_PCT": 0.1358,
+    "DRB_PCT": 0.7484,
+    "OPP_FT_RATE": 0.2356
    },
    "players": [
     {
@@ -4359,21 +4359,21 @@
   "PHI": {
    "id": 1610612755,
    "name": "Philadelphia 76ers",
-   "elo": 1570.7,
+   "elo": 1566.8,
    "recent": {
-    "ORTG": 119.2052,
-    "DRTG": 116.9777,
-    "NET": 2.2274,
-    "PACE": 100.968,
-    "MARGIN": 2.3,
-    "EFG": 0.5548,
-    "TOV_PCT": 0.1158,
-    "ORB_PCT": 0.2426,
-    "FT_RATE": 0.3299,
-    "OPP_EFG": 0.5638,
-    "OPP_TOV_PCT": 0.1147,
-    "DRB_PCT": 0.7788,
-    "OPP_FT_RATE": 0.2642
+    "ORTG": 120.9953,
+    "DRTG": 120.5864,
+    "NET": 0.4089,
+    "PACE": 100.484,
+    "MARGIN": 0.4,
+    "EFG": 0.5605,
+    "TOV_PCT": 0.1084,
+    "ORB_PCT": 0.2366,
+    "FT_RATE": 0.3269,
+    "OPP_EFG": 0.5798,
+    "OPP_TOV_PCT": 0.1164,
+    "DRB_PCT": 0.7594,
+    "OPP_FT_RATE": 0.2735
    },
    "players": [
     {
@@ -4551,21 +4551,21 @@
   "PHX": {
    "id": 1610612756,
    "name": "Phoenix Suns",
-   "elo": 1548.3,
+   "elo": 1550.2,
    "recent": {
-    "ORTG": 113.5969,
-    "DRTG": 109.7125,
-    "NET": 3.8844,
-    "PACE": 100.84,
-    "MARGIN": 4.0,
-    "EFG": 0.5566,
-    "TOV_PCT": 0.1311,
-    "ORB_PCT": 0.2573,
-    "FT_RATE": 0.2363,
-    "OPP_EFG": 0.5326,
-    "OPP_TOV_PCT": 0.1707,
-    "DRB_PCT": 0.6892,
-    "OPP_FT_RATE": 0.3018
+    "ORTG": 112.2131,
+    "DRTG": 107.0886,
+    "NET": 5.1244,
+    "PACE": Infinity,
+    "MARGIN": 5.3,
+    "EFG": 0.5455,
+    "TOV_PCT": 0.1363,
+    "ORB_PCT": 0.2512,
+    "FT_RATE": 0.2582,
+    "OPP_EFG": 0.5118,
+    "OPP_TOV_PCT": 0.1784,
+    "DRB_PCT": 0.6727,
+    "OPP_FT_RATE": 0.2695
    },
    "players": [
     {
@@ -4743,21 +4743,21 @@
   "POR": {
    "id": 1610612757,
    "name": "Portland Trail Blazers",
-   "elo": 1576.6,
+   "elo": 1580.5,
    "recent": {
-    "ORTG": 111.188,
-    "DRTG": 108.3381,
-    "NET": 2.8498,
-    "PACE": 102.312,
-    "MARGIN": 2.8,
-    "EFG": 0.5485,
-    "TOV_PCT": 0.1666,
-    "ORB_PCT": 0.259,
-    "FT_RATE": 0.3354,
-    "OPP_EFG": 0.511,
-    "OPP_TOV_PCT": 0.1404,
-    "DRB_PCT": 0.7265,
-    "OPP_FT_RATE": 0.3071
+    "ORTG": 112.4472,
+    "DRTG": 110.8374,
+    "NET": 1.6099,
+    "PACE": 101.792,
+    "MARGIN": 1.5,
+    "EFG": 0.5535,
+    "TOV_PCT": 0.1655,
+    "ORB_PCT": 0.2671,
+    "FT_RATE": 0.3329,
+    "OPP_EFG": 0.5254,
+    "OPP_TOV_PCT": 0.135,
+    "DRB_PCT": 0.7326,
+    "OPP_FT_RATE": 0.3001
    },
    "players": [
     {
@@ -4888,7 +4888,7 @@
      "mpg_recent": 10.4,
      "glue": -0.259,
      "mpg_season": 13.2,
-     "counts_if_out": true
+     "counts_if_out": false
     },
     {
      "id": 1642959,
@@ -5319,21 +5319,21 @@
   "TOR": {
    "id": 1610612761,
    "name": "Toronto Raptors",
-   "elo": 1494.3,
+   "elo": 1495.6,
    "recent": {
-    "ORTG": 110.4738,
-    "DRTG": 115.2139,
-    "NET": -4.7401,
-    "PACE": 96.4242,
-    "MARGIN": -4.4,
-    "EFG": 0.5365,
-    "TOV_PCT": 0.1338,
-    "ORB_PCT": 0.2683,
-    "FT_RATE": 0.2615,
-    "OPP_EFG": 0.5637,
-    "OPP_TOV_PCT": 0.1577,
-    "DRB_PCT": 0.7034,
-    "OPP_FT_RATE": 0.3
+    "ORTG": 107.9504,
+    "DRTG": 113.086,
+    "NET": -5.1356,
+    "PACE": 100.9282,
+    "MARGIN": -5.0,
+    "EFG": 0.5258,
+    "TOV_PCT": 0.1295,
+    "ORB_PCT": 0.2508,
+    "FT_RATE": 0.2064,
+    "OPP_EFG": 0.5621,
+    "OPP_TOV_PCT": 0.1647,
+    "DRB_PCT": 0.7179,
+    "OPP_FT_RATE": 0.2944
    },
    "players": [
     {
