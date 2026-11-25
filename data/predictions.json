@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:12:05+00:00",
+ "generated_at": "2026-11-25T23:13:54+00:00",
  "date": "2026-11-25",
  "ratings_through": "2026-11-24",
  "unmatched_injuries": [],
@@ -60,23 +60,23 @@
    "neutral": false,
    "home_name": "Charlotte Hornets",
    "away_name": "Chicago Bulls",
-   "home_win_prob": 0.6287,
-   "home_pts": 115.6,
-   "away_pts": 111.3,
+   "home_win_prob": 0.6552,
+   "home_pts": 116.3,
+   "away_pts": 111.0,
    "margin_pct": {
-    "5": -18.6,
-    "25": -4.8,
-    "50": 4.5,
-    "75": 13.6,
-    "95": 26.6
+    "5": -17.6,
+    "25": -3.8,
+    "50": 5.5,
+    "75": 14.6,
+    "95": 27.5
    },
-   "total_mean": 227.1,
+   "total_mean": 227.5,
    "total_pct": {
-    "5": 197.3,
-    "25": 214.8,
-    "50": 227.1,
-    "75": 239.3,
-    "95": 256.8
+    "5": 197.6,
+    "25": 215.2,
+    "50": 227.5,
+    "75": 239.7,
+    "95": 257.1
    },
    "rest_home": 2,
    "rest_away": 2,
@@ -100,12 +100,6 @@
      "out": true
     },
     {
-     "name": "Sion James",
-     "status": "Day-To-Day",
-     "note": "James is probable for Wednesday's game against the Bulls due to general soreness.",
-     "out": false
-    },
-    {
      "name": "Kon Knueppel",
      "status": "Out",
      "note": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
@@ -115,9 +109,9 @@
    "injuries_away": [
     {
      "name": "Jalen Smith",
-     "status": "Day-To-Day",
-     "note": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets.",
-     "out": false
+     "status": "Out",
+     "note": "Smith (illness) is listed as out for Wednesday's game against Charlotte.",
+     "out": true
     },
     {
      "name": "Norman Powell",
@@ -180,12 +174,6 @@
      "name": "Karl-Anthony Towns",
      "status": "Day-To-Day",
      "note": "Towns (knee) is probable for Wednesday's game against Cleveland.",
-     "out": false
-    },
-    {
-     "name": "Jalen Brunson",
-     "status": "Day-To-Day",
-     "note": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
      "out": false
     },
     {
@@ -478,23 +466,23 @@
    "neutral": false,
    "home_name": "Golden State Warriors",
    "away_name": "Sacramento Kings",
-   "home_win_prob": 0.6233,
-   "home_pts": 112.0,
-   "away_pts": 107.9,
+   "home_win_prob": 0.6489,
+   "home_pts": 111.5,
+   "away_pts": 106.5,
    "margin_pct": {
-    "5": -18.8,
-    "25": -5.0,
-    "50": 4.3,
-    "75": 13.4,
-    "95": 26.4
+    "5": -17.9,
+    "25": -4.0,
+    "50": 5.2,
+    "75": 14.4,
+    "95": 27.3
    },
-   "total_mean": 220.0,
+   "total_mean": 218.2,
    "total_pct": {
-    "5": 190.2,
-    "25": 207.8,
-    "50": 220.1,
-    "75": 232.3,
-    "95": 249.7
+    "5": 188.4,
+    "25": 205.9,
+    "50": 218.2,
+    "75": 230.4,
+    "95": 247.9
    },
    "rest_home": 3,
    "rest_away": 2,
@@ -539,14 +527,14 @@
    "injuries_away": [
     {
      "name": "Zach LaVine",
-     "status": "Day-To-Day",
-     "note": "LaVine (knee) has been downgraded to questionable for Wednesday's game against Golden State.",
-     "out": false
+     "status": "Out",
+     "note": "LaVine (knee) is listed as out for Wednesday's game versus the Warriors.",
+     "out": true
     },
     {
      "name": "Maxime Raynaud",
      "status": "Out",
-     "note": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
+     "note": "Raynaud (knee) was recalled from the G League's Stockton Kings on Wednesday, Marc J. Spears of ESPN.com reports.",
      "out": true
     },
     {
