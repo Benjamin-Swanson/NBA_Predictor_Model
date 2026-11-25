@@ -1,38 +1,128 @@
 {
- "updated": "2026-11-24T06:13:11+00:00",
- "n": 255,
- "accuracy": 0.6471,
- "log_loss": 0.6115,
- "brier": 0.2126,
- "margin_mae": 11.46,
- "band_coverage": 0.8745,
+ "updated": "2026-11-25T21:12:05+00:00",
+ "n": 261,
+ "accuracy": 0.6437,
+ "log_loss": 0.6164,
+ "brier": 0.2149,
+ "margin_mae": 11.61,
+ "band_coverage": 0.8736,
  "buckets": [
   {
    "bucket": "50-60%",
-   "games": 73,
-   "predicted": 0.55,
-   "actual": 0.521
+   "games": 74,
+   "predicted": 0.549,
+   "actual": 0.527
   },
   {
    "bucket": "60-70%",
-   "games": 78,
+   "games": 79,
    "predicted": 0.652,
-   "actual": 0.577
+   "actual": 0.57
   },
   {
    "bucket": "70-80%",
-   "games": 63,
+   "games": 65,
    "predicted": 0.744,
-   "actual": 0.714
+   "actual": 0.692
   },
   {
    "bucket": "80-100%",
-   "games": 41,
-   "predicted": 0.846,
-   "actual": 0.902
+   "games": 43,
+   "predicted": 0.847,
+   "actual": 0.907
   }
  ],
  "games": [
+  {
+   "date": "2026-11-24",
+   "game_id": "0022600054",
+   "away": "DAL",
+   "home": "DEN",
+   "home_win_prob": 0.729,
+   "home_won": 0,
+   "pick": "DEN",
+   "confidence": 0.729,
+   "correct": 0,
+   "proj": "115-123",
+   "final": "120-101",
+   "margin_err": -27.2,
+   "in_band": 0
+  },
+  {
+   "date": "2026-11-24",
+   "game_id": "0022600053",
+   "away": "BOS",
+   "home": "WAS",
+   "home_win_prob": 0.3,
+   "home_won": 0,
+   "pick": "BOS",
+   "confidence": 0.7,
+   "correct": 1,
+   "proj": "115-107",
+   "final": "131-116",
+   "margin_err": -7.8,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-24",
+   "game_id": "0022600052",
+   "away": "DET",
+   "home": "ORL",
+   "home_win_prob": 0.495,
+   "home_won": 0,
+   "pick": "DET",
+   "confidence": 0.505,
+   "correct": 1,
+   "proj": "109-109",
+   "final": "104-86",
+   "margin_err": -17.6,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-23",
+   "game_id": "0022600296",
+   "away": "SAS",
+   "home": "SAC",
+   "home_win_prob": 0.234,
+   "home_won": 0,
+   "pick": "SAS",
+   "confidence": 0.766,
+   "correct": 1,
+   "proj": "116-106",
+   "final": "123-107",
+   "margin_err": -6.0,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-23",
+   "game_id": "0022600295",
+   "away": "UTA",
+   "home": "LAL",
+   "home_win_prob": 0.9,
+   "home_won": 1,
+   "pick": "LAL",
+   "confidence": 0.9,
+   "correct": 1,
+   "proj": "104-122",
+   "final": "94-109",
+   "margin_err": -2.9,
+   "in_band": 1
+  },
+  {
+   "date": "2026-11-23",
+   "game_id": "0022600294",
+   "away": "LAC",
+   "home": "HOU",
+   "home_win_prob": 0.81,
+   "home_won": 1,
+   "pick": "HOU",
+   "confidence": 0.81,
+   "correct": 1,
+   "proj": "110-122",
+   "final": "104-116",
+   "margin_err": 0.0,
+   "in_band": 1
+  },
   {
    "date": "2026-11-23",
    "game_id": "0022600293",
@@ -44,8 +134,8 @@
    "confidence": 0.604,
    "correct": 1,
    "proj": "118-114",
-   "final": "12-12",
-   "margin_err": 3.8,
+   "final": "123-119",
+   "margin_err": -0.2,
    "in_band": 1
   },
   {
@@ -54,13 +144,13 @@
    "away": "CLE",
    "home": "CHI",
    "home_win_prob": 0.306,
-   "home_won": 0,
+   "home_won": 1,
    "pick": "CLE",
    "confidence": 0.694,
-   "correct": 1,
+   "correct": 0,
    "proj": "122-115",
-   "final": "13-10",
-   "margin_err": 4.1,
+   "final": "108-122",
+   "margin_err": 21.1,
    "in_band": 1
   },
   {
@@ -74,8 +164,8 @@
    "confidence": 0.825,
    "correct": 1,
    "proj": "105-118",
-   "final": "47-52",
-   "margin_err": -7.9,
+   "final": "116-142",
+   "margin_err": 13.1,
    "in_band": 1
   },
   {
@@ -84,13 +174,13 @@
    "away": "MIL",
    "home": "TOR",
    "home_win_prob": 0.767,
-   "home_won": 1,
+   "home_won": 0,
    "pick": "TOR",
    "confidence": 0.767,
-   "correct": 1,
+   "correct": 0,
    "proj": "106-116",
-   "final": "34-35",
-   "margin_err": -8.8,
+   "final": "116-111",
+   "margin_err": -14.8,
    "in_band": 1
   },
   {
@@ -104,8 +194,8 @@
    "confidence": 0.7,
    "correct": 0,
    "proj": "119-111",
-   "final": "38-41",
-   "margin_err": 10.3,
+   "final": "120-125",
+   "margin_err": 12.3,
    "in_band": 1
   },
   {
@@ -119,8 +209,8 @@
    "confidence": 0.518,
    "correct": 0,
    "proj": "117-117",
-   "final": "69-69",
-   "margin_err": -0.3,
+   "final": "128-111",
+   "margin_err": -17.3,
    "in_band": 1
   },
   {
@@ -134,8 +224,8 @@
    "confidence": 0.523,
    "correct": 0,
    "proj": "110-110",
-   "final": "62-60",
-   "margin_err": -2.5,
+   "final": "117-111",
+   "margin_err": -6.5,
    "in_band": 1
   },
   {
