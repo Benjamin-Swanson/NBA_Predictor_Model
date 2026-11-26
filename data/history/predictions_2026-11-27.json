@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T15:15:09+00:00",
+ "generated_at": "2026-11-26T19:15:10+00:00",
  "date": "2026-11-27",
  "ratings_through": "2026-11-25",
  "unmatched_injuries": [],
@@ -61,7 +61,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600065",
@@ -95,6 +95,12 @@
    "rest_away": 2,
    "injuries_home": [
     {
+     "name": "Jalen Duren",
+     "status": "Out",
+     "note": "Detroit recalled Duren (hamstring) from the G League's Motor City Cruise on Wednesday.",
+     "out": true
+    },
+    {
      "name": "Cade Cunningham",
      "status": "Day-To-Day",
      "note": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
@@ -117,16 +123,10 @@
      "status": "Out",
      "note": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
      "out": true
-    },
-    {
-     "name": "Jalen Duren",
-     "status": "Out",
-     "note": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.",
-     "out": true
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600066",
@@ -210,7 +210,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600067",
@@ -276,7 +276,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600068",
@@ -312,7 +312,7 @@
     {
      "name": "Mitchell Robinson",
      "status": "Out",
-     "note": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
+     "note": "Robinson (illness) is questionable for Friday's game against the Hawks.",
      "out": true
     }
    ],
@@ -348,7 +348,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600069",
@@ -444,7 +444,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600070",
@@ -510,7 +510,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600071",
@@ -576,7 +576,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600072",
@@ -635,7 +635,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600073",
@@ -707,7 +707,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   },
   {
    "game_id": "0022600074",
@@ -791,7 +791,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-26T15:15:09+00:00"
+   "predicted_at": "2026-11-26T19:15:10+00:00"
   }
  ]
 }
