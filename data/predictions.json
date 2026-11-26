@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T19:15:10+00:00",
+ "generated_at": "2026-11-26T21:23:11+00:00",
  "date": "2026-11-27",
  "ratings_through": "2026-11-25",
  "unmatched_injuries": [],
@@ -60,7 +60,14 @@
      "out": true
     }
    ],
-   "injuries_away": []
+   "injuries_away": [
+    {
+     "name": "Andrew Wiggins",
+     "status": "Day-To-Day",
+     "note": "Wiggins is probable for Friday's game against the Knicks due to a right ankle sprain.",
+     "out": false
+    }
+   ]
   },
   {
    "game_id": "0022600065",
@@ -240,6 +247,12 @@
    "rest_home": 4,
    "rest_away": 2,
    "injuries_home": [
+    {
+     "name": "Alijah Martin",
+     "status": "Day-To-Day",
+     "note": "Martin contributed two rebounds in eight minutes during Tuesday's 111-102 loss to the Knicks.",
+     "out": false
+    },
     {
      "name": "Kawhi Leonard",
      "status": "Out",
