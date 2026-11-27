@@ -2921,6 +2921,16 @@
      "counts_if_out": true
     },
     {
+     "id": 1643133,
+     "name": "Lawson Lovering",
+     "pos": "C",
+     "value": 4.275,
+     "mpg_recent": 13.0,
+     "glue": 1.414,
+     "mpg_season": 1.5,
+     "counts_if_out": false
+    },
+    {
      "id": 1631200,
      "name": "Kris Murray",
      "pos": "F",
@@ -4192,6 +4202,16 @@
      "mpg_recent": 33.1,
      "glue": -0.378,
      "mpg_season": 34.0,
+     "counts_if_out": false
+    },
+    {
+     "id": 1629645,
+     "name": "Kevin Porter Jr.",
+     "pos": "G-F",
+     "value": 15.405,
+     "mpg_recent": 31.9,
+     "glue": 0.351,
+     "mpg_season": 33.184,
      "counts_if_out": false
     },
     {
