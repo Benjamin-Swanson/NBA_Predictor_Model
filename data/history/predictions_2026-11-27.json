@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:51:14+00:00",
+ "generated_at": "2026-11-27T23:00:10+00:00",
  "date": "2026-11-27",
  "ratings_through": "2026-11-25",
  "unmatched_injuries": [],
@@ -66,15 +66,8 @@
      "out": true
     }
    ],
-   "injuries_away": [
-    {
-     "name": "Giannis Antetokounmpo",
-     "status": "Day-To-Day",
-     "note": "Antetokounmpo is probable for Friday's game against the Knicks due to right groin tendinitis.",
-     "out": false
-    }
-   ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "injuries_away": [],
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600065",
@@ -146,7 +139,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600066",
@@ -230,7 +223,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600067",
@@ -302,7 +295,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600068",
@@ -374,7 +367,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600069",
@@ -476,7 +469,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600070",
@@ -548,7 +541,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600071",
@@ -607,7 +600,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600072",
@@ -672,7 +665,7 @@
     }
    ],
    "injuries_away": [],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600073",
@@ -744,7 +737,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   },
   {
    "game_id": "0022600074",
@@ -834,7 +827,7 @@
      "out": true
     }
    ],
-   "predicted_at": "2026-11-27T21:51:14+00:00"
+   "predicted_at": "2026-11-27T23:00:10+00:00"
   }
  ]
 }
